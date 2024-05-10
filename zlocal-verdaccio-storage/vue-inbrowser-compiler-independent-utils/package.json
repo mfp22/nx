@@ -1,0 +1,911 @@
+{
+	"name": "vue-inbrowser-compiler-independent-utils",
+	"versions": {
+		"4.52.0": {
+			"name": "vue-inbrowser-compiler-independent-utils",
+			"version": "4.52.0",
+			"description": "the part of vue-inbrowser-compiler-utils that contains no vue dependency",
+			"module": "lib/vue-inbrowser-compiler-independent-utils.esm.mjs",
+			"main": "lib/vue-inbrowser-compiler-independent-utils.umd.js",
+			"types": "lib/index.d.ts",
+			"exports": {
+				".": {
+					"import": "./lib/vue-inbrowser-compiler-independent-utils.esm.mjs",
+					"require": "./lib/vue-inbrowser-compiler-independent-utils.umd.js",
+					"types": "./lib/index.d.ts"
+				}
+			},
+			"keywords": [
+				"vue",
+				"compile",
+				"live",
+				"browser",
+				"acorn"
+			],
+			"devDependencies": {
+				"@rollup/plugin-commonjs": "15.1.0",
+				"@rollup/plugin-node-resolve": "9.0.0",
+				"@rollup/plugin-typescript": "8.3.4",
+				"@types/dedent": "^0.7.0",
+				"@types/domhandler": "2.4.2",
+				"dedent": "^0.7.0",
+				"tslib": "2.4.0",
+				"typescript": "4.7.4",
+				"rollup": "2.77.2",
+				"vue": "2.7.8"
+			},
+			"peerDependencies": {
+				"vue": ">=2"
+			},
+			"author": {
+				"name": "Bart Ledoux",
+				"email": "ledouxb@me.com"
+			},
+			"license": "MIT",
+			"homepage": "https://vue-styleguidist.github.io",
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/vue-styleguidist/vue-styleguidist.git",
+				"directory": "packages/vue-inbrowser-compiler-utils"
+			},
+			"scripts": {
+				"compile": "rollup -c",
+				"compile:watch": "rollup -c --watch"
+			},
+			"bugs": {
+				"url": "https://github.com/vue-styleguidist/vue-styleguidist/issues"
+			},
+			"_id": "vue-inbrowser-compiler-independent-utils@4.52.0",
+			"_integrity": "sha512-r09DtBbHbCO/5Ns0UofB/orwX7pYaAJW12+c/cy4brTF06oeng6QbxX0XziiepMyf9E9q/lLa4gk8hlhmG4Zww==",
+			"_resolved": "/tmp/2d1640611e0d9ceaee40b221b363cde7/vue-inbrowser-compiler-independent-utils-4.52.0.tgz",
+			"_from": "file:vue-inbrowser-compiler-independent-utils-4.52.0.tgz",
+			"_nodeVersion": "16.16.0",
+			"_npmVersion": "8.11.0",
+			"dist": {
+				"integrity": "sha512-r09DtBbHbCO/5Ns0UofB/orwX7pYaAJW12+c/cy4brTF06oeng6QbxX0XziiepMyf9E9q/lLa4gk8hlhmG4Zww==",
+				"shasum": "c40aefe12eef48d22157fd22cd2bf9b9f9ee9e9c",
+				"tarball": "https://registry.npmjs.org/vue-inbrowser-compiler-independent-utils/-/vue-inbrowser-compiler-independent-utils-4.52.0.tgz",
+				"fileCount": 28,
+				"unpackedSize": 39160,
+				"signatures": [
+					{
+						"keyid": "SHA256:jl3bwswu80PjjokCgh0o2w5c2U4LhQAE57gj9cz1kzA",
+						"sig": "MEQCIGu03b3KL++zqNZXX1yeEdf82YTsxheNlUgqCBTsAy7TAiBKXJw+SoOnFdbY8kzlbaIGaTpwBrD63w3mbMnfyhEUaQ=="
+					}
+				],
+				"npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v4.10.10\r\nComment: https://openpgpjs.org\r\n\r\nwsFzBAEBCAAGBQJi8AFRACEJED1NWxICdlZqFiEECWMYAoorWMhJKdjhPU1b\r\nEgJ2VmpvkQ/7ByPoTPz3TX+GMNmGKf+z+yuHN2pQK2s6opJ0xD/VUAx4eizD\r\nZSfwwMPyGY17pi0gkJ0W1QySz/W2N1SNQuSOfpeBxfxDpKhNS8eEOZJL8Man\r\nk87C4p2U+rfDhZAe4ugcalCGhfVHlnz+7g17wZ9WSdJyPE88mwW7XbZ/NfiS\r\nRoBl4JL46SZKWtEECJMhrMb+FK4Qw2412KqEgAWk36VMa+IIu6ABDsb4sRPo\r\nPDZG1qk+2/KgK/ePQxzXYiUl8q5dKbtP0EE5wQFqRvbLJDksOriMdVlsgbwe\r\n3y0frij3Vhx+J2/46IHhnFh/ITaS/PxgEe2kz3vkk9YtnNqoQIHWYsgOHVwW\r\nPWYrffGCP8lswdTqltwCPqD9UC2JoGH6rok76r+rlrBNJ/8JLL0VFInPE9rK\r\ncsW/wnb9Ri4JyzLEIYQRt41+/gvk8YKLksIFfbdmTWB08pPRxMmJ7sBiMvwG\r\nj+Ogm9aH35Uu/lRVZd/9vVHcRpXRUFY8vH3e7Nh7s2eUw0nwqXVH+qqdK+0y\r\nPGXoOrETcQrKJ/lQnlnr+7eI2pWGJZOL8z0ewpKyKUoCbydFVaVpa7TBDCyU\r\n0aiw9vFElWy2A6wibszXn/sXzwFST+tcxu07ciF3dIT6bCQuy7mnpfjRfTWT\r\nMxYmjuggubjO3B2NNdrgdKV3U3TQkDJqO3c=\r\n=WQBG\r\n-----END PGP SIGNATURE-----\r\n"
+			},
+			"_npmUser": {
+				"name": "vue-styleguidist-bot",
+				"email": "ledouxb@gmail.com"
+			},
+			"directories": {},
+			"maintainers": [
+				{
+					"name": "vue-styleguidist-bot",
+					"email": "ledouxb@gmail.com"
+				}
+			],
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/vue-inbrowser-compiler-independent-utils_4.52.0_1659896145589_0.25634967960919797"
+			},
+			"_hasShrinkwrap": false,
+			"contributors": []
+		},
+		"4.54.1": {
+			"name": "vue-inbrowser-compiler-independent-utils",
+			"version": "4.54.1",
+			"description": "the part of vue-inbrowser-compiler-utils that contains no vue dependency",
+			"module": "lib/vue-inbrowser-compiler-independent-utils.esm.mjs",
+			"main": "lib/vue-inbrowser-compiler-independent-utils.umd.js",
+			"types": "lib/index.d.ts",
+			"exports": {
+				".": {
+					"import": "./lib/vue-inbrowser-compiler-independent-utils.esm.mjs",
+					"require": "./lib/vue-inbrowser-compiler-independent-utils.umd.js",
+					"types": "./lib/index.d.ts"
+				}
+			},
+			"keywords": [
+				"vue",
+				"compile",
+				"live",
+				"browser",
+				"acorn"
+			],
+			"devDependencies": {
+				"@rollup/plugin-commonjs": "15.1.0",
+				"@rollup/plugin-node-resolve": "9.0.0",
+				"@rollup/plugin-typescript": "8.3.4",
+				"@types/dedent": "^0.7.0",
+				"@types/domhandler": "2.4.2",
+				"dedent": "^0.7.0",
+				"tslib": "2.4.0",
+				"typescript": "4.7.4",
+				"rollup": "2.77.2",
+				"vue": "2.7.8"
+			},
+			"peerDependencies": {
+				"vue": ">=2"
+			},
+			"author": {
+				"name": "Bart Ledoux",
+				"email": "ledouxb@me.com"
+			},
+			"license": "MIT",
+			"homepage": "https://vue-styleguidist.github.io",
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/vue-styleguidist/vue-styleguidist.git",
+				"directory": "packages/vue-inbrowser-compiler-utils"
+			},
+			"scripts": {
+				"compile": "rollup -c",
+				"compile:watch": "rollup -c --watch"
+			},
+			"bugs": {
+				"url": "https://github.com/vue-styleguidist/vue-styleguidist/issues"
+			},
+			"_id": "vue-inbrowser-compiler-independent-utils@4.54.1",
+			"_integrity": "sha512-hQN3mzLmWM33Ua2Oua5OgF8/BJjP6+T1Wzea5xHDRYCwVvJo2pxSJLhVqluaeBe3PB5vquMddceaKC4mhLe25A==",
+			"_resolved": "/tmp/96ca109ad1ca7fa5adf974e7bc097c98/vue-inbrowser-compiler-independent-utils-4.54.1.tgz",
+			"_from": "file:vue-inbrowser-compiler-independent-utils-4.54.1.tgz",
+			"_nodeVersion": "16.17.0",
+			"_npmVersion": "8.15.0",
+			"dist": {
+				"integrity": "sha512-hQN3mzLmWM33Ua2Oua5OgF8/BJjP6+T1Wzea5xHDRYCwVvJo2pxSJLhVqluaeBe3PB5vquMddceaKC4mhLe25A==",
+				"shasum": "2628fe92c99a06672d1b91b0f838e0272551ed02",
+				"tarball": "https://registry.npmjs.org/vue-inbrowser-compiler-independent-utils/-/vue-inbrowser-compiler-independent-utils-4.54.1.tgz",
+				"fileCount": 23,
+				"unpackedSize": 28429,
+				"signatures": [
+					{
+						"keyid": "SHA256:jl3bwswu80PjjokCgh0o2w5c2U4LhQAE57gj9cz1kzA",
+						"sig": "MEQCIB/FANMMLlw8SXVNKSh5Lyzod+ZsaCPpsk18wylVeqyuAiAeobTJDnahOc/Wn98VH6Ge/hUFnq4uqfKuRpmMSl+9ig=="
+					}
+				],
+				"npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v4.10.10\r\nComment: https://openpgpjs.org\r\n\r\nwsFzBAEBCAAGBQJjF7/hACEJED1NWxICdlZqFiEECWMYAoorWMhJKdjhPU1b\r\nEgJ2Vmo02Q/9G4w3+oW9LOh0yhyTpFK+IRUul5Zgxl7XTX1IkZxOYZCTlddt\r\nw6fYq2tPBZERuIqUiI+2GMLF7zgWxE/ETAUdhpqssHA9pSIQ6L0V00MYRxpF\r\nzoMRwfa2RHNwi2Hfwk59DHcAmtjvud/wqldpwoi9bwQaZWp2escJyPhMwlOS\r\ng2zyjs+nCaI3jE2Ik6t+53fk9ibIKnwjxpCqd1/xXlA+bAceZKlXRT2akluH\r\n7AhjR2IB1ROFjOwYbes7dkd4pJmzS5sdl8ZWMIELrh68nhFFfvYghQVAxXKH\r\nWmGtgnY25yNVBsB8zsy13yqAaJWrCdTipUM08LfcFAx5Jnv3e0bF4jsNcMkg\r\nCsHcHRnHJ0kIVdC0PQYvKgoH/gnUWre0j+JWG5iV7YKwc0NEDjyMkWaKZQQx\r\nLNOQ9vWND9p6hbcPS1eE++yyXJLUCcEJw60z04T541DCfY8MyNyK8wjAoX3z\r\ntAlcLO43MKQQX4yOwxBGY90POZ/EPB6YCkZORY9T5PG9yEdHqJ1GTZ3ATYlm\r\nsMvgr81xa+IIPLqIO/GXMbVR69Tu4CvCgLsGMKNbNmWcPiY6LNqqxLNlrbs/\r\n3V0Pz3b63/rRniPLNGz4GIpmc7bwMLDPFX1Zusv+NFDuk22fBkyqvwPViW3l\r\nXdMoJ2CTboj2+iKMypTR5NeHeQEBkAmST4o=\r\n=t1AE\r\n-----END PGP SIGNATURE-----\r\n"
+			},
+			"_npmUser": {
+				"name": "vue-styleguidist-bot",
+				"email": "ledouxb@gmail.com"
+			},
+			"directories": {},
+			"maintainers": [
+				{
+					"name": "vue-styleguidist-bot",
+					"email": "ledouxb@gmail.com"
+				}
+			],
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/vue-inbrowser-compiler-independent-utils_4.54.1_1662500833260_0.7111313735512799"
+			},
+			"_hasShrinkwrap": false,
+			"contributors": []
+		},
+		"4.55.0": {
+			"name": "vue-inbrowser-compiler-independent-utils",
+			"version": "4.55.0",
+			"description": "the part of vue-inbrowser-compiler-utils that contains no vue dependency",
+			"module": "lib/vue-inbrowser-compiler-independent-utils.esm.mjs",
+			"main": "lib/vue-inbrowser-compiler-independent-utils.umd.js",
+			"types": "lib/index.d.ts",
+			"exports": {
+				".": {
+					"import": "./lib/vue-inbrowser-compiler-independent-utils.esm.mjs",
+					"require": "./lib/vue-inbrowser-compiler-independent-utils.umd.js",
+					"types": "./lib/index.d.ts"
+				}
+			},
+			"keywords": [
+				"vue",
+				"compile",
+				"live",
+				"browser",
+				"acorn"
+			],
+			"devDependencies": {
+				"@rollup/plugin-commonjs": "15.1.0",
+				"@rollup/plugin-node-resolve": "9.0.0",
+				"@rollup/plugin-typescript": "8.5.0",
+				"@types/dedent": "0.7.0",
+				"@types/domhandler": "2.4.2",
+				"dedent": "0.7.0",
+				"tslib": "2.4.1",
+				"typescript": "4.8.4",
+				"rollup": "2.79.1",
+				"vue": "2.7.14"
+			},
+			"peerDependencies": {
+				"vue": ">=2"
+			},
+			"author": {
+				"name": "Bart Ledoux",
+				"email": "ledouxb@me.com"
+			},
+			"license": "MIT",
+			"homepage": "https://vue-styleguidist.github.io",
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/vue-styleguidist/vue-styleguidist.git",
+				"directory": "packages/vue-inbrowser-compiler-utils"
+			},
+			"scripts": {
+				"compile": "rollup -c",
+				"compile:watch": "rollup -c --watch"
+			},
+			"bugs": {
+				"url": "https://github.com/vue-styleguidist/vue-styleguidist/issues"
+			},
+			"_id": "vue-inbrowser-compiler-independent-utils@4.55.0",
+			"_integrity": "sha512-RXrhCfHhG/12OY9uvIIrIvynPEUzDz9r4fWgC7E59BdMaUD/58MDcE14Wy6o7V242zawS/vVR37KVxT5whFyTw==",
+			"_resolved": "/tmp/818e1ddaf9995a1f7d2539ace251e487/vue-inbrowser-compiler-independent-utils-4.55.0.tgz",
+			"_from": "file:vue-inbrowser-compiler-independent-utils-4.55.0.tgz",
+			"_nodeVersion": "16.18.0",
+			"_npmVersion": "8.19.2",
+			"dist": {
+				"integrity": "sha512-RXrhCfHhG/12OY9uvIIrIvynPEUzDz9r4fWgC7E59BdMaUD/58MDcE14Wy6o7V242zawS/vVR37KVxT5whFyTw==",
+				"shasum": "c912e40004def49194c535c34491451590967e56",
+				"tarball": "https://registry.npmjs.org/vue-inbrowser-compiler-independent-utils/-/vue-inbrowser-compiler-independent-utils-4.55.0.tgz",
+				"fileCount": 29,
+				"unpackedSize": 36253,
+				"signatures": [
+					{
+						"keyid": "SHA256:jl3bwswu80PjjokCgh0o2w5c2U4LhQAE57gj9cz1kzA",
+						"sig": "MEUCIQC+Im/jJ/pB7MGL24z86kPWlsBwFJXB0glb01mp2x9o9gIgBlvgS8Q8VJ66hbNVH6go42SLXYFAI2fV8P2qkuqnvMc="
+					}
+				],
+				"npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v4.10.10\r\nComment: https://openpgpjs.org\r\n\r\nwsFzBAEBCAAGBQJjc8JyACEJED1NWxICdlZqFiEECWMYAoorWMhJKdjhPU1b\r\nEgJ2Vmrg0Q//Qj1CNNjc2+hJG0tPTFO05EUrlnjNd4e+SFJpu2/aIMK3+vjG\r\niYqOiC8OoDSNm7ed7E/0Oat6Ryq8fT27YBYO5EdMTPR1A9qROQTDOpF3Lkwt\r\nKQxayUVr6wS0PUtUNHcDzMpSpJobTSE5wAaFYkrbspqQl1jC26M/IWLEWrWL\r\nFY5v67mRVw14u2p/fK50fq024fW5z+c8fe6NaPR8TXg1WSSUI6npsMpNwTDj\r\njhtKyV3W3aG90xaqp11GEeb2z4AXyjlo7F89jOWds7lqi/kl69biUivk8oIy\r\nmOr9FhM5LzPpkyCwz8X24gXNo8FBkg72Ra4YwBkY5tI4zcpkQJosHN7bZmuk\r\n514bs4o7cv9H9IqXczM5LntI77WMJfJi1PJHDzYbHp5zgvXxyIq/kEM5OYKU\r\nCwzEl2UdQ0X0y5SA26tXpyAJImbzG7r6pFrVGngxC3EIQ9iss4wcivlWXBwo\r\nL7E82LJY0n1TUApJ0AK6Z2PHDxTe7txcaGaopByr73+MoMpTxwKXNaO052Um\r\nbX6NIAPco5Kg2HM7vvBAOjR9CWcdWOtWjMzSqil1KwXOHZ3xEosoeDti13PG\r\nd8Ls5aKUsAtNLU2lwMgYxNR8T5fhONY2qjjq/EMV0NkYtMC9XXpjq2zJwHKJ\r\nYevhhro7qE+hJ4CXzM+HdROIKzDbIvpI2lM=\r\n=8hg+\r\n-----END PGP SIGNATURE-----\r\n"
+			},
+			"_npmUser": {
+				"name": "vue-styleguidist-bot",
+				"email": "ledouxb@gmail.com"
+			},
+			"directories": {},
+			"maintainers": [
+				{
+					"name": "vue-styleguidist-bot",
+					"email": "ledouxb@gmail.com"
+				}
+			],
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/vue-inbrowser-compiler-independent-utils_4.55.0_1668530802282_0.8507918039828164"
+			},
+			"_hasShrinkwrap": false,
+			"contributors": []
+		},
+		"4.56.2": {
+			"name": "vue-inbrowser-compiler-independent-utils",
+			"version": "4.56.2",
+			"description": "the part of vue-inbrowser-compiler-utils that contains no vue dependency",
+			"module": "lib/vue-inbrowser-compiler-independent-utils.esm.mjs",
+			"main": "lib/vue-inbrowser-compiler-independent-utils.umd.js",
+			"types": "lib/index.d.ts",
+			"exports": {
+				".": {
+					"import": "./lib/vue-inbrowser-compiler-independent-utils.esm.mjs",
+					"require": "./lib/vue-inbrowser-compiler-independent-utils.umd.js",
+					"types": "./lib/index.d.ts"
+				}
+			},
+			"keywords": [
+				"vue",
+				"compile",
+				"live",
+				"browser",
+				"acorn"
+			],
+			"devDependencies": {
+				"@rollup/plugin-commonjs": "15.1.0",
+				"@rollup/plugin-node-resolve": "9.0.0",
+				"@rollup/plugin-typescript": "8.5.0",
+				"@types/dedent": "0.7.0",
+				"@types/domhandler": "2.4.2",
+				"dedent": "0.7.0",
+				"tslib": "2.4.1",
+				"typescript": "4.9.3",
+				"rollup": "2.79.1",
+				"vue": "2.7.14"
+			},
+			"peerDependencies": {
+				"vue": ">=2"
+			},
+			"author": {
+				"name": "Bart Ledoux",
+				"email": "ledouxb@me.com"
+			},
+			"license": "MIT",
+			"homepage": "https://vue-styleguidist.github.io",
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/vue-styleguidist/vue-styleguidist.git",
+				"directory": "packages/vue-inbrowser-compiler-utils"
+			},
+			"scripts": {
+				"compile": "rollup -c",
+				"compile:watch": "rollup -c --watch"
+			},
+			"bugs": {
+				"url": "https://github.com/vue-styleguidist/vue-styleguidist/issues"
+			},
+			"_id": "vue-inbrowser-compiler-independent-utils@4.56.2",
+			"_integrity": "sha512-szE2vZDSkZlItq+K4MevgvCGKt5IzM6OkIjyCuj/09ty2akixeQGNFRXyDELMdmVVzmN+9nJn02YKnoPkhXHwA==",
+			"_resolved": "/tmp/735bc53d6defbb4dbdef1db33c235048/vue-inbrowser-compiler-independent-utils-4.56.2.tgz",
+			"_from": "file:vue-inbrowser-compiler-independent-utils-4.56.2.tgz",
+			"_nodeVersion": "16.18.1",
+			"_npmVersion": "8.19.2",
+			"dist": {
+				"integrity": "sha512-szE2vZDSkZlItq+K4MevgvCGKt5IzM6OkIjyCuj/09ty2akixeQGNFRXyDELMdmVVzmN+9nJn02YKnoPkhXHwA==",
+				"shasum": "2ca2866b205eb1ef02c04b7a87b6a9f21000c3c7",
+				"tarball": "https://registry.npmjs.org/vue-inbrowser-compiler-independent-utils/-/vue-inbrowser-compiler-independent-utils-4.56.2.tgz",
+				"fileCount": 29,
+				"unpackedSize": 36580,
+				"signatures": [
+					{
+						"keyid": "SHA256:jl3bwswu80PjjokCgh0o2w5c2U4LhQAE57gj9cz1kzA",
+						"sig": "MEUCIQDKCPOKzRGwDcJwTy2c2FA9CJz/zV7blu4zCcyydW9MmgIgDEOPDvvKzHeWnBHL9Na9j8DuyTQVk+4wCG0e55L0Ak0="
+					}
+				],
+				"npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v4.10.10\r\nComment: https://openpgpjs.org\r\n\r\nwsFzBAEBCAAGBQJjo7p8ACEJED1NWxICdlZqFiEECWMYAoorWMhJKdjhPU1b\r\nEgJ2VmqwaA/+PX960bykvzf+vdFTtK76LmpEeaEpEjhF7RzEWgE3Aql/bXj6\r\nn6frhFQy2T6e0XecCbf5Q87X399eNGaQh2R3zZPLuohkgKhgQ4hTSi5ppShQ\r\nEdpCB3Qh3FgPOPbw305+hJVedG0MtbIGMHOVEhMZXFNR9vnxGhPYWYrqJrhW\r\nc5diM2N6WLoIaIvAmAQK1Y9bNWKwuBmA8uTw+UfvzfjBPFBcvAN38Morep2i\r\np6wJXpmjNNH4wel+61CnqauRUaZpROM5ecrvReyjyMYn1H/twr4pS8ZthS8B\r\nX7y5ZEJfdh9fn9u8pEFT719W6kVOyC6BWQuf6KTz7l3Msik+FIeDLcksAnSM\r\nz4Bc/cjKH0JhXFD3MlZB54fluu1BD4VHrkJh4ZZpQpL/pIkL5L75UdYmjvrA\r\nJfCfYJ9AsQatRk8kFTMhT82UPcz106/JI8n80lA7Xv8+FzY32xAO4hoIWPpt\r\nZ0V7aXPvPXntL81PHoBYmCqw56Pn/mjTLsbnKzyCttjZPrf1Z9iZXPLOggA4\r\nRNQAr5AFNllRhks2D2aZvpI40Z3Gac6mHyX9cVrtDl++S9oKPD+f7bggdb42\r\nONYG+3Yb7y0qWHjzJWDV0I0arohFGZKQuTm6d74VtnOwaW+5Xc2aSvDTkJ9/\r\nK2F/qoR7XozD2KycsBwDZZNaq1eBm/3WZ8g=\r\n=50qi\r\n-----END PGP SIGNATURE-----\r\n"
+			},
+			"_npmUser": {
+				"name": "vue-styleguidist-bot",
+				"email": "ledouxb@gmail.com"
+			},
+			"directories": {},
+			"maintainers": [
+				{
+					"name": "vue-styleguidist-bot",
+					"email": "ledouxb@gmail.com"
+				}
+			],
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/vue-inbrowser-compiler-independent-utils_4.56.2_1671674492027_0.5191199763824172"
+			},
+			"_hasShrinkwrap": false,
+			"contributors": []
+		},
+		"4.62.0": {
+			"name": "vue-inbrowser-compiler-independent-utils",
+			"version": "4.62.0",
+			"description": "the part of vue-inbrowser-compiler-utils that contains no vue dependency",
+			"module": "lib/vue-inbrowser-compiler-independent-utils.esm.mjs",
+			"main": "lib/vue-inbrowser-compiler-independent-utils.umd.js",
+			"types": "lib/index.d.ts",
+			"exports": {
+				".": {
+					"import": "./lib/vue-inbrowser-compiler-independent-utils.esm.mjs",
+					"require": "./lib/vue-inbrowser-compiler-independent-utils.umd.js",
+					"types": "./lib/index.d.ts"
+				}
+			},
+			"keywords": [
+				"vue",
+				"compile",
+				"live",
+				"browser",
+				"acorn"
+			],
+			"devDependencies": {
+				"@rollup/plugin-commonjs": "15.1.0",
+				"@rollup/plugin-node-resolve": "9.0.0",
+				"@rollup/plugin-typescript": "8.5.0",
+				"@types/dedent": "0.7.0",
+				"@types/domhandler": "2.4.2",
+				"dedent": "0.7.0",
+				"tslib": "2.5.0",
+				"typescript": "4.9.5",
+				"rollup": "2.79.1",
+				"vue": "2.7.14"
+			},
+			"peerDependencies": {
+				"vue": ">=2"
+			},
+			"author": {
+				"name": "Bart Ledoux",
+				"email": "ledouxb@me.com"
+			},
+			"license": "MIT",
+			"homepage": "https://vue-styleguidist.github.io",
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/vue-styleguidist/vue-styleguidist.git",
+				"directory": "packages/vue-inbrowser-compiler-utils"
+			},
+			"scripts": {
+				"compile": "rollup -c",
+				"compile:watch": "rollup -c --watch"
+			},
+			"bugs": {
+				"url": "https://github.com/vue-styleguidist/vue-styleguidist/issues"
+			},
+			"_id": "vue-inbrowser-compiler-independent-utils@4.62.0",
+			"_integrity": "sha512-Xj7phxND9kycttv1KxvzenyqdjVQLf8V5LDREO+x+2FwM99pKhUg2VoxPHlRKghcvOvBv9Fs1iaU9kJCl0DjbQ==",
+			"_resolved": "/tmp/762d90afed43d2eb96e8c735e7282f23/vue-inbrowser-compiler-independent-utils-4.62.0.tgz",
+			"_from": "file:vue-inbrowser-compiler-independent-utils-4.62.0.tgz",
+			"_nodeVersion": "18.14.2",
+			"_npmVersion": "9.5.0",
+			"dist": {
+				"integrity": "sha512-Xj7phxND9kycttv1KxvzenyqdjVQLf8V5LDREO+x+2FwM99pKhUg2VoxPHlRKghcvOvBv9Fs1iaU9kJCl0DjbQ==",
+				"shasum": "a4488c084d99a930b53a19468dd590bbfb5ea0dc",
+				"tarball": "https://registry.npmjs.org/vue-inbrowser-compiler-independent-utils/-/vue-inbrowser-compiler-independent-utils-4.62.0.tgz",
+				"fileCount": 29,
+				"unpackedSize": 36925,
+				"signatures": [
+					{
+						"keyid": "SHA256:jl3bwswu80PjjokCgh0o2w5c2U4LhQAE57gj9cz1kzA",
+						"sig": "MEUCIFStva2uwaZ2W/z9XCqrgSJNv9etm+0UYokrf8S23FZdAiEArjEQo4sxc2SAWL1TAAx5srFsTGR5dNx4OcmaGrec3SI="
+					}
+				],
+				"npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v4.10.10\r\nComment: https://openpgpjs.org\r\n\r\nwsFzBAEBCAAGBQJkC00vACEJED1NWxICdlZqFiEECWMYAoorWMhJKdjhPU1b\r\nEgJ2Vmr05A/+P8m4jdTVuyIsU0Zj1rNH++6rzb6PJWHsVeqQrvduZ/iZxQXr\r\n4DpQNhwFEyPGi2tBZWjBDvrT/ITAP/sWb0scmIrkBOjcni15Y4rwUbY3rQlH\r\nWHmbCrIFWBnyC/8AJqZxMytd2W8DbVCoWSSUPyDwjTGPt+E8pWiW+eZtn94N\r\nqzDbI+yAr/b9GZ12Tw9c94hjsaA1xUYc5pWg/oSTdEU3JbG0Hdfg2LNj251u\r\njgYDjl8HZmTMG5FVwM2jDZwd30yJp1gVqdif1wK7GoUO9IIWb86tXfVZfgJB\r\n76MS4SQoCgXjLSiAaocxv2YMbgyEUHfHrfHBkKR/u5onaUnmd22ruxS0IAr/\r\nss1XRwZV6uHCOfTlyRssybW+J2kJsv+bTetjov5bL0UeLJDjQ/WOj0KdaTtu\r\nrxrAYlkDPDk0HqJruroGvMBZ4bZyGnWzcnox8+qQ4hh1luwa2lF6VHPY7ezw\r\n482GSTVunuXregNo5++hsg8x8NqhLSqh9VtMfM/aIPCZEl6uIzNkHBQw3mnO\r\nZYk9YO8GVgVK05HGWbTyBv6zK8T7kPKk5vf73EJRF04q7k+5vgSdHVbPn0qF\r\nIi9xVd1ZtwHH/eFnb1EudTJNR5KdnhPg39f3b53JPk/3t3JHyNzLtG7gExj+\r\nMc2VyOKoKjsvr4/JY8gWA5xfzXv3ApyYzss=\r\n=qXiP\r\n-----END PGP SIGNATURE-----\r\n"
+			},
+			"_npmUser": {
+				"name": "vue-styleguidist-bot",
+				"email": "ledouxb@gmail.com"
+			},
+			"directories": {},
+			"maintainers": [
+				{
+					"name": "vue-styleguidist-bot",
+					"email": "ledouxb@gmail.com"
+				}
+			],
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/vue-inbrowser-compiler-independent-utils_4.62.0_1678462255406_0.23183938524578962"
+			},
+			"_hasShrinkwrap": false,
+			"contributors": []
+		},
+		"4.64.0": {
+			"name": "vue-inbrowser-compiler-independent-utils",
+			"version": "4.64.0",
+			"description": "the part of vue-inbrowser-compiler-utils that contains no vue dependency",
+			"module": "lib/vue-inbrowser-compiler-independent-utils.esm.mjs",
+			"main": "lib/vue-inbrowser-compiler-independent-utils.umd.js",
+			"types": "lib/index.d.ts",
+			"exports": {
+				".": {
+					"import": "./lib/vue-inbrowser-compiler-independent-utils.esm.mjs",
+					"require": "./lib/vue-inbrowser-compiler-independent-utils.umd.js",
+					"types": "./lib/index.d.ts"
+				}
+			},
+			"keywords": [
+				"vue",
+				"compile",
+				"live",
+				"browser",
+				"acorn"
+			],
+			"devDependencies": {
+				"@rollup/plugin-commonjs": "15.1.0",
+				"@rollup/plugin-node-resolve": "9.0.0",
+				"@rollup/plugin-typescript": "8.5.0",
+				"@types/dedent": "0.7.0",
+				"@types/domhandler": "2.4.2",
+				"dedent": "0.7.0",
+				"tslib": "2.5.0",
+				"typescript": "4.9.5",
+				"rollup": "2.79.1",
+				"vue": "2.7.14"
+			},
+			"peerDependencies": {
+				"vue": ">=2"
+			},
+			"author": {
+				"name": "Bart Ledoux",
+				"email": "ledouxb@me.com"
+			},
+			"license": "MIT",
+			"homepage": "https://vue-styleguidist.github.io",
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/vue-styleguidist/vue-styleguidist.git",
+				"directory": "packages/vue-inbrowser-compiler-utils"
+			},
+			"scripts": {
+				"compile": "rollup -c",
+				"compile:watch": "rollup -c --watch"
+			},
+			"bugs": {
+				"url": "https://github.com/vue-styleguidist/vue-styleguidist/issues"
+			},
+			"_id": "vue-inbrowser-compiler-independent-utils@4.64.0",
+			"_integrity": "sha512-Y60WKfB1Q0NforSIId8r/2bZHfI/5gqufX59iTXqiT0P1eeXTM3wcnEjEnoNhTFQU+YaQuk7LtoBRZPiZa3OJw==",
+			"_resolved": "/tmp/6ad88543ff08d8edde6122c3c037d7d2/vue-inbrowser-compiler-independent-utils-4.64.0.tgz",
+			"_from": "file:vue-inbrowser-compiler-independent-utils-4.64.0.tgz",
+			"_nodeVersion": "18.15.0",
+			"_npmVersion": "9.5.0",
+			"dist": {
+				"integrity": "sha512-Y60WKfB1Q0NforSIId8r/2bZHfI/5gqufX59iTXqiT0P1eeXTM3wcnEjEnoNhTFQU+YaQuk7LtoBRZPiZa3OJw==",
+				"shasum": "a2d276c573792768922df43e465c033cec90ba45",
+				"tarball": "https://registry.npmjs.org/vue-inbrowser-compiler-independent-utils/-/vue-inbrowser-compiler-independent-utils-4.64.0.tgz",
+				"fileCount": 29,
+				"unpackedSize": 37672,
+				"signatures": [
+					{
+						"keyid": "SHA256:jl3bwswu80PjjokCgh0o2w5c2U4LhQAE57gj9cz1kzA",
+						"sig": "MEUCICzmiQbgG7wr49oaZXLR0hrXNabfy4wo+cySsqGwPchhAiEA0Q/ZFVZjBfZkrcf8w7AFLTG5A7NX0MyEQfeZbtHih60="
+					}
+				],
+				"npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v4.10.10\r\nComment: https://openpgpjs.org\r\n\r\nwsFzBAEBCAAGBQJkFLuEACEJED1NWxICdlZqFiEECWMYAoorWMhJKdjhPU1b\r\nEgJ2VmrlkRAAlzLN5xMXnTRze9jSzA9ONKwTGk/UlV9otrQA3J8UFlrxBEcX\r\nTG1SOZnE7AZvk5t8xc757aZsbbZ7uLkx/8EvuwlJfHTDHWmyChPbjrP8eFFV\r\nEZiHDDsazCg3CcrJAtmnJ7OunLn/6Mwi5dx4Q/bfwP+B301KhUC1P2JNxB37\r\new1DejCJkH7q454jPYfbNvUKIqONCKSpEO1nLImOKwV9kz9zCeUwIRQBl1Q5\r\nrNk/XcceIMPY1FG/u0U1Jzpvj+QD8evB39B2AOyjuXI7OYwpUPHC6kycAf2N\r\n89FPnHps/9WyjnutXJH4a4FsVRvdCzfkY3/pOGRUM3/ftL/K0JehAvatKpCK\r\nsnNvek9IiBUkqyh6oPiCb+G09cm7/bVwHHViOhpn9qGlYYit8Q9WCdp65YvV\r\n29tnDhfxt0ZdWw8AdyQlXSILOjI8GZuRie5HOt0p60oPgSB47Trzm8L7x8V7\r\nFMMXZMcoPUnKmiTRycSN6eNAMoD8pMstJal4DDxKDCT/1qCQI2nzYnt6AbVQ\r\nvFPctluZoI60QMmfmkuzpxEvjt2wYDGyJc9+kBIVZQteAwahCA5VulgJVL/X\r\nSwzOgS3BiXZuPPod2Ti65+ynglFX+0bQ7C4v26lIVZiaVsVH7eEfLQGw5v9p\r\nLd5RAoPInMVdvtbbiJaarD9yDwks88vGDiw=\r\n=NR5c\r\n-----END PGP SIGNATURE-----\r\n"
+			},
+			"_npmUser": {
+				"name": "vue-styleguidist-bot",
+				"email": "ledouxb@gmail.com"
+			},
+			"directories": {},
+			"maintainers": [
+				{
+					"name": "vue-styleguidist-bot",
+					"email": "ledouxb@gmail.com"
+				}
+			],
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/vue-inbrowser-compiler-independent-utils_4.64.0_1679080324602_0.1503557352069811"
+			},
+			"_hasShrinkwrap": false,
+			"contributors": []
+		},
+		"4.64.1": {
+			"name": "vue-inbrowser-compiler-independent-utils",
+			"version": "4.64.1",
+			"description": "the part of vue-inbrowser-compiler-utils that contains no vue dependency",
+			"module": "lib/vue-inbrowser-compiler-independent-utils.esm.mjs",
+			"main": "lib/vue-inbrowser-compiler-independent-utils.umd.js",
+			"types": "lib/index.d.ts",
+			"exports": {
+				".": {
+					"import": "./lib/vue-inbrowser-compiler-independent-utils.esm.mjs",
+					"require": "./lib/vue-inbrowser-compiler-independent-utils.umd.js",
+					"types": "./lib/index.d.ts"
+				}
+			},
+			"keywords": [
+				"vue",
+				"compile",
+				"live",
+				"browser",
+				"acorn"
+			],
+			"devDependencies": {
+				"@rollup/plugin-commonjs": "15.1.0",
+				"@rollup/plugin-node-resolve": "9.0.0",
+				"@rollup/plugin-typescript": "8.5.0",
+				"@types/dedent": "0.7.0",
+				"@types/domhandler": "2.4.2",
+				"dedent": "0.7.0",
+				"tslib": "2.5.0",
+				"typescript": "4.9.5",
+				"rollup": "2.79.1",
+				"vue": "2.7.14"
+			},
+			"peerDependencies": {
+				"vue": ">=2"
+			},
+			"author": {
+				"name": "Bart Ledoux",
+				"email": "ledouxb@me.com"
+			},
+			"license": "MIT",
+			"homepage": "https://vue-styleguidist.github.io",
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/vue-styleguidist/vue-styleguidist.git",
+				"directory": "packages/vue-inbrowser-compiler-utils"
+			},
+			"scripts": {
+				"compile": "rollup -c",
+				"compile:watch": "rollup -c --watch"
+			},
+			"bugs": {
+				"url": "https://github.com/vue-styleguidist/vue-styleguidist/issues"
+			},
+			"_id": "vue-inbrowser-compiler-independent-utils@4.64.1",
+			"_integrity": "sha512-Hn32n07XZ8j9W8+fmOXPQL+i+W2e/8i6mkH4Ju3H6nR0+cfvmWM95GhczYi5B27+Y8JlCKgAo04IUiYce4mKAw==",
+			"_resolved": "/tmp/5271818a0fb428e839fc4d771a3966b6/vue-inbrowser-compiler-independent-utils-4.64.1.tgz",
+			"_from": "file:vue-inbrowser-compiler-independent-utils-4.64.1.tgz",
+			"_nodeVersion": "18.15.0",
+			"_npmVersion": "9.5.0",
+			"dist": {
+				"integrity": "sha512-Hn32n07XZ8j9W8+fmOXPQL+i+W2e/8i6mkH4Ju3H6nR0+cfvmWM95GhczYi5B27+Y8JlCKgAo04IUiYce4mKAw==",
+				"shasum": "4dd4d9b7f138c45eae2d2d2e5b0da3f73285c30e",
+				"tarball": "https://registry.npmjs.org/vue-inbrowser-compiler-independent-utils/-/vue-inbrowser-compiler-independent-utils-4.64.1.tgz",
+				"fileCount": 29,
+				"unpackedSize": 37983,
+				"signatures": [
+					{
+						"keyid": "SHA256:jl3bwswu80PjjokCgh0o2w5c2U4LhQAE57gj9cz1kzA",
+						"sig": "MEYCIQCsjlUmaehMxKi42sY03UHSgc81Qc+D9BnYIBPH4TYLKgIhAL2w39tukI0uz01kKx0XJTCgE3PavqTEeXcz2U/bZQZk"
+					}
+				],
+				"npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v4.10.10\r\nComment: https://openpgpjs.org\r\n\r\nwsFzBAEBCAAGBQJkFhcOACEJED1NWxICdlZqFiEECWMYAoorWMhJKdjhPU1b\r\nEgJ2VmoRmg//XFHAXY+CS7xsRaJX5YnKD0I8uiYr6ioJlzacqnmX391mNuL+\r\ncbkZOrczN/MgKztVhOS7Of/QOJr9zfh3rhRvtY76lkJKenk3vyBGDHA1kkwg\r\n1rgRtiGINrT8SA3x2/m7O2m+rj/1ccY6xXTXf+o4oe0QFv1/rDbOn3bMZPXq\r\nH16knmmKGneL4v88sx4reS3J0+7Z2VEn7p4JNokfsBdrZiwSuH3vTHDmtKmZ\r\n57JWawZClOeHO1G3MeIniWZHYNUFnUQgXnWkNTB3+6OFMj5ZALTAf1q+ZQ7O\r\nSz4D2g14osYfV2NyTBR5ce610KaX9huk8t6udgUx4vKZWU9zAfgLsRH0wEJT\r\nwJAEJDUJKGaxJb9HmIKjWwXnQxMDqOpkGw5uMYmZ8gOuI7bUPA4aIt7hIcLY\r\nFz8+k2UoRVf+h+RLqzoUnbRQNbvCPoeyAIlxMQnMaOFRIKQkOgdF8lJnLycB\r\nwtMKH3G0fP5T9umKnY9yOQlteRp9AowzylDS2blz2Gh+C/pITkQyylUnrIUw\r\nuQtSBDzbDmBDyGYOpDAs/BltSv7ZT0VEE9Rm3SF4a8cEkCPPaksPiVS1pgHs\r\nE03RwrUMJB5GAK0zKKNdzVwdrISP8rBOXSJIV0WV7zGIgr/ZvIBCPj4KTEWJ\r\nuXtIKKzKpLRBLBVomXfq4EJvj8jXTWQL0sk=\r\n=tqQ6\r\n-----END PGP SIGNATURE-----\r\n"
+			},
+			"_npmUser": {
+				"name": "vue-styleguidist-bot",
+				"email": "ledouxb@gmail.com"
+			},
+			"directories": {},
+			"maintainers": [
+				{
+					"name": "vue-styleguidist-bot",
+					"email": "ledouxb@gmail.com"
+				}
+			],
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/vue-inbrowser-compiler-independent-utils_4.64.1_1679169294362_0.5914300414848332"
+			},
+			"_hasShrinkwrap": false,
+			"contributors": []
+		},
+		"4.69.0": {
+			"name": "vue-inbrowser-compiler-independent-utils",
+			"version": "4.69.0",
+			"description": "the part of vue-inbrowser-compiler-utils that contains no vue dependency",
+			"module": "lib/vue-inbrowser-compiler-independent-utils.esm.mjs",
+			"main": "lib/vue-inbrowser-compiler-independent-utils.umd.js",
+			"types": "lib/index.d.ts",
+			"exports": {
+				".": {
+					"import": "./lib/vue-inbrowser-compiler-independent-utils.esm.mjs",
+					"require": "./lib/vue-inbrowser-compiler-independent-utils.umd.js",
+					"types": "./lib/index.d.ts"
+				}
+			},
+			"keywords": [
+				"vue",
+				"compile",
+				"live",
+				"browser",
+				"acorn"
+			],
+			"devDependencies": {
+				"@rollup/plugin-commonjs": "15.1.0",
+				"@rollup/plugin-node-resolve": "9.0.0",
+				"@rollup/plugin-typescript": "8.5.0",
+				"@types/dedent": "0.7.0",
+				"@types/domhandler": "2.4.2",
+				"dedent": "0.7.0",
+				"tslib": "2.5.0",
+				"typescript": "4.9.5",
+				"rollup": "2.79.1",
+				"vue": "2.7.14"
+			},
+			"peerDependencies": {
+				"vue": ">=2"
+			},
+			"author": {
+				"name": "Bart Ledoux",
+				"email": "ledouxb@me.com"
+			},
+			"license": "MIT",
+			"homepage": "https://vue-styleguidist.github.io",
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/vue-styleguidist/vue-styleguidist.git",
+				"directory": "packages/vue-inbrowser-compiler-utils"
+			},
+			"scripts": {
+				"compile": "rollup -c",
+				"compile:watch": "rollup -c --watch"
+			},
+			"bugs": {
+				"url": "https://github.com/vue-styleguidist/vue-styleguidist/issues"
+			},
+			"_id": "vue-inbrowser-compiler-independent-utils@4.69.0",
+			"_integrity": "sha512-z9BTi8iXqS1ZLDK2quH6mrahMsaT+UuB5InhVPqR2Ft08OJw1Wxtalr9Cp5rRHOUirq9vaklzjEfD8WJGOIpuA==",
+			"_resolved": "/tmp/72ab262bcd2dfff1dc554a1b5adc4dbf/vue-inbrowser-compiler-independent-utils-4.69.0.tgz",
+			"_from": "file:vue-inbrowser-compiler-independent-utils-4.69.0.tgz",
+			"_nodeVersion": "18.15.0",
+			"_npmVersion": "9.5.0",
+			"dist": {
+				"integrity": "sha512-z9BTi8iXqS1ZLDK2quH6mrahMsaT+UuB5InhVPqR2Ft08OJw1Wxtalr9Cp5rRHOUirq9vaklzjEfD8WJGOIpuA==",
+				"shasum": "41e46d06c070b9d4feaf826bae03cec0fad84a45",
+				"tarball": "https://registry.npmjs.org/vue-inbrowser-compiler-independent-utils/-/vue-inbrowser-compiler-independent-utils-4.69.0.tgz",
+				"fileCount": 29,
+				"unpackedSize": 38363,
+				"signatures": [
+					{
+						"keyid": "SHA256:jl3bwswu80PjjokCgh0o2w5c2U4LhQAE57gj9cz1kzA",
+						"sig": "MEQCIAamphuIl+OYe59wWp64W7Qdejo+TUtX+GWhlM+fpV2VAiBklGd2NE3qNcrUFmagdi275cZxSt7P0nC0zURsitO6sQ=="
+					}
+				],
+				"npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v4.10.10\r\nComment: https://openpgpjs.org\r\n\r\nwsFzBAEBCAAGBQJkQCIgACEJED1NWxICdlZqFiEECWMYAoorWMhJKdjhPU1b\r\nEgJ2VmpSAw/8Dv8z7Fb7kLzcdAP5/S5bE50aou6+/5xsh9KYMjYacDDciWIS\r\nXLljoFvkFv7w9a97ewCcM2MBwZJaWCBdwYrWbGzCNSvLj+QI5jPDzYd+Nfcg\r\nngOXOl1VdvaDRNQpIzFIzYJ2KAWMYYs6CbaFvD6E9dMqkPW4eKzK2KELMW3b\r\nW2tOr2noNQANBwJZfzFL4Sbe870f6rpsDPhZPU7CEh3Q4GXdY0EIFTg67pfu\r\nRKLWiz1kjSrmTV8K3lsgNTRY2WQ7O+rZ+Dgowp3Ficx/CMcI8vjeEaQ3L7gK\r\nGS9ymAmUbXuqvgkuL7JBrAEbk2ov6haoztVJJrDCt1OcbFIpt1oDgLIzNiy1\r\n2oTne+vARBFmKRCqtNn0P/WpLpitw+T+rgZXNmd13qYGdWkkI3Nzn1vWT1Va\r\nrbyTMlPk8SKLa2cn57kdQK//aQwSJUP/U8RJzjH/J/HSs30md3e44yGwajSy\r\nht4e6HuHVvO7OCQccn3vGDN+wF8duyUrsJzadAACjhvlkeF17Gz3YZ4y2fSf\r\nJkaC8EtevnXG9N+dQgd2Xuf1kX+p8UROC36ezHh9i6Ge4I3QW1+XjJY8SAHc\r\nVNb2rtKkfXyG0mMUvgzPeHOsDLZSidwRJDyyiK8LzCy5/ewr+rqcsOynr+wR\r\nks5c6oF/BNa+Q7Un8D4wc26Do1HJQtBebwo=\r\n=kxrF\r\n-----END PGP SIGNATURE-----\r\n"
+			},
+			"_npmUser": {
+				"name": "vue-styleguidist-bot",
+				"email": "ledouxb@gmail.com"
+			},
+			"directories": {},
+			"maintainers": [
+				{
+					"name": "vue-styleguidist-bot",
+					"email": "ledouxb@gmail.com"
+				}
+			],
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/vue-inbrowser-compiler-independent-utils_4.69.0_1681924640147_0.3251145558994517"
+			},
+			"_hasShrinkwrap": false,
+			"contributors": []
+		},
+		"4.71.1": {
+			"name": "vue-inbrowser-compiler-independent-utils",
+			"version": "4.71.1",
+			"description": "the part of vue-inbrowser-compiler-utils that contains no vue dependency",
+			"module": "lib/vue-inbrowser-compiler-independent-utils.esm.mjs",
+			"main": "lib/vue-inbrowser-compiler-independent-utils.umd.js",
+			"types": "lib/index.d.ts",
+			"exports": {
+				".": {
+					"import": "./lib/vue-inbrowser-compiler-independent-utils.esm.mjs",
+					"require": "./lib/vue-inbrowser-compiler-independent-utils.umd.js",
+					"types": "./lib/index.d.ts"
+				}
+			},
+			"keywords": [
+				"vue",
+				"compile",
+				"live",
+				"browser",
+				"acorn"
+			],
+			"devDependencies": {
+				"@rollup/plugin-commonjs": "15.1.0",
+				"@rollup/plugin-node-resolve": "9.0.0",
+				"@rollup/plugin-typescript": "8.5.0",
+				"@types/dedent": "0.7.0",
+				"@types/domhandler": "2.4.2",
+				"dedent": "0.7.0",
+				"tslib": "2.5.0",
+				"typescript": "4.9.5",
+				"rollup": "2.79.1",
+				"vue": "2.7.14"
+			},
+			"peerDependencies": {
+				"vue": ">=2"
+			},
+			"author": {
+				"name": "Bart Ledoux",
+				"email": "ledouxb@me.com"
+			},
+			"license": "MIT",
+			"homepage": "https://vue-styleguidist.github.io",
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/vue-styleguidist/vue-styleguidist.git",
+				"directory": "packages/vue-inbrowser-compiler-utils"
+			},
+			"scripts": {
+				"compile": "rollup -c",
+				"compile:watch": "rollup -c --watch"
+			},
+			"bugs": {
+				"url": "https://github.com/vue-styleguidist/vue-styleguidist/issues"
+			},
+			"_id": "vue-inbrowser-compiler-independent-utils@4.71.1",
+			"_integrity": "sha512-K3wt3iVmNGaFEOUR4JIThQRWfqokxLfnPslD41FDZB2ajXp789+wCqJyGYlIFsvEQ2P61PInw6/ph5iiqg51gg==",
+			"_resolved": "/tmp/f55edc08b5c27e99bde740c5728655d9/vue-inbrowser-compiler-independent-utils-4.71.1.tgz",
+			"_from": "file:vue-inbrowser-compiler-independent-utils-4.71.1.tgz",
+			"_nodeVersion": "18.16.0",
+			"_npmVersion": "9.5.1",
+			"dist": {
+				"integrity": "sha512-K3wt3iVmNGaFEOUR4JIThQRWfqokxLfnPslD41FDZB2ajXp789+wCqJyGYlIFsvEQ2P61PInw6/ph5iiqg51gg==",
+				"shasum": "dc6830b204f7cfdc30ffc4f31ba81b0c72c52136",
+				"tarball": "https://registry.npmjs.org/vue-inbrowser-compiler-independent-utils/-/vue-inbrowser-compiler-independent-utils-4.71.1.tgz",
+				"fileCount": 29,
+				"unpackedSize": 38728,
+				"signatures": [
+					{
+						"keyid": "SHA256:jl3bwswu80PjjokCgh0o2w5c2U4LhQAE57gj9cz1kzA",
+						"sig": "MEUCIQCHbYGcm+jb6txiL5GEmzxZWpgLreksX+WvOzVAIhTz3AIgZra05AAptDZTlcWRVo07+0JlxwJ05H9Nk5BWR/bS7rc="
+					}
+				],
+				"npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v4.10.10\r\nComment: https://openpgpjs.org\r\n\r\nwsFzBAEBCAAGBQJkVBilACEJED1NWxICdlZqFiEECWMYAoorWMhJKdjhPU1b\r\nEgJ2VmowEhAAhE3N+pr1mmJ6GQa60M/cP1YfQS/1Xh1ceomw/RoJwrZEUNLH\r\neg1EM/sP+jP2qjt6fMUsodKUb9+f5ai3ip0Qu7M2LjMQuAwspXJO3l2uTe3L\r\nhnak4P1BLIlwT7evMcHouL24O8RIU1pQx0SGn8zwEtfc+IKSMqYxncX3ciE3\r\nwoDy4E8orB7lbOIOzfY48+VB1DkKmCosttJhu8O2tg/DwXuATAs8Zw2H3j+R\r\nzCMpe0geU6qedcqUinlpGwQ+DJZGw3QuBVKxZY6aJgrjd4pA2ILj4+hMYQpH\r\n2FCJxU+/e3zr3jzTSEKNYs9y1AQ2aCioplEfanNxrk9p9Mcvz0UTsQO9y5lE\r\n3qov4QHXyPHqcFEbTFbqoXhlgypVZK+23z0knbG0kUQ++TiPZrmrLRe+GDsf\r\ntTyGEccpzZB8nANp2ypSTzhJLbGyyHJt0cCeShSNd2kU3HDLLDgngTV6qrc2\r\nsZk5h/LSqKJOnaeWJO86YMb0T7gOhNuPoUaL6mbfV+Mw9rnjpuk9iyW0gjGp\r\nN3/HTiTSepfv7bAu1Q3eqExk34HzawK4YxELt92EcuhE/83CYGtju+QZ46ld\r\nacSRt3PJ58Gxpcv2hLBv5ER1IL7OzkJM1k/3DZywoP9xxCbjx8ioKDK+zcE7\r\nw0GaL8avbisOK+0j4jfBFBL/BY7wXhFIVJw=\r\n=Y8GZ\r\n-----END PGP SIGNATURE-----\r\n"
+			},
+			"_npmUser": {
+				"name": "vue-styleguidist-bot",
+				"email": "ledouxb@gmail.com"
+			},
+			"directories": {},
+			"maintainers": [
+				{
+					"name": "vue-styleguidist-bot",
+					"email": "ledouxb@gmail.com"
+				}
+			],
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/vue-inbrowser-compiler-independent-utils_4.71.1_1683232933380_0.22506520843119748"
+			},
+			"_hasShrinkwrap": false,
+			"contributors": []
+		}
+	},
+	"time": {
+		"created": "2022-08-07T18:15:45.537Z",
+		"4.52.0": "2022-08-07T18:15:45.790Z",
+		"modified": "2023-05-04T20:42:13.725Z",
+		"4.54.1": "2022-09-06T21:47:13.437Z",
+		"4.55.0": "2022-11-15T16:46:42.492Z",
+		"4.56.2": "2022-12-22T02:01:32.246Z",
+		"4.62.0": "2023-03-10T15:30:55.580Z",
+		"4.64.0": "2023-03-17T19:12:04.809Z",
+		"4.64.1": "2023-03-18T19:54:54.534Z",
+		"4.69.0": "2023-04-19T17:17:20.331Z",
+		"4.71.1": "2023-05-04T20:42:13.622Z"
+	},
+	"users": {},
+	"dist-tags": {
+		"latest": "4.71.1"
+	},
+	"_uplinks": {
+		"npmjs": {
+			"etag": "W/\"f45ff42b9a9c6e02040324494ddbb1a8\"",
+			"fetched": 1715345982490
+		}
+	},
+	"_distfiles": {
+		"vue-inbrowser-compiler-independent-utils-4.52.0.tgz": {
+			"url": "https://registry.npmjs.org/vue-inbrowser-compiler-independent-utils/-/vue-inbrowser-compiler-independent-utils-4.52.0.tgz",
+			"sha": "c40aefe12eef48d22157fd22cd2bf9b9f9ee9e9c",
+			"registry": "npmjs"
+		},
+		"vue-inbrowser-compiler-independent-utils-4.54.1.tgz": {
+			"url": "https://registry.npmjs.org/vue-inbrowser-compiler-independent-utils/-/vue-inbrowser-compiler-independent-utils-4.54.1.tgz",
+			"sha": "2628fe92c99a06672d1b91b0f838e0272551ed02",
+			"registry": "npmjs"
+		},
+		"vue-inbrowser-compiler-independent-utils-4.55.0.tgz": {
+			"url": "https://registry.npmjs.org/vue-inbrowser-compiler-independent-utils/-/vue-inbrowser-compiler-independent-utils-4.55.0.tgz",
+			"sha": "c912e40004def49194c535c34491451590967e56",
+			"registry": "npmjs"
+		},
+		"vue-inbrowser-compiler-independent-utils-4.56.2.tgz": {
+			"url": "https://registry.npmjs.org/vue-inbrowser-compiler-independent-utils/-/vue-inbrowser-compiler-independent-utils-4.56.2.tgz",
+			"sha": "2ca2866b205eb1ef02c04b7a87b6a9f21000c3c7",
+			"registry": "npmjs"
+		},
+		"vue-inbrowser-compiler-independent-utils-4.62.0.tgz": {
+			"url": "https://registry.npmjs.org/vue-inbrowser-compiler-independent-utils/-/vue-inbrowser-compiler-independent-utils-4.62.0.tgz",
+			"sha": "a4488c084d99a930b53a19468dd590bbfb5ea0dc",
+			"registry": "npmjs"
+		},
+		"vue-inbrowser-compiler-independent-utils-4.64.0.tgz": {
+			"url": "https://registry.npmjs.org/vue-inbrowser-compiler-independent-utils/-/vue-inbrowser-compiler-independent-utils-4.64.0.tgz",
+			"sha": "a2d276c573792768922df43e465c033cec90ba45",
+			"registry": "npmjs"
+		},
+		"vue-inbrowser-compiler-independent-utils-4.64.1.tgz": {
+			"url": "https://registry.npmjs.org/vue-inbrowser-compiler-independent-utils/-/vue-inbrowser-compiler-independent-utils-4.64.1.tgz",
+			"sha": "4dd4d9b7f138c45eae2d2d2e5b0da3f73285c30e",
+			"registry": "npmjs"
+		},
+		"vue-inbrowser-compiler-independent-utils-4.69.0.tgz": {
+			"url": "https://registry.npmjs.org/vue-inbrowser-compiler-independent-utils/-/vue-inbrowser-compiler-independent-utils-4.69.0.tgz",
+			"sha": "41e46d06c070b9d4feaf826bae03cec0fad84a45",
+			"registry": "npmjs"
+		},
+		"vue-inbrowser-compiler-independent-utils-4.71.1.tgz": {
+			"url": "https://registry.npmjs.org/vue-inbrowser-compiler-independent-utils/-/vue-inbrowser-compiler-independent-utils-4.71.1.tgz",
+			"sha": "dc6830b204f7cfdc30ffc4f31ba81b0c72c52136",
+			"registry": "npmjs"
+		}
+	},
+	"_attachments": {
+		"vue-inbrowser-compiler-independent-utils-4.71.1.tgz": {
+			"shasum": "dc6830b204f7cfdc30ffc4f31ba81b0c72c52136"
+		}
+	},
+	"_rev": "2-4a81aaad9594ec8b",
+	"_id": "vue-inbrowser-compiler-independent-utils",
+	"readme": "# vue-inbrowser-compiler-independent-utils\n\nPart of the [vue-inbrowser-compiler-utils](https://www.npmjs.com/package/vue-inbrowser-compiler-utils) package that do not depend on vue.\n\nThe reason this package was created was to be able to share function between `vue-docgen-api` and `vue-inbrowser-compiler` without needing to enable postinstall scripts for `vue-docgen-api`. See [#1373](https://github.com/vue-styleguidist/vue-styleguidist/issues/1373)\n\n## install\n\n```bash\nyarn add vue-inbrowser-compiler-independent-utils\n```"
+}

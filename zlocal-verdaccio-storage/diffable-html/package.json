@@ -1,0 +1,1015 @@
+{
+	"name": "diffable-html",
+	"versions": {
+		"0.1.0": {
+			"name": "diffable-html",
+			"version": "0.1.0",
+			"description": "Opinionated HTML formatter focused towards making HTML diffs readable.",
+			"main": "dist/diffable-html.js",
+			"author": {
+				"name": "Raymond RUTJES",
+				"email": "raymond.rutjes@gmail.com",
+				"url": "https://github.com/rayrutjes/"
+			},
+			"license": "MIT",
+			"scripts": {
+				"build": "rollup --config",
+				"build:watch": "rollup --config --watch",
+				"test": "jest --verbose"
+			},
+			"files": [
+				"index.js"
+			],
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/rayrutjes/diffable-html.git"
+			},
+			"keywords": [
+				"html",
+				"formatter",
+				"diff",
+				"diffable",
+				"jest",
+				"snapshot",
+				"serializer",
+				"snapshotSerializer",
+				"string",
+				"vue",
+				"vue.js",
+				"test",
+				"beautifier",
+				"js-beautify"
+			],
+			"bugs": {
+				"url": "https://github.com/rayrutjes/diffable-html/issues"
+			},
+			"homepage": "https://github.com/rayrutjes/diffable-html#readme",
+			"dependencies": {
+				"htmlparser2": "^3.9.2"
+			},
+			"devDependencies": {
+				"babel-jest": "^19.0.0",
+				"babel-preset-es2015": "^6.24.1",
+				"jest": "^19.0.2",
+				"rollup": "^0.41.6",
+				"rollup-plugin-buble": "^0.15.0",
+				"rollup-watch": "^3.2.2"
+			},
+			"gitHead": "ddc45b550e5940268aade08d50b74352f127d0e1",
+			"_id": "diffable-html@0.1.0",
+			"_shasum": "6f96c3e609aa04590a2c1d85764b77cc962861c8",
+			"_from": ".",
+			"_npmVersion": "4.1.2",
+			"_nodeVersion": "7.7.2",
+			"_npmUser": {
+				"name": "rayrutjes",
+				"email": "raymond.rutjes@gmail.com"
+			},
+			"dist": {
+				"shasum": "6f96c3e609aa04590a2c1d85764b77cc962861c8",
+				"tarball": "https://registry.npmjs.org/diffable-html/-/diffable-html-0.1.0.tgz",
+				"integrity": "sha512-LApKShWmHDYC+itbMDDyGJNBr4ASuKdZPbOVxzVJd0DiITnhQVlXwJZNVwY8We2N54S8vzPa+1k5ft9+E5g+DA==",
+				"signatures": [
+					{
+						"keyid": "SHA256:jl3bwswu80PjjokCgh0o2w5c2U4LhQAE57gj9cz1kzA",
+						"sig": "MEYCIQD3M3GfwhLOOzIyBXj2GJliUZGsH0j0ZFCsixSG2knGygIhANOKtB4vFz8Hzy+pxB7mzn0WIFwHFoPWELqIQJbW/jDe"
+					}
+				]
+			},
+			"maintainers": [
+				{
+					"name": "rayrutjes",
+					"email": "raymond.rutjes@gmail.com"
+				}
+			],
+			"_npmOperationalInternal": {
+				"host": "packages-18-east.internal.npmjs.com",
+				"tmp": "tmp/diffable-html-0.1.0.tgz_1492508788829_0.18644716404378414"
+			},
+			"directories": {},
+			"contributors": []
+		},
+		"0.2.0": {
+			"name": "diffable-html",
+			"version": "0.2.0",
+			"description": "Opinionated HTML formatter focused towards making HTML diffs readable.",
+			"main": "dist/diffable-html.js",
+			"author": {
+				"name": "Raymond RUTJES",
+				"email": "raymond.rutjes@gmail.com",
+				"url": "https://github.com/rayrutjes/"
+			},
+			"license": "MIT",
+			"scripts": {
+				"build": "rollup --config",
+				"build:watch": "rollup --config --watch",
+				"test": "jest --verbose"
+			},
+			"files": [
+				"dist",
+				"index.js"
+			],
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/rayrutjes/diffable-html.git"
+			},
+			"keywords": [
+				"html",
+				"formatter",
+				"diff",
+				"diffable",
+				"jest",
+				"snapshot",
+				"serializer",
+				"snapshotSerializer",
+				"string",
+				"vue",
+				"vue.js",
+				"test",
+				"beautifier",
+				"js-beautify"
+			],
+			"bugs": {
+				"url": "https://github.com/rayrutjes/diffable-html/issues"
+			},
+			"homepage": "https://github.com/rayrutjes/diffable-html#readme",
+			"dependencies": {
+				"htmlparser2": "^3.9.2"
+			},
+			"devDependencies": {
+				"babel-jest": "^19.0.0",
+				"babel-preset-es2015": "^6.24.1",
+				"jest": "^19.0.2",
+				"rollup": "^0.41.6",
+				"rollup-plugin-buble": "^0.15.0",
+				"rollup-watch": "^3.2.2"
+			},
+			"gitHead": "82290eaa92123aa86249eb2c6debdcf7c99add93",
+			"_id": "diffable-html@0.2.0",
+			"_shasum": "aadfaeb7e06f06c9fdc9423376d3dcacd606328d",
+			"_from": ".",
+			"_npmVersion": "4.1.2",
+			"_nodeVersion": "7.7.2",
+			"_npmUser": {
+				"name": "rayrutjes",
+				"email": "raymond.rutjes@gmail.com"
+			},
+			"dist": {
+				"shasum": "aadfaeb7e06f06c9fdc9423376d3dcacd606328d",
+				"tarball": "https://registry.npmjs.org/diffable-html/-/diffable-html-0.2.0.tgz",
+				"integrity": "sha512-Pwdw3uLQUl1DapYI43456ndpTrbwqHafi4gDQqKI9CDE8qpIjtUxkvSXedKy28S/kF4tiQgawtkCN3cGykPBig==",
+				"signatures": [
+					{
+						"keyid": "SHA256:jl3bwswu80PjjokCgh0o2w5c2U4LhQAE57gj9cz1kzA",
+						"sig": "MEYCIQDLS7peJRihcFf61S5fyFsquSXs6dsdfFsiVU6gM+2QCAIhAN4hpYGxLIK1CQGDAzoHkTe0pF3j/KFew9fAdbMmq8yp"
+					}
+				]
+			},
+			"maintainers": [
+				{
+					"name": "rayrutjes",
+					"email": "raymond.rutjes@gmail.com"
+				}
+			],
+			"_npmOperationalInternal": {
+				"host": "packages-18-east.internal.npmjs.com",
+				"tmp": "tmp/diffable-html-0.2.0.tgz_1492509298811_0.9943971149623394"
+			},
+			"directories": {},
+			"contributors": []
+		},
+		"1.0.0": {
+			"name": "diffable-html",
+			"version": "1.0.0",
+			"description": "Opinionated HTML formatter focused towards making HTML diffs readable.",
+			"main": "dist/diffable-html.js",
+			"author": {
+				"name": "Raymond RUTJES",
+				"email": "raymond.rutjes@gmail.com",
+				"url": "https://github.com/rayrutjes/"
+			},
+			"license": "MIT",
+			"scripts": {
+				"build": "rollup --config",
+				"build:watch": "rollup --config --watch",
+				"test": "jest --verbose"
+			},
+			"files": [
+				"dist",
+				"index.js"
+			],
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/rayrutjes/diffable-html.git"
+			},
+			"keywords": [
+				"html",
+				"formatter",
+				"diff",
+				"diffable",
+				"jest",
+				"snapshot",
+				"serializer",
+				"snapshotSerializer",
+				"string",
+				"vue",
+				"vue.js",
+				"test",
+				"beautifier",
+				"js-beautify"
+			],
+			"bugs": {
+				"url": "https://github.com/rayrutjes/diffable-html/issues"
+			},
+			"homepage": "https://github.com/rayrutjes/diffable-html#readme",
+			"dependencies": {
+				"htmlparser2": "^3.9.2"
+			},
+			"devDependencies": {
+				"babel-jest": "^19.0.0",
+				"babel-preset-es2015": "^6.24.1",
+				"jest": "^19.0.2",
+				"rollup": "^0.41.6",
+				"rollup-plugin-buble": "^0.15.0",
+				"rollup-watch": "^3.2.2"
+			},
+			"gitHead": "cd72b04d7037aefabb3936ca33648113e15571d4",
+			"_id": "diffable-html@1.0.0",
+			"_shasum": "5a535f9d1e9133d4af92a2184f7e217e8679fdfb",
+			"_from": ".",
+			"_npmVersion": "4.1.2",
+			"_nodeVersion": "7.7.2",
+			"_npmUser": {
+				"name": "rayrutjes",
+				"email": "raymond.rutjes@gmail.com"
+			},
+			"dist": {
+				"shasum": "5a535f9d1e9133d4af92a2184f7e217e8679fdfb",
+				"tarball": "https://registry.npmjs.org/diffable-html/-/diffable-html-1.0.0.tgz",
+				"integrity": "sha512-a0OfPSS8C3AWctdQTK7MyfEdob3i/tENZgmaQbn9t3ohjm5Dia5cszr1Hf4x5HYPm53VTvUvOnLGVzIC8ngjXg==",
+				"signatures": [
+					{
+						"keyid": "SHA256:jl3bwswu80PjjokCgh0o2w5c2U4LhQAE57gj9cz1kzA",
+						"sig": "MEUCIQCVPHu19l740o+N8YDxj/7XkUp+2ywe2ansV6NdXHXixgIgEq68+ipIS1tgjqFSpD+wrDlAgXUu668Tg5WtzytNkDY="
+					}
+				]
+			},
+			"maintainers": [
+				{
+					"name": "rayrutjes",
+					"email": "raymond.rutjes@gmail.com"
+				}
+			],
+			"_npmOperationalInternal": {
+				"host": "packages-12-west.internal.npmjs.com",
+				"tmp": "tmp/diffable-html-1.0.0.tgz_1492509884947_0.19748516893014312"
+			},
+			"directories": {},
+			"contributors": []
+		},
+		"2.0.0": {
+			"name": "diffable-html",
+			"version": "2.0.0",
+			"description": "Opinionated HTML formatter focused towards making HTML diffs readable.",
+			"main": "dist/diffable-html.js",
+			"author": {
+				"name": "Raymond RUTJES",
+				"email": "raymond.rutjes@gmail.com",
+				"url": "https://github.com/rayrutjes/"
+			},
+			"license": "MIT",
+			"scripts": {
+				"build": "rollup --config",
+				"build:watch": "rollup --config --watch",
+				"test": "jest --verbose",
+				"changelog": "conventional-changelog -p angular -i CHANGELOG.md -s"
+			},
+			"files": [
+				"dist",
+				"index.js"
+			],
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/rayrutjes/diffable-html.git"
+			},
+			"keywords": [
+				"html",
+				"formatter",
+				"diff",
+				"diffable",
+				"jest",
+				"snapshot",
+				"serializer",
+				"snapshotSerializer",
+				"string",
+				"vue",
+				"vue.js",
+				"test",
+				"beautifier",
+				"js-beautify"
+			],
+			"bugs": {
+				"url": "https://github.com/rayrutjes/diffable-html/issues"
+			},
+			"homepage": "https://github.com/rayrutjes/diffable-html#readme",
+			"dependencies": {
+				"htmlparser2": "^3.9.2"
+			},
+			"devDependencies": {
+				"babel-jest": "^19.0.0",
+				"babel-preset-es2015": "^6.24.1",
+				"jest": "^19.0.2",
+				"rollup": "^0.41.6",
+				"rollup-plugin-buble": "^0.15.0",
+				"rollup-watch": "^3.2.2"
+			},
+			"gitHead": "07cd1118c21ae7c78b69bf4f764f021b0019dbc9",
+			"_id": "diffable-html@2.0.0",
+			"_shasum": "0f139b61c8fe4317888d58ed7afb824919824fa3",
+			"_from": ".",
+			"_npmVersion": "4.1.2",
+			"_nodeVersion": "7.7.2",
+			"_npmUser": {
+				"name": "rayrutjes",
+				"email": "raymond.rutjes@gmail.com"
+			},
+			"dist": {
+				"shasum": "0f139b61c8fe4317888d58ed7afb824919824fa3",
+				"tarball": "https://registry.npmjs.org/diffable-html/-/diffable-html-2.0.0.tgz",
+				"integrity": "sha512-9mw3DmFoULEYpBRRkARAaqiNOBay00nOxaJUMKVCNVhityMDI/4+fUky3i52mHUnXZK4yNFHW+JdtpLJvbXpMg==",
+				"signatures": [
+					{
+						"keyid": "SHA256:jl3bwswu80PjjokCgh0o2w5c2U4LhQAE57gj9cz1kzA",
+						"sig": "MEQCIBcYP6GL+628/3sYBJvnIEqAsvnzKv3cvGLn7yUHU4ubAiBcnX6TeWi3kEbgUd1ntFjZEgVJ7E+AXJ7tRIKOpZ8itg=="
+					}
+				]
+			},
+			"maintainers": [
+				{
+					"name": "rayrutjes",
+					"email": "raymond.rutjes@gmail.com"
+				}
+			],
+			"_npmOperationalInternal": {
+				"host": "packages-18-east.internal.npmjs.com",
+				"tmp": "tmp/diffable-html-2.0.0.tgz_1495122437412_0.43529821233823895"
+			},
+			"directories": {},
+			"contributors": []
+		},
+		"2.0.1": {
+			"name": "diffable-html",
+			"version": "2.0.1",
+			"description": "Opinionated HTML formatter focused towards making HTML diffs readable.",
+			"main": "dist/diffable-html.js",
+			"author": {
+				"name": "Raymond RUTJES",
+				"email": "raymond.rutjes@gmail.com",
+				"url": "https://github.com/rayrutjes/"
+			},
+			"license": "MIT",
+			"scripts": {
+				"build": "rollup --config",
+				"build:watch": "rollup --config --watch",
+				"test": "jest --verbose",
+				"changelog": "conventional-changelog -p angular -i CHANGELOG.md -s"
+			},
+			"files": [
+				"dist",
+				"index.js"
+			],
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/rayrutjes/diffable-html.git"
+			},
+			"keywords": [
+				"html",
+				"formatter",
+				"diff",
+				"diffable",
+				"jest",
+				"snapshot",
+				"serializer",
+				"snapshotSerializer",
+				"string",
+				"vue",
+				"vue.js",
+				"test",
+				"beautifier",
+				"js-beautify"
+			],
+			"bugs": {
+				"url": "https://github.com/rayrutjes/diffable-html/issues"
+			},
+			"homepage": "https://github.com/rayrutjes/diffable-html#readme",
+			"dependencies": {
+				"htmlparser2": "^3.9.2"
+			},
+			"devDependencies": {
+				"babel-jest": "^19.0.0",
+				"babel-preset-es2015": "^6.24.1",
+				"jest": "^19.0.2",
+				"rollup": "^0.41.6",
+				"rollup-plugin-buble": "^0.15.0",
+				"rollup-watch": "^3.2.2"
+			},
+			"gitHead": "c88615f76e3c30b2b0ae14f6896ee378b46d5a7f",
+			"_id": "diffable-html@2.0.1",
+			"_shasum": "8f5e115f0c27e84a956c0a3278b4c5db7a8c49ec",
+			"_from": ".",
+			"_npmVersion": "4.1.2",
+			"_nodeVersion": "7.7.2",
+			"_npmUser": {
+				"name": "rayrutjes",
+				"email": "raymond.rutjes@gmail.com"
+			},
+			"dist": {
+				"shasum": "8f5e115f0c27e84a956c0a3278b4c5db7a8c49ec",
+				"tarball": "https://registry.npmjs.org/diffable-html/-/diffable-html-2.0.1.tgz",
+				"integrity": "sha512-VYXZi+ykUvXJbNZZAejpMvqTQ80j7LScePJJFrhy8nbdeFEO/0k+/37gmtyN0jNiAirmnmw/n6A6321JeizFrg==",
+				"signatures": [
+					{
+						"keyid": "SHA256:jl3bwswu80PjjokCgh0o2w5c2U4LhQAE57gj9cz1kzA",
+						"sig": "MEUCIAitVrFgIWT02NnRiTGPeawEmPuylg3eO4Axm+iMYunMAiEArFo7BaP2uyriD04Qh9h62JPXs2oH+fRfUVO/eTaWUWk="
+					}
+				]
+			},
+			"maintainers": [
+				{
+					"name": "rayrutjes",
+					"email": "raymond.rutjes@gmail.com"
+				}
+			],
+			"_npmOperationalInternal": {
+				"host": "packages-18-east.internal.npmjs.com",
+				"tmp": "tmp/diffable-html-2.0.1.tgz_1495124541604_0.9316273001022637"
+			},
+			"directories": {},
+			"contributors": []
+		},
+		"2.1.0": {
+			"name": "diffable-html",
+			"version": "2.1.0",
+			"description": "Opinionated HTML formatter focused towards making HTML diffs readable.",
+			"main": "dist/diffable-html.js",
+			"author": {
+				"name": "Raymond RUTJES",
+				"email": "raymond.rutjes@gmail.com",
+				"url": "https://github.com/rayrutjes/"
+			},
+			"license": "MIT",
+			"scripts": {
+				"build": "rollup --config",
+				"build:watch": "rollup --config --watch",
+				"test": "jest --verbose",
+				"changelog": "conventional-changelog -p angular -i CHANGELOG.md -s"
+			},
+			"files": [
+				"dist",
+				"index.js"
+			],
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/rayrutjes/diffable-html.git"
+			},
+			"keywords": [
+				"html",
+				"formatter",
+				"diff",
+				"diffable",
+				"jest",
+				"snapshot",
+				"serializer",
+				"snapshotSerializer",
+				"string",
+				"vue",
+				"vue.js",
+				"test",
+				"beautifier",
+				"js-beautify"
+			],
+			"bugs": {
+				"url": "https://github.com/rayrutjes/diffable-html/issues"
+			},
+			"homepage": "https://github.com/rayrutjes/diffable-html#readme",
+			"dependencies": {
+				"htmlparser2": "^3.9.2"
+			},
+			"devDependencies": {
+				"babel-jest": "^19.0.0",
+				"babel-preset-es2015": "^6.24.1",
+				"jest": "^19.0.2",
+				"rollup": "^0.41.6",
+				"rollup-plugin-buble": "^0.15.0",
+				"rollup-watch": "^3.2.2"
+			},
+			"gitHead": "21f30549ed186c037340581cdaf0959b35d3683f",
+			"_id": "diffable-html@2.1.0",
+			"_shasum": "0d4c2de115ac58f904aab1b72e6649cefca5f025",
+			"_from": ".",
+			"_npmVersion": "4.1.2",
+			"_nodeVersion": "7.7.2",
+			"_npmUser": {
+				"name": "rayrutjes",
+				"email": "raymond.rutjes@gmail.com"
+			},
+			"dist": {
+				"shasum": "0d4c2de115ac58f904aab1b72e6649cefca5f025",
+				"tarball": "https://registry.npmjs.org/diffable-html/-/diffable-html-2.1.0.tgz",
+				"integrity": "sha512-+u1uP1JuIEsMHIQUsqs68tx6Ge1MmswU8NPXLIV3Kf8p0rn/3poHySatRyjJ1u/q+QbzJ/4cKiC7zDzS33tCmg==",
+				"signatures": [
+					{
+						"keyid": "SHA256:jl3bwswu80PjjokCgh0o2w5c2U4LhQAE57gj9cz1kzA",
+						"sig": "MEQCIEMeUoGW6VIZ6oixfuzH+/fQ0jB+gU3pFT6n6G4eRYf+AiAOiS699U5Z2jduTGUXTO3sjYPeMgkPREIcVxq0cLMHAQ=="
+					}
+				]
+			},
+			"maintainers": [
+				{
+					"name": "rayrutjes",
+					"email": "raymond.rutjes@gmail.com"
+				}
+			],
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/diffable-html-2.1.0.tgz_1495888969430_0.2011363971978426"
+			},
+			"directories": {},
+			"contributors": []
+		},
+		"3.0.0": {
+			"name": "diffable-html",
+			"version": "3.0.0",
+			"description": "Opinionated HTML formatter focused towards making HTML diffs readable.",
+			"main": "dist/diffable-html.js",
+			"author": {
+				"name": "Raymond RUTJES",
+				"email": "raymond.rutjes@gmail.com",
+				"url": "https://github.com/rayrutjes/"
+			},
+			"license": "MIT",
+			"scripts": {
+				"build": "rollup --config",
+				"build:watch": "rollup --config --watch",
+				"test": "jest --verbose",
+				"changelog": "conventional-changelog --preset angular --infile CHANGELOG.md --same-file",
+				"changelog:unreleased": "conventional-changelog --preset angular --output-unreleased"
+			},
+			"files": [
+				"dist"
+			],
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/rayrutjes/diffable-html.git"
+			},
+			"keywords": [
+				"html",
+				"formatter",
+				"diff",
+				"diffable",
+				"jest",
+				"snapshot",
+				"serializer",
+				"snapshotSerializer",
+				"string",
+				"vue",
+				"vue.js",
+				"test",
+				"beautifier",
+				"js-beautify"
+			],
+			"bugs": {
+				"url": "https://github.com/rayrutjes/diffable-html/issues"
+			},
+			"homepage": "https://github.com/rayrutjes/diffable-html#readme",
+			"dependencies": {
+				"htmlparser2": "^3.9.2"
+			},
+			"devDependencies": {
+				"babel-jest": "^19.0.0",
+				"babel-preset-es2015": "^6.24.1",
+				"conventional-changelog-cli": "^1.3.5",
+				"jest": "^19.0.2",
+				"rollup": "^0.41.6",
+				"rollup-plugin-buble": "^0.15.0",
+				"rollup-watch": "^3.2.2"
+			},
+			"gitHead": "e7246f074790aa964e98aef01b6f4952be427bf8",
+			"_id": "diffable-html@3.0.0",
+			"_npmVersion": "5.6.0",
+			"_nodeVersion": "8.7.0",
+			"_npmUser": {
+				"name": "rayrutjes",
+				"email": "raymond.rutjes@gmail.com"
+			},
+			"dist": {
+				"integrity": "sha512-lUxHiU00DexR/wKcY56OiJZmB0D66ghidYfU4VxUMG09TDx+1jjO7/dFrZKI2p9z00tWY/7ZeO9BBEi6n0jUYQ==",
+				"shasum": "3766be8bcf6e90e061bdc321e04e14fc0630853f",
+				"tarball": "https://registry.npmjs.org/diffable-html/-/diffable-html-3.0.0.tgz",
+				"signatures": [
+					{
+						"keyid": "SHA256:jl3bwswu80PjjokCgh0o2w5c2U4LhQAE57gj9cz1kzA",
+						"sig": "MEUCIGYlw74P8t81/EHPWyoZSvPyZ2Y9Lcsl0/dw0eJZpeHQAiEAw7v+7uYTjLmqraPxFXxqTTXiWAu+VoOQ0xdojrOboFc="
+					}
+				]
+			},
+			"maintainers": [
+				{
+					"name": "rayrutjes",
+					"email": "raymond.rutjes@gmail.com"
+				}
+			],
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/diffable-html-3.0.0.tgz_1514979091448_0.7951549673452973"
+			},
+			"directories": {},
+			"contributors": []
+		},
+		"4.0.0": {
+			"name": "diffable-html",
+			"version": "4.0.0",
+			"description": "Opinionated HTML formatter focused towards making HTML diffs readable.",
+			"main": "dist/diffable-html.js",
+			"author": {
+				"name": "Raymond RUTJES",
+				"email": "raymond.rutjes@gmail.com",
+				"url": "https://github.com/rayrutjes/"
+			},
+			"license": "MIT",
+			"scripts": {
+				"build": "rollup --config",
+				"build:watch": "rollup --config --watch",
+				"test": "jest --verbose",
+				"changelog": "conventional-changelog --preset angular --infile CHANGELOG.md --same-file",
+				"changelog:unreleased": "conventional-changelog --preset angular --output-unreleased"
+			},
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/rayrutjes/diffable-html.git"
+			},
+			"keywords": [
+				"html",
+				"formatter",
+				"diff",
+				"diffable",
+				"jest",
+				"snapshot",
+				"serializer",
+				"snapshotSerializer",
+				"string",
+				"vue",
+				"vue.js",
+				"test",
+				"beautifier",
+				"js-beautify"
+			],
+			"bugs": {
+				"url": "https://github.com/rayrutjes/diffable-html/issues"
+			},
+			"homepage": "https://github.com/rayrutjes/diffable-html#readme",
+			"dependencies": {
+				"htmlparser2": "^3.9.2"
+			},
+			"devDependencies": {
+				"babel-jest": "^19.0.0",
+				"babel-preset-es2015": "^6.24.1",
+				"conventional-changelog-cli": "^1.3.5",
+				"jest": "^19.0.2",
+				"rollup": "^0.41.6",
+				"rollup-plugin-buble": "^0.15.0",
+				"rollup-watch": "^3.2.2"
+			},
+			"gitHead": "05fdc4e0402f9ff70fe68ae3750e8279b48e1a52",
+			"_id": "diffable-html@4.0.0",
+			"_npmVersion": "6.4.1",
+			"_nodeVersion": "11.4.0",
+			"_npmUser": {
+				"name": "rayrutjes",
+				"email": "raymond.rutjes@gmail.com"
+			},
+			"dist": {
+				"integrity": "sha512-keJdgy2qBkdrrnwP1YE6e834d4Y+mV0aRFzk8w7WzyAJVbQVfcJltSmUWB3r/NOoO/0jt7RdJlvy5ioyqvmQcw==",
+				"shasum": "eb44a189785115bacd04829f31658fcd3c0ce590",
+				"tarball": "https://registry.npmjs.org/diffable-html/-/diffable-html-4.0.0.tgz",
+				"fileCount": 4,
+				"unpackedSize": 11681,
+				"npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.4\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJcKcOiCRA9TVsSAnZWagAAWz8P/inXGiefzay/Tz8lUj+4\nBeGUe4+evWF9mTX53Mbstig+zLoAEweSHTFqvsjmPwYyLRxCDEOwdZ7nGYEO\nTClT9qTHcg9ByRo0uOjOrEbPKUkZr6yp7kUGC7TegQGZjpJnucXhqogb3FRp\nCY1/3DwBV+6ff1u/NWJYtRfCZDkRpTpdak8Ix6ypIUA0Mk0+IIutTKvcQLd8\nfl3PaAnCxKV/fSlM5/jxfzjfIBKQDpmlG6V6za0dL4p4HabFl8RzA2NtvgJu\nlT6kFQkulzFEWNtVAVVjkmuOF/pkpDd1iFGtQge9FbnB9tJXebfVox5Mgv+E\njzSnYdqG4ysTOhe5AtJf6KoEtrN+hS0gtCorvLDBuEuliHxfVi+mVM6OoanX\nMXXVn8gM3b8GQ3M8dpg+vi+brpI4475SI3xYrEKDddjJeZFDIHJsIJPf6f7Y\nuFNONoWFRsGckFEqXMVvtqt4qr7Ksn4YnjeBJCGdKzCKt/HtgUXaRhEk4GGr\nxtWKC5t1WDlDjtO+knjQm9K2APC0oLASKaRDJ5ksKNDmy2UT0ILvKgJJ/+cl\nAyd0GP9WwPz9XMF8V339LuUXGDvBO4z+jT+11SKRGqF5Ze7X2pMOaCEQeOtR\n1vzhn3BzdNKp7jkTcqh+PVGIBwNDVdNNK5oVvTZkmF6PKMiw19FixroJlnT3\nOqRx\r\n=tQq5\r\n-----END PGP SIGNATURE-----\r\n",
+				"signatures": [
+					{
+						"keyid": "SHA256:jl3bwswu80PjjokCgh0o2w5c2U4LhQAE57gj9cz1kzA",
+						"sig": "MEYCIQDl2/o2W5nTcpA4v26YItm3l8cfUUyHzKx87JcoE9B84gIhALDmk724hPj5kbXCX9q9Xrp9C2gxkzrYLNXfwiQiAHKa"
+					}
+				]
+			},
+			"maintainers": [
+				{
+					"name": "rayrutjes",
+					"email": "raymond.rutjes@gmail.com"
+				}
+			],
+			"directories": {},
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/diffable-html_4.0.0_1546240930260_0.9068623823074131"
+			},
+			"_hasShrinkwrap": false,
+			"contributors": []
+		},
+		"4.1.0": {
+			"name": "diffable-html",
+			"version": "4.1.0",
+			"description": "Opinionated HTML formatter focused towards making HTML diffs readable.",
+			"main": "dist/diffable-html.js",
+			"author": {
+				"name": "Raymond RUTJES",
+				"email": "raymond.rutjes@gmail.com",
+				"url": "https://github.com/rayrutjes/"
+			},
+			"license": "MIT",
+			"scripts": {
+				"build": "rollup --config",
+				"build:watch": "rollup --config --watch",
+				"test": "jest --verbose",
+				"changelog": "conventional-changelog --preset angular --infile CHANGELOG.md --same-file",
+				"changelog:unreleased": "conventional-changelog --preset angular --output-unreleased"
+			},
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/rayrutjes/diffable-html.git"
+			},
+			"keywords": [
+				"html",
+				"formatter",
+				"diff",
+				"diffable",
+				"jest",
+				"snapshot",
+				"serializer",
+				"snapshotSerializer",
+				"string",
+				"vue",
+				"vue.js",
+				"test",
+				"beautifier",
+				"js-beautify"
+			],
+			"bugs": {
+				"url": "https://github.com/rayrutjes/diffable-html/issues"
+			},
+			"homepage": "https://github.com/rayrutjes/diffable-html#readme",
+			"dependencies": {
+				"htmlparser2": "^3.9.2"
+			},
+			"devDependencies": {
+				"babel-jest": "^19.0.0",
+				"babel-preset-es2015": "^6.24.1",
+				"conventional-changelog-cli": "^1.3.5",
+				"jest": "^19.0.2",
+				"rollup": "^0.41.6",
+				"rollup-plugin-buble": "^0.15.0",
+				"rollup-watch": "^3.2.2"
+			},
+			"gitHead": "73b0aa3d4857b38dcd6e407d59987c2534c2c5d9",
+			"_id": "diffable-html@4.1.0",
+			"_nodeVersion": "12.19.0",
+			"_npmVersion": "6.14.8",
+			"dist": {
+				"integrity": "sha512-++kyNek+YBLH8cLXS+iTj/Hiy2s5qkRJEJ8kgu/WHbFrVY2vz9xPFUT+fii2zGF0m1CaojDlQJjkfrCt7YWM1g==",
+				"shasum": "e7a2d1de187c4e23a59751b4e4c17483a058c696",
+				"tarball": "https://registry.npmjs.org/diffable-html/-/diffable-html-4.1.0.tgz",
+				"fileCount": 4,
+				"unpackedSize": 12153,
+				"npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.13\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJg7X7LCRA9TVsSAnZWagAAiZIP/jLDWQVF07E+iJxOjPt5\nSaErKND+4JsTXvOCn5Nrpw4nFeptosCHRi08n9fdOlMIszI9ZDsViUi+pcNL\naD+fRTFNXhh0MLfvO8adr7Dk4RscAPEU8TFUwdZdQVMNJKxMrt8Ho1Y8dEmm\ncRxCS9axgQ6KJxAi7vdZ3/ELPPIQVTPXC7MlXqDGXeKwua16JOrAqskcP2zZ\nwpZpLTc7DWakVHJkG+YaAN1PeP02aePUFEZtJErZAEeH2ZxlqTvHiM3xBrPL\njm1o9fsbV2w4zssKuxxfHhmUZ//LVE2uHZunkZv0Q5LJPFHoObFxFS+EOISo\nZDf6/gWYBbzdbhtllfSHafTa6QirIKqJLoFisLrhqATBIWVWrfUeV22gCREQ\n9eTe0lanWJxqYmAZcq8rNjychyyUN7AfNK5C8ozjDuvG/rEm4Yy5zTDjrYNc\nkvqWXYQN5tziNDnVRk4/iWKE69qeMsKwcmWtpTxk/M5B36NQOgiZYoogyPk0\nFc/EfguzsLYUczWA6P/+EhOnr62+NdMT/I81EFcmijUyHgxEyEmUFHkDogSC\n7JcsSQheNneySeuod8B+gwQxpBBKKoAm0BY2/b3/3oUkWSv0tK+rfiPNcHPm\n9Mzrva5BPwA/ix5mtVNVAdtuMxE+tuLnVt0KAJGBGJ99oCeHOFudbXbJf9Le\neJrr\r\n=EUd4\r\n-----END PGP SIGNATURE-----\r\n",
+				"signatures": [
+					{
+						"keyid": "SHA256:jl3bwswu80PjjokCgh0o2w5c2U4LhQAE57gj9cz1kzA",
+						"sig": "MEYCIQC4AKc72dB/sTT8+4kcDuwtT1oV2lcDK/HJTJS5eaZlEQIhANWYnHseL/Au+X9hJ0gjfcNTMAKpWxGYtzoVXW0Samf4"
+					}
+				]
+			},
+			"_npmUser": {
+				"name": "eunjae-lee",
+				"email": "karis612@gmail.com"
+			},
+			"directories": {},
+			"maintainers": [
+				{
+					"name": "haroenv",
+					"email": "hello@haroen.me"
+				},
+				{
+					"name": "eunjae-lee",
+					"email": "karis612@gmail.com"
+				},
+				{
+					"name": "francoischalifour",
+					"email": "francois.chalifour@gmail.com"
+				},
+				{
+					"name": "tkrugg",
+					"email": "contact@ymammar.com"
+				},
+				{
+					"name": "rayrutjes",
+					"email": "raymond.rutjes@gmail.com"
+				}
+			],
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/diffable-html_4.1.0_1626177226810_0.791607197622302"
+			},
+			"_hasShrinkwrap": false,
+			"contributors": []
+		},
+		"5.0.0": {
+			"name": "diffable-html",
+			"version": "5.0.0",
+			"description": "Opinionated HTML formatter focused towards making HTML diffs readable.",
+			"main": "dist/diffable-html.js",
+			"author": {
+				"name": "Raymond RUTJES",
+				"email": "raymond.rutjes@gmail.com",
+				"url": "https://github.com/rayrutjes/"
+			},
+			"license": "MIT",
+			"scripts": {
+				"build": "rollup --config",
+				"build:watch": "rollup --config --watch",
+				"test": "jest --verbose",
+				"changelog": "conventional-changelog --preset angular --infile CHANGELOG.md --same-file",
+				"changelog:unreleased": "conventional-changelog --preset angular --output-unreleased"
+			},
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/rayrutjes/diffable-html.git"
+			},
+			"keywords": [
+				"html",
+				"formatter",
+				"diff",
+				"diffable",
+				"jest",
+				"snapshot",
+				"serializer",
+				"snapshotSerializer",
+				"string",
+				"vue",
+				"vue.js",
+				"test",
+				"beautifier",
+				"js-beautify"
+			],
+			"bugs": {
+				"url": "https://github.com/rayrutjes/diffable-html/issues"
+			},
+			"homepage": "https://github.com/rayrutjes/diffable-html#readme",
+			"dependencies": {
+				"htmlparser2": "^3.9.2"
+			},
+			"devDependencies": {
+				"babel-jest": "^19.0.0",
+				"babel-preset-es2015": "^6.24.1",
+				"conventional-changelog-cli": "^1.3.5",
+				"jest": "^19.0.2",
+				"rollup": "^0.41.6",
+				"rollup-plugin-buble": "^0.15.0",
+				"rollup-watch": "^3.2.2"
+			},
+			"gitHead": "8da6f8e8ee986561e43ade3d83f7496542b5e886",
+			"_id": "diffable-html@5.0.0",
+			"_nodeVersion": "12.18.3",
+			"_npmVersion": "6.14.6",
+			"dist": {
+				"integrity": "sha512-BymfWdoIv53XDp/sINPyngxiyJr7ygmAoUN7nIlPC7E+jiLvPdVIZteG4btCaB5Nyf8CMyMxp8r4Vi2r1FtSsA==",
+				"shasum": "8ab0d723e45e07369c2be25c6691373b81424916",
+				"tarball": "https://registry.npmjs.org/diffable-html/-/diffable-html-5.0.0.tgz",
+				"fileCount": 4,
+				"unpackedSize": 12145,
+				"signatures": [
+					{
+						"keyid": "SHA256:jl3bwswu80PjjokCgh0o2w5c2U4LhQAE57gj9cz1kzA",
+						"sig": "MEUCIQCGh5mWx0RCZ069OI7KOB0mBT3k3OSBVN/rlhD/SbtlKAIgCjFn91lyLW/Hu1QqDbFjH3sTCI6DCouutbPMNADeItI="
+					}
+				]
+			},
+			"_npmUser": {
+				"name": "haroenv",
+				"email": "hello@haroen.me"
+			},
+			"directories": {},
+			"maintainers": [
+				{
+					"name": "haroenv",
+					"email": "hello@haroen.me"
+				},
+				{
+					"name": "eunjae-lee",
+					"email": "karis612@gmail.com"
+				},
+				{
+					"name": "francoischalifour",
+					"email": "francois.chalifour@gmail.com"
+				},
+				{
+					"name": "tkrugg",
+					"email": "contact@ymammar.com"
+				},
+				{
+					"name": "rayrutjes",
+					"email": "raymond.rutjes@gmail.com"
+				}
+			],
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/diffable-html_5.0.0_1634653371332_0.36298517013138487"
+			},
+			"_hasShrinkwrap": false,
+			"contributors": []
+		}
+	},
+	"time": {
+		"modified": "2023-10-18T14:43:36.119Z",
+		"created": "2017-04-18T09:46:29.381Z",
+		"0.1.0": "2017-04-18T09:46:29.381Z",
+		"0.2.0": "2017-04-18T09:54:59.364Z",
+		"1.0.0": "2017-04-18T10:04:46.760Z",
+		"2.0.0": "2017-05-18T15:47:19.131Z",
+		"2.0.1": "2017-05-18T16:22:22.615Z",
+		"2.1.0": "2017-05-27T12:42:50.345Z",
+		"3.0.0": "2018-01-03T11:31:32.401Z",
+		"4.0.0": "2018-12-31T07:22:10.356Z",
+		"4.1.0": "2021-07-13T11:53:46.921Z",
+		"5.0.0": "2021-10-19T14:22:51.477Z"
+	},
+	"users": {},
+	"dist-tags": {
+		"latest": "5.0.0"
+	},
+	"_uplinks": {
+		"npmjs": {
+			"etag": "W/\"e5c276b94458b726aef4aa0535bc920b\"",
+			"fetched": 1715345980521
+		}
+	},
+	"_distfiles": {
+		"diffable-html-0.1.0.tgz": {
+			"url": "https://registry.npmjs.org/diffable-html/-/diffable-html-0.1.0.tgz",
+			"sha": "6f96c3e609aa04590a2c1d85764b77cc962861c8",
+			"registry": "npmjs"
+		},
+		"diffable-html-0.2.0.tgz": {
+			"url": "https://registry.npmjs.org/diffable-html/-/diffable-html-0.2.0.tgz",
+			"sha": "aadfaeb7e06f06c9fdc9423376d3dcacd606328d",
+			"registry": "npmjs"
+		},
+		"diffable-html-1.0.0.tgz": {
+			"url": "https://registry.npmjs.org/diffable-html/-/diffable-html-1.0.0.tgz",
+			"sha": "5a535f9d1e9133d4af92a2184f7e217e8679fdfb",
+			"registry": "npmjs"
+		},
+		"diffable-html-2.0.0.tgz": {
+			"url": "https://registry.npmjs.org/diffable-html/-/diffable-html-2.0.0.tgz",
+			"sha": "0f139b61c8fe4317888d58ed7afb824919824fa3",
+			"registry": "npmjs"
+		},
+		"diffable-html-2.0.1.tgz": {
+			"url": "https://registry.npmjs.org/diffable-html/-/diffable-html-2.0.1.tgz",
+			"sha": "8f5e115f0c27e84a956c0a3278b4c5db7a8c49ec",
+			"registry": "npmjs"
+		},
+		"diffable-html-2.1.0.tgz": {
+			"url": "https://registry.npmjs.org/diffable-html/-/diffable-html-2.1.0.tgz",
+			"sha": "0d4c2de115ac58f904aab1b72e6649cefca5f025",
+			"registry": "npmjs"
+		},
+		"diffable-html-3.0.0.tgz": {
+			"url": "https://registry.npmjs.org/diffable-html/-/diffable-html-3.0.0.tgz",
+			"sha": "3766be8bcf6e90e061bdc321e04e14fc0630853f",
+			"registry": "npmjs"
+		},
+		"diffable-html-4.0.0.tgz": {
+			"url": "https://registry.npmjs.org/diffable-html/-/diffable-html-4.0.0.tgz",
+			"sha": "eb44a189785115bacd04829f31658fcd3c0ce590",
+			"registry": "npmjs"
+		},
+		"diffable-html-4.1.0.tgz": {
+			"url": "https://registry.npmjs.org/diffable-html/-/diffable-html-4.1.0.tgz",
+			"sha": "e7a2d1de187c4e23a59751b4e4c17483a058c696",
+			"registry": "npmjs"
+		},
+		"diffable-html-5.0.0.tgz": {
+			"url": "https://registry.npmjs.org/diffable-html/-/diffable-html-5.0.0.tgz",
+			"sha": "8ab0d723e45e07369c2be25c6691373b81424916",
+			"registry": "npmjs"
+		}
+	},
+	"_attachments": {
+		"diffable-html-4.1.0.tgz": {
+			"shasum": "e7a2d1de187c4e23a59751b4e4c17483a058c696"
+		}
+	},
+	"_rev": "2-d7b203231bb1e5db",
+	"_id": "diffable-html",
+	"readme": "# Opinionated HTML formatter focused towards making HTML diffs readable.\n\n[![NPM version](https://badge.fury.io/js/diffable-html.svg)](https://yarnpkg.org/en/package/diffable-html)\n[![Build Status](https://travis-ci.org/rayrutjes/diffable-html.svg?branch=master)](https://travis-ci.org/rayrutjes/diffable-html)\n\nThis formatter will normalize your HTML in a way that when you diff it, you get a clear sense of what changed.\n\nThis is a \"zero-config\" and opinionated HTML formatter. Default rules might change in future releases in which case we will push a major release.\n\nFeel free to open issues to discuss better defaults.\n\nFormatting consists of:\n- indenting every level with 2 spaces\n- align attributes\n- put every opening and closing tag on its own line\n- trimming text nodes\n\n*Be aware that this plugin is intended for making HTML diffs more readable.\nWe took the compromise of not dealing with white-spaces like the browsers do.*\n\n## Install\n\nAdd the package as a dev-dependency:\n\n```bash\n# With npm\nnpm install --save-dev diffable-html\n\n# With yarn\nyarn add --dev diffable-html\n```\n\n\n## Example\n\n```js\nimport toDiffableHtml from 'diffable-html';\n\nconst html = `\n<div id=\"header\">\n  <h1>Hello World!</h1>\n  <ul id=\"main-list\" class=\"list\"><li><a href=\"#\">My HTML</a></li></ul>\n</div>\n`\n\nconsole.log(toDiffableHtml(html));\n```\n\nWill output:\n\n```html\n<div id=\"header\">\n  <h1>\n    Hello World!\n  </h1>\n  <ul\n    id=\"main-list\"\n    class=\"list\"\n  >\n    <li>\n      <a href=\"#\">\n        My HTML\n      </a>\n    </li>\n  </ul>\n</div>\n```\n\n## Yet another HTML formatting plugin?\n\nThis formatter was initially developed to address the lack of some features in [js-beautifier](https://github.com/beautify-web/js-beautify):\n\n- Put the inner content of each tag on its own line (beautify-web/js-beautify#980)\n- Put closing bracket on its own line (beautify-web/js-beautify#937)\n- Indent every text node\n\nThese features are needed to improve readability of HTML diffs.\n\n## Usage with Jest\n\nDevelopment of this plugin was motivated by making testing of Vue.js components easier\nby the use of [Jest with snapshot tests](https://facebook.github.io/jest/docs/snapshot-testing.html).\n\nYou can find a serializer for formatting your HTML here [Jest serializer](https://github.com/rayrutjes/jest-serializer-html)."
+}

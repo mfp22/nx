@@ -1,0 +1,1025 @@
+{
+	"name": "magic-string-ast",
+	"versions": {
+		"0.1.0": {
+			"name": "magic-string-ast",
+			"version": "0.1.0",
+			"packageManager": "pnpm@7.29.3",
+			"description": "Extend magic-string for Babel AST.",
+			"license": "MIT",
+			"homepage": "https://github.com/sxzz/magic-string-ast#readme",
+			"bugs": {
+				"url": "https://github.com/sxzz/magic-string-ast/issues"
+			},
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/sxzz/magic-string-ast.git"
+			},
+			"main": "./dist/index.js",
+			"module": "./dist/index.mjs",
+			"types": "./dist/index.d.ts",
+			"exports": {
+				"types": "./dist/index.d.ts",
+				"require": "./dist/index.js",
+				"import": "./dist/index.mjs"
+			},
+			"publishConfig": {
+				"access": "public"
+			},
+			"dependencies": {
+				"magic-string": "^0.30.0"
+			},
+			"devDependencies": {
+				"@babel/types": "^7.21.3",
+				"@sxzz/eslint-config-prettier": "^2.4.5",
+				"@sxzz/eslint-config-ts": "^2.4.5",
+				"@types/node": "^18.15.3",
+				"bumpp": "^9.0.0",
+				"eslint": "^8.36.0",
+				"eslint-define-config": "^1.16.0",
+				"fast-glob": "^3.2.12",
+				"prettier": "^2.8.4",
+				"tsup": "^6.6.3",
+				"tsx": "^3.12.5",
+				"typescript": "^4.9.5",
+				"vitest": "^0.29.2"
+			},
+			"engines": {
+				"node": ">=14.19.0"
+			},
+			"scripts": {
+				"lint": "eslint . --ext .vue,.js,.ts,.jsx,.tsx,.json,.md",
+				"lint:fix": "pnpm run lint --fix",
+				"build": "tsup && tsx scripts/postbuild.mts",
+				"test": "vitest",
+				"release": "bumpp && pnpm publish"
+			},
+			"_id": "magic-string-ast@0.1.0",
+			"_integrity": "sha512-vd9AOYPQeG8km4hcJYMVWnW49P7YJ5rYR3X3//ecSLsVU2MHzqjiSCk73Kuf8is/utVgjksD4k5VXAkmsBF+bQ==",
+			"_resolved": "/private/var/folders/d9/9drlr87n4j904th57x6955l40000gn/T/cb83d860e974af5594694a6c500a1d14/magic-string-ast-0.1.0.tgz",
+			"_from": "file:magic-string-ast-0.1.0.tgz",
+			"_nodeVersion": "18.14.0",
+			"_npmVersion": "9.3.1",
+			"dist": {
+				"integrity": "sha512-vd9AOYPQeG8km4hcJYMVWnW49P7YJ5rYR3X3//ecSLsVU2MHzqjiSCk73Kuf8is/utVgjksD4k5VXAkmsBF+bQ==",
+				"shasum": "3b1e6c5754e281bfba0273c76d5955694149f083",
+				"tarball": "https://registry.npmjs.org/magic-string-ast/-/magic-string-ast-0.1.0.tgz",
+				"fileCount": 7,
+				"unpackedSize": 10903,
+				"signatures": [
+					{
+						"keyid": "SHA256:jl3bwswu80PjjokCgh0o2w5c2U4LhQAE57gj9cz1kzA",
+						"sig": "MEUCIQCcjTBSeiuMhQeaH22gpP4NJTFdjbpb9+ZAcduVDaMX1wIgRx/IkXUtt/+WSxSl3WfDxOPq7MODdCi0NJ8N7wnLbr4="
+					}
+				],
+				"npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v4.10.10\r\nComment: https://openpgpjs.org\r\n\r\nwsFzBAEBCAAGBQJkHEFAACEJED1NWxICdlZqFiEECWMYAoorWMhJKdjhPU1b\r\nEgJ2Vmpnqg/+PxCLIaDYKrVlJBuXb6s1ZGyt9f6SYs2AeLz45WqJl/OWLv/U\r\nFK6AuynqWuYXWhnpNKmg362wdsItbIa0nSI2I6VO4/c96RihTk8Si5dMG70v\r\ncUnd+Dp8HOtWYpeJIknn8XWrbTqi9g+1FxU0Z/gih8j0OyN1AbEJHk7O3uRn\r\nLd7D+IoMwSFf03v/a1b/Our/Dvyvc8nuoSZAN9Fki0bUqX157c098r8QU2eB\r\nyO2mj7y+Ov2IW77vqxfDCybWLPDyN34q1UICKSLhP5ZhlcCnM51Hb5D3pWj4\r\ncpgCnRICpb4kg/q/EIdh4CnUDN7X9vijoz9Xsrton2MCzHy26eGyi0OJF+AZ\r\nTAFInImNHM99RE7+bT0D8fCQX5LHfWmHdfZjGCo9GsM4Jixf8FQefJDVCwIF\r\nJLXNU4u34KEnpxV2B4+LD9T+goJoeW9x44amg921r1T95aoi3j3BfXtm8wiJ\r\ngKkdG/N0ZYkpskSgKISl6omZKnUGcdtzhwKAKu3qHqlkHDSa2IdUt+5kSi4t\r\nMMRVvaM4oCn5RE/AHpBXvCv6Qy1pT5dsP2TfFxaF2xbPESKsdohGAJinIEUA\r\nNbz+9io3DpmgMFCQdKeqZtbLEGcxcM4jpKefX0Q1a0/cAkMtlK7a113L3MzB\r\nOyIb+vB8aeX6ggxRkXtIKeE3Mhk5vnnsY9s=\r\n=qdfv\r\n-----END PGP SIGNATURE-----\r\n"
+			},
+			"_npmUser": {
+				"name": "sxzz",
+				"email": "sxzz@sxzz.moe"
+			},
+			"directories": {},
+			"maintainers": [
+				{
+					"name": "sxzz",
+					"email": "sxzz@sxzz.moe"
+				}
+			],
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/magic-string-ast_0.1.0_1679573312456_0.8534494930574394"
+			},
+			"_hasShrinkwrap": false,
+			"contributors": []
+		},
+		"0.1.1": {
+			"name": "magic-string-ast",
+			"version": "0.1.1",
+			"packageManager": "pnpm@7.29.3",
+			"description": "Extend magic-string for Babel AST.",
+			"license": "MIT",
+			"homepage": "https://github.com/sxzz/magic-string-ast#readme",
+			"bugs": {
+				"url": "https://github.com/sxzz/magic-string-ast/issues"
+			},
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/sxzz/magic-string-ast.git"
+			},
+			"main": "./dist/index.js",
+			"module": "./dist/index.mjs",
+			"types": "./dist/index.d.ts",
+			"exports": {
+				".": {
+					"types": "./dist/index.d.ts",
+					"require": "./dist/index.js",
+					"import": "./dist/index.mjs"
+				},
+				"./*": "./*"
+			},
+			"publishConfig": {
+				"access": "public"
+			},
+			"dependencies": {
+				"magic-string": "^0.30.0"
+			},
+			"devDependencies": {
+				"@babel/types": "^7.21.3",
+				"@sxzz/eslint-config-prettier": "^2.4.5",
+				"@sxzz/eslint-config-ts": "^2.4.5",
+				"@types/node": "^18.15.3",
+				"bumpp": "^9.0.0",
+				"eslint": "^8.36.0",
+				"eslint-define-config": "^1.16.0",
+				"fast-glob": "^3.2.12",
+				"prettier": "^2.8.4",
+				"tsup": "^6.6.3",
+				"tsx": "^3.12.5",
+				"typescript": "^4.9.5",
+				"vitest": "^0.29.2"
+			},
+			"engines": {
+				"node": ">=14.19.0"
+			},
+			"scripts": {
+				"lint": "eslint . --ext .vue,.js,.ts,.jsx,.tsx,.json,.md",
+				"lint:fix": "pnpm run lint --fix",
+				"build": "tsup && tsx scripts/postbuild.mts",
+				"test": "vitest",
+				"release": "bumpp && pnpm publish"
+			},
+			"_id": "magic-string-ast@0.1.1",
+			"_integrity": "sha512-4kUDFUGBaVDvrl2CHHjy9k+UFsuFN+5QH2ZOYSwfPYsH8FI/weYUK8jgwi5pcP17htfFL37JnTeJGaqmygqZcw==",
+			"_resolved": "/private/var/folders/d9/9drlr87n4j904th57x6955l40000gn/T/7de6dd3bf9cbdd3d8a895286e3866586/magic-string-ast-0.1.1.tgz",
+			"_from": "file:magic-string-ast-0.1.1.tgz",
+			"_nodeVersion": "18.14.0",
+			"_npmVersion": "9.3.1",
+			"dist": {
+				"integrity": "sha512-4kUDFUGBaVDvrl2CHHjy9k+UFsuFN+5QH2ZOYSwfPYsH8FI/weYUK8jgwi5pcP17htfFL37JnTeJGaqmygqZcw==",
+				"shasum": "79cf1af2ecdcc3ebf97768a89b83c731fec8236c",
+				"tarball": "https://registry.npmjs.org/magic-string-ast/-/magic-string-ast-0.1.1.tgz",
+				"fileCount": 7,
+				"unpackedSize": 10944,
+				"signatures": [
+					{
+						"keyid": "SHA256:jl3bwswu80PjjokCgh0o2w5c2U4LhQAE57gj9cz1kzA",
+						"sig": "MEQCIHPSR7RCiD39YZnnAHkrvw3k89x2xgU7Mt8QeMeXDgN+AiBJyRG6U516zOLj9el/3UubpXO/r4Sr8x0+Hs1KbYysVw=="
+					}
+				],
+				"npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v4.10.10\r\nComment: https://openpgpjs.org\r\n\r\nwsFzBAEBCAAGBQJkHEOaACEJED1NWxICdlZqFiEECWMYAoorWMhJKdjhPU1b\r\nEgJ2VmqyUw//d59xYUwko9KgcP9bwCjx5n54AN1pJy8EOzwZ0t7gwgXOs9Jl\r\nFZoSo6qKjyf/ryObP6FJtARAfPMLpJG7YuXsgynTvJ8lyxN2MPQfTVghRqij\r\nnrF7JVM2QQX4e7KG78dNmCBVdxs9FoKwBuCBKKeEiesFQOBYcD8U9qHMT+fP\r\nW+UADMmxinUZOxw0AG440abqMZPbzIsYbbTdAh2kr5tC3fVWyh347D8l1qbM\r\ngeO9ZcZ44Pea6/M3UyTRcIRdWsaC8pOefFMpI9gYveRI3lLSDK7YANSTYslO\r\nA57t0ZAYRBpk1HNhDLD11SPLTPYpaqwRA/BSVHBbSdPzG7XSMjjCWJwZqGY5\r\ndRUhxREM/oaMo61/fzID9DXY272UpWYSFLJyboxjyFt5gDkS8Jm9bw/LkGSj\r\nrvwehxAkE8hvXMQIcKHmx271pQ1g0XgiPTvP3r1vvBcy5NLkimW82dXwutw6\r\nSnAlFz4wcawAjKfOqnK4Bhlf57tZzxY+RPwifKyQgnGz4lLUfvwGWwUSkt8c\r\nGj0HQ2VyuX3UY/PU1SvpPaFZNfVU7O5ivTer6/+/VC98h9vfLL6cRXZJYhl8\r\nJvJpclEF0YQ4kymHZYUmBhNwaHUyFzLbpp/dWn/JBxdN3L8AXAxHb315pp+E\r\nVDyCgWhZgvEemRkDm4xiUOx5LG/5QSd257I=\r\n=CiHP\r\n-----END PGP SIGNATURE-----\r\n"
+			},
+			"_npmUser": {
+				"name": "sxzz",
+				"email": "sxzz@sxzz.moe"
+			},
+			"directories": {},
+			"maintainers": [
+				{
+					"name": "sxzz",
+					"email": "sxzz@sxzz.moe"
+				}
+			],
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/magic-string-ast_0.1.1_1679573914322_0.23734238476732195"
+			},
+			"_hasShrinkwrap": false,
+			"contributors": []
+		},
+		"0.1.2": {
+			"name": "magic-string-ast",
+			"version": "0.1.2",
+			"packageManager": "pnpm@7.29.3",
+			"description": "Extend magic-string for Babel AST.",
+			"license": "MIT",
+			"homepage": "https://github.com/sxzz/magic-string-ast#readme",
+			"bugs": {
+				"url": "https://github.com/sxzz/magic-string-ast/issues"
+			},
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/sxzz/magic-string-ast.git"
+			},
+			"main": "./dist/index.js",
+			"module": "./dist/index.mjs",
+			"types": "./dist/index.d.ts",
+			"exports": {
+				".": {
+					"types": "./dist/index.d.ts",
+					"require": "./dist/index.js",
+					"import": "./dist/index.mjs"
+				},
+				"./*": "./*"
+			},
+			"publishConfig": {
+				"access": "public"
+			},
+			"dependencies": {
+				"magic-string": "^0.30.0"
+			},
+			"devDependencies": {
+				"@babel/types": "^7.21.3",
+				"@sxzz/eslint-config-prettier": "^2.4.5",
+				"@sxzz/eslint-config-ts": "^2.4.5",
+				"@types/node": "^18.15.3",
+				"bumpp": "^9.0.0",
+				"eslint": "^8.36.0",
+				"eslint-define-config": "^1.16.0",
+				"fast-glob": "^3.2.12",
+				"prettier": "^2.8.4",
+				"tsup": "^6.6.3",
+				"tsx": "^3.12.5",
+				"typescript": "^4.9.5",
+				"vitest": "^0.29.2"
+			},
+			"engines": {
+				"node": ">=14.19.0"
+			},
+			"scripts": {
+				"lint": "eslint . --ext .vue,.js,.ts,.jsx,.tsx,.json,.md",
+				"lint:fix": "pnpm run lint --fix",
+				"build": "tsup && tsx scripts/postbuild.mts",
+				"test": "vitest",
+				"release": "bumpp && pnpm publish"
+			},
+			"_id": "magic-string-ast@0.1.2",
+			"_integrity": "sha512-P53AZrzq7hclCU6HWj88xNZHmP15DKjMmK/vBytO1qnpYP3ul4IEZlyCE0aU3JRnmgWmZPmoTKj4Bls7v0pMyA==",
+			"_resolved": "/private/var/folders/d9/9drlr87n4j904th57x6955l40000gn/T/d980c86e8a5b9f9c20f65923bbc971dc/magic-string-ast-0.1.2.tgz",
+			"_from": "file:magic-string-ast-0.1.2.tgz",
+			"_nodeVersion": "18.14.0",
+			"_npmVersion": "9.3.1",
+			"dist": {
+				"integrity": "sha512-P53AZrzq7hclCU6HWj88xNZHmP15DKjMmK/vBytO1qnpYP3ul4IEZlyCE0aU3JRnmgWmZPmoTKj4Bls7v0pMyA==",
+				"shasum": "7e6cb71fcbdc2da5fc821308489a35831ae0ede3",
+				"tarball": "https://registry.npmjs.org/magic-string-ast/-/magic-string-ast-0.1.2.tgz",
+				"fileCount": 7,
+				"unpackedSize": 12198,
+				"signatures": [
+					{
+						"keyid": "SHA256:jl3bwswu80PjjokCgh0o2w5c2U4LhQAE57gj9cz1kzA",
+						"sig": "MEYCIQDpQLXTzuYrevWtb6TY1OL857C9ibANMc49qnE8UD3KlAIhAKvwgQTvkTdB4V7vNN+Y1xmTNCFX2eYm3E3NlzrNk2SV"
+					}
+				],
+				"npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v4.10.10\r\nComment: https://openpgpjs.org\r\n\r\nwsFzBAEBCAAGBQJkHEWmACEJED1NWxICdlZqFiEECWMYAoorWMhJKdjhPU1b\r\nEgJ2Vmr0Qw/9GsHKzmwT33fu7hxRYUQgMJcoy5peVGCyySmy3J6AIUKx2KfR\r\nAcxLlcQv7VnaBNk9iOEJ5sNImNYqpG9kFevnSnecu5TcOhrncqPgw/ikoNCS\r\nimINDDiNixA1+XmeQxN5bO9SnZByEkpbdBecovYC4T1kWja9ft4AXVQ7Jp8Y\r\nDhilwu6ygB0tBUR1QMHc/b/k8IQuE8Rw3LK9Lrx9l3A8nPVz75eHsgJpqPZ6\r\nNIQmxvCyr4TDupU17EYNN2vI2ECm1n/mVuFeiCIAY22S5xFzMGMPB90Ql1k5\r\nnWGAomkyWR1vh7+kUSl/JPg3+q4sFafeKedhZ4I+hnjavuH8EegonmxbjQu8\r\n/ZfQKlOARsC53rQc+Wr3ITZvZcvt6mSWRL2xEiIrxtO8YS6NBs7zR64HprJB\r\n5M69zBy9nDCasaRxZ6TWPr2fUVreERNvmvgKxWLxlABsm4j34LumuF0oj3+h\r\nL9ofPQ4pZ8jkmEzdBCmlkwbycfbRPuSOHCuNnOKZ3rKysM6gFg54g3GG5xh2\r\nk6hQrKjkbpB0pajTMsbcCd5L9Nnv3e94qk7XSajwtOYkPCGHuxCHp+o3O0jn\r\nGTJ2cLmY0PuCSRERHy8uDlTBIVIUDQABXLRCEtjB7Ok/VWUk+3Es8+5UWOHP\r\nFAjLJf5Vu4HyfQG47u1zwKgzXV3IpHqdL98=\r\n=1fuj\r\n-----END PGP SIGNATURE-----\r\n"
+			},
+			"_npmUser": {
+				"name": "sxzz",
+				"email": "sxzz@sxzz.moe"
+			},
+			"directories": {},
+			"maintainers": [
+				{
+					"name": "sxzz",
+					"email": "sxzz@sxzz.moe"
+				}
+			],
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/magic-string-ast_0.1.2_1679574438359_0.529122193726071"
+			},
+			"_hasShrinkwrap": false,
+			"contributors": []
+		},
+		"0.1.3": {
+			"name": "magic-string-ast",
+			"version": "0.1.3",
+			"packageManager": "pnpm@8.6.5",
+			"description": "Extend Babel AST for magic-string.",
+			"license": "MIT",
+			"homepage": "https://github.com/sxzz/magic-string-ast#readme",
+			"bugs": {
+				"url": "https://github.com/sxzz/magic-string-ast/issues"
+			},
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/sxzz/magic-string-ast.git"
+			},
+			"main": "./dist/index.js",
+			"module": "./dist/index.mjs",
+			"types": "./dist/index.d.ts",
+			"exports": {
+				".": {
+					"types": {
+						"require": "./dist/index.d.ts",
+						"import": "./dist/index.d.mts"
+					},
+					"require": "./dist/index.js",
+					"import": "./dist/index.mjs"
+				},
+				"./*": "./*"
+			},
+			"publishConfig": {
+				"access": "public"
+			},
+			"dependencies": {
+				"magic-string": "^0.30.0"
+			},
+			"devDependencies": {
+				"@babel/types": "^7.22.5",
+				"@sxzz/eslint-config-prettier": "^2.4.6",
+				"@sxzz/eslint-config-ts": "^2.4.6",
+				"@types/node": "^18.16.19",
+				"bumpp": "^9.1.1",
+				"eslint": "^8.44.0",
+				"eslint-define-config": "^1.21.0",
+				"fast-glob": "^3.3.0",
+				"prettier": "^2.8.8",
+				"tsup": "^7.1.0",
+				"tsx": "^3.12.7",
+				"typescript": "^5.1.6",
+				"vitest": "^0.32.2"
+			},
+			"engines": {
+				"node": ">=16.14.0"
+			},
+			"scripts": {
+				"lint": "eslint . --ext .vue,.js,.ts,.jsx,.tsx,.json,.md",
+				"lint:fix": "pnpm run lint --fix",
+				"build": "tsup && tsx scripts/postbuild.mts",
+				"test": "vitest",
+				"release": "bumpp && pnpm publish"
+			},
+			"_id": "magic-string-ast@0.1.3",
+			"_integrity": "sha512-nnNhBSh8QAd90n3CQeyxKlXY4TKJ4PNjFRi7Ofs1dAr239k6H4CYAaAR4ZKRrWZNBvh1IUTl5dYP91t9dKDjig==",
+			"_resolved": "/private/var/folders/d9/9drlr87n4j904th57x6955l40000gn/T/4702faf7dc024add8e4ad5dc2ffe1b03/magic-string-ast-0.1.3.tgz",
+			"_from": "file:magic-string-ast-0.1.3.tgz",
+			"_nodeVersion": "18.16.1",
+			"_npmVersion": "9.5.1",
+			"dist": {
+				"integrity": "sha512-nnNhBSh8QAd90n3CQeyxKlXY4TKJ4PNjFRi7Ofs1dAr239k6H4CYAaAR4ZKRrWZNBvh1IUTl5dYP91t9dKDjig==",
+				"shasum": "7b2153651ff3e1e1cb0e46ac05a300defa542a2c",
+				"tarball": "https://registry.npmjs.org/magic-string-ast/-/magic-string-ast-0.1.3.tgz",
+				"fileCount": 8,
+				"unpackedSize": 13641,
+				"signatures": [
+					{
+						"keyid": "SHA256:jl3bwswu80PjjokCgh0o2w5c2U4LhQAE57gj9cz1kzA",
+						"sig": "MEUCIEB+hkQtjNQB5mMssdgEDpqO+3hQLSeBcq+bCJDbGAqxAiEAwRI3RKuehG/bdjohNJWKgYx/NeS9j+N1rlRYKyK2vJY="
+					}
+				]
+			},
+			"_npmUser": {
+				"name": "sxzz",
+				"email": "sxzz@sxzz.moe"
+			},
+			"directories": {},
+			"maintainers": [
+				{
+					"name": "sxzz",
+					"email": "sxzz@sxzz.moe"
+				}
+			],
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/magic-string-ast_0.1.3_1688800436067_0.5811887615419276"
+			},
+			"_hasShrinkwrap": false,
+			"contributors": []
+		},
+		"0.2.0": {
+			"name": "magic-string-ast",
+			"version": "0.2.0",
+			"packageManager": "pnpm@8.6.7",
+			"description": "Extend Babel AST for magic-string.",
+			"license": "MIT",
+			"homepage": "https://github.com/sxzz/magic-string-ast#readme",
+			"bugs": {
+				"url": "https://github.com/sxzz/magic-string-ast/issues"
+			},
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/sxzz/magic-string-ast.git"
+			},
+			"main": "./dist/index.js",
+			"module": "./dist/index.mjs",
+			"types": "./dist/index.d.ts",
+			"exports": {
+				".": {
+					"types": {
+						"require": "./dist/index.d.ts",
+						"import": "./dist/index.d.mts"
+					},
+					"require": "./dist/index.js",
+					"import": "./dist/index.mjs"
+				},
+				"./*": "./*"
+			},
+			"publishConfig": {
+				"access": "public"
+			},
+			"dependencies": {
+				"magic-string": "^0.30.1"
+			},
+			"devDependencies": {
+				"@babel/types": "^7.22.5",
+				"@sxzz/eslint-config-prettier": "^2.4.6",
+				"@sxzz/eslint-config-ts": "^2.4.6",
+				"@types/node": "^18.16.19",
+				"bumpp": "^9.1.1",
+				"eslint": "^8.45.0",
+				"eslint-define-config": "^1.21.0",
+				"fast-glob": "^3.3.0",
+				"prettier": "^3.0.0",
+				"tsup": "^7.1.0",
+				"tsx": "^3.12.7",
+				"typescript": "^5.1.6",
+				"vitest": "^0.33.0"
+			},
+			"engines": {
+				"node": ">=16.14.0"
+			},
+			"scripts": {
+				"lint": "eslint . --ext .vue,.js,.ts,.jsx,.tsx,.json,.md",
+				"lint:fix": "pnpm run lint --fix",
+				"build": "tsup && tsx scripts/postbuild.mts",
+				"test": "vitest",
+				"release": "bumpp && pnpm publish"
+			},
+			"_id": "magic-string-ast@0.2.0",
+			"_integrity": "sha512-GHev7SFZZrIFy+ZyNJOJpK88KoGSn6FUOhGJXSdHhPt7Q6htJKTiKkdGcJFKp9Tt3P4SIL/P+ro0jZ7BSV8KMw==",
+			"_resolved": "/private/var/folders/d9/9drlr87n4j904th57x6955l40000gn/T/f3fefa0db9eb9e88a5f21c6b5ad49997/magic-string-ast-0.2.0.tgz",
+			"_from": "file:magic-string-ast-0.2.0.tgz",
+			"_nodeVersion": "18.16.1",
+			"_npmVersion": "9.5.1",
+			"dist": {
+				"integrity": "sha512-GHev7SFZZrIFy+ZyNJOJpK88KoGSn6FUOhGJXSdHhPt7Q6htJKTiKkdGcJFKp9Tt3P4SIL/P+ro0jZ7BSV8KMw==",
+				"shasum": "8881194ff372c374b5960e9c9e92ae7c86923080",
+				"tarball": "https://registry.npmjs.org/magic-string-ast/-/magic-string-ast-0.2.0.tgz",
+				"fileCount": 8,
+				"unpackedSize": 14511,
+				"signatures": [
+					{
+						"keyid": "SHA256:jl3bwswu80PjjokCgh0o2w5c2U4LhQAE57gj9cz1kzA",
+						"sig": "MEYCIQCRjrHEqDI6K10vKtGkMf+zeEv4Prcqj6Sfv8VhMPt2HAIhAJuSH2s+0geR1PdfV1INf3F3i5maJP4AOvL8Ax59Pt9w"
+					}
+				]
+			},
+			"_npmUser": {
+				"name": "sxzz",
+				"email": "sxzz@sxzz.moe"
+			},
+			"directories": {},
+			"maintainers": [
+				{
+					"name": "sxzz",
+					"email": "sxzz@sxzz.moe"
+				}
+			],
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/magic-string-ast_0.2.0_1690014344340_0.6028914327170669"
+			},
+			"_hasShrinkwrap": false,
+			"contributors": []
+		},
+		"0.3.0": {
+			"name": "magic-string-ast",
+			"version": "0.3.0",
+			"packageManager": "pnpm@8.6.10",
+			"description": "Extend Babel AST for magic-string.",
+			"license": "MIT",
+			"homepage": "https://github.com/sxzz/magic-string-ast#readme",
+			"bugs": {
+				"url": "https://github.com/sxzz/magic-string-ast/issues"
+			},
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/sxzz/magic-string-ast.git"
+			},
+			"main": "./dist/index.js",
+			"module": "./dist/index.mjs",
+			"types": "./dist/index.d.ts",
+			"exports": {
+				".": {
+					"types": {
+						"require": "./dist/index.d.ts",
+						"import": "./dist/index.d.mts"
+					},
+					"require": "./dist/index.js",
+					"import": "./dist/index.mjs"
+				},
+				"./*": "./*"
+			},
+			"publishConfig": {
+				"access": "public"
+			},
+			"dependencies": {
+				"magic-string": "^0.30.2"
+			},
+			"devDependencies": {
+				"@babel/types": "^7.22.5",
+				"@sxzz/eslint-config": "^3.2.3",
+				"@sxzz/prettier-config": "^1.0.4",
+				"@types/node": "^20.4.5",
+				"bumpp": "^9.1.1",
+				"eslint": "^8.45.0",
+				"fast-glob": "^3.3.1",
+				"prettier": "^3.0.0",
+				"tsup": "^7.1.0",
+				"tsx": "^3.12.7",
+				"typescript": "^5.1.6",
+				"vitest": "^0.33.0"
+			},
+			"engines": {
+				"node": ">=16.14.0"
+			},
+			"prettier": "@sxzz/prettier-config",
+			"scripts": {
+				"lint": "eslint .",
+				"lint:fix": "pnpm run lint --fix",
+				"build": "tsup && tsx scripts/postbuild.mts",
+				"test": "vitest",
+				"release": "bumpp && pnpm publish"
+			},
+			"_id": "magic-string-ast@0.3.0",
+			"_integrity": "sha512-0shqecEPgdFpnI3AP90epXyxZy9g6CRZ+SZ7BcqFwYmtFEnZ1jpevcV5HoyVnlDS9gCnc1UIg3Rsvp3Ci7r8OA==",
+			"_resolved": "/private/var/folders/d9/9drlr87n4j904th57x6955l40000gn/T/3803f024f0345a4df7a16a8474d96d5e/magic-string-ast-0.3.0.tgz",
+			"_from": "file:magic-string-ast-0.3.0.tgz",
+			"_nodeVersion": "18.16.1",
+			"_npmVersion": "9.5.1",
+			"dist": {
+				"integrity": "sha512-0shqecEPgdFpnI3AP90epXyxZy9g6CRZ+SZ7BcqFwYmtFEnZ1jpevcV5HoyVnlDS9gCnc1UIg3Rsvp3Ci7r8OA==",
+				"shasum": "8fc83ac6d084c5a342645a30354184a6e0ab4382",
+				"tarball": "https://registry.npmjs.org/magic-string-ast/-/magic-string-ast-0.3.0.tgz",
+				"fileCount": 8,
+				"unpackedSize": 15704,
+				"signatures": [
+					{
+						"keyid": "SHA256:jl3bwswu80PjjokCgh0o2w5c2U4LhQAE57gj9cz1kzA",
+						"sig": "MEYCIQD3g/pyx+oOLQlzxZcOY9P3XvAGkHN91G/jHM85xfzGgQIhAJbuHDpdAwXNDBVS9v0tcJK2LP/Ll7Vuv1c2pyZnI80S"
+					}
+				]
+			},
+			"_npmUser": {
+				"name": "sxzz",
+				"email": "sxzz@sxzz.moe"
+			},
+			"directories": {},
+			"maintainers": [
+				{
+					"name": "sxzz",
+					"email": "sxzz@sxzz.moe"
+				}
+			],
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/magic-string-ast_0.3.0_1690512085149_0.05476241392245007"
+			},
+			"_hasShrinkwrap": false,
+			"contributors": []
+		},
+		"0.4.0": {
+			"name": "magic-string-ast",
+			"version": "0.4.0",
+			"description": "Extend Babel AST for magic-string.",
+			"type": "module",
+			"license": "MIT",
+			"homepage": "https://github.com/sxzz/magic-string-ast#readme",
+			"bugs": {
+				"url": "https://github.com/sxzz/magic-string-ast/issues"
+			},
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/sxzz/magic-string-ast.git"
+			},
+			"main": "./dist/index.js",
+			"module": "./dist/index.js",
+			"types": "./dist/index.d.ts",
+			"exports": {
+				".": {
+					"require": "./dist/index.cjs",
+					"import": "./dist/index.js"
+				},
+				"./*": "./*"
+			},
+			"publishConfig": {
+				"access": "public"
+			},
+			"dependencies": {
+				"magic-string": "^0.30.9"
+			},
+			"devDependencies": {
+				"@babel/types": "^7.24.0",
+				"@sxzz/eslint-config": "^3.9.1",
+				"@sxzz/prettier-config": "^2.0.1",
+				"@types/node": "^20.12.7",
+				"bumpp": "^9.4.0",
+				"eslint": "^9.0.0",
+				"fast-glob": "^3.3.2",
+				"prettier": "^3.2.5",
+				"tsup": "^8.0.2",
+				"tsx": "^4.7.2",
+				"typescript": "^5.4.5",
+				"vitest": "^1.5.0"
+			},
+			"engines": {
+				"node": ">=16.14.0"
+			},
+			"prettier": "@sxzz/prettier-config",
+			"scripts": {
+				"lint": "eslint .",
+				"lint:fix": "pnpm run lint --fix",
+				"build": "tsup",
+				"test": "vitest",
+				"release": "bumpp && pnpm publish"
+			},
+			"_id": "magic-string-ast@0.4.0",
+			"_integrity": "sha512-+L8TSNbDG93uemoJ2w8/Hf6VALl5DFaV/91wJbh3aZcspuv+O5psIDUYw5CtLIrxlUsSTc54HHyxNk3PUv4Nag==",
+			"_resolved": "/private/var/folders/d9/9drlr87n4j904th57x6955l40000gn/T/ffd2b601b66ff156b25acc6f5ea24f20/magic-string-ast-0.4.0.tgz",
+			"_from": "file:magic-string-ast-0.4.0.tgz",
+			"_nodeVersion": "20.12.0",
+			"_npmVersion": "10.3.0",
+			"dist": {
+				"integrity": "sha512-+L8TSNbDG93uemoJ2w8/Hf6VALl5DFaV/91wJbh3aZcspuv+O5psIDUYw5CtLIrxlUsSTc54HHyxNk3PUv4Nag==",
+				"shasum": "75c98bddb358e41c7518f8dcac78ee2a85dd9858",
+				"tarball": "https://registry.npmjs.org/magic-string-ast/-/magic-string-ast-0.4.0.tgz",
+				"fileCount": 7,
+				"unpackedSize": 12515,
+				"signatures": [
+					{
+						"keyid": "SHA256:jl3bwswu80PjjokCgh0o2w5c2U4LhQAE57gj9cz1kzA",
+						"sig": "MEQCICHgDpKdMq1nQ8A/ieaoFY/Fu1LTzMNZcfLMLUdWmCOIAiB4o8gkJgHPdm1oWzIaBwuaxhUI+dvd8CNBzfWJM4eCWw=="
+					}
+				]
+			},
+			"_npmUser": {
+				"name": "sxzz",
+				"email": "sxzz@sxzz.moe"
+			},
+			"directories": {},
+			"maintainers": [
+				{
+					"name": "sxzz",
+					"email": "sxzz@sxzz.moe"
+				}
+			],
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/magic-string-ast_0.4.0_1713346747149_0.2476550852535322"
+			},
+			"_hasShrinkwrap": false,
+			"contributors": []
+		},
+		"0.4.1": {
+			"name": "magic-string-ast",
+			"version": "0.4.1",
+			"description": "Extend Babel AST for magic-string.",
+			"type": "module",
+			"license": "MIT",
+			"homepage": "https://github.com/sxzz/magic-string-ast#readme",
+			"bugs": {
+				"url": "https://github.com/sxzz/magic-string-ast/issues"
+			},
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/sxzz/magic-string-ast.git"
+			},
+			"main": "./dist/index.js",
+			"module": "./dist/index.js",
+			"types": "./dist/index.d.ts",
+			"exports": {
+				".": {
+					"require": "./dist/index.cjs",
+					"import": "./dist/index.js"
+				},
+				"./*": "./*"
+			},
+			"publishConfig": {
+				"access": "public"
+			},
+			"dependencies": {
+				"magic-string": "^0.30.9"
+			},
+			"devDependencies": {
+				"@babel/types": "^7.24.0",
+				"@sxzz/eslint-config": "^3.9.1",
+				"@sxzz/prettier-config": "^2.0.1",
+				"@types/node": "^20.12.7",
+				"bumpp": "^9.4.0",
+				"eslint": "^9.0.0",
+				"fast-glob": "^3.3.2",
+				"prettier": "^3.2.5",
+				"tsup": "^8.0.2",
+				"tsx": "^4.7.2",
+				"typescript": "^5.4.5",
+				"vitest": "^1.5.0"
+			},
+			"engines": {
+				"node": ">=16.14.0"
+			},
+			"prettier": "@sxzz/prettier-config",
+			"scripts": {
+				"lint": "eslint .",
+				"lint:fix": "pnpm run lint --fix",
+				"build": "tsup",
+				"test": "vitest",
+				"release": "bumpp && pnpm publish"
+			},
+			"_id": "magic-string-ast@0.4.1",
+			"_integrity": "sha512-gc/BaCHfckvJWe4978wNTFuANbVr+xSBkqVpE3mUdzLCJ50i6Dwm8PwEQ+av+QqmzJ/I6LjZxCL+Sb7MGkmEyg==",
+			"_resolved": "/private/var/folders/d9/9drlr87n4j904th57x6955l40000gn/T/c5b5c5663ee09611e08552b041f2aeaa/magic-string-ast-0.4.1.tgz",
+			"_from": "file:magic-string-ast-0.4.1.tgz",
+			"_nodeVersion": "20.12.0",
+			"_npmVersion": "10.3.0",
+			"dist": {
+				"integrity": "sha512-gc/BaCHfckvJWe4978wNTFuANbVr+xSBkqVpE3mUdzLCJ50i6Dwm8PwEQ+av+QqmzJ/I6LjZxCL+Sb7MGkmEyg==",
+				"shasum": "d292e9c6f8f947f1c3942cf5b781e91d2b6a2289",
+				"tarball": "https://registry.npmjs.org/magic-string-ast/-/magic-string-ast-0.4.1.tgz",
+				"fileCount": 7,
+				"unpackedSize": 12475,
+				"signatures": [
+					{
+						"keyid": "SHA256:jl3bwswu80PjjokCgh0o2w5c2U4LhQAE57gj9cz1kzA",
+						"sig": "MEYCIQChA3uf7SG0aN6pHhotu1dG3hJraRTtfg9EIyTm+oKQ7AIhAPpLr7ArEtuk33cGuzlGP5nYPXl0PGVgw6Of6ZXJ9QW9"
+					}
+				]
+			},
+			"_npmUser": {
+				"name": "sxzz",
+				"email": "sxzz@sxzz.moe"
+			},
+			"directories": {},
+			"maintainers": [
+				{
+					"name": "sxzz",
+					"email": "sxzz@sxzz.moe"
+				}
+			],
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/magic-string-ast_0.4.1_1713347615434_0.7092912670768161"
+			},
+			"_hasShrinkwrap": false,
+			"contributors": []
+		},
+		"0.5.0": {
+			"name": "magic-string-ast",
+			"version": "0.5.0",
+			"description": "Extend Babel AST for magic-string.",
+			"type": "module",
+			"license": "MIT",
+			"homepage": "https://github.com/sxzz/magic-string-ast#readme",
+			"bugs": {
+				"url": "https://github.com/sxzz/magic-string-ast/issues"
+			},
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/sxzz/magic-string-ast.git"
+			},
+			"main": "./dist/index.js",
+			"module": "./dist/index.js",
+			"types": "./dist/index.d.ts",
+			"exports": {
+				".": {
+					"require": "./dist/index.cjs",
+					"import": "./dist/index.js"
+				},
+				"./*": "./*"
+			},
+			"publishConfig": {
+				"access": "public"
+			},
+			"dependencies": {
+				"magic-string": "^0.30.9"
+			},
+			"devDependencies": {
+				"@babel/types": "^7.24.0",
+				"@sxzz/eslint-config": "^3.9.1",
+				"@sxzz/prettier-config": "^2.0.1",
+				"@types/node": "^20.12.7",
+				"bumpp": "^9.4.0",
+				"eslint": "^9.0.0",
+				"fast-glob": "^3.3.2",
+				"prettier": "^3.2.5",
+				"tsup": "^8.0.2",
+				"tsx": "^4.7.2",
+				"typescript": "^5.4.5",
+				"vitest": "^1.5.0"
+			},
+			"engines": {
+				"node": ">=16.14.0"
+			},
+			"prettier": "@sxzz/prettier-config",
+			"scripts": {
+				"lint": "eslint .",
+				"lint:fix": "pnpm run lint --fix",
+				"build": "tsup",
+				"test": "vitest",
+				"release": "bumpp && pnpm publish"
+			},
+			"_id": "magic-string-ast@0.5.0",
+			"_integrity": "sha512-mxjxZ5zoR4+ybulZ7Z5qdZUTdAfiKJ1Il80kN/I4jWsHTTqNKZ9KsBa3Jepo+3U09I04qiyC2+7MZD8v4rJOoA==",
+			"_resolved": "/private/var/folders/d9/9drlr87n4j904th57x6955l40000gn/T/adfd5a71cbdcf4e633139d6f895e6e0c/magic-string-ast-0.5.0.tgz",
+			"_from": "file:magic-string-ast-0.5.0.tgz",
+			"_nodeVersion": "20.12.0",
+			"_npmVersion": "10.3.0",
+			"dist": {
+				"integrity": "sha512-mxjxZ5zoR4+ybulZ7Z5qdZUTdAfiKJ1Il80kN/I4jWsHTTqNKZ9KsBa3Jepo+3U09I04qiyC2+7MZD8v4rJOoA==",
+				"shasum": "b87659f1ebda70f5a097b398a82a7c5be1c2033f",
+				"tarball": "https://registry.npmjs.org/magic-string-ast/-/magic-string-ast-0.5.0.tgz",
+				"fileCount": 7,
+				"unpackedSize": 12675,
+				"signatures": [
+					{
+						"keyid": "SHA256:jl3bwswu80PjjokCgh0o2w5c2U4LhQAE57gj9cz1kzA",
+						"sig": "MEUCIQCiIS4ub0UDyRvP9c6pwh+e/4OkERACj0yHpJZKF3aDdgIgK4d583yMei7836pKrtzdfHIGPU9q7UmxBdnvB1rhLPM="
+					}
+				]
+			},
+			"_npmUser": {
+				"name": "sxzz",
+				"email": "sxzz@sxzz.moe"
+			},
+			"directories": {},
+			"maintainers": [
+				{
+					"name": "sxzz",
+					"email": "sxzz@sxzz.moe"
+				}
+			],
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/magic-string-ast_0.5.0_1713349887970_0.33642366902044185"
+			},
+			"_hasShrinkwrap": false,
+			"contributors": []
+		},
+		"0.6.0": {
+			"name": "magic-string-ast",
+			"version": "0.6.0",
+			"description": "magic-string with Babel AST shortcut.",
+			"type": "module",
+			"license": "MIT",
+			"homepage": "https://github.com/sxzz/magic-string-ast#readme",
+			"bugs": {
+				"url": "https://github.com/sxzz/magic-string-ast/issues"
+			},
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/sxzz/magic-string-ast.git"
+			},
+			"main": "./dist/index.js",
+			"module": "./dist/index.js",
+			"types": "./dist/index.d.ts",
+			"exports": {
+				".": {
+					"require": "./dist/index.cjs",
+					"import": "./dist/index.js"
+				},
+				"./*": "./*"
+			},
+			"publishConfig": {
+				"access": "public"
+			},
+			"dependencies": {
+				"magic-string": "^0.30.10"
+			},
+			"devDependencies": {
+				"@babel/types": "^7.24.0",
+				"@sxzz/eslint-config": "^3.9.1",
+				"@sxzz/prettier-config": "^2.0.2",
+				"@types/node": "^20.12.7",
+				"bumpp": "^9.4.0",
+				"eslint": "^9.1.0",
+				"fast-glob": "^3.3.2",
+				"magic-string-stack": "^0.1.1",
+				"prettier": "^3.2.5",
+				"tsup": "^8.0.2",
+				"tsx": "^4.7.2",
+				"typescript": "^5.4.5",
+				"vitest": "^1.5.0"
+			},
+			"engines": {
+				"node": ">=16.14.0"
+			},
+			"prettier": "@sxzz/prettier-config",
+			"scripts": {
+				"lint": "eslint .",
+				"lint:fix": "pnpm run lint --fix",
+				"build": "tsup",
+				"test": "vitest",
+				"release": "bumpp && pnpm publish"
+			},
+			"_id": "magic-string-ast@0.6.0",
+			"_integrity": "sha512-TFODfAlfOZmuhFQ+h9qKDhL13un2FCoJ1bqWuhT5kUXr35W4tkcOWqvoCvKpuXymLcVAaNpFIvDZbope1pXGww==",
+			"_resolved": "/private/var/folders/d9/9drlr87n4j904th57x6955l40000gn/T/24226382f4adfd0dc9a033e6b05a0ed5/magic-string-ast-0.6.0.tgz",
+			"_from": "file:magic-string-ast-0.6.0.tgz",
+			"_nodeVersion": "20.12.2",
+			"_npmVersion": "10.5.0",
+			"dist": {
+				"integrity": "sha512-TFODfAlfOZmuhFQ+h9qKDhL13un2FCoJ1bqWuhT5kUXr35W4tkcOWqvoCvKpuXymLcVAaNpFIvDZbope1pXGww==",
+				"shasum": "484be48aae0860bdac1b3e97edc7827f561c797f",
+				"tarball": "https://registry.npmjs.org/magic-string-ast/-/magic-string-ast-0.6.0.tgz",
+				"fileCount": 7,
+				"unpackedSize": 13131,
+				"signatures": [
+					{
+						"keyid": "SHA256:jl3bwswu80PjjokCgh0o2w5c2U4LhQAE57gj9cz1kzA",
+						"sig": "MEQCICAzXI8BRkvUVz3T8WbY/onBv7IjwCOyxz2ZvySRS3SJAiB8lATqe3rnJd0fc9j9N7/LbfFC9EOpVKUmovfg1xuyog=="
+					}
+				]
+			},
+			"_npmUser": {
+				"name": "sxzz",
+				"email": "sxzz@sxzz.moe"
+			},
+			"directories": {},
+			"maintainers": [
+				{
+					"name": "sxzz",
+					"email": "sxzz@sxzz.moe"
+				}
+			],
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/magic-string-ast_0.6.0_1714743960925_0.014966005572127017"
+			},
+			"_hasShrinkwrap": false,
+			"contributors": []
+		}
+	},
+	"time": {
+		"created": "2023-03-23T12:08:32.363Z",
+		"0.1.0": "2023-03-23T12:08:32.676Z",
+		"modified": "2024-05-03T13:46:01.232Z",
+		"0.1.1": "2023-03-23T12:18:34.482Z",
+		"0.1.2": "2023-03-23T12:27:18.558Z",
+		"0.1.3": "2023-07-08T07:13:56.354Z",
+		"0.2.0": "2023-07-22T08:25:44.546Z",
+		"0.3.0": "2023-07-28T02:41:25.288Z",
+		"0.4.0": "2024-04-17T09:39:07.301Z",
+		"0.4.1": "2024-04-17T09:53:35.596Z",
+		"0.5.0": "2024-04-17T10:31:28.182Z",
+		"0.6.0": "2024-05-03T13:46:01.060Z"
+	},
+	"users": {},
+	"dist-tags": {
+		"latest": "0.6.0"
+	},
+	"_uplinks": {
+		"npmjs": {
+			"etag": "W/\"8a956767dba4445ba89d99970c1bc3a1\"",
+			"fetched": 1715345911484
+		}
+	},
+	"_distfiles": {
+		"magic-string-ast-0.1.0.tgz": {
+			"url": "https://registry.npmjs.org/magic-string-ast/-/magic-string-ast-0.1.0.tgz",
+			"sha": "3b1e6c5754e281bfba0273c76d5955694149f083",
+			"registry": "npmjs"
+		},
+		"magic-string-ast-0.1.1.tgz": {
+			"url": "https://registry.npmjs.org/magic-string-ast/-/magic-string-ast-0.1.1.tgz",
+			"sha": "79cf1af2ecdcc3ebf97768a89b83c731fec8236c",
+			"registry": "npmjs"
+		},
+		"magic-string-ast-0.1.2.tgz": {
+			"url": "https://registry.npmjs.org/magic-string-ast/-/magic-string-ast-0.1.2.tgz",
+			"sha": "7e6cb71fcbdc2da5fc821308489a35831ae0ede3",
+			"registry": "npmjs"
+		},
+		"magic-string-ast-0.1.3.tgz": {
+			"url": "https://registry.npmjs.org/magic-string-ast/-/magic-string-ast-0.1.3.tgz",
+			"sha": "7b2153651ff3e1e1cb0e46ac05a300defa542a2c",
+			"registry": "npmjs"
+		},
+		"magic-string-ast-0.2.0.tgz": {
+			"url": "https://registry.npmjs.org/magic-string-ast/-/magic-string-ast-0.2.0.tgz",
+			"sha": "8881194ff372c374b5960e9c9e92ae7c86923080",
+			"registry": "npmjs"
+		},
+		"magic-string-ast-0.3.0.tgz": {
+			"url": "https://registry.npmjs.org/magic-string-ast/-/magic-string-ast-0.3.0.tgz",
+			"sha": "8fc83ac6d084c5a342645a30354184a6e0ab4382",
+			"registry": "npmjs"
+		},
+		"magic-string-ast-0.4.0.tgz": {
+			"url": "https://registry.npmjs.org/magic-string-ast/-/magic-string-ast-0.4.0.tgz",
+			"sha": "75c98bddb358e41c7518f8dcac78ee2a85dd9858",
+			"registry": "npmjs"
+		},
+		"magic-string-ast-0.4.1.tgz": {
+			"url": "https://registry.npmjs.org/magic-string-ast/-/magic-string-ast-0.4.1.tgz",
+			"sha": "d292e9c6f8f947f1c3942cf5b781e91d2b6a2289",
+			"registry": "npmjs"
+		},
+		"magic-string-ast-0.5.0.tgz": {
+			"url": "https://registry.npmjs.org/magic-string-ast/-/magic-string-ast-0.5.0.tgz",
+			"sha": "b87659f1ebda70f5a097b398a82a7c5be1c2033f",
+			"registry": "npmjs"
+		},
+		"magic-string-ast-0.6.0.tgz": {
+			"url": "https://registry.npmjs.org/magic-string-ast/-/magic-string-ast-0.6.0.tgz",
+			"sha": "484be48aae0860bdac1b3e97edc7827f561c797f",
+			"registry": "npmjs"
+		}
+	},
+	"_attachments": {
+		"magic-string-ast-0.5.0.tgz": {
+			"shasum": "b87659f1ebda70f5a097b398a82a7c5be1c2033f"
+		}
+	},
+	"_rev": "2-21494b6bf93212b4",
+	"_id": "magic-string-ast",
+	"readme": "# magic-string-ast [![npm](https://img.shields.io/npm/v/magic-string-ast.svg)](https://npmjs.com/package/magic-string-ast) [![JSR](https://jsr.io/badges/@sxzz/magic-string-ast)](https://jsr.io/@sxzz/magic-string-ast)\n\n[![Unit Test](https://github.com/sxzz/magic-string-ast/actions/workflows/unit-test.yml/badge.svg)](https://github.com/sxzz/magic-string-ast/actions/workflows/unit-test.yml)\n\n[magic-string](https://github.com/rich-harris/magic-string) with Babel AST shortcut.\n\n## Install\n\n```bash\n# npm\nnpm i magic-string-ast\n\n# jsr\nnpx jsr add -D @sxzz/magic-string-ast\n```\n\n## Usage\n\n```ts\nimport { MagicStringAST } from 'magic-string-ast'\n\nconst offset = 0\nconst node = {\n  // AST node from @babel/parser\n  start: 6,\n  end: 7,\n  // ...\n}\n\nconst s = new MagicStringAST('const a = 1')\ns.sliceNode(node, { offset }) // 'a'\ns.removeNode(node)\ns.moveNode(node, 0)\ns.overwriteNode(node, 'foo')\n```\n\nFor more APIs, see [docs](https://jsr.io/@sxzz/magic-string-ast/doc) and [magic-string](https://github.com/rich-harris/magic-string#usage).\n\n## Sponsors\n\n<p align=\"center\">\n  <a href=\"https://cdn.jsdelivr.net/gh/sxzz/sponsors/sponsors.svg\">\n    <img src='https://cdn.jsdelivr.net/gh/sxzz/sponsors/sponsors.svg'/>\n  </a>\n</p>\n\n## License\n\n[MIT](./LICENSE) License © 2023-PRESENT [三咲智子](https://github.com/sxzz)"
+}

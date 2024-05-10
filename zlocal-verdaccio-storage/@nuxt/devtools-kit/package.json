@@ -1,0 +1,6575 @@
+{
+	"name": "@nuxt/devtools-kit",
+	"versions": {
+		"0.3.0": {
+			"name": "@nuxt/devtools-kit",
+			"type": "module",
+			"version": "0.3.0",
+			"license": "MIT",
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/nuxt/devtools.git"
+			},
+			"exports": {
+				".": {
+					"types": "./dist/index.d.ts",
+					"require": "./dist/index.cjs",
+					"import": "./dist/index.mjs"
+				},
+				"./types": {
+					"types": "./types.d.ts",
+					"require": "./dist/types.cjs",
+					"import": "./dist/types.mjs"
+				},
+				"./iframe-client": {
+					"types": "./iframe-client.d.ts",
+					"require": "./dist/iframe-client.cjs",
+					"import": "./dist/iframe-client.mjs"
+				}
+			},
+			"main": "./dist/index.cjs",
+			"types": "./dist/index.d.ts",
+			"peerDependencies": {
+				"nuxt": "^3.3.1",
+				"vite": "*"
+			},
+			"dependencies": {
+				"@nuxt/kit": "^3.3.1",
+				"@nuxt/schema": "^3.3.1",
+				"execa": "^7.1.1"
+			},
+			"devDependencies": {
+				"birpc": "^0.2.10",
+				"hookable": "^5.5.1",
+				"unbuild": "^1.1.2",
+				"unimport": "^3.0.3",
+				"vue-router": "^4.1.6"
+			},
+			"scripts": {
+				"build": "unbuild",
+				"stub": "unbuild --stub",
+				"dev:prepare": "nr stub"
+			},
+			"bugs": {
+				"url": "https://github.com/nuxt/devtools/issues"
+			},
+			"homepage": "https://github.com/nuxt/devtools#readme",
+			"_id": "@nuxt/devtools-kit@0.3.0",
+			"_integrity": "sha512-fyw6DPO6j//aylDt0LQ2tn+n6TjUoH/jd9O7xS8OHBeuANXTxl/b12rhI0u0z6FTIjLoX6Gcnwo4DCk+uocefg==",
+			"_resolved": "/private/var/folders/30/nymxcyb909ggq2j5lwn7b_600000gn/T/1734b61288d909e32587e547a5f1bf77/nuxt-devtools-kit-0.3.0.tgz",
+			"_from": "file:nuxt-devtools-kit-0.3.0.tgz",
+			"_nodeVersion": "18.13.0",
+			"_npmVersion": "8.19.3",
+			"dist": {
+				"integrity": "sha512-fyw6DPO6j//aylDt0LQ2tn+n6TjUoH/jd9O7xS8OHBeuANXTxl/b12rhI0u0z6FTIjLoX6Gcnwo4DCk+uocefg==",
+				"shasum": "d829280a4a16d47d822fa6159861ac9bcc8535fa",
+				"tarball": "https://registry.npmjs.org/@nuxt/devtools-kit/-/devtools-kit-0.3.0.tgz",
+				"fileCount": 17,
+				"unpackedSize": 32777,
+				"signatures": [
+					{
+						"keyid": "SHA256:jl3bwswu80PjjokCgh0o2w5c2U4LhQAE57gj9cz1kzA",
+						"sig": "MEUCIQCPLkSAfO7N6D0FPZSZpj/NXycisyYAKKA/ArHPpx6MaAIgWISLszLLFP21W7iqfy8dMC2md3aooqU0mIQjVx/C0Yw="
+					}
+				],
+				"npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v4.10.10\r\nComment: https://openpgpjs.org\r\n\r\nwsFzBAEBCAAGBQJkIWAjACEJED1NWxICdlZqFiEECWMYAoorWMhJKdjhPU1b\r\nEgJ2Vmo9hw//ViaD0fjjcqjEmfM6WkEOtfWVnuuI44JdLAnus08a7uCxMq3K\r\nvx88EnMZV2ApnLT2vuEISC+BVBGCRCHTFqZe0N/zrnKkC0mk9ZD5P3VuSrV8\r\n4+K8BRssB7n6+47HlFQrLLk7Xa6jeoIqPvBQo4IjXkyhp/3ricIwDmDxQRfp\r\nM7yCH4Ts0imsQUcdgmrCQbxO+6vO5H240EucnVj5MPFKC2qjl63WrzjVmprK\r\nSPCx8fGNDYrnbEFwI85aRtl4tjxkbWvtmJnK0TL8POmrfPfqyfhE0ojJW9M3\r\nhscXb5uCJShfNNK4BVC5yp8qwSnW7DHS/q8uD+zi6eFUKobVM1CU4h4Q6qGY\r\nxjwvGOuuSGdc0jkfsWuoGf0LnuRxlP2AF3nOhT+NiGBVyAvBYXz0xD8uOSuh\r\nl6LUU+LutxBVZAnJU0jTf2jNaDrmGA25KhNKF9fkZOepJGIptbtvS6HMZOIa\r\nzmDUAgI0W3MZbWumlZF7SUV+0DcShkYlMVcWFvihzF3IcMAkBuD+pD+pLOz8\r\nsEjLbeqvE1WYxv27BJqHllaWN2/hUPXTMMhVS8W+4goSfeYFvY1ocvPYUC8D\r\nYxQ7mOnvZx8JFIHl++hhKz3hGeCqL2B+48P4S8eDTKXp8aP3I9cKJ3gJTcFh\r\nFOy7Cq9UbiIzk5aav2GEIavwNidvoOB4qoY=\r\n=4Eeg\r\n-----END PGP SIGNATURE-----\r\n"
+			},
+			"_npmUser": {
+				"name": "antfu",
+				"email": "anthonyfu117@hotmail.com"
+			},
+			"directories": {},
+			"maintainers": [
+				{
+					"name": "antfu",
+					"email": "anthonyfu117@hotmail.com"
+				},
+				{
+					"name": "atinux",
+					"email": "atinux@gmail.com"
+				},
+				{
+					"name": "pi0",
+					"email": "pyapar@gmail.com"
+				},
+				{
+					"name": "clarkdo",
+					"email": "clark.duxin@gmail.com"
+				},
+				{
+					"name": "danielroe",
+					"email": "daniel@roe.dev"
+				}
+			],
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/devtools-kit_0.3.0_1679908898978_0.2768757061992162"
+			},
+			"_hasShrinkwrap": false,
+			"contributors": []
+		},
+		"0.3.1": {
+			"name": "@nuxt/devtools-kit",
+			"type": "module",
+			"version": "0.3.1",
+			"license": "MIT",
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/nuxt/devtools.git"
+			},
+			"exports": {
+				".": {
+					"types": "./dist/index.d.ts",
+					"require": "./dist/index.cjs",
+					"import": "./dist/index.mjs"
+				},
+				"./types": {
+					"types": "./types.d.ts",
+					"require": "./dist/types.cjs",
+					"import": "./dist/types.mjs"
+				},
+				"./iframe-client": {
+					"types": "./iframe-client.d.ts",
+					"require": "./dist/iframe-client.cjs",
+					"import": "./dist/iframe-client.mjs"
+				}
+			},
+			"main": "./dist/index.cjs",
+			"types": "./dist/index.d.ts",
+			"peerDependencies": {
+				"nuxt": "^3.3.1",
+				"vite": "*"
+			},
+			"dependencies": {
+				"@nuxt/kit": "^3.3.1",
+				"@nuxt/schema": "^3.3.1",
+				"execa": "^7.1.1"
+			},
+			"devDependencies": {
+				"birpc": "^0.2.10",
+				"hookable": "^5.5.1",
+				"unbuild": "^1.1.2",
+				"unimport": "^3.0.3",
+				"vue-router": "^4.1.6"
+			},
+			"scripts": {
+				"build": "unbuild",
+				"stub": "unbuild --stub",
+				"dev:prepare": "nr stub"
+			},
+			"bugs": {
+				"url": "https://github.com/nuxt/devtools/issues"
+			},
+			"homepage": "https://github.com/nuxt/devtools#readme",
+			"_id": "@nuxt/devtools-kit@0.3.1",
+			"_integrity": "sha512-gelZwJugVEikSwrFR/FjxNCxdZ54DltzdF55Eo5/xzPES1Cqiet0wLr4f21jQ7OY879SsRaWDU+VYgHYwWgoJQ==",
+			"_resolved": "/private/var/folders/30/nymxcyb909ggq2j5lwn7b_600000gn/T/f09076b54aa815cd70ad4e8719928ac9/nuxt-devtools-kit-0.3.1.tgz",
+			"_from": "file:nuxt-devtools-kit-0.3.1.tgz",
+			"_nodeVersion": "18.13.0",
+			"_npmVersion": "8.19.3",
+			"dist": {
+				"integrity": "sha512-gelZwJugVEikSwrFR/FjxNCxdZ54DltzdF55Eo5/xzPES1Cqiet0wLr4f21jQ7OY879SsRaWDU+VYgHYwWgoJQ==",
+				"shasum": "a09240294f7d1406e644c3a05acc2f5323e5ab98",
+				"tarball": "https://registry.npmjs.org/@nuxt/devtools-kit/-/devtools-kit-0.3.1.tgz",
+				"fileCount": 17,
+				"unpackedSize": 32777,
+				"signatures": [
+					{
+						"keyid": "SHA256:jl3bwswu80PjjokCgh0o2w5c2U4LhQAE57gj9cz1kzA",
+						"sig": "MEUCIQDhmLbRuaNfpbcVc5TaEKotRe7KPnwF/jbD8I0lMfrU/wIgBStvsFyd9osDyRF94GL7E0T7K5vi8yE6mrFwiLjTvCc="
+					}
+				],
+				"npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v4.10.10\r\nComment: https://openpgpjs.org\r\n\r\nwsFzBAEBCAAGBQJkIWYhACEJED1NWxICdlZqFiEECWMYAoorWMhJKdjhPU1b\r\nEgJ2Vmpi9xAAhFU10nLK+5TpCodUv+ZtrPAbFg6xi1VzR2YSqs8DZB0hOg2x\r\nQxxqvpJRBTzXyY26ub1ZwsPAe977u7mPV8mJ3ihnylEzikGlJ/lFvI5l0khk\r\n6lkoTJzUPVauxj+6M7/Ld8Vu/iwBMKt+eFY70N1LlUM5NmKXBOFKPuNCm7FY\r\nXLnbSWCs4QwEgqpyPqGJIqlU+TUg4F4fa29wCWVcLZxX7nfacEWdbPLRyrlb\r\nKPivMewiF7ZjW2nk/+OSvWuMx369E2ugdR4I1xo6koEiqddw7K7/psGtEPDu\r\nFDwp9IWmK/3xiCpIjnhObx3H1yjVlAJF3mUyxGwDUJRn+zrpROOpZbpP/dyi\r\nIe/yK1ML4rDJrqh8mzHb+SH6IkwJKPHxh/AzXHcRdCQ/QZj59uEcoF+j4ifk\r\nPSXqkRPOH6uJn5EFZwW1TX1JT42rMDyQgpKLMa3e2jWt4gYVPHZqHe2o2KYU\r\nhFf21WW55J/3aMkb1rY3JgAqKqZ4SBKaJeRzcDrpRyD3OFX4MIvD2ov4mVm+\r\nlHDSO2/b9nqITBv74VFoJU1TukvFfW+NfP/gyCjbb9r4DM7NPBJL4ZdRK78H\r\nbxXUCmNdEfcfSDrE5K9lo8I6MbTI0MGwgDHbmtT0Tyt9xRNP9FiJwZOgnswN\r\nNDzCB8jgJCqx7ucIcIYYFQcSjd/wasieVxE=\r\n=ENlR\r\n-----END PGP SIGNATURE-----\r\n"
+			},
+			"_npmUser": {
+				"name": "antfu",
+				"email": "anthonyfu117@hotmail.com"
+			},
+			"directories": {},
+			"maintainers": [
+				{
+					"name": "antfu",
+					"email": "anthonyfu117@hotmail.com"
+				},
+				{
+					"name": "atinux",
+					"email": "atinux@gmail.com"
+				},
+				{
+					"name": "pi0",
+					"email": "pyapar@gmail.com"
+				},
+				{
+					"name": "clarkdo",
+					"email": "clark.duxin@gmail.com"
+				},
+				{
+					"name": "danielroe",
+					"email": "daniel@roe.dev"
+				}
+			],
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/devtools-kit_0.3.1_1679910432870_0.9689736834110534"
+			},
+			"_hasShrinkwrap": false,
+			"contributors": []
+		},
+		"0.3.2": {
+			"name": "@nuxt/devtools-kit",
+			"type": "module",
+			"version": "0.3.2",
+			"license": "MIT",
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/nuxt/devtools.git"
+			},
+			"exports": {
+				".": {
+					"types": "./dist/index.d.ts",
+					"require": "./dist/index.cjs",
+					"import": "./dist/index.mjs"
+				},
+				"./types": {
+					"types": "./types.d.ts",
+					"require": "./dist/types.cjs",
+					"import": "./dist/types.mjs"
+				},
+				"./iframe-client": {
+					"types": "./iframe-client.d.ts",
+					"require": "./dist/iframe-client.cjs",
+					"import": "./dist/iframe-client.mjs"
+				}
+			},
+			"main": "./dist/index.cjs",
+			"types": "./dist/index.d.ts",
+			"peerDependencies": {
+				"nuxt": "^3.3.1",
+				"vite": "*"
+			},
+			"dependencies": {
+				"@nuxt/kit": "^3.3.2",
+				"@nuxt/schema": "^3.3.2",
+				"execa": "^7.1.1"
+			},
+			"devDependencies": {
+				"birpc": "^0.2.10",
+				"hookable": "^5.5.2",
+				"unbuild": "^1.1.2",
+				"unimport": "^3.0.4",
+				"vue-router": "^4.1.6"
+			},
+			"scripts": {
+				"build": "unbuild",
+				"stub": "unbuild --stub",
+				"dev:prepare": "nr stub"
+			},
+			"bugs": {
+				"url": "https://github.com/nuxt/devtools/issues"
+			},
+			"homepage": "https://github.com/nuxt/devtools#readme",
+			"_id": "@nuxt/devtools-kit@0.3.2",
+			"_integrity": "sha512-5JIZ/ntttF9ekN6TYWSW3Bl0Nqdf4oAEs93vva57Du/ky6oSn4ncC1QMElV65hFWx1UZYT4oukHj1cl0bbm2xA==",
+			"_resolved": "/private/var/folders/30/nymxcyb909ggq2j5lwn7b_600000gn/T/193eb5389bb9289a9c75783f515f0dec/nuxt-devtools-kit-0.3.2.tgz",
+			"_from": "file:nuxt-devtools-kit-0.3.2.tgz",
+			"_nodeVersion": "18.13.0",
+			"_npmVersion": "8.19.3",
+			"dist": {
+				"integrity": "sha512-5JIZ/ntttF9ekN6TYWSW3Bl0Nqdf4oAEs93vva57Du/ky6oSn4ncC1QMElV65hFWx1UZYT4oukHj1cl0bbm2xA==",
+				"shasum": "bd96daa1b25d806dd7b71d99a4018e8e484069a3",
+				"tarball": "https://registry.npmjs.org/@nuxt/devtools-kit/-/devtools-kit-0.3.2.tgz",
+				"fileCount": 17,
+				"unpackedSize": 32894,
+				"signatures": [
+					{
+						"keyid": "SHA256:jl3bwswu80PjjokCgh0o2w5c2U4LhQAE57gj9cz1kzA",
+						"sig": "MEYCIQDsLMOzikPSydnveDVKvuYmY0XvgyTWV6VD9nWil8z+FQIhAOIBT4ZjCMRMPQeKVIg+kZHUMn6ntM/EvQpSjwisv+Ml"
+					}
+				],
+				"npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v4.10.10\r\nComment: https://openpgpjs.org\r\n\r\nwsFzBAEBCAAGBQJkMDLDACEJED1NWxICdlZqFiEECWMYAoorWMhJKdjhPU1b\r\nEgJ2VmqA9g//dxE2QK57uum4o6+KfesrCm2Ar0+fE4gd+MSi4csQsI7KgJIP\r\nPWL5IqnpiSTswFXOCoyy66hUOateE+70uzaUhPiiURzw6203uJrS2NzN3pcL\r\n+p+bpkTcFMo9VNRw1X3ko+JVBKuOllaqsmcBUpGLupjfcy/Gr1s3C10hhlyp\r\nW7XqiOMejgR1h8P0WQlVGYSSll5AZ+/Y4Imz7nZIet/4h/rXd7zE21j6C5GJ\r\nRnFD64a0BtclaGmmUDWpoaHjwismFTcNPzPtU8fs96DnIGi4agbna3XOg9W9\r\nTetusZ8/Q2n0AjTJ7EhbpATe0xtQp4XNZZiiCKbxKOy3V9pLsFbP6Fk1vS5r\r\n/oUoZbICHAhtm0tzLWTI6qebb+7CXBvBXG3aMNy2ilKDrpAqBe3Y3+pjmN0P\r\nUwiOhHkhdBTwyBiGX8rvdV4hqjtH8tj9+bGZId5K7PTHSTfMSbkfXptu1BWF\r\nunPv+HzoGWwOW+iO6V6xS1wm7qxMBS2l2r5UoQ4C7WtosuTX31fmuke4FxhF\r\nJAjPvoqsHge/iDRMZm3tBpstGSDcP7p8HO2JuHr5v3Ehx4czECxPlNbewgi/\r\nw11U9GhczaRZ8qS7xl/8ycB3Trfeq+FotaSDpazJQAXxe6GQclqqida4NhC3\r\nPIwxWURlgNTPx7CRYg/cPXxNzp0GHJb95bk=\r\n=A7yP\r\n-----END PGP SIGNATURE-----\r\n"
+			},
+			"_npmUser": {
+				"name": "antfu",
+				"email": "anthonyfu117@hotmail.com"
+			},
+			"directories": {},
+			"maintainers": [
+				{
+					"name": "antfu",
+					"email": "anthonyfu117@hotmail.com"
+				},
+				{
+					"name": "atinux",
+					"email": "atinux@gmail.com"
+				},
+				{
+					"name": "pi0",
+					"email": "pyapar@gmail.com"
+				},
+				{
+					"name": "clarkdo",
+					"email": "clark.duxin@gmail.com"
+				},
+				{
+					"name": "danielroe",
+					"email": "daniel@roe.dev"
+				}
+			],
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/devtools-kit_0.3.2_1680880323564_0.7060858528399694"
+			},
+			"_hasShrinkwrap": false,
+			"contributors": []
+		},
+		"0.4.0": {
+			"name": "@nuxt/devtools-kit",
+			"type": "module",
+			"version": "0.4.0",
+			"license": "MIT",
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/nuxt/devtools.git"
+			},
+			"exports": {
+				".": {
+					"types": "./dist/index.d.ts",
+					"require": "./dist/index.cjs",
+					"import": "./dist/index.mjs"
+				},
+				"./types": {
+					"types": "./types.d.ts",
+					"require": "./dist/types.cjs",
+					"import": "./dist/types.mjs"
+				},
+				"./iframe-client": {
+					"types": "./iframe-client.d.ts",
+					"require": "./dist/iframe-client.cjs",
+					"import": "./dist/iframe-client.mjs"
+				}
+			},
+			"main": "./dist/index.cjs",
+			"types": "./dist/index.d.ts",
+			"peerDependencies": {
+				"nuxt": "^3.3.1",
+				"vite": "*"
+			},
+			"dependencies": {
+				"@nuxt/kit": "^3.3.3",
+				"@nuxt/schema": "^3.3.3",
+				"execa": "^7.1.1"
+			},
+			"devDependencies": {
+				"birpc": "^0.2.11",
+				"hookable": "^5.5.3",
+				"unbuild": "^1.2.0",
+				"unimport": "^3.0.6",
+				"vue-router": "^4.1.6"
+			},
+			"scripts": {
+				"build": "unbuild",
+				"stub": "unbuild --stub",
+				"dev:prepare": "nr stub"
+			},
+			"bugs": {
+				"url": "https://github.com/nuxt/devtools/issues"
+			},
+			"homepage": "https://github.com/nuxt/devtools#readme",
+			"_id": "@nuxt/devtools-kit@0.4.0",
+			"_integrity": "sha512-jKyUDdxtyRC3KV49lNuT18LIGPsnNXKpuYmnl//1T90g7kn3vJbsXKaiet7Z1zRduboEl+na78oy432e5r6BCA==",
+			"_resolved": "/private/var/folders/30/nymxcyb909ggq2j5lwn7b_600000gn/T/77fbaa2b411dc38c985f53700c92bb03/nuxt-devtools-kit-0.4.0.tgz",
+			"_from": "file:nuxt-devtools-kit-0.4.0.tgz",
+			"_nodeVersion": "18.13.0",
+			"_npmVersion": "8.19.3",
+			"dist": {
+				"integrity": "sha512-jKyUDdxtyRC3KV49lNuT18LIGPsnNXKpuYmnl//1T90g7kn3vJbsXKaiet7Z1zRduboEl+na78oy432e5r6BCA==",
+				"shasum": "77cdc314a5e913a8406204af168aa0746e163612",
+				"tarball": "https://registry.npmjs.org/@nuxt/devtools-kit/-/devtools-kit-0.4.0.tgz",
+				"fileCount": 17,
+				"unpackedSize": 33126,
+				"signatures": [
+					{
+						"keyid": "SHA256:jl3bwswu80PjjokCgh0o2w5c2U4LhQAE57gj9cz1kzA",
+						"sig": "MEYCIQDesPa1Ko4uRrjf62E27ravdbRnpHhcEInLLiYp8IiY7wIhAJtLcHus2e6NT9Wwg6PVECL9a4vs3UQKspxtmhUwte7a"
+					}
+				],
+				"npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v4.10.10\r\nComment: https://openpgpjs.org\r\n\r\nwsFzBAEBCAAGBQJkNb0NACEJED1NWxICdlZqFiEECWMYAoorWMhJKdjhPU1b\r\nEgJ2VmrJ/A/8DhKxnKHtvTzyvtUr16sNS3p2qEcWsw3/gPdl97D83bU+cXq8\r\nxWy8kxZ93VGZUU//Srv95UjspSLBrmRs3WIrEGtWgaKcohXu1jcdMM39A0qE\r\nTqClcKCweymSaH1MK6y4YglE8AF4iSfYYwHOEQp5kHmbT9haSPLgjK/Zeqxo\r\nIhFgEvXuyEzt2L11P6pYqg+MuBOPcAl/7xRdtxLJROUuXBh0pl054CLOjPlO\r\nh699rZJRgWFCQ6mmhS5DmI0s25UHvZSZQWw/ro357WjGHpJ8W+nXNOi8669n\r\nJz0/T0K0bCFzh12LpoAihxWVmRtA+3OV1E//6EI77UTRzqx2hvYZ1AEi5jvv\r\n8USGcL847ogNEDNBKM041gX+SAG8GsFgAUED7hwaUUfsdGwEM94fpHCrB4O/\r\nARjnliHOp2QvzUWXudtdK8J8pMHBogRxoqGTg5+uuChPbiO3AayfdDck+U4l\r\nCNgmP//+L+4vlfhOWSMomBBKdVEs7AsR6XEOZqiRTWpkmU5uOatmBp7VbWkk\r\nmU48CKQrlW0qzbof0duX5vTPMIoH5jF3ky80kWYl64Xxm/V/4rxVEVg1XPMh\r\n3jkyZXHnvj1eLCQkhFBf0WdUIdVL2NWh7z7o9fd0p+rkb5hvtjM8lKNRT8Xx\r\nJ+AlEW5n1RSRk+xsLTJadxkrqtnEM3W2LP8=\r\n=eyIU\r\n-----END PGP SIGNATURE-----\r\n"
+			},
+			"_npmUser": {
+				"name": "antfu",
+				"email": "anthonyfu117@hotmail.com"
+			},
+			"directories": {},
+			"maintainers": [
+				{
+					"name": "antfu",
+					"email": "anthonyfu117@hotmail.com"
+				},
+				{
+					"name": "atinux",
+					"email": "atinux@gmail.com"
+				},
+				{
+					"name": "pi0",
+					"email": "pyapar@gmail.com"
+				},
+				{
+					"name": "clarkdo",
+					"email": "clark.duxin@gmail.com"
+				},
+				{
+					"name": "danielroe",
+					"email": "daniel@roe.dev"
+				}
+			],
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/devtools-kit_0.4.0_1681243404785_0.7679808520887774"
+			},
+			"_hasShrinkwrap": false,
+			"contributors": []
+		},
+		"0.4.1": {
+			"name": "@nuxt/devtools-kit",
+			"type": "module",
+			"version": "0.4.1",
+			"license": "MIT",
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/nuxt/devtools.git"
+			},
+			"exports": {
+				".": {
+					"types": "./dist/index.d.ts",
+					"require": "./dist/index.cjs",
+					"import": "./dist/index.mjs"
+				},
+				"./types": {
+					"types": "./types.d.ts",
+					"require": "./dist/types.cjs",
+					"import": "./dist/types.mjs"
+				},
+				"./iframe-client": {
+					"types": "./iframe-client.d.ts",
+					"require": "./dist/iframe-client.cjs",
+					"import": "./dist/iframe-client.mjs"
+				}
+			},
+			"main": "./dist/index.cjs",
+			"types": "./dist/index.d.ts",
+			"peerDependencies": {
+				"nuxt": "^3.3.1",
+				"vite": "*"
+			},
+			"dependencies": {
+				"@nuxt/kit": "^3.4.1",
+				"@nuxt/schema": "^3.4.1",
+				"execa": "^7.1.1"
+			},
+			"devDependencies": {
+				"birpc": "^0.2.11",
+				"hookable": "^5.5.3",
+				"unbuild": "^1.2.1",
+				"unimport": "^3.0.6",
+				"vue-router": "^4.1.6"
+			},
+			"scripts": {
+				"build": "unbuild",
+				"stub": "unbuild --stub",
+				"dev:prepare": "nr stub"
+			},
+			"bugs": {
+				"url": "https://github.com/nuxt/devtools/issues"
+			},
+			"homepage": "https://github.com/nuxt/devtools#readme",
+			"_id": "@nuxt/devtools-kit@0.4.1",
+			"_integrity": "sha512-iOtrvGKJNp+TkhyJl43jpkmAbVLbkc4lyUv4OWv8/s0RPEXTMRrTlw8llNcGp4DpT+y8ryOFInY/3z0f2l81Rg==",
+			"_resolved": "/private/var/folders/30/nymxcyb909ggq2j5lwn7b_600000gn/T/14d82956994c4ce8857068859a3454eb/nuxt-devtools-kit-0.4.1.tgz",
+			"_from": "file:nuxt-devtools-kit-0.4.1.tgz",
+			"_nodeVersion": "18.13.0",
+			"_npmVersion": "8.19.3",
+			"dist": {
+				"integrity": "sha512-iOtrvGKJNp+TkhyJl43jpkmAbVLbkc4lyUv4OWv8/s0RPEXTMRrTlw8llNcGp4DpT+y8ryOFInY/3z0f2l81Rg==",
+				"shasum": "7d61f71cca27e082d0c396d54e62ab2499c0d42d",
+				"tarball": "https://registry.npmjs.org/@nuxt/devtools-kit/-/devtools-kit-0.4.1.tgz",
+				"fileCount": 17,
+				"unpackedSize": 33233,
+				"signatures": [
+					{
+						"keyid": "SHA256:jl3bwswu80PjjokCgh0o2w5c2U4LhQAE57gj9cz1kzA",
+						"sig": "MEYCIQCPTiwpY5JRRfHTe74BpjPd3KzfXEtjBi1Td6MV0VR1MAIhAMJ3bG5Yi7WwyWzDwjRb0+Q0nq/tAlee98Gg5Vwmeynh"
+					}
+				],
+				"npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v4.10.10\r\nComment: https://openpgpjs.org\r\n\r\nwsFzBAEBCAAGBQJkPtFQACEJED1NWxICdlZqFiEECWMYAoorWMhJKdjhPU1b\r\nEgJ2VmrUYw/9FaTnEIL3Kn/8AVAdffna+L65aG2sSs5V1QLcmexz4aRSMfjE\r\nkqkzXg9OD0s8GFWlcOo7oo8I0wfs18Uuede4cEIYRw7yybbiT9x6eiZN/Jc3\r\nwtY6iIc0MgrfBqJcWGYU4HJ8jWXoRofbc7wlFjzVdEdYXHuOsKCjBusbaWb+\r\nWTE1x4ySY6kCjd7XemQfj5F0tf05DoORaTiKI6le3+dWQ1ohv169biuxAxFy\r\ndqcSqrRSc9jPufWJnOkwNBdngdMnucmJndEgIVH6VREPG58+LqQQj+OrEXH3\r\nxunOKbAh2vOG27F+sDnyqBfmoP3N8aYBqm32spYl34Q3LQSoSa2Bx4yuvTLB\r\nwYJpq+q40zuFoaajXRQMw756IA6jH90FxSrxm3tSWHneOJHe1BiulO35k8jo\r\nfqnkKXeLseTYDnWh39cC82XgpKiposfILl4wB3LVuXtJmKI2Ffgc2rx57K9z\r\nLPzQVUfwGdfaJG9u22cvrGrkCG7SfgStc0bcVc+ggPNPEC5o5H+J28PRCudr\r\nGHu/aw8SqXXv0UuacAtSldekHD/hF27WrIMz2qaSdfSvIdDQl5hq+JaNfiWF\r\n91NGSh1Fmhxgx+ABXI38zGHmg4hJgNFgqSvmCTVS1XB1o1g8GUh0H0vckDwe\r\ncobKEOmMcoWwSRBy6jR35bx5QEeJz6i13Tc=\r\n=ZYjh\r\n-----END PGP SIGNATURE-----\r\n"
+			},
+			"_npmUser": {
+				"name": "antfu",
+				"email": "anthonyfu117@hotmail.com"
+			},
+			"directories": {},
+			"maintainers": [
+				{
+					"name": "antfu",
+					"email": "anthonyfu117@hotmail.com"
+				},
+				{
+					"name": "atinux",
+					"email": "atinux@gmail.com"
+				},
+				{
+					"name": "pi0",
+					"email": "pyapar@gmail.com"
+				},
+				{
+					"name": "clarkdo",
+					"email": "clark.duxin@gmail.com"
+				},
+				{
+					"name": "danielroe",
+					"email": "daniel@roe.dev"
+				}
+			],
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/devtools-kit_0.4.1_1681838415931_0.13976193962793104"
+			},
+			"_hasShrinkwrap": false,
+			"contributors": []
+		},
+		"0.4.2": {
+			"name": "@nuxt/devtools-kit",
+			"type": "module",
+			"version": "0.4.2",
+			"license": "MIT",
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/nuxt/devtools.git"
+			},
+			"exports": {
+				".": {
+					"types": "./dist/index.d.ts",
+					"require": "./dist/index.cjs",
+					"import": "./dist/index.mjs"
+				},
+				"./types": {
+					"types": "./types.d.ts",
+					"require": "./dist/types.cjs",
+					"import": "./dist/types.mjs"
+				},
+				"./iframe-client": {
+					"types": "./iframe-client.d.ts",
+					"require": "./dist/iframe-client.cjs",
+					"import": "./dist/iframe-client.mjs"
+				}
+			},
+			"main": "./dist/index.cjs",
+			"types": "./dist/index.d.ts",
+			"peerDependencies": {
+				"nuxt": "^3.4.2",
+				"vite": "*"
+			},
+			"dependencies": {
+				"@nuxt/kit": "^3.4.2",
+				"@nuxt/schema": "^3.4.2",
+				"execa": "^7.1.1"
+			},
+			"devDependencies": {
+				"birpc": "^0.2.11",
+				"hookable": "^5.5.3",
+				"unbuild": "^1.2.1",
+				"unimport": "^3.0.6",
+				"vue-router": "^4.1.6"
+			},
+			"scripts": {
+				"build": "unbuild",
+				"stub": "unbuild --stub",
+				"dev:prepare": "nr stub"
+			},
+			"bugs": {
+				"url": "https://github.com/nuxt/devtools/issues"
+			},
+			"homepage": "https://github.com/nuxt/devtools#readme",
+			"_id": "@nuxt/devtools-kit@0.4.2",
+			"_integrity": "sha512-I1AM4n6Z1KzjaFozFUsnw2M/B1o7pyNBmoOzf6TudkNO3DbmvwufRDXxmn2IghNqcaSibIu1IExfzHSVx5w6IQ==",
+			"_resolved": "/private/var/folders/30/nymxcyb909ggq2j5lwn7b_600000gn/T/c787ea888b69c91d2a8dd5f59d9823a2/nuxt-devtools-kit-0.4.2.tgz",
+			"_from": "file:nuxt-devtools-kit-0.4.2.tgz",
+			"_nodeVersion": "18.13.0",
+			"_npmVersion": "8.19.3",
+			"dist": {
+				"integrity": "sha512-I1AM4n6Z1KzjaFozFUsnw2M/B1o7pyNBmoOzf6TudkNO3DbmvwufRDXxmn2IghNqcaSibIu1IExfzHSVx5w6IQ==",
+				"shasum": "af126b0d0cccb20618eabeccd009984b235ddfbe",
+				"tarball": "https://registry.npmjs.org/@nuxt/devtools-kit/-/devtools-kit-0.4.2.tgz",
+				"fileCount": 17,
+				"unpackedSize": 33547,
+				"signatures": [
+					{
+						"keyid": "SHA256:jl3bwswu80PjjokCgh0o2w5c2U4LhQAE57gj9cz1kzA",
+						"sig": "MEYCIQCln6F0thlGNPd8n/O0ie9vvHW7KNZl4GAoW7j7fhgFKAIhAPNuvCx1sGqmy4gGo5AofVxTsPyp+aeoNQpF9btgCdDw"
+					}
+				],
+				"npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v4.10.10\r\nComment: https://openpgpjs.org\r\n\r\nwsFzBAEBCAAGBQJkRlXXACEJED1NWxICdlZqFiEECWMYAoorWMhJKdjhPU1b\r\nEgJ2VmroQA//Q6ZMrkcmJfIHOU632+nf2Nrlmu/lvRjSr6YJiZkI089Tui3S\r\nXPQk32JaClOT9RNSOh7gWxjjxk89GrJxCs8q5yrFRdRoogL+EhpJAHj0IH6j\r\ndTvQ4vXKmH8QvcVcRoG5QCEkgsxhIYsedYo98xbW9CqnGw6k0+RshOZsb0z0\r\nP0WOXQ0xDl0hG/UWJJAC4sMxaI8JpnEUQH3jD2YYrCj7cC9VhO7UMFl89Q+I\r\nPosjzCXXPS7l/CO3ETrw1woQJ6pBmohaqf/iFUJ6AwsUTiYrAWvdOTGk+GOg\r\ndWBifQzvC/kCEbrmS9VDQc8MQv/namOnFrs1H2qvxozcGcLeVtvRabeCWFHO\r\n3QW37n8kgB4dQdVlbLq3tnI/Q+mHWOxmSgwJlTnyvo1MtAVNix90ZEuPYEHC\r\n23E6UwHRsatWuSkdHe4Ml1Oitp5N7pmNPSaDeSUApzX0rj2GimdpQgWhNIi7\r\nMNM5YrjRa8b2hABq1icfL/tfjqjSpcBygXlzqiDhivK2iA3mXv4JjC2sSU1h\r\n4qcInl8eI2afLtZptP8rdGOiA+wlb9BHRfPNhrRV1rj1tc6nsbANQjqnZl76\r\nDjOzA6lsPgz2fLqlZX9mAm5bwzQFc4wtKa/WLffv6861WpLwek0iPCgkm1kK\r\ntq/w6M7tv0v8bOcZoV+QAd1Im0gjOJbB0xo=\r\n=3z1A\r\n-----END PGP SIGNATURE-----\r\n"
+			},
+			"_npmUser": {
+				"name": "antfu",
+				"email": "anthonyfu117@hotmail.com"
+			},
+			"directories": {},
+			"maintainers": [
+				{
+					"name": "antfu",
+					"email": "anthonyfu117@hotmail.com"
+				},
+				{
+					"name": "atinux",
+					"email": "atinux@gmail.com"
+				},
+				{
+					"name": "pi0",
+					"email": "pyapar@gmail.com"
+				},
+				{
+					"name": "clarkdo",
+					"email": "clark.duxin@gmail.com"
+				},
+				{
+					"name": "danielroe",
+					"email": "daniel@roe.dev"
+				}
+			],
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/devtools-kit_0.4.2_1682331094909_0.26640357434133954"
+			},
+			"_hasShrinkwrap": false,
+			"contributors": []
+		},
+		"0.4.3": {
+			"name": "@nuxt/devtools-kit",
+			"type": "module",
+			"version": "0.4.3",
+			"license": "MIT",
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/nuxt/devtools.git"
+			},
+			"exports": {
+				".": {
+					"types": "./dist/index.d.ts",
+					"require": "./dist/index.cjs",
+					"import": "./dist/index.mjs"
+				},
+				"./types": {
+					"types": "./types.d.ts",
+					"require": "./dist/types.cjs",
+					"import": "./dist/types.mjs"
+				},
+				"./iframe-client": {
+					"types": "./iframe-client.d.ts",
+					"require": "./dist/iframe-client.cjs",
+					"import": "./dist/iframe-client.mjs"
+				}
+			},
+			"main": "./dist/index.cjs",
+			"types": "./dist/index.d.ts",
+			"peerDependencies": {
+				"nuxt": "^3.4.2",
+				"vite": "*"
+			},
+			"dependencies": {
+				"@nuxt/kit": "^3.4.2",
+				"@nuxt/schema": "^3.4.2",
+				"execa": "^7.1.1"
+			},
+			"devDependencies": {
+				"birpc": "^0.2.11",
+				"hookable": "^5.5.3",
+				"unbuild": "^1.2.1",
+				"unimport": "^3.0.6",
+				"vue-router": "^4.1.6"
+			},
+			"scripts": {
+				"build": "unbuild",
+				"stub": "unbuild --stub",
+				"dev:prepare": "nr stub"
+			},
+			"bugs": {
+				"url": "https://github.com/nuxt/devtools/issues"
+			},
+			"homepage": "https://github.com/nuxt/devtools#readme",
+			"_id": "@nuxt/devtools-kit@0.4.3",
+			"_integrity": "sha512-4r9Ljf0ZQXdVd0ou5zqhNR1yKWYfWdgCWjUYTeNUnF2S4MRWwXjVUT+gj/gH4uPwN75W7GlEJZZuhYoaesNwQw==",
+			"_resolved": "/private/var/folders/30/nymxcyb909ggq2j5lwn7b_600000gn/T/dd7a20523947e534608cabd6da48a14f/nuxt-devtools-kit-0.4.3.tgz",
+			"_from": "file:nuxt-devtools-kit-0.4.3.tgz",
+			"_nodeVersion": "18.13.0",
+			"_npmVersion": "8.19.3",
+			"dist": {
+				"integrity": "sha512-4r9Ljf0ZQXdVd0ou5zqhNR1yKWYfWdgCWjUYTeNUnF2S4MRWwXjVUT+gj/gH4uPwN75W7GlEJZZuhYoaesNwQw==",
+				"shasum": "75bb9dab919aedd20cdf7151bb55ed84176dee57",
+				"tarball": "https://registry.npmjs.org/@nuxt/devtools-kit/-/devtools-kit-0.4.3.tgz",
+				"fileCount": 17,
+				"unpackedSize": 33606,
+				"signatures": [
+					{
+						"keyid": "SHA256:jl3bwswu80PjjokCgh0o2w5c2U4LhQAE57gj9cz1kzA",
+						"sig": "MEQCIETvRZm1NRK7tX0tu0KN4jXO5FsuK1y/iQr+jf077HXaAiA0sVr8LSF/nK6pSilf78vlcEFSlrwyRG7JppnKKTv4wg=="
+					}
+				],
+				"npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v4.10.10\r\nComment: https://openpgpjs.org\r\n\r\nwsFzBAEBCAAGBQJkTXQmACEJED1NWxICdlZqFiEECWMYAoorWMhJKdjhPU1b\r\nEgJ2Vmq2mQ/+PRYNdLQh1A5HD6svgbqhku2tHg5pVu1IXXSNTaMtzgNJlrqN\r\nTqJPE1aPpuVD0rgKcfcQF7jL60zU1uX9I9Z5TtuG9+bAWgPDFTUlxgOcTOQ2\r\nZIt4HCtTKLB9wG+37tqjMQOVmq+1Yw+Iv+kPThmzISW4+kbpZoY8XiusqT/D\r\nsqA156Ae8EK1Nw7aLp/AekEa1lypjqLwqwFT6NdhCeGXJ+IBQOsiAHMoC9Pd\r\n404CdLqFSqPoJNLXSYOJuLxBJypmOHNm1UujE6jAGFyLoIFEUi5Q1fPaQaxO\r\nW4/IgpEfaMdUokEvCgWqQxatKq0sJdpXxdpd+iafHMW3BZ8fpc2L9tdJsXOi\r\nxUJ3UwFMyyOvbJUVXqOT+h+vP69KDbIMvPZGCeXOor/hTe4nyXPHeLCjjqm3\r\nFZ/BJeJ9cH8apLdI2nB0XMak/s6fRTKvmnh/Ofq1zk+aJg41iOnNF8pWqUjS\r\nAXpiwSxQbYHr/KKvxvef9JtrPi6BaMKQ2INfb/Ywvyo+DIyaAWufrVsMy4r+\r\nLOkQUuQtGGh2+GGkq43A/Zkafos4sz8DfHEfZXljmjB5PPkQIUAJBafkNRAb\r\n7Qnd6dt0Nv8tBiXaWAv9SKKplPbCqQSBgA7n3313zqxVpd1AafV05xnOfaRZ\r\n9Zu4UasCCZ9EfR2ZMbql+IXW7xVvwomC9UQ=\r\n=2KR0\r\n-----END PGP SIGNATURE-----\r\n"
+			},
+			"_npmUser": {
+				"name": "antfu",
+				"email": "anthonyfu117@hotmail.com"
+			},
+			"directories": {},
+			"maintainers": [
+				{
+					"name": "antfu",
+					"email": "anthonyfu117@hotmail.com"
+				},
+				{
+					"name": "atinux",
+					"email": "atinux@gmail.com"
+				},
+				{
+					"name": "pi0",
+					"email": "pyapar@gmail.com"
+				},
+				{
+					"name": "clarkdo",
+					"email": "clark.duxin@gmail.com"
+				},
+				{
+					"name": "danielroe",
+					"email": "daniel@roe.dev"
+				}
+			],
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/devtools-kit_0.4.3_1682797605969_0.365067360883363"
+			},
+			"_hasShrinkwrap": false,
+			"contributors": []
+		},
+		"0.4.4": {
+			"name": "@nuxt/devtools-kit",
+			"type": "module",
+			"version": "0.4.4",
+			"license": "MIT",
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/nuxt/devtools.git"
+			},
+			"exports": {
+				".": {
+					"types": "./dist/index.d.ts",
+					"require": "./dist/index.cjs",
+					"import": "./dist/index.mjs"
+				},
+				"./types": {
+					"types": "./types.d.ts",
+					"require": "./dist/types.cjs",
+					"import": "./dist/types.mjs"
+				},
+				"./iframe-client": {
+					"types": "./iframe-client.d.ts",
+					"require": "./dist/iframe-client.cjs",
+					"import": "./dist/iframe-client.mjs"
+				}
+			},
+			"main": "./dist/index.cjs",
+			"types": "./dist/index.d.ts",
+			"peerDependencies": {
+				"nuxt": "^3.4.2",
+				"vite": "*"
+			},
+			"dependencies": {
+				"@nuxt/kit": "^3.4.2",
+				"@nuxt/schema": "^3.4.2",
+				"execa": "^7.1.1"
+			},
+			"devDependencies": {
+				"birpc": "^0.2.11",
+				"hookable": "^5.5.3",
+				"unbuild": "^1.2.1",
+				"unimport": "^3.0.6",
+				"vue-router": "^4.1.6"
+			},
+			"scripts": {
+				"build": "unbuild",
+				"stub": "unbuild --stub",
+				"dev:prepare": "nr stub"
+			},
+			"bugs": {
+				"url": "https://github.com/nuxt/devtools/issues"
+			},
+			"homepage": "https://github.com/nuxt/devtools#readme",
+			"_id": "@nuxt/devtools-kit@0.4.4",
+			"_integrity": "sha512-s0rx3W8brsL8lR1GnuAnTMXevxyqfxAfVJtr9QhV1O9OrDc9Edh5/C5meJ7WXGRJ+grsIzgTpKVZTHxzovUCiw==",
+			"_resolved": "/private/var/folders/30/nymxcyb909ggq2j5lwn7b_600000gn/T/a38a93589d9c8cbd4901a92bc490cf60/nuxt-devtools-kit-0.4.4.tgz",
+			"_from": "file:nuxt-devtools-kit-0.4.4.tgz",
+			"_nodeVersion": "18.13.0",
+			"_npmVersion": "8.19.3",
+			"dist": {
+				"integrity": "sha512-s0rx3W8brsL8lR1GnuAnTMXevxyqfxAfVJtr9QhV1O9OrDc9Edh5/C5meJ7WXGRJ+grsIzgTpKVZTHxzovUCiw==",
+				"shasum": "d29d46b7eded0e99570eb933d1bbe32f8871ac37",
+				"tarball": "https://registry.npmjs.org/@nuxt/devtools-kit/-/devtools-kit-0.4.4.tgz",
+				"fileCount": 17,
+				"unpackedSize": 33751,
+				"signatures": [
+					{
+						"keyid": "SHA256:jl3bwswu80PjjokCgh0o2w5c2U4LhQAE57gj9cz1kzA",
+						"sig": "MEUCIDCEV5RlDAFUv9Kbxz33iy+EJ1xm+FY6FSm+U4v3mgbJAiEAyEz49yw6MZh1GyF9hWhuPtYhtwiP0f+YvH4gZhg5+FQ="
+					}
+				],
+				"npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v4.10.10\r\nComment: https://openpgpjs.org\r\n\r\nwsFzBAEBCAAGBQJkTcfvACEJED1NWxICdlZqFiEECWMYAoorWMhJKdjhPU1b\r\nEgJ2Vmq3Jw//YFXRB+sLadT4WIhVjDCfaNsArydAHMWJgu8jNPJi+xCx8ZW9\r\nTHiuvapc32y+haiNNJAOM3Q+2CyLmUScynQRY1qTo2LKKtmgbERmTONCz4x7\r\nosHn4mLghyePp4lW9veozvAUn002WXz1yfdD7VJAbj4+HoutJK3VKIg1jyyv\r\nX3xgKLDsxDOhLgRINj0nadJild6kB0BjnelvE+zKKDxBWIsVoQ0BAgEzabJR\r\n42WzS3Ej5nRvT6YLG26sN8zkqi3k1c95d/HJaQp/aEwhBt9N2+3wndUjiihs\r\nbAqXuE5kglzt70ps0YVCZC8oMdOJq3kJt7QTMFoPoELMK/vTo0Vq4UTaWrW4\r\nDRVnFUiM1sfrrqLC1pSvAbIs1sDdehrs1ZJv8Qpmt6vOXhlHcfA06U4VuxHj\r\nZOZgHh5GnYhKezdd063B0gqoGAyMM8Qn/L8jHG9mPNWg08KWc/+briGnwYEe\r\n02yozgcV9vk/CD+fv6adFCr/EfeUnRydffhjYGiIuYDpB7SLSkGrtd0S1Paf\r\nxX8zEraKGKZ2ppmG+GxO4bJAAOrpZGcOoT3Lgw2nLELI0Dh1iIc/DSx2+XPV\r\nXpppklLQqe3rKJWNzZu1Bm/Sasv/0JVnY0iDM2J+7JB0gJiFYo8yMqN8JfIF\r\n0wMVZHUBs01815CObWtYSDGjZzO5Jk3ymbo=\r\n=mYuN\r\n-----END PGP SIGNATURE-----\r\n"
+			},
+			"_npmUser": {
+				"name": "antfu",
+				"email": "anthonyfu117@hotmail.com"
+			},
+			"directories": {},
+			"maintainers": [
+				{
+					"name": "antfu",
+					"email": "anthonyfu117@hotmail.com"
+				},
+				{
+					"name": "atinux",
+					"email": "atinux@gmail.com"
+				},
+				{
+					"name": "pi0",
+					"email": "pyapar@gmail.com"
+				},
+				{
+					"name": "clarkdo",
+					"email": "clark.duxin@gmail.com"
+				},
+				{
+					"name": "danielroe",
+					"email": "daniel@roe.dev"
+				}
+			],
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/devtools-kit_0.4.4_1682819055421_0.8289825391725798"
+			},
+			"_hasShrinkwrap": false,
+			"contributors": []
+		},
+		"0.4.5": {
+			"name": "@nuxt/devtools-kit",
+			"type": "module",
+			"version": "0.4.5",
+			"license": "MIT",
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/nuxt/devtools.git"
+			},
+			"exports": {
+				".": {
+					"types": "./dist/index.d.ts",
+					"require": "./dist/index.cjs",
+					"import": "./dist/index.mjs"
+				},
+				"./types": {
+					"types": "./types.d.ts",
+					"require": "./dist/types.cjs",
+					"import": "./dist/types.mjs"
+				},
+				"./iframe-client": {
+					"types": "./iframe-client.d.ts",
+					"require": "./dist/iframe-client.cjs",
+					"import": "./dist/iframe-client.mjs"
+				}
+			},
+			"main": "./dist/index.cjs",
+			"types": "./dist/index.d.ts",
+			"peerDependencies": {
+				"nuxt": "^3.4.2",
+				"vite": "*"
+			},
+			"dependencies": {
+				"@nuxt/kit": "^3.4.2",
+				"@nuxt/schema": "^3.4.2",
+				"execa": "^7.1.1"
+			},
+			"devDependencies": {
+				"birpc": "^0.2.11",
+				"hookable": "^5.5.3",
+				"unbuild": "^1.2.1",
+				"unimport": "^3.0.6",
+				"vue-router": "^4.1.6"
+			},
+			"scripts": {
+				"build": "unbuild",
+				"stub": "unbuild --stub",
+				"dev:prepare": "nr stub"
+			},
+			"bugs": {
+				"url": "https://github.com/nuxt/devtools/issues"
+			},
+			"homepage": "https://github.com/nuxt/devtools#readme",
+			"_id": "@nuxt/devtools-kit@0.4.5",
+			"_integrity": "sha512-qB+jVdlZBJsw0h7YxtDFNJVspaDFO4PUV96dMzH8/mxvUKCTtjqI+i6bA7ZG/GKY8bT3BFTzsNvm/UEO7KqdGA==",
+			"_resolved": "/private/var/folders/30/nymxcyb909ggq2j5lwn7b_600000gn/T/094b9ea5186e8dd403e1906e941b113e/nuxt-devtools-kit-0.4.5.tgz",
+			"_from": "file:nuxt-devtools-kit-0.4.5.tgz",
+			"_nodeVersion": "18.13.0",
+			"_npmVersion": "8.19.3",
+			"dist": {
+				"integrity": "sha512-qB+jVdlZBJsw0h7YxtDFNJVspaDFO4PUV96dMzH8/mxvUKCTtjqI+i6bA7ZG/GKY8bT3BFTzsNvm/UEO7KqdGA==",
+				"shasum": "1e085c9805470b722d1ab20ca0bf0928912e700e",
+				"tarball": "https://registry.npmjs.org/@nuxt/devtools-kit/-/devtools-kit-0.4.5.tgz",
+				"fileCount": 17,
+				"unpackedSize": 33751,
+				"signatures": [
+					{
+						"keyid": "SHA256:jl3bwswu80PjjokCgh0o2w5c2U4LhQAE57gj9cz1kzA",
+						"sig": "MEUCIQDTeOp6goBOOBThkSfsfbqaT4W4TDcRU6ZTIXa7urwWjAIgKKEp6RH9ckTmgSc9/VjhPDTulSw4XemggFncluTiJSI="
+					}
+				],
+				"npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v4.10.10\r\nComment: https://openpgpjs.org\r\n\r\nwsFzBAEBCAAGBQJkTi1cACEJED1NWxICdlZqFiEECWMYAoorWMhJKdjhPU1b\r\nEgJ2VmrKjw/9EwI5D4fo8yiFKO3nKdwZ7zt3kBOQc7puIIadOSTc3Qn47GZW\r\nfOytJNmCZ9oY6g9pESRRbtRCW/G7r8YEq02ROahRfLACB6yeJO38ZDbR/0/j\r\nl5PMIiYduinQiBIvXSdQNjYiXKHPxOwS5NM2fazp49Q176BZQlFjVc9V5cdA\r\nnbCgQdNqZGY1qTq6lmH/4I15vJQsThQz3VESgMvC+LY9GxbEuoNP7ik6mAQr\r\n0PTssP2wuAjIQDjpt5TwM5j2QnOPkYfkwe/mgK/xavBnkdo+/ZjQoImxWxTU\r\nWw+cqfDBL/UX8CUdWUxPUn7WyJq/i+z5UAluCfki23+/3O0xtRxmsaJwjWnJ\r\nOiN6pNxQqkHNG/x184gRAEcvtuRVhpCJtOCbh2tyVC7ohOb62mSImWhHssIW\r\noF75FKbIaQpIXz/Zos1tSjCylZZ0ZjUGx6msYY67SuD8N4AnfmCMMuBISHE4\r\ne5bBH4625QCTCg25/C+ZVhX40/cuxlty26UI8LY03G7TbsAD2ywCqxSxY/kK\r\nuQDwZ2HkrEXp2vKCI0l5xyd0nsNszdi//6PL/9a33jan4uwQEJVym4VcdkBb\r\nxknGyjPbxr05Apo/w4FvMobrpAmclRW8w1q/eNNUcgP5Ip/OWCvkD9GJeg6L\r\nIYJINA9nM7Mh1sZmEAivNGcxlgdtlqW/5V4=\r\n=UZK6\r\n-----END PGP SIGNATURE-----\r\n"
+			},
+			"_npmUser": {
+				"name": "antfu",
+				"email": "anthonyfu117@hotmail.com"
+			},
+			"directories": {},
+			"maintainers": [
+				{
+					"name": "antfu",
+					"email": "anthonyfu117@hotmail.com"
+				},
+				{
+					"name": "atinux",
+					"email": "atinux@gmail.com"
+				},
+				{
+					"name": "pi0",
+					"email": "pyapar@gmail.com"
+				},
+				{
+					"name": "clarkdo",
+					"email": "clark.duxin@gmail.com"
+				},
+				{
+					"name": "danielroe",
+					"email": "daniel@roe.dev"
+				}
+			],
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/devtools-kit_0.4.5_1682845020742_0.7777990465679916"
+			},
+			"_hasShrinkwrap": false,
+			"contributors": []
+		},
+		"0.4.6": {
+			"name": "@nuxt/devtools-kit",
+			"type": "module",
+			"version": "0.4.6",
+			"license": "MIT",
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/nuxt/devtools.git"
+			},
+			"exports": {
+				".": {
+					"types": "./dist/index.d.ts",
+					"require": "./dist/index.cjs",
+					"import": "./dist/index.mjs"
+				},
+				"./types": {
+					"types": "./types.d.ts",
+					"require": "./dist/types.cjs",
+					"import": "./dist/types.mjs"
+				},
+				"./iframe-client": {
+					"types": "./iframe-client.d.ts",
+					"require": "./dist/iframe-client.cjs",
+					"import": "./dist/iframe-client.mjs"
+				}
+			},
+			"main": "./dist/index.cjs",
+			"types": "./dist/index.d.ts",
+			"peerDependencies": {
+				"nuxt": "^3.4.2",
+				"vite": "*"
+			},
+			"dependencies": {
+				"@nuxt/kit": "^3.4.3",
+				"@nuxt/schema": "^3.4.3",
+				"execa": "^7.1.1"
+			},
+			"devDependencies": {
+				"birpc": "^0.2.11",
+				"hookable": "^5.5.3",
+				"unbuild": "^1.2.1",
+				"unimport": "^3.0.6",
+				"vue-router": "^4.1.6"
+			},
+			"scripts": {
+				"build": "unbuild",
+				"stub": "unbuild --stub",
+				"dev:prepare": "nr stub"
+			},
+			"bugs": {
+				"url": "https://github.com/nuxt/devtools/issues"
+			},
+			"homepage": "https://github.com/nuxt/devtools#readme",
+			"_id": "@nuxt/devtools-kit@0.4.6",
+			"_integrity": "sha512-zqWvpkg7sV1spJ7ekQ4L8iRZ+3yUtJllS5j+jyUtzhjb77kEcfYagzPOSGTbg5Wv1tJCBQaCZIEchIwai+AYeA==",
+			"_resolved": "/private/var/folders/30/nymxcyb909ggq2j5lwn7b_600000gn/T/8cb7f78b8ac96ce1492c30a89d148d50/nuxt-devtools-kit-0.4.6.tgz",
+			"_from": "file:nuxt-devtools-kit-0.4.6.tgz",
+			"_nodeVersion": "18.13.0",
+			"_npmVersion": "8.19.3",
+			"dist": {
+				"integrity": "sha512-zqWvpkg7sV1spJ7ekQ4L8iRZ+3yUtJllS5j+jyUtzhjb77kEcfYagzPOSGTbg5Wv1tJCBQaCZIEchIwai+AYeA==",
+				"shasum": "45da6924c8695d9f87c7ee8cbe78c70890538f9b",
+				"tarball": "https://registry.npmjs.org/@nuxt/devtools-kit/-/devtools-kit-0.4.6.tgz",
+				"fileCount": 17,
+				"unpackedSize": 33751,
+				"signatures": [
+					{
+						"keyid": "SHA256:jl3bwswu80PjjokCgh0o2w5c2U4LhQAE57gj9cz1kzA",
+						"sig": "MEYCIQCHmBhMxTJ5DoOwdRPVxng6Z07M6PK8XvVGpqoK+kKhNQIhANkz7gN+EOIuC5sXCamxJ0MKGyoBsTrl4RGDD8sXey/v"
+					}
+				]
+			},
+			"_npmUser": {
+				"name": "antfu",
+				"email": "anthonyfu117@hotmail.com"
+			},
+			"directories": {},
+			"maintainers": [
+				{
+					"name": "antfu",
+					"email": "anthonyfu117@hotmail.com"
+				},
+				{
+					"name": "atinux",
+					"email": "atinux@gmail.com"
+				},
+				{
+					"name": "pi0",
+					"email": "pyapar@gmail.com"
+				},
+				{
+					"name": "clarkdo",
+					"email": "clark.duxin@gmail.com"
+				},
+				{
+					"name": "danielroe",
+					"email": "daniel@roe.dev"
+				}
+			],
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/devtools-kit_0.4.6_1683549193445_0.2605079832258559"
+			},
+			"_hasShrinkwrap": false,
+			"contributors": []
+		},
+		"0.5.0": {
+			"name": "@nuxt/devtools-kit",
+			"type": "module",
+			"version": "0.5.0",
+			"license": "MIT",
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/nuxt/devtools.git"
+			},
+			"exports": {
+				".": {
+					"types": "./dist/index.d.ts",
+					"require": "./dist/index.cjs",
+					"import": "./dist/index.mjs"
+				},
+				"./types": {
+					"types": "./types.d.ts",
+					"require": "./dist/types.cjs",
+					"import": "./dist/types.mjs"
+				},
+				"./iframe-client": {
+					"types": "./iframe-client.d.ts",
+					"require": "./dist/iframe-client.cjs",
+					"import": "./dist/iframe-client.mjs"
+				}
+			},
+			"main": "./dist/index.cjs",
+			"types": "./dist/index.d.ts",
+			"peerDependencies": {
+				"nuxt": "^3.4.2",
+				"vite": "*"
+			},
+			"dependencies": {
+				"@nuxt/kit": "^3.5.0",
+				"@nuxt/schema": "^3.5.0",
+				"execa": "^7.1.1"
+			},
+			"devDependencies": {
+				"birpc": "^0.2.11",
+				"hookable": "^5.5.3",
+				"unbuild": "^1.2.1",
+				"unimport": "^3.0.6",
+				"vite-plugin-vue-inspector": "^3.4.2",
+				"vue-router": "^4.2.0"
+			},
+			"scripts": {
+				"build": "unbuild",
+				"stub": "unbuild --stub",
+				"dev:prepare": "nr stub"
+			},
+			"bugs": {
+				"url": "https://github.com/nuxt/devtools/issues"
+			},
+			"homepage": "https://github.com/nuxt/devtools#readme",
+			"_id": "@nuxt/devtools-kit@0.5.0",
+			"_integrity": "sha512-/hxsGMzbcVcaTg1AGbC+mcDGKF0wyqydqeHVi/+pkTRZ332V81mhIJYVRfSJ9q6oBUKLBpGSM39hbohr4dgAag==",
+			"_resolved": "/private/var/folders/30/nymxcyb909ggq2j5lwn7b_600000gn/T/a28339d79e0274987fad1960332d74fc/nuxt-devtools-kit-0.5.0.tgz",
+			"_from": "file:nuxt-devtools-kit-0.5.0.tgz",
+			"_nodeVersion": "18.13.0",
+			"_npmVersion": "8.19.3",
+			"dist": {
+				"integrity": "sha512-/hxsGMzbcVcaTg1AGbC+mcDGKF0wyqydqeHVi/+pkTRZ332V81mhIJYVRfSJ9q6oBUKLBpGSM39hbohr4dgAag==",
+				"shasum": "a338a56ef9a4c065fe57acbb603a631a6d0ccc9a",
+				"tarball": "https://registry.npmjs.org/@nuxt/devtools-kit/-/devtools-kit-0.5.0.tgz",
+				"fileCount": 17,
+				"unpackedSize": 36284,
+				"signatures": [
+					{
+						"keyid": "SHA256:jl3bwswu80PjjokCgh0o2w5c2U4LhQAE57gj9cz1kzA",
+						"sig": "MEYCIQC1bAPT5TzaL1ln3+KmINc7Vn5BP/sxm8UTtx9hoCRlywIhANCRa2yYT5KRZhLq7GriPmLpM4xztZ3vYMjQhNawu2FJ"
+					}
+				]
+			},
+			"_npmUser": {
+				"name": "antfu",
+				"email": "anthonyfu117@hotmail.com"
+			},
+			"directories": {},
+			"maintainers": [
+				{
+					"name": "antfu",
+					"email": "anthonyfu117@hotmail.com"
+				},
+				{
+					"name": "atinux",
+					"email": "atinux@gmail.com"
+				},
+				{
+					"name": "pi0",
+					"email": "pyapar@gmail.com"
+				},
+				{
+					"name": "clarkdo",
+					"email": "clark.duxin@gmail.com"
+				},
+				{
+					"name": "danielroe",
+					"email": "daniel@roe.dev"
+				}
+			],
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/devtools-kit_0.5.0_1684415515102_0.42089204494547294"
+			},
+			"_hasShrinkwrap": false,
+			"contributors": []
+		},
+		"0.5.1": {
+			"name": "@nuxt/devtools-kit",
+			"type": "module",
+			"version": "0.5.1",
+			"license": "MIT",
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/nuxt/devtools.git"
+			},
+			"exports": {
+				".": {
+					"types": "./dist/index.d.ts",
+					"require": "./dist/index.cjs",
+					"import": "./dist/index.mjs"
+				},
+				"./types": {
+					"types": "./types.d.ts",
+					"require": "./dist/types.cjs",
+					"import": "./dist/types.mjs"
+				},
+				"./iframe-client": {
+					"types": "./iframe-client.d.ts",
+					"require": "./dist/iframe-client.cjs",
+					"import": "./dist/iframe-client.mjs"
+				}
+			},
+			"main": "./dist/index.cjs",
+			"types": "./dist/index.d.ts",
+			"peerDependencies": {
+				"nuxt": "^3.4.2",
+				"vite": "*"
+			},
+			"dependencies": {
+				"@nuxt/kit": "^3.5.0",
+				"@nuxt/schema": "^3.5.0",
+				"execa": "^7.1.1"
+			},
+			"devDependencies": {
+				"birpc": "^0.2.11",
+				"hookable": "^5.5.3",
+				"unbuild": "^1.2.1",
+				"unimport": "^3.0.6",
+				"vite-plugin-vue-inspector": "^3.4.2",
+				"vue-router": "^4.2.0"
+			},
+			"scripts": {
+				"build": "unbuild",
+				"stub": "unbuild --stub",
+				"dev:prepare": "nr stub"
+			},
+			"bugs": {
+				"url": "https://github.com/nuxt/devtools/issues"
+			},
+			"homepage": "https://github.com/nuxt/devtools#readme",
+			"_id": "@nuxt/devtools-kit@0.5.1",
+			"_integrity": "sha512-aMhk+bw9HvXt00eDN2P1xkfl2d7r7ZIg1a1Qj6t5B0GAnfy4RHSfSAfjfc5ODC1SBp/zThTjZypLn2QnmFGMoA==",
+			"_resolved": "/private/var/folders/30/nymxcyb909ggq2j5lwn7b_600000gn/T/40d12f79a9f3559ba41d008386c555e2/nuxt-devtools-kit-0.5.1.tgz",
+			"_from": "file:nuxt-devtools-kit-0.5.1.tgz",
+			"_nodeVersion": "18.13.0",
+			"_npmVersion": "8.19.3",
+			"dist": {
+				"integrity": "sha512-aMhk+bw9HvXt00eDN2P1xkfl2d7r7ZIg1a1Qj6t5B0GAnfy4RHSfSAfjfc5ODC1SBp/zThTjZypLn2QnmFGMoA==",
+				"shasum": "ba42e814f7430dfb6297a18c975951bc56da8e97",
+				"tarball": "https://registry.npmjs.org/@nuxt/devtools-kit/-/devtools-kit-0.5.1.tgz",
+				"fileCount": 17,
+				"unpackedSize": 36284,
+				"signatures": [
+					{
+						"keyid": "SHA256:jl3bwswu80PjjokCgh0o2w5c2U4LhQAE57gj9cz1kzA",
+						"sig": "MEUCIQCAUsnvCD6rRmM7l+YJRPAfhETwsKxxg39m0N5ofEM//AIgG1MF+16y7Q/E9wfsxo5YDLMMlVwlpX788VCuNjbVuA4="
+					}
+				]
+			},
+			"_npmUser": {
+				"name": "antfu",
+				"email": "anthonyfu117@hotmail.com"
+			},
+			"directories": {},
+			"maintainers": [
+				{
+					"name": "antfu",
+					"email": "anthonyfu117@hotmail.com"
+				},
+				{
+					"name": "atinux",
+					"email": "atinux@gmail.com"
+				},
+				{
+					"name": "pi0",
+					"email": "pyapar@gmail.com"
+				},
+				{
+					"name": "clarkdo",
+					"email": "clark.duxin@gmail.com"
+				},
+				{
+					"name": "danielroe",
+					"email": "daniel@roe.dev"
+				}
+			],
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/devtools-kit_0.5.1_1684834895100_0.9143236161780435"
+			},
+			"_hasShrinkwrap": false,
+			"contributors": []
+		},
+		"0.5.2": {
+			"name": "@nuxt/devtools-kit",
+			"type": "module",
+			"version": "0.5.2",
+			"license": "MIT",
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/nuxt/devtools.git"
+			},
+			"exports": {
+				".": {
+					"types": "./dist/index.d.ts",
+					"require": "./dist/index.cjs",
+					"import": "./dist/index.mjs"
+				},
+				"./types": {
+					"types": "./types.d.ts",
+					"require": "./dist/types.cjs",
+					"import": "./dist/types.mjs"
+				},
+				"./iframe-client": {
+					"types": "./iframe-client.d.ts",
+					"import": "./iframe-client.mjs"
+				}
+			},
+			"main": "./dist/index.cjs",
+			"types": "./dist/index.d.ts",
+			"peerDependencies": {
+				"nuxt": "^3.4.2",
+				"vite": "*"
+			},
+			"dependencies": {
+				"@nuxt/kit": "^3.5.1",
+				"@nuxt/schema": "^3.5.1",
+				"execa": "^7.1.1"
+			},
+			"devDependencies": {
+				"birpc": "^0.2.11",
+				"hookable": "^5.5.3",
+				"unbuild": "^1.2.1",
+				"unimport": "^3.0.7",
+				"vite-plugin-vue-inspector": "^3.4.2",
+				"vue-router": "^4.2.1"
+			},
+			"scripts": {
+				"build": "unbuild",
+				"stub": "unbuild --stub",
+				"dev:prepare": "nr stub"
+			},
+			"bugs": {
+				"url": "https://github.com/nuxt/devtools/issues"
+			},
+			"homepage": "https://github.com/nuxt/devtools#readme",
+			"_id": "@nuxt/devtools-kit@0.5.2",
+			"_integrity": "sha512-zIJfo53SmdKVYI4aG+oSJf8ES+jcDBs4xy1w7jNaA8D6EYzC6STZt/HAS3nLa+yGhu8LU8YT/uSElOz1ekfuwA==",
+			"_resolved": "/private/var/folders/30/nymxcyb909ggq2j5lwn7b_600000gn/T/7aa0d6547375fb17e1f2974a06098476/nuxt-devtools-kit-0.5.2.tgz",
+			"_from": "file:nuxt-devtools-kit-0.5.2.tgz",
+			"_nodeVersion": "18.13.0",
+			"_npmVersion": "8.19.3",
+			"dist": {
+				"integrity": "sha512-zIJfo53SmdKVYI4aG+oSJf8ES+jcDBs4xy1w7jNaA8D6EYzC6STZt/HAS3nLa+yGhu8LU8YT/uSElOz1ekfuwA==",
+				"shasum": "b44a96224487482fed3b580abbc367d16e6b12ea",
+				"tarball": "https://registry.npmjs.org/@nuxt/devtools-kit/-/devtools-kit-0.5.2.tgz",
+				"fileCount": 15,
+				"unpackedSize": 34505,
+				"signatures": [
+					{
+						"keyid": "SHA256:jl3bwswu80PjjokCgh0o2w5c2U4LhQAE57gj9cz1kzA",
+						"sig": "MEUCIQDVZrMC3lh1no5W5Gla5jXduPrn8N1HXGCIaFkQpn7fkgIgMyyJhk/RLf3kc4jIJVi/165XcejMSIzEefInX2AZZIs="
+					}
+				]
+			},
+			"_npmUser": {
+				"name": "antfu",
+				"email": "anthonyfu117@hotmail.com"
+			},
+			"directories": {},
+			"maintainers": [
+				{
+					"name": "antfu",
+					"email": "anthonyfu117@hotmail.com"
+				},
+				{
+					"name": "atinux",
+					"email": "atinux@gmail.com"
+				},
+				{
+					"name": "pi0",
+					"email": "pyapar@gmail.com"
+				},
+				{
+					"name": "clarkdo",
+					"email": "clark.duxin@gmail.com"
+				},
+				{
+					"name": "danielroe",
+					"email": "daniel@roe.dev"
+				}
+			],
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/devtools-kit_0.5.2_1684854379979_0.667679908373128"
+			},
+			"_hasShrinkwrap": false,
+			"contributors": []
+		},
+		"0.5.3": {
+			"name": "@nuxt/devtools-kit",
+			"type": "module",
+			"version": "0.5.3",
+			"license": "MIT",
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/nuxt/devtools.git"
+			},
+			"exports": {
+				".": {
+					"types": "./dist/index.d.ts",
+					"require": "./dist/index.cjs",
+					"import": "./dist/index.mjs"
+				},
+				"./types": {
+					"types": "./types.d.ts",
+					"require": "./dist/types.cjs",
+					"import": "./dist/types.mjs"
+				},
+				"./iframe-client": {
+					"types": "./iframe-client.d.ts",
+					"import": "./iframe-client.mjs"
+				}
+			},
+			"main": "./dist/index.cjs",
+			"types": "./dist/index.d.ts",
+			"peerDependencies": {
+				"nuxt": "^3.4.2",
+				"vite": "*"
+			},
+			"dependencies": {
+				"@nuxt/kit": "^3.5.1",
+				"@nuxt/schema": "^3.5.1",
+				"execa": "^7.1.1"
+			},
+			"devDependencies": {
+				"birpc": "^0.2.11",
+				"hookable": "^5.5.3",
+				"unbuild": "^1.2.1",
+				"unimport": "^3.0.7",
+				"vite-plugin-vue-inspector": "^3.4.2",
+				"vue-router": "^4.2.1"
+			},
+			"scripts": {
+				"build": "unbuild",
+				"stub": "unbuild --stub",
+				"dev:prepare": "nr stub"
+			},
+			"bugs": {
+				"url": "https://github.com/nuxt/devtools/issues"
+			},
+			"homepage": "https://github.com/nuxt/devtools#readme",
+			"_id": "@nuxt/devtools-kit@0.5.3",
+			"_integrity": "sha512-ogPOAECwJMNExZWdKS9BHOyAY+KKNT7N58RirmlmjfPLzDrj4ufCNdE027LUg/HKbYhK0GrmtlmSwthL+6ELrQ==",
+			"_resolved": "/private/var/folders/30/nymxcyb909ggq2j5lwn7b_600000gn/T/f14509edb402d417ecfeb1a6d3e2b390/nuxt-devtools-kit-0.5.3.tgz",
+			"_from": "file:nuxt-devtools-kit-0.5.3.tgz",
+			"_nodeVersion": "18.13.0",
+			"_npmVersion": "8.19.3",
+			"dist": {
+				"integrity": "sha512-ogPOAECwJMNExZWdKS9BHOyAY+KKNT7N58RirmlmjfPLzDrj4ufCNdE027LUg/HKbYhK0GrmtlmSwthL+6ELrQ==",
+				"shasum": "f5d894ffcb636992956da0b78bde8f2fbb240295",
+				"tarball": "https://registry.npmjs.org/@nuxt/devtools-kit/-/devtools-kit-0.5.3.tgz",
+				"fileCount": 15,
+				"unpackedSize": 34505,
+				"signatures": [
+					{
+						"keyid": "SHA256:jl3bwswu80PjjokCgh0o2w5c2U4LhQAE57gj9cz1kzA",
+						"sig": "MEUCIASlExV5w578v1guUdapWUpTb8SvEXGDe3FZnqQeSAN/AiEAhX2VOJvkviPsr34aeUa1rPV5ZR1bGo1/fxe6IiHkk7Y="
+					}
+				]
+			},
+			"_npmUser": {
+				"name": "antfu",
+				"email": "anthonyfu117@hotmail.com"
+			},
+			"directories": {},
+			"maintainers": [
+				{
+					"name": "antfu",
+					"email": "anthonyfu117@hotmail.com"
+				},
+				{
+					"name": "atinux",
+					"email": "atinux@gmail.com"
+				},
+				{
+					"name": "pi0",
+					"email": "pyapar@gmail.com"
+				},
+				{
+					"name": "clarkdo",
+					"email": "clark.duxin@gmail.com"
+				},
+				{
+					"name": "danielroe",
+					"email": "daniel@roe.dev"
+				}
+			],
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/devtools-kit_0.5.3_1684854772723_0.932366287095534"
+			},
+			"_hasShrinkwrap": false,
+			"contributors": []
+		},
+		"0.5.4": {
+			"name": "@nuxt/devtools-kit",
+			"type": "module",
+			"version": "0.5.4",
+			"license": "MIT",
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/nuxt/devtools.git"
+			},
+			"exports": {
+				".": {
+					"types": "./dist/index.d.ts",
+					"require": "./dist/index.cjs",
+					"import": "./dist/index.mjs"
+				},
+				"./types": {
+					"types": "./types.d.ts",
+					"require": "./dist/types.cjs",
+					"import": "./dist/types.mjs"
+				},
+				"./iframe-client": {
+					"types": "./iframe-client.d.ts",
+					"import": "./iframe-client.mjs"
+				}
+			},
+			"main": "./dist/index.cjs",
+			"types": "./dist/index.d.ts",
+			"peerDependencies": {
+				"nuxt": "^3.5.1",
+				"vite": "*"
+			},
+			"dependencies": {
+				"@nuxt/kit": "^3.5.1",
+				"@nuxt/schema": "^3.5.1",
+				"execa": "^7.1.1"
+			},
+			"devDependencies": {
+				"birpc": "^0.2.11",
+				"hookable": "^5.5.3",
+				"unbuild": "^1.2.1",
+				"unimport": "^3.0.7",
+				"vite-plugin-vue-inspector": "^3.4.2",
+				"vue-router": "^4.2.1"
+			},
+			"scripts": {
+				"build": "unbuild",
+				"stub": "unbuild --stub",
+				"dev:prepare": "nr stub"
+			},
+			"bugs": {
+				"url": "https://github.com/nuxt/devtools/issues"
+			},
+			"homepage": "https://github.com/nuxt/devtools#readme",
+			"_id": "@nuxt/devtools-kit@0.5.4",
+			"_integrity": "sha512-GOPEXR00otH1yt1MSvqJ9p78REKSj2B8bNdXdx/cFFfveXa8L3JQnO0KfO8sTmsUsZRbv7jMesM4yBbMt+KH3A==",
+			"_resolved": "/private/var/folders/30/nymxcyb909ggq2j5lwn7b_600000gn/T/6d002ceb3a8e0230895d5e9767823f5f/nuxt-devtools-kit-0.5.4.tgz",
+			"_from": "file:nuxt-devtools-kit-0.5.4.tgz",
+			"_nodeVersion": "18.13.0",
+			"_npmVersion": "8.19.3",
+			"dist": {
+				"integrity": "sha512-GOPEXR00otH1yt1MSvqJ9p78REKSj2B8bNdXdx/cFFfveXa8L3JQnO0KfO8sTmsUsZRbv7jMesM4yBbMt+KH3A==",
+				"shasum": "7db13b8d91bf17f91a3bf6f49a8785dced9861c9",
+				"tarball": "https://registry.npmjs.org/@nuxt/devtools-kit/-/devtools-kit-0.5.4.tgz",
+				"fileCount": 15,
+				"unpackedSize": 34505,
+				"signatures": [
+					{
+						"keyid": "SHA256:jl3bwswu80PjjokCgh0o2w5c2U4LhQAE57gj9cz1kzA",
+						"sig": "MEYCIQDRbylmoMGGHdyD4PED6KUvUQaQY578auL3vYMl2WvU2QIhAIahwJzgTVErmnqD3cUAUCQ5pd/eQ21EKjVljaC/odJP"
+					}
+				]
+			},
+			"_npmUser": {
+				"name": "antfu",
+				"email": "anthonyfu117@hotmail.com"
+			},
+			"directories": {},
+			"maintainers": [
+				{
+					"name": "antfu",
+					"email": "anthonyfu117@hotmail.com"
+				},
+				{
+					"name": "atinux",
+					"email": "atinux@gmail.com"
+				},
+				{
+					"name": "pi0",
+					"email": "pyapar@gmail.com"
+				},
+				{
+					"name": "clarkdo",
+					"email": "clark.duxin@gmail.com"
+				},
+				{
+					"name": "danielroe",
+					"email": "daniel@roe.dev"
+				}
+			],
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/devtools-kit_0.5.4_1684964557998_0.09036901056323043"
+			},
+			"_hasShrinkwrap": false,
+			"contributors": []
+		},
+		"0.5.5": {
+			"name": "@nuxt/devtools-kit",
+			"type": "module",
+			"version": "0.5.5",
+			"license": "MIT",
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/nuxt/devtools.git"
+			},
+			"exports": {
+				".": {
+					"types": "./dist/index.d.ts",
+					"require": "./dist/index.cjs",
+					"import": "./dist/index.mjs"
+				},
+				"./types": {
+					"types": "./types.d.ts",
+					"require": "./dist/types.cjs",
+					"import": "./dist/types.mjs"
+				},
+				"./iframe-client": {
+					"types": "./iframe-client.d.ts",
+					"import": "./iframe-client.mjs"
+				}
+			},
+			"main": "./dist/index.cjs",
+			"types": "./dist/index.d.ts",
+			"peerDependencies": {
+				"nuxt": "^3.5.1",
+				"vite": "*"
+			},
+			"dependencies": {
+				"@nuxt/kit": "^3.5.1",
+				"@nuxt/schema": "^3.5.1",
+				"execa": "^7.1.1"
+			},
+			"devDependencies": {
+				"birpc": "^0.2.11",
+				"hookable": "^5.5.3",
+				"unbuild": "^1.2.1",
+				"unimport": "^3.0.7",
+				"vite-plugin-vue-inspector": "^3.4.2",
+				"vue-router": "^4.2.1"
+			},
+			"scripts": {
+				"build": "unbuild",
+				"stub": "unbuild --stub",
+				"dev:prepare": "nr stub"
+			},
+			"bugs": {
+				"url": "https://github.com/nuxt/devtools/issues"
+			},
+			"homepage": "https://github.com/nuxt/devtools#readme",
+			"_id": "@nuxt/devtools-kit@0.5.5",
+			"_integrity": "sha512-wyoNtH4QxTAWJPL/LSKYNkiIh/w4lmyRnMe7I22BFWHYOCKe9Oz0E2pPkKvWyM1oFR1Ysq2n1yVtTvUx6UQ/Bw==",
+			"_resolved": "/private/var/folders/30/nymxcyb909ggq2j5lwn7b_600000gn/T/3e62eb03e3f2035217215d06fd760d24/nuxt-devtools-kit-0.5.5.tgz",
+			"_from": "file:nuxt-devtools-kit-0.5.5.tgz",
+			"_nodeVersion": "18.13.0",
+			"_npmVersion": "8.19.3",
+			"dist": {
+				"integrity": "sha512-wyoNtH4QxTAWJPL/LSKYNkiIh/w4lmyRnMe7I22BFWHYOCKe9Oz0E2pPkKvWyM1oFR1Ysq2n1yVtTvUx6UQ/Bw==",
+				"shasum": "fba15d56e9cebe834070ca655168dc9f01389a53",
+				"tarball": "https://registry.npmjs.org/@nuxt/devtools-kit/-/devtools-kit-0.5.5.tgz",
+				"fileCount": 15,
+				"unpackedSize": 34505,
+				"signatures": [
+					{
+						"keyid": "SHA256:jl3bwswu80PjjokCgh0o2w5c2U4LhQAE57gj9cz1kzA",
+						"sig": "MEYCIQCjLyz+8bfFb5EDAnoPg7gMiQE7gceOy4s05FzsCXZP+gIhALo4ilUFqjV6rucblUymVGWs9V+KtTgXcmOLYp0uD+yP"
+					}
+				]
+			},
+			"_npmUser": {
+				"name": "antfu",
+				"email": "anthonyfu117@hotmail.com"
+			},
+			"directories": {},
+			"maintainers": [
+				{
+					"name": "antfu",
+					"email": "anthonyfu117@hotmail.com"
+				},
+				{
+					"name": "atinux",
+					"email": "atinux@gmail.com"
+				},
+				{
+					"name": "pi0",
+					"email": "pyapar@gmail.com"
+				},
+				{
+					"name": "clarkdo",
+					"email": "clark.duxin@gmail.com"
+				},
+				{
+					"name": "danielroe",
+					"email": "daniel@roe.dev"
+				}
+			],
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/devtools-kit_0.5.5_1684999866181_0.3436868813332905"
+			},
+			"_hasShrinkwrap": false,
+			"contributors": []
+		},
+		"0.6.0": {
+			"name": "@nuxt/devtools-kit",
+			"type": "module",
+			"version": "0.6.0",
+			"license": "MIT",
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/nuxt/devtools.git"
+			},
+			"exports": {
+				".": {
+					"types": "./dist/index.d.ts",
+					"require": "./dist/index.cjs",
+					"import": "./dist/index.mjs"
+				},
+				"./types": {
+					"types": "./types.d.ts",
+					"require": "./dist/types.cjs",
+					"import": "./dist/types.mjs"
+				},
+				"./iframe-client": {
+					"types": "./iframe-client.d.ts",
+					"import": "./iframe-client.mjs"
+				}
+			},
+			"main": "./dist/index.cjs",
+			"types": "./dist/index.d.ts",
+			"peerDependencies": {
+				"nuxt": "^3.5.1",
+				"vite": "*"
+			},
+			"dependencies": {
+				"@nuxt/kit": "^3.5.3",
+				"@nuxt/schema": "^3.5.3",
+				"execa": "^7.1.1"
+			},
+			"devDependencies": {
+				"birpc": "^0.2.12",
+				"hookable": "^5.5.3",
+				"unbuild": "^1.2.1",
+				"unimport": "^3.0.8",
+				"vite-plugin-vue-inspector": "^3.4.2",
+				"vue-router": "^4.2.2"
+			},
+			"scripts": {
+				"build": "unbuild",
+				"stub": "unbuild --stub",
+				"dev:prepare": "nr stub"
+			},
+			"bugs": {
+				"url": "https://github.com/nuxt/devtools/issues"
+			},
+			"homepage": "https://github.com/nuxt/devtools#readme",
+			"_id": "@nuxt/devtools-kit@0.6.0",
+			"_integrity": "sha512-Vh/W80lf3HTGmGNq+rydKlBNQtzh3o9spiMtnEu0S3y3dh6bdumZ9vrcOzwfsgou95hm+YYAnmXIK5Ct89/TUw==",
+			"_resolved": "/private/var/folders/30/nymxcyb909ggq2j5lwn7b_600000gn/T/375b820a25dcbaebe8852b6afa4d0f47/nuxt-devtools-kit-0.6.0.tgz",
+			"_from": "file:nuxt-devtools-kit-0.6.0.tgz",
+			"_nodeVersion": "18.13.0",
+			"_npmVersion": "8.19.3",
+			"dist": {
+				"integrity": "sha512-Vh/W80lf3HTGmGNq+rydKlBNQtzh3o9spiMtnEu0S3y3dh6bdumZ9vrcOzwfsgou95hm+YYAnmXIK5Ct89/TUw==",
+				"shasum": "4ae416fd9aa8c2723883d7d0e2c87027a70ce483",
+				"tarball": "https://registry.npmjs.org/@nuxt/devtools-kit/-/devtools-kit-0.6.0.tgz",
+				"fileCount": 15,
+				"unpackedSize": 35920,
+				"signatures": [
+					{
+						"keyid": "SHA256:jl3bwswu80PjjokCgh0o2w5c2U4LhQAE57gj9cz1kzA",
+						"sig": "MEUCIQCoNMtuT8w+wjhew9c1YFCggw1jvVpKvthfN6p/4OGFkQIgJ8a8QhrQOnFBqLNBXR66PXeFOxoMc7CQxaObQIYssls="
+					}
+				]
+			},
+			"_npmUser": {
+				"name": "antfu",
+				"email": "anthonyfu117@hotmail.com"
+			},
+			"directories": {},
+			"maintainers": [
+				{
+					"name": "antfu",
+					"email": "anthonyfu117@hotmail.com"
+				},
+				{
+					"name": "atinux",
+					"email": "atinux@gmail.com"
+				},
+				{
+					"name": "pi0",
+					"email": "pyapar@gmail.com"
+				},
+				{
+					"name": "clarkdo",
+					"email": "clark.duxin@gmail.com"
+				},
+				{
+					"name": "danielroe",
+					"email": "daniel@roe.dev"
+				}
+			],
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/devtools-kit_0.6.0_1686666490454_0.00881309202031555"
+			},
+			"_hasShrinkwrap": false,
+			"contributors": []
+		},
+		"0.6.1": {
+			"name": "@nuxt/devtools-kit",
+			"type": "module",
+			"version": "0.6.1",
+			"license": "MIT",
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/nuxt/devtools.git"
+			},
+			"exports": {
+				".": {
+					"types": "./dist/index.d.ts",
+					"require": "./dist/index.cjs",
+					"import": "./dist/index.mjs"
+				},
+				"./types": {
+					"types": "./types.d.ts",
+					"require": "./dist/types.cjs",
+					"import": "./dist/types.mjs"
+				},
+				"./iframe-client": {
+					"types": "./iframe-client.d.ts",
+					"import": "./iframe-client.mjs"
+				}
+			},
+			"main": "./dist/index.cjs",
+			"types": "./dist/index.d.ts",
+			"peerDependencies": {
+				"nuxt": "^3.5.1",
+				"vite": "*"
+			},
+			"dependencies": {
+				"@nuxt/kit": "^3.5.3",
+				"@nuxt/schema": "^3.5.3",
+				"execa": "^7.1.1"
+			},
+			"devDependencies": {
+				"birpc": "^0.2.12",
+				"hookable": "^5.5.3",
+				"unbuild": "^1.2.1",
+				"unimport": "^3.0.8",
+				"vite-plugin-vue-inspector": "^3.4.2",
+				"vue-router": "^4.2.2"
+			},
+			"scripts": {
+				"build": "unbuild",
+				"stub": "unbuild --stub",
+				"dev:prepare": "nr stub"
+			},
+			"bugs": {
+				"url": "https://github.com/nuxt/devtools/issues"
+			},
+			"homepage": "https://github.com/nuxt/devtools#readme",
+			"_id": "@nuxt/devtools-kit@0.6.1",
+			"_integrity": "sha512-4x4f9MynFGRajUx91sh5GuDQGoZlmDxF4JOhTN/s90x5wkjRLN4hIb988E7NZ2ak3iH4+DTh7VQWZTBfLaBqlA==",
+			"_resolved": "/private/var/folders/30/nymxcyb909ggq2j5lwn7b_600000gn/T/da959b0f0d1d071f4ddb04452ce6783a/nuxt-devtools-kit-0.6.1.tgz",
+			"_from": "file:nuxt-devtools-kit-0.6.1.tgz",
+			"_nodeVersion": "18.13.0",
+			"_npmVersion": "8.19.3",
+			"dist": {
+				"integrity": "sha512-4x4f9MynFGRajUx91sh5GuDQGoZlmDxF4JOhTN/s90x5wkjRLN4hIb988E7NZ2ak3iH4+DTh7VQWZTBfLaBqlA==",
+				"shasum": "815edc070ae2c25234af44e369da5aed1cd4e037",
+				"tarball": "https://registry.npmjs.org/@nuxt/devtools-kit/-/devtools-kit-0.6.1.tgz",
+				"fileCount": 15,
+				"unpackedSize": 35965,
+				"signatures": [
+					{
+						"keyid": "SHA256:jl3bwswu80PjjokCgh0o2w5c2U4LhQAE57gj9cz1kzA",
+						"sig": "MEUCIDvtLW4C9dMzcE5bCGk5KHrxuhqWDz1ixUyv2E+E2HjlAiEAji3vIExzwPnqtVj3yqKTFy3Zst0euci70A411yAj4JE="
+					}
+				]
+			},
+			"_npmUser": {
+				"name": "antfu",
+				"email": "anthonyfu117@hotmail.com"
+			},
+			"directories": {},
+			"maintainers": [
+				{
+					"name": "antfu",
+					"email": "anthonyfu117@hotmail.com"
+				},
+				{
+					"name": "atinux",
+					"email": "atinux@gmail.com"
+				},
+				{
+					"name": "pi0",
+					"email": "pyapar@gmail.com"
+				},
+				{
+					"name": "clarkdo",
+					"email": "clark.duxin@gmail.com"
+				},
+				{
+					"name": "danielroe",
+					"email": "daniel@roe.dev"
+				}
+			],
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/devtools-kit_0.6.1_1686856257275_0.547898725020098"
+			},
+			"_hasShrinkwrap": false,
+			"contributors": []
+		},
+		"0.6.2": {
+			"name": "@nuxt/devtools-kit",
+			"type": "module",
+			"version": "0.6.2",
+			"license": "MIT",
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/nuxt/devtools.git"
+			},
+			"exports": {
+				".": {
+					"types": "./dist/index.d.ts",
+					"require": "./dist/index.cjs",
+					"import": "./dist/index.mjs"
+				},
+				"./types": {
+					"types": "./types.d.ts",
+					"require": "./dist/types.cjs",
+					"import": "./dist/types.mjs"
+				},
+				"./iframe-client": {
+					"types": "./iframe-client.d.ts",
+					"import": "./iframe-client.mjs"
+				}
+			},
+			"main": "./dist/index.cjs",
+			"types": "./dist/index.d.ts",
+			"peerDependencies": {
+				"nuxt": "^3.5.1",
+				"vite": "*"
+			},
+			"dependencies": {
+				"@nuxt/kit": "^3.5.3",
+				"@nuxt/schema": "^3.5.3",
+				"execa": "^7.1.1"
+			},
+			"devDependencies": {
+				"birpc": "^0.2.12",
+				"hookable": "^5.5.3",
+				"unbuild": "^1.2.1",
+				"unimport": "^3.0.8",
+				"vite-plugin-vue-inspector": "^3.4.2",
+				"vue-router": "^4.2.2"
+			},
+			"scripts": {
+				"build": "unbuild",
+				"stub": "unbuild --stub",
+				"dev:prepare": "nr stub"
+			},
+			"bugs": {
+				"url": "https://github.com/nuxt/devtools/issues"
+			},
+			"homepage": "https://github.com/nuxt/devtools#readme",
+			"_id": "@nuxt/devtools-kit@0.6.2",
+			"_integrity": "sha512-nHysPrkl4oJELqs+MmmSSFfVufE13I8UpufgdLIcEKR3PW27gX199N5SpE9qrd/2EvMxaiH83TUjzilrF2jnUw==",
+			"_resolved": "/private/var/folders/30/nymxcyb909ggq2j5lwn7b_600000gn/T/4cd53eb0e30ce8deb43d99de3d8ad3e5/nuxt-devtools-kit-0.6.2.tgz",
+			"_from": "file:nuxt-devtools-kit-0.6.2.tgz",
+			"_nodeVersion": "18.13.0",
+			"_npmVersion": "8.19.3",
+			"dist": {
+				"integrity": "sha512-nHysPrkl4oJELqs+MmmSSFfVufE13I8UpufgdLIcEKR3PW27gX199N5SpE9qrd/2EvMxaiH83TUjzilrF2jnUw==",
+				"shasum": "db6aef55dff1c045d6306e117e9055e14aa72e3b",
+				"tarball": "https://registry.npmjs.org/@nuxt/devtools-kit/-/devtools-kit-0.6.2.tgz",
+				"fileCount": 15,
+				"unpackedSize": 35983,
+				"signatures": [
+					{
+						"keyid": "SHA256:jl3bwswu80PjjokCgh0o2w5c2U4LhQAE57gj9cz1kzA",
+						"sig": "MEYCIQDQnbgbFr1yCrkCejtB2Z70QYtg+mmY4MpUGx4l1JrMQgIhANvlFxG8zSR6KX7nzi9TGC6msGcK/cmGrvozmf7Z9Sec"
+					}
+				]
+			},
+			"_npmUser": {
+				"name": "antfu",
+				"email": "anthonyfu117@hotmail.com"
+			},
+			"directories": {},
+			"maintainers": [
+				{
+					"name": "antfu",
+					"email": "anthonyfu117@hotmail.com"
+				},
+				{
+					"name": "atinux",
+					"email": "atinux@gmail.com"
+				},
+				{
+					"name": "pi0",
+					"email": "pyapar@gmail.com"
+				},
+				{
+					"name": "clarkdo",
+					"email": "clark.duxin@gmail.com"
+				},
+				{
+					"name": "danielroe",
+					"email": "daniel@roe.dev"
+				}
+			],
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/devtools-kit_0.6.2_1687341236981_0.2690117400900973"
+			},
+			"_hasShrinkwrap": false,
+			"contributors": []
+		},
+		"0.6.3": {
+			"name": "@nuxt/devtools-kit",
+			"type": "module",
+			"version": "0.6.3",
+			"license": "MIT",
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/nuxt/devtools.git"
+			},
+			"exports": {
+				".": {
+					"types": "./dist/index.d.ts",
+					"require": "./dist/index.cjs",
+					"import": "./dist/index.mjs"
+				},
+				"./types": {
+					"types": "./types.d.ts",
+					"require": "./dist/types.cjs",
+					"import": "./dist/types.mjs"
+				},
+				"./iframe-client": {
+					"types": "./iframe-client.d.ts",
+					"import": "./iframe-client.mjs"
+				}
+			},
+			"main": "./dist/index.cjs",
+			"types": "./dist/index.d.ts",
+			"peerDependencies": {
+				"nuxt": "^3.5.1",
+				"vite": "*"
+			},
+			"dependencies": {
+				"@nuxt/kit": "^3.6.0",
+				"@nuxt/schema": "^3.6.0",
+				"execa": "^7.1.1"
+			},
+			"devDependencies": {
+				"birpc": "^0.2.12",
+				"hookable": "^5.5.3",
+				"unbuild": "^1.2.1",
+				"unimport": "^3.0.8",
+				"vite-plugin-vue-inspector": "^3.4.2",
+				"vue-router": "^4.2.2"
+			},
+			"scripts": {
+				"build": "unbuild",
+				"stub": "unbuild --stub",
+				"dev:prepare": "nr stub"
+			},
+			"bugs": {
+				"url": "https://github.com/nuxt/devtools/issues"
+			},
+			"homepage": "https://github.com/nuxt/devtools#readme",
+			"_id": "@nuxt/devtools-kit@0.6.3",
+			"_integrity": "sha512-YRGyM7Kz3LH4SyaCFU1KtwN8d3vxUovJ/pWWXxJp9BCAHg/6kWtAllsLgyPAkt03lU249FJTJ23RBDOkqzmegA==",
+			"_resolved": "/private/var/folders/30/nymxcyb909ggq2j5lwn7b_600000gn/T/bcab2e4f9786cec2b3c619580aee3f75/nuxt-devtools-kit-0.6.3.tgz",
+			"_from": "file:nuxt-devtools-kit-0.6.3.tgz",
+			"_nodeVersion": "18.13.0",
+			"_npmVersion": "8.19.3",
+			"dist": {
+				"integrity": "sha512-YRGyM7Kz3LH4SyaCFU1KtwN8d3vxUovJ/pWWXxJp9BCAHg/6kWtAllsLgyPAkt03lU249FJTJ23RBDOkqzmegA==",
+				"shasum": "d18835685c97fc04912a4fc8802ecf887a2f14f3",
+				"tarball": "https://registry.npmjs.org/@nuxt/devtools-kit/-/devtools-kit-0.6.3.tgz",
+				"fileCount": 15,
+				"unpackedSize": 36454,
+				"signatures": [
+					{
+						"keyid": "SHA256:jl3bwswu80PjjokCgh0o2w5c2U4LhQAE57gj9cz1kzA",
+						"sig": "MEUCIDsEJRokkhrKJ8ZIIHWzfFyDiIcoxPqo/FI4546JtalfAiEA5iljTdKp/Se5dUEOxmri4vS5vY1we1g599d81NtS5dk="
+					}
+				]
+			},
+			"_npmUser": {
+				"name": "antfu",
+				"email": "anthonyfu117@hotmail.com"
+			},
+			"directories": {},
+			"maintainers": [
+				{
+					"name": "antfu",
+					"email": "anthonyfu117@hotmail.com"
+				},
+				{
+					"name": "atinux",
+					"email": "atinux@gmail.com"
+				},
+				{
+					"name": "pi0",
+					"email": "pyapar@gmail.com"
+				},
+				{
+					"name": "clarkdo",
+					"email": "clark.duxin@gmail.com"
+				},
+				{
+					"name": "danielroe",
+					"email": "daniel@roe.dev"
+				}
+			],
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/devtools-kit_0.6.3_1687532506353_0.744951626546764"
+			},
+			"_hasShrinkwrap": false,
+			"contributors": []
+		},
+		"0.6.4": {
+			"name": "@nuxt/devtools-kit",
+			"type": "module",
+			"version": "0.6.4",
+			"license": "MIT",
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/nuxt/devtools.git"
+			},
+			"exports": {
+				".": {
+					"types": "./dist/index.d.ts",
+					"require": "./dist/index.cjs",
+					"import": "./dist/index.mjs"
+				},
+				"./types": {
+					"types": "./types.d.ts",
+					"require": "./dist/types.cjs",
+					"import": "./dist/types.mjs"
+				},
+				"./iframe-client": {
+					"types": "./iframe-client.d.ts",
+					"import": "./iframe-client.mjs"
+				}
+			},
+			"main": "./dist/index.cjs",
+			"types": "./dist/index.d.ts",
+			"peerDependencies": {
+				"nuxt": "^3.5.1",
+				"vite": "*"
+			},
+			"dependencies": {
+				"@nuxt/kit": "^3.6.0",
+				"@nuxt/schema": "^3.6.0",
+				"execa": "^7.1.1"
+			},
+			"devDependencies": {
+				"birpc": "^0.2.12",
+				"hookable": "^5.5.3",
+				"unbuild": "^1.2.1",
+				"unimport": "^3.0.8",
+				"vite-plugin-vue-inspector": "^3.4.2",
+				"vue-router": "^4.2.2"
+			},
+			"scripts": {
+				"build": "unbuild",
+				"stub": "unbuild --stub",
+				"dev:prepare": "nr stub"
+			},
+			"bugs": {
+				"url": "https://github.com/nuxt/devtools/issues"
+			},
+			"homepage": "https://github.com/nuxt/devtools#readme",
+			"_id": "@nuxt/devtools-kit@0.6.4",
+			"_integrity": "sha512-+NSTULmKIECVBzAmk2/LnzJnUv1hIzkRmtBSPwNTyaHe6KEU45eq32/4OdjlM/Nw4ucc2w7CSbATptcR7lnWVw==",
+			"_resolved": "/private/var/folders/30/nymxcyb909ggq2j5lwn7b_600000gn/T/c9de0173ab09f98cd37d85af8c52f14f/nuxt-devtools-kit-0.6.4.tgz",
+			"_from": "file:nuxt-devtools-kit-0.6.4.tgz",
+			"_nodeVersion": "18.13.0",
+			"_npmVersion": "8.19.3",
+			"dist": {
+				"integrity": "sha512-+NSTULmKIECVBzAmk2/LnzJnUv1hIzkRmtBSPwNTyaHe6KEU45eq32/4OdjlM/Nw4ucc2w7CSbATptcR7lnWVw==",
+				"shasum": "dd58ac32fa1c4820796d0192569fad3642810c61",
+				"tarball": "https://registry.npmjs.org/@nuxt/devtools-kit/-/devtools-kit-0.6.4.tgz",
+				"fileCount": 15,
+				"unpackedSize": 36454,
+				"signatures": [
+					{
+						"keyid": "SHA256:jl3bwswu80PjjokCgh0o2w5c2U4LhQAE57gj9cz1kzA",
+						"sig": "MEYCIQCkGX2XQ+YHAgXcA3JaWqDhIjKAlzg9b8vNsgh/Qfr8EAIhAM1JSOuFQpm1PB7Av6nbwel2YFOL2UB005NjtN8Ys9Vx"
+					}
+				]
+			},
+			"_npmUser": {
+				"name": "antfu",
+				"email": "anthonyfu117@hotmail.com"
+			},
+			"directories": {},
+			"maintainers": [
+				{
+					"name": "antfu",
+					"email": "anthonyfu117@hotmail.com"
+				},
+				{
+					"name": "atinux",
+					"email": "atinux@gmail.com"
+				},
+				{
+					"name": "pi0",
+					"email": "pyapar@gmail.com"
+				},
+				{
+					"name": "clarkdo",
+					"email": "clark.duxin@gmail.com"
+				},
+				{
+					"name": "danielroe",
+					"email": "daniel@roe.dev"
+				}
+			],
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/devtools-kit_0.6.4_1687780594019_0.7274687287074701"
+			},
+			"_hasShrinkwrap": false,
+			"contributors": []
+		},
+		"0.6.5": {
+			"name": "@nuxt/devtools-kit",
+			"type": "module",
+			"version": "0.6.5",
+			"license": "MIT",
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/nuxt/devtools.git"
+			},
+			"exports": {
+				".": {
+					"types": "./dist/index.d.ts",
+					"require": "./dist/index.cjs",
+					"import": "./dist/index.mjs"
+				},
+				"./types": {
+					"types": "./types.d.ts",
+					"require": "./dist/types.cjs",
+					"import": "./dist/types.mjs"
+				},
+				"./iframe-client": {
+					"types": "./iframe-client.d.ts",
+					"import": "./iframe-client.mjs"
+				}
+			},
+			"main": "./dist/index.cjs",
+			"types": "./dist/index.d.ts",
+			"peerDependencies": {
+				"nuxt": "^3.5.1",
+				"vite": "*"
+			},
+			"dependencies": {
+				"@nuxt/kit": "^3.6.1",
+				"@nuxt/schema": "^3.6.1",
+				"execa": "^7.1.1"
+			},
+			"devDependencies": {
+				"birpc": "^0.2.12",
+				"hookable": "^5.5.3",
+				"unbuild": "^1.2.1",
+				"unimport": "^3.0.11",
+				"vite-plugin-vue-inspector": "^3.4.2",
+				"vue-router": "^4.2.2"
+			},
+			"scripts": {
+				"build": "unbuild",
+				"stub": "unbuild --stub",
+				"dev:prepare": "nr stub"
+			},
+			"bugs": {
+				"url": "https://github.com/nuxt/devtools/issues"
+			},
+			"homepage": "https://github.com/nuxt/devtools#readme",
+			"_id": "@nuxt/devtools-kit@0.6.5",
+			"_integrity": "sha512-wjcGgZAeCU56keiPNJ2IOENR978474QYJv3ggDRsKlDYBOMeKrPHkWeC4nQ0ef1ZOeBuYwaIK55cnd0yZwESgA==",
+			"_resolved": "/private/var/folders/30/nymxcyb909ggq2j5lwn7b_600000gn/T/2f4db062a653d69661b86e8853a39c28/nuxt-devtools-kit-0.6.5.tgz",
+			"_from": "file:nuxt-devtools-kit-0.6.5.tgz",
+			"_nodeVersion": "18.13.0",
+			"_npmVersion": "8.19.4",
+			"dist": {
+				"integrity": "sha512-wjcGgZAeCU56keiPNJ2IOENR978474QYJv3ggDRsKlDYBOMeKrPHkWeC4nQ0ef1ZOeBuYwaIK55cnd0yZwESgA==",
+				"shasum": "636eb8c62c97a804593df213cf024792e492017a",
+				"tarball": "https://registry.npmjs.org/@nuxt/devtools-kit/-/devtools-kit-0.6.5.tgz",
+				"fileCount": 15,
+				"unpackedSize": 36763,
+				"signatures": [
+					{
+						"keyid": "SHA256:jl3bwswu80PjjokCgh0o2w5c2U4LhQAE57gj9cz1kzA",
+						"sig": "MEUCIQCD4ldSvnNb+Ukt4/jbay2eZbmMDoFha8rJsp6/y7QCbwIgYsqeJkKfuWtj5h7hZTAcIXihb5WSho6MVa2TWQ9ukXw="
+					}
+				]
+			},
+			"_npmUser": {
+				"name": "antfu",
+				"email": "anthonyfu117@hotmail.com"
+			},
+			"directories": {},
+			"maintainers": [
+				{
+					"name": "antfu",
+					"email": "anthonyfu117@hotmail.com"
+				},
+				{
+					"name": "atinux",
+					"email": "atinux@gmail.com"
+				},
+				{
+					"name": "pi0",
+					"email": "pyapar@gmail.com"
+				},
+				{
+					"name": "clarkdo",
+					"email": "clark.duxin@gmail.com"
+				},
+				{
+					"name": "danielroe",
+					"email": "daniel@roe.dev"
+				}
+			],
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/devtools-kit_0.6.5_1688124346056_0.6695274719409559"
+			},
+			"_hasShrinkwrap": false,
+			"contributors": []
+		},
+		"0.6.6": {
+			"name": "@nuxt/devtools-kit",
+			"type": "module",
+			"version": "0.6.6",
+			"license": "MIT",
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/nuxt/devtools.git"
+			},
+			"exports": {
+				".": {
+					"types": "./dist/index.d.ts",
+					"require": "./dist/index.cjs",
+					"import": "./dist/index.mjs"
+				},
+				"./types": {
+					"types": "./types.d.ts",
+					"require": "./dist/types.cjs",
+					"import": "./dist/types.mjs"
+				},
+				"./iframe-client": {
+					"types": "./iframe-client.d.ts",
+					"import": "./iframe-client.mjs"
+				}
+			},
+			"main": "./dist/index.cjs",
+			"types": "./dist/index.d.ts",
+			"peerDependencies": {
+				"nuxt": "^3.5.1",
+				"vite": "*"
+			},
+			"dependencies": {
+				"@nuxt/kit": "^3.6.1",
+				"@nuxt/schema": "^3.6.1",
+				"execa": "^7.1.1"
+			},
+			"devDependencies": {
+				"birpc": "^0.2.12",
+				"hookable": "^5.5.3",
+				"unbuild": "^1.2.1",
+				"unimport": "^3.0.11",
+				"vite-plugin-vue-inspector": "^3.4.2",
+				"vue-router": "^4.2.2"
+			},
+			"scripts": {
+				"build": "unbuild",
+				"stub": "unbuild --stub",
+				"dev:prepare": "nr stub"
+			},
+			"bugs": {
+				"url": "https://github.com/nuxt/devtools/issues"
+			},
+			"homepage": "https://github.com/nuxt/devtools#readme",
+			"_id": "@nuxt/devtools-kit@0.6.6",
+			"_integrity": "sha512-6P00gcvbGQVEzHr+Xvpymqsbhg1rU64wQDRG0oLBXW/pcuJO/hyppowGr8Tvt3Xn6TRYJcgk1wkBa1wL9U+Z+g==",
+			"_resolved": "/private/var/folders/30/nymxcyb909ggq2j5lwn7b_600000gn/T/e6315ffbd39a2019329850a528a75356/nuxt-devtools-kit-0.6.6.tgz",
+			"_from": "file:nuxt-devtools-kit-0.6.6.tgz",
+			"_nodeVersion": "18.13.0",
+			"_npmVersion": "8.19.4",
+			"dist": {
+				"integrity": "sha512-6P00gcvbGQVEzHr+Xvpymqsbhg1rU64wQDRG0oLBXW/pcuJO/hyppowGr8Tvt3Xn6TRYJcgk1wkBa1wL9U+Z+g==",
+				"shasum": "3a3a7e1fec0a62099bf1a57a6bc820df4629e820",
+				"tarball": "https://registry.npmjs.org/@nuxt/devtools-kit/-/devtools-kit-0.6.6.tgz",
+				"fileCount": 15,
+				"unpackedSize": 36775,
+				"signatures": [
+					{
+						"keyid": "SHA256:jl3bwswu80PjjokCgh0o2w5c2U4LhQAE57gj9cz1kzA",
+						"sig": "MEUCIEUWXXqcN4WeCsNiF8oPzV5Ramhu2jq+fAEV9Hlu3bluAiEA3sXwsh+NxsC/Sqof6kFwlUVdKSgpxIP7c9RGxeojAmg="
+					}
+				]
+			},
+			"_npmUser": {
+				"name": "antfu",
+				"email": "anthonyfu117@hotmail.com"
+			},
+			"directories": {},
+			"maintainers": [
+				{
+					"name": "antfu",
+					"email": "anthonyfu117@hotmail.com"
+				},
+				{
+					"name": "atinux",
+					"email": "atinux@gmail.com"
+				},
+				{
+					"name": "pi0",
+					"email": "pyapar@gmail.com"
+				},
+				{
+					"name": "clarkdo",
+					"email": "clark.duxin@gmail.com"
+				},
+				{
+					"name": "danielroe",
+					"email": "daniel@roe.dev"
+				}
+			],
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/devtools-kit_0.6.6_1688131095449_0.8510545418720938"
+			},
+			"_hasShrinkwrap": false,
+			"contributors": []
+		},
+		"0.6.7": {
+			"name": "@nuxt/devtools-kit",
+			"type": "module",
+			"version": "0.6.7",
+			"license": "MIT",
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/nuxt/devtools.git"
+			},
+			"exports": {
+				".": {
+					"types": "./dist/index.d.ts",
+					"require": "./dist/index.cjs",
+					"import": "./dist/index.mjs"
+				},
+				"./types": {
+					"types": "./types.d.ts",
+					"require": "./dist/types.cjs",
+					"import": "./dist/types.mjs"
+				},
+				"./iframe-client": {
+					"types": "./iframe-client.d.ts",
+					"import": "./iframe-client.mjs"
+				}
+			},
+			"main": "./dist/index.cjs",
+			"types": "./dist/index.d.ts",
+			"peerDependencies": {
+				"nuxt": "^3.6.1",
+				"vite": "*"
+			},
+			"dependencies": {
+				"@nuxt/kit": "^3.6.1",
+				"@nuxt/schema": "^3.6.1",
+				"execa": "^7.1.1"
+			},
+			"devDependencies": {
+				"birpc": "^0.2.12",
+				"hookable": "^5.5.3",
+				"unbuild": "^1.2.1",
+				"unimport": "^3.0.12",
+				"vite-plugin-vue-inspector": "^3.4.2",
+				"vue-router": "^4.2.2"
+			},
+			"scripts": {
+				"build": "unbuild",
+				"stub": "unbuild --stub",
+				"dev:prepare": "nr stub"
+			},
+			"bugs": {
+				"url": "https://github.com/nuxt/devtools/issues"
+			},
+			"homepage": "https://github.com/nuxt/devtools#readme",
+			"_id": "@nuxt/devtools-kit@0.6.7",
+			"_integrity": "sha512-DEJBLspLRr3zFu/DAHs8Q1o9tgzELt24qDqsuqTEKqcw/2j1iu1TefvUdmXkJo6s8Qk3GI6e3QxrvtEE3mwKqA==",
+			"_resolved": "/private/var/folders/30/nymxcyb909ggq2j5lwn7b_600000gn/T/00451fd47c01c4c50284606a9426d3fe/nuxt-devtools-kit-0.6.7.tgz",
+			"_from": "file:nuxt-devtools-kit-0.6.7.tgz",
+			"_nodeVersion": "18.13.0",
+			"_npmVersion": "8.19.4",
+			"dist": {
+				"integrity": "sha512-DEJBLspLRr3zFu/DAHs8Q1o9tgzELt24qDqsuqTEKqcw/2j1iu1TefvUdmXkJo6s8Qk3GI6e3QxrvtEE3mwKqA==",
+				"shasum": "6a88f0d99f24f353bad8a953831a234ed09b924a",
+				"tarball": "https://registry.npmjs.org/@nuxt/devtools-kit/-/devtools-kit-0.6.7.tgz",
+				"fileCount": 15,
+				"unpackedSize": 37035,
+				"signatures": [
+					{
+						"keyid": "SHA256:jl3bwswu80PjjokCgh0o2w5c2U4LhQAE57gj9cz1kzA",
+						"sig": "MEYCIQCydNLfg/VuHQe6cMhIJNdJFIFaxxNVDfpXyiP4N05H3QIhAIa7HnYY/GG4EQpv3fQxW5pfxAMhoApHi1pRAyo4ijfM"
+					}
+				]
+			},
+			"_npmUser": {
+				"name": "antfu",
+				"email": "anthonyfu117@hotmail.com"
+			},
+			"directories": {},
+			"maintainers": [
+				{
+					"name": "antfu",
+					"email": "anthonyfu117@hotmail.com"
+				},
+				{
+					"name": "atinux",
+					"email": "atinux@gmail.com"
+				},
+				{
+					"name": "pi0",
+					"email": "pyapar@gmail.com"
+				},
+				{
+					"name": "clarkdo",
+					"email": "clark.duxin@gmail.com"
+				},
+				{
+					"name": "danielroe",
+					"email": "daniel@roe.dev"
+				}
+			],
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/devtools-kit_0.6.7_1688561969458_0.7721410864689744"
+			},
+			"_hasShrinkwrap": false,
+			"contributors": []
+		},
+		"0.7.0": {
+			"name": "@nuxt/devtools-kit",
+			"type": "module",
+			"version": "0.7.0",
+			"license": "MIT",
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/nuxt/devtools.git"
+			},
+			"exports": {
+				".": {
+					"types": "./dist/index.d.ts",
+					"require": "./dist/index.cjs",
+					"import": "./dist/index.mjs"
+				},
+				"./types": {
+					"types": "./types.d.ts",
+					"require": "./dist/types.cjs",
+					"import": "./dist/types.mjs"
+				},
+				"./iframe-client": {
+					"types": "./iframe-client.d.ts",
+					"import": "./iframe-client.mjs"
+				}
+			},
+			"main": "./dist/index.cjs",
+			"types": "./dist/index.d.ts",
+			"peerDependencies": {
+				"nuxt": "^3.6.1",
+				"vite": "*"
+			},
+			"dependencies": {
+				"@nuxt/kit": "^3.6.2",
+				"@nuxt/schema": "^3.6.2",
+				"execa": "^7.1.1"
+			},
+			"devDependencies": {
+				"birpc": "^0.2.12",
+				"error-stack-parser-es": "^0.1.0",
+				"hookable": "^5.5.3",
+				"unbuild": "^1.2.1",
+				"unimport": "^3.1.0",
+				"vite-plugin-vue-inspector": "^3.4.2",
+				"vue-router": "^4.2.4"
+			},
+			"scripts": {
+				"build": "unbuild",
+				"stub": "unbuild --stub",
+				"dev:prepare": "nr stub"
+			},
+			"bugs": {
+				"url": "https://github.com/nuxt/devtools/issues"
+			},
+			"homepage": "https://github.com/nuxt/devtools#readme",
+			"_id": "@nuxt/devtools-kit@0.7.0",
+			"_integrity": "sha512-cbSeiIjWau2LxNgo1YHmUunA88IQEESJOlYgpJFxyOkDXzpKaR6xA0i6MT0zZTmQFCkT+u7DtExdp999icbwXQ==",
+			"_resolved": "/private/var/folders/30/nymxcyb909ggq2j5lwn7b_600000gn/T/9f69eb9837efcc347b43bca4a4b17c72/nuxt-devtools-kit-0.7.0.tgz",
+			"_from": "file:nuxt-devtools-kit-0.7.0.tgz",
+			"_nodeVersion": "20.4.0",
+			"_npmVersion": "9.7.2",
+			"dist": {
+				"integrity": "sha512-cbSeiIjWau2LxNgo1YHmUunA88IQEESJOlYgpJFxyOkDXzpKaR6xA0i6MT0zZTmQFCkT+u7DtExdp999icbwXQ==",
+				"shasum": "2385db3792e7a87da0b445fbb3c720ebf81a9f58",
+				"tarball": "https://registry.npmjs.org/@nuxt/devtools-kit/-/devtools-kit-0.7.0.tgz",
+				"fileCount": 15,
+				"unpackedSize": 39607,
+				"signatures": [
+					{
+						"keyid": "SHA256:jl3bwswu80PjjokCgh0o2w5c2U4LhQAE57gj9cz1kzA",
+						"sig": "MEUCIQCNLulOtZ+NhLXI4fVkBvXwaenBZVDcBecJKN5gWx03pgIgJLlDeHK0WuHJRR3O6tZiUWT9h+YAzsrtOAHnw5z9A7U="
+					}
+				]
+			},
+			"_npmUser": {
+				"name": "antfu",
+				"email": "anthonyfu117@hotmail.com"
+			},
+			"directories": {},
+			"maintainers": [
+				{
+					"name": "antfu",
+					"email": "anthonyfu117@hotmail.com"
+				},
+				{
+					"name": "atinux",
+					"email": "atinux@gmail.com"
+				},
+				{
+					"name": "pi0",
+					"email": "pyapar@gmail.com"
+				},
+				{
+					"name": "clarkdo",
+					"email": "clark.duxin@gmail.com"
+				},
+				{
+					"name": "danielroe",
+					"email": "daniel@roe.dev"
+				}
+			],
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/devtools-kit_0.7.0_1689856767624_0.4049160956410154"
+			},
+			"_hasShrinkwrap": false,
+			"contributors": []
+		},
+		"0.7.1": {
+			"name": "@nuxt/devtools-kit",
+			"type": "module",
+			"version": "0.7.1",
+			"license": "MIT",
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/nuxt/devtools.git"
+			},
+			"exports": {
+				".": {
+					"types": "./dist/index.d.ts",
+					"require": "./dist/index.cjs",
+					"import": "./dist/index.mjs"
+				},
+				"./types": {
+					"types": "./types.d.ts",
+					"require": "./dist/types.cjs",
+					"import": "./dist/types.mjs"
+				},
+				"./iframe-client": {
+					"types": "./iframe-client.d.ts",
+					"import": "./iframe-client.mjs"
+				}
+			},
+			"main": "./dist/index.cjs",
+			"types": "./dist/index.d.ts",
+			"peerDependencies": {
+				"nuxt": "^3.6.1",
+				"vite": "*"
+			},
+			"dependencies": {
+				"@nuxt/kit": "^3.6.5",
+				"@nuxt/schema": "^3.6.5",
+				"execa": "^7.1.1"
+			},
+			"devDependencies": {
+				"birpc": "^0.2.12",
+				"error-stack-parser-es": "^0.1.0",
+				"hookable": "^5.5.3",
+				"unbuild": "^1.2.1",
+				"unimport": "^3.1.0",
+				"vite-plugin-vue-inspector": "^3.4.2",
+				"vue-router": "^4.2.4"
+			},
+			"scripts": {
+				"build": "unbuild",
+				"stub": "unbuild --stub",
+				"dev:prepare": "nr stub"
+			},
+			"bugs": {
+				"url": "https://github.com/nuxt/devtools/issues"
+			},
+			"homepage": "https://github.com/nuxt/devtools#readme",
+			"_id": "@nuxt/devtools-kit@0.7.1",
+			"_integrity": "sha512-g7OgrU0VlW9fibLdHmhad4tEQzkS4g8yxaqDD/Kri/i3mEOeS7w9E8x7kkA/56FmmnXe6F6lCcLqG6u3FYW6WA==",
+			"_resolved": "/private/var/folders/30/nymxcyb909ggq2j5lwn7b_600000gn/T/a8affa7fc369cc2ac7f1cf08f1f27ec4/nuxt-devtools-kit-0.7.1.tgz",
+			"_from": "file:nuxt-devtools-kit-0.7.1.tgz",
+			"_nodeVersion": "20.4.0",
+			"_npmVersion": "9.7.2",
+			"dist": {
+				"integrity": "sha512-g7OgrU0VlW9fibLdHmhad4tEQzkS4g8yxaqDD/Kri/i3mEOeS7w9E8x7kkA/56FmmnXe6F6lCcLqG6u3FYW6WA==",
+				"shasum": "a5631333f5af41c3993c83f258d2560f28fe67b2",
+				"tarball": "https://registry.npmjs.org/@nuxt/devtools-kit/-/devtools-kit-0.7.1.tgz",
+				"fileCount": 15,
+				"unpackedSize": 39587,
+				"signatures": [
+					{
+						"keyid": "SHA256:jl3bwswu80PjjokCgh0o2w5c2U4LhQAE57gj9cz1kzA",
+						"sig": "MEUCIQCtrZKKcuveUqKsx9qAIOg87eVLblVwAjPXBMMb5mLvcQIgOOxUu3yX/g0MhU+h7uFUibSTGKGD0cizZcV/nOVjl4Y="
+					}
+				]
+			},
+			"_npmUser": {
+				"name": "antfu",
+				"email": "anthonyfu117@hotmail.com"
+			},
+			"directories": {},
+			"maintainers": [
+				{
+					"name": "antfu",
+					"email": "anthonyfu117@hotmail.com"
+				},
+				{
+					"name": "atinux",
+					"email": "atinux@gmail.com"
+				},
+				{
+					"name": "pi0",
+					"email": "pyapar@gmail.com"
+				},
+				{
+					"name": "clarkdo",
+					"email": "clark.duxin@gmail.com"
+				},
+				{
+					"name": "danielroe",
+					"email": "daniel@roe.dev"
+				}
+			],
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/devtools-kit_0.7.1_1690124686581_0.19476565084622388"
+			},
+			"_hasShrinkwrap": false,
+			"contributors": []
+		},
+		"0.7.2": {
+			"name": "@nuxt/devtools-kit",
+			"type": "module",
+			"version": "0.7.2",
+			"license": "MIT",
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/nuxt/devtools.git"
+			},
+			"exports": {
+				".": {
+					"types": "./dist/index.d.ts",
+					"require": "./dist/index.cjs",
+					"import": "./dist/index.mjs"
+				},
+				"./types": {
+					"types": "./types.d.ts",
+					"require": "./dist/types.cjs",
+					"import": "./dist/types.mjs"
+				},
+				"./iframe-client": {
+					"types": "./iframe-client.d.ts",
+					"import": "./iframe-client.mjs"
+				}
+			},
+			"main": "./dist/index.cjs",
+			"types": "./dist/index.d.ts",
+			"peerDependencies": {
+				"nuxt": "^3.6.5",
+				"vite": "*"
+			},
+			"dependencies": {
+				"@nuxt/kit": "^3.6.5",
+				"@nuxt/schema": "^3.6.5",
+				"execa": "^7.2.0"
+			},
+			"devDependencies": {
+				"birpc": "^0.2.12",
+				"error-stack-parser-es": "^0.1.0",
+				"hookable": "^5.5.3",
+				"unbuild": "^1.2.1",
+				"unimport": "^3.1.0",
+				"vite-plugin-vue-inspector": "^3.5.0",
+				"vue-router": "^4.2.4"
+			},
+			"scripts": {
+				"build": "unbuild",
+				"stub": "unbuild --stub",
+				"dev:prepare": "nr stub"
+			},
+			"bugs": {
+				"url": "https://github.com/nuxt/devtools/issues"
+			},
+			"homepage": "https://github.com/nuxt/devtools#readme",
+			"_id": "@nuxt/devtools-kit@0.7.2",
+			"_integrity": "sha512-hY4GWWkEdY68V9YdUn5Cmdxc3IbBP1YPjPs5vkHw+MOv9exlg/KnElDcbNWeWsTKIvlptdimssdh7rXY8ytfgQ==",
+			"_resolved": "/private/var/folders/30/nymxcyb909ggq2j5lwn7b_600000gn/T/5cc5a38323288f62ed01596838117239/nuxt-devtools-kit-0.7.2.tgz",
+			"_from": "file:nuxt-devtools-kit-0.7.2.tgz",
+			"_nodeVersion": "20.4.0",
+			"_npmVersion": "9.7.2",
+			"dist": {
+				"integrity": "sha512-hY4GWWkEdY68V9YdUn5Cmdxc3IbBP1YPjPs5vkHw+MOv9exlg/KnElDcbNWeWsTKIvlptdimssdh7rXY8ytfgQ==",
+				"shasum": "3ba9ebe8f7d748ea7b17ae50f9c0ee3917adabb6",
+				"tarball": "https://registry.npmjs.org/@nuxt/devtools-kit/-/devtools-kit-0.7.2.tgz",
+				"fileCount": 15,
+				"unpackedSize": 39741,
+				"signatures": [
+					{
+						"keyid": "SHA256:jl3bwswu80PjjokCgh0o2w5c2U4LhQAE57gj9cz1kzA",
+						"sig": "MEYCIQCMO/dYeAGMRQagYTBK+NGLBnVHWehnPPb9uoS0tsFqZwIhAMM/YEkXXFey79+L78yRhvZ6miFx/D40c6p5bKYdK0fE"
+					}
+				]
+			},
+			"_npmUser": {
+				"name": "antfu",
+				"email": "anthonyfu117@hotmail.com"
+			},
+			"directories": {},
+			"maintainers": [
+				{
+					"name": "antfu",
+					"email": "anthonyfu117@hotmail.com"
+				},
+				{
+					"name": "atinux",
+					"email": "atinux@gmail.com"
+				},
+				{
+					"name": "pi0",
+					"email": "pyapar@gmail.com"
+				},
+				{
+					"name": "clarkdo",
+					"email": "clark.duxin@gmail.com"
+				},
+				{
+					"name": "danielroe",
+					"email": "daniel@roe.dev"
+				}
+			],
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/devtools-kit_0.7.2_1690802005813_0.5803423513636967"
+			},
+			"_hasShrinkwrap": false,
+			"contributors": []
+		},
+		"0.7.3": {
+			"name": "@nuxt/devtools-kit",
+			"type": "module",
+			"version": "0.7.3",
+			"license": "MIT",
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/nuxt/devtools.git"
+			},
+			"exports": {
+				".": {
+					"types": "./dist/index.d.ts",
+					"require": "./dist/index.cjs",
+					"import": "./dist/index.mjs"
+				},
+				"./types": {
+					"types": "./types.d.ts",
+					"require": "./dist/types.cjs",
+					"import": "./dist/types.mjs"
+				},
+				"./iframe-client": {
+					"types": "./iframe-client.d.ts",
+					"import": "./iframe-client.mjs"
+				}
+			},
+			"main": "./dist/index.cjs",
+			"types": "./dist/index.d.ts",
+			"peerDependencies": {
+				"nuxt": "^3.6.5",
+				"vite": "*"
+			},
+			"dependencies": {
+				"@nuxt/kit": "^3.6.5",
+				"@nuxt/schema": "^3.6.5",
+				"execa": "^7.2.0"
+			},
+			"devDependencies": {
+				"birpc": "^0.2.12",
+				"error-stack-parser-es": "^0.1.0",
+				"hookable": "^5.5.3",
+				"unbuild": "^1.2.1",
+				"unimport": "^3.1.0",
+				"vite-plugin-vue-inspector": "^3.5.0",
+				"vue-router": "^4.2.4"
+			},
+			"scripts": {
+				"build": "unbuild",
+				"stub": "unbuild --stub",
+				"dev:prepare": "nr stub"
+			},
+			"bugs": {
+				"url": "https://github.com/nuxt/devtools/issues"
+			},
+			"homepage": "https://github.com/nuxt/devtools#readme",
+			"_id": "@nuxt/devtools-kit@0.7.3",
+			"_integrity": "sha512-Sh88eXF5m/nL9LmkONIAb1VrsM15QBp378eAQhpsWUFjKWZ1PjvHXWvcq/Nq5+SZGFVegUSuHrN5m6WQHFsrKQ==",
+			"_resolved": "/private/var/folders/30/nymxcyb909ggq2j5lwn7b_600000gn/T/ea4140f0bfcc255de7b6cce9c2a010d9/nuxt-devtools-kit-0.7.3.tgz",
+			"_from": "file:nuxt-devtools-kit-0.7.3.tgz",
+			"_nodeVersion": "20.4.0",
+			"_npmVersion": "9.7.2",
+			"dist": {
+				"integrity": "sha512-Sh88eXF5m/nL9LmkONIAb1VrsM15QBp378eAQhpsWUFjKWZ1PjvHXWvcq/Nq5+SZGFVegUSuHrN5m6WQHFsrKQ==",
+				"shasum": "6eb4a256a779df15d99861438ae55daa9ee9c53e",
+				"tarball": "https://registry.npmjs.org/@nuxt/devtools-kit/-/devtools-kit-0.7.3.tgz",
+				"fileCount": 15,
+				"unpackedSize": 39741,
+				"signatures": [
+					{
+						"keyid": "SHA256:jl3bwswu80PjjokCgh0o2w5c2U4LhQAE57gj9cz1kzA",
+						"sig": "MEQCIFZgLkBnH8UxTPrOWN0SR8pSuFbj0lq5z1NKPEuRojA1AiBbFxiyUu1KM5eg/Uk52NzcYtcl7HAIzTdT15tvWXgVcg=="
+					}
+				]
+			},
+			"_npmUser": {
+				"name": "antfu",
+				"email": "anthonyfu117@hotmail.com"
+			},
+			"directories": {},
+			"maintainers": [
+				{
+					"name": "antfu",
+					"email": "anthonyfu117@hotmail.com"
+				},
+				{
+					"name": "atinux",
+					"email": "atinux@gmail.com"
+				},
+				{
+					"name": "pi0",
+					"email": "pyapar@gmail.com"
+				},
+				{
+					"name": "clarkdo",
+					"email": "clark.duxin@gmail.com"
+				},
+				{
+					"name": "danielroe",
+					"email": "daniel@roe.dev"
+				}
+			],
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/devtools-kit_0.7.3_1690897611652_0.0028149744058154624"
+			},
+			"_hasShrinkwrap": false,
+			"contributors": []
+		},
+		"0.7.4": {
+			"name": "@nuxt/devtools-kit",
+			"type": "module",
+			"version": "0.7.4",
+			"license": "MIT",
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/nuxt/devtools.git"
+			},
+			"exports": {
+				".": {
+					"types": "./dist/index.d.ts",
+					"require": "./dist/index.cjs",
+					"import": "./dist/index.mjs"
+				},
+				"./types": {
+					"types": "./types.d.ts",
+					"require": "./dist/types.cjs",
+					"import": "./dist/types.mjs"
+				},
+				"./iframe-client": {
+					"types": "./iframe-client.d.ts",
+					"import": "./iframe-client.mjs"
+				}
+			},
+			"main": "./dist/index.cjs",
+			"types": "./dist/index.d.ts",
+			"peerDependencies": {
+				"nuxt": "^3.6.5",
+				"vite": "*"
+			},
+			"dependencies": {
+				"@nuxt/kit": "^3.6.5",
+				"@nuxt/schema": "^3.6.5",
+				"execa": "^7.2.0"
+			},
+			"devDependencies": {
+				"birpc": "^0.2.12",
+				"error-stack-parser-es": "^0.1.0",
+				"hookable": "^5.5.3",
+				"unbuild": "^1.2.1",
+				"unimport": "^3.1.0",
+				"vite-plugin-vue-inspector": "^3.5.0",
+				"vue-router": "^4.2.4"
+			},
+			"scripts": {
+				"build": "unbuild",
+				"stub": "unbuild --stub",
+				"dev:prepare": "nr stub"
+			},
+			"bugs": {
+				"url": "https://github.com/nuxt/devtools/issues"
+			},
+			"homepage": "https://github.com/nuxt/devtools#readme",
+			"_id": "@nuxt/devtools-kit@0.7.4",
+			"_integrity": "sha512-+CKSSqalyW3elK364FamcHtXm6F03Iarfs9ftBiWmj3CdCTuv9aGpJFi0FKzXKzq/xlCtbWvIrqcaf2Iy//6NQ==",
+			"_resolved": "/private/var/folders/30/nymxcyb909ggq2j5lwn7b_600000gn/T/ba464e4e0c6f7f84e4d37dfc749fd20c/nuxt-devtools-kit-0.7.4.tgz",
+			"_from": "file:nuxt-devtools-kit-0.7.4.tgz",
+			"_nodeVersion": "20.4.0",
+			"_npmVersion": "9.7.2",
+			"dist": {
+				"integrity": "sha512-+CKSSqalyW3elK364FamcHtXm6F03Iarfs9ftBiWmj3CdCTuv9aGpJFi0FKzXKzq/xlCtbWvIrqcaf2Iy//6NQ==",
+				"shasum": "b37cb14265bd8e831927beb7a7da92a63607ecb1",
+				"tarball": "https://registry.npmjs.org/@nuxt/devtools-kit/-/devtools-kit-0.7.4.tgz",
+				"fileCount": 15,
+				"unpackedSize": 39741,
+				"signatures": [
+					{
+						"keyid": "SHA256:jl3bwswu80PjjokCgh0o2w5c2U4LhQAE57gj9cz1kzA",
+						"sig": "MEUCICVsUL/TFB/VEUGdbjTsa4nP39VKvLH37Q3EHQ6EKtVDAiEAiIs/o8OVzlMLfID41Rt2L+uqC9WfjiM1RfBMIj/Jf7o="
+					}
+				]
+			},
+			"_npmUser": {
+				"name": "antfu",
+				"email": "anthonyfu117@hotmail.com"
+			},
+			"directories": {},
+			"maintainers": [
+				{
+					"name": "antfu",
+					"email": "anthonyfu117@hotmail.com"
+				},
+				{
+					"name": "atinux",
+					"email": "atinux@gmail.com"
+				},
+				{
+					"name": "pi0",
+					"email": "pyapar@gmail.com"
+				},
+				{
+					"name": "clarkdo",
+					"email": "clark.duxin@gmail.com"
+				},
+				{
+					"name": "danielroe",
+					"email": "daniel@roe.dev"
+				}
+			],
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/devtools-kit_0.7.4_1690903350224_0.4969184916307703"
+			},
+			"_hasShrinkwrap": false,
+			"contributors": []
+		},
+		"0.7.5": {
+			"name": "@nuxt/devtools-kit",
+			"type": "module",
+			"version": "0.7.5",
+			"license": "MIT",
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/nuxt/devtools.git"
+			},
+			"exports": {
+				".": {
+					"types": "./dist/index.d.ts",
+					"import": "./dist/index.mjs",
+					"require": "./dist/index.cjs"
+				},
+				"./types": {
+					"types": "./types.d.ts",
+					"import": "./dist/types.mjs",
+					"require": "./dist/types.cjs"
+				},
+				"./iframe-client": {
+					"types": "./iframe-client.d.ts",
+					"import": "./iframe-client.mjs"
+				}
+			},
+			"main": "./dist/index.cjs",
+			"types": "./dist/index.d.ts",
+			"peerDependencies": {
+				"nuxt": "^3.6.5",
+				"vite": "*"
+			},
+			"dependencies": {
+				"@nuxt/kit": "^3.6.5",
+				"@nuxt/schema": "^3.6.5",
+				"execa": "^7.2.0"
+			},
+			"devDependencies": {
+				"birpc": "^0.2.12",
+				"error-stack-parser-es": "^0.1.0",
+				"hookable": "^5.5.3",
+				"unbuild": "^1.2.1",
+				"unimport": "^3.1.3",
+				"vite-plugin-vue-inspector": "^3.5.0",
+				"vue-router": "^4.2.4"
+			},
+			"scripts": {
+				"build": "unbuild",
+				"stub": "unbuild --stub",
+				"dev:prepare": "nr stub"
+			},
+			"bugs": {
+				"url": "https://github.com/nuxt/devtools/issues"
+			},
+			"homepage": "https://github.com/nuxt/devtools#readme",
+			"_id": "@nuxt/devtools-kit@0.7.5",
+			"_integrity": "sha512-Zadd4s2vHlFQYRBLqmCADLMs1qxht8KKCZzfdhEdCAHby/s3EkfnYIuRUBlrfuAuNxa4cyExKFpeDpQ67N5fIQ==",
+			"_resolved": "/private/var/folders/30/nymxcyb909ggq2j5lwn7b_600000gn/T/260c1086daea9d69ba83bc34321b4f44/nuxt-devtools-kit-0.7.5.tgz",
+			"_from": "file:nuxt-devtools-kit-0.7.5.tgz",
+			"_nodeVersion": "20.4.0",
+			"_npmVersion": "9.7.2",
+			"dist": {
+				"integrity": "sha512-Zadd4s2vHlFQYRBLqmCADLMs1qxht8KKCZzfdhEdCAHby/s3EkfnYIuRUBlrfuAuNxa4cyExKFpeDpQ67N5fIQ==",
+				"shasum": "f7f6574cbef614f636d46c14be4db0f3c442c5f8",
+				"tarball": "https://registry.npmjs.org/@nuxt/devtools-kit/-/devtools-kit-0.7.5.tgz",
+				"fileCount": 15,
+				"unpackedSize": 40106,
+				"signatures": [
+					{
+						"keyid": "SHA256:jl3bwswu80PjjokCgh0o2w5c2U4LhQAE57gj9cz1kzA",
+						"sig": "MEUCIF9YbRK3b4D9TkMdRPsN36ZB234g6HbQlz8OExEqHq48AiEAmy/QhtGdpNUdYP2Qq7WVPr35Mhc/G8ulGokcJoTz8dI="
+					}
+				]
+			},
+			"_npmUser": {
+				"name": "antfu",
+				"email": "anthonyfu117@hotmail.com"
+			},
+			"directories": {},
+			"maintainers": [
+				{
+					"name": "antfu",
+					"email": "anthonyfu117@hotmail.com"
+				},
+				{
+					"name": "atinux",
+					"email": "atinux@gmail.com"
+				},
+				{
+					"name": "pi0",
+					"email": "pyapar@gmail.com"
+				},
+				{
+					"name": "clarkdo",
+					"email": "clark.duxin@gmail.com"
+				},
+				{
+					"name": "danielroe",
+					"email": "daniel@roe.dev"
+				}
+			],
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/devtools-kit_0.7.5_1691322680748_0.13385650257932125"
+			},
+			"_hasShrinkwrap": false,
+			"contributors": []
+		},
+		"0.7.6": {
+			"name": "@nuxt/devtools-kit",
+			"type": "module",
+			"version": "0.7.6",
+			"license": "MIT",
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/nuxt/devtools.git"
+			},
+			"exports": {
+				".": {
+					"types": "./dist/index.d.ts",
+					"import": "./dist/index.mjs",
+					"require": "./dist/index.cjs"
+				},
+				"./types": {
+					"types": "./types.d.ts",
+					"import": "./dist/types.mjs",
+					"require": "./dist/types.cjs"
+				},
+				"./iframe-client": {
+					"types": "./iframe-client.d.ts",
+					"import": "./iframe-client.mjs"
+				}
+			},
+			"main": "./dist/index.cjs",
+			"types": "./dist/index.d.ts",
+			"peerDependencies": {
+				"nuxt": "^3.6.5",
+				"vite": "*"
+			},
+			"dependencies": {
+				"@nuxt/kit": "^3.6.5",
+				"@nuxt/schema": "^3.6.5",
+				"execa": "^7.2.0"
+			},
+			"devDependencies": {
+				"birpc": "^0.2.12",
+				"error-stack-parser-es": "^0.1.0",
+				"hookable": "^5.5.3",
+				"unbuild": "^1.2.1",
+				"unimport": "^3.1.3",
+				"vite-plugin-vue-inspector": "^3.6.0",
+				"vue-router": "^4.2.4"
+			},
+			"scripts": {
+				"build": "unbuild",
+				"stub": "unbuild --stub",
+				"dev:prepare": "nr stub"
+			},
+			"bugs": {
+				"url": "https://github.com/nuxt/devtools/issues"
+			},
+			"homepage": "https://github.com/nuxt/devtools#readme",
+			"_id": "@nuxt/devtools-kit@0.7.6",
+			"_integrity": "sha512-2jSQ1rgStZifRHtfsdqmmvq/O5NskLCwg34JPchBRAx9Kv5IadABlBIWz1jLuaGarI/jsEEAmA5EpfxI5z/PJQ==",
+			"_resolved": "/private/var/folders/30/nymxcyb909ggq2j5lwn7b_600000gn/T/a16bfe6616154c8f27717ff1f6796427/nuxt-devtools-kit-0.7.6.tgz",
+			"_from": "file:nuxt-devtools-kit-0.7.6.tgz",
+			"_nodeVersion": "20.4.0",
+			"_npmVersion": "9.7.2",
+			"dist": {
+				"integrity": "sha512-2jSQ1rgStZifRHtfsdqmmvq/O5NskLCwg34JPchBRAx9Kv5IadABlBIWz1jLuaGarI/jsEEAmA5EpfxI5z/PJQ==",
+				"shasum": "9577c64872c15b5153314e8c308d1424f37c485c",
+				"tarball": "https://registry.npmjs.org/@nuxt/devtools-kit/-/devtools-kit-0.7.6.tgz",
+				"fileCount": 15,
+				"unpackedSize": 40278,
+				"signatures": [
+					{
+						"keyid": "SHA256:jl3bwswu80PjjokCgh0o2w5c2U4LhQAE57gj9cz1kzA",
+						"sig": "MEUCIQDKRmTpI0nDNF+tycboW4ZR470oYU7zr1bvAJp1bedj8gIgOF8Y01XPB1bLvdC5ZTTly+zqw8mVd7y4weQDnSCQfSs="
+					}
+				]
+			},
+			"_npmUser": {
+				"name": "antfu",
+				"email": "anthonyfu117@hotmail.com"
+			},
+			"directories": {},
+			"maintainers": [
+				{
+					"name": "antfu",
+					"email": "anthonyfu117@hotmail.com"
+				},
+				{
+					"name": "atinux",
+					"email": "atinux@gmail.com"
+				},
+				{
+					"name": "pi0",
+					"email": "pyapar@gmail.com"
+				},
+				{
+					"name": "clarkdo",
+					"email": "clark.duxin@gmail.com"
+				},
+				{
+					"name": "danielroe",
+					"email": "daniel@roe.dev"
+				}
+			],
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/devtools-kit_0.7.6_1691576888214_0.1843513543975177"
+			},
+			"_hasShrinkwrap": false,
+			"contributors": []
+		},
+		"0.8.0": {
+			"name": "@nuxt/devtools-kit",
+			"type": "module",
+			"version": "0.8.0",
+			"license": "MIT",
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/nuxt/devtools.git"
+			},
+			"exports": {
+				".": {
+					"types": "./dist/index.d.ts",
+					"import": "./dist/index.mjs",
+					"require": "./dist/index.cjs"
+				},
+				"./types": {
+					"types": "./types.d.ts",
+					"import": "./dist/types.mjs",
+					"require": "./dist/types.cjs"
+				},
+				"./iframe-client": {
+					"types": "./iframe-client.d.ts",
+					"import": "./iframe-client.mjs"
+				}
+			},
+			"main": "./dist/index.cjs",
+			"types": "./dist/index.d.ts",
+			"peerDependencies": {
+				"nuxt": "^3.6.5",
+				"vite": "*"
+			},
+			"dependencies": {
+				"@nuxt/kit": "^3.6.5",
+				"@nuxt/schema": "^3.6.5",
+				"execa": "^7.2.0"
+			},
+			"devDependencies": {
+				"birpc": "^0.2.12",
+				"error-stack-parser-es": "^0.1.0",
+				"hookable": "^5.5.3",
+				"unbuild": "^1.2.1",
+				"unimport": "^3.1.3",
+				"vite-plugin-vue-inspector": "^3.6.0",
+				"vue-router": "^4.2.4"
+			},
+			"scripts": {
+				"build": "unbuild",
+				"stub": "unbuild --stub",
+				"dev:prepare": "nr stub"
+			},
+			"bugs": {
+				"url": "https://github.com/nuxt/devtools/issues"
+			},
+			"homepage": "https://github.com/nuxt/devtools#readme",
+			"_id": "@nuxt/devtools-kit@0.8.0",
+			"_integrity": "sha512-zHwotLFwmYPFDg0JHyInn0L3i2gZK24JYDfgOzqBuvCD/Q3ytQVyAMrX2Mp4iIrHjwToZBJ0dlyV+UYXCiWwSg==",
+			"_resolved": "/private/var/folders/30/nymxcyb909ggq2j5lwn7b_600000gn/T/98ec168a107484a5c63421246cc56b3f/nuxt-devtools-kit-0.8.0.tgz",
+			"_from": "file:nuxt-devtools-kit-0.8.0.tgz",
+			"_nodeVersion": "20.4.0",
+			"_npmVersion": "9.7.2",
+			"dist": {
+				"integrity": "sha512-zHwotLFwmYPFDg0JHyInn0L3i2gZK24JYDfgOzqBuvCD/Q3ytQVyAMrX2Mp4iIrHjwToZBJ0dlyV+UYXCiWwSg==",
+				"shasum": "2d987a5a3794b3ba59f50c45ffc94df84b18e791",
+				"tarball": "https://registry.npmjs.org/@nuxt/devtools-kit/-/devtools-kit-0.8.0.tgz",
+				"fileCount": 15,
+				"unpackedSize": 40916,
+				"signatures": [
+					{
+						"keyid": "SHA256:jl3bwswu80PjjokCgh0o2w5c2U4LhQAE57gj9cz1kzA",
+						"sig": "MEUCIQD2+zvbpEz0slZxiTjP0e78jRZJYTWsrRAwvLabR9hMnwIgVGEJF/Q6kiAUKw06/fJ6kfT9ssFJCqNMNCaHR6TlQPI="
+					}
+				]
+			},
+			"_npmUser": {
+				"name": "antfu",
+				"email": "anthonyfu117@hotmail.com"
+			},
+			"directories": {},
+			"maintainers": [
+				{
+					"name": "antfu",
+					"email": "anthonyfu117@hotmail.com"
+				},
+				{
+					"name": "atinux",
+					"email": "atinux@gmail.com"
+				},
+				{
+					"name": "pi0",
+					"email": "pyapar@gmail.com"
+				},
+				{
+					"name": "clarkdo",
+					"email": "clark.duxin@gmail.com"
+				},
+				{
+					"name": "danielroe",
+					"email": "daniel@roe.dev"
+				}
+			],
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/devtools-kit_0.8.0_1691674484612_0.07666431379294525"
+			},
+			"_hasShrinkwrap": false,
+			"contributors": []
+		},
+		"0.8.1": {
+			"name": "@nuxt/devtools-kit",
+			"type": "module",
+			"version": "0.8.1",
+			"license": "MIT",
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/nuxt/devtools.git"
+			},
+			"exports": {
+				".": {
+					"types": "./dist/index.d.ts",
+					"import": "./dist/index.mjs",
+					"require": "./dist/index.cjs"
+				},
+				"./types": {
+					"types": "./types.d.ts",
+					"import": "./dist/types.mjs",
+					"require": "./dist/types.cjs"
+				},
+				"./iframe-client": {
+					"types": "./iframe-client.d.ts",
+					"import": "./iframe-client.mjs"
+				}
+			},
+			"main": "./dist/index.cjs",
+			"types": "./dist/index.d.ts",
+			"peerDependencies": {
+				"nuxt": "^3.6.5",
+				"vite": "*"
+			},
+			"dependencies": {
+				"@nuxt/kit": "^3.7.0",
+				"@nuxt/schema": "^3.7.0",
+				"execa": "^7.2.0"
+			},
+			"devDependencies": {
+				"birpc": "^0.2.13",
+				"error-stack-parser-es": "^0.1.1",
+				"hookable": "^5.5.3",
+				"unbuild": "^2.0.0",
+				"unimport": "^3.2.0",
+				"vite-plugin-vue-inspector": "^3.6.0",
+				"vue-router": "^4.2.4"
+			},
+			"scripts": {
+				"build": "unbuild",
+				"stub": "unbuild --stub",
+				"dev:prepare": "nr stub"
+			},
+			"bugs": {
+				"url": "https://github.com/nuxt/devtools/issues"
+			},
+			"homepage": "https://github.com/nuxt/devtools#readme",
+			"_id": "@nuxt/devtools-kit@0.8.1",
+			"_integrity": "sha512-OmGZUGgIQIDsw6AD54OOTN+btOt8sI3aI9R5X6rcxg4rDzJT8jeWjqzAhLy8el+BDs4wRVw6PkW7JbYs1NxgSg==",
+			"_resolved": "/private/var/folders/30/nymxcyb909ggq2j5lwn7b_600000gn/T/670d5b2d3248580b350d53dcae1d88b2/nuxt-devtools-kit-0.8.1.tgz",
+			"_from": "file:nuxt-devtools-kit-0.8.1.tgz",
+			"_nodeVersion": "20.4.0",
+			"_npmVersion": "9.7.2",
+			"dist": {
+				"integrity": "sha512-OmGZUGgIQIDsw6AD54OOTN+btOt8sI3aI9R5X6rcxg4rDzJT8jeWjqzAhLy8el+BDs4wRVw6PkW7JbYs1NxgSg==",
+				"shasum": "e33b5a59d29ad4d1127e4fb565d3e6d132e60f3c",
+				"tarball": "https://registry.npmjs.org/@nuxt/devtools-kit/-/devtools-kit-0.8.1.tgz",
+				"fileCount": 15,
+				"unpackedSize": 40937,
+				"signatures": [
+					{
+						"keyid": "SHA256:jl3bwswu80PjjokCgh0o2w5c2U4LhQAE57gj9cz1kzA",
+						"sig": "MEQCIFWx9qw5lMH2smJhMTtEGgwUvR3AKJVKCmG0N7PvEhltAiBZtyXUwinu2KIPT3P/ifMFYdJDAQbDRevGURTGwNMhZg=="
+					}
+				]
+			},
+			"_npmUser": {
+				"name": "antfu",
+				"email": "anthonyfu117@hotmail.com"
+			},
+			"directories": {},
+			"maintainers": [
+				{
+					"name": "nuxtbot",
+					"email": "nuxtbot@roe.dev"
+				},
+				{
+					"name": "antfu",
+					"email": "anthonyfu117@hotmail.com"
+				},
+				{
+					"name": "atinux",
+					"email": "atinux@gmail.com"
+				},
+				{
+					"name": "pi0",
+					"email": "pyapar@gmail.com"
+				},
+				{
+					"name": "clarkdo",
+					"email": "clark.duxin@gmail.com"
+				},
+				{
+					"name": "danielroe",
+					"email": "daniel@roe.dev"
+				}
+			],
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/devtools-kit_0.8.1_1693208252490_0.29154311424490365"
+			},
+			"_hasShrinkwrap": false,
+			"contributors": []
+		},
+		"0.8.2": {
+			"name": "@nuxt/devtools-kit",
+			"type": "module",
+			"version": "0.8.2",
+			"license": "MIT",
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/nuxt/devtools.git"
+			},
+			"exports": {
+				".": {
+					"types": "./dist/index.d.ts",
+					"import": "./dist/index.mjs",
+					"require": "./dist/index.cjs"
+				},
+				"./types": {
+					"types": "./types.d.ts",
+					"import": "./dist/types.mjs",
+					"require": "./dist/types.cjs"
+				},
+				"./iframe-client": {
+					"types": "./iframe-client.d.ts",
+					"import": "./iframe-client.mjs"
+				}
+			},
+			"main": "./dist/index.cjs",
+			"types": "./dist/index.d.ts",
+			"peerDependencies": {
+				"nuxt": "^3.6.5",
+				"vite": "*"
+			},
+			"dependencies": {
+				"@nuxt/kit": "^3.7.0",
+				"@nuxt/schema": "^3.7.0",
+				"execa": "^7.2.0"
+			},
+			"devDependencies": {
+				"birpc": "^0.2.13",
+				"error-stack-parser-es": "^0.1.1",
+				"hookable": "^5.5.3",
+				"unbuild": "^2.0.0",
+				"unimport": "^3.2.0",
+				"vite-plugin-vue-inspector": "^3.6.0",
+				"vue-router": "^4.2.4"
+			},
+			"scripts": {
+				"build": "unbuild",
+				"stub": "unbuild --stub",
+				"dev:prepare": "nr stub"
+			},
+			"bugs": {
+				"url": "https://github.com/nuxt/devtools/issues"
+			},
+			"homepage": "https://github.com/nuxt/devtools#readme",
+			"_id": "@nuxt/devtools-kit@0.8.2",
+			"_integrity": "sha512-GEqpBxa/ojfhAM9HN5L/OzCADpfH9nDbcC7INHFgao6KuAu6JclTpcuV6VZP6LthsETBsd2cKAt93WY+vEJnnQ==",
+			"_resolved": "/private/var/folders/30/nymxcyb909ggq2j5lwn7b_600000gn/T/1f7e30d6f2d73e88aa16e7f5bafe0882/nuxt-devtools-kit-0.8.2.tgz",
+			"_from": "file:nuxt-devtools-kit-0.8.2.tgz",
+			"_nodeVersion": "20.4.0",
+			"_npmVersion": "9.7.2",
+			"dist": {
+				"integrity": "sha512-GEqpBxa/ojfhAM9HN5L/OzCADpfH9nDbcC7INHFgao6KuAu6JclTpcuV6VZP6LthsETBsd2cKAt93WY+vEJnnQ==",
+				"shasum": "77400eb8b48f9efcfe14231425c7ab27e180047f",
+				"tarball": "https://registry.npmjs.org/@nuxt/devtools-kit/-/devtools-kit-0.8.2.tgz",
+				"fileCount": 15,
+				"unpackedSize": 40945,
+				"signatures": [
+					{
+						"keyid": "SHA256:jl3bwswu80PjjokCgh0o2w5c2U4LhQAE57gj9cz1kzA",
+						"sig": "MEQCIEjAA8qayB7k9xLRdWGQQXwQWK+gcHkWTaFGfaItRTYiAiAVUX+8BcGaQrLbR0qZKtidiStHJwHQiFfjue8BqNsqNg=="
+					}
+				]
+			},
+			"_npmUser": {
+				"name": "antfu",
+				"email": "anthonyfu117@hotmail.com"
+			},
+			"directories": {},
+			"maintainers": [
+				{
+					"name": "nuxtbot",
+					"email": "nuxtbot@roe.dev"
+				},
+				{
+					"name": "antfu",
+					"email": "anthonyfu117@hotmail.com"
+				},
+				{
+					"name": "atinux",
+					"email": "atinux@gmail.com"
+				},
+				{
+					"name": "pi0",
+					"email": "pyapar@gmail.com"
+				},
+				{
+					"name": "clarkdo",
+					"email": "clark.duxin@gmail.com"
+				},
+				{
+					"name": "danielroe",
+					"email": "daniel@roe.dev"
+				}
+			],
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/devtools-kit_0.8.2_1693219207488_0.6655146346333491"
+			},
+			"_hasShrinkwrap": false,
+			"contributors": []
+		},
+		"0.8.3": {
+			"name": "@nuxt/devtools-kit",
+			"type": "module",
+			"version": "0.8.3",
+			"license": "MIT",
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/nuxt/devtools.git"
+			},
+			"exports": {
+				".": {
+					"types": "./dist/index.d.ts",
+					"import": "./dist/index.mjs",
+					"require": "./dist/index.cjs"
+				},
+				"./types": {
+					"types": "./types.d.ts",
+					"import": "./dist/types.mjs",
+					"require": "./dist/types.cjs"
+				},
+				"./iframe-client": {
+					"types": "./iframe-client.d.ts",
+					"import": "./iframe-client.mjs"
+				}
+			},
+			"main": "./dist/index.cjs",
+			"types": "./dist/index.d.ts",
+			"peerDependencies": {
+				"nuxt": "^3.6.5",
+				"vite": "*"
+			},
+			"dependencies": {
+				"@nuxt/kit": "^3.7.1",
+				"@nuxt/schema": "^3.7.1",
+				"execa": "^7.2.0"
+			},
+			"devDependencies": {
+				"birpc": "^0.2.14",
+				"error-stack-parser-es": "^0.1.1",
+				"hookable": "^5.5.3",
+				"unbuild": "^2.0.0",
+				"unimport": "^3.3.0",
+				"vite-plugin-vue-inspector": "^3.6.0",
+				"vue-router": "^4.2.4"
+			},
+			"scripts": {
+				"build": "unbuild",
+				"stub": "unbuild --stub",
+				"dev:prepare": "nr stub"
+			},
+			"bugs": {
+				"url": "https://github.com/nuxt/devtools/issues"
+			},
+			"homepage": "https://github.com/nuxt/devtools#readme",
+			"_id": "@nuxt/devtools-kit@0.8.3",
+			"_integrity": "sha512-qF5xJSvGzPMcWNTSPOpCWQfoDVqR+S56Ux/ZTm2nydHsXkJfS2k2iztJfbHlPquWdH4uS3lVxcfF4CFtgdJqkw==",
+			"_resolved": "/private/var/folders/30/nymxcyb909ggq2j5lwn7b_600000gn/T/2e6e608b58907d1f18d9ac5573cd9f60/nuxt-devtools-kit-0.8.3.tgz",
+			"_from": "file:nuxt-devtools-kit-0.8.3.tgz",
+			"_nodeVersion": "20.4.0",
+			"_npmVersion": "9.7.2",
+			"dist": {
+				"integrity": "sha512-qF5xJSvGzPMcWNTSPOpCWQfoDVqR+S56Ux/ZTm2nydHsXkJfS2k2iztJfbHlPquWdH4uS3lVxcfF4CFtgdJqkw==",
+				"shasum": "08aefcbc1f9b872b756b2d750d668b9cba2ae069",
+				"tarball": "https://registry.npmjs.org/@nuxt/devtools-kit/-/devtools-kit-0.8.3.tgz",
+				"fileCount": 21,
+				"unpackedSize": 98035,
+				"signatures": [
+					{
+						"keyid": "SHA256:jl3bwswu80PjjokCgh0o2w5c2U4LhQAE57gj9cz1kzA",
+						"sig": "MEYCIQCHxoBUh10EGdUDuswVcaqGOzgLacz9gM27OK+wZ0OIzgIhAJcpa+r5ctcr8Q67pMH/fn9JLAXUFV7r6TrdK79h/wCS"
+					}
+				]
+			},
+			"_npmUser": {
+				"name": "antfu",
+				"email": "anthonyfu117@hotmail.com"
+			},
+			"directories": {},
+			"maintainers": [
+				{
+					"name": "nuxtbot",
+					"email": "nuxtbot@roe.dev"
+				},
+				{
+					"name": "antfu",
+					"email": "anthonyfu117@hotmail.com"
+				},
+				{
+					"name": "atinux",
+					"email": "atinux@gmail.com"
+				},
+				{
+					"name": "pi0",
+					"email": "pyapar@gmail.com"
+				},
+				{
+					"name": "clarkdo",
+					"email": "clark.duxin@gmail.com"
+				},
+				{
+					"name": "danielroe",
+					"email": "daniel@roe.dev"
+				}
+			],
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/devtools-kit_0.8.3_1694040566352_0.7138720760315409"
+			},
+			"_hasShrinkwrap": false,
+			"contributors": []
+		},
+		"0.8.4": {
+			"name": "@nuxt/devtools-kit",
+			"type": "module",
+			"version": "0.8.4",
+			"license": "MIT",
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/nuxt/devtools.git"
+			},
+			"exports": {
+				".": {
+					"types": "./dist/index.d.ts",
+					"import": "./dist/index.mjs",
+					"require": "./dist/index.cjs"
+				},
+				"./types": {
+					"types": "./types.d.ts",
+					"import": "./dist/types.mjs",
+					"require": "./dist/types.cjs"
+				},
+				"./iframe-client": {
+					"types": "./iframe-client.d.ts",
+					"import": "./iframe-client.mjs"
+				}
+			},
+			"main": "./dist/index.cjs",
+			"types": "./dist/index.d.ts",
+			"peerDependencies": {
+				"nuxt": "^3.7.3",
+				"vite": "*"
+			},
+			"dependencies": {
+				"@nuxt/kit": "^3.7.3",
+				"@nuxt/schema": "^3.7.3",
+				"execa": "^7.2.0"
+			},
+			"devDependencies": {
+				"birpc": "^0.2.14",
+				"error-stack-parser-es": "^0.1.1",
+				"hookable": "^5.5.3",
+				"unbuild": "^2.0.0",
+				"unimport": "^3.3.0",
+				"vite-plugin-vue-inspector": "^3.7.1",
+				"vue-router": "^4.2.4"
+			},
+			"scripts": {
+				"build": "unbuild",
+				"stub": "unbuild --stub",
+				"dev:prepare": "nr stub"
+			},
+			"bugs": {
+				"url": "https://github.com/nuxt/devtools/issues"
+			},
+			"homepage": "https://github.com/nuxt/devtools#readme",
+			"_id": "@nuxt/devtools-kit@0.8.4",
+			"_integrity": "sha512-kBgXJ1NUcE37ea08hlLkA5ZYvEy8sY08Z/lfzpvEwra4aQ22hm/c9FlqIGLfTfDJ4vfvSBlPF6oRyC3zE28VWg==",
+			"_resolved": "/private/var/folders/30/nymxcyb909ggq2j5lwn7b_600000gn/T/490770d20f4e91d66ba53770d82f9ced/nuxt-devtools-kit-0.8.4.tgz",
+			"_from": "file:nuxt-devtools-kit-0.8.4.tgz",
+			"_nodeVersion": "20.4.0",
+			"_npmVersion": "9.7.2",
+			"dist": {
+				"integrity": "sha512-kBgXJ1NUcE37ea08hlLkA5ZYvEy8sY08Z/lfzpvEwra4aQ22hm/c9FlqIGLfTfDJ4vfvSBlPF6oRyC3zE28VWg==",
+				"shasum": "efa2eb5568b58608017e764710a4e17f68017697",
+				"tarball": "https://registry.npmjs.org/@nuxt/devtools-kit/-/devtools-kit-0.8.4.tgz",
+				"fileCount": 21,
+				"unpackedSize": 98245,
+				"signatures": [
+					{
+						"keyid": "SHA256:jl3bwswu80PjjokCgh0o2w5c2U4LhQAE57gj9cz1kzA",
+						"sig": "MEYCIQD2CRkcX4JU6fZQCUE0xSHH6JwhYF0aKCpVmeDhO5M92AIhAK2Ijs7E3mG/BNgFB4yU4cQK1tHkQWcWV/LchrpaW8zA"
+					}
+				]
+			},
+			"_npmUser": {
+				"name": "antfu",
+				"email": "anthonyfu117@hotmail.com"
+			},
+			"directories": {},
+			"maintainers": [
+				{
+					"name": "nuxtbot",
+					"email": "nuxtbot@roe.dev"
+				},
+				{
+					"name": "antfu",
+					"email": "anthonyfu117@hotmail.com"
+				},
+				{
+					"name": "atinux",
+					"email": "atinux@gmail.com"
+				},
+				{
+					"name": "pi0",
+					"email": "pyapar@gmail.com"
+				},
+				{
+					"name": "clarkdo",
+					"email": "clark.duxin@gmail.com"
+				},
+				{
+					"name": "danielroe",
+					"email": "daniel@roe.dev"
+				}
+			],
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/devtools-kit_0.8.4_1695191387429_0.9838774804297956"
+			},
+			"_hasShrinkwrap": false,
+			"contributors": []
+		},
+		"0.8.5": {
+			"name": "@nuxt/devtools-kit",
+			"type": "module",
+			"version": "0.8.5",
+			"license": "MIT",
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/nuxt/devtools.git"
+			},
+			"exports": {
+				".": {
+					"types": "./dist/index.d.ts",
+					"import": "./dist/index.mjs",
+					"require": "./dist/index.cjs"
+				},
+				"./types": {
+					"types": "./types.d.ts",
+					"import": "./dist/types.mjs",
+					"require": "./dist/types.cjs"
+				},
+				"./iframe-client": {
+					"types": "./iframe-client.d.ts",
+					"import": "./iframe-client.mjs"
+				}
+			},
+			"main": "./dist/index.cjs",
+			"types": "./dist/index.d.ts",
+			"peerDependencies": {
+				"nuxt": "^3.7.3",
+				"vite": "*"
+			},
+			"dependencies": {
+				"@nuxt/kit": "^3.7.3",
+				"@nuxt/schema": "^3.7.3",
+				"execa": "^7.2.0"
+			},
+			"devDependencies": {
+				"birpc": "^0.2.14",
+				"error-stack-parser-es": "^0.1.1",
+				"hookable": "^5.5.3",
+				"unbuild": "^2.0.0",
+				"unimport": "^3.3.0",
+				"vite-plugin-vue-inspector": "^3.7.1",
+				"vue-router": "^4.2.4"
+			},
+			"scripts": {
+				"build": "unbuild",
+				"stub": "unbuild --stub",
+				"dev:prepare": "nr stub"
+			},
+			"bugs": {
+				"url": "https://github.com/nuxt/devtools/issues"
+			},
+			"homepage": "https://github.com/nuxt/devtools#readme",
+			"_id": "@nuxt/devtools-kit@0.8.5",
+			"_integrity": "sha512-gkZuythYbx6ybwQc2zE1DC40B3cj3rrSxHG6GIihWseilTea7G4QMkDliEbGnqyM4cLQmMBD+SU4DxiDVSNlQQ==",
+			"_resolved": "/private/var/folders/30/nymxcyb909ggq2j5lwn7b_600000gn/T/904917ca84f6de121890062e6a403f5f/nuxt-devtools-kit-0.8.5.tgz",
+			"_from": "file:nuxt-devtools-kit-0.8.5.tgz",
+			"_nodeVersion": "20.4.0",
+			"_npmVersion": "9.7.2",
+			"dist": {
+				"integrity": "sha512-gkZuythYbx6ybwQc2zE1DC40B3cj3rrSxHG6GIihWseilTea7G4QMkDliEbGnqyM4cLQmMBD+SU4DxiDVSNlQQ==",
+				"shasum": "18f2154352048d5f1ab316b788d408927307ab0c",
+				"tarball": "https://registry.npmjs.org/@nuxt/devtools-kit/-/devtools-kit-0.8.5.tgz",
+				"fileCount": 21,
+				"unpackedSize": 99160,
+				"signatures": [
+					{
+						"keyid": "SHA256:jl3bwswu80PjjokCgh0o2w5c2U4LhQAE57gj9cz1kzA",
+						"sig": "MEUCIECZ8+mJvgT6733xso26/qY5zK9GdlVbJ68Or+BujDN1AiEA/Zwis6dVABRxTcflrqkfqa8ZogPGHV09vD39fLjzDZc="
+					}
+				]
+			},
+			"_npmUser": {
+				"name": "antfu",
+				"email": "anthonyfu117@hotmail.com"
+			},
+			"directories": {},
+			"maintainers": [
+				{
+					"name": "nuxtbot",
+					"email": "nuxtbot@roe.dev"
+				},
+				{
+					"name": "antfu",
+					"email": "anthonyfu117@hotmail.com"
+				},
+				{
+					"name": "atinux",
+					"email": "atinux@gmail.com"
+				},
+				{
+					"name": "pi0",
+					"email": "pyapar@gmail.com"
+				},
+				{
+					"name": "clarkdo",
+					"email": "clark.duxin@gmail.com"
+				},
+				{
+					"name": "danielroe",
+					"email": "daniel@roe.dev"
+				}
+			],
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/devtools-kit_0.8.5_1695628433710_0.17961959425493457"
+			},
+			"_hasShrinkwrap": false,
+			"contributors": []
+		},
+		"1.0.0-beta.0": {
+			"name": "@nuxt/devtools-kit",
+			"type": "module",
+			"version": "1.0.0-beta.0",
+			"license": "MIT",
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/nuxt/devtools.git"
+			},
+			"exports": {
+				".": {
+					"types": "./dist/index.d.ts",
+					"import": "./dist/index.mjs",
+					"require": "./dist/index.cjs"
+				},
+				"./types": {
+					"types": "./types.d.ts",
+					"import": "./dist/types.mjs",
+					"require": "./dist/types.cjs"
+				},
+				"./iframe-client": {
+					"types": "./iframe-client.d.ts",
+					"import": "./iframe-client.mjs"
+				}
+			},
+			"main": "./dist/index.cjs",
+			"types": "./dist/index.d.ts",
+			"peerDependencies": {
+				"nuxt": "^3.7.4",
+				"vite": "*"
+			},
+			"dependencies": {
+				"@nuxt/kit": "^3.7.4",
+				"@nuxt/schema": "^3.7.4",
+				"execa": "^7.2.0"
+			},
+			"devDependencies": {
+				"birpc": "^0.2.14",
+				"error-stack-parser-es": "^0.1.1",
+				"hookable": "^5.5.3",
+				"unbuild": "^2.0.0",
+				"unimport": "^3.3.0",
+				"vite-plugin-vue-inspector": "^3.7.1",
+				"vue-router": "^4.2.5"
+			},
+			"scripts": {
+				"build": "unbuild",
+				"stub": "unbuild --stub",
+				"dev:prepare": "nr stub"
+			},
+			"bugs": {
+				"url": "https://github.com/nuxt/devtools/issues"
+			},
+			"homepage": "https://github.com/nuxt/devtools#readme",
+			"_id": "@nuxt/devtools-kit@1.0.0-beta.0",
+			"_integrity": "sha512-1B/b8DDY+gjILnTDKLjeF5b1t1+IK61+W7KvMwNTyV7ziiPxD3aOVI5dShnHQhjFd+GU1NGri807cWn7O1tSOw==",
+			"_resolved": "/private/var/folders/30/nymxcyb909ggq2j5lwn7b_600000gn/T/68794459bcc283b156fa27a76161198d/nuxt-devtools-kit-1.0.0-beta.0.tgz",
+			"_from": "file:nuxt-devtools-kit-1.0.0-beta.0.tgz",
+			"_nodeVersion": "20.4.0",
+			"_npmVersion": "9.7.2",
+			"dist": {
+				"integrity": "sha512-1B/b8DDY+gjILnTDKLjeF5b1t1+IK61+W7KvMwNTyV7ziiPxD3aOVI5dShnHQhjFd+GU1NGri807cWn7O1tSOw==",
+				"shasum": "c38e403b1d90bceb10bb9082cab48da003657c80",
+				"tarball": "https://registry.npmjs.org/@nuxt/devtools-kit/-/devtools-kit-1.0.0-beta.0.tgz",
+				"fileCount": 21,
+				"unpackedSize": 99680,
+				"signatures": [
+					{
+						"keyid": "SHA256:jl3bwswu80PjjokCgh0o2w5c2U4LhQAE57gj9cz1kzA",
+						"sig": "MEYCIQCxAk38wAosnFlP6HKwoNI+VDiYBw1+QHmHX9ER0qeCeQIhAMoGrxfvaIHgRYifgA3VPMhRwO6OivPbpZ3Um4deR4FT"
+					}
+				]
+			},
+			"_npmUser": {
+				"name": "antfu",
+				"email": "anthonyfu117@hotmail.com"
+			},
+			"directories": {},
+			"maintainers": [
+				{
+					"name": "nuxtbot",
+					"email": "nuxtbot@roe.dev"
+				},
+				{
+					"name": "antfu",
+					"email": "anthonyfu117@hotmail.com"
+				},
+				{
+					"name": "atinux",
+					"email": "atinux@gmail.com"
+				},
+				{
+					"name": "pi0",
+					"email": "pyapar@gmail.com"
+				},
+				{
+					"name": "clarkdo",
+					"email": "clark.duxin@gmail.com"
+				},
+				{
+					"name": "danielroe",
+					"email": "daniel@roe.dev"
+				}
+			],
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/devtools-kit_1.0.0-beta.0_1696172267085_0.6264168843696192"
+			},
+			"_hasShrinkwrap": false,
+			"contributors": []
+		},
+		"1.0.0-beta.1": {
+			"name": "@nuxt/devtools-kit",
+			"type": "module",
+			"version": "1.0.0-beta.1",
+			"license": "MIT",
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/nuxt/devtools.git"
+			},
+			"exports": {
+				".": {
+					"types": "./dist/index.d.ts",
+					"import": "./dist/index.mjs",
+					"require": "./dist/index.cjs"
+				},
+				"./types": {
+					"types": "./types.d.ts",
+					"import": "./dist/types.mjs",
+					"require": "./dist/types.cjs"
+				},
+				"./iframe-client": {
+					"types": "./iframe-client.d.ts",
+					"import": "./iframe-client.mjs"
+				}
+			},
+			"main": "./dist/index.cjs",
+			"types": "./dist/index.d.ts",
+			"peerDependencies": {
+				"nuxt": "^3.7.4",
+				"vite": "*"
+			},
+			"dependencies": {
+				"@nuxt/kit": "^3.7.4",
+				"@nuxt/schema": "^3.7.4",
+				"execa": "^7.2.0"
+			},
+			"devDependencies": {
+				"birpc": "^0.2.14",
+				"error-stack-parser-es": "^0.1.1",
+				"hookable": "^5.5.3",
+				"unbuild": "^2.0.0",
+				"unimport": "^3.4.0",
+				"vite-plugin-vue-inspector": "^4.0.0",
+				"vue-router": "^4.2.5"
+			},
+			"scripts": {
+				"build": "unbuild",
+				"stub": "unbuild --stub",
+				"dev:prepare": "nr stub"
+			},
+			"bugs": {
+				"url": "https://github.com/nuxt/devtools/issues"
+			},
+			"homepage": "https://github.com/nuxt/devtools#readme",
+			"_id": "@nuxt/devtools-kit@1.0.0-beta.1",
+			"_integrity": "sha512-Zm9Wy0nAietwSb0S0chG12p99vCcfkN+wBN+FJIqUaUX8AOcDXhaEGZ0gmzCAwH9MtD1LEhwyoooeWHFme9+iQ==",
+			"_resolved": "/private/var/folders/30/nymxcyb909ggq2j5lwn7b_600000gn/T/c7a0309cf602da0fcf5c7897e781f828/nuxt-devtools-kit-1.0.0-beta.1.tgz",
+			"_from": "file:nuxt-devtools-kit-1.0.0-beta.1.tgz",
+			"_nodeVersion": "20.4.0",
+			"_npmVersion": "9.7.2",
+			"dist": {
+				"integrity": "sha512-Zm9Wy0nAietwSb0S0chG12p99vCcfkN+wBN+FJIqUaUX8AOcDXhaEGZ0gmzCAwH9MtD1LEhwyoooeWHFme9+iQ==",
+				"shasum": "8b8f8f0e4e24427e65623e5c41f34b5bbc011a1b",
+				"tarball": "https://registry.npmjs.org/@nuxt/devtools-kit/-/devtools-kit-1.0.0-beta.1.tgz",
+				"fileCount": 21,
+				"unpackedSize": 100109,
+				"signatures": [
+					{
+						"keyid": "SHA256:jl3bwswu80PjjokCgh0o2w5c2U4LhQAE57gj9cz1kzA",
+						"sig": "MEUCIEZPFa7t/ffGALimGuoCz4A59dJ0EFt5at9B+HqTrQgDAiEA3FUR9wN+zZ6Q3A5rhFLlaPTF+rN7DV0d9hoBEJDF/ro="
+					}
+				]
+			},
+			"_npmUser": {
+				"name": "antfu",
+				"email": "anthonyfu117@hotmail.com"
+			},
+			"directories": {},
+			"maintainers": [
+				{
+					"name": "nuxtbot",
+					"email": "nuxtbot@roe.dev"
+				},
+				{
+					"name": "antfu",
+					"email": "anthonyfu117@hotmail.com"
+				},
+				{
+					"name": "atinux",
+					"email": "atinux@gmail.com"
+				},
+				{
+					"name": "pi0",
+					"email": "pyapar@gmail.com"
+				},
+				{
+					"name": "clarkdo",
+					"email": "clark.duxin@gmail.com"
+				},
+				{
+					"name": "danielroe",
+					"email": "daniel@roe.dev"
+				}
+			],
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/devtools-kit_1.0.0-beta.1_1697012487844_0.12139550775939068"
+			},
+			"_hasShrinkwrap": false,
+			"contributors": []
+		},
+		"1.0.0-beta.2": {
+			"name": "@nuxt/devtools-kit",
+			"type": "module",
+			"version": "1.0.0-beta.2",
+			"license": "MIT",
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/nuxt/devtools.git"
+			},
+			"exports": {
+				".": {
+					"types": "./dist/index.d.ts",
+					"import": "./dist/index.mjs",
+					"require": "./dist/index.cjs"
+				},
+				"./types": {
+					"types": "./types.d.ts",
+					"import": "./dist/types.mjs",
+					"require": "./dist/types.cjs"
+				},
+				"./iframe-client": {
+					"types": "./iframe-client.d.ts",
+					"import": "./iframe-client.mjs"
+				}
+			},
+			"main": "./dist/index.cjs",
+			"types": "./dist/index.d.ts",
+			"peerDependencies": {
+				"nuxt": "^3.7.4",
+				"vite": "*"
+			},
+			"dependencies": {
+				"@nuxt/kit": "^3.7.4",
+				"@nuxt/schema": "^3.7.4",
+				"execa": "^7.2.0"
+			},
+			"devDependencies": {
+				"birpc": "^0.2.14",
+				"error-stack-parser-es": "^0.1.1",
+				"hookable": "^5.5.3",
+				"unbuild": "^2.0.0",
+				"unimport": "^3.4.0",
+				"vite-plugin-vue-inspector": "^4.0.0",
+				"vue-router": "^4.2.5"
+			},
+			"scripts": {
+				"build": "unbuild",
+				"stub": "unbuild --stub",
+				"dev:prepare": "nr stub"
+			},
+			"bugs": {
+				"url": "https://github.com/nuxt/devtools/issues"
+			},
+			"homepage": "https://github.com/nuxt/devtools#readme",
+			"_id": "@nuxt/devtools-kit@1.0.0-beta.2",
+			"_integrity": "sha512-CLOrUAlerqS2jZw8zFbWM+R5PIfwzFKbmAJDQklqvGcCfi4MtSbOoO7f5O6F6jKzTFkOi1/pW/FSpvpsyMV/gw==",
+			"_resolved": "/private/var/folders/30/nymxcyb909ggq2j5lwn7b_600000gn/T/9d63d43aff6f1d8dd8ff000e93ce2d9a/nuxt-devtools-kit-1.0.0-beta.2.tgz",
+			"_from": "file:nuxt-devtools-kit-1.0.0-beta.2.tgz",
+			"_nodeVersion": "20.4.0",
+			"_npmVersion": "9.7.2",
+			"dist": {
+				"integrity": "sha512-CLOrUAlerqS2jZw8zFbWM+R5PIfwzFKbmAJDQklqvGcCfi4MtSbOoO7f5O6F6jKzTFkOi1/pW/FSpvpsyMV/gw==",
+				"shasum": "64c73823b3b3c9e262b2a4fc11996b6990b73de8",
+				"tarball": "https://registry.npmjs.org/@nuxt/devtools-kit/-/devtools-kit-1.0.0-beta.2.tgz",
+				"fileCount": 21,
+				"unpackedSize": 100109,
+				"signatures": [
+					{
+						"keyid": "SHA256:jl3bwswu80PjjokCgh0o2w5c2U4LhQAE57gj9cz1kzA",
+						"sig": "MEYCIQCMkkp3DD9mAPuWSmYzRKMllrVJ95Uuu74uqFc5unczTQIhAIdlEL6VQPJfIqXUboh4gdNQ6uebareJ4nnNLN3GY0XB"
+					}
+				]
+			},
+			"_npmUser": {
+				"name": "antfu",
+				"email": "anthonyfu117@hotmail.com"
+			},
+			"directories": {},
+			"maintainers": [
+				{
+					"name": "nuxtbot",
+					"email": "nuxtbot@roe.dev"
+				},
+				{
+					"name": "antfu",
+					"email": "anthonyfu117@hotmail.com"
+				},
+				{
+					"name": "atinux",
+					"email": "atinux@gmail.com"
+				},
+				{
+					"name": "pi0",
+					"email": "pyapar@gmail.com"
+				},
+				{
+					"name": "clarkdo",
+					"email": "clark.duxin@gmail.com"
+				},
+				{
+					"name": "danielroe",
+					"email": "daniel@roe.dev"
+				}
+			],
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/devtools-kit_1.0.0-beta.2_1697286427574_0.17487201919887907"
+			},
+			"_hasShrinkwrap": false,
+			"contributors": []
+		},
+		"1.0.0-beta.3": {
+			"name": "@nuxt/devtools-kit",
+			"type": "module",
+			"version": "1.0.0-beta.3",
+			"license": "MIT",
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/nuxt/devtools.git"
+			},
+			"exports": {
+				".": {
+					"types": "./dist/index.d.ts",
+					"import": "./dist/index.mjs",
+					"require": "./dist/index.cjs"
+				},
+				"./types": {
+					"types": "./types.d.ts",
+					"import": "./dist/types.mjs",
+					"require": "./dist/types.cjs"
+				},
+				"./iframe-client": {
+					"types": "./iframe-client.d.ts",
+					"import": "./iframe-client.mjs"
+				}
+			},
+			"main": "./dist/index.cjs",
+			"types": "./dist/index.d.ts",
+			"peerDependencies": {
+				"nuxt": "^3.7.4",
+				"vite": "*"
+			},
+			"dependencies": {
+				"@nuxt/kit": "^3.7.4",
+				"@nuxt/schema": "^3.7.4",
+				"execa": "^7.2.0"
+			},
+			"devDependencies": {
+				"birpc": "^0.2.14",
+				"error-stack-parser-es": "^0.1.1",
+				"hookable": "^5.5.3",
+				"unbuild": "^2.0.0",
+				"unimport": "^3.4.0",
+				"vite-plugin-vue-inspector": "^4.0.0",
+				"vue-router": "^4.2.5"
+			},
+			"scripts": {
+				"build": "unbuild",
+				"stub": "unbuild --stub",
+				"dev:prepare": "nr stub"
+			},
+			"bugs": {
+				"url": "https://github.com/nuxt/devtools/issues"
+			},
+			"homepage": "https://github.com/nuxt/devtools#readme",
+			"_id": "@nuxt/devtools-kit@1.0.0-beta.3",
+			"_integrity": "sha512-jRIlOZ1mGED6S0knH2mjRPeFr3WA/LHJvAhLHLBhE943e5JTmurR9stin86DRZKjLwn5d1AtUHyM9rxaCO0qLw==",
+			"_resolved": "/private/var/folders/30/nymxcyb909ggq2j5lwn7b_600000gn/T/05b5de5d2126c040bcf650ad0ccda6df/nuxt-devtools-kit-1.0.0-beta.3.tgz",
+			"_from": "file:nuxt-devtools-kit-1.0.0-beta.3.tgz",
+			"_nodeVersion": "20.4.0",
+			"_npmVersion": "9.7.2",
+			"dist": {
+				"integrity": "sha512-jRIlOZ1mGED6S0knH2mjRPeFr3WA/LHJvAhLHLBhE943e5JTmurR9stin86DRZKjLwn5d1AtUHyM9rxaCO0qLw==",
+				"shasum": "240c4f04e1ec7a757c854d52c20d72332066a468",
+				"tarball": "https://registry.npmjs.org/@nuxt/devtools-kit/-/devtools-kit-1.0.0-beta.3.tgz",
+				"fileCount": 21,
+				"unpackedSize": 101774,
+				"signatures": [
+					{
+						"keyid": "SHA256:jl3bwswu80PjjokCgh0o2w5c2U4LhQAE57gj9cz1kzA",
+						"sig": "MEUCIF+9pcYX0DrhpC9ESyK64JS7blKlLUuIx4fOL7nSYOZvAiEAx4Fts7c9RzquK8O4AxG73reAwsEe3KIpXDCjdq5Y21Y="
+					}
+				]
+			},
+			"_npmUser": {
+				"name": "antfu",
+				"email": "anthonyfu117@hotmail.com"
+			},
+			"directories": {},
+			"maintainers": [
+				{
+					"name": "nuxtbot",
+					"email": "nuxtbot@roe.dev"
+				},
+				{
+					"name": "antfu",
+					"email": "anthonyfu117@hotmail.com"
+				},
+				{
+					"name": "atinux",
+					"email": "atinux@gmail.com"
+				},
+				{
+					"name": "pi0",
+					"email": "pyapar@gmail.com"
+				},
+				{
+					"name": "clarkdo",
+					"email": "clark.duxin@gmail.com"
+				},
+				{
+					"name": "danielroe",
+					"email": "daniel@roe.dev"
+				}
+			],
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/devtools-kit_1.0.0-beta.3_1697539032890_0.6150798563668662"
+			},
+			"_hasShrinkwrap": false,
+			"contributors": []
+		},
+		"1.0.0": {
+			"name": "@nuxt/devtools-kit",
+			"type": "module",
+			"version": "1.0.0",
+			"license": "MIT",
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/nuxt/devtools.git"
+			},
+			"exports": {
+				".": {
+					"types": "./dist/index.d.ts",
+					"import": "./dist/index.mjs",
+					"require": "./dist/index.cjs"
+				},
+				"./types": {
+					"types": "./types.d.ts",
+					"import": "./dist/types.mjs",
+					"require": "./dist/types.cjs"
+				},
+				"./iframe-client": {
+					"types": "./iframe-client.d.ts",
+					"import": "./iframe-client.mjs"
+				}
+			},
+			"main": "./dist/index.cjs",
+			"types": "./dist/index.d.ts",
+			"peerDependencies": {
+				"nuxt": "^3.7.4",
+				"vite": "*"
+			},
+			"dependencies": {
+				"@nuxt/kit": "^3.7.4",
+				"@nuxt/schema": "^3.7.4",
+				"execa": "^7.2.0"
+			},
+			"devDependencies": {
+				"birpc": "^0.2.14",
+				"error-stack-parser-es": "^0.1.1",
+				"hookable": "^5.5.3",
+				"unbuild": "^2.0.0",
+				"unimport": "^3.4.0",
+				"vite-plugin-vue-inspector": "^4.0.0",
+				"vue-router": "^4.2.5"
+			},
+			"scripts": {
+				"build": "unbuild",
+				"stub": "unbuild --stub",
+				"dev:prepare": "nr stub"
+			},
+			"bugs": {
+				"url": "https://github.com/nuxt/devtools/issues"
+			},
+			"homepage": "https://github.com/nuxt/devtools#readme",
+			"_id": "@nuxt/devtools-kit@1.0.0",
+			"_integrity": "sha512-cNloBepQYCBW6x/ctfCvyYRZudxhfgh5w5JDswpCzn7KXmm8U6abG2jyT0FXIaceW1d5QYMpGCN1RUw24wSvOA==",
+			"_resolved": "/private/var/folders/30/nymxcyb909ggq2j5lwn7b_600000gn/T/bff5179e54b40db163f693dd42c182af/nuxt-devtools-kit-1.0.0.tgz",
+			"_from": "file:nuxt-devtools-kit-1.0.0.tgz",
+			"_nodeVersion": "20.4.0",
+			"_npmVersion": "9.7.2",
+			"dist": {
+				"integrity": "sha512-cNloBepQYCBW6x/ctfCvyYRZudxhfgh5w5JDswpCzn7KXmm8U6abG2jyT0FXIaceW1d5QYMpGCN1RUw24wSvOA==",
+				"shasum": "c59d0323a3405cb2f000895e72430dbb3e9ca2bc",
+				"tarball": "https://registry.npmjs.org/@nuxt/devtools-kit/-/devtools-kit-1.0.0.tgz",
+				"fileCount": 21,
+				"unpackedSize": 101767,
+				"signatures": [
+					{
+						"keyid": "SHA256:jl3bwswu80PjjokCgh0o2w5c2U4LhQAE57gj9cz1kzA",
+						"sig": "MEUCIAL4OXhwj6rt+AI9wl+sjbLMu9EzZwbD/Zw2k+8eaAvzAiEA/+aL92NhfkQyZlMH3VOirJGaP4Se5a9cs+eYpLzL6xg="
+					}
+				]
+			},
+			"_npmUser": {
+				"name": "antfu",
+				"email": "anthonyfu117@hotmail.com"
+			},
+			"directories": {},
+			"maintainers": [
+				{
+					"name": "nuxtbot",
+					"email": "nuxtbot@roe.dev"
+				},
+				{
+					"name": "antfu",
+					"email": "anthonyfu117@hotmail.com"
+				},
+				{
+					"name": "atinux",
+					"email": "atinux@gmail.com"
+				},
+				{
+					"name": "pi0",
+					"email": "pyapar@gmail.com"
+				},
+				{
+					"name": "clarkdo",
+					"email": "clark.duxin@gmail.com"
+				},
+				{
+					"name": "danielroe",
+					"email": "daniel@roe.dev"
+				}
+			],
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/devtools-kit_1.0.0_1697643618470_0.24366623595970682"
+			},
+			"_hasShrinkwrap": false,
+			"contributors": []
+		},
+		"1.0.1": {
+			"name": "@nuxt/devtools-kit",
+			"type": "module",
+			"version": "1.0.1",
+			"license": "MIT",
+			"homepage": "https://devtools.nuxt.com/module/utils-kit",
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/nuxt/devtools.git",
+				"directory": "packages/devtools-kit"
+			},
+			"exports": {
+				".": {
+					"types": "./dist/index.d.ts",
+					"import": "./dist/index.mjs",
+					"require": "./dist/index.cjs"
+				},
+				"./types": {
+					"types": "./types.d.ts",
+					"import": "./dist/types.mjs",
+					"require": "./dist/types.cjs"
+				},
+				"./iframe-client": {
+					"types": "./iframe-client.d.ts",
+					"import": "./iframe-client.mjs"
+				}
+			},
+			"main": "./dist/index.cjs",
+			"types": "./dist/index.d.ts",
+			"peerDependencies": {
+				"nuxt": "^3.7.4",
+				"vite": "*"
+			},
+			"dependencies": {
+				"@nuxt/kit": "^3.8.1",
+				"@nuxt/schema": "^3.8.1",
+				"execa": "^7.2.0"
+			},
+			"devDependencies": {
+				"birpc": "^0.2.14",
+				"error-stack-parser-es": "^0.1.1",
+				"hookable": "^5.5.3",
+				"unbuild": "^2.0.0",
+				"unimport": "^3.5.0",
+				"vite-plugin-vue-inspector": "^4.0.0",
+				"vue-router": "^4.2.5"
+			},
+			"scripts": {
+				"build": "unbuild",
+				"stub": "unbuild --stub",
+				"dev:prepare": "nr stub"
+			},
+			"bugs": {
+				"url": "https://github.com/nuxt/devtools/issues"
+			},
+			"_id": "@nuxt/devtools-kit@1.0.1",
+			"_integrity": "sha512-tR+9mqic2O76LWkmdH0q5xPEnrOo8DmHvKyXA99be7NQfkjf47roWfa+gvQbksqwNw3SZVw2fq9Lotk4vZj4RA==",
+			"_resolved": "/private/var/folders/30/nymxcyb909ggq2j5lwn7b_600000gn/T/afa51f3697b5bb92483a576d5bd32e50/nuxt-devtools-kit-1.0.1.tgz",
+			"_from": "file:nuxt-devtools-kit-1.0.1.tgz",
+			"_nodeVersion": "20.4.0",
+			"_npmVersion": "9.7.2",
+			"dist": {
+				"integrity": "sha512-tR+9mqic2O76LWkmdH0q5xPEnrOo8DmHvKyXA99be7NQfkjf47roWfa+gvQbksqwNw3SZVw2fq9Lotk4vZj4RA==",
+				"shasum": "45279c79dd2f0998c28f56d9cc66ba924f8e5330",
+				"tarball": "https://registry.npmjs.org/@nuxt/devtools-kit/-/devtools-kit-1.0.1.tgz",
+				"fileCount": 20,
+				"unpackedSize": 98905,
+				"signatures": [
+					{
+						"keyid": "SHA256:jl3bwswu80PjjokCgh0o2w5c2U4LhQAE57gj9cz1kzA",
+						"sig": "MEUCIQCqr2N20SLb73jR8Hn67/b0chHvhUBYKBoy8XGyiEQ5JQIgXETSNrOrvF0zMkaez6fHkqPhY8Lp353xA8jRa0a4mrE="
+					}
+				]
+			},
+			"_npmUser": {
+				"name": "antfu",
+				"email": "anthonyfu117@hotmail.com"
+			},
+			"directories": {},
+			"maintainers": [
+				{
+					"name": "nuxtbot",
+					"email": "nuxtbot@roe.dev"
+				},
+				{
+					"name": "antfu",
+					"email": "anthonyfu117@hotmail.com"
+				},
+				{
+					"name": "atinux",
+					"email": "atinux@gmail.com"
+				},
+				{
+					"name": "pi0",
+					"email": "pyapar@gmail.com"
+				},
+				{
+					"name": "clarkdo",
+					"email": "clark.duxin@gmail.com"
+				},
+				{
+					"name": "danielroe",
+					"email": "daniel@roe.dev"
+				}
+			],
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/devtools-kit_1.0.1_1699561969200_0.7655217353339705"
+			},
+			"_hasShrinkwrap": false,
+			"contributors": []
+		},
+		"1.0.2": {
+			"name": "@nuxt/devtools-kit",
+			"type": "module",
+			"version": "1.0.2",
+			"license": "MIT",
+			"homepage": "https://devtools.nuxt.com/module/utils-kit",
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/nuxt/devtools.git",
+				"directory": "packages/devtools-kit"
+			},
+			"exports": {
+				".": {
+					"types": "./dist/index.d.ts",
+					"import": "./dist/index.mjs",
+					"require": "./dist/index.cjs"
+				},
+				"./types": {
+					"types": "./types.d.ts",
+					"import": "./dist/types.mjs",
+					"require": "./dist/types.cjs"
+				},
+				"./iframe-client": {
+					"types": "./iframe-client.d.ts",
+					"import": "./iframe-client.mjs"
+				}
+			},
+			"main": "./dist/index.cjs",
+			"types": "./dist/index.d.ts",
+			"peerDependencies": {
+				"nuxt": "^3.8.1",
+				"vite": "*"
+			},
+			"dependencies": {
+				"@nuxt/kit": "^3.8.1",
+				"@nuxt/schema": "^3.8.1",
+				"execa": "^7.2.0"
+			},
+			"devDependencies": {
+				"birpc": "^0.2.14",
+				"error-stack-parser-es": "^0.1.1",
+				"hookable": "^5.5.3",
+				"unbuild": "^2.0.0",
+				"unimport": "^3.5.0",
+				"vite-plugin-vue-inspector": "^4.0.0",
+				"vue-router": "^4.2.5"
+			},
+			"scripts": {
+				"build": "unbuild",
+				"stub": "unbuild --stub",
+				"dev:prepare": "nr stub"
+			},
+			"bugs": {
+				"url": "https://github.com/nuxt/devtools/issues"
+			},
+			"_id": "@nuxt/devtools-kit@1.0.2",
+			"_integrity": "sha512-iFi54NNCcPsF/jW14HbRlq3aOClOWdfiein0CvKoQ5shobHgn1s3xULh8o9QPKI2oTarcuJL+EFIK43CwfoXyw==",
+			"_resolved": "/private/var/folders/30/nymxcyb909ggq2j5lwn7b_600000gn/T/2e6ef8c8ad72656ebc4df7d9eab66df8/nuxt-devtools-kit-1.0.2.tgz",
+			"_from": "file:nuxt-devtools-kit-1.0.2.tgz",
+			"_nodeVersion": "20.4.0",
+			"_npmVersion": "9.7.2",
+			"dist": {
+				"integrity": "sha512-iFi54NNCcPsF/jW14HbRlq3aOClOWdfiein0CvKoQ5shobHgn1s3xULh8o9QPKI2oTarcuJL+EFIK43CwfoXyw==",
+				"shasum": "0c91d20ef59481b0b6e93d9a32a7eb72dc7542f9",
+				"tarball": "https://registry.npmjs.org/@nuxt/devtools-kit/-/devtools-kit-1.0.2.tgz",
+				"fileCount": 20,
+				"unpackedSize": 98905,
+				"signatures": [
+					{
+						"keyid": "SHA256:jl3bwswu80PjjokCgh0o2w5c2U4LhQAE57gj9cz1kzA",
+						"sig": "MEYCIQD6I6EvK2EzveOQO+donP5jrdWCf27NDmUXOJ6yQLoFegIhALIe6bXWb2LGsA7BJloX/lSeG1L+eVoBR5WQPRq/bqkc"
+					}
+				]
+			},
+			"_npmUser": {
+				"name": "antfu",
+				"email": "anthonyfu117@hotmail.com"
+			},
+			"directories": {},
+			"maintainers": [
+				{
+					"name": "nuxtbot",
+					"email": "nuxtbot@roe.dev"
+				},
+				{
+					"name": "antfu",
+					"email": "anthonyfu117@hotmail.com"
+				},
+				{
+					"name": "atinux",
+					"email": "atinux@gmail.com"
+				},
+				{
+					"name": "pi0",
+					"email": "pyapar@gmail.com"
+				},
+				{
+					"name": "clarkdo",
+					"email": "clark.duxin@gmail.com"
+				},
+				{
+					"name": "danielroe",
+					"email": "daniel@roe.dev"
+				}
+			],
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/devtools-kit_1.0.2_1699707244455_0.33407856974858086"
+			},
+			"_hasShrinkwrap": false,
+			"contributors": []
+		},
+		"1.0.3": {
+			"name": "@nuxt/devtools-kit",
+			"type": "module",
+			"version": "1.0.3",
+			"license": "MIT",
+			"homepage": "https://devtools.nuxt.com/module/utils-kit",
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/nuxt/devtools.git",
+				"directory": "packages/devtools-kit"
+			},
+			"exports": {
+				".": {
+					"types": "./dist/index.d.ts",
+					"import": "./dist/index.mjs",
+					"require": "./dist/index.cjs"
+				},
+				"./types": {
+					"types": "./types.d.ts",
+					"import": "./dist/types.mjs",
+					"require": "./dist/types.cjs"
+				},
+				"./iframe-client": {
+					"types": "./iframe-client.d.ts",
+					"import": "./iframe-client.mjs"
+				}
+			},
+			"main": "./dist/index.cjs",
+			"types": "./dist/index.d.ts",
+			"peerDependencies": {
+				"nuxt": "^3.8.1",
+				"vite": "*"
+			},
+			"dependencies": {
+				"@nuxt/kit": "^3.8.1",
+				"@nuxt/schema": "^3.8.1",
+				"execa": "^7.2.0"
+			},
+			"devDependencies": {
+				"birpc": "^0.2.14",
+				"error-stack-parser-es": "^0.1.1",
+				"hookable": "^5.5.3",
+				"unbuild": "^2.0.0",
+				"unimport": "^3.5.0",
+				"vite-plugin-vue-inspector": "^4.0.0",
+				"vue-router": "^4.2.5"
+			},
+			"scripts": {
+				"build": "unbuild",
+				"stub": "unbuild --stub",
+				"dev:prepare": "nr stub"
+			},
+			"bugs": {
+				"url": "https://github.com/nuxt/devtools/issues"
+			},
+			"_id": "@nuxt/devtools-kit@1.0.3",
+			"_integrity": "sha512-a/ZAVmrD5yOfUYhRVfC9afMkczzL8J8zdf0h6QHbTd33rJW/jmjwTn++RTdnbSD2gg2fSBRi/h8y17RmqIdb9g==",
+			"_resolved": "/private/var/folders/30/nymxcyb909ggq2j5lwn7b_600000gn/T/a3060bd972e0174ffd02306e687317a0/nuxt-devtools-kit-1.0.3.tgz",
+			"_from": "file:nuxt-devtools-kit-1.0.3.tgz",
+			"_nodeVersion": "20.4.0",
+			"_npmVersion": "9.7.2",
+			"dist": {
+				"integrity": "sha512-a/ZAVmrD5yOfUYhRVfC9afMkczzL8J8zdf0h6QHbTd33rJW/jmjwTn++RTdnbSD2gg2fSBRi/h8y17RmqIdb9g==",
+				"shasum": "10b101476e6c19ee93a1a3c1a6a72f6c19e0b733",
+				"tarball": "https://registry.npmjs.org/@nuxt/devtools-kit/-/devtools-kit-1.0.3.tgz",
+				"fileCount": 20,
+				"unpackedSize": 98905,
+				"signatures": [
+					{
+						"keyid": "SHA256:jl3bwswu80PjjokCgh0o2w5c2U4LhQAE57gj9cz1kzA",
+						"sig": "MEUCIGe5M+u80zTYESqLTAppiplusKGtUOPcbDNkc+3rq1shAiEA4VK5KUiFhECdqu4M62AvirEkl/jbOLfD6C34ayOku0o="
+					}
+				]
+			},
+			"_npmUser": {
+				"name": "antfu",
+				"email": "anthonyfu117@hotmail.com"
+			},
+			"directories": {},
+			"maintainers": [
+				{
+					"name": "nuxtbot",
+					"email": "nuxtbot@roe.dev"
+				},
+				{
+					"name": "antfu",
+					"email": "anthonyfu117@hotmail.com"
+				},
+				{
+					"name": "atinux",
+					"email": "atinux@gmail.com"
+				},
+				{
+					"name": "pi0",
+					"email": "pyapar@gmail.com"
+				},
+				{
+					"name": "clarkdo",
+					"email": "clark.duxin@gmail.com"
+				},
+				{
+					"name": "danielroe",
+					"email": "daniel@roe.dev"
+				}
+			],
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/devtools-kit_1.0.3_1700488511187_0.9463533279854679"
+			},
+			"_hasShrinkwrap": false,
+			"contributors": []
+		},
+		"1.0.4": {
+			"name": "@nuxt/devtools-kit",
+			"type": "module",
+			"version": "1.0.4",
+			"license": "MIT",
+			"homepage": "https://devtools.nuxt.com/module/utils-kit",
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/nuxt/devtools.git",
+				"directory": "packages/devtools-kit"
+			},
+			"exports": {
+				".": {
+					"types": "./dist/index.d.ts",
+					"import": "./dist/index.mjs",
+					"require": "./dist/index.cjs"
+				},
+				"./types": {
+					"types": "./types.d.ts",
+					"import": "./dist/types.mjs",
+					"require": "./dist/types.cjs"
+				},
+				"./iframe-client": {
+					"types": "./iframe-client.d.ts",
+					"import": "./iframe-client.mjs"
+				}
+			},
+			"main": "./dist/index.cjs",
+			"types": "./dist/index.d.ts",
+			"peerDependencies": {
+				"nuxt": "^3.8.1",
+				"vite": "*"
+			},
+			"dependencies": {
+				"@nuxt/kit": "^3.8.2",
+				"@nuxt/schema": "^3.8.2",
+				"execa": "^7.2.0"
+			},
+			"devDependencies": {
+				"birpc": "^0.2.14",
+				"error-stack-parser-es": "^0.1.1",
+				"hookable": "^5.5.3",
+				"unbuild": "^2.0.0",
+				"unimport": "^3.5.0",
+				"vite-plugin-vue-inspector": "^4.0.0",
+				"vue-router": "^4.2.5"
+			},
+			"scripts": {
+				"build": "unbuild",
+				"stub": "unbuild --stub",
+				"dev:prepare": "nr stub"
+			},
+			"bugs": {
+				"url": "https://github.com/nuxt/devtools/issues"
+			},
+			"_id": "@nuxt/devtools-kit@1.0.4",
+			"_integrity": "sha512-AXNeI1dBilNryCmwuTd3lU7CrPBhzUJ5ntTFiXw9MmFwe5QT3NOxDFOv0gX7z1DFnmBEmx5mPKWysCwh7htEnQ==",
+			"_resolved": "/private/var/folders/30/nymxcyb909ggq2j5lwn7b_600000gn/T/6e26045b41cf32daf10939f99f7ca858/nuxt-devtools-kit-1.0.4.tgz",
+			"_from": "file:nuxt-devtools-kit-1.0.4.tgz",
+			"_nodeVersion": "20.4.0",
+			"_npmVersion": "9.7.2",
+			"dist": {
+				"integrity": "sha512-AXNeI1dBilNryCmwuTd3lU7CrPBhzUJ5ntTFiXw9MmFwe5QT3NOxDFOv0gX7z1DFnmBEmx5mPKWysCwh7htEnQ==",
+				"shasum": "dace89a92d4397f414d473b21a3164f35cbb8abe",
+				"tarball": "https://registry.npmjs.org/@nuxt/devtools-kit/-/devtools-kit-1.0.4.tgz",
+				"fileCount": 20,
+				"unpackedSize": 99040,
+				"signatures": [
+					{
+						"keyid": "SHA256:jl3bwswu80PjjokCgh0o2w5c2U4LhQAE57gj9cz1kzA",
+						"sig": "MEQCIFPDgn86WGEhe8kWjqOv8SVpMRCrAuFT5OTYe2mlRtNdAiA+WP5hg+Z5AwbefmJ9f8xQXUI0eEOPazSSaZ3iRhok7A=="
+					}
+				]
+			},
+			"_npmUser": {
+				"name": "antfu",
+				"email": "anthonyfu117@hotmail.com"
+			},
+			"directories": {},
+			"maintainers": [
+				{
+					"name": "nuxtbot",
+					"email": "nuxtbot@roe.dev"
+				},
+				{
+					"name": "antfu",
+					"email": "anthonyfu117@hotmail.com"
+				},
+				{
+					"name": "atinux",
+					"email": "atinux@gmail.com"
+				},
+				{
+					"name": "pi0",
+					"email": "pyapar@gmail.com"
+				},
+				{
+					"name": "clarkdo",
+					"email": "clark.duxin@gmail.com"
+				},
+				{
+					"name": "danielroe",
+					"email": "daniel@roe.dev"
+				}
+			],
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/devtools-kit_1.0.4_1701114935663_0.8798128211415972"
+			},
+			"_hasShrinkwrap": false,
+			"contributors": []
+		},
+		"1.0.5": {
+			"name": "@nuxt/devtools-kit",
+			"type": "module",
+			"version": "1.0.5",
+			"license": "MIT",
+			"homepage": "https://devtools.nuxt.com/module/utils-kit",
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/nuxt/devtools.git",
+				"directory": "packages/devtools-kit"
+			},
+			"exports": {
+				".": {
+					"types": "./dist/index.d.ts",
+					"import": "./dist/index.mjs",
+					"require": "./dist/index.cjs"
+				},
+				"./types": {
+					"types": "./types.d.ts",
+					"import": "./dist/types.mjs",
+					"require": "./dist/types.cjs"
+				},
+				"./iframe-client": {
+					"types": "./iframe-client.d.ts",
+					"import": "./iframe-client.mjs"
+				}
+			},
+			"main": "./dist/index.cjs",
+			"types": "./dist/index.d.ts",
+			"peerDependencies": {
+				"nuxt": "^3.8.1",
+				"vite": "*"
+			},
+			"dependencies": {
+				"@nuxt/kit": "^3.8.2",
+				"@nuxt/schema": "^3.8.2",
+				"execa": "^7.2.0"
+			},
+			"devDependencies": {
+				"birpc": "^0.2.14",
+				"error-stack-parser-es": "^0.1.1",
+				"hookable": "^5.5.3",
+				"unbuild": "^2.0.0",
+				"unimport": "^3.6.1",
+				"vite-plugin-vue-inspector": "^4.0.2",
+				"vue-router": "^4.2.5"
+			},
+			"scripts": {
+				"build": "unbuild",
+				"stub": "unbuild --stub",
+				"dev:prepare": "nr stub"
+			},
+			"bugs": {
+				"url": "https://github.com/nuxt/devtools/issues"
+			},
+			"_id": "@nuxt/devtools-kit@1.0.5",
+			"_integrity": "sha512-2SbsYZngD0r6nZCXhEKQ8E6sc10uaYMiN3VicoHj0fZSXNEYjJjLRQ3xD+hbmiqM4dRMGeR06IU6E/Ff0asDcQ==",
+			"_resolved": "/private/var/folders/30/nymxcyb909ggq2j5lwn7b_600000gn/T/f89f84ff533837bf6c47e22a0adfed39/nuxt-devtools-kit-1.0.5.tgz",
+			"_from": "file:nuxt-devtools-kit-1.0.5.tgz",
+			"_nodeVersion": "20.4.0",
+			"_npmVersion": "9.7.2",
+			"dist": {
+				"integrity": "sha512-2SbsYZngD0r6nZCXhEKQ8E6sc10uaYMiN3VicoHj0fZSXNEYjJjLRQ3xD+hbmiqM4dRMGeR06IU6E/Ff0asDcQ==",
+				"shasum": "71f465585fb452a9e97a2b36888360736dd02987",
+				"tarball": "https://registry.npmjs.org/@nuxt/devtools-kit/-/devtools-kit-1.0.5.tgz",
+				"fileCount": 20,
+				"unpackedSize": 99040,
+				"signatures": [
+					{
+						"keyid": "SHA256:jl3bwswu80PjjokCgh0o2w5c2U4LhQAE57gj9cz1kzA",
+						"sig": "MEUCICv5ZCFHfWIkHSWeE+D8JzZ441SBF0bygT40Nar2NzFIAiEA6Scj5l91gm527msFmrxAITUcMWBq4vcxvtKntP/DCCk="
+					}
+				]
+			},
+			"_npmUser": {
+				"name": "antfu",
+				"email": "anthonyfu117@hotmail.com"
+			},
+			"directories": {},
+			"maintainers": [
+				{
+					"name": "nuxtbot",
+					"email": "nuxtbot@roe.dev"
+				},
+				{
+					"name": "antfu",
+					"email": "anthonyfu117@hotmail.com"
+				},
+				{
+					"name": "atinux",
+					"email": "atinux@gmail.com"
+				},
+				{
+					"name": "pi0",
+					"email": "pyapar@gmail.com"
+				},
+				{
+					"name": "clarkdo",
+					"email": "clark.duxin@gmail.com"
+				},
+				{
+					"name": "danielroe",
+					"email": "daniel@roe.dev"
+				}
+			],
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/devtools-kit_1.0.5_1701975708615_0.15798071711527606"
+			},
+			"_hasShrinkwrap": false,
+			"contributors": []
+		},
+		"1.0.6": {
+			"name": "@nuxt/devtools-kit",
+			"type": "module",
+			"version": "1.0.6",
+			"license": "MIT",
+			"homepage": "https://devtools.nuxt.com/module/utils-kit",
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/nuxt/devtools.git",
+				"directory": "packages/devtools-kit"
+			},
+			"exports": {
+				".": {
+					"types": "./dist/index.d.ts",
+					"import": "./dist/index.mjs",
+					"require": "./dist/index.cjs"
+				},
+				"./types": {
+					"types": "./types.d.ts",
+					"import": "./dist/types.mjs",
+					"require": "./dist/types.cjs"
+				},
+				"./iframe-client": {
+					"types": "./iframe-client.d.ts",
+					"import": "./iframe-client.mjs"
+				}
+			},
+			"main": "./dist/index.cjs",
+			"types": "./dist/index.d.ts",
+			"peerDependencies": {
+				"nuxt": "^3.8.2",
+				"vite": "*"
+			},
+			"dependencies": {
+				"@nuxt/kit": "^3.8.2",
+				"@nuxt/schema": "^3.8.2",
+				"execa": "^7.2.0"
+			},
+			"devDependencies": {
+				"birpc": "^0.2.14",
+				"error-stack-parser-es": "^0.1.1",
+				"hookable": "^5.5.3",
+				"unbuild": "^2.0.0",
+				"unimport": "^3.6.1",
+				"vite-plugin-vue-inspector": "^4.0.2",
+				"vue-router": "^4.2.5"
+			},
+			"scripts": {
+				"build": "unbuild",
+				"stub": "unbuild --stub",
+				"dev:prepare": "nr stub"
+			},
+			"bugs": {
+				"url": "https://github.com/nuxt/devtools/issues"
+			},
+			"_id": "@nuxt/devtools-kit@1.0.6",
+			"_integrity": "sha512-CUSE++NRTIwvBWbLsPzLZIDMpXr6oyllaWm8tOR3Wgr/04jW31uyWbXjU/fxRuDotQwZfcTe19uunRoCoBnk1Q==",
+			"_resolved": "/private/var/folders/30/nymxcyb909ggq2j5lwn7b_600000gn/T/17c98206dc07b89f01610c4e2434b4e1/nuxt-devtools-kit-1.0.6.tgz",
+			"_from": "file:nuxt-devtools-kit-1.0.6.tgz",
+			"_nodeVersion": "20.4.0",
+			"_npmVersion": "9.7.2",
+			"dist": {
+				"integrity": "sha512-CUSE++NRTIwvBWbLsPzLZIDMpXr6oyllaWm8tOR3Wgr/04jW31uyWbXjU/fxRuDotQwZfcTe19uunRoCoBnk1Q==",
+				"shasum": "e4a96fc20a9bb88fe58a3d775fcc1e317e3438cb",
+				"tarball": "https://registry.npmjs.org/@nuxt/devtools-kit/-/devtools-kit-1.0.6.tgz",
+				"fileCount": 20,
+				"unpackedSize": 99040,
+				"signatures": [
+					{
+						"keyid": "SHA256:jl3bwswu80PjjokCgh0o2w5c2U4LhQAE57gj9cz1kzA",
+						"sig": "MEYCIQCqYxoiV5rvtOfGC0f0qIPNgE2EcFXd+89UoPcSGzYDYAIhAMiZZOOXxdzecP4N/GDYA3Qrr1n/sqT27fOvQq4g35Nw"
+					}
+				]
+			},
+			"_npmUser": {
+				"name": "antfu",
+				"email": "anthonyfu117@hotmail.com"
+			},
+			"directories": {},
+			"maintainers": [
+				{
+					"name": "nuxtbot",
+					"email": "nuxtbot@roe.dev"
+				},
+				{
+					"name": "antfu",
+					"email": "anthonyfu117@hotmail.com"
+				},
+				{
+					"name": "atinux",
+					"email": "atinux@gmail.com"
+				},
+				{
+					"name": "pi0",
+					"email": "pyapar@gmail.com"
+				},
+				{
+					"name": "clarkdo",
+					"email": "clark.duxin@gmail.com"
+				},
+				{
+					"name": "danielroe",
+					"email": "daniel@roe.dev"
+				}
+			],
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/devtools-kit_1.0.6_1702469995818_0.2968715513895803"
+			},
+			"_hasShrinkwrap": false,
+			"contributors": []
+		},
+		"1.0.7": {
+			"name": "@nuxt/devtools-kit",
+			"type": "module",
+			"version": "1.0.7",
+			"license": "MIT",
+			"homepage": "https://devtools.nuxt.com/module/utils-kit",
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/nuxt/devtools.git",
+				"directory": "packages/devtools-kit"
+			},
+			"exports": {
+				".": {
+					"types": "./dist/index.d.ts",
+					"import": "./dist/index.mjs",
+					"require": "./dist/index.cjs"
+				},
+				"./types": {
+					"types": "./types.d.ts",
+					"import": "./dist/types.mjs",
+					"require": "./dist/types.cjs"
+				},
+				"./iframe-client": {
+					"types": "./iframe-client.d.ts",
+					"import": "./iframe-client.mjs"
+				}
+			},
+			"main": "./dist/index.cjs",
+			"types": "./dist/index.d.ts",
+			"peerDependencies": {
+				"nuxt": "^3.9.0",
+				"vite": "*"
+			},
+			"dependencies": {
+				"@nuxt/kit": "^3.9.1",
+				"@nuxt/schema": "^3.9.1",
+				"execa": "^7.2.0"
+			},
+			"devDependencies": {
+				"birpc": "^0.2.14",
+				"error-stack-parser-es": "^0.1.1",
+				"hookable": "^5.5.3",
+				"unbuild": "^2.0.0",
+				"unimport": "^3.7.1",
+				"vite-plugin-vue-inspector": "^4.0.2",
+				"vue-router": "^4.2.5"
+			},
+			"scripts": {
+				"build": "unbuild",
+				"stub": "unbuild --stub",
+				"dev:prepare": "nr stub"
+			},
+			"bugs": {
+				"url": "https://github.com/nuxt/devtools/issues"
+			},
+			"_id": "@nuxt/devtools-kit@1.0.7",
+			"_integrity": "sha512-lWwHMroKeeHP5W2tJ4wfVSHBINmTM00d/fhuoUtT0sE2kw80i0jxXcsmtMDsQGXQqeeXhiIr9zpWwwY22PHHsw==",
+			"_resolved": "/private/var/folders/30/nymxcyb909ggq2j5lwn7b_600000gn/T/3602ec17cbe22d0ad6419707ae6a74f6/nuxt-devtools-kit-1.0.7.tgz",
+			"_from": "file:nuxt-devtools-kit-1.0.7.tgz",
+			"_nodeVersion": "20.4.0",
+			"_npmVersion": "9.7.2",
+			"dist": {
+				"integrity": "sha512-lWwHMroKeeHP5W2tJ4wfVSHBINmTM00d/fhuoUtT0sE2kw80i0jxXcsmtMDsQGXQqeeXhiIr9zpWwwY22PHHsw==",
+				"shasum": "10c7df9276b1c760d7d23e62ef6158221c90c1b0",
+				"tarball": "https://registry.npmjs.org/@nuxt/devtools-kit/-/devtools-kit-1.0.7.tgz",
+				"fileCount": 20,
+				"unpackedSize": 99478,
+				"signatures": [
+					{
+						"keyid": "SHA256:jl3bwswu80PjjokCgh0o2w5c2U4LhQAE57gj9cz1kzA",
+						"sig": "MEUCIQDxg0K9/ADt1wx1gBJW8nPPR2WTG6M86ffP9iXwWXfCwgIgN1jA9a7uLKvmt4afFHY1amCtrhnmqi7DAtAfACCKNjE="
+					}
+				]
+			},
+			"_npmUser": {
+				"name": "antfu",
+				"email": "anthonyfu117@hotmail.com"
+			},
+			"directories": {},
+			"maintainers": [
+				{
+					"name": "nuxtbot",
+					"email": "nuxtbot@roe.dev"
+				},
+				{
+					"name": "antfu",
+					"email": "anthonyfu117@hotmail.com"
+				},
+				{
+					"name": "atinux",
+					"email": "atinux@gmail.com"
+				},
+				{
+					"name": "pi0",
+					"email": "pyapar@gmail.com"
+				},
+				{
+					"name": "clarkdo",
+					"email": "clark.duxin@gmail.com"
+				},
+				{
+					"name": "danielroe",
+					"email": "daniel@roe.dev"
+				}
+			],
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/devtools-kit_1.0.7_1704990114695_0.36089781784031705"
+			},
+			"_hasShrinkwrap": false,
+			"contributors": []
+		},
+		"1.0.8": {
+			"name": "@nuxt/devtools-kit",
+			"type": "module",
+			"version": "1.0.8",
+			"license": "MIT",
+			"homepage": "https://devtools.nuxt.com/module/utils-kit",
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/nuxt/devtools.git",
+				"directory": "packages/devtools-kit"
+			},
+			"exports": {
+				".": {
+					"types": "./dist/index.d.ts",
+					"import": "./dist/index.mjs",
+					"require": "./dist/index.cjs"
+				},
+				"./types": {
+					"types": "./types.d.ts",
+					"import": "./dist/types.mjs",
+					"require": "./dist/types.cjs"
+				},
+				"./iframe-client": {
+					"types": "./iframe-client.d.ts",
+					"import": "./iframe-client.mjs"
+				}
+			},
+			"main": "./dist/index.cjs",
+			"types": "./dist/index.d.ts",
+			"peerDependencies": {
+				"nuxt": "^3.9.0",
+				"vite": "*"
+			},
+			"dependencies": {
+				"@nuxt/kit": "^3.9.1",
+				"@nuxt/schema": "^3.9.1",
+				"execa": "^7.2.0"
+			},
+			"devDependencies": {
+				"birpc": "^0.2.14",
+				"error-stack-parser-es": "^0.1.1",
+				"hookable": "^5.5.3",
+				"unbuild": "^2.0.0",
+				"unimport": "^3.7.1",
+				"vite-plugin-vue-inspector": "^4.0.2",
+				"vue-router": "^4.2.5"
+			},
+			"scripts": {
+				"build": "unbuild",
+				"stub": "unbuild --stub",
+				"dev:prepare": "nr stub"
+			},
+			"bugs": {
+				"url": "https://github.com/nuxt/devtools/issues"
+			},
+			"_id": "@nuxt/devtools-kit@1.0.8",
+			"_integrity": "sha512-j7bNZmoAXQ1a8qv6j6zk4c/aekrxYqYVQM21o/Hy4XHCUq4fajSgpoc8mjyWJSTfpkOmuLyEzMexpDWiIVSr6A==",
+			"_resolved": "/private/var/folders/30/nymxcyb909ggq2j5lwn7b_600000gn/T/192474a167857f913744abec48c22e43/nuxt-devtools-kit-1.0.8.tgz",
+			"_from": "file:nuxt-devtools-kit-1.0.8.tgz",
+			"_nodeVersion": "20.4.0",
+			"_npmVersion": "9.7.2",
+			"dist": {
+				"integrity": "sha512-j7bNZmoAXQ1a8qv6j6zk4c/aekrxYqYVQM21o/Hy4XHCUq4fajSgpoc8mjyWJSTfpkOmuLyEzMexpDWiIVSr6A==",
+				"shasum": "ecaa541909293d6b90a7bbab728c1c9891849ae5",
+				"tarball": "https://registry.npmjs.org/@nuxt/devtools-kit/-/devtools-kit-1.0.8.tgz",
+				"fileCount": 20,
+				"unpackedSize": 99478,
+				"signatures": [
+					{
+						"keyid": "SHA256:jl3bwswu80PjjokCgh0o2w5c2U4LhQAE57gj9cz1kzA",
+						"sig": "MEQCIEVF66e8bQgvOt/8qYAIJfKBJj8gHpFStyrAYeXr9comAiB52/2QcuEZpDJnL0UqT62MAIJeAk4QwPpBehYlLJ+ubw=="
+					}
+				]
+			},
+			"_npmUser": {
+				"name": "antfu",
+				"email": "anthonyfu117@hotmail.com"
+			},
+			"directories": {},
+			"maintainers": [
+				{
+					"name": "nuxtbot",
+					"email": "nuxtbot@roe.dev"
+				},
+				{
+					"name": "antfu",
+					"email": "anthonyfu117@hotmail.com"
+				},
+				{
+					"name": "atinux",
+					"email": "atinux@gmail.com"
+				},
+				{
+					"name": "pi0",
+					"email": "pyapar@gmail.com"
+				},
+				{
+					"name": "clarkdo",
+					"email": "clark.duxin@gmail.com"
+				},
+				{
+					"name": "danielroe",
+					"email": "daniel@roe.dev"
+				}
+			],
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/devtools-kit_1.0.8_1704990555591_0.7427594354830769"
+			},
+			"_hasShrinkwrap": false,
+			"contributors": []
+		},
+		"1.1.0": {
+			"name": "@nuxt/devtools-kit",
+			"type": "module",
+			"version": "1.1.0",
+			"license": "MIT",
+			"homepage": "https://devtools.nuxt.com/module/utils-kit",
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/nuxt/devtools.git",
+				"directory": "packages/devtools-kit"
+			},
+			"exports": {
+				".": {
+					"types": "./dist/index.d.ts",
+					"import": "./dist/index.mjs",
+					"require": "./dist/index.cjs"
+				},
+				"./types": {
+					"types": "./types.d.ts",
+					"import": "./dist/types.mjs",
+					"require": "./dist/types.cjs"
+				},
+				"./iframe-client": {
+					"types": "./iframe-client.d.ts",
+					"import": "./iframe-client.mjs"
+				}
+			},
+			"main": "./dist/index.cjs",
+			"types": "./dist/index.d.ts",
+			"peerDependencies": {
+				"nuxt": "^3.9.0",
+				"vite": "*"
+			},
+			"dependencies": {
+				"@nuxt/kit": "^3.11.1",
+				"@nuxt/schema": "^3.11.1",
+				"execa": "^7.2.0"
+			},
+			"devDependencies": {
+				"birpc": "^0.2.17",
+				"error-stack-parser-es": "^0.1.1",
+				"hookable": "^5.5.3",
+				"unbuild": "^2.0.0",
+				"unimport": "^3.7.1",
+				"vite-plugin-vue-inspector": "^4.0.2",
+				"vue-router": "^4.3.0"
+			},
+			"scripts": {
+				"build": "unbuild",
+				"stub": "unbuild --stub",
+				"dev:prepare": "nr stub"
+			},
+			"bugs": {
+				"url": "https://github.com/nuxt/devtools/issues"
+			},
+			"_id": "@nuxt/devtools-kit@1.1.0",
+			"_integrity": "sha512-Mf198/nwoM6VaAuAA9TPB6gt0Ic9DiDjBGCuVDiUBVFEr253y30474bKU8+P3JQa0LYYkzzBLJVKDSd8wb4fZg==",
+			"_resolved": "/private/var/folders/30/nymxcyb909ggq2j5lwn7b_600000gn/T/82aa8aaf5d1cefb835a378d284f8a670/nuxt-devtools-kit-1.1.0.tgz",
+			"_from": "file:nuxt-devtools-kit-1.1.0.tgz",
+			"_nodeVersion": "20.11.1",
+			"_npmVersion": "10.2.4",
+			"dist": {
+				"integrity": "sha512-Mf198/nwoM6VaAuAA9TPB6gt0Ic9DiDjBGCuVDiUBVFEr253y30474bKU8+P3JQa0LYYkzzBLJVKDSd8wb4fZg==",
+				"shasum": "da04c2f6cf2a6b931cee76c5a25917260ebfe94c",
+				"tarball": "https://registry.npmjs.org/@nuxt/devtools-kit/-/devtools-kit-1.1.0.tgz",
+				"fileCount": 20,
+				"unpackedSize": 101424,
+				"signatures": [
+					{
+						"keyid": "SHA256:jl3bwswu80PjjokCgh0o2w5c2U4LhQAE57gj9cz1kzA",
+						"sig": "MEUCIQD6NJwpX2CZExHUE9CQrKIJI5WdY5pdTEGvzZ4jMtEbNAIgTpN4UC54fUjwFCG6aWE/w+7/IIwOeQN4I/w8SUMmdEQ="
+					}
+				]
+			},
+			"_npmUser": {
+				"name": "antfu",
+				"email": "anthonyfu117@hotmail.com"
+			},
+			"directories": {},
+			"maintainers": [
+				{
+					"name": "nuxtbot",
+					"email": "nuxtbot@roe.dev"
+				},
+				{
+					"name": "antfu",
+					"email": "anthonyfu117@hotmail.com"
+				},
+				{
+					"name": "atinux",
+					"email": "atinux@gmail.com"
+				},
+				{
+					"name": "pi0",
+					"email": "pyapar@gmail.com"
+				},
+				{
+					"name": "clarkdo",
+					"email": "clark.duxin@gmail.com"
+				},
+				{
+					"name": "danielroe",
+					"email": "daniel@roe.dev"
+				}
+			],
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/devtools-kit_1.1.0_1710942376036_0.9086308731112287"
+			},
+			"_hasShrinkwrap": false,
+			"contributors": []
+		},
+		"1.1.1": {
+			"name": "@nuxt/devtools-kit",
+			"type": "module",
+			"version": "1.1.1",
+			"license": "MIT",
+			"homepage": "https://devtools.nuxt.com/module/utils-kit",
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/nuxt/devtools.git",
+				"directory": "packages/devtools-kit"
+			},
+			"exports": {
+				".": {
+					"types": "./dist/index.d.ts",
+					"import": "./dist/index.mjs",
+					"require": "./dist/index.cjs"
+				},
+				"./types": {
+					"types": "./types.d.ts",
+					"import": "./dist/types.mjs",
+					"require": "./dist/types.cjs"
+				},
+				"./iframe-client": {
+					"types": "./iframe-client.d.ts",
+					"import": "./iframe-client.mjs"
+				}
+			},
+			"main": "./dist/index.cjs",
+			"types": "./dist/index.d.ts",
+			"peerDependencies": {
+				"nuxt": "^3.9.0",
+				"vite": "*"
+			},
+			"dependencies": {
+				"@nuxt/kit": "^3.11.1",
+				"@nuxt/schema": "^3.11.1",
+				"execa": "^7.2.0"
+			},
+			"devDependencies": {
+				"birpc": "^0.2.17",
+				"error-stack-parser-es": "^0.1.1",
+				"hookable": "^5.5.3",
+				"unbuild": "^2.0.0",
+				"unimport": "^3.7.1",
+				"vite-plugin-vue-inspector": "^4.0.2",
+				"vue-router": "^4.3.0"
+			},
+			"scripts": {
+				"build": "unbuild",
+				"stub": "unbuild --stub",
+				"dev:prepare": "nr stub"
+			},
+			"bugs": {
+				"url": "https://github.com/nuxt/devtools/issues"
+			},
+			"_id": "@nuxt/devtools-kit@1.1.1",
+			"_integrity": "sha512-xxZvBpVfB1G8SN1o1OdH9D3/+cgBMguO/cgMWy4vybx1n2XCAmSr7XRfnvFmf888MW+BwqlJRTUQYXXbccNvOA==",
+			"_resolved": "/private/var/folders/30/nymxcyb909ggq2j5lwn7b_600000gn/T/94cdd252b64cbd02fa21afed8a763b55/nuxt-devtools-kit-1.1.1.tgz",
+			"_from": "file:nuxt-devtools-kit-1.1.1.tgz",
+			"_nodeVersion": "20.11.1",
+			"_npmVersion": "10.2.4",
+			"dist": {
+				"integrity": "sha512-xxZvBpVfB1G8SN1o1OdH9D3/+cgBMguO/cgMWy4vybx1n2XCAmSr7XRfnvFmf888MW+BwqlJRTUQYXXbccNvOA==",
+				"shasum": "5dc1782d190a5daeb95f73d24ecafc22bdf002eb",
+				"tarball": "https://registry.npmjs.org/@nuxt/devtools-kit/-/devtools-kit-1.1.1.tgz",
+				"fileCount": 20,
+				"unpackedSize": 102435,
+				"signatures": [
+					{
+						"keyid": "SHA256:jl3bwswu80PjjokCgh0o2w5c2U4LhQAE57gj9cz1kzA",
+						"sig": "MEUCIDvxbz7SCHrIab5Rq9D6qRea6SoMsQLRsavlud7kE2ogAiEAtDbj1MSy1Gy/pxTr/fyIiNgryY90yCj2PKNw0VBBL74="
+					}
+				]
+			},
+			"_npmUser": {
+				"name": "antfu",
+				"email": "anthonyfu117@hotmail.com"
+			},
+			"directories": {},
+			"maintainers": [
+				{
+					"name": "nuxtbot",
+					"email": "nuxtbot@roe.dev"
+				},
+				{
+					"name": "antfu",
+					"email": "anthonyfu117@hotmail.com"
+				},
+				{
+					"name": "atinux",
+					"email": "atinux@gmail.com"
+				},
+				{
+					"name": "pi0",
+					"email": "pyapar@gmail.com"
+				},
+				{
+					"name": "clarkdo",
+					"email": "clark.duxin@gmail.com"
+				},
+				{
+					"name": "danielroe",
+					"email": "daniel@roe.dev"
+				}
+			],
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/devtools-kit_1.1.1_1710963392868_0.9658614877443688"
+			},
+			"_hasShrinkwrap": false,
+			"contributors": []
+		},
+		"1.1.2": {
+			"name": "@nuxt/devtools-kit",
+			"type": "module",
+			"version": "1.1.2",
+			"license": "MIT",
+			"homepage": "https://devtools.nuxt.com/module/utils-kit",
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/nuxt/devtools.git",
+				"directory": "packages/devtools-kit"
+			},
+			"exports": {
+				".": {
+					"types": "./dist/index.d.ts",
+					"import": "./dist/index.mjs",
+					"require": "./dist/index.cjs"
+				},
+				"./types": {
+					"types": "./types.d.ts",
+					"import": "./dist/types.mjs",
+					"require": "./dist/types.cjs"
+				},
+				"./iframe-client": {
+					"types": "./iframe-client.d.ts",
+					"import": "./iframe-client.mjs"
+				}
+			},
+			"main": "./dist/index.cjs",
+			"types": "./dist/index.d.ts",
+			"peerDependencies": {
+				"nuxt": "^3.9.0",
+				"vite": "*"
+			},
+			"dependencies": {
+				"@nuxt/kit": "^3.11.1",
+				"@nuxt/schema": "^3.11.1",
+				"execa": "^7.2.0"
+			},
+			"devDependencies": {
+				"birpc": "^0.2.17",
+				"error-stack-parser-es": "^0.1.1",
+				"hookable": "^5.5.3",
+				"unbuild": "^2.0.0",
+				"unimport": "^3.7.1",
+				"vite-plugin-vue-inspector": "^4.0.2",
+				"vue-router": "^4.3.0"
+			},
+			"scripts": {
+				"build": "unbuild",
+				"stub": "unbuild --stub",
+				"dev:prepare": "nr stub"
+			},
+			"bugs": {
+				"url": "https://github.com/nuxt/devtools/issues"
+			},
+			"_id": "@nuxt/devtools-kit@1.1.2",
+			"_integrity": "sha512-efd+ZpH44xS/AWtKiV8Hhbz7gwU2S7Cb0NM1feFz1yEsF7sMakEouyFJln6BxjzlkU3FLpYtt9lWy7Lta8DQRQ==",
+			"_resolved": "/private/var/folders/30/nymxcyb909ggq2j5lwn7b_600000gn/T/e5a106cc8fded01e3976e3dd7007c247/nuxt-devtools-kit-1.1.2.tgz",
+			"_from": "file:nuxt-devtools-kit-1.1.2.tgz",
+			"_nodeVersion": "20.11.1",
+			"_npmVersion": "10.2.4",
+			"dist": {
+				"integrity": "sha512-efd+ZpH44xS/AWtKiV8Hhbz7gwU2S7Cb0NM1feFz1yEsF7sMakEouyFJln6BxjzlkU3FLpYtt9lWy7Lta8DQRQ==",
+				"shasum": "14afd6841b62d42650bb923efd4dfc380a252be8",
+				"tarball": "https://registry.npmjs.org/@nuxt/devtools-kit/-/devtools-kit-1.1.2.tgz",
+				"fileCount": 20,
+				"unpackedSize": 102435,
+				"signatures": [
+					{
+						"keyid": "SHA256:jl3bwswu80PjjokCgh0o2w5c2U4LhQAE57gj9cz1kzA",
+						"sig": "MEQCIDxA4b1WJRaITnYECuBLH4YvbfPN9mXGy+1TG/nazoMJAiAiO9Hsa19JnmBpOnLFkUz48NK6FKndO63yk9XPIVS/wg=="
+					}
+				]
+			},
+			"_npmUser": {
+				"name": "antfu",
+				"email": "anthonyfu117@hotmail.com"
+			},
+			"directories": {},
+			"maintainers": [
+				{
+					"name": "nuxtbot",
+					"email": "nuxtbot@roe.dev"
+				},
+				{
+					"name": "antfu",
+					"email": "anthonyfu117@hotmail.com"
+				},
+				{
+					"name": "atinux",
+					"email": "atinux@gmail.com"
+				},
+				{
+					"name": "pi0",
+					"email": "pyapar@gmail.com"
+				},
+				{
+					"name": "clarkdo",
+					"email": "clark.duxin@gmail.com"
+				},
+				{
+					"name": "danielroe",
+					"email": "daniel@roe.dev"
+				}
+			],
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/devtools-kit_1.1.2_1711028556608_0.06724608469243676"
+			},
+			"_hasShrinkwrap": false,
+			"contributors": []
+		},
+		"1.1.3": {
+			"name": "@nuxt/devtools-kit",
+			"type": "module",
+			"version": "1.1.3",
+			"license": "MIT",
+			"homepage": "https://devtools.nuxt.com/module/utils-kit",
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/nuxt/devtools.git",
+				"directory": "packages/devtools-kit"
+			},
+			"exports": {
+				".": {
+					"types": "./dist/index.d.ts",
+					"import": "./dist/index.mjs",
+					"require": "./dist/index.cjs"
+				},
+				"./types": {
+					"types": "./types.d.ts",
+					"import": "./dist/types.mjs",
+					"require": "./dist/types.cjs"
+				},
+				"./iframe-client": {
+					"types": "./iframe-client.d.ts",
+					"import": "./iframe-client.mjs"
+				}
+			},
+			"main": "./dist/index.cjs",
+			"types": "./dist/index.d.ts",
+			"peerDependencies": {
+				"nuxt": "^3.9.0",
+				"vite": "*"
+			},
+			"dependencies": {
+				"@nuxt/kit": "^3.11.1",
+				"@nuxt/schema": "^3.11.1",
+				"execa": "^7.2.0"
+			},
+			"devDependencies": {
+				"birpc": "^0.2.17",
+				"error-stack-parser-es": "^0.1.1",
+				"hookable": "^5.5.3",
+				"unbuild": "^2.0.0",
+				"unimport": "^3.7.1",
+				"vite-plugin-vue-inspector": "^4.0.2",
+				"vue-router": "^4.3.0"
+			},
+			"scripts": {
+				"build": "unbuild",
+				"stub": "unbuild --stub",
+				"dev:prepare": "nr stub"
+			},
+			"bugs": {
+				"url": "https://github.com/nuxt/devtools/issues"
+			},
+			"_id": "@nuxt/devtools-kit@1.1.3",
+			"_integrity": "sha512-bVIGng74haYAvJXiV+xtk7xrpHPZOJtcV4Flgl9IM+PYSjqs5pIRFRDnDwCQYAGt99hxGtQkdTBRqPQLxVCmeA==",
+			"_resolved": "/private/var/folders/30/nymxcyb909ggq2j5lwn7b_600000gn/T/10052fb6d5ed39b32ad9a9f52499d4ab/nuxt-devtools-kit-1.1.3.tgz",
+			"_from": "file:nuxt-devtools-kit-1.1.3.tgz",
+			"_nodeVersion": "20.11.1",
+			"_npmVersion": "10.2.4",
+			"dist": {
+				"integrity": "sha512-bVIGng74haYAvJXiV+xtk7xrpHPZOJtcV4Flgl9IM+PYSjqs5pIRFRDnDwCQYAGt99hxGtQkdTBRqPQLxVCmeA==",
+				"shasum": "139044b0067ffbc999f9ce61324bcd545fd9c57c",
+				"tarball": "https://registry.npmjs.org/@nuxt/devtools-kit/-/devtools-kit-1.1.3.tgz",
+				"fileCount": 20,
+				"unpackedSize": 102435,
+				"signatures": [
+					{
+						"keyid": "SHA256:jl3bwswu80PjjokCgh0o2w5c2U4LhQAE57gj9cz1kzA",
+						"sig": "MEUCIQCAmvNO2Qcyjuk2Onr7Y1UPLVJ34gpvKICCJSQp8+aRDgIgfkAGl3oVOqazE6xq1Lk/XocrxJbNb1fqTk5QcJ9iqMc="
+					}
+				]
+			},
+			"_npmUser": {
+				"name": "antfu",
+				"email": "anthonyfu117@hotmail.com"
+			},
+			"directories": {},
+			"maintainers": [
+				{
+					"name": "nuxtbot",
+					"email": "nuxtbot@roe.dev"
+				},
+				{
+					"name": "antfu",
+					"email": "anthonyfu117@hotmail.com"
+				},
+				{
+					"name": "atinux",
+					"email": "atinux@gmail.com"
+				},
+				{
+					"name": "pi0",
+					"email": "pyapar@gmail.com"
+				},
+				{
+					"name": "clarkdo",
+					"email": "clark.duxin@gmail.com"
+				},
+				{
+					"name": "danielroe",
+					"email": "daniel@roe.dev"
+				}
+			],
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/devtools-kit_1.1.3_1711033108311_0.8978296425290779"
+			},
+			"_hasShrinkwrap": false,
+			"contributors": []
+		},
+		"1.1.4": {
+			"name": "@nuxt/devtools-kit",
+			"type": "module",
+			"version": "1.1.4",
+			"license": "MIT",
+			"homepage": "https://devtools.nuxt.com/module/utils-kit",
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/nuxt/devtools.git",
+				"directory": "packages/devtools-kit"
+			},
+			"exports": {
+				".": {
+					"types": "./dist/index.d.ts",
+					"import": "./dist/index.mjs",
+					"require": "./dist/index.cjs"
+				},
+				"./types": {
+					"types": "./types.d.ts",
+					"import": "./dist/types.mjs",
+					"require": "./dist/types.cjs"
+				},
+				"./iframe-client": {
+					"types": "./iframe-client.d.ts",
+					"import": "./iframe-client.mjs"
+				}
+			},
+			"main": "./dist/index.cjs",
+			"types": "./dist/index.d.ts",
+			"peerDependencies": {
+				"nuxt": "^3.9.0",
+				"vite": "*"
+			},
+			"dependencies": {
+				"@nuxt/kit": "^3.11.1",
+				"@nuxt/schema": "^3.11.1",
+				"execa": "^7.2.0"
+			},
+			"devDependencies": {
+				"birpc": "^0.2.17",
+				"error-stack-parser-es": "^0.1.1",
+				"hookable": "^5.5.3",
+				"unbuild": "^2.0.0",
+				"unimport": "^3.7.1",
+				"vite-plugin-vue-inspector": "^4.0.2",
+				"vue-router": "^4.3.0"
+			},
+			"scripts": {
+				"build": "unbuild",
+				"stub": "unbuild --stub",
+				"dev:prepare": "nr stub"
+			},
+			"bugs": {
+				"url": "https://github.com/nuxt/devtools/issues"
+			},
+			"_id": "@nuxt/devtools-kit@1.1.4",
+			"_integrity": "sha512-/aZW/vn09vJML3Bi6dP9m51EN8eyeqHbyCyeuGsPUy/2GIlziaNHTaFlNWmLLkezdS4bhEGSr38Z5sa6x8FchQ==",
+			"_resolved": "/private/var/folders/30/nymxcyb909ggq2j5lwn7b_600000gn/T/477dcf42ec5692d4e2e25703406cb0ab/nuxt-devtools-kit-1.1.4.tgz",
+			"_from": "file:nuxt-devtools-kit-1.1.4.tgz",
+			"_nodeVersion": "20.11.1",
+			"_npmVersion": "10.2.4",
+			"dist": {
+				"integrity": "sha512-/aZW/vn09vJML3Bi6dP9m51EN8eyeqHbyCyeuGsPUy/2GIlziaNHTaFlNWmLLkezdS4bhEGSr38Z5sa6x8FchQ==",
+				"shasum": "1f37199d7090ca9406a9dd19ad3ac2d07a58c7d8",
+				"tarball": "https://registry.npmjs.org/@nuxt/devtools-kit/-/devtools-kit-1.1.4.tgz",
+				"fileCount": 20,
+				"unpackedSize": 102435,
+				"signatures": [
+					{
+						"keyid": "SHA256:jl3bwswu80PjjokCgh0o2w5c2U4LhQAE57gj9cz1kzA",
+						"sig": "MEUCIQD6hdYW1PjiIz5/n7iC/izFxTNUnejvJeM9MHH5Y45aiwIgOD0sUyzqwP/K1kQFD4IJvFQdObBTZQTi2aGLMYlcC1o="
+					}
+				]
+			},
+			"_npmUser": {
+				"name": "antfu",
+				"email": "anthonyfu117@hotmail.com"
+			},
+			"directories": {},
+			"maintainers": [
+				{
+					"name": "nuxtbot",
+					"email": "nuxtbot@roe.dev"
+				},
+				{
+					"name": "antfu",
+					"email": "anthonyfu117@hotmail.com"
+				},
+				{
+					"name": "atinux",
+					"email": "atinux@gmail.com"
+				},
+				{
+					"name": "pi0",
+					"email": "pyapar@gmail.com"
+				},
+				{
+					"name": "clarkdo",
+					"email": "clark.duxin@gmail.com"
+				},
+				{
+					"name": "danielroe",
+					"email": "daniel@roe.dev"
+				}
+			],
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/devtools-kit_1.1.4_1711458197287_0.7476955946812112"
+			},
+			"_hasShrinkwrap": false,
+			"contributors": []
+		},
+		"1.1.5": {
+			"name": "@nuxt/devtools-kit",
+			"type": "module",
+			"version": "1.1.5",
+			"license": "MIT",
+			"homepage": "https://devtools.nuxt.com/module/utils-kit",
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/nuxt/devtools.git",
+				"directory": "packages/devtools-kit"
+			},
+			"exports": {
+				".": {
+					"types": "./dist/index.d.ts",
+					"import": "./dist/index.mjs",
+					"require": "./dist/index.cjs"
+				},
+				"./types": {
+					"types": "./types.d.ts",
+					"import": "./dist/types.mjs",
+					"require": "./dist/types.cjs"
+				},
+				"./iframe-client": {
+					"types": "./iframe-client.d.ts",
+					"import": "./iframe-client.mjs"
+				}
+			},
+			"main": "./dist/index.cjs",
+			"types": "./dist/index.d.ts",
+			"peerDependencies": {
+				"nuxt": "^3.9.0",
+				"vite": "*"
+			},
+			"dependencies": {
+				"@nuxt/kit": "^3.11.1",
+				"@nuxt/schema": "^3.11.1",
+				"execa": "^7.2.0"
+			},
+			"devDependencies": {
+				"birpc": "^0.2.17",
+				"error-stack-parser-es": "^0.1.1",
+				"hookable": "^5.5.3",
+				"unbuild": "^2.0.0",
+				"unimport": "^3.7.1",
+				"vite-plugin-vue-inspector": "^4.0.2",
+				"vue-router": "^4.3.0"
+			},
+			"scripts": {
+				"build": "unbuild",
+				"stub": "unbuild --stub",
+				"dev:prepare": "nr stub"
+			},
+			"bugs": {
+				"url": "https://github.com/nuxt/devtools/issues"
+			},
+			"_id": "@nuxt/devtools-kit@1.1.5",
+			"_integrity": "sha512-Nb/NKFCRtxyqcPD6snB52rXtbRQMjGtn3ncpa8cLWsnoqnkd9emQ4uwV8IwCNxTnqUBtbGU79/TlJ79SKH9TAw==",
+			"_resolved": "/private/var/folders/30/nymxcyb909ggq2j5lwn7b_600000gn/T/30843718a0551c72440b90ea029907fe/nuxt-devtools-kit-1.1.5.tgz",
+			"_from": "file:nuxt-devtools-kit-1.1.5.tgz",
+			"_nodeVersion": "20.11.1",
+			"_npmVersion": "10.2.4",
+			"dist": {
+				"integrity": "sha512-Nb/NKFCRtxyqcPD6snB52rXtbRQMjGtn3ncpa8cLWsnoqnkd9emQ4uwV8IwCNxTnqUBtbGU79/TlJ79SKH9TAw==",
+				"shasum": "d5c1d2e70019754627c52bbe02c717c543dc596f",
+				"tarball": "https://registry.npmjs.org/@nuxt/devtools-kit/-/devtools-kit-1.1.5.tgz",
+				"fileCount": 20,
+				"unpackedSize": 102435,
+				"signatures": [
+					{
+						"keyid": "SHA256:jl3bwswu80PjjokCgh0o2w5c2U4LhQAE57gj9cz1kzA",
+						"sig": "MEQCID71K1Xu5TWnnGDLN4sZ3IW6wO0NBL26gub5+x8pwhEaAiBTv8BlZaZZeFypcMzDtyoYQL1Eez5ruHfEAZXNeQBsEQ=="
+					}
+				]
+			},
+			"_npmUser": {
+				"name": "antfu",
+				"email": "anthonyfu117@hotmail.com"
+			},
+			"directories": {},
+			"maintainers": [
+				{
+					"name": "nuxtbot",
+					"email": "nuxtbot@roe.dev"
+				},
+				{
+					"name": "antfu",
+					"email": "anthonyfu117@hotmail.com"
+				},
+				{
+					"name": "atinux",
+					"email": "atinux@gmail.com"
+				},
+				{
+					"name": "pi0",
+					"email": "pyapar@gmail.com"
+				},
+				{
+					"name": "clarkdo",
+					"email": "clark.duxin@gmail.com"
+				},
+				{
+					"name": "danielroe",
+					"email": "daniel@roe.dev"
+				}
+			],
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/devtools-kit_1.1.5_1711613404551_0.10536547466559698"
+			},
+			"_hasShrinkwrap": false,
+			"contributors": []
+		},
+		"1.2.0": {
+			"name": "@nuxt/devtools-kit",
+			"type": "module",
+			"version": "1.2.0",
+			"license": "MIT",
+			"homepage": "https://devtools.nuxt.com/module/utils-kit",
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/nuxt/devtools.git",
+				"directory": "packages/devtools-kit"
+			},
+			"exports": {
+				".": {
+					"types": "./dist/index.d.ts",
+					"import": "./dist/index.mjs",
+					"require": "./dist/index.cjs"
+				},
+				"./types": {
+					"types": "./types.d.ts",
+					"import": "./dist/types.mjs",
+					"require": "./dist/types.cjs"
+				},
+				"./iframe-client": {
+					"types": "./iframe-client.d.ts",
+					"import": "./iframe-client.mjs"
+				}
+			},
+			"main": "./dist/index.cjs",
+			"types": "./dist/index.d.ts",
+			"peerDependencies": {
+				"nuxt": "^3.9.0",
+				"vite": "*"
+			},
+			"dependencies": {
+				"@nuxt/kit": "^3.11.2",
+				"@nuxt/schema": "^3.11.2",
+				"execa": "^7.2.0"
+			},
+			"devDependencies": {
+				"birpc": "^0.2.17",
+				"error-stack-parser-es": "^0.1.1",
+				"hookable": "^5.5.3",
+				"unbuild": "^2.0.0",
+				"unimport": "^3.7.1",
+				"vite-plugin-vue-inspector": "^4.0.2",
+				"vue-router": "^4.3.2"
+			},
+			"scripts": {
+				"build": "unbuild",
+				"stub": "unbuild --stub",
+				"dev:prepare": "nr stub"
+			},
+			"bugs": {
+				"url": "https://github.com/nuxt/devtools/issues"
+			},
+			"_id": "@nuxt/devtools-kit@1.2.0",
+			"_integrity": "sha512-T81TQuaN6hbQFzgvQeRAMJjcL4mgWtYvlGTAvtuvd3TFuHV7bMK+tFZaxgJXzIu1/UPO7/aO4VLCB0xl5sSwZw==",
+			"_resolved": "/private/var/folders/30/nymxcyb909ggq2j5lwn7b_600000gn/T/1a503a37c0082a40ac6681e95fc1fec8/nuxt-devtools-kit-1.2.0.tgz",
+			"_from": "file:nuxt-devtools-kit-1.2.0.tgz",
+			"_nodeVersion": "20.11.1",
+			"_npmVersion": "10.2.4",
+			"dist": {
+				"integrity": "sha512-T81TQuaN6hbQFzgvQeRAMJjcL4mgWtYvlGTAvtuvd3TFuHV7bMK+tFZaxgJXzIu1/UPO7/aO4VLCB0xl5sSwZw==",
+				"shasum": "149fa7c3baf1203df0238bd37b3558c392e84b6f",
+				"tarball": "https://registry.npmjs.org/@nuxt/devtools-kit/-/devtools-kit-1.2.0.tgz",
+				"fileCount": 20,
+				"unpackedSize": 102435,
+				"signatures": [
+					{
+						"keyid": "SHA256:jl3bwswu80PjjokCgh0o2w5c2U4LhQAE57gj9cz1kzA",
+						"sig": "MEUCIQD7otY1tr5C3S31XtCS9dMtgJf4PiQLyQbRXHb3DwaNFAIgNE9Kh4m6056JRj55bYyCpCpCivZaTRSngREnhsjap5A="
+					}
+				]
+			},
+			"_npmUser": {
+				"name": "antfu",
+				"email": "anthonyfu117@hotmail.com"
+			},
+			"directories": {},
+			"maintainers": [
+				{
+					"name": "nuxtbot",
+					"email": "nuxtbot@roe.dev"
+				},
+				{
+					"name": "antfu",
+					"email": "anthonyfu117@hotmail.com"
+				},
+				{
+					"name": "atinux",
+					"email": "atinux@gmail.com"
+				},
+				{
+					"name": "pi0",
+					"email": "pyapar@gmail.com"
+				},
+				{
+					"name": "clarkdo",
+					"email": "clark.duxin@gmail.com"
+				},
+				{
+					"name": "danielroe",
+					"email": "daniel@roe.dev"
+				}
+			],
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/devtools-kit_1.2.0_1713521706525_0.23926216187134597"
+			},
+			"_hasShrinkwrap": false,
+			"contributors": []
+		}
+	},
+	"time": {
+		"created": "2023-03-27T09:21:38.823Z",
+		"0.3.0": "2023-03-27T09:21:39.094Z",
+		"modified": "2024-04-19T10:15:06.992Z",
+		"0.3.1": "2023-03-27T09:47:13.023Z",
+		"0.3.2": "2023-04-07T15:12:03.736Z",
+		"0.4.0": "2023-04-11T20:03:25.044Z",
+		"0.4.1": "2023-04-18T17:20:16.064Z",
+		"0.4.2": "2023-04-24T10:11:35.123Z",
+		"0.4.3": "2023-04-29T19:46:46.144Z",
+		"0.4.4": "2023-04-30T01:44:15.585Z",
+		"0.4.5": "2023-04-30T08:57:00.904Z",
+		"0.4.6": "2023-05-08T12:33:13.583Z",
+		"0.5.0": "2023-05-18T13:11:55.312Z",
+		"0.5.1": "2023-05-23T09:41:35.286Z",
+		"0.5.2": "2023-05-23T15:06:20.219Z",
+		"0.5.3": "2023-05-23T15:12:52.898Z",
+		"0.5.4": "2023-05-24T21:42:38.128Z",
+		"0.5.5": "2023-05-25T07:31:06.351Z",
+		"0.6.0": "2023-06-13T14:28:10.625Z",
+		"0.6.1": "2023-06-15T19:10:57.514Z",
+		"0.6.2": "2023-06-21T09:53:57.148Z",
+		"0.6.3": "2023-06-23T15:01:46.524Z",
+		"0.6.4": "2023-06-26T11:56:34.235Z",
+		"0.6.5": "2023-06-30T11:25:46.236Z",
+		"0.6.6": "2023-06-30T13:18:15.617Z",
+		"0.6.7": "2023-07-05T12:59:29.644Z",
+		"0.7.0": "2023-07-20T12:39:27.845Z",
+		"0.7.1": "2023-07-23T15:04:46.833Z",
+		"0.7.2": "2023-07-31T11:13:26.020Z",
+		"0.7.3": "2023-08-01T13:46:51.857Z",
+		"0.7.4": "2023-08-01T15:22:30.434Z",
+		"0.7.5": "2023-08-06T11:51:20.955Z",
+		"0.7.6": "2023-08-09T10:28:08.433Z",
+		"0.8.0": "2023-08-10T13:34:44.811Z",
+		"0.8.1": "2023-08-28T07:37:32.671Z",
+		"0.8.2": "2023-08-28T10:40:07.648Z",
+		"0.8.3": "2023-09-06T22:49:26.602Z",
+		"0.8.4": "2023-09-20T06:29:47.648Z",
+		"0.8.5": "2023-09-25T07:53:53.877Z",
+		"1.0.0-beta.0": "2023-10-01T14:57:47.239Z",
+		"1.0.0-beta.1": "2023-10-11T08:21:28.061Z",
+		"1.0.0-beta.2": "2023-10-14T12:27:07.889Z",
+		"1.0.0-beta.3": "2023-10-17T10:37:13.144Z",
+		"1.0.0": "2023-10-18T15:40:18.648Z",
+		"1.0.1": "2023-11-09T20:32:49.396Z",
+		"1.0.2": "2023-11-11T12:54:04.743Z",
+		"1.0.3": "2023-11-20T13:55:11.335Z",
+		"1.0.4": "2023-11-27T19:55:35.846Z",
+		"1.0.5": "2023-12-07T19:01:48.812Z",
+		"1.0.6": "2023-12-13T12:19:56.016Z",
+		"1.0.7": "2024-01-11T16:21:54.910Z",
+		"1.0.8": "2024-01-11T16:29:15.787Z",
+		"1.1.0": "2024-03-20T13:46:16.205Z",
+		"1.1.1": "2024-03-20T19:36:33.012Z",
+		"1.1.2": "2024-03-21T13:42:36.769Z",
+		"1.1.3": "2024-03-21T14:58:28.463Z",
+		"1.1.4": "2024-03-26T13:03:17.499Z",
+		"1.1.5": "2024-03-28T08:10:04.753Z",
+		"1.2.0": "2024-04-19T10:15:06.754Z"
+	},
+	"users": {},
+	"dist-tags": {
+		"latest": "1.2.0"
+	},
+	"_uplinks": {
+		"npmjs": {
+			"etag": "W/\"a1887206f890eb355e1b5a0fd15f4bea\"",
+			"fetched": 1715345898089
+		}
+	},
+	"_distfiles": {
+		"devtools-kit-0.3.0.tgz": {
+			"url": "https://registry.npmjs.org/@nuxt/devtools-kit/-/devtools-kit-0.3.0.tgz",
+			"sha": "d829280a4a16d47d822fa6159861ac9bcc8535fa",
+			"registry": "npmjs"
+		},
+		"devtools-kit-0.3.1.tgz": {
+			"url": "https://registry.npmjs.org/@nuxt/devtools-kit/-/devtools-kit-0.3.1.tgz",
+			"sha": "a09240294f7d1406e644c3a05acc2f5323e5ab98",
+			"registry": "npmjs"
+		},
+		"devtools-kit-0.3.2.tgz": {
+			"url": "https://registry.npmjs.org/@nuxt/devtools-kit/-/devtools-kit-0.3.2.tgz",
+			"sha": "bd96daa1b25d806dd7b71d99a4018e8e484069a3",
+			"registry": "npmjs"
+		},
+		"devtools-kit-0.4.0.tgz": {
+			"url": "https://registry.npmjs.org/@nuxt/devtools-kit/-/devtools-kit-0.4.0.tgz",
+			"sha": "77cdc314a5e913a8406204af168aa0746e163612",
+			"registry": "npmjs"
+		},
+		"devtools-kit-0.4.1.tgz": {
+			"url": "https://registry.npmjs.org/@nuxt/devtools-kit/-/devtools-kit-0.4.1.tgz",
+			"sha": "7d61f71cca27e082d0c396d54e62ab2499c0d42d",
+			"registry": "npmjs"
+		},
+		"devtools-kit-0.4.2.tgz": {
+			"url": "https://registry.npmjs.org/@nuxt/devtools-kit/-/devtools-kit-0.4.2.tgz",
+			"sha": "af126b0d0cccb20618eabeccd009984b235ddfbe",
+			"registry": "npmjs"
+		},
+		"devtools-kit-0.4.3.tgz": {
+			"url": "https://registry.npmjs.org/@nuxt/devtools-kit/-/devtools-kit-0.4.3.tgz",
+			"sha": "75bb9dab919aedd20cdf7151bb55ed84176dee57",
+			"registry": "npmjs"
+		},
+		"devtools-kit-0.4.4.tgz": {
+			"url": "https://registry.npmjs.org/@nuxt/devtools-kit/-/devtools-kit-0.4.4.tgz",
+			"sha": "d29d46b7eded0e99570eb933d1bbe32f8871ac37",
+			"registry": "npmjs"
+		},
+		"devtools-kit-0.4.5.tgz": {
+			"url": "https://registry.npmjs.org/@nuxt/devtools-kit/-/devtools-kit-0.4.5.tgz",
+			"sha": "1e085c9805470b722d1ab20ca0bf0928912e700e",
+			"registry": "npmjs"
+		},
+		"devtools-kit-0.4.6.tgz": {
+			"url": "https://registry.npmjs.org/@nuxt/devtools-kit/-/devtools-kit-0.4.6.tgz",
+			"sha": "45da6924c8695d9f87c7ee8cbe78c70890538f9b",
+			"registry": "npmjs"
+		},
+		"devtools-kit-0.5.0.tgz": {
+			"url": "https://registry.npmjs.org/@nuxt/devtools-kit/-/devtools-kit-0.5.0.tgz",
+			"sha": "a338a56ef9a4c065fe57acbb603a631a6d0ccc9a",
+			"registry": "npmjs"
+		},
+		"devtools-kit-0.5.1.tgz": {
+			"url": "https://registry.npmjs.org/@nuxt/devtools-kit/-/devtools-kit-0.5.1.tgz",
+			"sha": "ba42e814f7430dfb6297a18c975951bc56da8e97",
+			"registry": "npmjs"
+		},
+		"devtools-kit-0.5.2.tgz": {
+			"url": "https://registry.npmjs.org/@nuxt/devtools-kit/-/devtools-kit-0.5.2.tgz",
+			"sha": "b44a96224487482fed3b580abbc367d16e6b12ea",
+			"registry": "npmjs"
+		},
+		"devtools-kit-0.5.3.tgz": {
+			"url": "https://registry.npmjs.org/@nuxt/devtools-kit/-/devtools-kit-0.5.3.tgz",
+			"sha": "f5d894ffcb636992956da0b78bde8f2fbb240295",
+			"registry": "npmjs"
+		},
+		"devtools-kit-0.5.4.tgz": {
+			"url": "https://registry.npmjs.org/@nuxt/devtools-kit/-/devtools-kit-0.5.4.tgz",
+			"sha": "7db13b8d91bf17f91a3bf6f49a8785dced9861c9",
+			"registry": "npmjs"
+		},
+		"devtools-kit-0.5.5.tgz": {
+			"url": "https://registry.npmjs.org/@nuxt/devtools-kit/-/devtools-kit-0.5.5.tgz",
+			"sha": "fba15d56e9cebe834070ca655168dc9f01389a53",
+			"registry": "npmjs"
+		},
+		"devtools-kit-0.6.0.tgz": {
+			"url": "https://registry.npmjs.org/@nuxt/devtools-kit/-/devtools-kit-0.6.0.tgz",
+			"sha": "4ae416fd9aa8c2723883d7d0e2c87027a70ce483",
+			"registry": "npmjs"
+		},
+		"devtools-kit-0.6.1.tgz": {
+			"url": "https://registry.npmjs.org/@nuxt/devtools-kit/-/devtools-kit-0.6.1.tgz",
+			"sha": "815edc070ae2c25234af44e369da5aed1cd4e037",
+			"registry": "npmjs"
+		},
+		"devtools-kit-0.6.2.tgz": {
+			"url": "https://registry.npmjs.org/@nuxt/devtools-kit/-/devtools-kit-0.6.2.tgz",
+			"sha": "db6aef55dff1c045d6306e117e9055e14aa72e3b",
+			"registry": "npmjs"
+		},
+		"devtools-kit-0.6.3.tgz": {
+			"url": "https://registry.npmjs.org/@nuxt/devtools-kit/-/devtools-kit-0.6.3.tgz",
+			"sha": "d18835685c97fc04912a4fc8802ecf887a2f14f3",
+			"registry": "npmjs"
+		},
+		"devtools-kit-0.6.4.tgz": {
+			"url": "https://registry.npmjs.org/@nuxt/devtools-kit/-/devtools-kit-0.6.4.tgz",
+			"sha": "dd58ac32fa1c4820796d0192569fad3642810c61",
+			"registry": "npmjs"
+		},
+		"devtools-kit-0.6.5.tgz": {
+			"url": "https://registry.npmjs.org/@nuxt/devtools-kit/-/devtools-kit-0.6.5.tgz",
+			"sha": "636eb8c62c97a804593df213cf024792e492017a",
+			"registry": "npmjs"
+		},
+		"devtools-kit-0.6.6.tgz": {
+			"url": "https://registry.npmjs.org/@nuxt/devtools-kit/-/devtools-kit-0.6.6.tgz",
+			"sha": "3a3a7e1fec0a62099bf1a57a6bc820df4629e820",
+			"registry": "npmjs"
+		},
+		"devtools-kit-0.6.7.tgz": {
+			"url": "https://registry.npmjs.org/@nuxt/devtools-kit/-/devtools-kit-0.6.7.tgz",
+			"sha": "6a88f0d99f24f353bad8a953831a234ed09b924a",
+			"registry": "npmjs"
+		},
+		"devtools-kit-0.7.0.tgz": {
+			"url": "https://registry.npmjs.org/@nuxt/devtools-kit/-/devtools-kit-0.7.0.tgz",
+			"sha": "2385db3792e7a87da0b445fbb3c720ebf81a9f58",
+			"registry": "npmjs"
+		},
+		"devtools-kit-0.7.1.tgz": {
+			"url": "https://registry.npmjs.org/@nuxt/devtools-kit/-/devtools-kit-0.7.1.tgz",
+			"sha": "a5631333f5af41c3993c83f258d2560f28fe67b2",
+			"registry": "npmjs"
+		},
+		"devtools-kit-0.7.2.tgz": {
+			"url": "https://registry.npmjs.org/@nuxt/devtools-kit/-/devtools-kit-0.7.2.tgz",
+			"sha": "3ba9ebe8f7d748ea7b17ae50f9c0ee3917adabb6",
+			"registry": "npmjs"
+		},
+		"devtools-kit-0.7.3.tgz": {
+			"url": "https://registry.npmjs.org/@nuxt/devtools-kit/-/devtools-kit-0.7.3.tgz",
+			"sha": "6eb4a256a779df15d99861438ae55daa9ee9c53e",
+			"registry": "npmjs"
+		},
+		"devtools-kit-0.7.4.tgz": {
+			"url": "https://registry.npmjs.org/@nuxt/devtools-kit/-/devtools-kit-0.7.4.tgz",
+			"sha": "b37cb14265bd8e831927beb7a7da92a63607ecb1",
+			"registry": "npmjs"
+		},
+		"devtools-kit-0.7.5.tgz": {
+			"url": "https://registry.npmjs.org/@nuxt/devtools-kit/-/devtools-kit-0.7.5.tgz",
+			"sha": "f7f6574cbef614f636d46c14be4db0f3c442c5f8",
+			"registry": "npmjs"
+		},
+		"devtools-kit-0.7.6.tgz": {
+			"url": "https://registry.npmjs.org/@nuxt/devtools-kit/-/devtools-kit-0.7.6.tgz",
+			"sha": "9577c64872c15b5153314e8c308d1424f37c485c",
+			"registry": "npmjs"
+		},
+		"devtools-kit-0.8.0.tgz": {
+			"url": "https://registry.npmjs.org/@nuxt/devtools-kit/-/devtools-kit-0.8.0.tgz",
+			"sha": "2d987a5a3794b3ba59f50c45ffc94df84b18e791",
+			"registry": "npmjs"
+		},
+		"devtools-kit-0.8.1.tgz": {
+			"url": "https://registry.npmjs.org/@nuxt/devtools-kit/-/devtools-kit-0.8.1.tgz",
+			"sha": "e33b5a59d29ad4d1127e4fb565d3e6d132e60f3c",
+			"registry": "npmjs"
+		},
+		"devtools-kit-0.8.2.tgz": {
+			"url": "https://registry.npmjs.org/@nuxt/devtools-kit/-/devtools-kit-0.8.2.tgz",
+			"sha": "77400eb8b48f9efcfe14231425c7ab27e180047f",
+			"registry": "npmjs"
+		},
+		"devtools-kit-0.8.3.tgz": {
+			"url": "https://registry.npmjs.org/@nuxt/devtools-kit/-/devtools-kit-0.8.3.tgz",
+			"sha": "08aefcbc1f9b872b756b2d750d668b9cba2ae069",
+			"registry": "npmjs"
+		},
+		"devtools-kit-0.8.4.tgz": {
+			"url": "https://registry.npmjs.org/@nuxt/devtools-kit/-/devtools-kit-0.8.4.tgz",
+			"sha": "efa2eb5568b58608017e764710a4e17f68017697",
+			"registry": "npmjs"
+		},
+		"devtools-kit-0.8.5.tgz": {
+			"url": "https://registry.npmjs.org/@nuxt/devtools-kit/-/devtools-kit-0.8.5.tgz",
+			"sha": "18f2154352048d5f1ab316b788d408927307ab0c",
+			"registry": "npmjs"
+		},
+		"devtools-kit-1.0.0-beta.0.tgz": {
+			"url": "https://registry.npmjs.org/@nuxt/devtools-kit/-/devtools-kit-1.0.0-beta.0.tgz",
+			"sha": "c38e403b1d90bceb10bb9082cab48da003657c80",
+			"registry": "npmjs"
+		},
+		"devtools-kit-1.0.0-beta.1.tgz": {
+			"url": "https://registry.npmjs.org/@nuxt/devtools-kit/-/devtools-kit-1.0.0-beta.1.tgz",
+			"sha": "8b8f8f0e4e24427e65623e5c41f34b5bbc011a1b",
+			"registry": "npmjs"
+		},
+		"devtools-kit-1.0.0-beta.2.tgz": {
+			"url": "https://registry.npmjs.org/@nuxt/devtools-kit/-/devtools-kit-1.0.0-beta.2.tgz",
+			"sha": "64c73823b3b3c9e262b2a4fc11996b6990b73de8",
+			"registry": "npmjs"
+		},
+		"devtools-kit-1.0.0-beta.3.tgz": {
+			"url": "https://registry.npmjs.org/@nuxt/devtools-kit/-/devtools-kit-1.0.0-beta.3.tgz",
+			"sha": "240c4f04e1ec7a757c854d52c20d72332066a468",
+			"registry": "npmjs"
+		},
+		"devtools-kit-1.0.0.tgz": {
+			"url": "https://registry.npmjs.org/@nuxt/devtools-kit/-/devtools-kit-1.0.0.tgz",
+			"sha": "c59d0323a3405cb2f000895e72430dbb3e9ca2bc",
+			"registry": "npmjs"
+		},
+		"devtools-kit-1.0.1.tgz": {
+			"url": "https://registry.npmjs.org/@nuxt/devtools-kit/-/devtools-kit-1.0.1.tgz",
+			"sha": "45279c79dd2f0998c28f56d9cc66ba924f8e5330",
+			"registry": "npmjs"
+		},
+		"devtools-kit-1.0.2.tgz": {
+			"url": "https://registry.npmjs.org/@nuxt/devtools-kit/-/devtools-kit-1.0.2.tgz",
+			"sha": "0c91d20ef59481b0b6e93d9a32a7eb72dc7542f9",
+			"registry": "npmjs"
+		},
+		"devtools-kit-1.0.3.tgz": {
+			"url": "https://registry.npmjs.org/@nuxt/devtools-kit/-/devtools-kit-1.0.3.tgz",
+			"sha": "10b101476e6c19ee93a1a3c1a6a72f6c19e0b733",
+			"registry": "npmjs"
+		},
+		"devtools-kit-1.0.4.tgz": {
+			"url": "https://registry.npmjs.org/@nuxt/devtools-kit/-/devtools-kit-1.0.4.tgz",
+			"sha": "dace89a92d4397f414d473b21a3164f35cbb8abe",
+			"registry": "npmjs"
+		},
+		"devtools-kit-1.0.5.tgz": {
+			"url": "https://registry.npmjs.org/@nuxt/devtools-kit/-/devtools-kit-1.0.5.tgz",
+			"sha": "71f465585fb452a9e97a2b36888360736dd02987",
+			"registry": "npmjs"
+		},
+		"devtools-kit-1.0.6.tgz": {
+			"url": "https://registry.npmjs.org/@nuxt/devtools-kit/-/devtools-kit-1.0.6.tgz",
+			"sha": "e4a96fc20a9bb88fe58a3d775fcc1e317e3438cb",
+			"registry": "npmjs"
+		},
+		"devtools-kit-1.0.7.tgz": {
+			"url": "https://registry.npmjs.org/@nuxt/devtools-kit/-/devtools-kit-1.0.7.tgz",
+			"sha": "10c7df9276b1c760d7d23e62ef6158221c90c1b0",
+			"registry": "npmjs"
+		},
+		"devtools-kit-1.0.8.tgz": {
+			"url": "https://registry.npmjs.org/@nuxt/devtools-kit/-/devtools-kit-1.0.8.tgz",
+			"sha": "ecaa541909293d6b90a7bbab728c1c9891849ae5",
+			"registry": "npmjs"
+		},
+		"devtools-kit-1.1.0.tgz": {
+			"url": "https://registry.npmjs.org/@nuxt/devtools-kit/-/devtools-kit-1.1.0.tgz",
+			"sha": "da04c2f6cf2a6b931cee76c5a25917260ebfe94c",
+			"registry": "npmjs"
+		},
+		"devtools-kit-1.1.1.tgz": {
+			"url": "https://registry.npmjs.org/@nuxt/devtools-kit/-/devtools-kit-1.1.1.tgz",
+			"sha": "5dc1782d190a5daeb95f73d24ecafc22bdf002eb",
+			"registry": "npmjs"
+		},
+		"devtools-kit-1.1.2.tgz": {
+			"url": "https://registry.npmjs.org/@nuxt/devtools-kit/-/devtools-kit-1.1.2.tgz",
+			"sha": "14afd6841b62d42650bb923efd4dfc380a252be8",
+			"registry": "npmjs"
+		},
+		"devtools-kit-1.1.3.tgz": {
+			"url": "https://registry.npmjs.org/@nuxt/devtools-kit/-/devtools-kit-1.1.3.tgz",
+			"sha": "139044b0067ffbc999f9ce61324bcd545fd9c57c",
+			"registry": "npmjs"
+		},
+		"devtools-kit-1.1.4.tgz": {
+			"url": "https://registry.npmjs.org/@nuxt/devtools-kit/-/devtools-kit-1.1.4.tgz",
+			"sha": "1f37199d7090ca9406a9dd19ad3ac2d07a58c7d8",
+			"registry": "npmjs"
+		},
+		"devtools-kit-1.1.5.tgz": {
+			"url": "https://registry.npmjs.org/@nuxt/devtools-kit/-/devtools-kit-1.1.5.tgz",
+			"sha": "d5c1d2e70019754627c52bbe02c717c543dc596f",
+			"registry": "npmjs"
+		},
+		"devtools-kit-1.2.0.tgz": {
+			"url": "https://registry.npmjs.org/@nuxt/devtools-kit/-/devtools-kit-1.2.0.tgz",
+			"sha": "149fa7c3baf1203df0238bd37b3558c392e84b6f",
+			"registry": "npmjs"
+		}
+	},
+	"_attachments": {
+		"devtools-kit-1.0.0.tgz": {
+			"shasum": "c59d0323a3405cb2f000895e72430dbb3e9ca2bc"
+		},
+		"devtools-kit-1.2.0.tgz": {
+			"shasum": "149fa7c3baf1203df0238bd37b3558c392e84b6f"
+		}
+	},
+	"_rev": "3-e0863b36d6895d70",
+	"_id": "@nuxt/devtools-kit",
+	"readme": "ERROR: No README data found!"
+}

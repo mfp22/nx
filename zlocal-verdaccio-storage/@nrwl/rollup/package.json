@@ -55822,6 +55822,213 @@
 			"_hasShrinkwrap": false,
 			"contributors": []
 		},
+		"19.0.2": {
+			"name": "@nrwl/rollup",
+			"version": "19.0.2",
+			"private": false,
+			"description": "The Nx Plugin for Rollup contains executors and generators that support building applications using Rollup.",
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/nrwl/nx.git",
+				"directory": "packages-legacy/rollup"
+			},
+			"keywords": [
+				"Monorepo",
+				"Rollup",
+				"Web",
+				"CLI"
+			],
+			"main": "./index.js",
+			"typings": "./index.d.ts",
+			"author": {
+				"name": "Victor Savkin"
+			},
+			"license": "MIT",
+			"bugs": {
+				"url": "https://github.com/nrwl/nx/issues"
+			},
+			"homepage": "https://nx.dev",
+			"schematics": "./generators.json",
+			"builders": "./executors.json",
+			"dependencies": {
+				"@nx/rollup": "19.0.2"
+			},
+			"publishConfig": {
+				"access": "public"
+			},
+			"nx-migrations": {
+				"migrations": "@nx/rollup/migrations.json"
+			},
+			"type": "commonjs",
+			"_id": "@nrwl/rollup@19.0.2",
+			"gitHead": "61861be0f7335082d5e0b44fa96ff3f6d49774ad",
+			"_nodeVersion": "18.20.2",
+			"_npmVersion": "10.5.0",
+			"dist": {
+				"integrity": "sha512-hncWkkPQXnY7CP3DWg1tEx6vtyDZfPI8ofRyafHXfXwbX+UDOGNGRzYwJBsjEa2oexlxsYUJn3Qia9HSvbXbdQ==",
+				"shasum": "f1b9ab89b437ee482a3e1bbddb63cb943221e47c",
+				"tarball": "https://registry.npmjs.org/@nrwl/rollup/-/rollup-19.0.2.tgz",
+				"fileCount": 7,
+				"unpackedSize": 3442,
+				"attestations": {
+					"url": "https://registry.npmjs.org/-/npm/v1/attestations/@nrwl%2frollup@19.0.2",
+					"provenance": {
+						"predicateType": "https://slsa.dev/provenance/v1"
+					}
+				},
+				"signatures": [
+					{
+						"keyid": "SHA256:jl3bwswu80PjjokCgh0o2w5c2U4LhQAE57gj9cz1kzA",
+						"sig": "MEUCIQDEQoXC1sCELjOuadHObI4ong/xKZTM1W31OfNT8bdw9gIga9Pq0I3mkOuwA+8wANhlizJ8H8ZP6xULzKI9zApOqF8="
+					}
+				]
+			},
+			"_npmUser": {
+				"name": "nrwl-jason",
+				"email": "jason@nrwl.io"
+			},
+			"directories": {},
+			"maintainers": [
+				{
+					"name": "jameshenry",
+					"email": "james@henry.sc"
+				},
+				{
+					"name": "meeroslav",
+					"email": "missing.manual@gmail.com"
+				},
+				{
+					"name": "altan-nrwl",
+					"email": "altan@nrwl.io"
+				},
+				{
+					"name": "juristr",
+					"email": "juri.strumpflohner@gmail.com"
+				},
+				{
+					"name": "jack-nrwl",
+					"email": "jack@nrwl.io"
+				},
+				{
+					"name": "nrwl-jason",
+					"email": "jason@nrwl.io"
+				},
+				{
+					"name": "nrwlowner",
+					"email": "hello@nrwl.io"
+				}
+			],
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/rollup_19.0.2_1715263058136_0.26993326993012245"
+			},
+			"_hasShrinkwrap": false,
+			"contributors": []
+		},
+		"19.1.0-canary.20240510-1a85787": {
+			"name": "@nrwl/rollup",
+			"version": "19.1.0-canary.20240510-1a85787",
+			"private": false,
+			"description": "The Nx Plugin for Rollup contains executors and generators that support building applications using Rollup.",
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/nrwl/nx.git",
+				"directory": "packages-legacy/rollup"
+			},
+			"keywords": [
+				"Monorepo",
+				"Rollup",
+				"Web",
+				"CLI"
+			],
+			"main": "./index.js",
+			"typings": "./index.d.ts",
+			"author": {
+				"name": "Victor Savkin"
+			},
+			"license": "MIT",
+			"bugs": {
+				"url": "https://github.com/nrwl/nx/issues"
+			},
+			"homepage": "https://nx.dev",
+			"schematics": "./generators.json",
+			"builders": "./executors.json",
+			"dependencies": {
+				"@nx/rollup": "19.1.0-canary.20240510-1a85787"
+			},
+			"publishConfig": {
+				"access": "public"
+			},
+			"nx-migrations": {
+				"migrations": "@nx/rollup/migrations.json"
+			},
+			"type": "commonjs",
+			"_id": "@nrwl/rollup@19.1.0-canary.20240510-1a85787",
+			"readmeFilename": "README.md",
+			"gitHead": "1a85787e1c310d8409d99361800ef30e81938795",
+			"_nodeVersion": "18.20.2",
+			"_npmVersion": "10.5.0",
+			"dist": {
+				"integrity": "sha512-iEnzaK5GUaV4Vjg0u3CKcIhjBV7osn9noa34CqBtGfkIqcI6Q+MzMvgkrItqtXB0Zca+XPw+ifuuJ50bo8+r6A==",
+				"shasum": "75c26bdbcd2a08aea05dcdd4b2a74ebf0842227f",
+				"tarball": "https://registry.npmjs.org/@nrwl/rollup/-/rollup-19.1.0-canary.20240510-1a85787.tgz",
+				"fileCount": 7,
+				"unpackedSize": 3490,
+				"attestations": {
+					"url": "https://registry.npmjs.org/-/npm/v1/attestations/@nrwl%2frollup@19.1.0-canary.20240510-1a85787",
+					"provenance": {
+						"predicateType": "https://slsa.dev/provenance/v1"
+					}
+				},
+				"signatures": [
+					{
+						"keyid": "SHA256:jl3bwswu80PjjokCgh0o2w5c2U4LhQAE57gj9cz1kzA",
+						"sig": "MEYCIQDpXZ5VnmNb84jCzdS5cme4Iz4SZV7cdQYH918UVgW/8QIhAPCe9jewdaO+w+odujjILfxcbkRYBGnKyyDZFqGeoBoJ"
+					}
+				]
+			},
+			"_npmUser": {
+				"name": "nrwl-jason",
+				"email": "jason@nrwl.io"
+			},
+			"directories": {},
+			"maintainers": [
+				{
+					"name": "jameshenry",
+					"email": "james@henry.sc"
+				},
+				{
+					"name": "meeroslav",
+					"email": "missing.manual@gmail.com"
+				},
+				{
+					"name": "altan-nrwl",
+					"email": "altan@nrwl.io"
+				},
+				{
+					"name": "juristr",
+					"email": "juri.strumpflohner@gmail.com"
+				},
+				{
+					"name": "jack-nrwl",
+					"email": "jack@nrwl.io"
+				},
+				{
+					"name": "nrwl-jason",
+					"email": "jason@nrwl.io"
+				},
+				{
+					"name": "nrwlowner",
+					"email": "hello@nrwl.io"
+				}
+			],
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/rollup_19.1.0-canary.20240510-1a85787_1715310994786_0.643018717964545"
+			},
+			"_hasShrinkwrap": false,
+			"contributors": []
+		},
 		"20.0.0": {
 			"name": "@nrwl/rollup",
 			"version": "20.0.0",
@@ -55862,9 +56069,9 @@
 			"type": "commonjs",
 			"_id": "@nrwl/rollup@20.0.0",
 			"readmeFilename": "README.md",
-			"gitHead": "792f73081571dea27da52bddf6184313bb7b5737",
-			"_nodeVersion": "20.9.0",
-			"_npmVersion": "10.1.0",
+			"gitHead": "86106e2454080d81eec30be2268bd93f9c6cfcad",
+			"_nodeVersion": "18.18.0",
+			"_npmVersion": "9.8.1",
 			"dist": {
 				"integrity": "sha512-M0vVwvlstuEgSbioRAonIgH9+OAtgTxexqi9yUXkpduy9McGxvzw7lxl1Mhas8Xo6hfOrSu7GKRZugZLCzulMg==",
 				"shasum": "ea2b4ff9e6b98b762a777ebc8727d1176eec7794",
@@ -55876,7 +56083,7 @@
 	"time": {
 		"created": "2022-09-17T19:46:12.857Z",
 		"14.7.6-beta.5": "2022-09-17T19:46:13.176Z",
-		"modified": "2024-05-09T08:19:57.835Z",
+		"modified": "2024-05-10T12:56:56.498Z",
 		"14.7.6-beta.6": "2022-09-17T19:56:48.352Z",
 		"14.7.6-beta.7": "2022-09-19T14:30:27.036Z",
 		"14.7.6": "2022-09-19T14:39:34.731Z",
@@ -56406,19 +56613,21 @@
 		"19.0.1": "2024-05-07T22:26:39.065Z",
 		"19.1.0-canary.20240508-fd78152": "2024-05-08T03:16:51.817Z",
 		"19.1.0-canary.20240509-8f705e3": "2024-05-09T03:15:58.046Z",
-		"20.0.0": "2024-05-09T08:19:57.835Z"
+		"19.0.2": "2024-05-09T13:57:38.299Z",
+		"19.1.0-canary.20240510-1a85787": "2024-05-10T03:16:34.949Z",
+		"20.0.0": "2024-05-10T12:56:56.498Z"
 	},
 	"users": {},
 	"dist-tags": {
 		"next": "19.0.0-rc.2",
 		"latest": "20.0.0",
 		"previous": "18.3.4",
-		"canary": "19.1.0-canary.20240509-8f705e3"
+		"canary": "19.1.0-canary.20240510-1a85787"
 	},
 	"_uplinks": {
 		"npmjs": {
-			"etag": "W/\"eba386328173f00055589f6e05abc984\"",
-			"fetched": 1715242797504
+			"etag": "W/\"e4a2ddb7535d6415d4a82b303c7c1e70\"",
+			"fetched": 1715345815388
 		}
 	},
 	"_distfiles": {
@@ -59071,6 +59280,16 @@
 			"url": "https://registry.npmjs.org/@nrwl/rollup/-/rollup-19.1.0-canary.20240509-8f705e3.tgz",
 			"sha": "b14e4e0e773f0ea2f309490eb87c7903ac0ecf9a",
 			"registry": "npmjs"
+		},
+		"rollup-19.0.2.tgz": {
+			"url": "https://registry.npmjs.org/@nrwl/rollup/-/rollup-19.0.2.tgz",
+			"sha": "f1b9ab89b437ee482a3e1bbddb63cb943221e47c",
+			"registry": "npmjs"
+		},
+		"rollup-19.1.0-canary.20240510-1a85787.tgz": {
+			"url": "https://registry.npmjs.org/@nrwl/rollup/-/rollup-19.1.0-canary.20240510-1a85787.tgz",
+			"sha": "75c26bdbcd2a08aea05dcdd4b2a74ebf0842227f",
+			"registry": "npmjs"
 		}
 	},
 	"_attachments": {
@@ -59079,7 +59298,7 @@
 			"version": "20.0.0"
 		}
 	},
-	"_rev": "4-c258a9d1e235e43f",
+	"_rev": "4-640b8c8945f5e30c",
 	"_id": "@nrwl/rollup",
 	"readme": "## @nrwl/rollup has been renamed to @nx/rollup!\n\n@nrwl/rollup has been renamed to [@nx/rollup](https://www.npmjs.com/package/@nx/rollup). Please use that instead.\n\n[Read more here](https://nx.dev/recipes/other/rescope)\n\n@nrwl/rollup will no longer be published in the future.\n\n<p style=\"text-align: center;\">\n  <picture>\n    <source media=\"(prefers-color-scheme: dark)\" srcset=\"https://raw.githubusercontent.com/nrwl/nx/master/images/nx-dark.svg\">\n    <img alt=\"Nx - Smart Monorepos · Fast CI\" src=\"https://raw.githubusercontent.com/nrwl/nx/master/images/nx-light.svg\" width=\"100%\">\n  </picture>\n</p>\n\n# Nx: Smart Monorepos · Fast CI\n\nNx is a build system with built-in tooling and advanced CI capabilities. It helps you maintain and scale monorepos, both locally and on CI.\n"
 }

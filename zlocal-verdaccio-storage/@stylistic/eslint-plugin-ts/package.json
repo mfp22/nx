@@ -1,0 +1,4359 @@
+{
+	"name": "@stylistic/eslint-plugin-ts",
+	"versions": {
+		"0.0.1": {
+			"name": "@stylistic/eslint-plugin-ts",
+			"version": "0.0.1",
+			"author": {
+				"name": "Anthony Fu",
+				"email": "anthonyfu117@hotmail.com"
+			},
+			"license": "MIT",
+			"homepage": "https://github.com/eslint-stylistic/eslint-stylistic#readme",
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/eslint-stylistic/eslint-stylistic.git",
+				"directory": "packages/eslint-plugin-ts"
+			},
+			"bugs": {
+				"url": "https://github.com/eslint-stylistic/eslint-stylistic/issues"
+			},
+			"main": "./dist/index.js",
+			"peerDependencies": {
+				"eslint": "*",
+				"typescript": "*"
+			},
+			"dependencies": {
+				"@typescript-eslint/scope-manager": "^6.7.0",
+				"@typescript-eslint/type-utils": "^6.7.0",
+				"@typescript-eslint/utils": "^6.7.0",
+				"graphemer": "^1.4.0",
+				"semver": "^7.5.4"
+			},
+			"devDependencies": {
+				"@typescript-eslint/rule-tester": "^6.7.0"
+			},
+			"scripts": {
+				"build": "rimraf dist && rollup --config=rollup.config.mts --configPlugin=rollup-plugin-esbuild",
+				"dev": "rollup --config=rollup.config.mts --configPlugin=rollup-plugin-esbuild --watch"
+			},
+			"_id": "@stylistic/eslint-plugin-ts@0.0.1",
+			"_integrity": "sha512-L3Q6tU61NuSH/yWZD5RKxC/XfrZl+Ydtg/FCHsESxnk09Q79kPbEvhsSJyBtFL9+2EgvS3jgkH03FEoqrKAKMQ==",
+			"_resolved": "/private/var/folders/30/nymxcyb909ggq2j5lwn7b_600000gn/T/d0159f41eac1168d77967681c4ab7325/stylistic-eslint-plugin-ts-0.0.1.tgz",
+			"_from": "file:stylistic-eslint-plugin-ts-0.0.1.tgz",
+			"_nodeVersion": "20.4.0",
+			"_npmVersion": "9.7.2",
+			"dist": {
+				"integrity": "sha512-L3Q6tU61NuSH/yWZD5RKxC/XfrZl+Ydtg/FCHsESxnk09Q79kPbEvhsSJyBtFL9+2EgvS3jgkH03FEoqrKAKMQ==",
+				"shasum": "0ea8ad20a8a70ae38d5ebb31ee0af50b9bf940fa",
+				"tarball": "https://registry.npmjs.org/@stylistic/eslint-plugin-ts/-/eslint-plugin-ts-0.0.1.tgz",
+				"fileCount": 23,
+				"unpackedSize": 120691,
+				"signatures": [
+					{
+						"keyid": "SHA256:jl3bwswu80PjjokCgh0o2w5c2U4LhQAE57gj9cz1kzA",
+						"sig": "MEYCIQDrTzl/Ebe7qxLuA8KyL9UHn1WBbAop7dldcbhcC/iP+wIhAJWhUULzi2jtyHZkqHWfYtQRo6D+RPyGDEG1fSDi7bKC"
+					}
+				]
+			},
+			"_npmUser": {
+				"name": "antfu",
+				"email": "anthonyfu117@hotmail.com"
+			},
+			"directories": {},
+			"maintainers": [
+				{
+					"name": "antfu",
+					"email": "anthonyfu117@hotmail.com"
+				}
+			],
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/eslint-plugin-ts_0.0.1_1695041666325_0.9299263998104228"
+			},
+			"_hasShrinkwrap": false,
+			"contributors": []
+		},
+		"0.0.2": {
+			"name": "@stylistic/eslint-plugin-ts",
+			"version": "0.0.2",
+			"author": {
+				"name": "Anthony Fu",
+				"email": "anthonyfu117@hotmail.com"
+			},
+			"license": "MIT",
+			"homepage": "https://github.com/eslint-stylistic/eslint-stylistic#readme",
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/eslint-stylistic/eslint-stylistic.git",
+				"directory": "packages/eslint-plugin-ts"
+			},
+			"bugs": {
+				"url": "https://github.com/eslint-stylistic/eslint-stylistic/issues"
+			},
+			"main": "./dist/index.js",
+			"peerDependencies": {
+				"eslint": "*",
+				"typescript": "*"
+			},
+			"dependencies": {
+				"@typescript-eslint/scope-manager": "^6.7.0",
+				"@typescript-eslint/type-utils": "^6.7.0",
+				"@typescript-eslint/utils": "^6.7.0",
+				"graphemer": "^1.4.0",
+				"semver": "^7.5.4"
+			},
+			"devDependencies": {
+				"@typescript-eslint/rule-tester": "^6.7.0"
+			},
+			"scripts": {
+				"build": "rimraf dist && rollup --config=rollup.config.mts --configPlugin=rollup-plugin-esbuild",
+				"dev": "rollup --config=rollup.config.mts --configPlugin=rollup-plugin-esbuild --watch"
+			},
+			"_id": "@stylistic/eslint-plugin-ts@0.0.2",
+			"_integrity": "sha512-V/12gN2gSfWbWxr5fxN2BfkpEuV69qI6hJM3Ut8lmmOlNpvxW++pseDxhsoIAIs3+nOTdWv6hSUFcEaZNICaWw==",
+			"_resolved": "/private/var/folders/30/nymxcyb909ggq2j5lwn7b_600000gn/T/06dea8700f2ed28fbbfcf9328d39d127/stylistic-eslint-plugin-ts-0.0.2.tgz",
+			"_from": "file:stylistic-eslint-plugin-ts-0.0.2.tgz",
+			"_nodeVersion": "20.4.0",
+			"_npmVersion": "9.7.2",
+			"dist": {
+				"integrity": "sha512-V/12gN2gSfWbWxr5fxN2BfkpEuV69qI6hJM3Ut8lmmOlNpvxW++pseDxhsoIAIs3+nOTdWv6hSUFcEaZNICaWw==",
+				"shasum": "8915d796a348df2878ff483a6b4286c330b04b90",
+				"tarball": "https://registry.npmjs.org/@stylistic/eslint-plugin-ts/-/eslint-plugin-ts-0.0.2.tgz",
+				"fileCount": 23,
+				"unpackedSize": 120691,
+				"signatures": [
+					{
+						"keyid": "SHA256:jl3bwswu80PjjokCgh0o2w5c2U4LhQAE57gj9cz1kzA",
+						"sig": "MEUCIHaG8QKrvO3hkg707vJ+ccls3tpYYt0DGQssm15q9J5ZAiEAyT8fLK/p874vn+k7kZOF5LjEgPWsfZ0S8RY3Bxvwxnk="
+					}
+				]
+			},
+			"_npmUser": {
+				"name": "antfu",
+				"email": "anthonyfu117@hotmail.com"
+			},
+			"directories": {},
+			"maintainers": [
+				{
+					"name": "antfu",
+					"email": "anthonyfu117@hotmail.com"
+				}
+			],
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/eslint-plugin-ts_0.0.2_1695045679075_0.16104849430223944"
+			},
+			"_hasShrinkwrap": false,
+			"contributors": []
+		},
+		"0.0.3": {
+			"name": "@stylistic/eslint-plugin-ts",
+			"version": "0.0.3",
+			"author": {
+				"name": "Anthony Fu",
+				"email": "anthonyfu117@hotmail.com"
+			},
+			"license": "MIT",
+			"homepage": "https://github.com/eslint-stylistic/eslint-stylistic#readme",
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/eslint-stylistic/eslint-stylistic.git",
+				"directory": "packages/eslint-plugin-ts"
+			},
+			"bugs": {
+				"url": "https://github.com/eslint-stylistic/eslint-stylistic/issues"
+			},
+			"main": "./dist/index.js",
+			"peerDependencies": {
+				"eslint": "*",
+				"typescript": "*"
+			},
+			"dependencies": {
+				"@typescript-eslint/scope-manager": "^6.7.0",
+				"@typescript-eslint/type-utils": "^6.7.0",
+				"@typescript-eslint/utils": "^6.7.0",
+				"graphemer": "^1.4.0",
+				"semver": "^7.5.4",
+				"@stylistic/eslint-plugin-js": "0.0.3"
+			},
+			"devDependencies": {
+				"@typescript-eslint/rule-tester": "^6.7.0"
+			},
+			"scripts": {
+				"build": "rimraf dist && rollup --config=rollup.config.mts --configPlugin=rollup-plugin-esbuild",
+				"dev": "rollup --config=rollup.config.mts --configPlugin=rollup-plugin-esbuild --watch"
+			},
+			"description": "Rules for TypeScript code style, migrated from [`typescript-eslint`](https://github.com/typescript-eslint/typescript-eslint).",
+			"_id": "@stylistic/eslint-plugin-ts@0.0.3",
+			"_integrity": "sha512-G/jZ+XHlZtkxABOXswJNTmN4h8qNmECTjPLkWPMykPlfQeD1RSpBMEQHiJHZ3GAxnEcqAgi7CNA1FTvGWz6qwQ==",
+			"_resolved": "/private/var/folders/30/nymxcyb909ggq2j5lwn7b_600000gn/T/5056aef75b82d23f0793e8da34d61ad8/stylistic-eslint-plugin-ts-0.0.3.tgz",
+			"_from": "file:stylistic-eslint-plugin-ts-0.0.3.tgz",
+			"_nodeVersion": "20.4.0",
+			"_npmVersion": "9.7.2",
+			"dist": {
+				"integrity": "sha512-G/jZ+XHlZtkxABOXswJNTmN4h8qNmECTjPLkWPMykPlfQeD1RSpBMEQHiJHZ3GAxnEcqAgi7CNA1FTvGWz6qwQ==",
+				"shasum": "92a18c28782bc884b918de0ae953341b681e9030",
+				"tarball": "https://registry.npmjs.org/@stylistic/eslint-plugin-ts/-/eslint-plugin-ts-0.0.3.tgz",
+				"fileCount": 22,
+				"unpackedSize": 115078,
+				"signatures": [
+					{
+						"keyid": "SHA256:jl3bwswu80PjjokCgh0o2w5c2U4LhQAE57gj9cz1kzA",
+						"sig": "MEUCIH3zgc2Zs7LE1JI4LPGoHfr2OYgCZz+0W/fH/iFkKiJmAiEAkX4SbusswzH/lnzkoFUX2fdw3OETKy87l9bh0RExtl4="
+					}
+				]
+			},
+			"_npmUser": {
+				"name": "antfu",
+				"email": "anthonyfu117@hotmail.com"
+			},
+			"directories": {},
+			"maintainers": [
+				{
+					"name": "antfu",
+					"email": "anthonyfu117@hotmail.com"
+				}
+			],
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/eslint-plugin-ts_0.0.3_1695101882527_0.8170555482887949"
+			},
+			"_hasShrinkwrap": false,
+			"contributors": []
+		},
+		"0.0.4": {
+			"name": "@stylistic/eslint-plugin-ts",
+			"version": "0.0.4",
+			"author": {
+				"name": "Anthony Fu",
+				"email": "anthonyfu117@hotmail.com"
+			},
+			"license": "MIT",
+			"homepage": "https://github.com/eslint-stylistic/eslint-stylistic#readme",
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/eslint-stylistic/eslint-stylistic.git",
+				"directory": "packages/eslint-plugin-ts"
+			},
+			"bugs": {
+				"url": "https://github.com/eslint-stylistic/eslint-stylistic/issues"
+			},
+			"main": "./dist/index.js",
+			"peerDependencies": {
+				"eslint": "*",
+				"typescript": "*"
+			},
+			"dependencies": {
+				"@typescript-eslint/scope-manager": "^6.7.0",
+				"@typescript-eslint/type-utils": "^6.7.0",
+				"@typescript-eslint/utils": "^6.7.0",
+				"graphemer": "^1.4.0",
+				"@stylistic/eslint-plugin-js": "0.0.4"
+			},
+			"devDependencies": {
+				"@typescript-eslint/rule-tester": "^6.7.0"
+			},
+			"scripts": {
+				"build": "rimraf dist && rollup --config=rollup.config.mts --configPlugin=rollup-plugin-esbuild",
+				"dev": "rollup --config=rollup.config.mts --configPlugin=rollup-plugin-esbuild --watch"
+			},
+			"description": "TypeScript stylistic rules for ESLint, migrated from [`typescript-eslint`](https://github.com/typescript-eslint/typescript-eslint).",
+			"_id": "@stylistic/eslint-plugin-ts@0.0.4",
+			"_integrity": "sha512-sWL4Km5j8S+TLyzya/3adxMWGkCm3lVasJIVQqhxVfwnlGkpMI0GgYVIu/ubdKPS+dSvqjUHpsXgqWfMRF2+cQ==",
+			"_resolved": "/private/var/folders/30/nymxcyb909ggq2j5lwn7b_600000gn/T/c1b8295e12be34f43c0229f618064b53/stylistic-eslint-plugin-ts-0.0.4.tgz",
+			"_from": "file:stylistic-eslint-plugin-ts-0.0.4.tgz",
+			"_nodeVersion": "20.4.0",
+			"_npmVersion": "9.7.2",
+			"dist": {
+				"integrity": "sha512-sWL4Km5j8S+TLyzya/3adxMWGkCm3lVasJIVQqhxVfwnlGkpMI0GgYVIu/ubdKPS+dSvqjUHpsXgqWfMRF2+cQ==",
+				"shasum": "3b1dd460fa6eb789a4190ab14be07b764997b938",
+				"tarball": "https://registry.npmjs.org/@stylistic/eslint-plugin-ts/-/eslint-plugin-ts-0.0.4.tgz",
+				"fileCount": 21,
+				"unpackedSize": 109290,
+				"signatures": [
+					{
+						"keyid": "SHA256:jl3bwswu80PjjokCgh0o2w5c2U4LhQAE57gj9cz1kzA",
+						"sig": "MEUCIDToxK67hlso1zX73ovIN1sj0wZIMngBcA/Nh7NPDA0IAiEAtFSN2O3/PxbZpF4uvOPph7kAA22bSTG2ue43JFz1MoM="
+					}
+				]
+			},
+			"_npmUser": {
+				"name": "antfu",
+				"email": "anthonyfu117@hotmail.com"
+			},
+			"directories": {},
+			"maintainers": [
+				{
+					"name": "antfu",
+					"email": "anthonyfu117@hotmail.com"
+				}
+			],
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/eslint-plugin-ts_0.0.4_1695229005334_0.3152942220689521"
+			},
+			"_hasShrinkwrap": false,
+			"contributors": []
+		},
+		"0.0.5": {
+			"name": "@stylistic/eslint-plugin-ts",
+			"version": "0.0.5",
+			"author": {
+				"name": "Anthony Fu",
+				"email": "anthonyfu117@hotmail.com"
+			},
+			"license": "MIT",
+			"homepage": "https://github.com/eslint-stylistic/eslint-stylistic#readme",
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/eslint-stylistic/eslint-stylistic.git",
+				"directory": "packages/eslint-plugin-ts"
+			},
+			"bugs": {
+				"url": "https://github.com/eslint-stylistic/eslint-stylistic/issues"
+			},
+			"main": "./dist/index.js",
+			"peerDependencies": {
+				"eslint": "*"
+			},
+			"dependencies": {
+				"@typescript-eslint/scope-manager": "^6.7.2",
+				"@typescript-eslint/type-utils": "^6.7.2",
+				"@typescript-eslint/utils": "^6.7.2",
+				"graphemer": "^1.4.0",
+				"@stylistic/eslint-plugin-js": "0.0.5"
+			},
+			"devDependencies": {
+				"@typescript-eslint/rule-tester": "^6.7.2"
+			},
+			"scripts": {
+				"build": "rimraf dist && rollup --config=rollup.config.mts --configPlugin=rollup-plugin-esbuild",
+				"dev": "rollup --config=rollup.config.mts --configPlugin=rollup-plugin-esbuild --watch"
+			},
+			"description": "TypeScript stylistic rules for ESLint, migrated from [`typescript-eslint`](https://github.com/typescript-eslint/typescript-eslint).",
+			"_id": "@stylistic/eslint-plugin-ts@0.0.5",
+			"_integrity": "sha512-Ei/arToTJEF2nxxJLsXqK9qMxPgZi8IyM2X+1q8HRA11Q3zRMut8u1B1zwE8q9EhorBwZsgnmphgzmDG0Mot+w==",
+			"_resolved": "/private/var/folders/30/nymxcyb909ggq2j5lwn7b_600000gn/T/21cfa06e257cf102d293d14a1068e395/stylistic-eslint-plugin-ts-0.0.5.tgz",
+			"_from": "file:stylistic-eslint-plugin-ts-0.0.5.tgz",
+			"_nodeVersion": "20.4.0",
+			"_npmVersion": "9.7.2",
+			"dist": {
+				"integrity": "sha512-Ei/arToTJEF2nxxJLsXqK9qMxPgZi8IyM2X+1q8HRA11Q3zRMut8u1B1zwE8q9EhorBwZsgnmphgzmDG0Mot+w==",
+				"shasum": "60537471e99fa55dd7b09f977c399b2b1ff7a8c1",
+				"tarball": "https://registry.npmjs.org/@stylistic/eslint-plugin-ts/-/eslint-plugin-ts-0.0.5.tgz",
+				"fileCount": 24,
+				"unpackedSize": 131143,
+				"signatures": [
+					{
+						"keyid": "SHA256:jl3bwswu80PjjokCgh0o2w5c2U4LhQAE57gj9cz1kzA",
+						"sig": "MEUCIDYIfZff/XQzngy6dVzj+uU99KUkiI9VtNfZ9bqO22shAiEAlNtO6nuJko9T5C/c6KPYXQp3WgfLQy+7WMSrdSwEJqY="
+					}
+				]
+			},
+			"_npmUser": {
+				"name": "antfu",
+				"email": "anthonyfu117@hotmail.com"
+			},
+			"directories": {},
+			"maintainers": [
+				{
+					"name": "antfu",
+					"email": "anthonyfu117@hotmail.com"
+				}
+			],
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/eslint-plugin-ts_0.0.5_1695632997195_0.5315734913410097"
+			},
+			"_hasShrinkwrap": false,
+			"contributors": []
+		},
+		"0.0.6": {
+			"name": "@stylistic/eslint-plugin-ts",
+			"version": "0.0.6",
+			"author": {
+				"name": "Anthony Fu",
+				"email": "anthonyfu117@hotmail.com"
+			},
+			"license": "MIT",
+			"homepage": "https://github.com/eslint-stylistic/eslint-stylistic#readme",
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/eslint-stylistic/eslint-stylistic.git",
+				"directory": "packages/eslint-plugin-ts"
+			},
+			"bugs": {
+				"url": "https://github.com/eslint-stylistic/eslint-stylistic/issues"
+			},
+			"main": "./dist/index.js",
+			"peerDependencies": {
+				"eslint": "*"
+			},
+			"dependencies": {
+				"@typescript-eslint/scope-manager": "^6.7.2",
+				"@typescript-eslint/type-utils": "^6.7.2",
+				"@typescript-eslint/utils": "^6.7.2",
+				"graphemer": "^1.4.0",
+				"@stylistic/eslint-plugin-js": "0.0.6"
+			},
+			"devDependencies": {
+				"@typescript-eslint/rule-tester": "^6.7.2"
+			},
+			"scripts": {
+				"build": "rimraf dist && rollup --config=rollup.config.mts --configPlugin=rollup-plugin-esbuild",
+				"dev": "rollup --config=rollup.config.mts --configPlugin=rollup-plugin-esbuild --watch"
+			},
+			"description": "TypeScript stylistic rules for ESLint, migrated from [`typescript-eslint`](https://github.com/typescript-eslint/typescript-eslint).",
+			"_id": "@stylistic/eslint-plugin-ts@0.0.6",
+			"_integrity": "sha512-eI8K4I9G1AwzsEAykNFv85KHpuHEB0pB4dmbt3lHHfPAVHxvKn+vvRQSNW/wB7giGrzn5uCVBNA7DON6mWhqqg==",
+			"_resolved": "/private/var/folders/30/nymxcyb909ggq2j5lwn7b_600000gn/T/5b973d73adee5ccdb76d6e55e1a25691/stylistic-eslint-plugin-ts-0.0.6.tgz",
+			"_from": "file:stylistic-eslint-plugin-ts-0.0.6.tgz",
+			"_nodeVersion": "20.4.0",
+			"_npmVersion": "9.7.2",
+			"dist": {
+				"integrity": "sha512-eI8K4I9G1AwzsEAykNFv85KHpuHEB0pB4dmbt3lHHfPAVHxvKn+vvRQSNW/wB7giGrzn5uCVBNA7DON6mWhqqg==",
+				"shasum": "fd1bebc7c27e50aff312d70183a76e096bc3e307",
+				"tarball": "https://registry.npmjs.org/@stylistic/eslint-plugin-ts/-/eslint-plugin-ts-0.0.6.tgz",
+				"fileCount": 24,
+				"unpackedSize": 131138,
+				"signatures": [
+					{
+						"keyid": "SHA256:jl3bwswu80PjjokCgh0o2w5c2U4LhQAE57gj9cz1kzA",
+						"sig": "MEUCIQDzBSqe7d+3Zt8AFjNf81DRb4G2+nULBEVSV2jQ5GLhAwIgfEznI+alf9ifoPLhsTaEL8lRuC8NUK1SmzrlVgnVk6U="
+					}
+				]
+			},
+			"_npmUser": {
+				"name": "antfu",
+				"email": "anthonyfu117@hotmail.com"
+			},
+			"directories": {},
+			"maintainers": [
+				{
+					"name": "antfu",
+					"email": "anthonyfu117@hotmail.com"
+				}
+			],
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/eslint-plugin-ts_0.0.6_1696061652163_0.5507514583872544"
+			},
+			"_hasShrinkwrap": false,
+			"contributors": []
+		},
+		"0.0.7": {
+			"name": "@stylistic/eslint-plugin-ts",
+			"version": "0.0.7",
+			"author": {
+				"name": "Anthony Fu",
+				"email": "anthonyfu117@hotmail.com"
+			},
+			"license": "MIT",
+			"homepage": "https://github.com/eslint-stylistic/eslint-stylistic#readme",
+			"repository": {
+				"directory": "packages/eslint-plugin-ts",
+				"type": "git",
+				"url": "git+https://github.com/eslint-stylistic/eslint-stylistic.git"
+			},
+			"bugs": {
+				"url": "https://github.com/eslint-stylistic/eslint-stylistic/issues"
+			},
+			"exports": {
+				".": {
+					"require": "./dist/index.js"
+				},
+				"./eslint-define-config-support": {
+					"types": "./dts/eslint-define-config-support.d.ts"
+				}
+			},
+			"main": "./dist/index.js",
+			"peerDependencies": {
+				"eslint": "*"
+			},
+			"dependencies": {
+				"@typescript-eslint/scope-manager": "^6.7.2",
+				"@typescript-eslint/type-utils": "^6.7.2",
+				"@typescript-eslint/utils": "^6.7.2",
+				"graphemer": "^1.4.0",
+				"@stylistic/eslint-plugin-js": "0.0.7"
+			},
+			"devDependencies": {
+				"@typescript-eslint/rule-tester": "^6.7.2"
+			},
+			"scripts": {
+				"build": "rimraf dist && rollup --config=rollup.config.mts --configPlugin=rollup-plugin-esbuild",
+				"dev": "rollup --config=rollup.config.mts --configPlugin=rollup-plugin-esbuild --watch"
+			},
+			"description": "TypeScript stylistic rules for ESLint, migrated from [`typescript-eslint`](https://github.com/typescript-eslint/typescript-eslint).",
+			"_id": "@stylistic/eslint-plugin-ts@0.0.7",
+			"_integrity": "sha512-1sJ/svagFe6qagM2DC2M4n5/Vm1DFyTd8enXWlbUPZF4V1YEFlCVgVdGbrVfh1DC0tRtzYA/KebPtkCvks+qqw==",
+			"_resolved": "/private/var/folders/30/nymxcyb909ggq2j5lwn7b_600000gn/T/dee30ab02a3f653837731770d620a319/stylistic-eslint-plugin-ts-0.0.7.tgz",
+			"_from": "file:stylistic-eslint-plugin-ts-0.0.7.tgz",
+			"_nodeVersion": "20.4.0",
+			"_npmVersion": "9.7.2",
+			"dist": {
+				"integrity": "sha512-1sJ/svagFe6qagM2DC2M4n5/Vm1DFyTd8enXWlbUPZF4V1YEFlCVgVdGbrVfh1DC0tRtzYA/KebPtkCvks+qqw==",
+				"shasum": "8ba10e26e1ecaf69440132cd5d933d38c8e4fed4",
+				"tarball": "https://registry.npmjs.org/@stylistic/eslint-plugin-ts/-/eslint-plugin-ts-0.0.7.tgz",
+				"fileCount": 24,
+				"unpackedSize": 131314,
+				"signatures": [
+					{
+						"keyid": "SHA256:jl3bwswu80PjjokCgh0o2w5c2U4LhQAE57gj9cz1kzA",
+						"sig": "MEUCIAEts/PIWNGetNw7kIrk+jhiL84sLltxTliNOtVLw+fsAiEA1yCEO2EGAFqo2Aga09LRPhgIiAJ34nUHikfRpwL7Lt4="
+					}
+				]
+			},
+			"_npmUser": {
+				"name": "antfu",
+				"email": "anthonyfu117@hotmail.com"
+			},
+			"directories": {},
+			"maintainers": [
+				{
+					"name": "antfu",
+					"email": "anthonyfu117@hotmail.com"
+				}
+			],
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/eslint-plugin-ts_0.0.7_1696833697066_0.05503509576446941"
+			},
+			"_hasShrinkwrap": false,
+			"contributors": []
+		},
+		"0.0.8": {
+			"name": "@stylistic/eslint-plugin-ts",
+			"version": "0.0.8",
+			"author": {
+				"name": "Anthony Fu",
+				"email": "anthonyfu117@hotmail.com"
+			},
+			"license": "MIT",
+			"homepage": "https://github.com/eslint-stylistic/eslint-stylistic#readme",
+			"repository": {
+				"directory": "packages/eslint-plugin-ts",
+				"type": "git",
+				"url": "git+https://github.com/eslint-stylistic/eslint-stylistic.git"
+			},
+			"bugs": {
+				"url": "https://github.com/eslint-stylistic/eslint-stylistic/issues"
+			},
+			"exports": {
+				".": {
+					"require": "./dist/index.js"
+				},
+				"./eslint-define-config-support": {
+					"types": "./dts/eslint-define-config-support.d.ts"
+				}
+			},
+			"main": "./dist/index.js",
+			"peerDependencies": {
+				"eslint": "*"
+			},
+			"dependencies": {
+				"@typescript-eslint/scope-manager": "^6.7.2",
+				"@typescript-eslint/type-utils": "^6.7.2",
+				"@typescript-eslint/utils": "^6.7.2",
+				"graphemer": "^1.4.0",
+				"@stylistic/eslint-plugin-js": "0.0.8"
+			},
+			"devDependencies": {
+				"@typescript-eslint/rule-tester": "^6.7.2"
+			},
+			"scripts": {
+				"build": "rimraf dist && rollup --config=rollup.config.mts --configPlugin=rollup-plugin-esbuild",
+				"dev": "rollup --config=rollup.config.mts --configPlugin=rollup-plugin-esbuild --watch"
+			},
+			"description": "TypeScript stylistic rules for ESLint, migrated from [`typescript-eslint`](https://github.com/typescript-eslint/typescript-eslint).",
+			"_id": "@stylistic/eslint-plugin-ts@0.0.8",
+			"_integrity": "sha512-vvC8yMEWznhfQmMtzSjqgXX5Z+8cVUk7FKhZQiUeSF8D/gqWeAhk7Amx1Yt7qE1rjuiVotT7M78GzDGmJYU6pg==",
+			"_resolved": "/private/var/folders/30/nymxcyb909ggq2j5lwn7b_600000gn/T/a6eb37e5c5c1efad8891b0f14b2b68c4/stylistic-eslint-plugin-ts-0.0.8.tgz",
+			"_from": "file:stylistic-eslint-plugin-ts-0.0.8.tgz",
+			"_nodeVersion": "20.4.0",
+			"_npmVersion": "9.7.2",
+			"dist": {
+				"integrity": "sha512-vvC8yMEWznhfQmMtzSjqgXX5Z+8cVUk7FKhZQiUeSF8D/gqWeAhk7Amx1Yt7qE1rjuiVotT7M78GzDGmJYU6pg==",
+				"shasum": "b02108c9035f01a9df2928808fd1d5c0f66f1d72",
+				"tarball": "https://registry.npmjs.org/@stylistic/eslint-plugin-ts/-/eslint-plugin-ts-0.0.8.tgz",
+				"fileCount": 24,
+				"unpackedSize": 131314,
+				"signatures": [
+					{
+						"keyid": "SHA256:jl3bwswu80PjjokCgh0o2w5c2U4LhQAE57gj9cz1kzA",
+						"sig": "MEUCIEdf6MJIARkKISTndQSOWT90Ga/osMekpzaxRtDjxtihAiEAvvUDiJ7h5IxzxyWssCwQtEEEEn+1FPP4XFkVi/L+Afo="
+					}
+				]
+			},
+			"_npmUser": {
+				"name": "antfu",
+				"email": "anthonyfu117@hotmail.com"
+			},
+			"directories": {},
+			"maintainers": [
+				{
+					"name": "antfu",
+					"email": "anthonyfu117@hotmail.com"
+				}
+			],
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/eslint-plugin-ts_0.0.8_1696834092085_0.5024672149032758"
+			},
+			"_hasShrinkwrap": false,
+			"contributors": []
+		},
+		"0.0.9": {
+			"name": "@stylistic/eslint-plugin-ts",
+			"version": "0.0.9",
+			"author": {
+				"name": "Anthony Fu",
+				"email": "anthonyfu117@hotmail.com"
+			},
+			"license": "MIT",
+			"homepage": "https://github.com/eslint-stylistic/eslint-stylistic#readme",
+			"repository": {
+				"directory": "packages/eslint-plugin-ts",
+				"type": "git",
+				"url": "git+https://github.com/eslint-stylistic/eslint-stylistic.git"
+			},
+			"bugs": {
+				"url": "https://github.com/eslint-stylistic/eslint-stylistic/issues"
+			},
+			"exports": {
+				".": {
+					"require": "./dist/index.js"
+				},
+				"./define-config-support": {
+					"types": "./dts/define-config-support.d.ts"
+				},
+				"./rule-options": {
+					"types": "./dts/rule-options.d.ts"
+				}
+			},
+			"main": "./dist/index.js",
+			"peerDependencies": {
+				"eslint": "*"
+			},
+			"dependencies": {
+				"@typescript-eslint/scope-manager": "^6.7.2",
+				"@typescript-eslint/type-utils": "^6.7.2",
+				"@typescript-eslint/utils": "^6.7.2",
+				"graphemer": "^1.4.0",
+				"@stylistic/eslint-plugin-js": "0.0.9"
+			},
+			"devDependencies": {
+				"@typescript-eslint/rule-tester": "^6.7.2"
+			},
+			"scripts": {
+				"build": "rimraf dist && rollup --config=rollup.config.mts --configPlugin=rollup-plugin-esbuild",
+				"dev": "rollup --config=rollup.config.mts --configPlugin=rollup-plugin-esbuild --watch"
+			},
+			"description": "TypeScript stylistic rules for ESLint, migrated from [`typescript-eslint`](https://github.com/typescript-eslint/typescript-eslint).",
+			"_id": "@stylistic/eslint-plugin-ts@0.0.9",
+			"_integrity": "sha512-4MJE/xdkshEL3DsJrTfrYlDC3omER/TwPiBvU6EoyipXqgCnKPXpTRvk8kucYWJXFJIG2jjtUFhdtU6HTjZynA==",
+			"_resolved": "/private/var/folders/30/nymxcyb909ggq2j5lwn7b_600000gn/T/18a02f7f0564e2cf095cd3d700e3f92a/stylistic-eslint-plugin-ts-0.0.9.tgz",
+			"_from": "file:stylistic-eslint-plugin-ts-0.0.9.tgz",
+			"_nodeVersion": "20.4.0",
+			"_npmVersion": "9.7.2",
+			"dist": {
+				"integrity": "sha512-4MJE/xdkshEL3DsJrTfrYlDC3omER/TwPiBvU6EoyipXqgCnKPXpTRvk8kucYWJXFJIG2jjtUFhdtU6HTjZynA==",
+				"shasum": "f88fc4330dccacdb39b54d6b30d201ec46eed309",
+				"tarball": "https://registry.npmjs.org/@stylistic/eslint-plugin-ts/-/eslint-plugin-ts-0.0.9.tgz",
+				"fileCount": 26,
+				"unpackedSize": 135614,
+				"signatures": [
+					{
+						"keyid": "SHA256:jl3bwswu80PjjokCgh0o2w5c2U4LhQAE57gj9cz1kzA",
+						"sig": "MEUCIQCASv7tNsuxexSS3/0LbiPhNc/ndX/T6q3ZaLDYZEHG0QIgGGtO183CYFjigoOJqDfmHJR+7q0IueFse1QNzv4gRB4="
+					}
+				]
+			},
+			"_npmUser": {
+				"name": "antfu",
+				"email": "anthonyfu117@hotmail.com"
+			},
+			"directories": {},
+			"maintainers": [
+				{
+					"name": "antfu",
+					"email": "anthonyfu117@hotmail.com"
+				}
+			],
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/eslint-plugin-ts_0.0.9_1697158174313_0.13949478292240136"
+			},
+			"_hasShrinkwrap": false,
+			"contributors": []
+		},
+		"0.0.10": {
+			"name": "@stylistic/eslint-plugin-ts",
+			"version": "0.0.10",
+			"author": {
+				"name": "Anthony Fu",
+				"email": "anthonyfu117@hotmail.com"
+			},
+			"license": "MIT",
+			"homepage": "https://github.com/eslint-stylistic/eslint-stylistic#readme",
+			"repository": {
+				"directory": "packages/eslint-plugin-ts",
+				"type": "git",
+				"url": "git+https://github.com/eslint-stylistic/eslint-stylistic.git"
+			},
+			"bugs": {
+				"url": "https://github.com/eslint-stylistic/eslint-stylistic/issues"
+			},
+			"exports": {
+				".": {
+					"types": "./dts/index.d.ts",
+					"require": "./dist/index.js"
+				},
+				"./define-config-support": {
+					"types": "./dts/define-config-support.d.ts"
+				},
+				"./rule-options": {
+					"types": "./dts/rule-options.d.ts"
+				}
+			},
+			"main": "./dist/index.js",
+			"types": "./dts/index.d.ts",
+			"peerDependencies": {
+				"eslint": "*"
+			},
+			"dependencies": {
+				"@typescript-eslint/scope-manager": "^6.7.5",
+				"@typescript-eslint/type-utils": "^6.7.5",
+				"@typescript-eslint/utils": "^6.7.5",
+				"graphemer": "^1.4.0",
+				"@stylistic/eslint-plugin-js": "0.0.10"
+			},
+			"devDependencies": {
+				"@typescript-eslint/rule-tester": "^6.7.5"
+			},
+			"scripts": {
+				"build": "rimraf dist && rollup --config=rollup.config.mts --configPlugin=rollup-plugin-esbuild",
+				"dev": "rollup --config=rollup.config.mts --configPlugin=rollup-plugin-esbuild --watch"
+			},
+			"description": "TypeScript stylistic rules for ESLint, migrated from [`typescript-eslint`](https://github.com/typescript-eslint/typescript-eslint).",
+			"_id": "@stylistic/eslint-plugin-ts@0.0.10",
+			"_integrity": "sha512-nMWI3818yMHt3u9n7pkGcpuJZz/nKGCIYjgOojmZ/ntVmG7Ej5Ll6ev3N2lAlUXJxc4YgLgrTYz2Wye+DruSHg==",
+			"_resolved": "/private/var/folders/30/nymxcyb909ggq2j5lwn7b_600000gn/T/c34328b2e0570db92a9799319dc5bef6/stylistic-eslint-plugin-ts-0.0.10.tgz",
+			"_from": "file:stylistic-eslint-plugin-ts-0.0.10.tgz",
+			"_nodeVersion": "20.4.0",
+			"_npmVersion": "9.7.2",
+			"dist": {
+				"integrity": "sha512-nMWI3818yMHt3u9n7pkGcpuJZz/nKGCIYjgOojmZ/ntVmG7Ej5Ll6ev3N2lAlUXJxc4YgLgrTYz2Wye+DruSHg==",
+				"shasum": "515abbb73b83d1acda2567095fa8775f99350f3a",
+				"tarball": "https://registry.npmjs.org/@stylistic/eslint-plugin-ts/-/eslint-plugin-ts-0.0.10.tgz",
+				"fileCount": 27,
+				"unpackedSize": 135643,
+				"signatures": [
+					{
+						"keyid": "SHA256:jl3bwswu80PjjokCgh0o2w5c2U4LhQAE57gj9cz1kzA",
+						"sig": "MEYCIQDPsJjkQRIFThJlylHgUOGgg8vCJJdpQcJwVdHFUFvkewIhAMgNWworWPec/SfWmmdD9P/vxYdbFutA4sL6Qm2bXROJ"
+					}
+				]
+			},
+			"_npmUser": {
+				"name": "antfu",
+				"email": "anthonyfu117@hotmail.com"
+			},
+			"directories": {},
+			"maintainers": [
+				{
+					"name": "antfu",
+					"email": "anthonyfu117@hotmail.com"
+				}
+			],
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/eslint-plugin-ts_0.0.10_1697203635905_0.659821357090274"
+			},
+			"_hasShrinkwrap": false,
+			"contributors": []
+		},
+		"0.0.11": {
+			"name": "@stylistic/eslint-plugin-ts",
+			"version": "0.0.11",
+			"author": {
+				"name": "Anthony Fu",
+				"email": "anthonyfu117@hotmail.com"
+			},
+			"license": "MIT",
+			"homepage": "https://github.com/eslint-stylistic/eslint-stylistic#readme",
+			"repository": {
+				"directory": "packages/eslint-plugin-ts",
+				"type": "git",
+				"url": "git+https://github.com/eslint-stylistic/eslint-stylistic.git"
+			},
+			"bugs": {
+				"url": "https://github.com/eslint-stylistic/eslint-stylistic/issues"
+			},
+			"exports": {
+				".": {
+					"types": "./dts/index.d.ts",
+					"require": "./dist/index.js",
+					"default": "./dist/index.js"
+				},
+				"./define-config-support": {
+					"types": "./dts/define-config-support.d.ts"
+				},
+				"./rule-options": {
+					"types": "./dts/rule-options.d.ts"
+				}
+			},
+			"main": "./dist/index.js",
+			"types": "./dts/index.d.ts",
+			"peerDependencies": {
+				"eslint": "*"
+			},
+			"dependencies": {
+				"@typescript-eslint/scope-manager": "^6.7.5",
+				"@typescript-eslint/type-utils": "^6.7.5",
+				"@typescript-eslint/utils": "^6.7.5",
+				"graphemer": "^1.4.0",
+				"@stylistic/eslint-plugin-js": "0.0.11"
+			},
+			"devDependencies": {
+				"@typescript-eslint/rule-tester": "^6.7.5"
+			},
+			"scripts": {
+				"build": "rimraf dist && rollup --config=rollup.config.mts --configPlugin=rollup-plugin-esbuild",
+				"dev": "rollup --config=rollup.config.mts --configPlugin=rollup-plugin-esbuild --watch"
+			},
+			"description": "TypeScript stylistic rules for ESLint, migrated from [`typescript-eslint`](https://github.com/typescript-eslint/typescript-eslint).",
+			"_id": "@stylistic/eslint-plugin-ts@0.0.11",
+			"_integrity": "sha512-pqXk5bplEpQVP0B9Isci/8DJq0dQfAUdNHwwax2t9pcPeUUKDylVuP4L5zqo/2K1GplZxmhV5l5u4gLfX2Qqzw==",
+			"_resolved": "/private/var/folders/30/nymxcyb909ggq2j5lwn7b_600000gn/T/a70ee61b40778eef7c53d8c5faeec594/stylistic-eslint-plugin-ts-0.0.11.tgz",
+			"_from": "file:stylistic-eslint-plugin-ts-0.0.11.tgz",
+			"_nodeVersion": "20.4.0",
+			"_npmVersion": "9.7.2",
+			"dist": {
+				"integrity": "sha512-pqXk5bplEpQVP0B9Isci/8DJq0dQfAUdNHwwax2t9pcPeUUKDylVuP4L5zqo/2K1GplZxmhV5l5u4gLfX2Qqzw==",
+				"shasum": "a8e1e43b518578bf5f317c85e6673d59d3dec545",
+				"tarball": "https://registry.npmjs.org/@stylistic/eslint-plugin-ts/-/eslint-plugin-ts-0.0.11.tgz",
+				"fileCount": 27,
+				"unpackedSize": 135679,
+				"signatures": [
+					{
+						"keyid": "SHA256:jl3bwswu80PjjokCgh0o2w5c2U4LhQAE57gj9cz1kzA",
+						"sig": "MEQCIAJwLdd0m5hjC9xfSKX7MITOy4QtLOM7zr5Jd7DI9XVpAiAUx5q++nkpLaKHZ2SFB4kCl6/6Lapnk702cW5L2MsuiA=="
+					}
+				]
+			},
+			"_npmUser": {
+				"name": "antfu",
+				"email": "anthonyfu117@hotmail.com"
+			},
+			"directories": {},
+			"maintainers": [
+				{
+					"name": "antfu",
+					"email": "anthonyfu117@hotmail.com"
+				}
+			],
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/eslint-plugin-ts_0.0.11_1697204576954_0.49170860877257905"
+			},
+			"_hasShrinkwrap": false,
+			"contributors": []
+		},
+		"0.0.12": {
+			"name": "@stylistic/eslint-plugin-ts",
+			"version": "0.0.12",
+			"author": {
+				"name": "Anthony Fu",
+				"email": "anthonyfu117@hotmail.com"
+			},
+			"license": "MIT",
+			"homepage": "https://github.com/eslint-stylistic/eslint-stylistic#readme",
+			"repository": {
+				"directory": "packages/eslint-plugin-ts",
+				"type": "git",
+				"url": "git+https://github.com/eslint-stylistic/eslint-stylistic.git"
+			},
+			"bugs": {
+				"url": "https://github.com/eslint-stylistic/eslint-stylistic/issues"
+			},
+			"exports": {
+				".": {
+					"types": "./dts/index.d.ts",
+					"require": "./dist/index.js",
+					"default": "./dist/index.js"
+				},
+				"./define-config-support": {
+					"types": "./dts/define-config-support.d.ts"
+				},
+				"./rule-options": {
+					"types": "./dts/rule-options.d.ts"
+				}
+			},
+			"main": "./dist/index.js",
+			"types": "./dts/index.d.ts",
+			"peerDependencies": {
+				"eslint": "*"
+			},
+			"dependencies": {
+				"@typescript-eslint/scope-manager": "^6.7.5",
+				"@typescript-eslint/type-utils": "^6.7.5",
+				"@typescript-eslint/utils": "^6.7.5",
+				"graphemer": "^1.4.0",
+				"@stylistic/eslint-plugin-js": "0.0.12"
+			},
+			"devDependencies": {
+				"@typescript-eslint/rule-tester": "^6.7.5"
+			},
+			"scripts": {
+				"build": "rimraf dist && rollup --config=rollup.config.mts --configPlugin=rollup-plugin-esbuild",
+				"dev": "rollup --config=rollup.config.mts --configPlugin=rollup-plugin-esbuild --watch"
+			},
+			"description": "TypeScript stylistic rules for ESLint, migrated from [`typescript-eslint`](https://github.com/typescript-eslint/typescript-eslint).",
+			"_id": "@stylistic/eslint-plugin-ts@0.0.12",
+			"_integrity": "sha512-ZQNu6+5U70MsIKbIwBXa/mKRnOPm5HJfZ23wl+7DsYnZt7E2ABxU55vQNf3s/KahG6UlWfftwibVMwNU1fjkrw==",
+			"_resolved": "/private/var/folders/30/nymxcyb909ggq2j5lwn7b_600000gn/T/a8a0a34bf170a9bffcc9cc16180221c6/stylistic-eslint-plugin-ts-0.0.12.tgz",
+			"_from": "file:stylistic-eslint-plugin-ts-0.0.12.tgz",
+			"_nodeVersion": "20.4.0",
+			"_npmVersion": "9.7.2",
+			"dist": {
+				"integrity": "sha512-ZQNu6+5U70MsIKbIwBXa/mKRnOPm5HJfZ23wl+7DsYnZt7E2ABxU55vQNf3s/KahG6UlWfftwibVMwNU1fjkrw==",
+				"shasum": "df72d789dbc33a469cbbe32b3fd6de3581f8e56e",
+				"tarball": "https://registry.npmjs.org/@stylistic/eslint-plugin-ts/-/eslint-plugin-ts-0.0.12.tgz",
+				"fileCount": 27,
+				"unpackedSize": 135679,
+				"signatures": [
+					{
+						"keyid": "SHA256:jl3bwswu80PjjokCgh0o2w5c2U4LhQAE57gj9cz1kzA",
+						"sig": "MEYCIQD5uppSPny5YOiZhSVGiDVkapCrZcJyI6V3yovlsAwAMQIhANNWlmGO67brgPG8/cc9K2htvUAb8eRojmX61FtbgOl1"
+					}
+				]
+			},
+			"_npmUser": {
+				"name": "antfu",
+				"email": "anthonyfu117@hotmail.com"
+			},
+			"directories": {},
+			"maintainers": [
+				{
+					"name": "antfu",
+					"email": "anthonyfu117@hotmail.com"
+				}
+			],
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/eslint-plugin-ts_0.0.12_1697567345983_0.8288339177028985"
+			},
+			"_hasShrinkwrap": false,
+			"contributors": []
+		},
+		"0.1.0": {
+			"name": "@stylistic/eslint-plugin-ts",
+			"version": "0.1.0",
+			"author": {
+				"name": "Anthony Fu",
+				"email": "anthonyfu117@hotmail.com"
+			},
+			"license": "MIT",
+			"homepage": "https://github.com/eslint-stylistic/eslint-stylistic#readme",
+			"repository": {
+				"directory": "packages/eslint-plugin-ts",
+				"type": "git",
+				"url": "git+https://github.com/eslint-stylistic/eslint-stylistic.git"
+			},
+			"bugs": {
+				"url": "https://github.com/eslint-stylistic/eslint-stylistic/issues"
+			},
+			"exports": {
+				".": {
+					"types": "./dts/index.d.ts",
+					"require": "./dist/index.js",
+					"default": "./dist/index.js"
+				},
+				"./define-config-support": {
+					"types": "./dts/define-config-support.d.ts"
+				},
+				"./rule-options": {
+					"types": "./dts/rule-options.d.ts"
+				}
+			},
+			"main": "./dist/index.js",
+			"types": "./dts/index.d.ts",
+			"peerDependencies": {
+				"eslint": "*"
+			},
+			"dependencies": {
+				"@typescript-eslint/scope-manager": "^6.7.5",
+				"@typescript-eslint/type-utils": "^6.7.5",
+				"@typescript-eslint/utils": "^6.7.5",
+				"graphemer": "^1.4.0",
+				"@stylistic/eslint-plugin-js": "0.1.0"
+			},
+			"devDependencies": {
+				"@typescript-eslint/rule-tester": "^6.7.5"
+			},
+			"scripts": {
+				"build": "rimraf dist && rollup --config=rollup.config.mts --configPlugin=rollup-plugin-esbuild",
+				"dev": "rollup --config=rollup.config.mts --configPlugin=rollup-plugin-esbuild --watch"
+			},
+			"description": "TypeScript stylistic rules for ESLint, migrated from [`typescript-eslint`](https://github.com/typescript-eslint/typescript-eslint).",
+			"_id": "@stylistic/eslint-plugin-ts@0.1.0",
+			"_integrity": "sha512-NKepgz5yliapNdNCRlx6NWtLASSR44M4SsmwGIpDGJbPnyrfeP8KpfHjEmZheu8NhXg5hm+WKLV6doq+rpeutw==",
+			"_resolved": "/private/var/folders/30/nymxcyb909ggq2j5lwn7b_600000gn/T/550a418ecba7547552b7b25d435254b7/stylistic-eslint-plugin-ts-0.1.0.tgz",
+			"_from": "file:stylistic-eslint-plugin-ts-0.1.0.tgz",
+			"_nodeVersion": "20.4.0",
+			"_npmVersion": "9.7.2",
+			"dist": {
+				"integrity": "sha512-NKepgz5yliapNdNCRlx6NWtLASSR44M4SsmwGIpDGJbPnyrfeP8KpfHjEmZheu8NhXg5hm+WKLV6doq+rpeutw==",
+				"shasum": "536fd81036db811064fab503293af910a351b747",
+				"tarball": "https://registry.npmjs.org/@stylistic/eslint-plugin-ts/-/eslint-plugin-ts-0.1.0.tgz",
+				"fileCount": 27,
+				"unpackedSize": 135677,
+				"signatures": [
+					{
+						"keyid": "SHA256:jl3bwswu80PjjokCgh0o2w5c2U4LhQAE57gj9cz1kzA",
+						"sig": "MEYCIQD7PSIQGDgHAqEP8H0YEWWPfgGTDHMFZAOLA/9+uWUoMgIhAOggYpjvO9I3F/vB3JxR97GPwduHxOtyVocE4iZ4v+Rg"
+					}
+				]
+			},
+			"_npmUser": {
+				"name": "antfu",
+				"email": "anthonyfu117@hotmail.com"
+			},
+			"directories": {},
+			"maintainers": [
+				{
+					"name": "antfu",
+					"email": "anthonyfu117@hotmail.com"
+				}
+			],
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/eslint-plugin-ts_0.1.0_1697744498606_0.5927535366055365"
+			},
+			"_hasShrinkwrap": false,
+			"contributors": []
+		},
+		"0.1.1": {
+			"name": "@stylistic/eslint-plugin-ts",
+			"version": "0.1.1",
+			"author": {
+				"name": "Anthony Fu",
+				"email": "anthonyfu117@hotmail.com"
+			},
+			"license": "MIT",
+			"homepage": "https://github.com/eslint-stylistic/eslint-stylistic#readme",
+			"repository": {
+				"directory": "packages/eslint-plugin-ts",
+				"type": "git",
+				"url": "git+https://github.com/eslint-stylistic/eslint-stylistic.git"
+			},
+			"bugs": {
+				"url": "https://github.com/eslint-stylistic/eslint-stylistic/issues"
+			},
+			"exports": {
+				".": {
+					"types": "./dts/index.d.ts",
+					"require": "./dist/index.js",
+					"default": "./dist/index.js"
+				},
+				"./define-config-support": {
+					"types": "./dts/define-config-support.d.ts"
+				},
+				"./rule-options": {
+					"types": "./dts/rule-options.d.ts"
+				}
+			},
+			"main": "./dist/index.js",
+			"types": "./dts/index.d.ts",
+			"peerDependencies": {
+				"eslint": "*"
+			},
+			"dependencies": {
+				"@typescript-eslint/scope-manager": "^6.8.0",
+				"@typescript-eslint/type-utils": "^6.8.0",
+				"@typescript-eslint/utils": "^6.8.0",
+				"graphemer": "^1.4.0",
+				"@stylistic/eslint-plugin-js": "0.1.1"
+			},
+			"devDependencies": {
+				"@typescript-eslint/rule-tester": "^6.8.0"
+			},
+			"scripts": {
+				"build": "rimraf dist && rollup --config=rollup.config.mts --configPlugin=rollup-plugin-esbuild",
+				"dev": "rollup --config=rollup.config.mts --configPlugin=rollup-plugin-esbuild --watch"
+			},
+			"description": "TypeScript stylistic rules for ESLint, migrated from [`typescript-eslint`](https://github.com/typescript-eslint/typescript-eslint).",
+			"_id": "@stylistic/eslint-plugin-ts@0.1.1",
+			"_integrity": "sha512-mJHYWzljqrDykOop60nyCAXRp4LLstfNQWXxubJFMOz5tlAoqd2Mex60TCa/fctPhaOd36f/lu1CuU9WgFh+DA==",
+			"_resolved": "/private/var/folders/30/nymxcyb909ggq2j5lwn7b_600000gn/T/27c87d775f9dfd01671318fa9185d85d/stylistic-eslint-plugin-ts-0.1.1.tgz",
+			"_from": "file:stylistic-eslint-plugin-ts-0.1.1.tgz",
+			"_nodeVersion": "20.4.0",
+			"_npmVersion": "9.7.2",
+			"dist": {
+				"integrity": "sha512-mJHYWzljqrDykOop60nyCAXRp4LLstfNQWXxubJFMOz5tlAoqd2Mex60TCa/fctPhaOd36f/lu1CuU9WgFh+DA==",
+				"shasum": "3e982efc9392ef730541f0443c50e9fc322be5f2",
+				"tarball": "https://registry.npmjs.org/@stylistic/eslint-plugin-ts/-/eslint-plugin-ts-0.1.1.tgz",
+				"fileCount": 46,
+				"unpackedSize": 149019,
+				"signatures": [
+					{
+						"keyid": "SHA256:jl3bwswu80PjjokCgh0o2w5c2U4LhQAE57gj9cz1kzA",
+						"sig": "MEQCIEoN63z8rWv1EPpAvOzS613lytaC63s9gCPXcPbXgj0WAiB5zcnbIJUgb4xgL71L0Nmfx/O5dCCvqxFwsaY1Nbt2uw=="
+					}
+				]
+			},
+			"_npmUser": {
+				"name": "antfu",
+				"email": "anthonyfu117@hotmail.com"
+			},
+			"directories": {},
+			"maintainers": [
+				{
+					"name": "antfu",
+					"email": "anthonyfu117@hotmail.com"
+				}
+			],
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/eslint-plugin-ts_0.1.1_1698028751141_0.4116890028094662"
+			},
+			"_hasShrinkwrap": false,
+			"contributors": []
+		},
+		"0.1.2": {
+			"name": "@stylistic/eslint-plugin-ts",
+			"version": "0.1.2",
+			"author": {
+				"name": "Anthony Fu",
+				"email": "anthonyfu117@hotmail.com"
+			},
+			"license": "MIT",
+			"homepage": "https://github.com/eslint-stylistic/eslint-stylistic#readme",
+			"repository": {
+				"directory": "packages/eslint-plugin-ts",
+				"type": "git",
+				"url": "git+https://github.com/eslint-stylistic/eslint-stylistic.git"
+			},
+			"bugs": {
+				"url": "https://github.com/eslint-stylistic/eslint-stylistic/issues"
+			},
+			"exports": {
+				".": {
+					"types": "./dts/index.d.ts",
+					"require": "./dist/index.js",
+					"default": "./dist/index.js"
+				},
+				"./define-config-support": {
+					"types": "./dts/define-config-support.d.ts"
+				},
+				"./rule-options": {
+					"types": "./dts/rule-options.d.ts"
+				}
+			},
+			"main": "./dist/index.js",
+			"types": "./dts/index.d.ts",
+			"peerDependencies": {
+				"eslint": "*"
+			},
+			"dependencies": {
+				"@typescript-eslint/scope-manager": "^6.8.0",
+				"@typescript-eslint/type-utils": "^6.8.0",
+				"@typescript-eslint/utils": "^6.8.0",
+				"graphemer": "^1.4.0",
+				"@stylistic/eslint-plugin-js": "0.1.2"
+			},
+			"devDependencies": {
+				"@typescript-eslint/rule-tester": "^6.8.0"
+			},
+			"scripts": {
+				"build": "rimraf dist && rollup --config=rollup.config.mts --configPlugin=rollup-plugin-esbuild",
+				"dev": "rollup --config=rollup.config.mts --configPlugin=rollup-plugin-esbuild --watch"
+			},
+			"description": "TypeScript stylistic rules for ESLint, migrated from [`typescript-eslint`](https://github.com/typescript-eslint/typescript-eslint).",
+			"_id": "@stylistic/eslint-plugin-ts@0.1.2",
+			"_integrity": "sha512-Kc/YjiLBtZ09yPubCOqn6zHnqClB2D8fy+CPRM/kmV0bkY04Sj1W2MXcYHg5iHrZ/ZXbbUVuVAEaO4j8D+Ol+Q==",
+			"_resolved": "/private/var/folders/30/nymxcyb909ggq2j5lwn7b_600000gn/T/048f9b9952853f712e4fd42620f80097/stylistic-eslint-plugin-ts-0.1.2.tgz",
+			"_from": "file:stylistic-eslint-plugin-ts-0.1.2.tgz",
+			"_nodeVersion": "20.4.0",
+			"_npmVersion": "9.7.2",
+			"dist": {
+				"integrity": "sha512-Kc/YjiLBtZ09yPubCOqn6zHnqClB2D8fy+CPRM/kmV0bkY04Sj1W2MXcYHg5iHrZ/ZXbbUVuVAEaO4j8D+Ol+Q==",
+				"shasum": "0026e1b3d2f6efd02cb1e561a897c6cccd9a935a",
+				"tarball": "https://registry.npmjs.org/@stylistic/eslint-plugin-ts/-/eslint-plugin-ts-0.1.2.tgz",
+				"fileCount": 50,
+				"unpackedSize": 160052,
+				"signatures": [
+					{
+						"keyid": "SHA256:jl3bwswu80PjjokCgh0o2w5c2U4LhQAE57gj9cz1kzA",
+						"sig": "MEUCIQDkJptNxYquMj4u6PeQK9Cn4IejS60OEWOAG5FVdl3CKwIga2oJ77yQ0Jve1Iht2d3LsytEGUApOJ29nVKtbhgQnKs="
+					}
+				]
+			},
+			"_npmUser": {
+				"name": "antfu",
+				"email": "anthonyfu117@hotmail.com"
+			},
+			"directories": {},
+			"maintainers": [
+				{
+					"name": "antfu",
+					"email": "anthonyfu117@hotmail.com"
+				}
+			],
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/eslint-plugin-ts_0.1.2_1698552866556_0.02964571887650891"
+			},
+			"_hasShrinkwrap": false,
+			"contributors": []
+		},
+		"1.0.0": {
+			"name": "@stylistic/eslint-plugin-ts",
+			"version": "1.0.0",
+			"author": {
+				"name": "Anthony Fu",
+				"email": "anthonyfu117@hotmail.com"
+			},
+			"license": "MIT",
+			"homepage": "https://github.com/eslint-stylistic/eslint-stylistic#readme",
+			"repository": {
+				"directory": "packages/eslint-plugin-ts",
+				"type": "git",
+				"url": "git+https://github.com/eslint-stylistic/eslint-stylistic.git"
+			},
+			"bugs": {
+				"url": "https://github.com/eslint-stylistic/eslint-stylistic/issues"
+			},
+			"exports": {
+				".": {
+					"types": "./dts/index.d.ts",
+					"require": "./dist/index.js",
+					"default": "./dist/index.js"
+				},
+				"./define-config-support": {
+					"types": "./dts/define-config-support.d.ts"
+				},
+				"./rule-options": {
+					"types": "./dts/rule-options.d.ts"
+				}
+			},
+			"main": "./dist/index.js",
+			"types": "./dts/index.d.ts",
+			"peerDependencies": {
+				"eslint": "*"
+			},
+			"dependencies": {
+				"@typescript-eslint/scope-manager": "^6.8.0",
+				"@typescript-eslint/type-utils": "^6.8.0",
+				"@typescript-eslint/utils": "^6.8.0",
+				"graphemer": "^1.4.0",
+				"@stylistic/eslint-plugin-js": "1.0.0"
+			},
+			"devDependencies": {
+				"@typescript-eslint/rule-tester": "^6.8.0"
+			},
+			"scripts": {
+				"build": "rimraf dist && rollup --config=rollup.config.mts --configPlugin=rollup-plugin-esbuild",
+				"dev": "rollup --config=rollup.config.mts --configPlugin=rollup-plugin-esbuild --watch"
+			},
+			"description": "TypeScript stylistic rules for ESLint, migrated from [`typescript-eslint`](https://github.com/typescript-eslint/typescript-eslint).",
+			"_id": "@stylistic/eslint-plugin-ts@1.0.0",
+			"_integrity": "sha512-qQKXYWJzovSNsPq1954t6DNbDA7+1c4ximVH4CuubPV+3I8qCeO33vF6wSpyP27LgxXAx0mHIDw/YaaoM7dQoQ==",
+			"_resolved": "/private/var/folders/30/nymxcyb909ggq2j5lwn7b_600000gn/T/ef57bf8ecc6ae0e9a76f209c83f863eb/stylistic-eslint-plugin-ts-1.0.0.tgz",
+			"_from": "file:stylistic-eslint-plugin-ts-1.0.0.tgz",
+			"_nodeVersion": "20.4.0",
+			"_npmVersion": "9.7.2",
+			"dist": {
+				"integrity": "sha512-qQKXYWJzovSNsPq1954t6DNbDA7+1c4ximVH4CuubPV+3I8qCeO33vF6wSpyP27LgxXAx0mHIDw/YaaoM7dQoQ==",
+				"shasum": "aff6dfe230f13c67510bb2880910d9b1b9afdce2",
+				"tarball": "https://registry.npmjs.org/@stylistic/eslint-plugin-ts/-/eslint-plugin-ts-1.0.0.tgz",
+				"fileCount": 50,
+				"unpackedSize": 160052,
+				"signatures": [
+					{
+						"keyid": "SHA256:jl3bwswu80PjjokCgh0o2w5c2U4LhQAE57gj9cz1kzA",
+						"sig": "MEUCIQChRYucF0Uig0WI4hYw/Y+LFCg2ZwXnhpFJ8bU61bhcPQIgQaxYIDdJRpZvupgsxwH40vuY5M0VrIlYj5Cels0S10w="
+					}
+				]
+			},
+			"_npmUser": {
+				"name": "antfu",
+				"email": "anthonyfu117@hotmail.com"
+			},
+			"directories": {},
+			"maintainers": [
+				{
+					"name": "antfu",
+					"email": "anthonyfu117@hotmail.com"
+				}
+			],
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/eslint-plugin-ts_1.0.0_1698932502435_0.352353939451558"
+			},
+			"_hasShrinkwrap": false,
+			"contributors": []
+		},
+		"1.0.1": {
+			"name": "@stylistic/eslint-plugin-ts",
+			"version": "1.0.1",
+			"author": {
+				"name": "Anthony Fu",
+				"email": "anthonyfu117@hotmail.com"
+			},
+			"license": "MIT",
+			"homepage": "https://github.com/eslint-stylistic/eslint-stylistic#readme",
+			"repository": {
+				"directory": "packages/eslint-plugin-ts",
+				"type": "git",
+				"url": "git+https://github.com/eslint-stylistic/eslint-stylistic.git"
+			},
+			"bugs": {
+				"url": "https://github.com/eslint-stylistic/eslint-stylistic/issues"
+			},
+			"exports": {
+				".": {
+					"types": "./dts/index.d.ts",
+					"require": "./dist/index.js",
+					"default": "./dist/index.js"
+				},
+				"./define-config-support": {
+					"types": "./dts/define-config-support.d.ts"
+				},
+				"./rule-options": {
+					"types": "./dts/rule-options.d.ts"
+				}
+			},
+			"main": "./dist/index.js",
+			"types": "./dts/index.d.ts",
+			"peerDependencies": {
+				"eslint": "*"
+			},
+			"dependencies": {
+				"@typescript-eslint/scope-manager": "^6.10.0",
+				"@typescript-eslint/type-utils": "^6.10.0",
+				"@typescript-eslint/utils": "^6.10.0",
+				"graphemer": "^1.4.0",
+				"@stylistic/eslint-plugin-js": "1.0.1"
+			},
+			"devDependencies": {
+				"@typescript-eslint/rule-tester": "^6.10.0"
+			},
+			"scripts": {
+				"build": "rimraf dist && rollup --config=rollup.config.mts --configPlugin=rollup-plugin-esbuild",
+				"dev": "rollup --config=rollup.config.mts --configPlugin=rollup-plugin-esbuild --watch"
+			},
+			"description": "TypeScript stylistic rules for ESLint, migrated from [`typescript-eslint`](https://github.com/typescript-eslint/typescript-eslint).",
+			"_id": "@stylistic/eslint-plugin-ts@1.0.1",
+			"_integrity": "sha512-7ps/+DAlo9CdjjMB3u0aPyFTDI+QiR6DRK61nkmAO7BZ4xQfsJn2425trFyfIerAoHV61mP00bdpzmMk586IOg==",
+			"_resolved": "/private/var/folders/30/nymxcyb909ggq2j5lwn7b_600000gn/T/b374c1d62eebb4f55d46d11fe394f785/stylistic-eslint-plugin-ts-1.0.1.tgz",
+			"_from": "file:stylistic-eslint-plugin-ts-1.0.1.tgz",
+			"_nodeVersion": "20.4.0",
+			"_npmVersion": "9.7.2",
+			"dist": {
+				"integrity": "sha512-7ps/+DAlo9CdjjMB3u0aPyFTDI+QiR6DRK61nkmAO7BZ4xQfsJn2425trFyfIerAoHV61mP00bdpzmMk586IOg==",
+				"shasum": "d5dbb3901e746f0d08cbc934025423305e1461ff",
+				"tarball": "https://registry.npmjs.org/@stylistic/eslint-plugin-ts/-/eslint-plugin-ts-1.0.1.tgz",
+				"fileCount": 72,
+				"unpackedSize": 188064,
+				"signatures": [
+					{
+						"keyid": "SHA256:jl3bwswu80PjjokCgh0o2w5c2U4LhQAE57gj9cz1kzA",
+						"sig": "MEQCIGC5I0eb/xDRdkITxcFE30qHBZhK2o+F/PFkEr6PcyGuAiAoo74pxieDwR1i3DNmb0onQDRtPfoOD/35IU7be/wGuw=="
+					}
+				]
+			},
+			"_npmUser": {
+				"name": "antfu",
+				"email": "anthonyfu117@hotmail.com"
+			},
+			"directories": {},
+			"maintainers": [
+				{
+					"name": "antfu",
+					"email": "anthonyfu117@hotmail.com"
+				}
+			],
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/eslint-plugin-ts_1.0.1_1699367957688_0.18906560287938468"
+			},
+			"_hasShrinkwrap": false,
+			"contributors": []
+		},
+		"1.1.0-beta.0": {
+			"name": "@stylistic/eslint-plugin-ts",
+			"version": "1.1.0-beta.0",
+			"author": {
+				"name": "Anthony Fu",
+				"email": "anthonyfu117@hotmail.com"
+			},
+			"license": "MIT",
+			"homepage": "https://github.com/eslint-stylistic/eslint-stylistic#readme",
+			"repository": {
+				"directory": "packages/eslint-plugin-ts",
+				"type": "git",
+				"url": "git+https://github.com/eslint-stylistic/eslint-stylistic.git"
+			},
+			"bugs": {
+				"url": "https://github.com/eslint-stylistic/eslint-stylistic/issues"
+			},
+			"exports": {
+				".": {
+					"types": "./dts/index.d.ts",
+					"require": "./dist/index.js",
+					"default": "./dist/index.js"
+				},
+				"./define-config-support": {
+					"types": "./dts/define-config-support.d.ts"
+				},
+				"./rule-options": {
+					"types": "./dts/rule-options.d.ts"
+				},
+				"./rules/block-spacing": "./dist/block-spacing.js",
+				"./rules/brace-style": "./dist/brace-style.js",
+				"./rules/comma-dangle": "./dist/comma-dangle.js",
+				"./rules/comma-spacing": "./dist/comma-spacing.js",
+				"./rules/func-call-spacing": "./dist/func-call-spacing.js",
+				"./rules/indent": "./dist/indent.js",
+				"./rules/key-spacing": "./dist/key-spacing.js",
+				"./rules/keyword-spacing": "./dist/keyword-spacing.js",
+				"./rules/lines-around-comment": "./dist/lines-around-comment.js",
+				"./rules/lines-between-class-members": "./dist/lines-between-class-members.js",
+				"./rules/member-delimiter-style": "./dist/member-delimiter-style.js",
+				"./rules/no-extra-parens": "./dist/no-extra-parens.js",
+				"./rules/no-extra-semi": "./dist/no-extra-semi.js",
+				"./rules/object-curly-spacing": "./dist/object-curly-spacing.js",
+				"./rules/padding-line-between-statements": "./dist/padding-line-between-statements.js",
+				"./rules/quotes": "./dist/quotes.js",
+				"./rules/semi": "./dist/semi.js",
+				"./rules/space-before-blocks": "./dist/space-before-blocks.js",
+				"./rules/space-before-function-paren": "./dist/space-before-function-paren.js",
+				"./rules/space-infix-ops": "./dist/space-infix-ops.js",
+				"./rules/type-annotation-spacing": "./dist/type-annotation-spacing.js"
+			},
+			"main": "./dist/index.js",
+			"types": "./dts/index.d.ts",
+			"peerDependencies": {
+				"eslint": "*"
+			},
+			"dependencies": {
+				"@typescript-eslint/utils": "^6.10.0",
+				"graphemer": "^1.4.0",
+				"@stylistic/eslint-plugin-js": "1.1.0-beta.0"
+			},
+			"devDependencies": {
+				"@typescript-eslint/rule-tester": "^6.10.0"
+			},
+			"scripts": {
+				"build": "rimraf dist && rollup --config=rollup.config.mts --configPlugin=rollup-plugin-esbuild",
+				"dev": "rollup --config=rollup.config.mts --configPlugin=rollup-plugin-esbuild --watch"
+			},
+			"readmeFilename": "README.md",
+			"description": "TypeScript stylistic rules for ESLint, migrated from [`typescript-eslint`](https://github.com/typescript-eslint/typescript-eslint).",
+			"_id": "@stylistic/eslint-plugin-ts@1.1.0-beta.0",
+			"_integrity": "sha512-hr9y/Wdq6ZiWc8LgStukpYOPaYLvGjVu4HOJaDGVSbbP9ruWNzrHvSKZUYhiuK0mPnDgDbGHjwsmFVz6+9j5lg==",
+			"_resolved": "/private/var/folders/30/nymxcyb909ggq2j5lwn7b_600000gn/T/e9b5500249bc78b4710965cfe91ddae0/stylistic-eslint-plugin-ts-1.1.0-beta.0.tgz",
+			"_from": "file:stylistic-eslint-plugin-ts-1.1.0-beta.0.tgz",
+			"_nodeVersion": "20.4.0",
+			"_npmVersion": "9.7.2",
+			"dist": {
+				"integrity": "sha512-hr9y/Wdq6ZiWc8LgStukpYOPaYLvGjVu4HOJaDGVSbbP9ruWNzrHvSKZUYhiuK0mPnDgDbGHjwsmFVz6+9j5lg==",
+				"shasum": "fdfe3075889addbaed2dda8eddbfa26a662bd415",
+				"tarball": "https://registry.npmjs.org/@stylistic/eslint-plugin-ts/-/eslint-plugin-ts-1.1.0-beta.0.tgz",
+				"fileCount": 73,
+				"unpackedSize": 174409,
+				"signatures": [
+					{
+						"keyid": "SHA256:jl3bwswu80PjjokCgh0o2w5c2U4LhQAE57gj9cz1kzA",
+						"sig": "MEYCIQChrPcsG1bFGgKPCDKcHPN/8wfQBqzXhtkdIUXvA/9yKgIhAMgLNU8nku+wfxpqIj8k8sp8Ohft6eLKTF54qccyyTj1"
+					}
+				]
+			},
+			"_npmUser": {
+				"name": "antfu",
+				"email": "anthonyfu117@hotmail.com"
+			},
+			"directories": {},
+			"maintainers": [
+				{
+					"name": "antfu",
+					"email": "anthonyfu117@hotmail.com"
+				}
+			],
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/eslint-plugin-ts_1.1.0-beta.0_1699699107412_0.18098428239862208"
+			},
+			"_hasShrinkwrap": false,
+			"contributors": []
+		},
+		"1.1.0": {
+			"name": "@stylistic/eslint-plugin-ts",
+			"version": "1.1.0",
+			"author": {
+				"name": "Anthony Fu",
+				"email": "anthonyfu117@hotmail.com"
+			},
+			"license": "MIT",
+			"homepage": "https://github.com/eslint-stylistic/eslint-stylistic#readme",
+			"repository": {
+				"directory": "packages/eslint-plugin-ts",
+				"type": "git",
+				"url": "git+https://github.com/eslint-stylistic/eslint-stylistic.git"
+			},
+			"bugs": {
+				"url": "https://github.com/eslint-stylistic/eslint-stylistic/issues"
+			},
+			"exports": {
+				".": {
+					"types": "./dts/index.d.ts",
+					"require": "./dist/index.js",
+					"default": "./dist/index.js"
+				},
+				"./define-config-support": {
+					"types": "./dts/define-config-support.d.ts"
+				},
+				"./rule-options": {
+					"types": "./dts/rule-options.d.ts"
+				},
+				"./rules/block-spacing": "./dist/block-spacing.js",
+				"./rules/brace-style": "./dist/brace-style.js",
+				"./rules/comma-dangle": "./dist/comma-dangle.js",
+				"./rules/comma-spacing": "./dist/comma-spacing.js",
+				"./rules/func-call-spacing": "./dist/func-call-spacing.js",
+				"./rules/indent": "./dist/indent.js",
+				"./rules/key-spacing": "./dist/key-spacing.js",
+				"./rules/keyword-spacing": "./dist/keyword-spacing.js",
+				"./rules/lines-around-comment": "./dist/lines-around-comment.js",
+				"./rules/lines-between-class-members": "./dist/lines-between-class-members.js",
+				"./rules/member-delimiter-style": "./dist/member-delimiter-style.js",
+				"./rules/no-extra-parens": "./dist/no-extra-parens.js",
+				"./rules/no-extra-semi": "./dist/no-extra-semi.js",
+				"./rules/object-curly-spacing": "./dist/object-curly-spacing.js",
+				"./rules/padding-line-between-statements": "./dist/padding-line-between-statements.js",
+				"./rules/quotes": "./dist/quotes.js",
+				"./rules/semi": "./dist/semi.js",
+				"./rules/space-before-blocks": "./dist/space-before-blocks.js",
+				"./rules/space-before-function-paren": "./dist/space-before-function-paren.js",
+				"./rules/space-infix-ops": "./dist/space-infix-ops.js",
+				"./rules/type-annotation-spacing": "./dist/type-annotation-spacing.js"
+			},
+			"main": "./dist/index.js",
+			"types": "./dts/index.d.ts",
+			"peerDependencies": {
+				"eslint": "*"
+			},
+			"dependencies": {
+				"@typescript-eslint/utils": "^6.10.0",
+				"graphemer": "^1.4.0",
+				"@stylistic/eslint-plugin-js": "1.1.0"
+			},
+			"devDependencies": {
+				"@typescript-eslint/rule-tester": "^6.10.0"
+			},
+			"scripts": {
+				"build": "rimraf dist && rollup --config=rollup.config.mts --configPlugin=rollup-plugin-esbuild",
+				"dev": "rollup --config=rollup.config.mts --configPlugin=rollup-plugin-esbuild --watch"
+			},
+			"description": "TypeScript stylistic rules for ESLint, migrated from [`typescript-eslint`](https://github.com/typescript-eslint/typescript-eslint).",
+			"_id": "@stylistic/eslint-plugin-ts@1.1.0",
+			"_integrity": "sha512-vqlinwzTNSKoFaVcVKE2iVGKX62NKIJfkhEI+5uuufYcAhfjfOK3KQY0zhdUeshEUkBVR0uRrJzH1/Cj/2Unfg==",
+			"_resolved": "/private/var/folders/30/nymxcyb909ggq2j5lwn7b_600000gn/T/594d84a07a517ce32a257b4a8c6c7b61/stylistic-eslint-plugin-ts-1.1.0.tgz",
+			"_from": "file:stylistic-eslint-plugin-ts-1.1.0.tgz",
+			"_nodeVersion": "20.4.0",
+			"_npmVersion": "9.7.2",
+			"dist": {
+				"integrity": "sha512-vqlinwzTNSKoFaVcVKE2iVGKX62NKIJfkhEI+5uuufYcAhfjfOK3KQY0zhdUeshEUkBVR0uRrJzH1/Cj/2Unfg==",
+				"shasum": "90f0217321367204e8c25b08de1d15adeca06243",
+				"tarball": "https://registry.npmjs.org/@stylistic/eslint-plugin-ts/-/eslint-plugin-ts-1.1.0.tgz",
+				"fileCount": 73,
+				"unpackedSize": 174395,
+				"signatures": [
+					{
+						"keyid": "SHA256:jl3bwswu80PjjokCgh0o2w5c2U4LhQAE57gj9cz1kzA",
+						"sig": "MEQCIA+8xMuG0+qFaq43T6k3niLWk37/y5ioUbI0mIPLEQuYAiBE+98K7Q4LbelryPDm4wrPaWiYqyOiSpUmfQ7wZcKjkg=="
+					}
+				]
+			},
+			"_npmUser": {
+				"name": "antfu",
+				"email": "anthonyfu117@hotmail.com"
+			},
+			"directories": {},
+			"maintainers": [
+				{
+					"name": "antfu",
+					"email": "anthonyfu117@hotmail.com"
+				}
+			],
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/eslint-plugin-ts_1.1.0_1699704643468_0.8177255162344963"
+			},
+			"_hasShrinkwrap": false,
+			"contributors": []
+		},
+		"1.2.0": {
+			"name": "@stylistic/eslint-plugin-ts",
+			"version": "1.2.0",
+			"author": {
+				"name": "Anthony Fu",
+				"email": "anthonyfu117@hotmail.com"
+			},
+			"license": "MIT",
+			"homepage": "https://github.com/eslint-stylistic/eslint-stylistic#readme",
+			"repository": {
+				"directory": "packages/eslint-plugin-ts",
+				"type": "git",
+				"url": "git+https://github.com/eslint-stylistic/eslint-stylistic.git"
+			},
+			"bugs": {
+				"url": "https://github.com/eslint-stylistic/eslint-stylistic/issues"
+			},
+			"exports": {
+				".": {
+					"types": "./dts/index.d.ts",
+					"require": "./dist/index.js",
+					"default": "./dist/index.js"
+				},
+				"./define-config-support": {
+					"types": "./dts/define-config-support.d.ts"
+				},
+				"./rule-options": {
+					"types": "./dts/rule-options.d.ts"
+				},
+				"./rules/block-spacing": "./dist/block-spacing.js",
+				"./rules/brace-style": "./dist/brace-style.js",
+				"./rules/comma-dangle": "./dist/comma-dangle.js",
+				"./rules/comma-spacing": "./dist/comma-spacing.js",
+				"./rules/func-call-spacing": "./dist/func-call-spacing.js",
+				"./rules/function-call-spacing": "./dist/function-call-spacing.js",
+				"./rules/indent": "./dist/indent.js",
+				"./rules/key-spacing": "./dist/key-spacing.js",
+				"./rules/keyword-spacing": "./dist/keyword-spacing.js",
+				"./rules/lines-around-comment": "./dist/lines-around-comment.js",
+				"./rules/lines-between-class-members": "./dist/lines-between-class-members.js",
+				"./rules/member-delimiter-style": "./dist/member-delimiter-style.js",
+				"./rules/no-extra-parens": "./dist/no-extra-parens.js",
+				"./rules/no-extra-semi": "./dist/no-extra-semi.js",
+				"./rules/object-curly-spacing": "./dist/object-curly-spacing.js",
+				"./rules/padding-line-between-statements": "./dist/padding-line-between-statements.js",
+				"./rules/quotes": "./dist/quotes.js",
+				"./rules/semi": "./dist/semi.js",
+				"./rules/space-before-blocks": "./dist/space-before-blocks.js",
+				"./rules/space-before-function-paren": "./dist/space-before-function-paren.js",
+				"./rules/space-infix-ops": "./dist/space-infix-ops.js",
+				"./rules/type-annotation-spacing": "./dist/type-annotation-spacing.js"
+			},
+			"main": "./dist/index.js",
+			"types": "./dts/index.d.ts",
+			"peerDependencies": {
+				"eslint": "*"
+			},
+			"dependencies": {
+				"@typescript-eslint/utils": "^6.10.0",
+				"graphemer": "^1.4.0",
+				"@stylistic/eslint-plugin-js": "1.2.0"
+			},
+			"devDependencies": {
+				"@typescript-eslint/rule-tester": "^6.10.0"
+			},
+			"scripts": {
+				"build": "rimraf dist && rollup --config=rollup.config.mts --configPlugin=rollup-plugin-esbuild",
+				"dev": "rollup --config=rollup.config.mts --configPlugin=rollup-plugin-esbuild --watch"
+			},
+			"description": "TypeScript stylistic rules for ESLint, migrated from [`typescript-eslint`](https://github.com/typescript-eslint/typescript-eslint).",
+			"_id": "@stylistic/eslint-plugin-ts@1.2.0",
+			"_integrity": "sha512-fWP8Q4K92Gm0qeqvZJk0THlS+8ynX4UluMuY/cJ1g/I4ntY0eNDLs/m1uWGitky33GOnM5DiW8riV8yLRNQ0Fg==",
+			"_resolved": "/private/var/folders/30/nymxcyb909ggq2j5lwn7b_600000gn/T/ca9d6fdac5f9930cb8fc2a9b5f22e6d5/stylistic-eslint-plugin-ts-1.2.0.tgz",
+			"_from": "file:stylistic-eslint-plugin-ts-1.2.0.tgz",
+			"_nodeVersion": "20.4.0",
+			"_npmVersion": "9.7.2",
+			"dist": {
+				"integrity": "sha512-fWP8Q4K92Gm0qeqvZJk0THlS+8ynX4UluMuY/cJ1g/I4ntY0eNDLs/m1uWGitky33GOnM5DiW8riV8yLRNQ0Fg==",
+				"shasum": "801f530e5e2095e857f1d70a988d8bf1f1e07ac3",
+				"tarball": "https://registry.npmjs.org/@stylistic/eslint-plugin-ts/-/eslint-plugin-ts-1.2.0.tgz",
+				"fileCount": 75,
+				"unpackedSize": 178874,
+				"signatures": [
+					{
+						"keyid": "SHA256:jl3bwswu80PjjokCgh0o2w5c2U4LhQAE57gj9cz1kzA",
+						"sig": "MEYCIQDgOtUYVs8Ynfr4JFrWDriOINDnuW2jTGse4488uF8rNgIhAOfK37yM0zLGi33NUyLUbiN2t4xXWt5ySZD2fuUzl9zW"
+					}
+				]
+			},
+			"_npmUser": {
+				"name": "antfu",
+				"email": "anthonyfu117@hotmail.com"
+			},
+			"directories": {},
+			"maintainers": [
+				{
+					"name": "antfu",
+					"email": "anthonyfu117@hotmail.com"
+				}
+			],
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/eslint-plugin-ts_1.2.0_1699891285894_0.2962819578310065"
+			},
+			"_hasShrinkwrap": false,
+			"contributors": []
+		},
+		"1.3.0": {
+			"name": "@stylistic/eslint-plugin-ts",
+			"version": "1.3.0",
+			"author": {
+				"name": "Anthony Fu",
+				"email": "anthonyfu117@hotmail.com"
+			},
+			"license": "MIT",
+			"homepage": "https://github.com/eslint-stylistic/eslint-stylistic#readme",
+			"repository": {
+				"directory": "packages/eslint-plugin-ts",
+				"type": "git",
+				"url": "git+https://github.com/eslint-stylistic/eslint-stylistic.git"
+			},
+			"bugs": {
+				"url": "https://github.com/eslint-stylistic/eslint-stylistic/issues"
+			},
+			"exports": {
+				".": {
+					"types": "./dts/index.d.ts",
+					"require": "./dist/index.js",
+					"default": "./dist/index.js"
+				},
+				"./define-config-support": {
+					"types": "./dts/define-config-support.d.ts"
+				},
+				"./rule-options": {
+					"types": "./dts/rule-options.d.ts"
+				},
+				"./rules/block-spacing": "./dist/block-spacing.js",
+				"./rules/brace-style": "./dist/brace-style.js",
+				"./rules/comma-dangle": "./dist/comma-dangle.js",
+				"./rules/comma-spacing": "./dist/comma-spacing.js",
+				"./rules/func-call-spacing": "./dist/func-call-spacing.js",
+				"./rules/function-call-spacing": "./dist/function-call-spacing.js",
+				"./rules/indent": "./dist/indent.js",
+				"./rules/key-spacing": "./dist/key-spacing.js",
+				"./rules/keyword-spacing": "./dist/keyword-spacing.js",
+				"./rules/lines-around-comment": "./dist/lines-around-comment.js",
+				"./rules/lines-between-class-members": "./dist/lines-between-class-members.js",
+				"./rules/member-delimiter-style": "./dist/member-delimiter-style.js",
+				"./rules/no-extra-parens": "./dist/no-extra-parens.js",
+				"./rules/no-extra-semi": "./dist/no-extra-semi.js",
+				"./rules/object-curly-spacing": "./dist/object-curly-spacing.js",
+				"./rules/padding-line-between-statements": "./dist/padding-line-between-statements.js",
+				"./rules/quotes": "./dist/quotes.js",
+				"./rules/semi": "./dist/semi.js",
+				"./rules/space-before-blocks": "./dist/space-before-blocks.js",
+				"./rules/space-before-function-paren": "./dist/space-before-function-paren.js",
+				"./rules/space-infix-ops": "./dist/space-infix-ops.js",
+				"./rules/type-annotation-spacing": "./dist/type-annotation-spacing.js"
+			},
+			"main": "./dist/index.js",
+			"types": "./dts/index.d.ts",
+			"peerDependencies": {
+				"eslint": "*"
+			},
+			"dependencies": {
+				"@typescript-eslint/utils": "^6.11.0",
+				"graphemer": "^1.4.0",
+				"@stylistic/eslint-plugin-js": "1.3.0"
+			},
+			"devDependencies": {
+				"@typescript-eslint/rule-tester": "^6.11.0"
+			},
+			"scripts": {
+				"build": "rimraf dist && rollup --config=rollup.config.mts --configPlugin=rollup-plugin-esbuild",
+				"dev": "rollup --config=rollup.config.mts --configPlugin=rollup-plugin-esbuild --watch"
+			},
+			"description": "TypeScript stylistic rules for ESLint, migrated from [`typescript-eslint`](https://github.com/typescript-eslint/typescript-eslint).",
+			"_id": "@stylistic/eslint-plugin-ts@1.3.0",
+			"_integrity": "sha512-F0G4fSKyPHRH1K6sWEQV2ing9bWyn/kXS9sYetj25YBd5HtPIxR8twfpYyOa0+u8Rxui3e8NUWHorSuBfNu7vQ==",
+			"_resolved": "/private/var/folders/30/nymxcyb909ggq2j5lwn7b_600000gn/T/a7aadec44117a895421edff64b5d6861/stylistic-eslint-plugin-ts-1.3.0.tgz",
+			"_from": "file:stylistic-eslint-plugin-ts-1.3.0.tgz",
+			"_nodeVersion": "20.4.0",
+			"_npmVersion": "9.7.2",
+			"dist": {
+				"integrity": "sha512-F0G4fSKyPHRH1K6sWEQV2ing9bWyn/kXS9sYetj25YBd5HtPIxR8twfpYyOa0+u8Rxui3e8NUWHorSuBfNu7vQ==",
+				"shasum": "ea4ef7b0b3f06e6da9fcd9f21c6c30b23c097481",
+				"tarball": "https://registry.npmjs.org/@stylistic/eslint-plugin-ts/-/eslint-plugin-ts-1.3.0.tgz",
+				"fileCount": 51,
+				"unpackedSize": 152807,
+				"signatures": [
+					{
+						"keyid": "SHA256:jl3bwswu80PjjokCgh0o2w5c2U4LhQAE57gj9cz1kzA",
+						"sig": "MEUCIBVgkM2z/gKduaMjNOMn5wF7PdrZe4iZKPiXDcPaDI/yAiEAn1RB0u4jLKsfrJu9SLeL2DXCv2qQdxT+N7KalrYilzA="
+					}
+				]
+			},
+			"_npmUser": {
+				"name": "antfu",
+				"email": "anthonyfu117@hotmail.com"
+			},
+			"directories": {},
+			"maintainers": [
+				{
+					"name": "antfu",
+					"email": "anthonyfu117@hotmail.com"
+				}
+			],
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/eslint-plugin-ts_1.3.0_1700193704164_0.7071325473800967"
+			},
+			"_hasShrinkwrap": false,
+			"contributors": []
+		},
+		"1.3.1": {
+			"name": "@stylistic/eslint-plugin-ts",
+			"version": "1.3.1",
+			"author": {
+				"name": "Anthony Fu",
+				"email": "anthonyfu117@hotmail.com"
+			},
+			"license": "MIT",
+			"homepage": "https://github.com/eslint-stylistic/eslint-stylistic#readme",
+			"repository": {
+				"directory": "packages/eslint-plugin-ts",
+				"type": "git",
+				"url": "git+https://github.com/eslint-stylistic/eslint-stylistic.git"
+			},
+			"bugs": {
+				"url": "https://github.com/eslint-stylistic/eslint-stylistic/issues"
+			},
+			"exports": {
+				".": {
+					"types": "./dts/index.d.ts",
+					"require": "./dist/index.js",
+					"default": "./dist/index.js"
+				},
+				"./define-config-support": {
+					"types": "./dts/define-config-support.d.ts"
+				},
+				"./rule-options": {
+					"types": "./dts/rule-options.d.ts"
+				},
+				"./rules/block-spacing": "./dist/block-spacing.js",
+				"./rules/brace-style": "./dist/brace-style.js",
+				"./rules/comma-dangle": "./dist/comma-dangle.js",
+				"./rules/comma-spacing": "./dist/comma-spacing.js",
+				"./rules/func-call-spacing": "./dist/func-call-spacing.js",
+				"./rules/function-call-spacing": "./dist/function-call-spacing.js",
+				"./rules/indent": "./dist/indent.js",
+				"./rules/key-spacing": "./dist/key-spacing.js",
+				"./rules/keyword-spacing": "./dist/keyword-spacing.js",
+				"./rules/lines-around-comment": "./dist/lines-around-comment.js",
+				"./rules/lines-between-class-members": "./dist/lines-between-class-members.js",
+				"./rules/member-delimiter-style": "./dist/member-delimiter-style.js",
+				"./rules/no-extra-parens": "./dist/no-extra-parens.js",
+				"./rules/no-extra-semi": "./dist/no-extra-semi.js",
+				"./rules/object-curly-spacing": "./dist/object-curly-spacing.js",
+				"./rules/padding-line-between-statements": "./dist/padding-line-between-statements.js",
+				"./rules/quotes": "./dist/quotes.js",
+				"./rules/semi": "./dist/semi.js",
+				"./rules/space-before-blocks": "./dist/space-before-blocks.js",
+				"./rules/space-before-function-paren": "./dist/space-before-function-paren.js",
+				"./rules/space-infix-ops": "./dist/space-infix-ops.js",
+				"./rules/type-annotation-spacing": "./dist/type-annotation-spacing.js"
+			},
+			"main": "./dist/index.js",
+			"types": "./dts/index.d.ts",
+			"peerDependencies": {
+				"eslint": "*"
+			},
+			"dependencies": {
+				"@typescript-eslint/utils": "^6.11.0",
+				"graphemer": "^1.4.0",
+				"@stylistic/eslint-plugin-js": "1.3.1"
+			},
+			"devDependencies": {
+				"@typescript-eslint/rule-tester": "^6.11.0"
+			},
+			"scripts": {
+				"build": "rimraf dist && rollup --config=rollup.config.mts --configPlugin=rollup-plugin-esbuild",
+				"dev": "rollup --config=rollup.config.mts --configPlugin=rollup-plugin-esbuild --watch"
+			},
+			"description": "TypeScript stylistic rules for ESLint, migrated from [`typescript-eslint`](https://github.com/typescript-eslint/typescript-eslint).",
+			"_id": "@stylistic/eslint-plugin-ts@1.3.1",
+			"_integrity": "sha512-reMbcxgHOICBKJwMgWIUl6ZdRpSKjG/CHrfXIWlEODGU1np9afO7Mqf4UcxtD0F/FAbrqsEZTLlt5EaH7OBgAw==",
+			"_resolved": "/private/var/folders/30/nymxcyb909ggq2j5lwn7b_600000gn/T/cff1ee5a7fa63be62b8f5175f9edc745/stylistic-eslint-plugin-ts-1.3.1.tgz",
+			"_from": "file:stylistic-eslint-plugin-ts-1.3.1.tgz",
+			"_nodeVersion": "20.4.0",
+			"_npmVersion": "9.7.2",
+			"dist": {
+				"integrity": "sha512-reMbcxgHOICBKJwMgWIUl6ZdRpSKjG/CHrfXIWlEODGU1np9afO7Mqf4UcxtD0F/FAbrqsEZTLlt5EaH7OBgAw==",
+				"shasum": "278f75b6b88ba583b521d3b7f26f20e273dec462",
+				"tarball": "https://registry.npmjs.org/@stylistic/eslint-plugin-ts/-/eslint-plugin-ts-1.3.1.tgz",
+				"fileCount": 51,
+				"unpackedSize": 152807,
+				"signatures": [
+					{
+						"keyid": "SHA256:jl3bwswu80PjjokCgh0o2w5c2U4LhQAE57gj9cz1kzA",
+						"sig": "MEUCIFO83p17q1/df0yzkurZhsVvDStgLzZnaIWIav/iEf40AiEAtYbcbTSsruBdoTQ7GZoaGhxCzQYq2BzSD6p/ATABdv8="
+					}
+				]
+			},
+			"_npmUser": {
+				"name": "antfu",
+				"email": "anthonyfu117@hotmail.com"
+			},
+			"directories": {},
+			"maintainers": [
+				{
+					"name": "antfu",
+					"email": "anthonyfu117@hotmail.com"
+				}
+			],
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/eslint-plugin-ts_1.3.1_1700194777094_0.9085984955919886"
+			},
+			"_hasShrinkwrap": false,
+			"contributors": []
+		},
+		"1.3.2": {
+			"name": "@stylistic/eslint-plugin-ts",
+			"version": "1.3.2",
+			"author": {
+				"name": "Anthony Fu",
+				"email": "anthonyfu117@hotmail.com"
+			},
+			"license": "MIT",
+			"homepage": "https://github.com/eslint-stylistic/eslint-stylistic#readme",
+			"repository": {
+				"directory": "packages/eslint-plugin-ts",
+				"type": "git",
+				"url": "git+https://github.com/eslint-stylistic/eslint-stylistic.git"
+			},
+			"bugs": {
+				"url": "https://github.com/eslint-stylistic/eslint-stylistic/issues"
+			},
+			"exports": {
+				".": {
+					"types": "./dts/index.d.ts",
+					"require": "./dist/index.js",
+					"default": "./dist/index.js"
+				},
+				"./define-config-support": {
+					"types": "./dts/define-config-support.d.ts"
+				},
+				"./rule-options": {
+					"types": "./dts/rule-options.d.ts"
+				},
+				"./rules/block-spacing": "./dist/block-spacing.js",
+				"./rules/brace-style": "./dist/brace-style.js",
+				"./rules/comma-dangle": "./dist/comma-dangle.js",
+				"./rules/comma-spacing": "./dist/comma-spacing.js",
+				"./rules/func-call-spacing": "./dist/func-call-spacing.js",
+				"./rules/function-call-spacing": "./dist/function-call-spacing.js",
+				"./rules/indent": "./dist/indent.js",
+				"./rules/key-spacing": "./dist/key-spacing.js",
+				"./rules/keyword-spacing": "./dist/keyword-spacing.js",
+				"./rules/lines-around-comment": "./dist/lines-around-comment.js",
+				"./rules/lines-between-class-members": "./dist/lines-between-class-members.js",
+				"./rules/member-delimiter-style": "./dist/member-delimiter-style.js",
+				"./rules/no-extra-parens": "./dist/no-extra-parens.js",
+				"./rules/no-extra-semi": "./dist/no-extra-semi.js",
+				"./rules/object-curly-spacing": "./dist/object-curly-spacing.js",
+				"./rules/padding-line-between-statements": "./dist/padding-line-between-statements.js",
+				"./rules/quotes": "./dist/quotes.js",
+				"./rules/semi": "./dist/semi.js",
+				"./rules/space-before-blocks": "./dist/space-before-blocks.js",
+				"./rules/space-before-function-paren": "./dist/space-before-function-paren.js",
+				"./rules/space-infix-ops": "./dist/space-infix-ops.js",
+				"./rules/type-annotation-spacing": "./dist/type-annotation-spacing.js"
+			},
+			"main": "./dist/index.js",
+			"types": "./dts/index.d.ts",
+			"peerDependencies": {
+				"eslint": "*"
+			},
+			"dependencies": {
+				"@typescript-eslint/utils": "^6.11.0",
+				"graphemer": "^1.4.0",
+				"@stylistic/eslint-plugin-js": "1.3.2"
+			},
+			"devDependencies": {
+				"@typescript-eslint/rule-tester": "^6.11.0"
+			},
+			"scripts": {
+				"build": "rimraf dist && rollup --config=rollup.config.mts --configPlugin=rollup-plugin-esbuild",
+				"dev": "rollup --config=rollup.config.mts --configPlugin=rollup-plugin-esbuild --watch"
+			},
+			"description": "TypeScript stylistic rules for ESLint, migrated from [`typescript-eslint`](https://github.com/typescript-eslint/typescript-eslint).",
+			"_id": "@stylistic/eslint-plugin-ts@1.3.2",
+			"_integrity": "sha512-1P+jy44NL6HMvg41ofOsXlvO8g5AayMgMkxUrk8h/4hN0kkNHt/PC5PiSUmuG7BIBVBhOBCImUNsmw/Acd1Z6Q==",
+			"_resolved": "/private/var/folders/30/nymxcyb909ggq2j5lwn7b_600000gn/T/6d46e3df3402f7da84d0b99f5db99220/stylistic-eslint-plugin-ts-1.3.2.tgz",
+			"_from": "file:stylistic-eslint-plugin-ts-1.3.2.tgz",
+			"_nodeVersion": "20.4.0",
+			"_npmVersion": "9.7.2",
+			"dist": {
+				"integrity": "sha512-1P+jy44NL6HMvg41ofOsXlvO8g5AayMgMkxUrk8h/4hN0kkNHt/PC5PiSUmuG7BIBVBhOBCImUNsmw/Acd1Z6Q==",
+				"shasum": "7953848210b4fedadac3e5a19f98c78900e166ae",
+				"tarball": "https://registry.npmjs.org/@stylistic/eslint-plugin-ts/-/eslint-plugin-ts-1.3.2.tgz",
+				"fileCount": 51,
+				"unpackedSize": 152807,
+				"signatures": [
+					{
+						"keyid": "SHA256:jl3bwswu80PjjokCgh0o2w5c2U4LhQAE57gj9cz1kzA",
+						"sig": "MEYCIQCobPvTg3lmwUpz9iP69rZJfXJS5LsnVka6BMdJFQd/EAIhAMbIKYtoLoilTfAI46OEI6WCBBmKEpoMLsqIUf3nloZA"
+					}
+				]
+			},
+			"_npmUser": {
+				"name": "antfu",
+				"email": "anthonyfu117@hotmail.com"
+			},
+			"directories": {},
+			"maintainers": [
+				{
+					"name": "antfu",
+					"email": "anthonyfu117@hotmail.com"
+				}
+			],
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/eslint-plugin-ts_1.3.2_1700227923684_0.3437082430946825"
+			},
+			"_hasShrinkwrap": false,
+			"contributors": []
+		},
+		"1.3.3": {
+			"name": "@stylistic/eslint-plugin-ts",
+			"version": "1.3.3",
+			"author": {
+				"name": "Anthony Fu",
+				"email": "anthonyfu117@hotmail.com"
+			},
+			"license": "MIT",
+			"homepage": "https://github.com/eslint-stylistic/eslint-stylistic#readme",
+			"repository": {
+				"directory": "packages/eslint-plugin-ts",
+				"type": "git",
+				"url": "git+https://github.com/eslint-stylistic/eslint-stylistic.git"
+			},
+			"bugs": {
+				"url": "https://github.com/eslint-stylistic/eslint-stylistic/issues"
+			},
+			"exports": {
+				".": {
+					"types": "./dts/index.d.ts",
+					"require": "./dist/index.js",
+					"default": "./dist/index.js"
+				},
+				"./define-config-support": {
+					"types": "./dts/define-config-support.d.ts"
+				},
+				"./rule-options": {
+					"types": "./dts/rule-options.d.ts"
+				},
+				"./rules/block-spacing": "./dist/block-spacing.js",
+				"./rules/brace-style": "./dist/brace-style.js",
+				"./rules/comma-dangle": "./dist/comma-dangle.js",
+				"./rules/comma-spacing": "./dist/comma-spacing.js",
+				"./rules/func-call-spacing": "./dist/func-call-spacing.js",
+				"./rules/function-call-spacing": "./dist/function-call-spacing.js",
+				"./rules/indent": "./dist/indent.js",
+				"./rules/key-spacing": "./dist/key-spacing.js",
+				"./rules/keyword-spacing": "./dist/keyword-spacing.js",
+				"./rules/lines-around-comment": "./dist/lines-around-comment.js",
+				"./rules/lines-between-class-members": "./dist/lines-between-class-members.js",
+				"./rules/member-delimiter-style": "./dist/member-delimiter-style.js",
+				"./rules/no-extra-parens": "./dist/no-extra-parens.js",
+				"./rules/no-extra-semi": "./dist/no-extra-semi.js",
+				"./rules/object-curly-spacing": "./dist/object-curly-spacing.js",
+				"./rules/padding-line-between-statements": "./dist/padding-line-between-statements.js",
+				"./rules/quotes": "./dist/quotes.js",
+				"./rules/semi": "./dist/semi.js",
+				"./rules/space-before-blocks": "./dist/space-before-blocks.js",
+				"./rules/space-before-function-paren": "./dist/space-before-function-paren.js",
+				"./rules/space-infix-ops": "./dist/space-infix-ops.js",
+				"./rules/type-annotation-spacing": "./dist/type-annotation-spacing.js"
+			},
+			"main": "./dist/index.js",
+			"types": "./dts/index.d.ts",
+			"peerDependencies": {
+				"eslint": "*"
+			},
+			"dependencies": {
+				"@typescript-eslint/utils": "^6.11.0",
+				"graphemer": "^1.4.0",
+				"@stylistic/eslint-plugin-js": "1.3.3"
+			},
+			"devDependencies": {
+				"@typescript-eslint/rule-tester": "^6.11.0"
+			},
+			"scripts": {
+				"build": "rimraf dist && rollup --config=rollup.config.mts --configPlugin=rollup-plugin-esbuild",
+				"dev": "rollup --config=rollup.config.mts --configPlugin=rollup-plugin-esbuild --watch"
+			},
+			"description": "TypeScript stylistic rules for ESLint, migrated from [`typescript-eslint`](https://github.com/typescript-eslint/typescript-eslint).",
+			"_id": "@stylistic/eslint-plugin-ts@1.3.3",
+			"_integrity": "sha512-A8MP27LEsyqvgl4Mcu1l6cR6g06PXvWJq67V3yjeA+DcIonJ3Q9U3FUsuHs7KjU6NlBaOtIYymfQ5QTRVnk76Q==",
+			"_resolved": "/private/var/folders/30/nymxcyb909ggq2j5lwn7b_600000gn/T/2f8e6006b2369d306d5708bbf8149d78/stylistic-eslint-plugin-ts-1.3.3.tgz",
+			"_from": "file:stylistic-eslint-plugin-ts-1.3.3.tgz",
+			"_nodeVersion": "20.4.0",
+			"_npmVersion": "9.7.2",
+			"dist": {
+				"integrity": "sha512-A8MP27LEsyqvgl4Mcu1l6cR6g06PXvWJq67V3yjeA+DcIonJ3Q9U3FUsuHs7KjU6NlBaOtIYymfQ5QTRVnk76Q==",
+				"shasum": "cc0c18a1efc03725cc704e627735509adbab9169",
+				"tarball": "https://registry.npmjs.org/@stylistic/eslint-plugin-ts/-/eslint-plugin-ts-1.3.3.tgz",
+				"fileCount": 51,
+				"unpackedSize": 153577,
+				"signatures": [
+					{
+						"keyid": "SHA256:jl3bwswu80PjjokCgh0o2w5c2U4LhQAE57gj9cz1kzA",
+						"sig": "MEQCIASarYz6fjxBy27p+ItW0NsAos+IVjaxdvx/taxkKgjyAiBHa9qLS/QDnlDGygd5IDYhnxgfNzrmlzGZpb193PA53A=="
+					}
+				]
+			},
+			"_npmUser": {
+				"name": "antfu",
+				"email": "anthonyfu117@hotmail.com"
+			},
+			"directories": {},
+			"maintainers": [
+				{
+					"name": "antfu",
+					"email": "anthonyfu117@hotmail.com"
+				}
+			],
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/eslint-plugin-ts_1.3.3_1700263699343_0.41843476920030875"
+			},
+			"_hasShrinkwrap": false,
+			"contributors": []
+		},
+		"1.4.0": {
+			"name": "@stylistic/eslint-plugin-ts",
+			"version": "1.4.0",
+			"author": {
+				"name": "Anthony Fu",
+				"email": "anthonyfu117@hotmail.com"
+			},
+			"license": "MIT",
+			"homepage": "https://github.com/eslint-stylistic/eslint-stylistic#readme",
+			"repository": {
+				"directory": "packages/eslint-plugin-ts",
+				"type": "git",
+				"url": "git+https://github.com/eslint-stylistic/eslint-stylistic.git"
+			},
+			"bugs": {
+				"url": "https://github.com/eslint-stylistic/eslint-stylistic/issues"
+			},
+			"exports": {
+				".": {
+					"types": "./dts/index.d.ts",
+					"require": "./dist/index.js",
+					"default": "./dist/index.js"
+				},
+				"./define-config-support": {
+					"types": "./dts/define-config-support.d.ts"
+				},
+				"./rule-options": {
+					"types": "./dts/rule-options.d.ts"
+				},
+				"./rules/block-spacing": "./dist/block-spacing.js",
+				"./rules/brace-style": "./dist/brace-style.js",
+				"./rules/comma-dangle": "./dist/comma-dangle.js",
+				"./rules/comma-spacing": "./dist/comma-spacing.js",
+				"./rules/func-call-spacing": "./dist/func-call-spacing.js",
+				"./rules/function-call-spacing": "./dist/function-call-spacing.js",
+				"./rules/indent": "./dist/indent.js",
+				"./rules/key-spacing": "./dist/key-spacing.js",
+				"./rules/keyword-spacing": "./dist/keyword-spacing.js",
+				"./rules/lines-around-comment": "./dist/lines-around-comment.js",
+				"./rules/lines-between-class-members": "./dist/lines-between-class-members.js",
+				"./rules/member-delimiter-style": "./dist/member-delimiter-style.js",
+				"./rules/no-extra-parens": "./dist/no-extra-parens.js",
+				"./rules/no-extra-semi": "./dist/no-extra-semi.js",
+				"./rules/object-curly-spacing": "./dist/object-curly-spacing.js",
+				"./rules/padding-line-between-statements": "./dist/padding-line-between-statements.js",
+				"./rules/quotes": "./dist/quotes.js",
+				"./rules/semi": "./dist/semi.js",
+				"./rules/space-before-blocks": "./dist/space-before-blocks.js",
+				"./rules/space-before-function-paren": "./dist/space-before-function-paren.js",
+				"./rules/space-infix-ops": "./dist/space-infix-ops.js",
+				"./rules/type-annotation-spacing": "./dist/type-annotation-spacing.js"
+			},
+			"main": "./dist/index.js",
+			"types": "./dts/index.d.ts",
+			"peerDependencies": {
+				"eslint": "*"
+			},
+			"dependencies": {
+				"@typescript-eslint/utils": "^6.11.0",
+				"graphemer": "^1.4.0",
+				"@stylistic/eslint-plugin-js": "1.4.0"
+			},
+			"devDependencies": {
+				"@typescript-eslint/rule-tester": "^6.11.0"
+			},
+			"scripts": {
+				"build": "rimraf dist && rollup --config=rollup.config.mts --configPlugin=rollup-plugin-esbuild",
+				"dev": "rollup --config=rollup.config.mts --configPlugin=rollup-plugin-esbuild --watch"
+			},
+			"description": "TypeScript stylistic rules for ESLint, migrated from [`typescript-eslint`](https://github.com/typescript-eslint/typescript-eslint).",
+			"_id": "@stylistic/eslint-plugin-ts@1.4.0",
+			"_integrity": "sha512-eNEC0MufXfe2v9fW+g5yDzMMcws80cn1gKIt9CaLVjUuWnwCdY4SG1hUtDfEpBCTNBZgG/LKKls15dSa1x++0g==",
+			"_resolved": "/private/var/folders/30/nymxcyb909ggq2j5lwn7b_600000gn/T/d2272fc5ba8956da9ab8f764918053f7/stylistic-eslint-plugin-ts-1.4.0.tgz",
+			"_from": "file:stylistic-eslint-plugin-ts-1.4.0.tgz",
+			"_nodeVersion": "20.4.0",
+			"_npmVersion": "9.7.2",
+			"dist": {
+				"integrity": "sha512-eNEC0MufXfe2v9fW+g5yDzMMcws80cn1gKIt9CaLVjUuWnwCdY4SG1hUtDfEpBCTNBZgG/LKKls15dSa1x++0g==",
+				"shasum": "881dcc2c881eb6fcd3417d3dfa143263139772a4",
+				"tarball": "https://registry.npmjs.org/@stylistic/eslint-plugin-ts/-/eslint-plugin-ts-1.4.0.tgz",
+				"fileCount": 51,
+				"unpackedSize": 155504,
+				"signatures": [
+					{
+						"keyid": "SHA256:jl3bwswu80PjjokCgh0o2w5c2U4LhQAE57gj9cz1kzA",
+						"sig": "MEUCIQCVLpH/zK5g8xWA9bEwnwU2jvw7afj/E4fWpJ+x8Lu6TwIgLqdA6ycPm8F+RtSwbbAd2VvcRQPl77RBBCiB4E8SA9E="
+					}
+				]
+			},
+			"_npmUser": {
+				"name": "antfu",
+				"email": "anthonyfu117@hotmail.com"
+			},
+			"directories": {},
+			"maintainers": [
+				{
+					"name": "antfu",
+					"email": "anthonyfu117@hotmail.com"
+				}
+			],
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/eslint-plugin-ts_1.4.0_1700326103700_0.4513647824571687"
+			},
+			"_hasShrinkwrap": false,
+			"contributors": []
+		},
+		"1.4.1": {
+			"name": "@stylistic/eslint-plugin-ts",
+			"version": "1.4.1",
+			"author": {
+				"name": "Anthony Fu",
+				"email": "anthonyfu117@hotmail.com"
+			},
+			"license": "MIT",
+			"homepage": "https://github.com/eslint-stylistic/eslint-stylistic#readme",
+			"repository": {
+				"directory": "packages/eslint-plugin-ts",
+				"type": "git",
+				"url": "git+https://github.com/eslint-stylistic/eslint-stylistic.git"
+			},
+			"bugs": {
+				"url": "https://github.com/eslint-stylistic/eslint-stylistic/issues"
+			},
+			"exports": {
+				".": {
+					"types": "./dts/index.d.ts",
+					"require": "./dist/index.js",
+					"default": "./dist/index.js"
+				},
+				"./define-config-support": {
+					"types": "./dts/define-config-support.d.ts"
+				},
+				"./rule-options": {
+					"types": "./dts/rule-options.d.ts"
+				},
+				"./rules/block-spacing": "./dist/block-spacing.js",
+				"./rules/brace-style": "./dist/brace-style.js",
+				"./rules/comma-dangle": "./dist/comma-dangle.js",
+				"./rules/comma-spacing": "./dist/comma-spacing.js",
+				"./rules/func-call-spacing": "./dist/func-call-spacing.js",
+				"./rules/function-call-spacing": "./dist/function-call-spacing.js",
+				"./rules/indent": "./dist/indent.js",
+				"./rules/key-spacing": "./dist/key-spacing.js",
+				"./rules/keyword-spacing": "./dist/keyword-spacing.js",
+				"./rules/lines-around-comment": "./dist/lines-around-comment.js",
+				"./rules/lines-between-class-members": "./dist/lines-between-class-members.js",
+				"./rules/member-delimiter-style": "./dist/member-delimiter-style.js",
+				"./rules/no-extra-parens": "./dist/no-extra-parens.js",
+				"./rules/no-extra-semi": "./dist/no-extra-semi.js",
+				"./rules/object-curly-spacing": "./dist/object-curly-spacing.js",
+				"./rules/padding-line-between-statements": "./dist/padding-line-between-statements.js",
+				"./rules/quotes": "./dist/quotes.js",
+				"./rules/semi": "./dist/semi.js",
+				"./rules/space-before-blocks": "./dist/space-before-blocks.js",
+				"./rules/space-before-function-paren": "./dist/space-before-function-paren.js",
+				"./rules/space-infix-ops": "./dist/space-infix-ops.js",
+				"./rules/type-annotation-spacing": "./dist/type-annotation-spacing.js"
+			},
+			"main": "./dist/index.js",
+			"types": "./dts/index.d.ts",
+			"engines": {
+				"node": "^16.0.0 || >=18.0.0"
+			},
+			"peerDependencies": {
+				"eslint": ">=8.40.0"
+			},
+			"dependencies": {
+				"@typescript-eslint/utils": "^6.11.0",
+				"graphemer": "^1.4.0",
+				"@stylistic/eslint-plugin-js": "1.4.1"
+			},
+			"devDependencies": {
+				"@typescript-eslint/rule-tester": "^6.11.0"
+			},
+			"scripts": {
+				"build": "rimraf dist && rollup --config=rollup.config.mts --configPlugin=rollup-plugin-esbuild",
+				"dev": "rollup --config=rollup.config.mts --configPlugin=rollup-plugin-esbuild --watch"
+			},
+			"description": "TypeScript stylistic rules for ESLint, migrated from [`typescript-eslint`](https://github.com/typescript-eslint/typescript-eslint).",
+			"_id": "@stylistic/eslint-plugin-ts@1.4.1",
+			"_integrity": "sha512-zuqnxhWoqPhZcxOb7AiYZz1RF/fUCsbJ7xq60IdRWnEY6MPybqYVJAb+SYilJ3PYxqmz8zdZeYkSeVy6f1fNnA==",
+			"_resolved": "/private/var/folders/30/nymxcyb909ggq2j5lwn7b_600000gn/T/3acd0e30a142c24d5c6f9090fc09f56c/stylistic-eslint-plugin-ts-1.4.1.tgz",
+			"_from": "file:stylistic-eslint-plugin-ts-1.4.1.tgz",
+			"_nodeVersion": "20.4.0",
+			"_npmVersion": "9.7.2",
+			"dist": {
+				"integrity": "sha512-zuqnxhWoqPhZcxOb7AiYZz1RF/fUCsbJ7xq60IdRWnEY6MPybqYVJAb+SYilJ3PYxqmz8zdZeYkSeVy6f1fNnA==",
+				"shasum": "3832dd5711e74a8cb087405185fc96a452908763",
+				"tarball": "https://registry.npmjs.org/@stylistic/eslint-plugin-ts/-/eslint-plugin-ts-1.4.1.tgz",
+				"fileCount": 51,
+				"unpackedSize": 155565,
+				"signatures": [
+					{
+						"keyid": "SHA256:jl3bwswu80PjjokCgh0o2w5c2U4LhQAE57gj9cz1kzA",
+						"sig": "MEUCIAYG7eQ5cpZp4Qb0vPEQM5xVt0THWn8Vwv+XxKhsTXlUAiEAlA6Jm4PGectWU955YX4bJjgUGMDpD72xXcEavZzIYRM="
+					}
+				]
+			},
+			"_npmUser": {
+				"name": "antfu",
+				"email": "anthonyfu117@hotmail.com"
+			},
+			"directories": {},
+			"maintainers": [
+				{
+					"name": "antfu",
+					"email": "anthonyfu117@hotmail.com"
+				}
+			],
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/eslint-plugin-ts_1.4.1_1700738405396_0.13886897378937868"
+			},
+			"_hasShrinkwrap": false,
+			"contributors": []
+		},
+		"1.5.0-beta.0": {
+			"name": "@stylistic/eslint-plugin-ts",
+			"version": "1.5.0-beta.0",
+			"author": {
+				"name": "Anthony Fu",
+				"email": "anthonyfu117@hotmail.com"
+			},
+			"license": "MIT",
+			"homepage": "https://github.com/eslint-stylistic/eslint-stylistic#readme",
+			"repository": {
+				"directory": "packages/eslint-plugin-ts",
+				"type": "git",
+				"url": "git+https://github.com/eslint-stylistic/eslint-stylistic.git"
+			},
+			"bugs": {
+				"url": "https://github.com/eslint-stylistic/eslint-stylistic/issues"
+			},
+			"exports": {
+				".": {
+					"types": "./dts/index.d.ts",
+					"require": "./dist/index.js",
+					"default": "./dist/index.js"
+				},
+				"./define-config-support": {
+					"types": "./dts/define-config-support.d.ts"
+				},
+				"./rule-options": {
+					"types": "./dts/rule-options.d.ts"
+				},
+				"./rules/block-spacing": "./dist/block-spacing.js",
+				"./rules/brace-style": "./dist/brace-style.js",
+				"./rules/comma-dangle": "./dist/comma-dangle.js",
+				"./rules/comma-spacing": "./dist/comma-spacing.js",
+				"./rules/func-call-spacing": "./dist/func-call-spacing.js",
+				"./rules/function-call-spacing": "./dist/function-call-spacing.js",
+				"./rules/indent": "./dist/indent.js",
+				"./rules/key-spacing": "./dist/key-spacing.js",
+				"./rules/keyword-spacing": "./dist/keyword-spacing.js",
+				"./rules/lines-around-comment": "./dist/lines-around-comment.js",
+				"./rules/lines-between-class-members": "./dist/lines-between-class-members.js",
+				"./rules/member-delimiter-style": "./dist/member-delimiter-style.js",
+				"./rules/no-extra-parens": "./dist/no-extra-parens.js",
+				"./rules/no-extra-semi": "./dist/no-extra-semi.js",
+				"./rules/object-curly-spacing": "./dist/object-curly-spacing.js",
+				"./rules/padding-line-between-statements": "./dist/padding-line-between-statements.js",
+				"./rules/quotes": "./dist/quotes.js",
+				"./rules/semi": "./dist/semi.js",
+				"./rules/space-before-blocks": "./dist/space-before-blocks.js",
+				"./rules/space-before-function-paren": "./dist/space-before-function-paren.js",
+				"./rules/space-infix-ops": "./dist/space-infix-ops.js",
+				"./rules/type-annotation-spacing": "./dist/type-annotation-spacing.js"
+			},
+			"main": "./dist/index.js",
+			"types": "./dts/index.d.ts",
+			"engines": {
+				"node": "^16.0.0 || >=18.0.0"
+			},
+			"peerDependencies": {
+				"eslint": ">=8.40.0"
+			},
+			"dependencies": {
+				"@typescript-eslint/utils": "^6.13.1",
+				"graphemer": "^1.4.0",
+				"@stylistic/eslint-plugin-js": "1.5.0-beta.0"
+			},
+			"devDependencies": {
+				"@typescript-eslint/rule-tester": "^6.13.1"
+			},
+			"scripts": {
+				"build": "rimraf dist && rollup --config=rollup.config.mts --configPlugin=rollup-plugin-esbuild",
+				"dev": "rollup --config=rollup.config.mts --configPlugin=rollup-plugin-esbuild --watch"
+			},
+			"readmeFilename": "README.md",
+			"description": "TypeScript stylistic rules for ESLint, migrated from [`typescript-eslint`](https://github.com/typescript-eslint/typescript-eslint).",
+			"_id": "@stylistic/eslint-plugin-ts@1.5.0-beta.0",
+			"_integrity": "sha512-XMnu8VxJf67ckw3Zys7/0M/atVRV4NhVvfhKevRaJEblPU1ZmQKOhJI6gs1D3Q3cFJxuMk7uWJ6Lby2XDTnUOw==",
+			"_resolved": "/private/var/folders/30/nymxcyb909ggq2j5lwn7b_600000gn/T/69d612ae54b8714d7a9546cc4bfd1d1a/stylistic-eslint-plugin-ts-1.5.0-beta.0.tgz",
+			"_from": "file:stylistic-eslint-plugin-ts-1.5.0-beta.0.tgz",
+			"_nodeVersion": "20.4.0",
+			"_npmVersion": "9.7.2",
+			"dist": {
+				"integrity": "sha512-XMnu8VxJf67ckw3Zys7/0M/atVRV4NhVvfhKevRaJEblPU1ZmQKOhJI6gs1D3Q3cFJxuMk7uWJ6Lby2XDTnUOw==",
+				"shasum": "23e52103049bd38cce2c2b804dbbd8617fd9e5b1",
+				"tarball": "https://registry.npmjs.org/@stylistic/eslint-plugin-ts/-/eslint-plugin-ts-1.5.0-beta.0.tgz",
+				"fileCount": 51,
+				"unpackedSize": 155801,
+				"signatures": [
+					{
+						"keyid": "SHA256:jl3bwswu80PjjokCgh0o2w5c2U4LhQAE57gj9cz1kzA",
+						"sig": "MEUCIQCqEe0SzZ1jG4BaBQoqEg+b49/8FuqP5sefpVcGT/taqQIgTWwmiARnz1yr208DKqx2mT9V4hU6YCvjZMnHtg8wE8E="
+					}
+				]
+			},
+			"_npmUser": {
+				"name": "antfu",
+				"email": "anthonyfu117@hotmail.com"
+			},
+			"directories": {},
+			"maintainers": [
+				{
+					"name": "antfu",
+					"email": "anthonyfu117@hotmail.com"
+				}
+			],
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/eslint-plugin-ts_1.5.0-beta.0_1701616689749_0.6919915324230317"
+			},
+			"_hasShrinkwrap": false,
+			"contributors": []
+		},
+		"1.5.0": {
+			"name": "@stylistic/eslint-plugin-ts",
+			"version": "1.5.0",
+			"author": {
+				"name": "Anthony Fu",
+				"email": "anthonyfu117@hotmail.com"
+			},
+			"license": "MIT",
+			"homepage": "https://github.com/eslint-stylistic/eslint-stylistic#readme",
+			"repository": {
+				"directory": "packages/eslint-plugin-ts",
+				"type": "git",
+				"url": "git+https://github.com/eslint-stylistic/eslint-stylistic.git"
+			},
+			"bugs": {
+				"url": "https://github.com/eslint-stylistic/eslint-stylistic/issues"
+			},
+			"exports": {
+				".": {
+					"types": "./dts/index.d.ts",
+					"require": "./dist/index.js",
+					"default": "./dist/index.js"
+				},
+				"./define-config-support": {
+					"types": "./dts/define-config-support.d.ts"
+				},
+				"./rule-options": {
+					"types": "./dts/rule-options.d.ts"
+				},
+				"./rules/block-spacing": "./dist/block-spacing.js",
+				"./rules/brace-style": "./dist/brace-style.js",
+				"./rules/comma-dangle": "./dist/comma-dangle.js",
+				"./rules/comma-spacing": "./dist/comma-spacing.js",
+				"./rules/func-call-spacing": "./dist/func-call-spacing.js",
+				"./rules/function-call-spacing": "./dist/function-call-spacing.js",
+				"./rules/indent": "./dist/indent.js",
+				"./rules/key-spacing": "./dist/key-spacing.js",
+				"./rules/keyword-spacing": "./dist/keyword-spacing.js",
+				"./rules/lines-around-comment": "./dist/lines-around-comment.js",
+				"./rules/lines-between-class-members": "./dist/lines-between-class-members.js",
+				"./rules/member-delimiter-style": "./dist/member-delimiter-style.js",
+				"./rules/no-extra-parens": "./dist/no-extra-parens.js",
+				"./rules/no-extra-semi": "./dist/no-extra-semi.js",
+				"./rules/object-curly-spacing": "./dist/object-curly-spacing.js",
+				"./rules/padding-line-between-statements": "./dist/padding-line-between-statements.js",
+				"./rules/quotes": "./dist/quotes.js",
+				"./rules/semi": "./dist/semi.js",
+				"./rules/space-before-blocks": "./dist/space-before-blocks.js",
+				"./rules/space-before-function-paren": "./dist/space-before-function-paren.js",
+				"./rules/space-infix-ops": "./dist/space-infix-ops.js",
+				"./rules/type-annotation-spacing": "./dist/type-annotation-spacing.js"
+			},
+			"main": "./dist/index.js",
+			"types": "./dts/index.d.ts",
+			"engines": {
+				"node": "^16.0.0 || >=18.0.0"
+			},
+			"peerDependencies": {
+				"eslint": ">=8.40.0"
+			},
+			"dependencies": {
+				"@typescript-eslint/utils": "^6.13.2",
+				"graphemer": "^1.4.0",
+				"@stylistic/eslint-plugin-js": "1.5.0"
+			},
+			"devDependencies": {
+				"@typescript-eslint/rule-tester": "^6.13.2"
+			},
+			"scripts": {
+				"build": "rimraf dist && rollup --config=rollup.config.mts --configPlugin=rollup-plugin-esbuild",
+				"dev": "rollup --config=rollup.config.mts --configPlugin=rollup-plugin-esbuild --watch"
+			},
+			"description": "TypeScript stylistic rules for ESLint, migrated from [`typescript-eslint`](https://github.com/typescript-eslint/typescript-eslint).",
+			"_id": "@stylistic/eslint-plugin-ts@1.5.0",
+			"_integrity": "sha512-OusNGWRXnOV+ywnoXmBFoMtU6Ig/MX1bEu5Jigqmy2cIT8GRMMn7jUl/bXevkv2o66MYnC7PT1Q/3GvN7t0/eg==",
+			"_resolved": "/private/var/folders/30/nymxcyb909ggq2j5lwn7b_600000gn/T/6a992821f83dd9668abb7d9ac67d665c/stylistic-eslint-plugin-ts-1.5.0.tgz",
+			"_from": "file:stylistic-eslint-plugin-ts-1.5.0.tgz",
+			"_nodeVersion": "20.4.0",
+			"_npmVersion": "9.7.2",
+			"dist": {
+				"integrity": "sha512-OusNGWRXnOV+ywnoXmBFoMtU6Ig/MX1bEu5Jigqmy2cIT8GRMMn7jUl/bXevkv2o66MYnC7PT1Q/3GvN7t0/eg==",
+				"shasum": "ed84ffe3c2809748337079b6309f2906ff268e02",
+				"tarball": "https://registry.npmjs.org/@stylistic/eslint-plugin-ts/-/eslint-plugin-ts-1.5.0.tgz",
+				"fileCount": 51,
+				"unpackedSize": 155787,
+				"signatures": [
+					{
+						"keyid": "SHA256:jl3bwswu80PjjokCgh0o2w5c2U4LhQAE57gj9cz1kzA",
+						"sig": "MEYCIQC71MzXc+tg6K/0Yen0NoZxxp/GWcQOOdMvwOBHHd25PgIhAJmrzFdO1nIvsQ+XgmEF/UKu2IBrDs99XYRwRFYiK2ao"
+					}
+				]
+			},
+			"_npmUser": {
+				"name": "antfu",
+				"email": "anthonyfu117@hotmail.com"
+			},
+			"directories": {},
+			"maintainers": [
+				{
+					"name": "antfu",
+					"email": "anthonyfu117@hotmail.com"
+				}
+			],
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/eslint-plugin-ts_1.5.0_1701776021015_0.8201710033285967"
+			},
+			"_hasShrinkwrap": false,
+			"contributors": []
+		},
+		"1.5.1": {
+			"name": "@stylistic/eslint-plugin-ts",
+			"version": "1.5.1",
+			"author": {
+				"name": "Anthony Fu",
+				"email": "anthonyfu117@hotmail.com"
+			},
+			"license": "MIT",
+			"homepage": "https://github.com/eslint-stylistic/eslint-stylistic#readme",
+			"repository": {
+				"directory": "packages/eslint-plugin-ts",
+				"type": "git",
+				"url": "git+https://github.com/eslint-stylistic/eslint-stylistic.git"
+			},
+			"bugs": {
+				"url": "https://github.com/eslint-stylistic/eslint-stylistic/issues"
+			},
+			"exports": {
+				".": {
+					"types": "./dts/index.d.ts",
+					"require": "./dist/index.js",
+					"default": "./dist/index.js"
+				},
+				"./define-config-support": {
+					"types": "./dts/define-config-support.d.ts"
+				},
+				"./rule-options": {
+					"types": "./dts/rule-options.d.ts"
+				},
+				"./rules/block-spacing": "./dist/block-spacing.js",
+				"./rules/brace-style": "./dist/brace-style.js",
+				"./rules/comma-dangle": "./dist/comma-dangle.js",
+				"./rules/comma-spacing": "./dist/comma-spacing.js",
+				"./rules/func-call-spacing": "./dist/func-call-spacing.js",
+				"./rules/function-call-spacing": "./dist/function-call-spacing.js",
+				"./rules/indent": "./dist/indent.js",
+				"./rules/key-spacing": "./dist/key-spacing.js",
+				"./rules/keyword-spacing": "./dist/keyword-spacing.js",
+				"./rules/lines-around-comment": "./dist/lines-around-comment.js",
+				"./rules/lines-between-class-members": "./dist/lines-between-class-members.js",
+				"./rules/member-delimiter-style": "./dist/member-delimiter-style.js",
+				"./rules/no-extra-parens": "./dist/no-extra-parens.js",
+				"./rules/no-extra-semi": "./dist/no-extra-semi.js",
+				"./rules/object-curly-spacing": "./dist/object-curly-spacing.js",
+				"./rules/padding-line-between-statements": "./dist/padding-line-between-statements.js",
+				"./rules/quotes": "./dist/quotes.js",
+				"./rules/semi": "./dist/semi.js",
+				"./rules/space-before-blocks": "./dist/space-before-blocks.js",
+				"./rules/space-before-function-paren": "./dist/space-before-function-paren.js",
+				"./rules/space-infix-ops": "./dist/space-infix-ops.js",
+				"./rules/type-annotation-spacing": "./dist/type-annotation-spacing.js"
+			},
+			"main": "./dist/index.js",
+			"types": "./dts/index.d.ts",
+			"engines": {
+				"node": "^16.0.0 || >=18.0.0"
+			},
+			"peerDependencies": {
+				"eslint": ">=8.40.0"
+			},
+			"dependencies": {
+				"@typescript-eslint/utils": "^6.13.2",
+				"@stylistic/eslint-plugin-js": "1.5.1"
+			},
+			"devDependencies": {
+				"@typescript-eslint/rule-tester": "^6.13.2"
+			},
+			"scripts": {
+				"build": "rimraf dist && rollup --config=rollup.config.mts --configPlugin=rollup-plugin-esbuild",
+				"dev": "rollup --config=rollup.config.mts --configPlugin=rollup-plugin-esbuild --watch"
+			},
+			"description": "TypeScript stylistic rules for ESLint, migrated from [`typescript-eslint`](https://github.com/typescript-eslint/typescript-eslint).",
+			"_id": "@stylistic/eslint-plugin-ts@1.5.1",
+			"_integrity": "sha512-oXM1V7Jp8G9+udxQTy+Igo79LR2e5HXiWqlA/3v+/PAqWxniR9nJqJSBjtQKJTPsGplDqn/ASpHUOETP4EI/4A==",
+			"_resolved": "/private/var/folders/30/nymxcyb909ggq2j5lwn7b_600000gn/T/96fe5258d5a5dcf8a53a33bff419fc8e/stylistic-eslint-plugin-ts-1.5.1.tgz",
+			"_from": "file:stylistic-eslint-plugin-ts-1.5.1.tgz",
+			"_nodeVersion": "20.4.0",
+			"_npmVersion": "9.7.2",
+			"dist": {
+				"integrity": "sha512-oXM1V7Jp8G9+udxQTy+Igo79LR2e5HXiWqlA/3v+/PAqWxniR9nJqJSBjtQKJTPsGplDqn/ASpHUOETP4EI/4A==",
+				"shasum": "dce3b2139986c4e47a588e4371885c9dabd747a7",
+				"tarball": "https://registry.npmjs.org/@stylistic/eslint-plugin-ts/-/eslint-plugin-ts-1.5.1.tgz",
+				"fileCount": 51,
+				"unpackedSize": 156756,
+				"signatures": [
+					{
+						"keyid": "SHA256:jl3bwswu80PjjokCgh0o2w5c2U4LhQAE57gj9cz1kzA",
+						"sig": "MEUCIQC0A7dcHide07tB4OwP42R5bFy81/8gLuLqqPvSEzrD1gIgGRTdKGQosVVNeOE1lkPl5tEAoXFIp3TPnCZnt3LQLNI="
+					}
+				]
+			},
+			"_npmUser": {
+				"name": "antfu",
+				"email": "anthonyfu117@hotmail.com"
+			},
+			"directories": {},
+			"maintainers": [
+				{
+					"name": "antfu",
+					"email": "anthonyfu117@hotmail.com"
+				}
+			],
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/eslint-plugin-ts_1.5.1_1702297900450_0.7382712109462819"
+			},
+			"_hasShrinkwrap": false,
+			"contributors": []
+		},
+		"1.5.3": {
+			"name": "@stylistic/eslint-plugin-ts",
+			"version": "1.5.3",
+			"author": {
+				"name": "Anthony Fu",
+				"email": "anthonyfu117@hotmail.com"
+			},
+			"license": "MIT",
+			"homepage": "https://github.com/eslint-stylistic/eslint-stylistic#readme",
+			"repository": {
+				"directory": "packages/eslint-plugin-ts",
+				"type": "git",
+				"url": "git+https://github.com/eslint-stylistic/eslint-stylistic.git"
+			},
+			"bugs": {
+				"url": "https://github.com/eslint-stylistic/eslint-stylistic/issues"
+			},
+			"exports": {
+				".": {
+					"types": "./dts/index.d.ts",
+					"require": "./dist/index.js",
+					"default": "./dist/index.js"
+				},
+				"./define-config-support": {
+					"types": "./dts/define-config-support.d.ts"
+				},
+				"./rule-options": {
+					"types": "./dts/rule-options.d.ts"
+				},
+				"./rules/block-spacing": "./dist/block-spacing.js",
+				"./rules/brace-style": "./dist/brace-style.js",
+				"./rules/comma-dangle": "./dist/comma-dangle.js",
+				"./rules/comma-spacing": "./dist/comma-spacing.js",
+				"./rules/func-call-spacing": "./dist/func-call-spacing.js",
+				"./rules/function-call-spacing": "./dist/function-call-spacing.js",
+				"./rules/indent": "./dist/indent.js",
+				"./rules/key-spacing": "./dist/key-spacing.js",
+				"./rules/keyword-spacing": "./dist/keyword-spacing.js",
+				"./rules/lines-around-comment": "./dist/lines-around-comment.js",
+				"./rules/lines-between-class-members": "./dist/lines-between-class-members.js",
+				"./rules/member-delimiter-style": "./dist/member-delimiter-style.js",
+				"./rules/no-extra-parens": "./dist/no-extra-parens.js",
+				"./rules/no-extra-semi": "./dist/no-extra-semi.js",
+				"./rules/object-curly-spacing": "./dist/object-curly-spacing.js",
+				"./rules/padding-line-between-statements": "./dist/padding-line-between-statements.js",
+				"./rules/quotes": "./dist/quotes.js",
+				"./rules/semi": "./dist/semi.js",
+				"./rules/space-before-blocks": "./dist/space-before-blocks.js",
+				"./rules/space-before-function-paren": "./dist/space-before-function-paren.js",
+				"./rules/space-infix-ops": "./dist/space-infix-ops.js",
+				"./rules/type-annotation-spacing": "./dist/type-annotation-spacing.js"
+			},
+			"main": "./dist/index.js",
+			"types": "./dts/index.d.ts",
+			"engines": {
+				"node": "^16.0.0 || >=18.0.0"
+			},
+			"peerDependencies": {
+				"eslint": ">=8.40.0"
+			},
+			"dependencies": {
+				"@typescript-eslint/utils": "^6.17.0",
+				"@stylistic/eslint-plugin-js": "1.5.3"
+			},
+			"devDependencies": {
+				"@typescript-eslint/rule-tester": "^6.17.0"
+			},
+			"scripts": {
+				"build": "rimraf dist && rollup --config=rollup.config.mts --configPlugin=rollup-plugin-esbuild",
+				"dev": "rollup --config=rollup.config.mts --configPlugin=rollup-plugin-esbuild --watch"
+			},
+			"description": "TypeScript stylistic rules for ESLint, migrated from [`typescript-eslint`](https://github.com/typescript-eslint/typescript-eslint).",
+			"_id": "@stylistic/eslint-plugin-ts@1.5.3",
+			"_integrity": "sha512-/gUEqGo0gpFeu220YmC0788VliKnmTaAz4pI82KA5cUuCp6OzEhGlrNkb1eevMwH0RRgyND20HJxOYvEGlwu+w==",
+			"_resolved": "/tmp/4ad229dc4ac44c4f0d9e1dd653824a60/stylistic-eslint-plugin-ts-1.5.3.tgz",
+			"_from": "file:stylistic-eslint-plugin-ts-1.5.3.tgz",
+			"_nodeVersion": "20.10.0",
+			"_npmVersion": "10.2.3",
+			"dist": {
+				"integrity": "sha512-/gUEqGo0gpFeu220YmC0788VliKnmTaAz4pI82KA5cUuCp6OzEhGlrNkb1eevMwH0RRgyND20HJxOYvEGlwu+w==",
+				"shasum": "4076f96727904a734cf4f954276b20215cb1cff3",
+				"tarball": "https://registry.npmjs.org/@stylistic/eslint-plugin-ts/-/eslint-plugin-ts-1.5.3.tgz",
+				"fileCount": 51,
+				"unpackedSize": 156756,
+				"attestations": {
+					"url": "https://registry.npmjs.org/-/npm/v1/attestations/@stylistic%2feslint-plugin-ts@1.5.3",
+					"provenance": {
+						"predicateType": "https://slsa.dev/provenance/v1"
+					}
+				},
+				"signatures": [
+					{
+						"keyid": "SHA256:jl3bwswu80PjjokCgh0o2w5c2U4LhQAE57gj9cz1kzA",
+						"sig": "MEUCIQCjhumn/ZgOvDv/l4NtQs8+Qj241mmPQJdpNMpMFxIyOgIgK61HZKiDrk++cXw2U+smunaErAZXE0+3xP3GS7kh1rg="
+					}
+				]
+			},
+			"_npmUser": {
+				"name": "antfu",
+				"email": "anthonyfu117@hotmail.com"
+			},
+			"directories": {},
+			"maintainers": [
+				{
+					"name": "antfu",
+					"email": "anthonyfu117@hotmail.com"
+				}
+			],
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/eslint-plugin-ts_1.5.3_1704202569916_0.6270586469966144"
+			},
+			"_hasShrinkwrap": false,
+			"contributors": []
+		},
+		"1.5.4": {
+			"name": "@stylistic/eslint-plugin-ts",
+			"version": "1.5.4",
+			"author": {
+				"name": "Anthony Fu",
+				"email": "anthonyfu117@hotmail.com"
+			},
+			"license": "MIT",
+			"homepage": "https://github.com/eslint-stylistic/eslint-stylistic#readme",
+			"repository": {
+				"directory": "packages/eslint-plugin-ts",
+				"type": "git",
+				"url": "git+https://github.com/eslint-stylistic/eslint-stylistic.git"
+			},
+			"bugs": {
+				"url": "https://github.com/eslint-stylistic/eslint-stylistic/issues"
+			},
+			"exports": {
+				".": {
+					"types": "./dts/index.d.ts",
+					"require": "./dist/index.js",
+					"default": "./dist/index.js"
+				},
+				"./define-config-support": {
+					"types": "./dts/define-config-support.d.ts"
+				},
+				"./rule-options": {
+					"types": "./dts/rule-options.d.ts"
+				},
+				"./rules/block-spacing": "./dist/block-spacing.js",
+				"./rules/brace-style": "./dist/brace-style.js",
+				"./rules/comma-dangle": "./dist/comma-dangle.js",
+				"./rules/comma-spacing": "./dist/comma-spacing.js",
+				"./rules/func-call-spacing": "./dist/func-call-spacing.js",
+				"./rules/function-call-spacing": "./dist/function-call-spacing.js",
+				"./rules/indent": "./dist/indent.js",
+				"./rules/key-spacing": "./dist/key-spacing.js",
+				"./rules/keyword-spacing": "./dist/keyword-spacing.js",
+				"./rules/lines-around-comment": "./dist/lines-around-comment.js",
+				"./rules/lines-between-class-members": "./dist/lines-between-class-members.js",
+				"./rules/member-delimiter-style": "./dist/member-delimiter-style.js",
+				"./rules/no-extra-parens": "./dist/no-extra-parens.js",
+				"./rules/no-extra-semi": "./dist/no-extra-semi.js",
+				"./rules/object-curly-spacing": "./dist/object-curly-spacing.js",
+				"./rules/padding-line-between-statements": "./dist/padding-line-between-statements.js",
+				"./rules/quotes": "./dist/quotes.js",
+				"./rules/semi": "./dist/semi.js",
+				"./rules/space-before-blocks": "./dist/space-before-blocks.js",
+				"./rules/space-before-function-paren": "./dist/space-before-function-paren.js",
+				"./rules/space-infix-ops": "./dist/space-infix-ops.js",
+				"./rules/type-annotation-spacing": "./dist/type-annotation-spacing.js"
+			},
+			"main": "./dist/index.js",
+			"types": "./dts/index.d.ts",
+			"engines": {
+				"node": "^16.0.0 || >=18.0.0"
+			},
+			"peerDependencies": {
+				"eslint": ">=8.40.0"
+			},
+			"dependencies": {
+				"@typescript-eslint/utils": "^6.19.0",
+				"@stylistic/eslint-plugin-js": "1.5.4"
+			},
+			"devDependencies": {
+				"@typescript-eslint/rule-tester": "^6.19.0"
+			},
+			"scripts": {
+				"build": "rimraf dist && rollup --config=rollup.config.mts --configPlugin=rollup-plugin-esbuild",
+				"dev": "rollup --config=rollup.config.mts --configPlugin=rollup-plugin-esbuild --watch"
+			},
+			"description": "TypeScript stylistic rules for ESLint, migrated from [`typescript-eslint`](https://github.com/typescript-eslint/typescript-eslint).",
+			"_id": "@stylistic/eslint-plugin-ts@1.5.4",
+			"_integrity": "sha512-NZDFVIlVNjuPvhT+0Cidm5IS3emtx338xbJTqs2xfOVRDGTpYwRHhNVEGa1rFOpYHmv0sAj6+OXbMDn7ul0K/g==",
+			"_resolved": "/tmp/6db289ef183db01c0fa4fd3163eb7be1/stylistic-eslint-plugin-ts-1.5.4.tgz",
+			"_from": "file:stylistic-eslint-plugin-ts-1.5.4.tgz",
+			"_nodeVersion": "20.10.0",
+			"_npmVersion": "10.2.3",
+			"dist": {
+				"integrity": "sha512-NZDFVIlVNjuPvhT+0Cidm5IS3emtx338xbJTqs2xfOVRDGTpYwRHhNVEGa1rFOpYHmv0sAj6+OXbMDn7ul0K/g==",
+				"shasum": "d90141ab6f45b03dfe9d4c3750dd94a2fe27d4ca",
+				"tarball": "https://registry.npmjs.org/@stylistic/eslint-plugin-ts/-/eslint-plugin-ts-1.5.4.tgz",
+				"fileCount": 51,
+				"unpackedSize": 157318,
+				"attestations": {
+					"url": "https://registry.npmjs.org/-/npm/v1/attestations/@stylistic%2feslint-plugin-ts@1.5.4",
+					"provenance": {
+						"predicateType": "https://slsa.dev/provenance/v1"
+					}
+				},
+				"signatures": [
+					{
+						"keyid": "SHA256:jl3bwswu80PjjokCgh0o2w5c2U4LhQAE57gj9cz1kzA",
+						"sig": "MEQCIBLnxKVvALGUZIRtAtXdhdUhHQ3cDPRa6T6bNlfC11WrAiBOVAqGKHuavohNbk6WKUarWCSx+r5akekaBZmHcTrQqg=="
+					}
+				]
+			},
+			"_npmUser": {
+				"name": "antfu",
+				"email": "anthonyfu117@hotmail.com"
+			},
+			"directories": {},
+			"maintainers": [
+				{
+					"name": "antfu",
+					"email": "anthonyfu117@hotmail.com"
+				}
+			],
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/eslint-plugin-ts_1.5.4_1705485924793_0.5390816618635184"
+			},
+			"_hasShrinkwrap": false,
+			"contributors": []
+		},
+		"1.6.0": {
+			"name": "@stylistic/eslint-plugin-ts",
+			"version": "1.6.0",
+			"author": {
+				"name": "Anthony Fu",
+				"email": "anthonyfu117@hotmail.com"
+			},
+			"license": "MIT",
+			"homepage": "https://github.com/eslint-stylistic/eslint-stylistic#readme",
+			"repository": {
+				"directory": "packages/eslint-plugin-ts",
+				"type": "git",
+				"url": "git+https://github.com/eslint-stylistic/eslint-stylistic.git"
+			},
+			"bugs": {
+				"url": "https://github.com/eslint-stylistic/eslint-stylistic/issues"
+			},
+			"exports": {
+				".": {
+					"types": "./dts/index.d.ts",
+					"require": "./dist/index.js",
+					"default": "./dist/index.js"
+				},
+				"./define-config-support": {
+					"types": "./dts/define-config-support.d.ts"
+				},
+				"./rule-options": {
+					"types": "./dts/rule-options.d.ts"
+				},
+				"./rules/block-spacing": "./dist/block-spacing.js",
+				"./rules/brace-style": "./dist/brace-style.js",
+				"./rules/comma-dangle": "./dist/comma-dangle.js",
+				"./rules/comma-spacing": "./dist/comma-spacing.js",
+				"./rules/func-call-spacing": "./dist/func-call-spacing.js",
+				"./rules/function-call-spacing": "./dist/function-call-spacing.js",
+				"./rules/indent": "./dist/indent.js",
+				"./rules/key-spacing": "./dist/key-spacing.js",
+				"./rules/keyword-spacing": "./dist/keyword-spacing.js",
+				"./rules/lines-around-comment": "./dist/lines-around-comment.js",
+				"./rules/lines-between-class-members": "./dist/lines-between-class-members.js",
+				"./rules/member-delimiter-style": "./dist/member-delimiter-style.js",
+				"./rules/no-extra-parens": "./dist/no-extra-parens.js",
+				"./rules/no-extra-semi": "./dist/no-extra-semi.js",
+				"./rules/object-curly-spacing": "./dist/object-curly-spacing.js",
+				"./rules/padding-line-between-statements": "./dist/padding-line-between-statements.js",
+				"./rules/quote-props": "./dist/quote-props.js",
+				"./rules/quotes": "./dist/quotes.js",
+				"./rules/semi": "./dist/semi.js",
+				"./rules/space-before-blocks": "./dist/space-before-blocks.js",
+				"./rules/space-before-function-paren": "./dist/space-before-function-paren.js",
+				"./rules/space-infix-ops": "./dist/space-infix-ops.js",
+				"./rules/type-annotation-spacing": "./dist/type-annotation-spacing.js"
+			},
+			"main": "./dist/index.js",
+			"types": "./dts/index.d.ts",
+			"engines": {
+				"node": "^16.0.0 || >=18.0.0"
+			},
+			"peerDependencies": {
+				"eslint": ">=8.40.0"
+			},
+			"dependencies": {
+				"@typescript-eslint/utils": "^6.20.0",
+				"@stylistic/eslint-plugin-js": "1.6.0"
+			},
+			"devDependencies": {
+				"@typescript-eslint/rule-tester": "^6.20.0"
+			},
+			"scripts": {
+				"build": "rimraf dist && rollup --config=rollup.config.mts --configPlugin=rollup-plugin-esbuild",
+				"dev": "rollup --config=rollup.config.mts --configPlugin=rollup-plugin-esbuild --watch"
+			},
+			"description": "TypeScript stylistic rules for ESLint, migrated from [`typescript-eslint`](https://github.com/typescript-eslint/typescript-eslint).",
+			"_id": "@stylistic/eslint-plugin-ts@1.6.0",
+			"_integrity": "sha512-qM9Vw8TfZeGmN8oreWwUIdEdCs/py9/X88O4ksJv0V/kDmaupVKL8Uu06IlphN2crN6SPU8ljv9rcGXZoxwvmA==",
+			"_resolved": "/tmp/44cd9f6867010b8f5b214bcc22687fd5/stylistic-eslint-plugin-ts-1.6.0.tgz",
+			"_from": "file:stylistic-eslint-plugin-ts-1.6.0.tgz",
+			"_nodeVersion": "20.11.0",
+			"_npmVersion": "10.2.4",
+			"dist": {
+				"integrity": "sha512-qM9Vw8TfZeGmN8oreWwUIdEdCs/py9/X88O4ksJv0V/kDmaupVKL8Uu06IlphN2crN6SPU8ljv9rcGXZoxwvmA==",
+				"shasum": "c2d9a2e135bf0908315fd0ea441b2ee866ce05c9",
+				"tarball": "https://registry.npmjs.org/@stylistic/eslint-plugin-ts/-/eslint-plugin-ts-1.6.0.tgz",
+				"fileCount": 53,
+				"unpackedSize": 160770,
+				"attestations": {
+					"url": "https://registry.npmjs.org/-/npm/v1/attestations/@stylistic%2feslint-plugin-ts@1.6.0",
+					"provenance": {
+						"predicateType": "https://slsa.dev/provenance/v1"
+					}
+				},
+				"signatures": [
+					{
+						"keyid": "SHA256:jl3bwswu80PjjokCgh0o2w5c2U4LhQAE57gj9cz1kzA",
+						"sig": "MEUCIQCcrCqlhdXmvE+BD99GK0i+xWk7r+I6eOOI8SiGYudeOQIgbeFYE5Me8WQlgvn0x5wQl/8BRzXmQ82X0kLHScv1QZg="
+					}
+				]
+			},
+			"_npmUser": {
+				"name": "antfu",
+				"email": "anthonyfu117@hotmail.com"
+			},
+			"directories": {},
+			"maintainers": [
+				{
+					"name": "antfu",
+					"email": "anthonyfu117@hotmail.com"
+				}
+			],
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/eslint-plugin-ts_1.6.0_1707150914494_0.6111207525072337"
+			},
+			"_hasShrinkwrap": false,
+			"contributors": []
+		},
+		"1.6.1": {
+			"name": "@stylistic/eslint-plugin-ts",
+			"version": "1.6.1",
+			"author": {
+				"name": "Anthony Fu",
+				"email": "anthonyfu117@hotmail.com"
+			},
+			"license": "MIT",
+			"homepage": "https://github.com/eslint-stylistic/eslint-stylistic#readme",
+			"repository": {
+				"directory": "packages/eslint-plugin-ts",
+				"type": "git",
+				"url": "git+https://github.com/eslint-stylistic/eslint-stylistic.git"
+			},
+			"bugs": {
+				"url": "https://github.com/eslint-stylistic/eslint-stylistic/issues"
+			},
+			"exports": {
+				".": {
+					"types": "./dts/index.d.ts",
+					"require": "./dist/index.js",
+					"default": "./dist/index.js"
+				},
+				"./define-config-support": {
+					"types": "./dts/define-config-support.d.ts"
+				},
+				"./rule-options": {
+					"types": "./dts/rule-options.d.ts"
+				},
+				"./rules/block-spacing": "./dist/block-spacing.js",
+				"./rules/brace-style": "./dist/brace-style.js",
+				"./rules/comma-dangle": "./dist/comma-dangle.js",
+				"./rules/comma-spacing": "./dist/comma-spacing.js",
+				"./rules/func-call-spacing": "./dist/func-call-spacing.js",
+				"./rules/function-call-spacing": "./dist/function-call-spacing.js",
+				"./rules/indent": "./dist/indent.js",
+				"./rules/key-spacing": "./dist/key-spacing.js",
+				"./rules/keyword-spacing": "./dist/keyword-spacing.js",
+				"./rules/lines-around-comment": "./dist/lines-around-comment.js",
+				"./rules/lines-between-class-members": "./dist/lines-between-class-members.js",
+				"./rules/member-delimiter-style": "./dist/member-delimiter-style.js",
+				"./rules/no-extra-parens": "./dist/no-extra-parens.js",
+				"./rules/no-extra-semi": "./dist/no-extra-semi.js",
+				"./rules/object-curly-spacing": "./dist/object-curly-spacing.js",
+				"./rules/padding-line-between-statements": "./dist/padding-line-between-statements.js",
+				"./rules/quote-props": "./dist/quote-props.js",
+				"./rules/quotes": "./dist/quotes.js",
+				"./rules/semi": "./dist/semi.js",
+				"./rules/space-before-blocks": "./dist/space-before-blocks.js",
+				"./rules/space-before-function-paren": "./dist/space-before-function-paren.js",
+				"./rules/space-infix-ops": "./dist/space-infix-ops.js",
+				"./rules/type-annotation-spacing": "./dist/type-annotation-spacing.js"
+			},
+			"main": "./dist/index.js",
+			"types": "./dts/index.d.ts",
+			"engines": {
+				"node": "^16.0.0 || >=18.0.0"
+			},
+			"peerDependencies": {
+				"eslint": ">=8.40.0"
+			},
+			"dependencies": {
+				"@typescript-eslint/utils": "^6.20.0",
+				"@stylistic/eslint-plugin-js": "1.6.1"
+			},
+			"devDependencies": {
+				"@typescript-eslint/rule-tester": "^6.20.0"
+			},
+			"scripts": {
+				"build": "rimraf dist && rollup --config=rollup.config.mts --configPlugin=rollup-plugin-esbuild",
+				"dev": "rollup --config=rollup.config.mts --configPlugin=rollup-plugin-esbuild --watch"
+			},
+			"description": "TypeScript stylistic rules for ESLint, migrated from [`typescript-eslint`](https://github.com/typescript-eslint/typescript-eslint).",
+			"_id": "@stylistic/eslint-plugin-ts@1.6.1",
+			"_integrity": "sha512-eZxrFaLhPJVUQmtsRXKiuzSou0nlHevKc1WsfhxUJ9p8juv3G3YlbbGeYg4AP1fNlEmWs/lZQAP2WfzQOdBNvQ==",
+			"_resolved": "/tmp/2a3034aefa9f98eab1e5b6a9a69cc35a/stylistic-eslint-plugin-ts-1.6.1.tgz",
+			"_from": "file:stylistic-eslint-plugin-ts-1.6.1.tgz",
+			"_nodeVersion": "20.11.0",
+			"_npmVersion": "10.2.4",
+			"dist": {
+				"integrity": "sha512-eZxrFaLhPJVUQmtsRXKiuzSou0nlHevKc1WsfhxUJ9p8juv3G3YlbbGeYg4AP1fNlEmWs/lZQAP2WfzQOdBNvQ==",
+				"shasum": "9cd20bdfd60441daf2b3d14dcab7f94374fdc556",
+				"tarball": "https://registry.npmjs.org/@stylistic/eslint-plugin-ts/-/eslint-plugin-ts-1.6.1.tgz",
+				"fileCount": 53,
+				"unpackedSize": 160770,
+				"attestations": {
+					"url": "https://registry.npmjs.org/-/npm/v1/attestations/@stylistic%2feslint-plugin-ts@1.6.1",
+					"provenance": {
+						"predicateType": "https://slsa.dev/provenance/v1"
+					}
+				},
+				"signatures": [
+					{
+						"keyid": "SHA256:jl3bwswu80PjjokCgh0o2w5c2U4LhQAE57gj9cz1kzA",
+						"sig": "MEUCIQC/jEO/xUaRsndHwtpdq0jOrQote7lvHUjoZxFx/BTAvgIgemmXY8iGojwjo5lZ2FfX5xrdjwX8JQGQ3j22YZ99hI8="
+					}
+				]
+			},
+			"_npmUser": {
+				"name": "antfu",
+				"email": "anthonyfu117@hotmail.com"
+			},
+			"directories": {},
+			"maintainers": [
+				{
+					"name": "antfu",
+					"email": "anthonyfu117@hotmail.com"
+				}
+			],
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/eslint-plugin-ts_1.6.1_1707419911181_0.10104214590102134"
+			},
+			"_hasShrinkwrap": false,
+			"contributors": []
+		},
+		"1.6.2": {
+			"name": "@stylistic/eslint-plugin-ts",
+			"version": "1.6.2",
+			"author": {
+				"name": "Anthony Fu",
+				"email": "anthonyfu117@hotmail.com"
+			},
+			"license": "MIT",
+			"homepage": "https://github.com/eslint-stylistic/eslint-stylistic#readme",
+			"repository": {
+				"directory": "packages/eslint-plugin-ts",
+				"type": "git",
+				"url": "git+https://github.com/eslint-stylistic/eslint-stylistic.git"
+			},
+			"bugs": {
+				"url": "https://github.com/eslint-stylistic/eslint-stylistic/issues"
+			},
+			"exports": {
+				".": {
+					"types": "./dts/index.d.ts",
+					"require": "./dist/index.js",
+					"default": "./dist/index.js"
+				},
+				"./define-config-support": {
+					"types": "./dts/define-config-support.d.ts"
+				},
+				"./rule-options": {
+					"types": "./dts/rule-options.d.ts"
+				},
+				"./rules/block-spacing": "./dist/block-spacing.js",
+				"./rules/brace-style": "./dist/brace-style.js",
+				"./rules/comma-dangle": "./dist/comma-dangle.js",
+				"./rules/comma-spacing": "./dist/comma-spacing.js",
+				"./rules/func-call-spacing": "./dist/func-call-spacing.js",
+				"./rules/function-call-spacing": "./dist/function-call-spacing.js",
+				"./rules/indent": "./dist/indent.js",
+				"./rules/key-spacing": "./dist/key-spacing.js",
+				"./rules/keyword-spacing": "./dist/keyword-spacing.js",
+				"./rules/lines-around-comment": "./dist/lines-around-comment.js",
+				"./rules/lines-between-class-members": "./dist/lines-between-class-members.js",
+				"./rules/member-delimiter-style": "./dist/member-delimiter-style.js",
+				"./rules/no-extra-parens": "./dist/no-extra-parens.js",
+				"./rules/no-extra-semi": "./dist/no-extra-semi.js",
+				"./rules/object-curly-spacing": "./dist/object-curly-spacing.js",
+				"./rules/padding-line-between-statements": "./dist/padding-line-between-statements.js",
+				"./rules/quote-props": "./dist/quote-props.js",
+				"./rules/quotes": "./dist/quotes.js",
+				"./rules/semi": "./dist/semi.js",
+				"./rules/space-before-blocks": "./dist/space-before-blocks.js",
+				"./rules/space-before-function-paren": "./dist/space-before-function-paren.js",
+				"./rules/space-infix-ops": "./dist/space-infix-ops.js",
+				"./rules/type-annotation-spacing": "./dist/type-annotation-spacing.js"
+			},
+			"main": "./dist/index.js",
+			"types": "./dts/index.d.ts",
+			"engines": {
+				"node": "^16.0.0 || >=18.0.0"
+			},
+			"peerDependencies": {
+				"eslint": ">=8.40.0"
+			},
+			"dependencies": {
+				"@types/eslint": "^8.56.2",
+				"@typescript-eslint/utils": "^6.21.0",
+				"@stylistic/eslint-plugin-js": "1.6.2"
+			},
+			"devDependencies": {
+				"@typescript-eslint/rule-tester": "^6.21.0"
+			},
+			"scripts": {
+				"build": "rimraf dist && rollup --config=rollup.config.mts --configPlugin=rollup-plugin-esbuild",
+				"dev": "rollup --config=rollup.config.mts --configPlugin=rollup-plugin-esbuild --watch"
+			},
+			"description": "TypeScript stylistic rules for ESLint, migrated from [`typescript-eslint`](https://github.com/typescript-eslint/typescript-eslint).",
+			"_id": "@stylistic/eslint-plugin-ts@1.6.2",
+			"_integrity": "sha512-FizV58em0OjO/xFHRIy/LJJVqzxCNmYC/xVtKDf8aGDRgZpLo+lkaBKfBrbMkAGzhBKbYj+iLEFI4WEl6aVZGQ==",
+			"_resolved": "/tmp/d18214575426dea775ead345658007e3/stylistic-eslint-plugin-ts-1.6.2.tgz",
+			"_from": "file:stylistic-eslint-plugin-ts-1.6.2.tgz",
+			"_nodeVersion": "20.11.0",
+			"_npmVersion": "10.2.4",
+			"dist": {
+				"integrity": "sha512-FizV58em0OjO/xFHRIy/LJJVqzxCNmYC/xVtKDf8aGDRgZpLo+lkaBKfBrbMkAGzhBKbYj+iLEFI4WEl6aVZGQ==",
+				"shasum": "e8327ec54c264cb5bd17cd58b05264035655960c",
+				"tarball": "https://registry.npmjs.org/@stylistic/eslint-plugin-ts/-/eslint-plugin-ts-1.6.2.tgz",
+				"fileCount": 53,
+				"unpackedSize": 160802,
+				"attestations": {
+					"url": "https://registry.npmjs.org/-/npm/v1/attestations/@stylistic%2feslint-plugin-ts@1.6.2",
+					"provenance": {
+						"predicateType": "https://slsa.dev/provenance/v1"
+					}
+				},
+				"signatures": [
+					{
+						"keyid": "SHA256:jl3bwswu80PjjokCgh0o2w5c2U4LhQAE57gj9cz1kzA",
+						"sig": "MEQCIA8T0KVDdTNGJx+mYf23HnQmQZLyLds8Cq44mt5Xhx2BAiAfZMQ/0jt1A6dDsKpl5xAFUL5Che4sPtW2AggJNoVJFA=="
+					}
+				]
+			},
+			"_npmUser": {
+				"name": "antfu",
+				"email": "anthonyfu117@hotmail.com"
+			},
+			"directories": {},
+			"maintainers": [
+				{
+					"name": "antfu",
+					"email": "anthonyfu117@hotmail.com"
+				}
+			],
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/eslint-plugin-ts_1.6.2_1707997632905_0.9182611638122018"
+			},
+			"_hasShrinkwrap": false,
+			"contributors": []
+		},
+		"1.6.3": {
+			"name": "@stylistic/eslint-plugin-ts",
+			"version": "1.6.3",
+			"author": {
+				"name": "Anthony Fu",
+				"email": "anthonyfu117@hotmail.com"
+			},
+			"license": "MIT",
+			"homepage": "https://github.com/eslint-stylistic/eslint-stylistic#readme",
+			"repository": {
+				"directory": "packages/eslint-plugin-ts",
+				"type": "git",
+				"url": "git+https://github.com/eslint-stylistic/eslint-stylistic.git"
+			},
+			"bugs": {
+				"url": "https://github.com/eslint-stylistic/eslint-stylistic/issues"
+			},
+			"exports": {
+				".": {
+					"types": "./dts/index.d.ts",
+					"require": "./dist/index.js",
+					"default": "./dist/index.js"
+				},
+				"./define-config-support": {
+					"types": "./dts/define-config-support.d.ts"
+				},
+				"./rule-options": {
+					"types": "./dts/rule-options.d.ts"
+				},
+				"./rules/block-spacing": "./dist/block-spacing.js",
+				"./rules/brace-style": "./dist/brace-style.js",
+				"./rules/comma-dangle": "./dist/comma-dangle.js",
+				"./rules/comma-spacing": "./dist/comma-spacing.js",
+				"./rules/func-call-spacing": "./dist/func-call-spacing.js",
+				"./rules/function-call-spacing": "./dist/function-call-spacing.js",
+				"./rules/indent": "./dist/indent.js",
+				"./rules/key-spacing": "./dist/key-spacing.js",
+				"./rules/keyword-spacing": "./dist/keyword-spacing.js",
+				"./rules/lines-around-comment": "./dist/lines-around-comment.js",
+				"./rules/lines-between-class-members": "./dist/lines-between-class-members.js",
+				"./rules/member-delimiter-style": "./dist/member-delimiter-style.js",
+				"./rules/no-extra-parens": "./dist/no-extra-parens.js",
+				"./rules/no-extra-semi": "./dist/no-extra-semi.js",
+				"./rules/object-curly-spacing": "./dist/object-curly-spacing.js",
+				"./rules/padding-line-between-statements": "./dist/padding-line-between-statements.js",
+				"./rules/quote-props": "./dist/quote-props.js",
+				"./rules/quotes": "./dist/quotes.js",
+				"./rules/semi": "./dist/semi.js",
+				"./rules/space-before-blocks": "./dist/space-before-blocks.js",
+				"./rules/space-before-function-paren": "./dist/space-before-function-paren.js",
+				"./rules/space-infix-ops": "./dist/space-infix-ops.js",
+				"./rules/type-annotation-spacing": "./dist/type-annotation-spacing.js"
+			},
+			"main": "./dist/index.js",
+			"types": "./dts/index.d.ts",
+			"engines": {
+				"node": "^16.0.0 || >=18.0.0"
+			},
+			"peerDependencies": {
+				"eslint": ">=8.40.0"
+			},
+			"dependencies": {
+				"@types/eslint": "^8.56.2",
+				"@typescript-eslint/utils": "^6.21.0",
+				"@stylistic/eslint-plugin-js": "1.6.3"
+			},
+			"devDependencies": {
+				"@typescript-eslint/rule-tester": "^6.21.0"
+			},
+			"scripts": {
+				"build": "rimraf dist && rollup --config=rollup.config.mts --configPlugin=rollup-plugin-esbuild",
+				"dev": "rollup --config=rollup.config.mts --configPlugin=rollup-plugin-esbuild --watch"
+			},
+			"description": "TypeScript stylistic rules for ESLint, migrated from [`typescript-eslint`](https://github.com/typescript-eslint/typescript-eslint).",
+			"_id": "@stylistic/eslint-plugin-ts@1.6.3",
+			"_integrity": "sha512-v5GwZsPLblWM9uAIdaSi31Sed3XBWlTFQJ3b5upEmj6QsKYivA5nmIYutwqqL133QdVWjmC86pINlx2Muq3uNQ==",
+			"_resolved": "/tmp/a2d7f6ef7d9472713c23b8de2694045b/stylistic-eslint-plugin-ts-1.6.3.tgz",
+			"_from": "file:stylistic-eslint-plugin-ts-1.6.3.tgz",
+			"_nodeVersion": "20.11.1",
+			"_npmVersion": "10.2.4",
+			"dist": {
+				"integrity": "sha512-v5GwZsPLblWM9uAIdaSi31Sed3XBWlTFQJ3b5upEmj6QsKYivA5nmIYutwqqL133QdVWjmC86pINlx2Muq3uNQ==",
+				"shasum": "4829ca62446d1005f99e5ce9e7ec8588737cc0d1",
+				"tarball": "https://registry.npmjs.org/@stylistic/eslint-plugin-ts/-/eslint-plugin-ts-1.6.3.tgz",
+				"fileCount": 53,
+				"unpackedSize": 160802,
+				"attestations": {
+					"url": "https://registry.npmjs.org/-/npm/v1/attestations/@stylistic%2feslint-plugin-ts@1.6.3",
+					"provenance": {
+						"predicateType": "https://slsa.dev/provenance/v1"
+					}
+				},
+				"signatures": [
+					{
+						"keyid": "SHA256:jl3bwswu80PjjokCgh0o2w5c2U4LhQAE57gj9cz1kzA",
+						"sig": "MEUCIQDYtD2+1rxAjGYvIKz4sV4iZKxw6jOWD/mwFBANIY42DQIgVXM4qMzoV87zoYE4k8aKoioOoqZWTfdD/LxgCVbPa3Y="
+					}
+				]
+			},
+			"_npmUser": {
+				"name": "antfu",
+				"email": "anthonyfu117@hotmail.com"
+			},
+			"directories": {},
+			"maintainers": [
+				{
+					"name": "antfu",
+					"email": "anthonyfu117@hotmail.com"
+				}
+			],
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/eslint-plugin-ts_1.6.3_1709213988934_0.45819579518720777"
+			},
+			"_hasShrinkwrap": false,
+			"contributors": []
+		},
+		"1.7.0": {
+			"name": "@stylistic/eslint-plugin-ts",
+			"version": "1.7.0",
+			"author": {
+				"name": "Anthony Fu",
+				"email": "anthonyfu117@hotmail.com"
+			},
+			"license": "MIT",
+			"homepage": "https://github.com/eslint-stylistic/eslint-stylistic#readme",
+			"repository": {
+				"directory": "packages/eslint-plugin-ts",
+				"type": "git",
+				"url": "git+https://github.com/eslint-stylistic/eslint-stylistic.git"
+			},
+			"bugs": {
+				"url": "https://github.com/eslint-stylistic/eslint-stylistic/issues"
+			},
+			"exports": {
+				".": {
+					"types": "./dts/index.d.ts",
+					"require": "./dist/index.js",
+					"default": "./dist/index.js"
+				},
+				"./define-config-support": {
+					"types": "./dts/define-config-support.d.ts"
+				},
+				"./rule-options": {
+					"types": "./dts/rule-options.d.ts"
+				},
+				"./rules/block-spacing": "./dist/block-spacing.js",
+				"./rules/brace-style": "./dist/brace-style.js",
+				"./rules/comma-dangle": "./dist/comma-dangle.js",
+				"./rules/comma-spacing": "./dist/comma-spacing.js",
+				"./rules/func-call-spacing": "./dist/func-call-spacing.js",
+				"./rules/function-call-spacing": "./dist/function-call-spacing.js",
+				"./rules/indent": "./dist/indent.js",
+				"./rules/key-spacing": "./dist/key-spacing.js",
+				"./rules/keyword-spacing": "./dist/keyword-spacing.js",
+				"./rules/lines-around-comment": "./dist/lines-around-comment.js",
+				"./rules/lines-between-class-members": "./dist/lines-between-class-members.js",
+				"./rules/member-delimiter-style": "./dist/member-delimiter-style.js",
+				"./rules/no-extra-parens": "./dist/no-extra-parens.js",
+				"./rules/no-extra-semi": "./dist/no-extra-semi.js",
+				"./rules/object-curly-spacing": "./dist/object-curly-spacing.js",
+				"./rules/padding-line-between-statements": "./dist/padding-line-between-statements.js",
+				"./rules/quote-props": "./dist/quote-props.js",
+				"./rules/quotes": "./dist/quotes.js",
+				"./rules/semi": "./dist/semi.js",
+				"./rules/space-before-blocks": "./dist/space-before-blocks.js",
+				"./rules/space-before-function-paren": "./dist/space-before-function-paren.js",
+				"./rules/space-infix-ops": "./dist/space-infix-ops.js",
+				"./rules/type-annotation-spacing": "./dist/type-annotation-spacing.js"
+			},
+			"main": "./dist/index.js",
+			"types": "./dts/index.d.ts",
+			"engines": {
+				"node": "^16.0.0 || >=18.0.0"
+			},
+			"peerDependencies": {
+				"eslint": ">=8.40.0"
+			},
+			"dependencies": {
+				"@types/eslint": "^8.56.2",
+				"@typescript-eslint/utils": "^6.21.0",
+				"@stylistic/eslint-plugin-js": "1.7.0"
+			},
+			"devDependencies": {
+				"@typescript-eslint/rule-tester": "^6.21.0"
+			},
+			"scripts": {
+				"build": "rimraf dist && rollup --config=rollup.config.mts --configPlugin=rollup-plugin-esbuild",
+				"dev": "rollup --config=rollup.config.mts --configPlugin=rollup-plugin-esbuild --watch"
+			},
+			"description": "TypeScript stylistic rules for ESLint, migrated from [`typescript-eslint`](https://github.com/typescript-eslint/typescript-eslint).",
+			"_id": "@stylistic/eslint-plugin-ts@1.7.0",
+			"_integrity": "sha512-QsHv98mmW1xaucVYQTyLDgEpybPJ/6jPPxVBrIchntWWwj74xCWKUiw79hu+TpYj/Pbhd9rkqJYLNq3pQGYuyA==",
+			"_resolved": "/tmp/599dcfae2455a66c80fa72f03dc18406/stylistic-eslint-plugin-ts-1.7.0.tgz",
+			"_from": "file:stylistic-eslint-plugin-ts-1.7.0.tgz",
+			"_nodeVersion": "20.11.1",
+			"_npmVersion": "10.2.4",
+			"dist": {
+				"integrity": "sha512-QsHv98mmW1xaucVYQTyLDgEpybPJ/6jPPxVBrIchntWWwj74xCWKUiw79hu+TpYj/Pbhd9rkqJYLNq3pQGYuyA==",
+				"shasum": "b3bce3235a1cdf27448910ebc049b8bd4ba7ee43",
+				"tarball": "https://registry.npmjs.org/@stylistic/eslint-plugin-ts/-/eslint-plugin-ts-1.7.0.tgz",
+				"fileCount": 53,
+				"unpackedSize": 160802,
+				"attestations": {
+					"url": "https://registry.npmjs.org/-/npm/v1/attestations/@stylistic%2feslint-plugin-ts@1.7.0",
+					"provenance": {
+						"predicateType": "https://slsa.dev/provenance/v1"
+					}
+				},
+				"signatures": [
+					{
+						"keyid": "SHA256:jl3bwswu80PjjokCgh0o2w5c2U4LhQAE57gj9cz1kzA",
+						"sig": "MEYCIQCwF4lem2tyoXYtrsswmj6BaFZSk+vsZVeaYpUvC3Di+QIhAMd4Cq51n+ZXw1QaHjgR4JWK9X8lWR//YgQKYIykfGQE"
+					}
+				]
+			},
+			"_npmUser": {
+				"name": "antfu",
+				"email": "anthonyfu117@hotmail.com"
+			},
+			"directories": {},
+			"maintainers": [
+				{
+					"name": "antfu",
+					"email": "anthonyfu117@hotmail.com"
+				}
+			],
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/eslint-plugin-ts_1.7.0_1710411462655_0.976755553208208"
+			},
+			"_hasShrinkwrap": false,
+			"contributors": []
+		},
+		"1.7.2": {
+			"name": "@stylistic/eslint-plugin-ts",
+			"version": "1.7.2",
+			"author": {
+				"name": "Anthony Fu",
+				"email": "anthonyfu117@hotmail.com"
+			},
+			"license": "MIT",
+			"homepage": "https://github.com/eslint-community/eslint-stylistic#readme",
+			"repository": {
+				"directory": "packages/eslint-plugin-ts",
+				"type": "git",
+				"url": "git+https://github.com/eslint-community/eslint-stylistic.git"
+			},
+			"bugs": {
+				"url": "https://github.com/eslint-community/eslint-stylistic/issues"
+			},
+			"exports": {
+				".": {
+					"types": "./dts/index.d.ts",
+					"require": "./dist/index.js",
+					"default": "./dist/index.js"
+				},
+				"./define-config-support": {
+					"types": "./dts/define-config-support.d.ts"
+				},
+				"./rule-options": {
+					"types": "./dts/rule-options.d.ts"
+				},
+				"./rules/block-spacing": "./dist/block-spacing.js",
+				"./rules/brace-style": "./dist/brace-style.js",
+				"./rules/comma-dangle": "./dist/comma-dangle.js",
+				"./rules/comma-spacing": "./dist/comma-spacing.js",
+				"./rules/func-call-spacing": "./dist/func-call-spacing.js",
+				"./rules/function-call-spacing": "./dist/function-call-spacing.js",
+				"./rules/indent": "./dist/indent.js",
+				"./rules/key-spacing": "./dist/key-spacing.js",
+				"./rules/keyword-spacing": "./dist/keyword-spacing.js",
+				"./rules/lines-around-comment": "./dist/lines-around-comment.js",
+				"./rules/lines-between-class-members": "./dist/lines-between-class-members.js",
+				"./rules/member-delimiter-style": "./dist/member-delimiter-style.js",
+				"./rules/no-extra-parens": "./dist/no-extra-parens.js",
+				"./rules/no-extra-semi": "./dist/no-extra-semi.js",
+				"./rules/object-curly-spacing": "./dist/object-curly-spacing.js",
+				"./rules/padding-line-between-statements": "./dist/padding-line-between-statements.js",
+				"./rules/quote-props": "./dist/quote-props.js",
+				"./rules/quotes": "./dist/quotes.js",
+				"./rules/semi": "./dist/semi.js",
+				"./rules/space-before-blocks": "./dist/space-before-blocks.js",
+				"./rules/space-before-function-paren": "./dist/space-before-function-paren.js",
+				"./rules/space-infix-ops": "./dist/space-infix-ops.js",
+				"./rules/type-annotation-spacing": "./dist/type-annotation-spacing.js"
+			},
+			"main": "./dist/index.js",
+			"types": "./dts/index.d.ts",
+			"engines": {
+				"node": "^16.0.0 || >=18.0.0"
+			},
+			"peerDependencies": {
+				"eslint": ">=8.40.0"
+			},
+			"dependencies": {
+				"@types/eslint": "^8.56.8",
+				"@typescript-eslint/utils": "^6.21.0",
+				"@stylistic/eslint-plugin-js": "1.7.2"
+			},
+			"devDependencies": {
+				"@typescript-eslint/rule-tester": "^6.21.0"
+			},
+			"scripts": {
+				"build": "rimraf dist && rollup --config=rollup.config.mts --configPlugin=rollup-plugin-esbuild",
+				"dev": "rollup --config=rollup.config.mts --configPlugin=rollup-plugin-esbuild --watch"
+			},
+			"description": "TypeScript stylistic rules for ESLint, migrated from [`typescript-eslint`](https://github.com/typescript-eslint/typescript-eslint).",
+			"_id": "@stylistic/eslint-plugin-ts@1.7.2",
+			"_integrity": "sha512-szX89YPocwCe4T0eT3alj7MwEzDHt5+B+kb/vQfSSLIjI9CGgoWrgj50zU8PtaDctTh4ZieFBzU/lRmkSUo0RQ==",
+			"_resolved": "/tmp/36801dca3ea7879fe1354f9e82d67017/stylistic-eslint-plugin-ts-1.7.2.tgz",
+			"_from": "file:stylistic-eslint-plugin-ts-1.7.2.tgz",
+			"_nodeVersion": "20.12.1",
+			"_npmVersion": "10.5.0",
+			"dist": {
+				"integrity": "sha512-szX89YPocwCe4T0eT3alj7MwEzDHt5+B+kb/vQfSSLIjI9CGgoWrgj50zU8PtaDctTh4ZieFBzU/lRmkSUo0RQ==",
+				"shasum": "148954800b73a107fb22a344bd7e9d4c6b5a2caa",
+				"tarball": "https://registry.npmjs.org/@stylistic/eslint-plugin-ts/-/eslint-plugin-ts-1.7.2.tgz",
+				"fileCount": 53,
+				"unpackedSize": 160802,
+				"attestations": {
+					"url": "https://registry.npmjs.org/-/npm/v1/attestations/@stylistic%2feslint-plugin-ts@1.7.2",
+					"provenance": {
+						"predicateType": "https://slsa.dev/provenance/v1"
+					}
+				},
+				"signatures": [
+					{
+						"keyid": "SHA256:jl3bwswu80PjjokCgh0o2w5c2U4LhQAE57gj9cz1kzA",
+						"sig": "MEUCIGGudy0ywSNHgdn2EPZ29gx7fQ2oht8OUoz/5PgippEeAiEA3QXGvIyZ+0HsMP4oqSzJluO5sBMbExwezMMDFc/Sc7E="
+					}
+				]
+			},
+			"_npmUser": {
+				"name": "eslint-community-bot",
+				"email": "contact+eslintcbot@eslint.org"
+			},
+			"directories": {},
+			"maintainers": [
+				{
+					"name": "eslint-community-bot",
+					"email": "contact+eslintcbot@eslint.org"
+				},
+				{
+					"name": "antfu",
+					"email": "anthonyfu117@hotmail.com"
+				},
+				{
+					"name": "michaeldeboey",
+					"email": "info@michaeldeboey.be"
+				}
+			],
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/eslint-plugin-ts_1.7.2_1713213278162_0.14178482207546006"
+			},
+			"_hasShrinkwrap": false,
+			"contributors": []
+		},
+		"1.8.0": {
+			"name": "@stylistic/eslint-plugin-ts",
+			"version": "1.8.0",
+			"author": {
+				"name": "Anthony Fu",
+				"email": "anthonyfu117@hotmail.com"
+			},
+			"license": "MIT",
+			"homepage": "https://github.com/eslint-stylistic/eslint-stylistic#readme",
+			"repository": {
+				"directory": "packages/eslint-plugin-ts",
+				"type": "git",
+				"url": "git+https://github.com/eslint-stylistic/eslint-stylistic.git"
+			},
+			"bugs": {
+				"url": "https://github.com/eslint-stylistic/eslint-stylistic/issues"
+			},
+			"exports": {
+				".": {
+					"types": "./dts/index.d.ts",
+					"require": "./dist/index.js",
+					"default": "./dist/index.js"
+				},
+				"./define-config-support": {
+					"types": "./dts/define-config-support.d.ts"
+				},
+				"./rule-options": {
+					"types": "./dts/rule-options.d.ts"
+				},
+				"./rules/block-spacing": "./dist/block-spacing.js",
+				"./rules/brace-style": "./dist/brace-style.js",
+				"./rules/comma-dangle": "./dist/comma-dangle.js",
+				"./rules/comma-spacing": "./dist/comma-spacing.js",
+				"./rules/func-call-spacing": "./dist/func-call-spacing.js",
+				"./rules/function-call-spacing": "./dist/function-call-spacing.js",
+				"./rules/indent": "./dist/indent.js",
+				"./rules/key-spacing": "./dist/key-spacing.js",
+				"./rules/keyword-spacing": "./dist/keyword-spacing.js",
+				"./rules/lines-around-comment": "./dist/lines-around-comment.js",
+				"./rules/lines-between-class-members": "./dist/lines-between-class-members.js",
+				"./rules/member-delimiter-style": "./dist/member-delimiter-style.js",
+				"./rules/no-extra-parens": "./dist/no-extra-parens.js",
+				"./rules/no-extra-semi": "./dist/no-extra-semi.js",
+				"./rules/object-curly-spacing": "./dist/object-curly-spacing.js",
+				"./rules/padding-line-between-statements": "./dist/padding-line-between-statements.js",
+				"./rules/quote-props": "./dist/quote-props.js",
+				"./rules/quotes": "./dist/quotes.js",
+				"./rules/semi": "./dist/semi.js",
+				"./rules/space-before-blocks": "./dist/space-before-blocks.js",
+				"./rules/space-before-function-paren": "./dist/space-before-function-paren.js",
+				"./rules/space-infix-ops": "./dist/space-infix-ops.js",
+				"./rules/type-annotation-spacing": "./dist/type-annotation-spacing.js"
+			},
+			"main": "./dist/index.js",
+			"types": "./dts/index.d.ts",
+			"engines": {
+				"node": "^16.0.0 || >=18.0.0"
+			},
+			"peerDependencies": {
+				"eslint": ">=8.40.0"
+			},
+			"dependencies": {
+				"@types/eslint": "^8.56.10",
+				"@typescript-eslint/utils": "^6.21.0",
+				"@stylistic/eslint-plugin-js": "1.8.0"
+			},
+			"devDependencies": {
+				"@typescript-eslint/rule-tester": "^6.21.0"
+			},
+			"scripts": {
+				"build": "rimraf dist && rollup --config=rollup.config.mts --configPlugin=rollup-plugin-esbuild",
+				"dev": "rollup --config=rollup.config.mts --configPlugin=rollup-plugin-esbuild --watch"
+			},
+			"description": "TypeScript stylistic rules for ESLint, migrated from [`typescript-eslint`](https://github.com/typescript-eslint/typescript-eslint).",
+			"_id": "@stylistic/eslint-plugin-ts@1.8.0",
+			"_integrity": "sha512-WuCIhz4JEHxzhAWjrBASMGj6Or1wAjDqTsRIck3DRRrw/FJ8C/8AAuHPk8ECHNSDI5PZ0OT72nF2uSUn0aQq1w==",
+			"_resolved": "/tmp/deabc2a9fab15e3a078f85eb9019fb65/stylistic-eslint-plugin-ts-1.8.0.tgz",
+			"_from": "file:stylistic-eslint-plugin-ts-1.8.0.tgz",
+			"_nodeVersion": "20.12.2",
+			"_npmVersion": "10.5.0",
+			"dist": {
+				"integrity": "sha512-WuCIhz4JEHxzhAWjrBASMGj6Or1wAjDqTsRIck3DRRrw/FJ8C/8AAuHPk8ECHNSDI5PZ0OT72nF2uSUn0aQq1w==",
+				"shasum": "d83033c30908a38dbacc3f50f32cc9b70f9579d3",
+				"tarball": "https://registry.npmjs.org/@stylistic/eslint-plugin-ts/-/eslint-plugin-ts-1.8.0.tgz",
+				"fileCount": 53,
+				"unpackedSize": 160783,
+				"attestations": {
+					"url": "https://registry.npmjs.org/-/npm/v1/attestations/@stylistic%2feslint-plugin-ts@1.8.0",
+					"provenance": {
+						"predicateType": "https://slsa.dev/provenance/v1"
+					}
+				},
+				"signatures": [
+					{
+						"keyid": "SHA256:jl3bwswu80PjjokCgh0o2w5c2U4LhQAE57gj9cz1kzA",
+						"sig": "MEYCIQCxdKoDvVvfAqxixeMY58W1xwUwWRgLS5SlU2QKu90t3wIhAJPy4d3ITELgv/s3eGEOgZrfdZWkWfGRMyShWfemc3uw"
+					}
+				]
+			},
+			"_npmUser": {
+				"name": "eslint-stylistic-bot",
+				"email": "npm-eslint-stylistic@antfu.me"
+			},
+			"directories": {},
+			"maintainers": [
+				{
+					"name": "eslint-stylistic-bot",
+					"email": "npm-eslint-stylistic@antfu.me"
+				}
+			],
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/eslint-plugin-ts_1.8.0_1714480737624_0.5082280461841273"
+			},
+			"_hasShrinkwrap": false,
+			"contributors": []
+		},
+		"1.8.1": {
+			"name": "@stylistic/eslint-plugin-ts",
+			"version": "1.8.1",
+			"author": {
+				"name": "Anthony Fu",
+				"email": "anthonyfu117@hotmail.com"
+			},
+			"license": "MIT",
+			"homepage": "https://github.com/eslint-stylistic/eslint-stylistic#readme",
+			"repository": {
+				"directory": "packages/eslint-plugin-ts",
+				"type": "git",
+				"url": "git+https://github.com/eslint-stylistic/eslint-stylistic.git"
+			},
+			"bugs": {
+				"url": "https://github.com/eslint-stylistic/eslint-stylistic/issues"
+			},
+			"exports": {
+				".": {
+					"types": "./dts/index.d.ts",
+					"require": "./dist/index.js",
+					"default": "./dist/index.js"
+				},
+				"./define-config-support": {
+					"types": "./dts/define-config-support.d.ts"
+				},
+				"./rule-options": {
+					"types": "./dts/rule-options.d.ts"
+				},
+				"./rules/block-spacing": "./dist/block-spacing.js",
+				"./rules/brace-style": "./dist/brace-style.js",
+				"./rules/comma-dangle": "./dist/comma-dangle.js",
+				"./rules/comma-spacing": "./dist/comma-spacing.js",
+				"./rules/func-call-spacing": "./dist/func-call-spacing.js",
+				"./rules/function-call-spacing": "./dist/function-call-spacing.js",
+				"./rules/indent": "./dist/indent.js",
+				"./rules/key-spacing": "./dist/key-spacing.js",
+				"./rules/keyword-spacing": "./dist/keyword-spacing.js",
+				"./rules/lines-around-comment": "./dist/lines-around-comment.js",
+				"./rules/lines-between-class-members": "./dist/lines-between-class-members.js",
+				"./rules/member-delimiter-style": "./dist/member-delimiter-style.js",
+				"./rules/no-extra-parens": "./dist/no-extra-parens.js",
+				"./rules/no-extra-semi": "./dist/no-extra-semi.js",
+				"./rules/object-curly-spacing": "./dist/object-curly-spacing.js",
+				"./rules/padding-line-between-statements": "./dist/padding-line-between-statements.js",
+				"./rules/quote-props": "./dist/quote-props.js",
+				"./rules/quotes": "./dist/quotes.js",
+				"./rules/semi": "./dist/semi.js",
+				"./rules/space-before-blocks": "./dist/space-before-blocks.js",
+				"./rules/space-before-function-paren": "./dist/space-before-function-paren.js",
+				"./rules/space-infix-ops": "./dist/space-infix-ops.js",
+				"./rules/type-annotation-spacing": "./dist/type-annotation-spacing.js"
+			},
+			"main": "./dist/index.js",
+			"types": "./dts/index.d.ts",
+			"engines": {
+				"node": "^16.0.0 || >=18.0.0"
+			},
+			"peerDependencies": {
+				"eslint": ">=8.40.0"
+			},
+			"dependencies": {
+				"@types/eslint": "^8.56.10",
+				"@typescript-eslint/utils": "^6.21.0",
+				"@stylistic/eslint-plugin-js": "1.8.1"
+			},
+			"devDependencies": {
+				"@typescript-eslint/rule-tester": "^6.21.0"
+			},
+			"scripts": {
+				"build": "rimraf dist && rollup --config=rollup.config.mts --configPlugin=rollup-plugin-esbuild",
+				"dev": "rollup --config=rollup.config.mts --configPlugin=rollup-plugin-esbuild --watch"
+			},
+			"description": "TypeScript stylistic rules for ESLint, migrated from [`typescript-eslint`](https://github.com/typescript-eslint/typescript-eslint).",
+			"_id": "@stylistic/eslint-plugin-ts@1.8.1",
+			"_integrity": "sha512-/q1m+ZuO1JHfiSF16EATFzv7XSJkc5W6DocfvH5o9oB6WWYFMF77fVoBWnKT3wGptPOc2hkRupRKhmeFROdfWA==",
+			"_resolved": "/tmp/2036bc2168ddec326c1bd472ad03e87f/stylistic-eslint-plugin-ts-1.8.1.tgz",
+			"_from": "file:stylistic-eslint-plugin-ts-1.8.1.tgz",
+			"_nodeVersion": "20.12.2",
+			"_npmVersion": "10.5.0",
+			"dist": {
+				"integrity": "sha512-/q1m+ZuO1JHfiSF16EATFzv7XSJkc5W6DocfvH5o9oB6WWYFMF77fVoBWnKT3wGptPOc2hkRupRKhmeFROdfWA==",
+				"shasum": "9e6cce06530d3e579bafde0cf3bbb89453b3233f",
+				"tarball": "https://registry.npmjs.org/@stylistic/eslint-plugin-ts/-/eslint-plugin-ts-1.8.1.tgz",
+				"fileCount": 53,
+				"unpackedSize": 160783,
+				"attestations": {
+					"url": "https://registry.npmjs.org/-/npm/v1/attestations/@stylistic%2feslint-plugin-ts@1.8.1",
+					"provenance": {
+						"predicateType": "https://slsa.dev/provenance/v1"
+					}
+				},
+				"signatures": [
+					{
+						"keyid": "SHA256:jl3bwswu80PjjokCgh0o2w5c2U4LhQAE57gj9cz1kzA",
+						"sig": "MEQCIE9P1TzW1y9vloEKV8Wxl256u76ZqTvjXMUde/Szx/iwAiAygKaspKHYEAi8yKf69/6LQuUlBVy2StIoW5Fb2Dptjg=="
+					}
+				]
+			},
+			"_npmUser": {
+				"name": "eslint-stylistic-bot",
+				"email": "npm-eslint-stylistic@antfu.me"
+			},
+			"directories": {},
+			"maintainers": [
+				{
+					"name": "eslint-stylistic-bot",
+					"email": "npm-eslint-stylistic@antfu.me"
+				}
+			],
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/eslint-plugin-ts_1.8.1_1715099374851_0.09402797790900452"
+			},
+			"_hasShrinkwrap": false,
+			"contributors": []
+		},
+		"2.0.0": {
+			"name": "@stylistic/eslint-plugin-ts",
+			"version": "2.0.0",
+			"author": {
+				"name": "Anthony Fu",
+				"email": "anthonyfu117@hotmail.com"
+			},
+			"license": "MIT",
+			"homepage": "https://github.com/eslint-stylistic/eslint-stylistic#readme",
+			"repository": {
+				"directory": "packages/eslint-plugin-ts",
+				"type": "git",
+				"url": "git+https://github.com/eslint-stylistic/eslint-stylistic.git"
+			},
+			"bugs": {
+				"url": "https://github.com/eslint-stylistic/eslint-stylistic/issues"
+			},
+			"exports": {
+				".": {
+					"types": "./dts/index.d.ts",
+					"require": "./dist/index.js",
+					"default": "./dist/index.js"
+				},
+				"./define-config-support": {
+					"types": "./dts/define-config-support.d.ts"
+				},
+				"./rule-options": {
+					"types": "./dts/rule-options.d.ts"
+				},
+				"./rules/block-spacing": "./dist/block-spacing.js",
+				"./rules/brace-style": "./dist/brace-style.js",
+				"./rules/comma-dangle": "./dist/comma-dangle.js",
+				"./rules/comma-spacing": "./dist/comma-spacing.js",
+				"./rules/func-call-spacing": "./dist/func-call-spacing.js",
+				"./rules/function-call-spacing": "./dist/function-call-spacing.js",
+				"./rules/indent": "./dist/indent.js",
+				"./rules/key-spacing": "./dist/key-spacing.js",
+				"./rules/keyword-spacing": "./dist/keyword-spacing.js",
+				"./rules/lines-around-comment": "./dist/lines-around-comment.js",
+				"./rules/lines-between-class-members": "./dist/lines-between-class-members.js",
+				"./rules/member-delimiter-style": "./dist/member-delimiter-style.js",
+				"./rules/no-extra-parens": "./dist/no-extra-parens.js",
+				"./rules/no-extra-semi": "./dist/no-extra-semi.js",
+				"./rules/object-curly-spacing": "./dist/object-curly-spacing.js",
+				"./rules/padding-line-between-statements": "./dist/padding-line-between-statements.js",
+				"./rules/quote-props": "./dist/quote-props.js",
+				"./rules/quotes": "./dist/quotes.js",
+				"./rules/semi": "./dist/semi.js",
+				"./rules/space-before-blocks": "./dist/space-before-blocks.js",
+				"./rules/space-before-function-paren": "./dist/space-before-function-paren.js",
+				"./rules/space-infix-ops": "./dist/space-infix-ops.js",
+				"./rules/type-annotation-spacing": "./dist/type-annotation-spacing.js"
+			},
+			"main": "./dist/index.js",
+			"types": "./dts/index.d.ts",
+			"engines": {
+				"node": "^18.18.0 || ^20.9.0 || >=21.1.0"
+			},
+			"peerDependencies": {
+				"eslint": ">=8.40.0"
+			},
+			"dependencies": {
+				"@types/eslint": "^8.56.10",
+				"@typescript-eslint/utils": "^7.8.0",
+				"@stylistic/eslint-plugin-js": "2.0.0"
+			},
+			"devDependencies": {
+				"@typescript-eslint/rule-tester": "^7.8.0"
+			},
+			"scripts": {
+				"build": "rimraf dist && rollup --config=rollup.config.mts --configPlugin=rollup-plugin-esbuild",
+				"dev": "rollup --config=rollup.config.mts --configPlugin=rollup-plugin-esbuild --watch"
+			},
+			"description": "TypeScript stylistic rules for ESLint, migrated from [`typescript-eslint`](https://github.com/typescript-eslint/typescript-eslint).",
+			"_id": "@stylistic/eslint-plugin-ts@2.0.0",
+			"_integrity": "sha512-Rsk9XLR+Edv7TNh20Z+pfFA+T6pjPidbK1JYk6UIxc5iVW5Po6E/NOnO0UKD++uWT3XIDsC0LkHUxfKPoXf9TQ==",
+			"_resolved": "/tmp/5246a565c76a24a129b9d6caf98be2f9/stylistic-eslint-plugin-ts-2.0.0.tgz",
+			"_from": "file:stylistic-eslint-plugin-ts-2.0.0.tgz",
+			"_nodeVersion": "20.12.2",
+			"_npmVersion": "10.5.0",
+			"dist": {
+				"integrity": "sha512-Rsk9XLR+Edv7TNh20Z+pfFA+T6pjPidbK1JYk6UIxc5iVW5Po6E/NOnO0UKD++uWT3XIDsC0LkHUxfKPoXf9TQ==",
+				"shasum": "22ec0a0ca8b0c588571a94e47e7ecf8577d3330e",
+				"tarball": "https://registry.npmjs.org/@stylistic/eslint-plugin-ts/-/eslint-plugin-ts-2.0.0.tgz",
+				"fileCount": 53,
+				"unpackedSize": 160793,
+				"attestations": {
+					"url": "https://registry.npmjs.org/-/npm/v1/attestations/@stylistic%2feslint-plugin-ts@2.0.0",
+					"provenance": {
+						"predicateType": "https://slsa.dev/provenance/v1"
+					}
+				},
+				"signatures": [
+					{
+						"keyid": "SHA256:jl3bwswu80PjjokCgh0o2w5c2U4LhQAE57gj9cz1kzA",
+						"sig": "MEYCIQCmCbzm0vAjnik18caKFqhwNeHk9h5Fid8Rv2/9LtvZ2wIhAMxdC7eexIDat8rTLSQpmInuG0aocBBd7OfhlODBd4jf"
+					}
+				]
+			},
+			"_npmUser": {
+				"name": "eslint-stylistic-bot",
+				"email": "npm-eslint-stylistic@antfu.me"
+			},
+			"directories": {},
+			"maintainers": [
+				{
+					"name": "eslint-stylistic-bot",
+					"email": "npm-eslint-stylistic@antfu.me"
+				}
+			],
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/eslint-plugin-ts_2.0.0_1715176541901_0.047278892607554246"
+			},
+			"_hasShrinkwrap": false,
+			"contributors": []
+		},
+		"2.1.0": {
+			"name": "@stylistic/eslint-plugin-ts",
+			"version": "2.1.0",
+			"author": {
+				"name": "Anthony Fu",
+				"email": "anthonyfu117@hotmail.com"
+			},
+			"license": "MIT",
+			"homepage": "https://github.com/eslint-stylistic/eslint-stylistic#readme",
+			"repository": {
+				"directory": "packages/eslint-plugin-ts",
+				"type": "git",
+				"url": "git+https://github.com/eslint-stylistic/eslint-stylistic.git"
+			},
+			"bugs": {
+				"url": "https://github.com/eslint-stylistic/eslint-stylistic/issues"
+			},
+			"exports": {
+				".": {
+					"types": "./dts/index.d.ts",
+					"require": "./dist/index.js",
+					"default": "./dist/index.js"
+				},
+				"./define-config-support": {
+					"types": "./dts/define-config-support.d.ts"
+				},
+				"./rule-options": {
+					"types": "./dts/rule-options.d.ts"
+				},
+				"./rules/block-spacing": "./dist/block-spacing.js",
+				"./rules/brace-style": "./dist/brace-style.js",
+				"./rules/comma-dangle": "./dist/comma-dangle.js",
+				"./rules/comma-spacing": "./dist/comma-spacing.js",
+				"./rules/func-call-spacing": "./dist/func-call-spacing.js",
+				"./rules/function-call-spacing": "./dist/function-call-spacing.js",
+				"./rules/indent": "./dist/indent.js",
+				"./rules/key-spacing": "./dist/key-spacing.js",
+				"./rules/keyword-spacing": "./dist/keyword-spacing.js",
+				"./rules/lines-around-comment": "./dist/lines-around-comment.js",
+				"./rules/lines-between-class-members": "./dist/lines-between-class-members.js",
+				"./rules/member-delimiter-style": "./dist/member-delimiter-style.js",
+				"./rules/no-extra-parens": "./dist/no-extra-parens.js",
+				"./rules/no-extra-semi": "./dist/no-extra-semi.js",
+				"./rules/object-curly-spacing": "./dist/object-curly-spacing.js",
+				"./rules/padding-line-between-statements": "./dist/padding-line-between-statements.js",
+				"./rules/quote-props": "./dist/quote-props.js",
+				"./rules/quotes": "./dist/quotes.js",
+				"./rules/semi": "./dist/semi.js",
+				"./rules/space-before-blocks": "./dist/space-before-blocks.js",
+				"./rules/space-before-function-paren": "./dist/space-before-function-paren.js",
+				"./rules/space-infix-ops": "./dist/space-infix-ops.js",
+				"./rules/type-annotation-spacing": "./dist/type-annotation-spacing.js"
+			},
+			"main": "./dist/index.js",
+			"types": "./dts/index.d.ts",
+			"engines": {
+				"node": "^18.18.0 || ^20.9.0 || >=21.1.0"
+			},
+			"peerDependencies": {
+				"eslint": ">=8.40.0"
+			},
+			"dependencies": {
+				"@types/eslint": "^8.56.10",
+				"@typescript-eslint/utils": "^7.8.0",
+				"@stylistic/eslint-plugin-js": "2.1.0"
+			},
+			"devDependencies": {
+				"@typescript-eslint/rule-tester": "^7.8.0"
+			},
+			"scripts": {
+				"build": "rimraf dist && rollup --config=rollup.config.mts --configPlugin=rollup-plugin-esbuild",
+				"dev": "rollup --config=rollup.config.mts --configPlugin=rollup-plugin-esbuild --watch"
+			},
+			"description": "TypeScript stylistic rules for ESLint, migrated from [`typescript-eslint`](https://github.com/typescript-eslint/typescript-eslint).",
+			"_id": "@stylistic/eslint-plugin-ts@2.1.0",
+			"_integrity": "sha512-2ioFibufHYBALx2TBrU4KXovCkN8qCqcb9yIHc0fyOfTaO5jw4d56WW7YRcF3Zgde6qFyXwAN6z/+w4pnmos1g==",
+			"_resolved": "/tmp/112e877873457c836300bf96a217394b/stylistic-eslint-plugin-ts-2.1.0.tgz",
+			"_from": "file:stylistic-eslint-plugin-ts-2.1.0.tgz",
+			"_nodeVersion": "20.12.2",
+			"_npmVersion": "10.5.0",
+			"dist": {
+				"integrity": "sha512-2ioFibufHYBALx2TBrU4KXovCkN8qCqcb9yIHc0fyOfTaO5jw4d56WW7YRcF3Zgde6qFyXwAN6z/+w4pnmos1g==",
+				"shasum": "74083f74aacea19e7bc4509dafc56da7c4c40667",
+				"tarball": "https://registry.npmjs.org/@stylistic/eslint-plugin-ts/-/eslint-plugin-ts-2.1.0.tgz",
+				"fileCount": 53,
+				"unpackedSize": 160793,
+				"attestations": {
+					"url": "https://registry.npmjs.org/-/npm/v1/attestations/@stylistic%2feslint-plugin-ts@2.1.0",
+					"provenance": {
+						"predicateType": "https://slsa.dev/provenance/v1"
+					}
+				},
+				"signatures": [
+					{
+						"keyid": "SHA256:jl3bwswu80PjjokCgh0o2w5c2U4LhQAE57gj9cz1kzA",
+						"sig": "MEUCICv5VyPAPfXKopn8O9VPGHuPXBy5Jq4Ees1oHEKZBFjhAiEAy3wmGiD4J4huPC3B1/+ae3gIweFzA2jmXr+v7af2tgM="
+					}
+				]
+			},
+			"_npmUser": {
+				"name": "eslint-stylistic-bot",
+				"email": "npm-eslint-stylistic@antfu.me"
+			},
+			"directories": {},
+			"maintainers": [
+				{
+					"name": "eslint-stylistic-bot",
+					"email": "npm-eslint-stylistic@antfu.me"
+				}
+			],
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/eslint-plugin-ts_2.1.0_1715247235698_0.6625830707401847"
+			},
+			"_hasShrinkwrap": false,
+			"contributors": []
+		}
+	},
+	"time": {
+		"created": "2023-09-18T12:54:26.227Z",
+		"0.0.1": "2023-09-18T12:54:26.627Z",
+		"modified": "2024-05-09T09:33:56.374Z",
+		"0.0.2": "2023-09-18T14:01:19.383Z",
+		"0.0.3": "2023-09-19T05:38:02.767Z",
+		"0.0.4": "2023-09-20T16:56:45.581Z",
+		"0.0.5": "2023-09-25T09:09:57.407Z",
+		"0.0.6": "2023-09-30T08:14:12.375Z",
+		"0.0.7": "2023-10-09T06:41:37.291Z",
+		"0.0.8": "2023-10-09T06:48:12.250Z",
+		"0.0.9": "2023-10-13T00:49:34.591Z",
+		"0.0.10": "2023-10-13T13:27:16.184Z",
+		"0.0.11": "2023-10-13T13:42:57.174Z",
+		"0.0.12": "2023-10-17T18:29:06.197Z",
+		"0.1.0": "2023-10-19T19:41:38.860Z",
+		"0.1.1": "2023-10-23T02:39:11.402Z",
+		"0.1.2": "2023-10-29T04:14:26.799Z",
+		"1.0.0": "2023-11-02T13:41:42.618Z",
+		"1.0.1": "2023-11-07T14:39:17.872Z",
+		"1.1.0-beta.0": "2023-11-11T10:38:27.642Z",
+		"1.1.0": "2023-11-11T12:10:43.729Z",
+		"1.2.0": "2023-11-13T16:01:26.071Z",
+		"1.3.0": "2023-11-17T04:01:44.330Z",
+		"1.3.1": "2023-11-17T04:19:37.242Z",
+		"1.3.2": "2023-11-17T13:32:03.960Z",
+		"1.3.3": "2023-11-17T23:28:19.570Z",
+		"1.4.0": "2023-11-18T16:48:23.944Z",
+		"1.4.1": "2023-11-23T11:20:05.595Z",
+		"1.5.0-beta.0": "2023-12-03T15:18:09.953Z",
+		"1.5.0": "2023-12-05T11:33:41.175Z",
+		"1.5.1": "2023-12-11T12:31:40.613Z",
+		"1.5.3": "2024-01-02T13:36:10.174Z",
+		"1.5.4": "2024-01-17T10:05:24.937Z",
+		"1.6.0": "2024-02-05T16:35:14.633Z",
+		"1.6.1": "2024-02-08T19:18:31.433Z",
+		"1.6.2": "2024-02-15T11:47:13.091Z",
+		"1.6.3": "2024-02-29T13:39:49.076Z",
+		"1.7.0": "2024-03-14T10:17:42.847Z",
+		"1.7.2": "2024-04-15T20:34:38.330Z",
+		"1.8.0": "2024-04-30T12:38:57.786Z",
+		"1.8.1": "2024-05-07T16:29:35.002Z",
+		"2.0.0": "2024-05-08T13:55:42.119Z",
+		"2.1.0": "2024-05-09T09:33:55.886Z"
+	},
+	"users": {},
+	"dist-tags": {
+		"latest": "2.1.0",
+		"beta": "1.5.0-beta.0"
+	},
+	"_uplinks": {
+		"npmjs": {
+			"etag": "W/\"27dc9a9ffe39cf93441f22217dd113ed\"",
+			"fetched": 1715345903247
+		}
+	},
+	"_distfiles": {
+		"eslint-plugin-ts-0.0.1.tgz": {
+			"url": "https://registry.npmjs.org/@stylistic/eslint-plugin-ts/-/eslint-plugin-ts-0.0.1.tgz",
+			"sha": "0ea8ad20a8a70ae38d5ebb31ee0af50b9bf940fa",
+			"registry": "npmjs"
+		},
+		"eslint-plugin-ts-0.0.2.tgz": {
+			"url": "https://registry.npmjs.org/@stylistic/eslint-plugin-ts/-/eslint-plugin-ts-0.0.2.tgz",
+			"sha": "8915d796a348df2878ff483a6b4286c330b04b90",
+			"registry": "npmjs"
+		},
+		"eslint-plugin-ts-0.0.3.tgz": {
+			"url": "https://registry.npmjs.org/@stylistic/eslint-plugin-ts/-/eslint-plugin-ts-0.0.3.tgz",
+			"sha": "92a18c28782bc884b918de0ae953341b681e9030",
+			"registry": "npmjs"
+		},
+		"eslint-plugin-ts-0.0.4.tgz": {
+			"url": "https://registry.npmjs.org/@stylistic/eslint-plugin-ts/-/eslint-plugin-ts-0.0.4.tgz",
+			"sha": "3b1dd460fa6eb789a4190ab14be07b764997b938",
+			"registry": "npmjs"
+		},
+		"eslint-plugin-ts-0.0.5.tgz": {
+			"url": "https://registry.npmjs.org/@stylistic/eslint-plugin-ts/-/eslint-plugin-ts-0.0.5.tgz",
+			"sha": "60537471e99fa55dd7b09f977c399b2b1ff7a8c1",
+			"registry": "npmjs"
+		},
+		"eslint-plugin-ts-0.0.6.tgz": {
+			"url": "https://registry.npmjs.org/@stylistic/eslint-plugin-ts/-/eslint-plugin-ts-0.0.6.tgz",
+			"sha": "fd1bebc7c27e50aff312d70183a76e096bc3e307",
+			"registry": "npmjs"
+		},
+		"eslint-plugin-ts-0.0.7.tgz": {
+			"url": "https://registry.npmjs.org/@stylistic/eslint-plugin-ts/-/eslint-plugin-ts-0.0.7.tgz",
+			"sha": "8ba10e26e1ecaf69440132cd5d933d38c8e4fed4",
+			"registry": "npmjs"
+		},
+		"eslint-plugin-ts-0.0.8.tgz": {
+			"url": "https://registry.npmjs.org/@stylistic/eslint-plugin-ts/-/eslint-plugin-ts-0.0.8.tgz",
+			"sha": "b02108c9035f01a9df2928808fd1d5c0f66f1d72",
+			"registry": "npmjs"
+		},
+		"eslint-plugin-ts-0.0.9.tgz": {
+			"url": "https://registry.npmjs.org/@stylistic/eslint-plugin-ts/-/eslint-plugin-ts-0.0.9.tgz",
+			"sha": "f88fc4330dccacdb39b54d6b30d201ec46eed309",
+			"registry": "npmjs"
+		},
+		"eslint-plugin-ts-0.0.10.tgz": {
+			"url": "https://registry.npmjs.org/@stylistic/eslint-plugin-ts/-/eslint-plugin-ts-0.0.10.tgz",
+			"sha": "515abbb73b83d1acda2567095fa8775f99350f3a",
+			"registry": "npmjs"
+		},
+		"eslint-plugin-ts-0.0.11.tgz": {
+			"url": "https://registry.npmjs.org/@stylistic/eslint-plugin-ts/-/eslint-plugin-ts-0.0.11.tgz",
+			"sha": "a8e1e43b518578bf5f317c85e6673d59d3dec545",
+			"registry": "npmjs"
+		},
+		"eslint-plugin-ts-0.0.12.tgz": {
+			"url": "https://registry.npmjs.org/@stylistic/eslint-plugin-ts/-/eslint-plugin-ts-0.0.12.tgz",
+			"sha": "df72d789dbc33a469cbbe32b3fd6de3581f8e56e",
+			"registry": "npmjs"
+		},
+		"eslint-plugin-ts-0.1.0.tgz": {
+			"url": "https://registry.npmjs.org/@stylistic/eslint-plugin-ts/-/eslint-plugin-ts-0.1.0.tgz",
+			"sha": "536fd81036db811064fab503293af910a351b747",
+			"registry": "npmjs"
+		},
+		"eslint-plugin-ts-0.1.1.tgz": {
+			"url": "https://registry.npmjs.org/@stylistic/eslint-plugin-ts/-/eslint-plugin-ts-0.1.1.tgz",
+			"sha": "3e982efc9392ef730541f0443c50e9fc322be5f2",
+			"registry": "npmjs"
+		},
+		"eslint-plugin-ts-0.1.2.tgz": {
+			"url": "https://registry.npmjs.org/@stylistic/eslint-plugin-ts/-/eslint-plugin-ts-0.1.2.tgz",
+			"sha": "0026e1b3d2f6efd02cb1e561a897c6cccd9a935a",
+			"registry": "npmjs"
+		},
+		"eslint-plugin-ts-1.0.0.tgz": {
+			"url": "https://registry.npmjs.org/@stylistic/eslint-plugin-ts/-/eslint-plugin-ts-1.0.0.tgz",
+			"sha": "aff6dfe230f13c67510bb2880910d9b1b9afdce2",
+			"registry": "npmjs"
+		},
+		"eslint-plugin-ts-1.0.1.tgz": {
+			"url": "https://registry.npmjs.org/@stylistic/eslint-plugin-ts/-/eslint-plugin-ts-1.0.1.tgz",
+			"sha": "d5dbb3901e746f0d08cbc934025423305e1461ff",
+			"registry": "npmjs"
+		},
+		"eslint-plugin-ts-1.1.0-beta.0.tgz": {
+			"url": "https://registry.npmjs.org/@stylistic/eslint-plugin-ts/-/eslint-plugin-ts-1.1.0-beta.0.tgz",
+			"sha": "fdfe3075889addbaed2dda8eddbfa26a662bd415",
+			"registry": "npmjs"
+		},
+		"eslint-plugin-ts-1.1.0.tgz": {
+			"url": "https://registry.npmjs.org/@stylistic/eslint-plugin-ts/-/eslint-plugin-ts-1.1.0.tgz",
+			"sha": "90f0217321367204e8c25b08de1d15adeca06243",
+			"registry": "npmjs"
+		},
+		"eslint-plugin-ts-1.2.0.tgz": {
+			"url": "https://registry.npmjs.org/@stylistic/eslint-plugin-ts/-/eslint-plugin-ts-1.2.0.tgz",
+			"sha": "801f530e5e2095e857f1d70a988d8bf1f1e07ac3",
+			"registry": "npmjs"
+		},
+		"eslint-plugin-ts-1.3.0.tgz": {
+			"url": "https://registry.npmjs.org/@stylistic/eslint-plugin-ts/-/eslint-plugin-ts-1.3.0.tgz",
+			"sha": "ea4ef7b0b3f06e6da9fcd9f21c6c30b23c097481",
+			"registry": "npmjs"
+		},
+		"eslint-plugin-ts-1.3.1.tgz": {
+			"url": "https://registry.npmjs.org/@stylistic/eslint-plugin-ts/-/eslint-plugin-ts-1.3.1.tgz",
+			"sha": "278f75b6b88ba583b521d3b7f26f20e273dec462",
+			"registry": "npmjs"
+		},
+		"eslint-plugin-ts-1.3.2.tgz": {
+			"url": "https://registry.npmjs.org/@stylistic/eslint-plugin-ts/-/eslint-plugin-ts-1.3.2.tgz",
+			"sha": "7953848210b4fedadac3e5a19f98c78900e166ae",
+			"registry": "npmjs"
+		},
+		"eslint-plugin-ts-1.3.3.tgz": {
+			"url": "https://registry.npmjs.org/@stylistic/eslint-plugin-ts/-/eslint-plugin-ts-1.3.3.tgz",
+			"sha": "cc0c18a1efc03725cc704e627735509adbab9169",
+			"registry": "npmjs"
+		},
+		"eslint-plugin-ts-1.4.0.tgz": {
+			"url": "https://registry.npmjs.org/@stylistic/eslint-plugin-ts/-/eslint-plugin-ts-1.4.0.tgz",
+			"sha": "881dcc2c881eb6fcd3417d3dfa143263139772a4",
+			"registry": "npmjs"
+		},
+		"eslint-plugin-ts-1.4.1.tgz": {
+			"url": "https://registry.npmjs.org/@stylistic/eslint-plugin-ts/-/eslint-plugin-ts-1.4.1.tgz",
+			"sha": "3832dd5711e74a8cb087405185fc96a452908763",
+			"registry": "npmjs"
+		},
+		"eslint-plugin-ts-1.5.0-beta.0.tgz": {
+			"url": "https://registry.npmjs.org/@stylistic/eslint-plugin-ts/-/eslint-plugin-ts-1.5.0-beta.0.tgz",
+			"sha": "23e52103049bd38cce2c2b804dbbd8617fd9e5b1",
+			"registry": "npmjs"
+		},
+		"eslint-plugin-ts-1.5.0.tgz": {
+			"url": "https://registry.npmjs.org/@stylistic/eslint-plugin-ts/-/eslint-plugin-ts-1.5.0.tgz",
+			"sha": "ed84ffe3c2809748337079b6309f2906ff268e02",
+			"registry": "npmjs"
+		},
+		"eslint-plugin-ts-1.5.1.tgz": {
+			"url": "https://registry.npmjs.org/@stylistic/eslint-plugin-ts/-/eslint-plugin-ts-1.5.1.tgz",
+			"sha": "dce3b2139986c4e47a588e4371885c9dabd747a7",
+			"registry": "npmjs"
+		},
+		"eslint-plugin-ts-1.5.3.tgz": {
+			"url": "https://registry.npmjs.org/@stylistic/eslint-plugin-ts/-/eslint-plugin-ts-1.5.3.tgz",
+			"sha": "4076f96727904a734cf4f954276b20215cb1cff3",
+			"registry": "npmjs"
+		},
+		"eslint-plugin-ts-1.5.4.tgz": {
+			"url": "https://registry.npmjs.org/@stylistic/eslint-plugin-ts/-/eslint-plugin-ts-1.5.4.tgz",
+			"sha": "d90141ab6f45b03dfe9d4c3750dd94a2fe27d4ca",
+			"registry": "npmjs"
+		},
+		"eslint-plugin-ts-1.6.0.tgz": {
+			"url": "https://registry.npmjs.org/@stylistic/eslint-plugin-ts/-/eslint-plugin-ts-1.6.0.tgz",
+			"sha": "c2d9a2e135bf0908315fd0ea441b2ee866ce05c9",
+			"registry": "npmjs"
+		},
+		"eslint-plugin-ts-1.6.1.tgz": {
+			"url": "https://registry.npmjs.org/@stylistic/eslint-plugin-ts/-/eslint-plugin-ts-1.6.1.tgz",
+			"sha": "9cd20bdfd60441daf2b3d14dcab7f94374fdc556",
+			"registry": "npmjs"
+		},
+		"eslint-plugin-ts-1.6.2.tgz": {
+			"url": "https://registry.npmjs.org/@stylistic/eslint-plugin-ts/-/eslint-plugin-ts-1.6.2.tgz",
+			"sha": "e8327ec54c264cb5bd17cd58b05264035655960c",
+			"registry": "npmjs"
+		},
+		"eslint-plugin-ts-1.6.3.tgz": {
+			"url": "https://registry.npmjs.org/@stylistic/eslint-plugin-ts/-/eslint-plugin-ts-1.6.3.tgz",
+			"sha": "4829ca62446d1005f99e5ce9e7ec8588737cc0d1",
+			"registry": "npmjs"
+		},
+		"eslint-plugin-ts-1.7.0.tgz": {
+			"url": "https://registry.npmjs.org/@stylistic/eslint-plugin-ts/-/eslint-plugin-ts-1.7.0.tgz",
+			"sha": "b3bce3235a1cdf27448910ebc049b8bd4ba7ee43",
+			"registry": "npmjs"
+		},
+		"eslint-plugin-ts-1.7.2.tgz": {
+			"url": "https://registry.npmjs.org/@stylistic/eslint-plugin-ts/-/eslint-plugin-ts-1.7.2.tgz",
+			"sha": "148954800b73a107fb22a344bd7e9d4c6b5a2caa",
+			"registry": "npmjs"
+		},
+		"eslint-plugin-ts-1.8.0.tgz": {
+			"url": "https://registry.npmjs.org/@stylistic/eslint-plugin-ts/-/eslint-plugin-ts-1.8.0.tgz",
+			"sha": "d83033c30908a38dbacc3f50f32cc9b70f9579d3",
+			"registry": "npmjs"
+		},
+		"eslint-plugin-ts-1.8.1.tgz": {
+			"url": "https://registry.npmjs.org/@stylistic/eslint-plugin-ts/-/eslint-plugin-ts-1.8.1.tgz",
+			"sha": "9e6cce06530d3e579bafde0cf3bbb89453b3233f",
+			"registry": "npmjs"
+		},
+		"eslint-plugin-ts-2.0.0.tgz": {
+			"url": "https://registry.npmjs.org/@stylistic/eslint-plugin-ts/-/eslint-plugin-ts-2.0.0.tgz",
+			"sha": "22ec0a0ca8b0c588571a94e47e7ecf8577d3330e",
+			"registry": "npmjs"
+		},
+		"eslint-plugin-ts-2.1.0.tgz": {
+			"url": "https://registry.npmjs.org/@stylistic/eslint-plugin-ts/-/eslint-plugin-ts-2.1.0.tgz",
+			"sha": "74083f74aacea19e7bc4509dafc56da7c4c40667",
+			"registry": "npmjs"
+		}
+	},
+	"_attachments": {
+		"eslint-plugin-ts-2.1.0.tgz": {
+			"shasum": "74083f74aacea19e7bc4509dafc56da7c4c40667"
+		}
+	},
+	"_rev": "2-54fd8cbb69e39dd8",
+	"_id": "@stylistic/eslint-plugin-ts",
+	"readme": "# @stylistic/eslint-plugin-ts\n\nTypeScript stylistic rules for ESLint, migrated from [`typescript-eslint`](https://github.com/typescript-eslint/typescript-eslint).\n\nCredits to all contributors who have committed to the original rules.\n\nCheck the [documentation](https://eslint.style/packages/ts) for more details."
+}

@@ -119867,6 +119867,221 @@
 			"_hasShrinkwrap": false,
 			"contributors": []
 		},
+		"19.0.2": {
+			"name": "@nrwl/tao",
+			"version": "19.0.2",
+			"private": false,
+			"description": "CLI for generating code and running commands",
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/nrwl/nx.git",
+				"directory": "packages/tao"
+			},
+			"keywords": [
+				"Monorepo",
+				"Angular",
+				"React",
+				"Web",
+				"Node",
+				"Nest",
+				"Jest",
+				"Cypress",
+				"CLI"
+			],
+			"main": "./index.js",
+			"typings": "./index.d.ts",
+			"author": {
+				"name": "Victor Savkin"
+			},
+			"license": "MIT",
+			"bugs": {
+				"url": "https://github.com/nrwl/nx/issues"
+			},
+			"bin": {
+				"tao": "index.js"
+			},
+			"homepage": "https://nx.dev",
+			"dependencies": {
+				"nx": "19.0.2",
+				"tslib": "^2.3.0"
+			},
+			"publishConfig": {
+				"access": "public"
+			},
+			"type": "commonjs",
+			"_id": "@nrwl/tao@19.0.2",
+			"gitHead": "61861be0f7335082d5e0b44fa96ff3f6d49774ad",
+			"_nodeVersion": "18.20.2",
+			"_npmVersion": "10.5.0",
+			"dist": {
+				"integrity": "sha512-VLU0Ptqq9+R5Ugb4d7ANb/pzZ8Rh+ExNcyg5MVNNrrgrM8ghLOu2/qPoatWyXLZg+cfKr6bH7/c0rWBtPcc69Q==",
+				"shasum": "b92ab17b991300f87948b0151ab06fe089b11a72",
+				"tarball": "https://registry.npmjs.org/@nrwl/tao/-/tao-19.0.2.tgz",
+				"fileCount": 19,
+				"unpackedSize": 5365,
+				"attestations": {
+					"url": "https://registry.npmjs.org/-/npm/v1/attestations/@nrwl%2ftao@19.0.2",
+					"provenance": {
+						"predicateType": "https://slsa.dev/provenance/v1"
+					}
+				},
+				"signatures": [
+					{
+						"keyid": "SHA256:jl3bwswu80PjjokCgh0o2w5c2U4LhQAE57gj9cz1kzA",
+						"sig": "MEUCIQCLH4I0g159OoWlrWHKvURtpxrql1uP2y2rf84/ax7O4gIgda+D8GzcgafJT8x8WzXKCPMwMQkDwbrHY8Lu9aNYt/w="
+					}
+				]
+			},
+			"_npmUser": {
+				"name": "nrwl-jason",
+				"email": "jason@nrwl.io"
+			},
+			"directories": {},
+			"maintainers": [
+				{
+					"name": "jameshenry",
+					"email": "james@henry.sc"
+				},
+				{
+					"name": "meeroslav",
+					"email": "missing.manual@gmail.com"
+				},
+				{
+					"name": "altan-nrwl",
+					"email": "altan@nrwl.io"
+				},
+				{
+					"name": "juristr",
+					"email": "juri.strumpflohner@gmail.com"
+				},
+				{
+					"name": "jack-nrwl",
+					"email": "jack@nrwl.io"
+				},
+				{
+					"name": "nrwl-jason",
+					"email": "jason@nrwl.io"
+				},
+				{
+					"name": "nrwlowner",
+					"email": "hello@nrwl.io"
+				}
+			],
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/tao_19.0.2_1715263033113_0.45823397894808404"
+			},
+			"_hasShrinkwrap": false,
+			"contributors": []
+		},
+		"19.1.0-canary.20240510-1a85787": {
+			"name": "@nrwl/tao",
+			"version": "19.1.0-canary.20240510-1a85787",
+			"private": false,
+			"description": "CLI for generating code and running commands",
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/nrwl/nx.git",
+				"directory": "packages/tao"
+			},
+			"keywords": [
+				"Monorepo",
+				"Angular",
+				"React",
+				"Web",
+				"Node",
+				"Nest",
+				"Jest",
+				"Cypress",
+				"CLI"
+			],
+			"main": "./index.js",
+			"typings": "./index.d.ts",
+			"author": {
+				"name": "Victor Savkin"
+			},
+			"license": "MIT",
+			"bugs": {
+				"url": "https://github.com/nrwl/nx/issues"
+			},
+			"bin": {
+				"tao": "index.js"
+			},
+			"homepage": "https://nx.dev",
+			"dependencies": {
+				"nx": "19.1.0-canary.20240510-1a85787",
+				"tslib": "^2.3.0"
+			},
+			"publishConfig": {
+				"access": "public"
+			},
+			"type": "commonjs",
+			"_id": "@nrwl/tao@19.1.0-canary.20240510-1a85787",
+			"readmeFilename": "README.md",
+			"gitHead": "1a85787e1c310d8409d99361800ef30e81938795",
+			"_nodeVersion": "18.20.2",
+			"_npmVersion": "10.5.0",
+			"dist": {
+				"integrity": "sha512-4ccOq39AB0H3LT8zRG7PDX1rBk22NI877uNojjQhlRbWZbanKqVw920adk7VlPTP4lQmwve8dSuiJLFnxaLZsg==",
+				"shasum": "87b0aeab7454ebcc7c099da5e2b24303e138142d",
+				"tarball": "https://registry.npmjs.org/@nrwl/tao/-/tao-19.1.0-canary.20240510-1a85787.tgz",
+				"fileCount": 19,
+				"unpackedSize": 5413,
+				"attestations": {
+					"url": "https://registry.npmjs.org/-/npm/v1/attestations/@nrwl%2ftao@19.1.0-canary.20240510-1a85787",
+					"provenance": {
+						"predicateType": "https://slsa.dev/provenance/v1"
+					}
+				},
+				"signatures": [
+					{
+						"keyid": "SHA256:jl3bwswu80PjjokCgh0o2w5c2U4LhQAE57gj9cz1kzA",
+						"sig": "MEUCIFca2ppMctsgpWOHUr3AVNKg9wRKKGa6lgvAdWci67w/AiEAqTJQ5uc4SWornBMT0K0vvnKWj7riBYfKWnEYwHRpn9Y="
+					}
+				]
+			},
+			"_npmUser": {
+				"name": "nrwl-jason",
+				"email": "jason@nrwl.io"
+			},
+			"directories": {},
+			"maintainers": [
+				{
+					"name": "jameshenry",
+					"email": "james@henry.sc"
+				},
+				{
+					"name": "meeroslav",
+					"email": "missing.manual@gmail.com"
+				},
+				{
+					"name": "altan-nrwl",
+					"email": "altan@nrwl.io"
+				},
+				{
+					"name": "juristr",
+					"email": "juri.strumpflohner@gmail.com"
+				},
+				{
+					"name": "jack-nrwl",
+					"email": "jack@nrwl.io"
+				},
+				{
+					"name": "nrwl-jason",
+					"email": "jason@nrwl.io"
+				},
+				{
+					"name": "nrwlowner",
+					"email": "hello@nrwl.io"
+				}
+			],
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/tao_19.1.0-canary.20240510-1a85787_1715310968623_0.6848386377489193"
+			},
+			"_hasShrinkwrap": false,
+			"contributors": []
+		},
 		"20.0.0": {
 			"name": "@nrwl/tao",
 			"version": "20.0.0",
@@ -119911,9 +120126,9 @@
 			"type": "commonjs",
 			"_id": "@nrwl/tao@20.0.0",
 			"readmeFilename": "README.md",
-			"gitHead": "792f73081571dea27da52bddf6184313bb7b5737",
-			"_nodeVersion": "20.9.0",
-			"_npmVersion": "10.1.0",
+			"gitHead": "86106e2454080d81eec30be2268bd93f9c6cfcad",
+			"_nodeVersion": "18.18.0",
+			"_npmVersion": "9.8.1",
 			"dist": {
 				"integrity": "sha512-mSNwjPAClUn4TjRcdR1Y36RNTWBptE93ChGQ4qxeJsGLjGygUjMG3w0Phqg+L8kmjNZ89YmGBM1ZyjHFwD4sdg==",
 				"shasum": "c272309a48dfea6850906fa0524604fd8e564e32",
@@ -119925,7 +120140,7 @@
 	"time": {
 		"created": "2019-07-17T23:55:57.031Z",
 		"8.4.0-alpha.1": "2019-07-17T23:55:57.488Z",
-		"modified": "2024-05-09T08:19:49.773Z",
+		"modified": "2024-05-10T12:56:46.224Z",
 		"8.4.0-alpha.2": "2019-07-18T00:20:19.038Z",
 		"8.4.0-alpha.3": "2019-07-18T14:28:32.276Z",
 		"8.4.0-alpha.4": "2019-07-18T15:34:15.223Z",
@@ -121265,19 +121480,21 @@
 		"19.0.1": "2024-05-07T22:26:10.237Z",
 		"19.1.0-canary.20240508-fd78152": "2024-05-08T03:16:25.278Z",
 		"19.1.0-canary.20240509-8f705e3": "2024-05-09T03:15:33.221Z",
-		"20.0.0": "2024-05-09T08:19:49.773Z"
+		"19.0.2": "2024-05-09T13:57:13.312Z",
+		"19.1.0-canary.20240510-1a85787": "2024-05-10T03:16:08.832Z",
+		"20.0.0": "2024-05-10T12:56:46.224Z"
 	},
 	"users": {},
 	"dist-tags": {
 		"next": "19.0.0-rc.2",
 		"latest": "20.0.0",
 		"previous": "18.3.4",
-		"canary": "19.1.0-canary.20240509-8f705e3"
+		"canary": "19.1.0-canary.20240510-1a85787"
 	},
 	"_uplinks": {
 		"npmjs": {
-			"etag": "W/\"c7b0a12ba8ea1f568f5ac9812379e56c\"",
-			"fetched": 1715242789388
+			"etag": "W/\"59f352b524da7d22c690a0f346db4992\"",
+			"fetched": 1715345805005
 		}
 	},
 	"_distfiles": {
@@ -127980,6 +128197,16 @@
 			"url": "https://registry.npmjs.org/@nrwl/tao/-/tao-19.1.0-canary.20240509-8f705e3.tgz",
 			"sha": "00423638c05930c04faff38e3e82b35d351dc462",
 			"registry": "npmjs"
+		},
+		"tao-19.0.2.tgz": {
+			"url": "https://registry.npmjs.org/@nrwl/tao/-/tao-19.0.2.tgz",
+			"sha": "b92ab17b991300f87948b0151ab06fe089b11a72",
+			"registry": "npmjs"
+		},
+		"tao-19.1.0-canary.20240510-1a85787.tgz": {
+			"url": "https://registry.npmjs.org/@nrwl/tao/-/tao-19.1.0-canary.20240510-1a85787.tgz",
+			"sha": "87b0aeab7454ebcc7c099da5e2b24303e138142d",
+			"registry": "npmjs"
 		}
 	},
 	"_attachments": {
@@ -127988,7 +128215,7 @@
 			"version": "20.0.0"
 		}
 	},
-	"_rev": "5-e6f93997960a99af",
+	"_rev": "5-4ac688fc829c3d5a",
 	"_id": "@nrwl/tao",
 	"readme": "## @nrwl/tao has been merged with nx!\n\n@nrwl/tao has been deprecated in favor of [nx](https://www.npmjs.com/package/nx). Please use that instead.\n\n[Read more here](https://nx.dev/recipes/other/rescope)\n\n@nrwl/tao will no longer be published in Nx v19.\n\n<p style=\"text-align: center;\">\n  <picture>\n    <source media=\"(prefers-color-scheme: dark)\" srcset=\"https://raw.githubusercontent.com/nrwl/nx/master/images/nx-dark.svg\">\n    <img alt=\"Nx - Smart Monorepos · Fast CI\" src=\"https://raw.githubusercontent.com/nrwl/nx/master/images/nx-light.svg\" width=\"100%\">\n  </picture>\n</p>\n\n# Nx: Smart Monorepos · Fast CI\n\nNx is a build system with built-in tooling and advanced CI capabilities. It helps you maintain and scale monorepos, both locally and on CI."
 }

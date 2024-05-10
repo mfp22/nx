@@ -1,0 +1,1498 @@
+{
+	"name": "@stylistic/eslint-plugin-plus",
+	"versions": {
+		"1.5.0-beta.0": {
+			"name": "@stylistic/eslint-plugin-plus",
+			"version": "1.5.0-beta.0",
+			"author": {
+				"name": "Anthony Fu",
+				"email": "anthonyfu117@hotmail.com"
+			},
+			"license": "MIT",
+			"homepage": "https://github.com/eslint-stylistic/eslint-stylistic#readme",
+			"repository": {
+				"directory": "packages/eslint-plugin-plus",
+				"type": "git",
+				"url": "git+https://github.com/eslint-stylistic/eslint-stylistic.git"
+			},
+			"bugs": {
+				"url": "https://github.com/eslint-stylistic/eslint-stylistic/issues"
+			},
+			"exports": {
+				".": {
+					"types": "./dts/index.d.ts",
+					"require": "./dist/index.js",
+					"default": "./dist/index.js"
+				},
+				"./define-config-support": {
+					"types": "./dts/define-config-support.d.ts"
+				},
+				"./rule-options": {
+					"types": "./dts/rule-options.d.ts"
+				},
+				"./rules/indent-binary-ops": "./dist/indent-binary-ops.js",
+				"./rules/type-generic-spacing": "./dist/type-generic-spacing.js",
+				"./rules/type-named-tuple-spacing": "./dist/type-named-tuple-spacing.js"
+			},
+			"main": "./dist/index.js",
+			"types": "./dts/index.d.ts",
+			"peerDependencies": {
+				"eslint": "*"
+			},
+			"dependencies": {
+				"@typescript-eslint/utils": "^6.13.1"
+			},
+			"devDependencies": {
+				"@typescript-eslint/rule-tester": "^6.13.1"
+			},
+			"scripts": {
+				"build": "rimraf dist && rollup --config=rollup.config.mts --configPlugin=rollup-plugin-esbuild",
+				"dev": "rollup --config=rollup.config.mts --configPlugin=rollup-plugin-esbuild --watch"
+			},
+			"description": "Supplementary rules introduced by ESLint Stylistic.",
+			"_id": "@stylistic/eslint-plugin-plus@1.5.0-beta.0",
+			"_integrity": "sha512-sdnYxRLfPM4DB1ah8XbqJDkCqqSZ+syh/j28Hl+PGRDIFkGWLZwagkocznKPnuLz0TKwgSNri91OKbbjPfLQqA==",
+			"_resolved": "/private/var/folders/30/nymxcyb909ggq2j5lwn7b_600000gn/T/b7e3d7858b455dbce756491bb3785af6/stylistic-eslint-plugin-plus-1.5.0-beta.0.tgz",
+			"_from": "file:stylistic-eslint-plugin-plus-1.5.0-beta.0.tgz",
+			"_nodeVersion": "20.4.0",
+			"_npmVersion": "9.7.2",
+			"dist": {
+				"integrity": "sha512-sdnYxRLfPM4DB1ah8XbqJDkCqqSZ+syh/j28Hl+PGRDIFkGWLZwagkocznKPnuLz0TKwgSNri91OKbbjPfLQqA==",
+				"shasum": "b0561c31010ed8beccfeb1179e6fb30c609309a6",
+				"tarball": "https://registry.npmjs.org/@stylistic/eslint-plugin-plus/-/eslint-plugin-plus-1.5.0-beta.0.tgz",
+				"fileCount": 14,
+				"unpackedSize": 15158,
+				"signatures": [
+					{
+						"keyid": "SHA256:jl3bwswu80PjjokCgh0o2w5c2U4LhQAE57gj9cz1kzA",
+						"sig": "MEYCIQCc1lnnNXLU/Cx9ACbs0GTd2gejxl8Pavcw5+CjgbrMAQIhAP5XlaUcPMVHghaEFO/6A3zX2eg2Wjoi6SXiiZeeMNws"
+					}
+				]
+			},
+			"_npmUser": {
+				"name": "antfu",
+				"email": "anthonyfu117@hotmail.com"
+			},
+			"directories": {},
+			"maintainers": [
+				{
+					"name": "antfu",
+					"email": "anthonyfu117@hotmail.com"
+				}
+			],
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/eslint-plugin-plus_1.5.0-beta.0_1701616679609_0.3180637406462741"
+			},
+			"_hasShrinkwrap": false,
+			"contributors": []
+		},
+		"1.5.0": {
+			"name": "@stylistic/eslint-plugin-plus",
+			"version": "1.5.0",
+			"author": {
+				"name": "Anthony Fu",
+				"email": "anthonyfu117@hotmail.com"
+			},
+			"license": "MIT",
+			"homepage": "https://github.com/eslint-stylistic/eslint-stylistic#readme",
+			"repository": {
+				"directory": "packages/eslint-plugin-plus",
+				"type": "git",
+				"url": "git+https://github.com/eslint-stylistic/eslint-stylistic.git"
+			},
+			"bugs": {
+				"url": "https://github.com/eslint-stylistic/eslint-stylistic/issues"
+			},
+			"exports": {
+				".": {
+					"types": "./dts/index.d.ts",
+					"require": "./dist/index.js",
+					"default": "./dist/index.js"
+				},
+				"./define-config-support": {
+					"types": "./dts/define-config-support.d.ts"
+				},
+				"./rule-options": {
+					"types": "./dts/rule-options.d.ts"
+				},
+				"./rules/indent-binary-ops": "./dist/indent-binary-ops.js",
+				"./rules/type-generic-spacing": "./dist/type-generic-spacing.js",
+				"./rules/type-named-tuple-spacing": "./dist/type-named-tuple-spacing.js"
+			},
+			"main": "./dist/index.js",
+			"types": "./dts/index.d.ts",
+			"peerDependencies": {
+				"eslint": "*"
+			},
+			"dependencies": {
+				"@typescript-eslint/utils": "^6.13.2"
+			},
+			"devDependencies": {
+				"@typescript-eslint/rule-tester": "^6.13.2"
+			},
+			"scripts": {
+				"build": "rimraf dist && rollup --config=rollup.config.mts --configPlugin=rollup-plugin-esbuild",
+				"dev": "rollup --config=rollup.config.mts --configPlugin=rollup-plugin-esbuild --watch"
+			},
+			"description": "Supplementary rules introduced by ESLint Stylistic.",
+			"_id": "@stylistic/eslint-plugin-plus@1.5.0",
+			"_integrity": "sha512-+A4qXFuM6V7x25Hj+xqfVIUbEckG+MUSvL6m83M6YtRq3d5zLW+giKKEL7eSCAw12MwnoDwPcEhqIJK6BRDR3w==",
+			"_resolved": "/private/var/folders/30/nymxcyb909ggq2j5lwn7b_600000gn/T/397e0017ce1b04eaa0380221653b4633/stylistic-eslint-plugin-plus-1.5.0.tgz",
+			"_from": "file:stylistic-eslint-plugin-plus-1.5.0.tgz",
+			"_nodeVersion": "20.4.0",
+			"_npmVersion": "9.7.2",
+			"dist": {
+				"integrity": "sha512-+A4qXFuM6V7x25Hj+xqfVIUbEckG+MUSvL6m83M6YtRq3d5zLW+giKKEL7eSCAw12MwnoDwPcEhqIJK6BRDR3w==",
+				"shasum": "49ad5560bb6b699c1b5d2940586a4048ebc35b1c",
+				"tarball": "https://registry.npmjs.org/@stylistic/eslint-plugin-plus/-/eslint-plugin-plus-1.5.0.tgz",
+				"fileCount": 14,
+				"unpackedSize": 15151,
+				"signatures": [
+					{
+						"keyid": "SHA256:jl3bwswu80PjjokCgh0o2w5c2U4LhQAE57gj9cz1kzA",
+						"sig": "MEYCIQC0GIee+XcexdLGXsqWjaUheAYaYvEnlndjwlA7BUlFiAIhAL1Zo9X69Rr9HCGlHCtgj7OSLfrk0CLhP2Qa/np3wNg3"
+					}
+				]
+			},
+			"_npmUser": {
+				"name": "antfu",
+				"email": "anthonyfu117@hotmail.com"
+			},
+			"directories": {},
+			"maintainers": [
+				{
+					"name": "antfu",
+					"email": "anthonyfu117@hotmail.com"
+				}
+			],
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/eslint-plugin-plus_1.5.0_1701776009832_0.8383951529452554"
+			},
+			"_hasShrinkwrap": false,
+			"contributors": []
+		},
+		"1.5.1": {
+			"name": "@stylistic/eslint-plugin-plus",
+			"version": "1.5.1",
+			"author": {
+				"name": "Anthony Fu",
+				"email": "anthonyfu117@hotmail.com"
+			},
+			"license": "MIT",
+			"homepage": "https://github.com/eslint-stylistic/eslint-stylistic#readme",
+			"repository": {
+				"directory": "packages/eslint-plugin-plus",
+				"type": "git",
+				"url": "git+https://github.com/eslint-stylistic/eslint-stylistic.git"
+			},
+			"bugs": {
+				"url": "https://github.com/eslint-stylistic/eslint-stylistic/issues"
+			},
+			"exports": {
+				".": {
+					"types": "./dts/index.d.ts",
+					"require": "./dist/index.js",
+					"default": "./dist/index.js"
+				},
+				"./define-config-support": {
+					"types": "./dts/define-config-support.d.ts"
+				},
+				"./rule-options": {
+					"types": "./dts/rule-options.d.ts"
+				},
+				"./rules/indent-binary-ops": "./dist/indent-binary-ops.js",
+				"./rules/type-generic-spacing": "./dist/type-generic-spacing.js",
+				"./rules/type-named-tuple-spacing": "./dist/type-named-tuple-spacing.js"
+			},
+			"main": "./dist/index.js",
+			"types": "./dts/index.d.ts",
+			"peerDependencies": {
+				"eslint": "*"
+			},
+			"dependencies": {
+				"@typescript-eslint/utils": "^6.13.2"
+			},
+			"devDependencies": {
+				"@typescript-eslint/rule-tester": "^6.13.2"
+			},
+			"scripts": {
+				"build": "rimraf dist && rollup --config=rollup.config.mts --configPlugin=rollup-plugin-esbuild",
+				"dev": "rollup --config=rollup.config.mts --configPlugin=rollup-plugin-esbuild --watch"
+			},
+			"description": "Supplementary rules introduced by ESLint Stylistic.",
+			"_id": "@stylistic/eslint-plugin-plus@1.5.1",
+			"_integrity": "sha512-yxkFHsUgoqEf/j1Og0FGkpEmeQoqx0CMmtgoyZGr34hka0ElCy9fRpsFkLcwx60SfiHXspbvs2YUMXiWIffnjg==",
+			"_resolved": "/private/var/folders/30/nymxcyb909ggq2j5lwn7b_600000gn/T/a96028a52375a30cc656facb36be79b1/stylistic-eslint-plugin-plus-1.5.1.tgz",
+			"_from": "file:stylistic-eslint-plugin-plus-1.5.1.tgz",
+			"_nodeVersion": "20.4.0",
+			"_npmVersion": "9.7.2",
+			"dist": {
+				"integrity": "sha512-yxkFHsUgoqEf/j1Og0FGkpEmeQoqx0CMmtgoyZGr34hka0ElCy9fRpsFkLcwx60SfiHXspbvs2YUMXiWIffnjg==",
+				"shasum": "23ece91e5008b14b48ecbe478d9d4ff5f798bde1",
+				"tarball": "https://registry.npmjs.org/@stylistic/eslint-plugin-plus/-/eslint-plugin-plus-1.5.1.tgz",
+				"fileCount": 14,
+				"unpackedSize": 15151,
+				"signatures": [
+					{
+						"keyid": "SHA256:jl3bwswu80PjjokCgh0o2w5c2U4LhQAE57gj9cz1kzA",
+						"sig": "MEUCIQDIiX3BtbvJTSK98YW4j5lRA4ZgiCzfV48yQkbPV5zEVwIgOgMa1/XQ6BOc7FurdmqWMnFQHBELFbEdCa41XVPxPL0="
+					}
+				]
+			},
+			"_npmUser": {
+				"name": "antfu",
+				"email": "anthonyfu117@hotmail.com"
+			},
+			"directories": {},
+			"maintainers": [
+				{
+					"name": "antfu",
+					"email": "anthonyfu117@hotmail.com"
+				}
+			],
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/eslint-plugin-plus_1.5.1_1702297890167_0.03896805357902555"
+			},
+			"_hasShrinkwrap": false,
+			"contributors": []
+		},
+		"1.5.3": {
+			"name": "@stylistic/eslint-plugin-plus",
+			"version": "1.5.3",
+			"author": {
+				"name": "Anthony Fu",
+				"email": "anthonyfu117@hotmail.com"
+			},
+			"license": "MIT",
+			"homepage": "https://github.com/eslint-stylistic/eslint-stylistic#readme",
+			"repository": {
+				"directory": "packages/eslint-plugin-plus",
+				"type": "git",
+				"url": "git+https://github.com/eslint-stylistic/eslint-stylistic.git"
+			},
+			"bugs": {
+				"url": "https://github.com/eslint-stylistic/eslint-stylistic/issues"
+			},
+			"exports": {
+				".": {
+					"types": "./dts/index.d.ts",
+					"require": "./dist/index.js",
+					"default": "./dist/index.js"
+				},
+				"./define-config-support": {
+					"types": "./dts/define-config-support.d.ts"
+				},
+				"./rule-options": {
+					"types": "./dts/rule-options.d.ts"
+				},
+				"./rules/indent-binary-ops": "./dist/indent-binary-ops.js",
+				"./rules/type-generic-spacing": "./dist/type-generic-spacing.js",
+				"./rules/type-named-tuple-spacing": "./dist/type-named-tuple-spacing.js"
+			},
+			"main": "./dist/index.js",
+			"types": "./dts/index.d.ts",
+			"peerDependencies": {
+				"eslint": "*"
+			},
+			"dependencies": {
+				"@typescript-eslint/utils": "^6.17.0"
+			},
+			"devDependencies": {
+				"@typescript-eslint/rule-tester": "^6.17.0"
+			},
+			"scripts": {
+				"build": "rimraf dist && rollup --config=rollup.config.mts --configPlugin=rollup-plugin-esbuild",
+				"dev": "rollup --config=rollup.config.mts --configPlugin=rollup-plugin-esbuild --watch"
+			},
+			"description": "Supplementary rules introduced by ESLint Stylistic.",
+			"_id": "@stylistic/eslint-plugin-plus@1.5.3",
+			"_integrity": "sha512-fuOBySbH4dbfY4Dwvu+zg5y+e0lALHTyQske5+a2zNC8Ejnx4rFlVjYOmaVFtxFhTD4V0vM7o21Ozci0igcxKg==",
+			"_resolved": "/tmp/a8f4d034ebc894005ed69c27b453eb6b/stylistic-eslint-plugin-plus-1.5.3.tgz",
+			"_from": "file:stylistic-eslint-plugin-plus-1.5.3.tgz",
+			"_nodeVersion": "20.10.0",
+			"_npmVersion": "10.2.3",
+			"dist": {
+				"integrity": "sha512-fuOBySbH4dbfY4Dwvu+zg5y+e0lALHTyQske5+a2zNC8Ejnx4rFlVjYOmaVFtxFhTD4V0vM7o21Ozci0igcxKg==",
+				"shasum": "be632459c60c300df85cdb37528bdcd5692c35b5",
+				"tarball": "https://registry.npmjs.org/@stylistic/eslint-plugin-plus/-/eslint-plugin-plus-1.5.3.tgz",
+				"fileCount": 14,
+				"unpackedSize": 15139,
+				"attestations": {
+					"url": "https://registry.npmjs.org/-/npm/v1/attestations/@stylistic%2feslint-plugin-plus@1.5.3",
+					"provenance": {
+						"predicateType": "https://slsa.dev/provenance/v1"
+					}
+				},
+				"signatures": [
+					{
+						"keyid": "SHA256:jl3bwswu80PjjokCgh0o2w5c2U4LhQAE57gj9cz1kzA",
+						"sig": "MEUCIQDf0enyM1h24377AEP5Wkuye2deqoPn1kAQdQVHDFmr+gIgIFHCOwBTbFOqO/5yW+C7pVZFoeXHUlgNnGlNeuaFwXc="
+					}
+				]
+			},
+			"_npmUser": {
+				"name": "antfu",
+				"email": "anthonyfu117@hotmail.com"
+			},
+			"directories": {},
+			"maintainers": [
+				{
+					"name": "antfu",
+					"email": "anthonyfu117@hotmail.com"
+				}
+			],
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/eslint-plugin-plus_1.5.3_1704202553701_0.8890849815119557"
+			},
+			"_hasShrinkwrap": false,
+			"contributors": []
+		},
+		"1.5.4": {
+			"name": "@stylistic/eslint-plugin-plus",
+			"version": "1.5.4",
+			"author": {
+				"name": "Anthony Fu",
+				"email": "anthonyfu117@hotmail.com"
+			},
+			"license": "MIT",
+			"homepage": "https://github.com/eslint-stylistic/eslint-stylistic#readme",
+			"repository": {
+				"directory": "packages/eslint-plugin-plus",
+				"type": "git",
+				"url": "git+https://github.com/eslint-stylistic/eslint-stylistic.git"
+			},
+			"bugs": {
+				"url": "https://github.com/eslint-stylistic/eslint-stylistic/issues"
+			},
+			"exports": {
+				".": {
+					"types": "./dts/index.d.ts",
+					"require": "./dist/index.js",
+					"default": "./dist/index.js"
+				},
+				"./define-config-support": {
+					"types": "./dts/define-config-support.d.ts"
+				},
+				"./rule-options": {
+					"types": "./dts/rule-options.d.ts"
+				},
+				"./rules/indent-binary-ops": "./dist/indent-binary-ops.js",
+				"./rules/type-generic-spacing": "./dist/type-generic-spacing.js",
+				"./rules/type-named-tuple-spacing": "./dist/type-named-tuple-spacing.js"
+			},
+			"main": "./dist/index.js",
+			"types": "./dts/index.d.ts",
+			"peerDependencies": {
+				"eslint": "*"
+			},
+			"dependencies": {
+				"@typescript-eslint/utils": "^6.19.0"
+			},
+			"devDependencies": {
+				"@typescript-eslint/rule-tester": "^6.19.0"
+			},
+			"scripts": {
+				"build": "rimraf dist && rollup --config=rollup.config.mts --configPlugin=rollup-plugin-esbuild",
+				"dev": "rollup --config=rollup.config.mts --configPlugin=rollup-plugin-esbuild --watch"
+			},
+			"description": "Supplementary rules introduced by ESLint Stylistic.",
+			"_id": "@stylistic/eslint-plugin-plus@1.5.4",
+			"_integrity": "sha512-dI0Cs5vYX/0uMhQDY+NK0cKQ0Pe9B6jWYxd0Ndud+mNloDaVLrsmJocK4zn+YfhGEDs1E4Nk5uAPZEumIpDuSg==",
+			"_resolved": "/tmp/9363c32776059840155279123d3dd108/stylistic-eslint-plugin-plus-1.5.4.tgz",
+			"_from": "file:stylistic-eslint-plugin-plus-1.5.4.tgz",
+			"_nodeVersion": "20.10.0",
+			"_npmVersion": "10.2.3",
+			"dist": {
+				"integrity": "sha512-dI0Cs5vYX/0uMhQDY+NK0cKQ0Pe9B6jWYxd0Ndud+mNloDaVLrsmJocK4zn+YfhGEDs1E4Nk5uAPZEumIpDuSg==",
+				"shasum": "39a4a6245fa56c3f8fa9ececd44cf3dbd0d16b7c",
+				"tarball": "https://registry.npmjs.org/@stylistic/eslint-plugin-plus/-/eslint-plugin-plus-1.5.4.tgz",
+				"fileCount": 14,
+				"unpackedSize": 15139,
+				"attestations": {
+					"url": "https://registry.npmjs.org/-/npm/v1/attestations/@stylistic%2feslint-plugin-plus@1.5.4",
+					"provenance": {
+						"predicateType": "https://slsa.dev/provenance/v1"
+					}
+				},
+				"signatures": [
+					{
+						"keyid": "SHA256:jl3bwswu80PjjokCgh0o2w5c2U4LhQAE57gj9cz1kzA",
+						"sig": "MEUCIBO5rCFq85IXJEWzdHO3DVaeXIXWBV2qqYALW/uj3FDpAiEAmU2n0G+ohXD6Yqp4X5mAjZKWoDp2Hedwfdaosb6LGr4="
+					}
+				]
+			},
+			"_npmUser": {
+				"name": "antfu",
+				"email": "anthonyfu117@hotmail.com"
+			},
+			"directories": {},
+			"maintainers": [
+				{
+					"name": "antfu",
+					"email": "anthonyfu117@hotmail.com"
+				}
+			],
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/eslint-plugin-plus_1.5.4_1705485908789_0.06661421441061166"
+			},
+			"_hasShrinkwrap": false,
+			"contributors": []
+		},
+		"1.6.0": {
+			"name": "@stylistic/eslint-plugin-plus",
+			"version": "1.6.0",
+			"author": {
+				"name": "Anthony Fu",
+				"email": "anthonyfu117@hotmail.com"
+			},
+			"license": "MIT",
+			"homepage": "https://github.com/eslint-stylistic/eslint-stylistic#readme",
+			"repository": {
+				"directory": "packages/eslint-plugin-plus",
+				"type": "git",
+				"url": "git+https://github.com/eslint-stylistic/eslint-stylistic.git"
+			},
+			"bugs": {
+				"url": "https://github.com/eslint-stylistic/eslint-stylistic/issues"
+			},
+			"exports": {
+				".": {
+					"types": "./dts/index.d.ts",
+					"require": "./dist/index.js",
+					"default": "./dist/index.js"
+				},
+				"./define-config-support": {
+					"types": "./dts/define-config-support.d.ts"
+				},
+				"./rule-options": {
+					"types": "./dts/rule-options.d.ts"
+				},
+				"./rules/indent-binary-ops": "./dist/indent-binary-ops.js",
+				"./rules/type-generic-spacing": "./dist/type-generic-spacing.js",
+				"./rules/type-named-tuple-spacing": "./dist/type-named-tuple-spacing.js"
+			},
+			"main": "./dist/index.js",
+			"types": "./dts/index.d.ts",
+			"peerDependencies": {
+				"eslint": "*"
+			},
+			"dependencies": {
+				"@typescript-eslint/utils": "^6.20.0"
+			},
+			"devDependencies": {
+				"@typescript-eslint/rule-tester": "^6.20.0"
+			},
+			"scripts": {
+				"build": "rimraf dist && rollup --config=rollup.config.mts --configPlugin=rollup-plugin-esbuild",
+				"dev": "rollup --config=rollup.config.mts --configPlugin=rollup-plugin-esbuild --watch"
+			},
+			"description": "Supplementary rules introduced by ESLint Stylistic.",
+			"_id": "@stylistic/eslint-plugin-plus@1.6.0",
+			"_integrity": "sha512-XfLBBkKIERzMYGEX1A5RCe/gVe9pTdGuHC2xDzlEIs2npudMHxm304K7l2CqlAWGyJ/yP6wwrsSEHozQUIo/Og==",
+			"_resolved": "/tmp/d814703c2d318fd20599b10dc6460377/stylistic-eslint-plugin-plus-1.6.0.tgz",
+			"_from": "file:stylistic-eslint-plugin-plus-1.6.0.tgz",
+			"_nodeVersion": "20.11.0",
+			"_npmVersion": "10.2.4",
+			"dist": {
+				"integrity": "sha512-XfLBBkKIERzMYGEX1A5RCe/gVe9pTdGuHC2xDzlEIs2npudMHxm304K7l2CqlAWGyJ/yP6wwrsSEHozQUIo/Og==",
+				"shasum": "a9fc6296c8c758ead8292547a06ad9249567fa6c",
+				"tarball": "https://registry.npmjs.org/@stylistic/eslint-plugin-plus/-/eslint-plugin-plus-1.6.0.tgz",
+				"fileCount": 14,
+				"unpackedSize": 15147,
+				"attestations": {
+					"url": "https://registry.npmjs.org/-/npm/v1/attestations/@stylistic%2feslint-plugin-plus@1.6.0",
+					"provenance": {
+						"predicateType": "https://slsa.dev/provenance/v1"
+					}
+				},
+				"signatures": [
+					{
+						"keyid": "SHA256:jl3bwswu80PjjokCgh0o2w5c2U4LhQAE57gj9cz1kzA",
+						"sig": "MEUCIH+jGDkrcksNUQVhVwTEKONyWN2a7rel2JIgwpp6bB6IAiEA+cQ1Qxkx/ComDkaFJ5EnHmp9wz6yQKMj2Zc/5KVko7s="
+					}
+				]
+			},
+			"_npmUser": {
+				"name": "antfu",
+				"email": "anthonyfu117@hotmail.com"
+			},
+			"directories": {},
+			"maintainers": [
+				{
+					"name": "antfu",
+					"email": "anthonyfu117@hotmail.com"
+				}
+			],
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/eslint-plugin-plus_1.6.0_1707150897574_0.5337022633636883"
+			},
+			"_hasShrinkwrap": false,
+			"contributors": []
+		},
+		"1.6.1": {
+			"name": "@stylistic/eslint-plugin-plus",
+			"version": "1.6.1",
+			"author": {
+				"name": "Anthony Fu",
+				"email": "anthonyfu117@hotmail.com"
+			},
+			"license": "MIT",
+			"homepage": "https://github.com/eslint-stylistic/eslint-stylistic#readme",
+			"repository": {
+				"directory": "packages/eslint-plugin-plus",
+				"type": "git",
+				"url": "git+https://github.com/eslint-stylistic/eslint-stylistic.git"
+			},
+			"bugs": {
+				"url": "https://github.com/eslint-stylistic/eslint-stylistic/issues"
+			},
+			"exports": {
+				".": {
+					"types": "./dts/index.d.ts",
+					"require": "./dist/index.js",
+					"default": "./dist/index.js"
+				},
+				"./define-config-support": {
+					"types": "./dts/define-config-support.d.ts"
+				},
+				"./rule-options": {
+					"types": "./dts/rule-options.d.ts"
+				},
+				"./rules/indent-binary-ops": "./dist/indent-binary-ops.js",
+				"./rules/type-generic-spacing": "./dist/type-generic-spacing.js",
+				"./rules/type-named-tuple-spacing": "./dist/type-named-tuple-spacing.js"
+			},
+			"main": "./dist/index.js",
+			"types": "./dts/index.d.ts",
+			"peerDependencies": {
+				"eslint": "*"
+			},
+			"dependencies": {
+				"@typescript-eslint/utils": "^6.20.0"
+			},
+			"devDependencies": {
+				"@typescript-eslint/rule-tester": "^6.20.0"
+			},
+			"scripts": {
+				"build": "rimraf dist && rollup --config=rollup.config.mts --configPlugin=rollup-plugin-esbuild",
+				"dev": "rollup --config=rollup.config.mts --configPlugin=rollup-plugin-esbuild --watch"
+			},
+			"description": "Supplementary rules introduced by ESLint Stylistic.",
+			"_id": "@stylistic/eslint-plugin-plus@1.6.1",
+			"_integrity": "sha512-nYIXfdYN+pBVmm0vPCKQFg/IK35tf3ZGz+0WENUL6ww1+jKM6/i36FalRFculiHzO+wOpJ3/yXWJC3PCbwGFZQ==",
+			"_resolved": "/tmp/28d79537f08f59a40914ccf753b47ad5/stylistic-eslint-plugin-plus-1.6.1.tgz",
+			"_from": "file:stylistic-eslint-plugin-plus-1.6.1.tgz",
+			"_nodeVersion": "20.11.0",
+			"_npmVersion": "10.2.4",
+			"dist": {
+				"integrity": "sha512-nYIXfdYN+pBVmm0vPCKQFg/IK35tf3ZGz+0WENUL6ww1+jKM6/i36FalRFculiHzO+wOpJ3/yXWJC3PCbwGFZQ==",
+				"shasum": "e04e7b130911cac5a9067f57fa790057ba66a532",
+				"tarball": "https://registry.npmjs.org/@stylistic/eslint-plugin-plus/-/eslint-plugin-plus-1.6.1.tgz",
+				"fileCount": 14,
+				"unpackedSize": 15147,
+				"attestations": {
+					"url": "https://registry.npmjs.org/-/npm/v1/attestations/@stylistic%2feslint-plugin-plus@1.6.1",
+					"provenance": {
+						"predicateType": "https://slsa.dev/provenance/v1"
+					}
+				},
+				"signatures": [
+					{
+						"keyid": "SHA256:jl3bwswu80PjjokCgh0o2w5c2U4LhQAE57gj9cz1kzA",
+						"sig": "MEUCIQCmnrjMWBpqkPTZeIdKNxhHivebrw0ll7bCzmz/X8Uo8wIgCBezE1y1seUY2/DxsUyRK+tdQfvPWw5spoDZ7s+MINM="
+					}
+				]
+			},
+			"_npmUser": {
+				"name": "antfu",
+				"email": "anthonyfu117@hotmail.com"
+			},
+			"directories": {},
+			"maintainers": [
+				{
+					"name": "antfu",
+					"email": "anthonyfu117@hotmail.com"
+				}
+			],
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/eslint-plugin-plus_1.6.1_1707419890592_0.06368615395595101"
+			},
+			"_hasShrinkwrap": false,
+			"contributors": []
+		},
+		"1.6.2": {
+			"name": "@stylistic/eslint-plugin-plus",
+			"version": "1.6.2",
+			"author": {
+				"name": "Anthony Fu",
+				"email": "anthonyfu117@hotmail.com"
+			},
+			"license": "MIT",
+			"homepage": "https://github.com/eslint-stylistic/eslint-stylistic#readme",
+			"repository": {
+				"directory": "packages/eslint-plugin-plus",
+				"type": "git",
+				"url": "git+https://github.com/eslint-stylistic/eslint-stylistic.git"
+			},
+			"bugs": {
+				"url": "https://github.com/eslint-stylistic/eslint-stylistic/issues"
+			},
+			"exports": {
+				".": {
+					"types": "./dts/index.d.ts",
+					"require": "./dist/index.js",
+					"default": "./dist/index.js"
+				},
+				"./define-config-support": {
+					"types": "./dts/define-config-support.d.ts"
+				},
+				"./rule-options": {
+					"types": "./dts/rule-options.d.ts"
+				},
+				"./rules/indent-binary-ops": "./dist/indent-binary-ops.js",
+				"./rules/type-generic-spacing": "./dist/type-generic-spacing.js",
+				"./rules/type-named-tuple-spacing": "./dist/type-named-tuple-spacing.js"
+			},
+			"main": "./dist/index.js",
+			"types": "./dts/index.d.ts",
+			"peerDependencies": {
+				"eslint": "*"
+			},
+			"dependencies": {
+				"@types/eslint": "^8.56.2",
+				"@typescript-eslint/utils": "^6.21.0"
+			},
+			"devDependencies": {
+				"@typescript-eslint/rule-tester": "^6.21.0"
+			},
+			"scripts": {
+				"build": "rimraf dist && rollup --config=rollup.config.mts --configPlugin=rollup-plugin-esbuild",
+				"dev": "rollup --config=rollup.config.mts --configPlugin=rollup-plugin-esbuild --watch"
+			},
+			"description": "Supplementary rules introduced by ESLint Stylistic.",
+			"_id": "@stylistic/eslint-plugin-plus@1.6.2",
+			"_integrity": "sha512-EDMwa6gzKw4bXRqdIAUvZDfIgwotbjJs8o+vYE22chAYtVAnA0Pcq+cPx0Uk35t2gvJWb5OaLDjqA6oy1tD0jg==",
+			"_resolved": "/tmp/b37d23f0a1788cab882a5de11ea5dc0b/stylistic-eslint-plugin-plus-1.6.2.tgz",
+			"_from": "file:stylistic-eslint-plugin-plus-1.6.2.tgz",
+			"_nodeVersion": "20.11.0",
+			"_npmVersion": "10.2.4",
+			"dist": {
+				"integrity": "sha512-EDMwa6gzKw4bXRqdIAUvZDfIgwotbjJs8o+vYE22chAYtVAnA0Pcq+cPx0Uk35t2gvJWb5OaLDjqA6oy1tD0jg==",
+				"shasum": "d12d35800fc88e80f87e0ad30a77e7f2894d98fb",
+				"tarball": "https://registry.npmjs.org/@stylistic/eslint-plugin-plus/-/eslint-plugin-plus-1.6.2.tgz",
+				"fileCount": 14,
+				"unpackedSize": 15179,
+				"attestations": {
+					"url": "https://registry.npmjs.org/-/npm/v1/attestations/@stylistic%2feslint-plugin-plus@1.6.2",
+					"provenance": {
+						"predicateType": "https://slsa.dev/provenance/v1"
+					}
+				},
+				"signatures": [
+					{
+						"keyid": "SHA256:jl3bwswu80PjjokCgh0o2w5c2U4LhQAE57gj9cz1kzA",
+						"sig": "MEYCIQCMrTLkxkxfBrnoRf3UkJRdr/RDsLZ8rt1SgffbWi8SUwIhAMaS45sm9T25bhj1XtcaRgbAm7IyDFbzfrtMCABXX+G3"
+					}
+				]
+			},
+			"_npmUser": {
+				"name": "antfu",
+				"email": "anthonyfu117@hotmail.com"
+			},
+			"directories": {},
+			"maintainers": [
+				{
+					"name": "antfu",
+					"email": "anthonyfu117@hotmail.com"
+				}
+			],
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/eslint-plugin-plus_1.6.2_1707997613317_0.036221568039957575"
+			},
+			"_hasShrinkwrap": false,
+			"contributors": []
+		},
+		"1.6.3": {
+			"name": "@stylistic/eslint-plugin-plus",
+			"version": "1.6.3",
+			"author": {
+				"name": "Anthony Fu",
+				"email": "anthonyfu117@hotmail.com"
+			},
+			"license": "MIT",
+			"homepage": "https://github.com/eslint-stylistic/eslint-stylistic#readme",
+			"repository": {
+				"directory": "packages/eslint-plugin-plus",
+				"type": "git",
+				"url": "git+https://github.com/eslint-stylistic/eslint-stylistic.git"
+			},
+			"bugs": {
+				"url": "https://github.com/eslint-stylistic/eslint-stylistic/issues"
+			},
+			"exports": {
+				".": {
+					"types": "./dts/index.d.ts",
+					"require": "./dist/index.js",
+					"default": "./dist/index.js"
+				},
+				"./define-config-support": {
+					"types": "./dts/define-config-support.d.ts"
+				},
+				"./rule-options": {
+					"types": "./dts/rule-options.d.ts"
+				},
+				"./rules/indent-binary-ops": "./dist/indent-binary-ops.js",
+				"./rules/type-generic-spacing": "./dist/type-generic-spacing.js",
+				"./rules/type-named-tuple-spacing": "./dist/type-named-tuple-spacing.js"
+			},
+			"main": "./dist/index.js",
+			"types": "./dts/index.d.ts",
+			"peerDependencies": {
+				"eslint": "*"
+			},
+			"dependencies": {
+				"@types/eslint": "^8.56.2",
+				"@typescript-eslint/utils": "^6.21.0"
+			},
+			"devDependencies": {
+				"@typescript-eslint/rule-tester": "^6.21.0"
+			},
+			"scripts": {
+				"build": "rimraf dist && rollup --config=rollup.config.mts --configPlugin=rollup-plugin-esbuild",
+				"dev": "rollup --config=rollup.config.mts --configPlugin=rollup-plugin-esbuild --watch"
+			},
+			"description": "Supplementary rules introduced by ESLint Stylistic.",
+			"_id": "@stylistic/eslint-plugin-plus@1.6.3",
+			"_integrity": "sha512-TuwQOdyVGycDPw5XeF7W4f3ZonAVzOAzORSaD2yGAJ0fRAbJ+l/v3CkKzIAqBBwWkc+c2aRMsWtLP2+viBnmlQ==",
+			"_resolved": "/tmp/dde25ad7231ac667b9d0700344ae8c1b/stylistic-eslint-plugin-plus-1.6.3.tgz",
+			"_from": "file:stylistic-eslint-plugin-plus-1.6.3.tgz",
+			"_nodeVersion": "20.11.1",
+			"_npmVersion": "10.2.4",
+			"dist": {
+				"integrity": "sha512-TuwQOdyVGycDPw5XeF7W4f3ZonAVzOAzORSaD2yGAJ0fRAbJ+l/v3CkKzIAqBBwWkc+c2aRMsWtLP2+viBnmlQ==",
+				"shasum": "faeb346025e47faf05e016951bb9f4e4c87a016b",
+				"tarball": "https://registry.npmjs.org/@stylistic/eslint-plugin-plus/-/eslint-plugin-plus-1.6.3.tgz",
+				"fileCount": 14,
+				"unpackedSize": 15175,
+				"attestations": {
+					"url": "https://registry.npmjs.org/-/npm/v1/attestations/@stylistic%2feslint-plugin-plus@1.6.3",
+					"provenance": {
+						"predicateType": "https://slsa.dev/provenance/v1"
+					}
+				},
+				"signatures": [
+					{
+						"keyid": "SHA256:jl3bwswu80PjjokCgh0o2w5c2U4LhQAE57gj9cz1kzA",
+						"sig": "MEUCICF0DcHdte9oVLBvJe5sYLLZIpAdS75mgCNDfK7cKTXFAiEAzfuZtEbuiIlokveNc0cJYbkWhvZaWUU/aMSX9X6Bh7E="
+					}
+				]
+			},
+			"_npmUser": {
+				"name": "antfu",
+				"email": "anthonyfu117@hotmail.com"
+			},
+			"directories": {},
+			"maintainers": [
+				{
+					"name": "antfu",
+					"email": "anthonyfu117@hotmail.com"
+				}
+			],
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/eslint-plugin-plus_1.6.3_1709213968499_0.7382011485082736"
+			},
+			"_hasShrinkwrap": false,
+			"contributors": []
+		},
+		"1.7.0": {
+			"name": "@stylistic/eslint-plugin-plus",
+			"version": "1.7.0",
+			"author": {
+				"name": "Anthony Fu",
+				"email": "anthonyfu117@hotmail.com"
+			},
+			"license": "MIT",
+			"homepage": "https://github.com/eslint-stylistic/eslint-stylistic#readme",
+			"repository": {
+				"directory": "packages/eslint-plugin-plus",
+				"type": "git",
+				"url": "git+https://github.com/eslint-stylistic/eslint-stylistic.git"
+			},
+			"bugs": {
+				"url": "https://github.com/eslint-stylistic/eslint-stylistic/issues"
+			},
+			"exports": {
+				".": {
+					"types": "./dts/index.d.ts",
+					"require": "./dist/index.js",
+					"default": "./dist/index.js"
+				},
+				"./define-config-support": {
+					"types": "./dts/define-config-support.d.ts"
+				},
+				"./rule-options": {
+					"types": "./dts/rule-options.d.ts"
+				},
+				"./rules/indent-binary-ops": "./dist/indent-binary-ops.js",
+				"./rules/type-generic-spacing": "./dist/type-generic-spacing.js",
+				"./rules/type-named-tuple-spacing": "./dist/type-named-tuple-spacing.js"
+			},
+			"main": "./dist/index.js",
+			"types": "./dts/index.d.ts",
+			"peerDependencies": {
+				"eslint": "*"
+			},
+			"dependencies": {
+				"@types/eslint": "^8.56.2",
+				"@typescript-eslint/utils": "^6.21.0"
+			},
+			"devDependencies": {
+				"@typescript-eslint/rule-tester": "^6.21.0"
+			},
+			"scripts": {
+				"build": "rimraf dist && rollup --config=rollup.config.mts --configPlugin=rollup-plugin-esbuild",
+				"dev": "rollup --config=rollup.config.mts --configPlugin=rollup-plugin-esbuild --watch"
+			},
+			"description": "Supplementary rules introduced by ESLint Stylistic.",
+			"_id": "@stylistic/eslint-plugin-plus@1.7.0",
+			"_integrity": "sha512-AabDw8sXsc70Ydx3qnbeTlRHZnIwY6UKEenBPURPhY3bfYWX+/pDpZH40HkOu94v8D0DUrocPkeeEUxl4e0JDg==",
+			"_resolved": "/tmp/3512f1c0f34be6d82f16bc92520864bc/stylistic-eslint-plugin-plus-1.7.0.tgz",
+			"_from": "file:stylistic-eslint-plugin-plus-1.7.0.tgz",
+			"_nodeVersion": "20.11.1",
+			"_npmVersion": "10.2.4",
+			"dist": {
+				"integrity": "sha512-AabDw8sXsc70Ydx3qnbeTlRHZnIwY6UKEenBPURPhY3bfYWX+/pDpZH40HkOu94v8D0DUrocPkeeEUxl4e0JDg==",
+				"shasum": "2dc56fe9b4e4bfa48e011abe41eb1cb692ddb557",
+				"tarball": "https://registry.npmjs.org/@stylistic/eslint-plugin-plus/-/eslint-plugin-plus-1.7.0.tgz",
+				"fileCount": 14,
+				"unpackedSize": 15175,
+				"attestations": {
+					"url": "https://registry.npmjs.org/-/npm/v1/attestations/@stylistic%2feslint-plugin-plus@1.7.0",
+					"provenance": {
+						"predicateType": "https://slsa.dev/provenance/v1"
+					}
+				},
+				"signatures": [
+					{
+						"keyid": "SHA256:jl3bwswu80PjjokCgh0o2w5c2U4LhQAE57gj9cz1kzA",
+						"sig": "MEUCIQCfnT+vGX1Gl9Iz0zOil9D3SeU+oC0D+8sWsQhfb+kVHQIgeHaqacd+wFrQ9Rn4OWd7Ea4xsH802wm8HPWO49u4+3A="
+					}
+				]
+			},
+			"_npmUser": {
+				"name": "antfu",
+				"email": "anthonyfu117@hotmail.com"
+			},
+			"directories": {},
+			"maintainers": [
+				{
+					"name": "antfu",
+					"email": "anthonyfu117@hotmail.com"
+				}
+			],
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/eslint-plugin-plus_1.7.0_1710411436958_0.455796101256432"
+			},
+			"_hasShrinkwrap": false,
+			"contributors": []
+		},
+		"1.7.2": {
+			"name": "@stylistic/eslint-plugin-plus",
+			"version": "1.7.2",
+			"author": {
+				"name": "Anthony Fu",
+				"email": "anthonyfu117@hotmail.com"
+			},
+			"license": "MIT",
+			"homepage": "https://github.com/eslint-community/eslint-stylistic#readme",
+			"repository": {
+				"directory": "packages/eslint-plugin-plus",
+				"type": "git",
+				"url": "git+https://github.com/eslint-community/eslint-stylistic.git"
+			},
+			"bugs": {
+				"url": "https://github.com/eslint-community/eslint-stylistic/issues"
+			},
+			"exports": {
+				".": {
+					"types": "./dts/index.d.ts",
+					"require": "./dist/index.js",
+					"default": "./dist/index.js"
+				},
+				"./define-config-support": {
+					"types": "./dts/define-config-support.d.ts"
+				},
+				"./rule-options": {
+					"types": "./dts/rule-options.d.ts"
+				},
+				"./rules/indent-binary-ops": "./dist/indent-binary-ops.js",
+				"./rules/type-generic-spacing": "./dist/type-generic-spacing.js",
+				"./rules/type-named-tuple-spacing": "./dist/type-named-tuple-spacing.js"
+			},
+			"main": "./dist/index.js",
+			"types": "./dts/index.d.ts",
+			"peerDependencies": {
+				"eslint": "*"
+			},
+			"dependencies": {
+				"@types/eslint": "^8.56.8",
+				"@typescript-eslint/utils": "^6.21.0"
+			},
+			"devDependencies": {
+				"@typescript-eslint/rule-tester": "^6.21.0"
+			},
+			"scripts": {
+				"build": "rimraf dist && rollup --config=rollup.config.mts --configPlugin=rollup-plugin-esbuild",
+				"dev": "rollup --config=rollup.config.mts --configPlugin=rollup-plugin-esbuild --watch"
+			},
+			"description": "Supplementary rules introduced by ESLint Stylistic.",
+			"_id": "@stylistic/eslint-plugin-plus@1.7.2",
+			"_integrity": "sha512-luUfRVbBVtt0+/FNt8/76BANJEzb/nHWasHD7UUjyMrch2U9xUKpObrkTCzqBuisKek+uFupwGjqXqDP07+fQw==",
+			"_resolved": "/tmp/38265bc9dd16db2072ccf5fb2cf803f1/stylistic-eslint-plugin-plus-1.7.2.tgz",
+			"_from": "file:stylistic-eslint-plugin-plus-1.7.2.tgz",
+			"_nodeVersion": "20.12.1",
+			"_npmVersion": "10.5.0",
+			"dist": {
+				"integrity": "sha512-luUfRVbBVtt0+/FNt8/76BANJEzb/nHWasHD7UUjyMrch2U9xUKpObrkTCzqBuisKek+uFupwGjqXqDP07+fQw==",
+				"shasum": "e6767a9fd3bfbec02b7b68bbbdf5367df0e56b9e",
+				"tarball": "https://registry.npmjs.org/@stylistic/eslint-plugin-plus/-/eslint-plugin-plus-1.7.2.tgz",
+				"fileCount": 14,
+				"unpackedSize": 15175,
+				"attestations": {
+					"url": "https://registry.npmjs.org/-/npm/v1/attestations/@stylistic%2feslint-plugin-plus@1.7.2",
+					"provenance": {
+						"predicateType": "https://slsa.dev/provenance/v1"
+					}
+				},
+				"signatures": [
+					{
+						"keyid": "SHA256:jl3bwswu80PjjokCgh0o2w5c2U4LhQAE57gj9cz1kzA",
+						"sig": "MEUCIF56GBasaEoxDNefNxL0VNzL7vGC7ONrpbmzqIywyJqqAiEA9C3Cbp28t+nCMCH7qET8a2Qe4/WZWisDFycAVb4juTI="
+					}
+				]
+			},
+			"_npmUser": {
+				"name": "eslint-community-bot",
+				"email": "contact+eslintcbot@eslint.org"
+			},
+			"directories": {},
+			"maintainers": [
+				{
+					"name": "eslint-community-bot",
+					"email": "contact+eslintcbot@eslint.org"
+				},
+				{
+					"name": "antfu",
+					"email": "anthonyfu117@hotmail.com"
+				},
+				{
+					"name": "michaeldeboey",
+					"email": "info@michaeldeboey.be"
+				}
+			],
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/eslint-plugin-plus_1.7.2_1713213261804_0.9850240343539431"
+			},
+			"_hasShrinkwrap": false,
+			"contributors": []
+		},
+		"1.8.0": {
+			"name": "@stylistic/eslint-plugin-plus",
+			"version": "1.8.0",
+			"author": {
+				"name": "Anthony Fu",
+				"email": "anthonyfu117@hotmail.com"
+			},
+			"license": "MIT",
+			"homepage": "https://github.com/eslint-stylistic/eslint-stylistic#readme",
+			"repository": {
+				"directory": "packages/eslint-plugin-plus",
+				"type": "git",
+				"url": "git+https://github.com/eslint-stylistic/eslint-stylistic.git"
+			},
+			"bugs": {
+				"url": "https://github.com/eslint-stylistic/eslint-stylistic/issues"
+			},
+			"exports": {
+				".": {
+					"types": "./dts/index.d.ts",
+					"require": "./dist/index.js",
+					"default": "./dist/index.js"
+				},
+				"./define-config-support": {
+					"types": "./dts/define-config-support.d.ts"
+				},
+				"./rule-options": {
+					"types": "./dts/rule-options.d.ts"
+				},
+				"./rules/indent-binary-ops": "./dist/indent-binary-ops.js",
+				"./rules/type-generic-spacing": "./dist/type-generic-spacing.js",
+				"./rules/type-named-tuple-spacing": "./dist/type-named-tuple-spacing.js"
+			},
+			"main": "./dist/index.js",
+			"types": "./dts/index.d.ts",
+			"peerDependencies": {
+				"eslint": "*"
+			},
+			"dependencies": {
+				"@types/eslint": "^8.56.10",
+				"@typescript-eslint/utils": "^6.21.0"
+			},
+			"devDependencies": {
+				"@typescript-eslint/rule-tester": "^6.21.0"
+			},
+			"scripts": {
+				"build": "rimraf dist && rollup --config=rollup.config.mts --configPlugin=rollup-plugin-esbuild",
+				"dev": "rollup --config=rollup.config.mts --configPlugin=rollup-plugin-esbuild --watch"
+			},
+			"description": "Supplementary rules introduced by ESLint Stylistic.",
+			"_id": "@stylistic/eslint-plugin-plus@1.8.0",
+			"_integrity": "sha512-TkrjzzYmTuAaLvFwtxomsgMUD8g8PREOQOQzTfKmiJ6oc4XOyFW4q/L9ES1J3UFSLybNCwbhu36lhXJut1w2Sg==",
+			"_resolved": "/tmp/d7f59041805ec53fbe8defec464e5fca/stylistic-eslint-plugin-plus-1.8.0.tgz",
+			"_from": "file:stylistic-eslint-plugin-plus-1.8.0.tgz",
+			"_nodeVersion": "20.12.2",
+			"_npmVersion": "10.5.0",
+			"dist": {
+				"integrity": "sha512-TkrjzzYmTuAaLvFwtxomsgMUD8g8PREOQOQzTfKmiJ6oc4XOyFW4q/L9ES1J3UFSLybNCwbhu36lhXJut1w2Sg==",
+				"shasum": "871de1a71c990bc093105699d7e36b71f6cf2899",
+				"tarball": "https://registry.npmjs.org/@stylistic/eslint-plugin-plus/-/eslint-plugin-plus-1.8.0.tgz",
+				"fileCount": 14,
+				"unpackedSize": 15176,
+				"attestations": {
+					"url": "https://registry.npmjs.org/-/npm/v1/attestations/@stylistic%2feslint-plugin-plus@1.8.0",
+					"provenance": {
+						"predicateType": "https://slsa.dev/provenance/v1"
+					}
+				},
+				"signatures": [
+					{
+						"keyid": "SHA256:jl3bwswu80PjjokCgh0o2w5c2U4LhQAE57gj9cz1kzA",
+						"sig": "MEQCIHSRosaVHb0d2820KJrcsTGFUkVzVoVQ/wm/AaJ5C5p+AiARTIRjyS1PAt+KNYePA28gR6R/aPLDjgubm2HYw6bh3w=="
+					}
+				]
+			},
+			"_npmUser": {
+				"name": "eslint-stylistic-bot",
+				"email": "npm-eslint-stylistic@antfu.me"
+			},
+			"directories": {},
+			"maintainers": [
+				{
+					"name": "eslint-stylistic-bot",
+					"email": "npm-eslint-stylistic@antfu.me"
+				}
+			],
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/eslint-plugin-plus_1.8.0_1714480722285_0.29064323010031345"
+			},
+			"_hasShrinkwrap": false,
+			"contributors": []
+		},
+		"1.8.1": {
+			"name": "@stylistic/eslint-plugin-plus",
+			"version": "1.8.1",
+			"author": {
+				"name": "Anthony Fu",
+				"email": "anthonyfu117@hotmail.com"
+			},
+			"license": "MIT",
+			"homepage": "https://github.com/eslint-stylistic/eslint-stylistic#readme",
+			"repository": {
+				"directory": "packages/eslint-plugin-plus",
+				"type": "git",
+				"url": "git+https://github.com/eslint-stylistic/eslint-stylistic.git"
+			},
+			"bugs": {
+				"url": "https://github.com/eslint-stylistic/eslint-stylistic/issues"
+			},
+			"exports": {
+				".": {
+					"types": "./dts/index.d.ts",
+					"require": "./dist/index.js",
+					"default": "./dist/index.js"
+				},
+				"./define-config-support": {
+					"types": "./dts/define-config-support.d.ts"
+				},
+				"./rule-options": {
+					"types": "./dts/rule-options.d.ts"
+				},
+				"./rules/indent-binary-ops": "./dist/indent-binary-ops.js",
+				"./rules/type-generic-spacing": "./dist/type-generic-spacing.js",
+				"./rules/type-named-tuple-spacing": "./dist/type-named-tuple-spacing.js"
+			},
+			"main": "./dist/index.js",
+			"types": "./dts/index.d.ts",
+			"peerDependencies": {
+				"eslint": "*"
+			},
+			"dependencies": {
+				"@types/eslint": "^8.56.10",
+				"@typescript-eslint/utils": "^6.21.0"
+			},
+			"devDependencies": {
+				"@typescript-eslint/rule-tester": "^6.21.0"
+			},
+			"scripts": {
+				"build": "rimraf dist && rollup --config=rollup.config.mts --configPlugin=rollup-plugin-esbuild",
+				"dev": "rollup --config=rollup.config.mts --configPlugin=rollup-plugin-esbuild --watch"
+			},
+			"description": "Supplementary rules introduced by ESLint Stylistic.",
+			"_id": "@stylistic/eslint-plugin-plus@1.8.1",
+			"_integrity": "sha512-4+40H3lHYTN8OWz+US8CamVkO+2hxNLp9+CAjorI7top/lHqemhpJvKA1LD9Uh+WMY9DYWiWpL2+SZ2wAXY9fQ==",
+			"_resolved": "/tmp/7ddca8d6c0e3fe91df0598d4714fa9e7/stylistic-eslint-plugin-plus-1.8.1.tgz",
+			"_from": "file:stylistic-eslint-plugin-plus-1.8.1.tgz",
+			"_nodeVersion": "20.12.2",
+			"_npmVersion": "10.5.0",
+			"dist": {
+				"integrity": "sha512-4+40H3lHYTN8OWz+US8CamVkO+2hxNLp9+CAjorI7top/lHqemhpJvKA1LD9Uh+WMY9DYWiWpL2+SZ2wAXY9fQ==",
+				"shasum": "b502f0029de048964e9b561d002c7cd043fa7861",
+				"tarball": "https://registry.npmjs.org/@stylistic/eslint-plugin-plus/-/eslint-plugin-plus-1.8.1.tgz",
+				"fileCount": 14,
+				"unpackedSize": 15176,
+				"attestations": {
+					"url": "https://registry.npmjs.org/-/npm/v1/attestations/@stylistic%2feslint-plugin-plus@1.8.1",
+					"provenance": {
+						"predicateType": "https://slsa.dev/provenance/v1"
+					}
+				},
+				"signatures": [
+					{
+						"keyid": "SHA256:jl3bwswu80PjjokCgh0o2w5c2U4LhQAE57gj9cz1kzA",
+						"sig": "MEUCIQDdNYcSrw2YaXvFa9QS/ZVM78udE5qvJfA6YfrW3JNNxQIgLHs/a7xIJJfVgkVDaUlNTPtY4JOA8Drv6iIHHRZMbCA="
+					}
+				]
+			},
+			"_npmUser": {
+				"name": "eslint-stylistic-bot",
+				"email": "npm-eslint-stylistic@antfu.me"
+			},
+			"directories": {},
+			"maintainers": [
+				{
+					"name": "eslint-stylistic-bot",
+					"email": "npm-eslint-stylistic@antfu.me"
+				}
+			],
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/eslint-plugin-plus_1.8.1_1715099357279_0.7649278742627172"
+			},
+			"_hasShrinkwrap": false,
+			"contributors": []
+		},
+		"2.0.0": {
+			"name": "@stylistic/eslint-plugin-plus",
+			"version": "2.0.0",
+			"author": {
+				"name": "Anthony Fu",
+				"email": "anthonyfu117@hotmail.com"
+			},
+			"license": "MIT",
+			"homepage": "https://github.com/eslint-stylistic/eslint-stylistic#readme",
+			"repository": {
+				"directory": "packages/eslint-plugin-plus",
+				"type": "git",
+				"url": "git+https://github.com/eslint-stylistic/eslint-stylistic.git"
+			},
+			"bugs": {
+				"url": "https://github.com/eslint-stylistic/eslint-stylistic/issues"
+			},
+			"exports": {
+				".": {
+					"types": "./dts/index.d.ts",
+					"require": "./dist/index.js",
+					"default": "./dist/index.js"
+				},
+				"./define-config-support": {
+					"types": "./dts/define-config-support.d.ts"
+				},
+				"./rule-options": {
+					"types": "./dts/rule-options.d.ts"
+				},
+				"./rules/indent-binary-ops": "./dist/indent-binary-ops.js",
+				"./rules/type-generic-spacing": "./dist/type-generic-spacing.js",
+				"./rules/type-named-tuple-spacing": "./dist/type-named-tuple-spacing.js"
+			},
+			"main": "./dist/index.js",
+			"types": "./dts/index.d.ts",
+			"peerDependencies": {
+				"eslint": "*"
+			},
+			"dependencies": {
+				"@types/eslint": "^8.56.10",
+				"@typescript-eslint/utils": "^7.8.0"
+			},
+			"devDependencies": {
+				"@typescript-eslint/rule-tester": "^7.8.0"
+			},
+			"scripts": {
+				"build": "rimraf dist && rollup --config=rollup.config.mts --configPlugin=rollup-plugin-esbuild",
+				"dev": "rollup --config=rollup.config.mts --configPlugin=rollup-plugin-esbuild --watch"
+			},
+			"description": "Supplementary rules introduced by ESLint Stylistic.",
+			"_id": "@stylistic/eslint-plugin-plus@2.0.0",
+			"_integrity": "sha512-iif+oS6SaAIG9yN3zynNWT2YqP/vq1Os5sgIKocinkjZvbTBdNygq7OoxO+V2PTwx/KwF0z6IXU5OdxwdEizkg==",
+			"_resolved": "/tmp/51ea104bc0033fd95781744b566076fe/stylistic-eslint-plugin-plus-2.0.0.tgz",
+			"_from": "file:stylistic-eslint-plugin-plus-2.0.0.tgz",
+			"_nodeVersion": "20.12.2",
+			"_npmVersion": "10.5.0",
+			"dist": {
+				"integrity": "sha512-iif+oS6SaAIG9yN3zynNWT2YqP/vq1Os5sgIKocinkjZvbTBdNygq7OoxO+V2PTwx/KwF0z6IXU5OdxwdEizkg==",
+				"shasum": "16154eb92659ff5e108f950288a852bcc896af37",
+				"tarball": "https://registry.npmjs.org/@stylistic/eslint-plugin-plus/-/eslint-plugin-plus-2.0.0.tgz",
+				"fileCount": 14,
+				"unpackedSize": 15174,
+				"attestations": {
+					"url": "https://registry.npmjs.org/-/npm/v1/attestations/@stylistic%2feslint-plugin-plus@2.0.0",
+					"provenance": {
+						"predicateType": "https://slsa.dev/provenance/v1"
+					}
+				},
+				"signatures": [
+					{
+						"keyid": "SHA256:jl3bwswu80PjjokCgh0o2w5c2U4LhQAE57gj9cz1kzA",
+						"sig": "MEUCIG5IAwf419jesuaspUzDuYJPP+lDiKcuyhCzY/GpPHhqAiEA2IXDiYjVDLZItdYCSiDQIyIlp6p+JC9zwlWYcSKRdZ8="
+					}
+				]
+			},
+			"_npmUser": {
+				"name": "eslint-stylistic-bot",
+				"email": "npm-eslint-stylistic@antfu.me"
+			},
+			"directories": {},
+			"maintainers": [
+				{
+					"name": "eslint-stylistic-bot",
+					"email": "npm-eslint-stylistic@antfu.me"
+				}
+			],
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/eslint-plugin-plus_2.0.0_1715176525307_0.17815847806203755"
+			},
+			"_hasShrinkwrap": false,
+			"contributors": []
+		},
+		"2.1.0": {
+			"name": "@stylistic/eslint-plugin-plus",
+			"version": "2.1.0",
+			"author": {
+				"name": "Anthony Fu",
+				"email": "anthonyfu117@hotmail.com"
+			},
+			"license": "MIT",
+			"homepage": "https://github.com/eslint-stylistic/eslint-stylistic#readme",
+			"repository": {
+				"directory": "packages/eslint-plugin-plus",
+				"type": "git",
+				"url": "git+https://github.com/eslint-stylistic/eslint-stylistic.git"
+			},
+			"bugs": {
+				"url": "https://github.com/eslint-stylistic/eslint-stylistic/issues"
+			},
+			"exports": {
+				".": {
+					"types": "./dts/index.d.ts",
+					"require": "./dist/index.js",
+					"default": "./dist/index.js"
+				},
+				"./define-config-support": {
+					"types": "./dts/define-config-support.d.ts"
+				},
+				"./rule-options": {
+					"types": "./dts/rule-options.d.ts"
+				},
+				"./rules/indent-binary-ops": "./dist/indent-binary-ops.js",
+				"./rules/type-generic-spacing": "./dist/type-generic-spacing.js",
+				"./rules/type-named-tuple-spacing": "./dist/type-named-tuple-spacing.js"
+			},
+			"main": "./dist/index.js",
+			"types": "./dts/index.d.ts",
+			"peerDependencies": {
+				"eslint": "*"
+			},
+			"dependencies": {
+				"@types/eslint": "^8.56.10",
+				"@typescript-eslint/utils": "^7.8.0"
+			},
+			"devDependencies": {
+				"@typescript-eslint/rule-tester": "^7.8.0"
+			},
+			"scripts": {
+				"build": "rimraf dist && rollup --config=rollup.config.mts --configPlugin=rollup-plugin-esbuild",
+				"dev": "rollup --config=rollup.config.mts --configPlugin=rollup-plugin-esbuild --watch"
+			},
+			"description": "Supplementary rules introduced by ESLint Stylistic.",
+			"_id": "@stylistic/eslint-plugin-plus@2.1.0",
+			"_integrity": "sha512-S5QAlgYXESJaSBFhBSBLZy9o36gXrXQwWSt6QkO+F0SrT9vpV5JF/VKoh+ojO7tHzd8Ckmyouq02TT9Sv2B0zQ==",
+			"_resolved": "/tmp/f136ae7e0dca7c89091b9f5d369b6fd1/stylistic-eslint-plugin-plus-2.1.0.tgz",
+			"_from": "file:stylistic-eslint-plugin-plus-2.1.0.tgz",
+			"_nodeVersion": "20.12.2",
+			"_npmVersion": "10.5.0",
+			"dist": {
+				"integrity": "sha512-S5QAlgYXESJaSBFhBSBLZy9o36gXrXQwWSt6QkO+F0SrT9vpV5JF/VKoh+ojO7tHzd8Ckmyouq02TT9Sv2B0zQ==",
+				"shasum": "c02890685df3a4e5b9ff9ee113377bb237401695",
+				"tarball": "https://registry.npmjs.org/@stylistic/eslint-plugin-plus/-/eslint-plugin-plus-2.1.0.tgz",
+				"fileCount": 14,
+				"unpackedSize": 15174,
+				"attestations": {
+					"url": "https://registry.npmjs.org/-/npm/v1/attestations/@stylistic%2feslint-plugin-plus@2.1.0",
+					"provenance": {
+						"predicateType": "https://slsa.dev/provenance/v1"
+					}
+				},
+				"signatures": [
+					{
+						"keyid": "SHA256:jl3bwswu80PjjokCgh0o2w5c2U4LhQAE57gj9cz1kzA",
+						"sig": "MEQCIGKiKJ6Onm8buezOdhaYKR0ExvRxFbLQMhd4UE4qDHzKAiBJCHM857o5I9a7k+HYWt15XTBb2ulGWEyPK7dEqnYTXw=="
+					}
+				]
+			},
+			"_npmUser": {
+				"name": "eslint-stylistic-bot",
+				"email": "npm-eslint-stylistic@antfu.me"
+			},
+			"directories": {},
+			"maintainers": [
+				{
+					"name": "eslint-stylistic-bot",
+					"email": "npm-eslint-stylistic@antfu.me"
+				}
+			],
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/eslint-plugin-plus_2.1.0_1715247219989_0.9900116371066547"
+			},
+			"_hasShrinkwrap": false,
+			"contributors": []
+		}
+	},
+	"time": {
+		"created": "2023-12-03T15:17:59.498Z",
+		"1.5.0-beta.0": "2023-12-03T15:17:59.802Z",
+		"modified": "2024-05-09T09:33:40.544Z",
+		"1.5.0": "2023-12-05T11:33:30.020Z",
+		"1.5.1": "2023-12-11T12:31:30.444Z",
+		"1.5.3": "2024-01-02T13:35:53.937Z",
+		"1.5.4": "2024-01-17T10:05:08.932Z",
+		"1.6.0": "2024-02-05T16:34:57.742Z",
+		"1.6.1": "2024-02-08T19:18:10.784Z",
+		"1.6.2": "2024-02-15T11:46:53.490Z",
+		"1.6.3": "2024-02-29T13:39:28.635Z",
+		"1.7.0": "2024-03-14T10:17:17.169Z",
+		"1.7.2": "2024-04-15T20:34:22.030Z",
+		"1.8.0": "2024-04-30T12:38:42.432Z",
+		"1.8.1": "2024-05-07T16:29:17.448Z",
+		"2.0.0": "2024-05-08T13:55:25.478Z",
+		"2.1.0": "2024-05-09T09:33:40.128Z"
+	},
+	"users": {},
+	"dist-tags": {
+		"beta": "1.5.0-beta.0",
+		"latest": "2.1.0"
+	},
+	"_uplinks": {
+		"npmjs": {
+			"etag": "W/\"ae72f00ac2f4b5f967d9d90b5e424112\"",
+			"fetched": 1715345903087
+		}
+	},
+	"_distfiles": {
+		"eslint-plugin-plus-1.5.0-beta.0.tgz": {
+			"url": "https://registry.npmjs.org/@stylistic/eslint-plugin-plus/-/eslint-plugin-plus-1.5.0-beta.0.tgz",
+			"sha": "b0561c31010ed8beccfeb1179e6fb30c609309a6",
+			"registry": "npmjs"
+		},
+		"eslint-plugin-plus-1.5.0.tgz": {
+			"url": "https://registry.npmjs.org/@stylistic/eslint-plugin-plus/-/eslint-plugin-plus-1.5.0.tgz",
+			"sha": "49ad5560bb6b699c1b5d2940586a4048ebc35b1c",
+			"registry": "npmjs"
+		},
+		"eslint-plugin-plus-1.5.1.tgz": {
+			"url": "https://registry.npmjs.org/@stylistic/eslint-plugin-plus/-/eslint-plugin-plus-1.5.1.tgz",
+			"sha": "23ece91e5008b14b48ecbe478d9d4ff5f798bde1",
+			"registry": "npmjs"
+		},
+		"eslint-plugin-plus-1.5.3.tgz": {
+			"url": "https://registry.npmjs.org/@stylistic/eslint-plugin-plus/-/eslint-plugin-plus-1.5.3.tgz",
+			"sha": "be632459c60c300df85cdb37528bdcd5692c35b5",
+			"registry": "npmjs"
+		},
+		"eslint-plugin-plus-1.5.4.tgz": {
+			"url": "https://registry.npmjs.org/@stylistic/eslint-plugin-plus/-/eslint-plugin-plus-1.5.4.tgz",
+			"sha": "39a4a6245fa56c3f8fa9ececd44cf3dbd0d16b7c",
+			"registry": "npmjs"
+		},
+		"eslint-plugin-plus-1.6.0.tgz": {
+			"url": "https://registry.npmjs.org/@stylistic/eslint-plugin-plus/-/eslint-plugin-plus-1.6.0.tgz",
+			"sha": "a9fc6296c8c758ead8292547a06ad9249567fa6c",
+			"registry": "npmjs"
+		},
+		"eslint-plugin-plus-1.6.1.tgz": {
+			"url": "https://registry.npmjs.org/@stylistic/eslint-plugin-plus/-/eslint-plugin-plus-1.6.1.tgz",
+			"sha": "e04e7b130911cac5a9067f57fa790057ba66a532",
+			"registry": "npmjs"
+		},
+		"eslint-plugin-plus-1.6.2.tgz": {
+			"url": "https://registry.npmjs.org/@stylistic/eslint-plugin-plus/-/eslint-plugin-plus-1.6.2.tgz",
+			"sha": "d12d35800fc88e80f87e0ad30a77e7f2894d98fb",
+			"registry": "npmjs"
+		},
+		"eslint-plugin-plus-1.6.3.tgz": {
+			"url": "https://registry.npmjs.org/@stylistic/eslint-plugin-plus/-/eslint-plugin-plus-1.6.3.tgz",
+			"sha": "faeb346025e47faf05e016951bb9f4e4c87a016b",
+			"registry": "npmjs"
+		},
+		"eslint-plugin-plus-1.7.0.tgz": {
+			"url": "https://registry.npmjs.org/@stylistic/eslint-plugin-plus/-/eslint-plugin-plus-1.7.0.tgz",
+			"sha": "2dc56fe9b4e4bfa48e011abe41eb1cb692ddb557",
+			"registry": "npmjs"
+		},
+		"eslint-plugin-plus-1.7.2.tgz": {
+			"url": "https://registry.npmjs.org/@stylistic/eslint-plugin-plus/-/eslint-plugin-plus-1.7.2.tgz",
+			"sha": "e6767a9fd3bfbec02b7b68bbbdf5367df0e56b9e",
+			"registry": "npmjs"
+		},
+		"eslint-plugin-plus-1.8.0.tgz": {
+			"url": "https://registry.npmjs.org/@stylistic/eslint-plugin-plus/-/eslint-plugin-plus-1.8.0.tgz",
+			"sha": "871de1a71c990bc093105699d7e36b71f6cf2899",
+			"registry": "npmjs"
+		},
+		"eslint-plugin-plus-1.8.1.tgz": {
+			"url": "https://registry.npmjs.org/@stylistic/eslint-plugin-plus/-/eslint-plugin-plus-1.8.1.tgz",
+			"sha": "b502f0029de048964e9b561d002c7cd043fa7861",
+			"registry": "npmjs"
+		},
+		"eslint-plugin-plus-2.0.0.tgz": {
+			"url": "https://registry.npmjs.org/@stylistic/eslint-plugin-plus/-/eslint-plugin-plus-2.0.0.tgz",
+			"sha": "16154eb92659ff5e108f950288a852bcc896af37",
+			"registry": "npmjs"
+		},
+		"eslint-plugin-plus-2.1.0.tgz": {
+			"url": "https://registry.npmjs.org/@stylistic/eslint-plugin-plus/-/eslint-plugin-plus-2.1.0.tgz",
+			"sha": "c02890685df3a4e5b9ff9ee113377bb237401695",
+			"registry": "npmjs"
+		}
+	},
+	"_attachments": {
+		"eslint-plugin-plus-2.1.0.tgz": {
+			"shasum": "c02890685df3a4e5b9ff9ee113377bb237401695"
+		}
+	},
+	"_rev": "2-ce46233ffa233442",
+	"_id": "@stylistic/eslint-plugin-plus",
+	"readme": "# @stylistic/eslint-plugin-plus\n\nSupplementary rules introduced by ESLint Stylistic.\n\nCheck the [documentation](https://eslint.style/packages/plus) for more details."
+}

@@ -32480,6 +32480,247 @@
 			"_hasShrinkwrap": false,
 			"contributors": []
 		},
+		"19.0.2": {
+			"name": "@nx/playwright",
+			"version": "19.0.2",
+			"type": "commonjs",
+			"homepage": "https://nx.dev",
+			"private": false,
+			"publishConfig": {
+				"access": "public"
+			},
+			"description": "The Nx Plugin for Playwright contains executors and generators allowing your workspace to use the powerful Playwright integration testing capabilities.",
+			"keywords": [
+				"Monorepo",
+				"Angular",
+				"React",
+				"Web",
+				"Node",
+				"Nest",
+				"Jest",
+				"Playwright",
+				"CLI"
+			],
+			"main": "./index.js",
+			"typings": "./index.d.ts",
+			"author": {
+				"name": "Victor Savkin"
+			},
+			"license": "MIT",
+			"bugs": {
+				"url": "https://github.com/nrwl/nx/issues"
+			},
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/nrwl/nx.git",
+				"directory": "packages/playwright"
+			},
+			"dependencies": {
+				"@phenomnomnominal/tsquery": "~5.0.1",
+				"@nx/devkit": "19.0.2",
+				"@nx/eslint": "19.0.2",
+				"@nx/js": "19.0.2",
+				"tslib": "^2.3.0",
+				"minimatch": "9.0.3"
+			},
+			"peerDependencies": {
+				"@playwright/test": "^1.36.0"
+			},
+			"peerDependenciesMeta": {
+				"@playwright/test": {
+					"optional": true
+				}
+			},
+			"executors": "./executors.json",
+			"generators": "./generators.json",
+			"exports": {
+				".": "./index.js",
+				"./package.json": "./package.json",
+				"./migrations.json": "./migrations.json",
+				"./generators.json": "./generators.json",
+				"./generators/*/schema.json": "./src/generators/*/schema.json",
+				"./executors.json": "./executors.json",
+				"./executors/*/schema.json": "./src/executors/*/schema.json",
+				"./plugin": "./plugin.js",
+				"./preset": "./src/utils/preset.js"
+			},
+			"nx-migrations": {
+				"migrations": "./migrations.json"
+			},
+			"_id": "@nx/playwright@19.0.2",
+			"gitHead": "61861be0f7335082d5e0b44fa96ff3f6d49774ad",
+			"_nodeVersion": "18.20.2",
+			"_npmVersion": "10.5.0",
+			"dist": {
+				"integrity": "sha512-2bD9S6D1Y0gkTvQADQZaWwxI1B4xrO2AOZoQ+7Ks06FY5M4rMLuAt1cE1rwigOkkNzBi3JbiRgz9L2Ehg+l5gQ==",
+				"shasum": "d23d2e315ab4ea0e1dd0d3051e0703bb5f4d9084",
+				"tarball": "https://registry.npmjs.org/@nx/playwright/-/playwright-19.0.2.tgz",
+				"fileCount": 40,
+				"unpackedSize": 58839,
+				"attestations": {
+					"url": "https://registry.npmjs.org/-/npm/v1/attestations/@nx%2fplaywright@19.0.2",
+					"provenance": {
+						"predicateType": "https://slsa.dev/provenance/v1"
+					}
+				},
+				"signatures": [
+					{
+						"keyid": "SHA256:jl3bwswu80PjjokCgh0o2w5c2U4LhQAE57gj9cz1kzA",
+						"sig": "MEQCICha62OEdNwEBMUWZay1PwXpMypONLFicGOqKljSTmG+AiB/3zoSsU9Qjcv8YCkGzdmypeOBLIdqwZDmCuuKALo8pQ=="
+					}
+				]
+			},
+			"_npmUser": {
+				"name": "nrwl-jason",
+				"email": "jason@nrwl.io"
+			},
+			"directories": {},
+			"maintainers": [
+				{
+					"name": "jameshenry",
+					"email": "james@henry.sc"
+				},
+				{
+					"name": "jack-nrwl",
+					"email": "jack@nrwl.io"
+				},
+				{
+					"name": "nrwl-jason",
+					"email": "jason@nrwl.io"
+				},
+				{
+					"name": "nrwlowner",
+					"email": "hello@nrwl.io"
+				}
+			],
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/playwright_19.0.2_1715263064552_0.39496034795240154"
+			},
+			"_hasShrinkwrap": false,
+			"contributors": []
+		},
+		"19.1.0-canary.20240510-1a85787": {
+			"name": "@nx/playwright",
+			"version": "19.1.0-canary.20240510-1a85787",
+			"type": "commonjs",
+			"homepage": "https://nx.dev",
+			"private": false,
+			"publishConfig": {
+				"access": "public"
+			},
+			"description": "The Nx Plugin for Playwright contains executors and generators allowing your workspace to use the powerful Playwright integration testing capabilities.",
+			"keywords": [
+				"Monorepo",
+				"Angular",
+				"React",
+				"Web",
+				"Node",
+				"Nest",
+				"Jest",
+				"Playwright",
+				"CLI"
+			],
+			"main": "./index.js",
+			"typings": "./index.d.ts",
+			"author": {
+				"name": "Victor Savkin"
+			},
+			"license": "MIT",
+			"bugs": {
+				"url": "https://github.com/nrwl/nx/issues"
+			},
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/nrwl/nx.git",
+				"directory": "packages/playwright"
+			},
+			"dependencies": {
+				"@phenomnomnominal/tsquery": "~5.0.1",
+				"@nx/devkit": "19.1.0-canary.20240510-1a85787",
+				"@nx/eslint": "19.1.0-canary.20240510-1a85787",
+				"@nx/js": "19.1.0-canary.20240510-1a85787",
+				"tslib": "^2.3.0",
+				"minimatch": "9.0.3"
+			},
+			"peerDependencies": {
+				"@playwright/test": "^1.36.0"
+			},
+			"peerDependenciesMeta": {
+				"@playwright/test": {
+					"optional": true
+				}
+			},
+			"executors": "./executors.json",
+			"generators": "./generators.json",
+			"exports": {
+				".": "./index.js",
+				"./package.json": "./package.json",
+				"./migrations.json": "./migrations.json",
+				"./generators.json": "./generators.json",
+				"./generators/*/schema.json": "./src/generators/*/schema.json",
+				"./executors.json": "./executors.json",
+				"./executors/*/schema.json": "./src/executors/*/schema.json",
+				"./plugin": "./plugin.js",
+				"./preset": "./src/utils/preset.js"
+			},
+			"nx-migrations": {
+				"migrations": "./migrations.json"
+			},
+			"_id": "@nx/playwright@19.1.0-canary.20240510-1a85787",
+			"readmeFilename": "README.md",
+			"gitHead": "1a85787e1c310d8409d99361800ef30e81938795",
+			"_nodeVersion": "18.20.2",
+			"_npmVersion": "10.5.0",
+			"dist": {
+				"integrity": "sha512-VLaVnrEXTC+Qs0OZcOWBW9BV7dwd7GwwgxX2MHNryzR8iTZVubTviqK87ernXVHxntJwSSDZFKSgLVSZVlFuHw==",
+				"shasum": "4eff1c18e4023639258396681a4d0349d40b4326",
+				"tarball": "https://registry.npmjs.org/@nx/playwright/-/playwright-19.1.0-canary.20240510-1a85787.tgz",
+				"fileCount": 40,
+				"unpackedSize": 58935,
+				"attestations": {
+					"url": "https://registry.npmjs.org/-/npm/v1/attestations/@nx%2fplaywright@19.1.0-canary.20240510-1a85787",
+					"provenance": {
+						"predicateType": "https://slsa.dev/provenance/v1"
+					}
+				},
+				"signatures": [
+					{
+						"keyid": "SHA256:jl3bwswu80PjjokCgh0o2w5c2U4LhQAE57gj9cz1kzA",
+						"sig": "MEUCIH90AgEBGufDKjNix5erwyuEp0Y9n5PUanNqLSamWjeWAiEAxWYBFx3hsjrSdI+ZeZIeDnPV/CgEC9Y46aiETb7JTs0="
+					}
+				]
+			},
+			"_npmUser": {
+				"name": "nrwl-jason",
+				"email": "jason@nrwl.io"
+			},
+			"directories": {},
+			"maintainers": [
+				{
+					"name": "jameshenry",
+					"email": "james@henry.sc"
+				},
+				{
+					"name": "jack-nrwl",
+					"email": "jack@nrwl.io"
+				},
+				{
+					"name": "nrwl-jason",
+					"email": "jason@nrwl.io"
+				},
+				{
+					"name": "nrwlowner",
+					"email": "hello@nrwl.io"
+				}
+			],
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/playwright_19.1.0-canary.20240510-1a85787_1715311002466_0.38071046009041765"
+			},
+			"_hasShrinkwrap": false,
+			"contributors": []
+		},
 		"20.0.0": {
 			"name": "@nx/playwright",
 			"version": "20.0.0",
@@ -32549,9 +32790,9 @@
 			},
 			"_id": "@nx/playwright@20.0.0",
 			"readmeFilename": "README.md",
-			"gitHead": "792f73081571dea27da52bddf6184313bb7b5737",
-			"_nodeVersion": "20.9.0",
-			"_npmVersion": "10.1.0",
+			"gitHead": "86106e2454080d81eec30be2268bd93f9c6cfcad",
+			"_nodeVersion": "18.18.0",
+			"_npmVersion": "9.8.1",
 			"dist": {
 				"integrity": "sha512-/80A/y+fwQzy1Cu9RaEj8LJeLTHSo3vtCl/UN8owBLZF4O7zx7HrEVOpbjso830jNVUDheP72OXLf3zA0Xe9nw==",
 				"shasum": "4e38cd5fdc636bd2b6694ca7adc1c0f5d35da0af",
@@ -32563,7 +32804,7 @@
 	"time": {
 		"created": "2023-08-03T03:30:49.093Z",
 		"16.7.0-beta.1": "2023-08-03T03:30:49.402Z",
-		"modified": "2024-05-09T08:19:55.246Z",
+		"modified": "2024-05-10T12:56:58.529Z",
 		"16.7.0-beta.3": "2023-08-09T19:00:20.805Z",
 		"16.7.0-beta.4": "2023-08-10T20:37:11.029Z",
 		"16.7.0-beta.5": "2023-08-11T22:04:44.622Z",
@@ -32832,19 +33073,21 @@
 		"19.0.1": "2024-05-07T22:26:45.125Z",
 		"19.1.0-canary.20240508-fd78152": "2024-05-08T03:16:57.731Z",
 		"19.1.0-canary.20240509-8f705e3": "2024-05-09T03:16:04.435Z",
-		"20.0.0": "2024-05-09T08:19:55.246Z"
+		"19.0.2": "2024-05-09T13:57:44.693Z",
+		"19.1.0-canary.20240510-1a85787": "2024-05-10T03:16:42.627Z",
+		"20.0.0": "2024-05-10T12:56:58.529Z"
 	},
 	"users": {},
 	"dist-tags": {
 		"next": "19.0.0-rc.2",
 		"latest": "20.0.0",
 		"previous": "18.3.4",
-		"canary": "19.1.0-canary.20240509-8f705e3"
+		"canary": "19.1.0-canary.20240510-1a85787"
 	},
 	"_uplinks": {
 		"npmjs": {
-			"etag": "W/\"bcfd1d016afcf4c5ff5d8b223e189cc1\"",
-			"fetched": 1715242794896
+			"etag": "W/\"4e559b6c41d9d62dd6307d67d5949e45\"",
+			"fetched": 1715345817785
 		}
 	},
 	"_distfiles": {
@@ -34192,6 +34435,16 @@
 			"url": "https://registry.npmjs.org/@nx/playwright/-/playwright-19.1.0-canary.20240509-8f705e3.tgz",
 			"sha": "c533dae931454b1a97c74800dba86abbe0e7a681",
 			"registry": "npmjs"
+		},
+		"playwright-19.0.2.tgz": {
+			"url": "https://registry.npmjs.org/@nx/playwright/-/playwright-19.0.2.tgz",
+			"sha": "d23d2e315ab4ea0e1dd0d3051e0703bb5f4d9084",
+			"registry": "npmjs"
+		},
+		"playwright-19.1.0-canary.20240510-1a85787.tgz": {
+			"url": "https://registry.npmjs.org/@nx/playwright/-/playwright-19.1.0-canary.20240510-1a85787.tgz",
+			"sha": "4eff1c18e4023639258396681a4d0349d40b4326",
+			"registry": "npmjs"
 		}
 	},
 	"_attachments": {
@@ -34200,7 +34453,7 @@
 			"version": "20.0.0"
 		}
 	},
-	"_rev": "4-dec35ff68fce3c40",
+	"_rev": "4-2e5dc873c8d72f01",
 	"_id": "@nx/playwright",
 	"readme": "<p style=\"text-align: center;\">\n  <picture>\n    <source media=\"(prefers-color-scheme: dark)\" srcset=\"https://raw.githubusercontent.com/nrwl/nx/master/images/nx-dark.svg\">\n    <img alt=\"Nx - Smart Monorepos · Fast CI\" src=\"https://raw.githubusercontent.com/nrwl/nx/master/images/nx-light.svg\" width=\"100%\">\n  </picture>\n</p>\n\n<div style=\"text-align: center;\">\n\n[![CircleCI](https://circleci.com/gh/nrwl/nx.svg?style=svg)](https://circleci.com/gh/nrwl/nx)\n[![License](https://img.shields.io/npm/l/@nx/workspace.svg?style=flat-square)]()\n[![NPM Version](https://badge.fury.io/js/%40nrwl%2Fworkspace.svg)](https://www.npmjs.com/@nx/workspace)\n[![Semantic Release](https://img.shields.io/badge/%20%20%F0%9F%93%A6%F0%9F%9A%80-semantic--release-e10079.svg?style=flat-square)]()\n[![Commitizen friendly](https://img.shields.io/badge/commitizen-friendly-brightgreen.svg)](http://commitizen.github.io/cz-cli/)\n[![Join the chat at https://gitter.im/nrwl-nx/community](https://badges.gitter.im/nrwl-nx/community.svg)](https://gitter.im/nrwl-nx/community?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)\n[![Join us on the Official Nx Discord Server](https://img.shields.io/discord/1143497901675401286?label=discord)](https://go.nx.dev/community)\n\n</div>\n\n\n<hr>\n\n# Nx: Smart Monorepos · Fast CI\n\nNx is a build system with built-in tooling and advanced CI capabilities. It helps you maintain and scale monorepos, both locally and on CI.\n\n## Getting Started\n\n### Creating an Nx Workspace\n\n**Using `npx`**\n\n```bash\nnpx create-nx-workspace\n```\n\n**Using `npm init`**\n\n```bash\nnpm init nx-workspace\n```\n\n**Using `yarn create`**\n\n```bash\nyarn create nx-workspace\n```\n\n### Adding Nx to an Existing Repository\n\nRun:\n\n```bash\nnpx nx@latest init\n```\n\n## Documentation & Resources\n\n- [Nx.Dev: Documentation, Guides, Tutorials](https://nx.dev)\n- [Intro to Nx](https://nx.dev/getting-started/intro)\n- [Official Nx YouTube Channel](https://www.youtube.com/@NxDevtools)\n- [Blog Posts About Nx](https://blog.nrwl.io/nx/home)\n\n<p style=\"text-align: center;\"><a href=\"https://nx.dev/#learning-materials\" target=\"_blank\" rel=\"noreferrer\"><img src=\"https://raw.githubusercontent.com/nrwl/nx/master/images/nx-courses-and-videos.svg\" \nwidth=\"100%\" alt=\"Nx - Smart Monorepos · Fast CI\"></a></p>\n\n"
 }

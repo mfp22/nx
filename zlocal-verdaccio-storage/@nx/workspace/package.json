@@ -48840,6 +48840,267 @@
 			"_hasShrinkwrap": false,
 			"contributors": []
 		},
+		"19.0.2": {
+			"name": "@nx/workspace",
+			"version": "19.0.2",
+			"private": false,
+			"description": "The Workspace plugin contains executors and generators that are useful for any Nx workspace. It should be present in every Nx workspace and other plugins build on it.",
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/nrwl/nx.git",
+				"directory": "packages/workspace"
+			},
+			"keywords": [
+				"Monorepo",
+				"Angular",
+				"React",
+				"Web",
+				"Node",
+				"Nest",
+				"Jest",
+				"Cypress",
+				"CLI"
+			],
+			"main": "./index.js",
+			"typings": "./index.d.ts",
+			"author": {
+				"name": "Victor Savkin"
+			},
+			"license": "MIT",
+			"bugs": {
+				"url": "https://github.com/nrwl/nx/issues"
+			},
+			"homepage": "https://nx.dev",
+			"generators": "./generators.json",
+			"executors": "./executors.json",
+			"ng-update": {
+				"requirements": {},
+				"migrations": "./migrations.json",
+				"packageGroup": {
+					"@nrwl/js": "*",
+					"@nrwl/jest": "*",
+					"@nrwl/linter": "*",
+					"@nrwl/angular": "*",
+					"@nrwl/cypress": "*",
+					"@nrwl/detox": "*",
+					"@nrwl/devkit": "*",
+					"@nrwl/esbuild": "*",
+					"@nrwl/eslint-plugin-nx": "*",
+					"@nrwl/expo": "*",
+					"@nrwl/express": "*",
+					"@nrwl/nest": "*",
+					"@nrwl/next": "*",
+					"@nrwl/node": "*",
+					"nx-cloud": "latest",
+					"@nrwl/nx-plugin": "*",
+					"@nrwl/react-native": "*",
+					"@nrwl/react": "*",
+					"@nrwl/rollup": "*",
+					"@nrwl/storybook": "*",
+					"@nrwl/tao": "*",
+					"@nrwl/vite": "*",
+					"@nrwl/web": "*",
+					"@nrwl/webpack": "*",
+					"nx": "*"
+				}
+			},
+			"dependencies": {
+				"@nx/devkit": "19.0.2",
+				"chalk": "^4.1.0",
+				"enquirer": "~2.3.6",
+				"tslib": "^2.3.0",
+				"yargs-parser": "21.1.1",
+				"nx": "19.0.2",
+				"@nrwl/workspace": "19.0.2"
+			},
+			"publishConfig": {
+				"access": "public"
+			},
+			"type": "commonjs",
+			"_id": "@nx/workspace@19.0.2",
+			"gitHead": "61861be0f7335082d5e0b44fa96ff3f6d49774ad",
+			"_nodeVersion": "18.20.2",
+			"_npmVersion": "10.5.0",
+			"dist": {
+				"integrity": "sha512-4azpf0tDM7mN7kciMHH4e0bw2yEhVu4M6siYDLfq6ELY+rrP7eveh/drKiWaKrV9WVwwWzYdfpk98+1EtrBLAA==",
+				"shasum": "2dcae81d1791c690c57d5d58638585b94027ad0e",
+				"tarball": "https://registry.npmjs.org/@nx/workspace/-/workspace-19.0.2.tgz",
+				"fileCount": 188,
+				"unpackedSize": 210841,
+				"attestations": {
+					"url": "https://registry.npmjs.org/-/npm/v1/attestations/@nx%2fworkspace@19.0.2",
+					"provenance": {
+						"predicateType": "https://slsa.dev/provenance/v1"
+					}
+				},
+				"signatures": [
+					{
+						"keyid": "SHA256:jl3bwswu80PjjokCgh0o2w5c2U4LhQAE57gj9cz1kzA",
+						"sig": "MEUCIGDqlb/UY9bvgjn9iE3GLX5JWhQImGQ+oWzrynVsUZ5xAiEAo78b2iV1L7ocdl0Lg6uTiw5gdkK0Q7jSEc15CyB41xQ="
+					}
+				]
+			},
+			"_npmUser": {
+				"name": "nrwl-jason",
+				"email": "jason@nrwl.io"
+			},
+			"directories": {},
+			"maintainers": [
+				{
+					"name": "jameshenry",
+					"email": "james@henry.sc"
+				},
+				{
+					"name": "jack-nrwl",
+					"email": "jack@nrwl.io"
+				},
+				{
+					"name": "nrwl-jason",
+					"email": "jason@nrwl.io"
+				},
+				{
+					"name": "nrwlowner",
+					"email": "hello@nrwl.io"
+				}
+			],
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/workspace_19.0.2_1715263037748_0.4991596929741806"
+			},
+			"_hasShrinkwrap": false,
+			"contributors": []
+		},
+		"19.1.0-canary.20240510-1a85787": {
+			"name": "@nx/workspace",
+			"version": "19.1.0-canary.20240510-1a85787",
+			"private": false,
+			"description": "The Workspace plugin contains executors and generators that are useful for any Nx workspace. It should be present in every Nx workspace and other plugins build on it.",
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/nrwl/nx.git",
+				"directory": "packages/workspace"
+			},
+			"keywords": [
+				"Monorepo",
+				"Angular",
+				"React",
+				"Web",
+				"Node",
+				"Nest",
+				"Jest",
+				"Cypress",
+				"CLI"
+			],
+			"main": "./index.js",
+			"typings": "./index.d.ts",
+			"author": {
+				"name": "Victor Savkin"
+			},
+			"license": "MIT",
+			"bugs": {
+				"url": "https://github.com/nrwl/nx/issues"
+			},
+			"homepage": "https://nx.dev",
+			"generators": "./generators.json",
+			"executors": "./executors.json",
+			"ng-update": {
+				"requirements": {},
+				"migrations": "./migrations.json",
+				"packageGroup": {
+					"@nrwl/js": "*",
+					"@nrwl/jest": "*",
+					"@nrwl/linter": "*",
+					"@nrwl/angular": "*",
+					"@nrwl/cypress": "*",
+					"@nrwl/detox": "*",
+					"@nrwl/devkit": "*",
+					"@nrwl/esbuild": "*",
+					"@nrwl/eslint-plugin-nx": "*",
+					"@nrwl/expo": "*",
+					"@nrwl/express": "*",
+					"@nrwl/nest": "*",
+					"@nrwl/next": "*",
+					"@nrwl/node": "*",
+					"nx-cloud": "latest",
+					"@nrwl/nx-plugin": "*",
+					"@nrwl/react-native": "*",
+					"@nrwl/react": "*",
+					"@nrwl/rollup": "*",
+					"@nrwl/storybook": "*",
+					"@nrwl/tao": "*",
+					"@nrwl/vite": "*",
+					"@nrwl/web": "*",
+					"@nrwl/webpack": "*",
+					"nx": "*"
+				}
+			},
+			"dependencies": {
+				"@nx/devkit": "19.1.0-canary.20240510-1a85787",
+				"chalk": "^4.1.0",
+				"enquirer": "~2.3.6",
+				"tslib": "^2.3.0",
+				"yargs-parser": "21.1.1",
+				"nx": "19.1.0-canary.20240510-1a85787",
+				"@nrwl/workspace": "19.1.0-canary.20240510-1a85787"
+			},
+			"publishConfig": {
+				"access": "public"
+			},
+			"type": "commonjs",
+			"_id": "@nx/workspace@19.1.0-canary.20240510-1a85787",
+			"readmeFilename": "README.md",
+			"gitHead": "1a85787e1c310d8409d99361800ef30e81938795",
+			"_nodeVersion": "18.20.2",
+			"_npmVersion": "10.5.0",
+			"dist": {
+				"integrity": "sha512-JLUBJ8Iluja8cEJTEQMMpZB6vJdjIMgxSzlKV/FyKCVJP7qt9Tb4j1OgojqzfZXLofmSpCpqleW4roFAwe9+wg==",
+				"shasum": "bce83ec58e35567253063572311f5b8c8a4548c4",
+				"tarball": "https://registry.npmjs.org/@nx/workspace/-/workspace-19.1.0-canary.20240510-1a85787.tgz",
+				"fileCount": 188,
+				"unpackedSize": 210937,
+				"attestations": {
+					"url": "https://registry.npmjs.org/-/npm/v1/attestations/@nx%2fworkspace@19.1.0-canary.20240510-1a85787",
+					"provenance": {
+						"predicateType": "https://slsa.dev/provenance/v1"
+					}
+				},
+				"signatures": [
+					{
+						"keyid": "SHA256:jl3bwswu80PjjokCgh0o2w5c2U4LhQAE57gj9cz1kzA",
+						"sig": "MEUCIBlBySxR1L5rSbDnway4qNgOxLsG+fkFdd/4C8OS1QlfAiEAx2ZN4Infh2/N4jEW8k6AevPtCN4Ud3TPVg8KqG7AFGk="
+					}
+				]
+			},
+			"_npmUser": {
+				"name": "nrwl-jason",
+				"email": "jason@nrwl.io"
+			},
+			"directories": {},
+			"maintainers": [
+				{
+					"name": "jameshenry",
+					"email": "james@henry.sc"
+				},
+				{
+					"name": "jack-nrwl",
+					"email": "jack@nrwl.io"
+				},
+				{
+					"name": "nrwl-jason",
+					"email": "jason@nrwl.io"
+				},
+				{
+					"name": "nrwlowner",
+					"email": "hello@nrwl.io"
+				}
+			],
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/workspace_19.1.0-canary.20240510-1a85787_1715310973505_0.22823406150644243"
+			},
+			"_hasShrinkwrap": false,
+			"contributors": []
+		},
 		"20.0.0": {
 			"name": "@nx/workspace",
 			"version": "20.0.0",
@@ -48919,12 +49180,12 @@
 			"type": "commonjs",
 			"_id": "@nx/workspace@20.0.0",
 			"readmeFilename": "README.md",
-			"gitHead": "792f73081571dea27da52bddf6184313bb7b5737",
-			"_nodeVersion": "20.9.0",
-			"_npmVersion": "10.1.0",
+			"gitHead": "86106e2454080d81eec30be2268bd93f9c6cfcad",
+			"_nodeVersion": "18.18.0",
+			"_npmVersion": "9.8.1",
 			"dist": {
-				"integrity": "sha512-UfkEjg8WsDYm/JkilXLrs4HMPMOJiHTbMyNa3L7a/sqdyUupIMoEiTMWw+pKEZRJyJxRXVMVxJI5gLpAsI3khg==",
-				"shasum": "0a8742c710be3292f78257c3dfe9dca6f7e907aa",
+				"integrity": "sha512-NnleK4dU4tpKVggWsedHZxXePmp5syo7RyY+PJ8k2jeseNNGFTvpsUH7YsZ3+4uytSl3AWylyCJyHC2uhskBAA==",
+				"shasum": "ed8faf4e478610921b908e743b226488f1c331fc",
 				"tarball": "http://localhost:4873/@nx/workspace/-/@nx/workspace-20.0.0.tgz"
 			},
 			"contributors": []
@@ -48933,7 +49194,7 @@
 	"time": {
 		"created": "2023-04-17T15:03:13.798Z",
 		"16.0.0-beta.1": "2023-04-17T15:03:14.100Z",
-		"modified": "2024-05-09T08:19:50.571Z",
+		"modified": "2024-05-10T12:56:48.107Z",
 		"16.0.0-beta.2": "2023-04-18T15:09:36.759Z",
 		"16.0.0-beta.3": "2023-04-19T16:08:16.069Z",
 		"16.0.0-beta.4": "2023-04-19T19:31:43.525Z",
@@ -49291,19 +49552,21 @@
 		"19.0.1": "2024-05-07T22:26:17.509Z",
 		"19.1.0-canary.20240508-fd78152": "2024-05-08T03:16:31.835Z",
 		"19.1.0-canary.20240509-8f705e3": "2024-05-09T03:15:38.033Z",
-		"20.0.0": "2024-05-09T08:19:50.571Z"
+		"19.0.2": "2024-05-09T13:57:17.962Z",
+		"19.1.0-canary.20240510-1a85787": "2024-05-10T03:16:13.681Z",
+		"20.0.0": "2024-05-10T12:56:48.107Z"
 	},
 	"users": {},
 	"dist-tags": {
 		"next": "19.0.0-rc.2",
 		"latest": "20.0.0",
 		"previous": "18.3.4",
-		"canary": "19.1.0-canary.20240509-8f705e3"
+		"canary": "19.1.0-canary.20240510-1a85787"
 	},
 	"_uplinks": {
 		"npmjs": {
-			"etag": "W/\"6ebf0e77701219f6dd59ccfa9704a2a5\"",
-			"fetched": 1715242790190
+			"etag": "W/\"5d1df47c14d1cd9be83ddecbe722e4ff\"",
+			"fetched": 1715345806992
 		}
 	},
 	"_distfiles": {
@@ -51096,15 +51359,25 @@
 			"url": "https://registry.npmjs.org/@nx/workspace/-/workspace-19.1.0-canary.20240509-8f705e3.tgz",
 			"sha": "0ffcdcecd8902b3089043b1ba576ad1c7367566a",
 			"registry": "npmjs"
+		},
+		"workspace-19.0.2.tgz": {
+			"url": "https://registry.npmjs.org/@nx/workspace/-/workspace-19.0.2.tgz",
+			"sha": "2dcae81d1791c690c57d5d58638585b94027ad0e",
+			"registry": "npmjs"
+		},
+		"workspace-19.1.0-canary.20240510-1a85787.tgz": {
+			"url": "https://registry.npmjs.org/@nx/workspace/-/workspace-19.1.0-canary.20240510-1a85787.tgz",
+			"sha": "bce83ec58e35567253063572311f5b8c8a4548c4",
+			"registry": "npmjs"
 		}
 	},
 	"_attachments": {
 		"workspace-20.0.0.tgz": {
-			"shasum": "0a8742c710be3292f78257c3dfe9dca6f7e907aa",
+			"shasum": "ed8faf4e478610921b908e743b226488f1c331fc",
 			"version": "20.0.0"
 		}
 	},
-	"_rev": "5-c5312d2f90aabf3c",
+	"_rev": "5-fde97c144f3e6c92",
 	"_id": "@nx/workspace",
 	"readme": "<p style=\"text-align: center;\">\n  <picture>\n    <source media=\"(prefers-color-scheme: dark)\" srcset=\"https://raw.githubusercontent.com/nrwl/nx/master/images/nx-dark.svg\">\n    <img alt=\"Nx - Smart Monorepos · Fast CI\" src=\"https://raw.githubusercontent.com/nrwl/nx/master/images/nx-light.svg\" width=\"100%\">\n  </picture>\n</p>\n\n<div style=\"text-align: center;\">\n\n[![CircleCI](https://circleci.com/gh/nrwl/nx.svg?style=svg)](https://circleci.com/gh/nrwl/nx)\n[![License](https://img.shields.io/npm/l/@nx/workspace.svg?style=flat-square)]()\n[![NPM Version](https://badge.fury.io/js/%40nrwl%2Fworkspace.svg)](https://www.npmjs.com/@nx/workspace)\n[![Semantic Release](https://img.shields.io/badge/%20%20%F0%9F%93%A6%F0%9F%9A%80-semantic--release-e10079.svg?style=flat-square)]()\n[![Commitizen friendly](https://img.shields.io/badge/commitizen-friendly-brightgreen.svg)](http://commitizen.github.io/cz-cli/)\n[![Join the chat at https://gitter.im/nrwl-nx/community](https://badges.gitter.im/nrwl-nx/community.svg)](https://gitter.im/nrwl-nx/community?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)\n[![Join us on the Official Nx Discord Server](https://img.shields.io/discord/1143497901675401286?label=discord)](https://go.nx.dev/community)\n\n</div>\n\n\n<hr>\n\n# Nx: Smart Monorepos · Fast CI\n\nNx is a build system with built-in tooling and advanced CI capabilities. It helps you maintain and scale monorepos, both locally and on CI.\n\n## Getting Started\n\n### Creating an Nx Workspace\n\n**Using `npx`**\n\n```bash\nnpx create-nx-workspace\n```\n\n**Using `npm init`**\n\n```bash\nnpm init nx-workspace\n```\n\n**Using `yarn create`**\n\n```bash\nyarn create nx-workspace\n```\n\n### Adding Nx to an Existing Repository\n\nRun:\n\n```bash\nnpx nx@latest init\n```\n\n## Documentation & Resources\n\n- [Nx.Dev: Documentation, Guides, Tutorials](https://nx.dev)\n- [Intro to Nx](https://nx.dev/getting-started/intro)\n- [Official Nx YouTube Channel](https://www.youtube.com/@NxDevtools)\n- [Blog Posts About Nx](https://blog.nrwl.io/nx/home)\n\n<p style=\"text-align: center;\"><a href=\"https://nx.dev/#learning-materials\" target=\"_blank\" rel=\"noreferrer\"><img src=\"https://raw.githubusercontent.com/nrwl/nx/master/images/nx-courses-and-videos.svg\" \nwidth=\"100%\" alt=\"Nx - Smart Monorepos · Fast CI\"></a></p>"
 }

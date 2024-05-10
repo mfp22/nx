@@ -1,0 +1,3137 @@
+{
+	"name": "@vue/devtools-ui",
+	"versions": {
+		"7.0.0": {
+			"name": "@vue/devtools-ui",
+			"type": "module",
+			"version": "7.0.0",
+			"author": {
+				"name": "webfansplz"
+			},
+			"license": "MIT",
+			"exports": {
+				".": {
+					"types": "./dist/types/src/index.d.ts",
+					"import": "./dist/index.js",
+					"require": "./dist/index.cjs"
+				},
+				"./style.css": "./dist/style.css",
+				"./theme": {
+					"types": "./dist/types/theme/index.d.ts",
+					"import": "./dist/theme.js",
+					"require": "./dist/theme.cjs"
+				}
+			},
+			"main": "./dist/index.cjs",
+			"module": "./dist/index.js",
+			"types": "./dist/types/src/index.d.ts",
+			"peerDependencies": {
+				"@unocss/reset": ">=0.50.0-0",
+				"floating-vue": ">=2.0.0-0",
+				"unocss": ">=0.50.0-0",
+				"vue": ">=3.0.0-0"
+			},
+			"dependencies": {
+				"@vueuse/components": "^10.7.1",
+				"@vueuse/core": "^10.7.1",
+				"@vueuse/integrations": "^10.7.1",
+				"colord": "^2.9.3",
+				"focus-trap": "^7.5.4"
+			},
+			"devDependencies": {
+				"@histoire/plugin-vue": "^0.17.6",
+				"@types/node": "^20.10.5",
+				"@unocss/reset": "^0.58.2",
+				"@vitejs/plugin-vue": "^4.6.0",
+				"floating-vue": "2.0.0-beta.24",
+				"histoire": "^0.17.6",
+				"unocss": "^0.58.2",
+				"vite-plugin-dts": "^3.7.0"
+			},
+			"scripts": {
+				"build": "vite build",
+				"story:build": "histoire build",
+				"story:dev": "histoire dev",
+				"story:preview": "histoire preview"
+			},
+			"description": "> UI kit for DevTools.",
+			"_id": "@vue/devtools-ui@7.0.0",
+			"_integrity": "sha512-VCsbeRxIJa0ToSKXPoJGWrYSv1BjtZ9BZFROx6jLE1QCtI8C+Zqo+Pkuc1eCOaHBM0GTuQ5BDx9dpzsCA5ONLw==",
+			"_resolved": "/private/var/folders/6s/79hm4q7x5f982tndmbvckmn80000gn/T/06edf4099a26e8eba3520b60de9d470c/vue-devtools-ui-7.0.0.tgz",
+			"_from": "file:vue-devtools-ui-7.0.0.tgz",
+			"_nodeVersion": "18.16.1",
+			"_npmVersion": "9.5.1",
+			"dist": {
+				"integrity": "sha512-VCsbeRxIJa0ToSKXPoJGWrYSv1BjtZ9BZFROx6jLE1QCtI8C+Zqo+Pkuc1eCOaHBM0GTuQ5BDx9dpzsCA5ONLw==",
+				"shasum": "34dfdaa2ab8719492377144dc3c605f492878627",
+				"tarball": "https://registry.npmjs.org/@vue/devtools-ui/-/devtools-ui-7.0.0.tgz",
+				"fileCount": 36,
+				"unpackedSize": 180869,
+				"signatures": [
+					{
+						"keyid": "SHA256:jl3bwswu80PjjokCgh0o2w5c2U4LhQAE57gj9cz1kzA",
+						"sig": "MEUCIQC1mITSaJ45Iwl3MXhCycYTezppQiVZDIupn/VJJ7LmVAIgdJIeCZ2mVhABLOWKkjPDdHtkXKqAOO0GpJFD2NlQK14="
+					}
+				]
+			},
+			"_npmUser": {
+				"name": "webfansplz",
+				"email": "webfansplz@gmail.com"
+			},
+			"directories": {},
+			"maintainers": [
+				{
+					"name": "webfansplz",
+					"email": "webfansplz@gmail.com"
+				}
+			],
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/devtools-ui_7.0.0_1703839161653_0.8738230990658926"
+			},
+			"_hasShrinkwrap": false,
+			"contributors": []
+		},
+		"7.0.1": {
+			"name": "@vue/devtools-ui",
+			"type": "module",
+			"version": "7.0.1",
+			"author": {
+				"name": "webfansplz"
+			},
+			"license": "MIT",
+			"exports": {
+				".": {
+					"types": "./dist/types/src/index.d.ts",
+					"import": "./dist/index.js",
+					"require": "./dist/index.cjs"
+				},
+				"./style.css": "./dist/style.css",
+				"./theme": {
+					"types": "./dist/types/theme/index.d.ts",
+					"import": "./dist/theme.js",
+					"require": "./dist/theme.cjs"
+				}
+			},
+			"main": "./dist/index.cjs",
+			"module": "./dist/index.js",
+			"types": "./dist/types/src/index.d.ts",
+			"peerDependencies": {
+				"@unocss/reset": ">=0.50.0-0",
+				"floating-vue": ">=2.0.0-0",
+				"unocss": ">=0.50.0-0",
+				"vue": ">=3.0.0-0"
+			},
+			"dependencies": {
+				"@vueuse/components": "^10.7.1",
+				"@vueuse/core": "^10.7.1",
+				"@vueuse/integrations": "^10.7.1",
+				"colord": "^2.9.3",
+				"focus-trap": "^7.5.4"
+			},
+			"devDependencies": {
+				"@histoire/plugin-vue": "^0.17.6",
+				"@types/node": "^20.10.5",
+				"@unocss/reset": "^0.58.2",
+				"@vitejs/plugin-vue": "^4.6.0",
+				"floating-vue": "2.0.0-beta.24",
+				"histoire": "^0.17.6",
+				"unocss": "^0.58.2",
+				"vite-plugin-dts": "^3.7.0"
+			},
+			"scripts": {
+				"build": "vite build",
+				"story:build": "histoire build",
+				"story:dev": "histoire dev",
+				"story:preview": "histoire preview"
+			},
+			"description": "> UI kit for DevTools.",
+			"_id": "@vue/devtools-ui@7.0.1",
+			"_integrity": "sha512-mo+0mKo9Y+mqABRR5VIdkHw+qSukK5ZCi23OzPpMExcG8iknURwz3OEmkb1HQVJsMwf87t3+ayqCSJvfh/xXBg==",
+			"_resolved": "/private/var/folders/6s/79hm4q7x5f982tndmbvckmn80000gn/T/702bddd6b604557506576dca5006e130/vue-devtools-ui-7.0.1.tgz",
+			"_from": "file:vue-devtools-ui-7.0.1.tgz",
+			"_nodeVersion": "18.16.1",
+			"_npmVersion": "9.5.1",
+			"dist": {
+				"integrity": "sha512-mo+0mKo9Y+mqABRR5VIdkHw+qSukK5ZCi23OzPpMExcG8iknURwz3OEmkb1HQVJsMwf87t3+ayqCSJvfh/xXBg==",
+				"shasum": "b84aeed614b03c750f205135a606290cb6bb1813",
+				"tarball": "https://registry.npmjs.org/@vue/devtools-ui/-/devtools-ui-7.0.1.tgz",
+				"fileCount": 36,
+				"unpackedSize": 180869,
+				"signatures": [
+					{
+						"keyid": "SHA256:jl3bwswu80PjjokCgh0o2w5c2U4LhQAE57gj9cz1kzA",
+						"sig": "MEYCIQDHqBh1rTgDr4q6fj8HQi9AKxFXwfkRwazCPTzBXB0U6wIhAPzGQNlG1pRgsNrD0FkiUFjuM6UyHS/R2kfLmLC+Ao3I"
+					}
+				]
+			},
+			"_npmUser": {
+				"name": "webfansplz",
+				"email": "webfansplz@gmail.com"
+			},
+			"directories": {},
+			"maintainers": [
+				{
+					"name": "webfansplz",
+					"email": "webfansplz@gmail.com"
+				}
+			],
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/devtools-ui_7.0.1_1703866076437_0.21755704947531962"
+			},
+			"_hasShrinkwrap": false,
+			"contributors": []
+		},
+		"7.0.2": {
+			"name": "@vue/devtools-ui",
+			"type": "module",
+			"version": "7.0.2",
+			"author": {
+				"name": "webfansplz"
+			},
+			"license": "MIT",
+			"exports": {
+				".": {
+					"types": "./dist/types/src/index.d.ts",
+					"import": "./dist/index.js",
+					"require": "./dist/index.cjs"
+				},
+				"./style.css": "./dist/style.css",
+				"./theme": {
+					"types": "./dist/types/theme/index.d.ts",
+					"import": "./dist/theme.js",
+					"require": "./dist/theme.cjs"
+				}
+			},
+			"main": "./dist/index.cjs",
+			"module": "./dist/index.js",
+			"types": "./dist/types/src/index.d.ts",
+			"peerDependencies": {
+				"@unocss/reset": ">=0.50.0-0",
+				"floating-vue": ">=2.0.0-0",
+				"unocss": ">=0.50.0-0",
+				"vue": ">=3.0.0-0"
+			},
+			"dependencies": {
+				"@vueuse/components": "^10.7.1",
+				"@vueuse/core": "^10.7.1",
+				"@vueuse/integrations": "^10.7.1",
+				"colord": "^2.9.3",
+				"focus-trap": "^7.5.4"
+			},
+			"devDependencies": {
+				"@histoire/plugin-vue": "^0.17.6",
+				"@types/node": "^20.10.5",
+				"@unocss/reset": "^0.58.2",
+				"@vitejs/plugin-vue": "^4.6.0",
+				"floating-vue": "2.0.0-beta.24",
+				"histoire": "^0.17.6",
+				"unocss": "^0.58.2",
+				"vite-plugin-dts": "^3.7.0"
+			},
+			"scripts": {
+				"build": "vite build",
+				"story:build": "histoire build",
+				"story:dev": "histoire dev",
+				"story:preview": "histoire preview"
+			},
+			"description": "> UI kit for DevTools.",
+			"_id": "@vue/devtools-ui@7.0.2",
+			"_integrity": "sha512-Q1GuIl8ENCbbMPmD6R6Yp85FjtpBbyDSNlGHmCOpEROcBdXm7KnWQeJz71drMN3LV/xhoq+0V5IqoqO6x5fX3g==",
+			"_resolved": "/private/var/folders/6s/79hm4q7x5f982tndmbvckmn80000gn/T/8a83fe87630eac6e61bb46f4cb12468b/vue-devtools-ui-7.0.2.tgz",
+			"_from": "file:vue-devtools-ui-7.0.2.tgz",
+			"_nodeVersion": "18.16.1",
+			"_npmVersion": "9.5.1",
+			"dist": {
+				"integrity": "sha512-Q1GuIl8ENCbbMPmD6R6Yp85FjtpBbyDSNlGHmCOpEROcBdXm7KnWQeJz71drMN3LV/xhoq+0V5IqoqO6x5fX3g==",
+				"shasum": "5507e513cea39fc4e1fc07b67526de87507aa3f8",
+				"tarball": "https://registry.npmjs.org/@vue/devtools-ui/-/devtools-ui-7.0.2.tgz",
+				"fileCount": 36,
+				"unpackedSize": 180869,
+				"signatures": [
+					{
+						"keyid": "SHA256:jl3bwswu80PjjokCgh0o2w5c2U4LhQAE57gj9cz1kzA",
+						"sig": "MEYCIQCwLlNZFoOmI1ZIeAvvqCKLPQM57US0b7/skxA+aLGiMgIhAJxMvCqUibM5r7tNiMUk/ocPaB7AG7i6jIRgRyZP28Kh"
+					}
+				]
+			},
+			"_npmUser": {
+				"name": "webfansplz",
+				"email": "webfansplz@gmail.com"
+			},
+			"directories": {},
+			"maintainers": [
+				{
+					"name": "webfansplz",
+					"email": "webfansplz@gmail.com"
+				}
+			],
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/devtools-ui_7.0.2_1703869187284_0.11290023126267368"
+			},
+			"_hasShrinkwrap": false,
+			"contributors": []
+		},
+		"7.0.3": {
+			"name": "@vue/devtools-ui",
+			"type": "module",
+			"version": "7.0.3",
+			"author": {
+				"name": "webfansplz"
+			},
+			"license": "MIT",
+			"exports": {
+				".": {
+					"types": "./dist/types/src/index.d.ts",
+					"import": "./dist/index.js",
+					"require": "./dist/index.cjs"
+				},
+				"./style.css": "./dist/style.css",
+				"./theme": {
+					"types": "./dist/types/theme/index.d.ts",
+					"import": "./dist/theme.js",
+					"require": "./dist/theme.cjs"
+				}
+			},
+			"main": "./dist/index.cjs",
+			"module": "./dist/index.js",
+			"types": "./dist/types/src/index.d.ts",
+			"peerDependencies": {
+				"@unocss/reset": ">=0.50.0-0",
+				"floating-vue": ">=2.0.0-0",
+				"unocss": ">=0.50.0-0",
+				"vue": ">=3.0.0-0"
+			},
+			"dependencies": {
+				"@vueuse/components": "^10.7.1",
+				"@vueuse/core": "^10.7.1",
+				"@vueuse/integrations": "^10.7.1",
+				"colord": "^2.9.3",
+				"focus-trap": "^7.5.4"
+			},
+			"devDependencies": {
+				"@histoire/plugin-vue": "^0.17.6",
+				"@types/node": "^20.10.5",
+				"@unocss/reset": "^0.58.2",
+				"@vitejs/plugin-vue": "^4.6.0",
+				"floating-vue": "2.0.0-beta.24",
+				"histoire": "^0.17.6",
+				"unocss": "^0.58.2",
+				"vite-plugin-dts": "^3.7.0"
+			},
+			"scripts": {
+				"build": "vite build",
+				"story:build": "histoire build",
+				"story:dev": "histoire dev",
+				"story:preview": "histoire preview"
+			},
+			"description": "> UI kit for DevTools.",
+			"_id": "@vue/devtools-ui@7.0.3",
+			"_integrity": "sha512-s4Ecnl9aUFQakivc71SodBB5lv6NPljtlbP+dqc5WPgCKB/4olRUbVRmeqqqrTYVtQe+ZnHMAPpH907qwod+jA==",
+			"_resolved": "/private/var/folders/6s/79hm4q7x5f982tndmbvckmn80000gn/T/6ca2a1b4834c9083ecb76f726ff0854c/vue-devtools-ui-7.0.3.tgz",
+			"_from": "file:vue-devtools-ui-7.0.3.tgz",
+			"_nodeVersion": "18.16.1",
+			"_npmVersion": "9.5.1",
+			"dist": {
+				"integrity": "sha512-s4Ecnl9aUFQakivc71SodBB5lv6NPljtlbP+dqc5WPgCKB/4olRUbVRmeqqqrTYVtQe+ZnHMAPpH907qwod+jA==",
+				"shasum": "3b10a4b3c5035747f6bb6c11672527d9ea2d9b90",
+				"tarball": "https://registry.npmjs.org/@vue/devtools-ui/-/devtools-ui-7.0.3.tgz",
+				"fileCount": 36,
+				"unpackedSize": 180869,
+				"signatures": [
+					{
+						"keyid": "SHA256:jl3bwswu80PjjokCgh0o2w5c2U4LhQAE57gj9cz1kzA",
+						"sig": "MEUCIGDGZTURGjFJkjvt2Qi1z//dSKmsbg7fCFVEWmZf0gAGAiEAp0ru2rLPIqH4nL0EUUaIx415vRv8Ep6OfZCGl9bXTYQ="
+					}
+				]
+			},
+			"_npmUser": {
+				"name": "webfansplz",
+				"email": "webfansplz@gmail.com"
+			},
+			"directories": {},
+			"maintainers": [
+				{
+					"name": "webfansplz",
+					"email": "webfansplz@gmail.com"
+				}
+			],
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/devtools-ui_7.0.3_1704207780248_0.7214539386352206"
+			},
+			"_hasShrinkwrap": false,
+			"contributors": []
+		},
+		"7.0.4": {
+			"name": "@vue/devtools-ui",
+			"type": "module",
+			"version": "7.0.4",
+			"author": {
+				"name": "webfansplz"
+			},
+			"license": "MIT",
+			"exports": {
+				".": {
+					"types": "./dist/types/src/index.d.ts",
+					"import": "./dist/index.js",
+					"require": "./dist/index.cjs"
+				},
+				"./style.css": "./dist/style.css",
+				"./theme": {
+					"types": "./dist/types/theme/index.d.ts",
+					"import": "./dist/theme.js",
+					"require": "./dist/theme.cjs"
+				}
+			},
+			"main": "./dist/index.cjs",
+			"module": "./dist/index.js",
+			"types": "./dist/types/src/index.d.ts",
+			"peerDependencies": {
+				"@unocss/reset": ">=0.50.0-0",
+				"floating-vue": ">=2.0.0-0",
+				"unocss": ">=0.50.0-0",
+				"vue": ">=3.0.0-0"
+			},
+			"dependencies": {
+				"@vueuse/components": "^10.7.1",
+				"@vueuse/core": "^10.7.1",
+				"@vueuse/integrations": "^10.7.1",
+				"colord": "^2.9.3",
+				"focus-trap": "^7.5.4"
+			},
+			"devDependencies": {
+				"@histoire/plugin-vue": "^0.17.6",
+				"@types/node": "^20.10.5",
+				"@unocss/reset": "^0.58.2",
+				"@vitejs/plugin-vue": "^4.6.0",
+				"floating-vue": "2.0.0-beta.24",
+				"histoire": "^0.17.6",
+				"unocss": "^0.58.2",
+				"vite-plugin-dts": "^3.7.0"
+			},
+			"scripts": {
+				"build": "vite build",
+				"story:build": "histoire build",
+				"story:dev": "histoire dev",
+				"story:preview": "histoire preview"
+			},
+			"description": "> UI kit for DevTools.",
+			"_id": "@vue/devtools-ui@7.0.4",
+			"_integrity": "sha512-tylMpkDOZypUW85iz2ilpsKhp5NN6p5ivOeLoZQfUzOSweCi+ZigHDPo5Zw87xDNF9jXQpkyfX9WfubkNQ1WFA==",
+			"_resolved": "/private/var/folders/6s/79hm4q7x5f982tndmbvckmn80000gn/T/ba130d9568e971ee80d2dcc97b53bec1/vue-devtools-ui-7.0.4.tgz",
+			"_from": "file:vue-devtools-ui-7.0.4.tgz",
+			"_nodeVersion": "18.16.1",
+			"_npmVersion": "9.5.1",
+			"dist": {
+				"integrity": "sha512-tylMpkDOZypUW85iz2ilpsKhp5NN6p5ivOeLoZQfUzOSweCi+ZigHDPo5Zw87xDNF9jXQpkyfX9WfubkNQ1WFA==",
+				"shasum": "24d7332fbe122aedb7c4eff325bbe0a12e0bb31d",
+				"tarball": "https://registry.npmjs.org/@vue/devtools-ui/-/devtools-ui-7.0.4.tgz",
+				"fileCount": 36,
+				"unpackedSize": 180869,
+				"signatures": [
+					{
+						"keyid": "SHA256:jl3bwswu80PjjokCgh0o2w5c2U4LhQAE57gj9cz1kzA",
+						"sig": "MEUCIQDHwpReoRazTPkJTKgmRyqJ80LDOr0Imcr2HCBtsAkW7wIgESKs/iOxuCxh8zUI2fj52dRafvWBqEt5EwT8u0juhJA="
+					}
+				]
+			},
+			"_npmUser": {
+				"name": "webfansplz",
+				"email": "webfansplz@gmail.com"
+			},
+			"directories": {},
+			"maintainers": [
+				{
+					"name": "webfansplz",
+					"email": "webfansplz@gmail.com"
+				}
+			],
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/devtools-ui_7.0.4_1704286513737_0.46464238629260035"
+			},
+			"_hasShrinkwrap": false,
+			"contributors": []
+		},
+		"7.0.5": {
+			"name": "@vue/devtools-ui",
+			"type": "module",
+			"version": "7.0.5",
+			"author": {
+				"name": "webfansplz"
+			},
+			"license": "MIT",
+			"exports": {
+				".": {
+					"types": "./dist/types/src/index.d.ts",
+					"import": "./dist/index.js",
+					"require": "./dist/index.cjs"
+				},
+				"./style.css": "./dist/style.css",
+				"./theme": {
+					"types": "./dist/types/theme/index.d.ts",
+					"import": "./dist/theme.js",
+					"require": "./dist/theme.cjs"
+				}
+			},
+			"main": "./dist/index.cjs",
+			"module": "./dist/index.js",
+			"types": "./dist/types/src/index.d.ts",
+			"peerDependencies": {
+				"@unocss/reset": ">=0.50.0-0",
+				"floating-vue": ">=2.0.0-0",
+				"unocss": ">=0.50.0-0",
+				"vue": ">=3.0.0-0"
+			},
+			"dependencies": {
+				"@vueuse/components": "^10.7.1",
+				"@vueuse/core": "^10.7.1",
+				"@vueuse/integrations": "^10.7.1",
+				"colord": "^2.9.3",
+				"focus-trap": "^7.5.4"
+			},
+			"devDependencies": {
+				"@histoire/plugin-vue": "^0.17.6",
+				"@types/node": "^20.10.6",
+				"@unocss/reset": "^0.58.3",
+				"@vitejs/plugin-vue": "^4.6.2",
+				"floating-vue": "2.0.0-beta.24",
+				"histoire": "^0.17.6",
+				"unocss": "^0.58.3",
+				"vite-plugin-dts": "^3.7.0"
+			},
+			"scripts": {
+				"build": "vite build",
+				"story:build": "histoire build",
+				"story:dev": "histoire dev",
+				"story:preview": "histoire preview"
+			},
+			"description": "> UI kit for DevTools.",
+			"_id": "@vue/devtools-ui@7.0.5",
+			"_integrity": "sha512-6Fm1QLmShgL+Gk1xF/WUyWY4VgUlMbN/Mec/5Nxcf6nzob3dAz7KIby9T2rMRU60sdA9xX4DJoYKDBlSA7BWUg==",
+			"_resolved": "/private/var/folders/6s/79hm4q7x5f982tndmbvckmn80000gn/T/94919fae196c42e5edc2d23d2d7ae4c0/vue-devtools-ui-7.0.5.tgz",
+			"_from": "file:vue-devtools-ui-7.0.5.tgz",
+			"_nodeVersion": "18.16.1",
+			"_npmVersion": "9.5.1",
+			"dist": {
+				"integrity": "sha512-6Fm1QLmShgL+Gk1xF/WUyWY4VgUlMbN/Mec/5Nxcf6nzob3dAz7KIby9T2rMRU60sdA9xX4DJoYKDBlSA7BWUg==",
+				"shasum": "260543f99cfb410e53d6994100721585aafb6ad3",
+				"tarball": "https://registry.npmjs.org/@vue/devtools-ui/-/devtools-ui-7.0.5.tgz",
+				"fileCount": 36,
+				"unpackedSize": 180869,
+				"signatures": [
+					{
+						"keyid": "SHA256:jl3bwswu80PjjokCgh0o2w5c2U4LhQAE57gj9cz1kzA",
+						"sig": "MEYCIQDY+kq0N7r9Ps7LYwYeO4mFYq50lRN4Y/5RqgZNhSqYRgIhAMwiCTDYjNDNPeertU00By7DH6YaozLgEGlwdeLLJtH+"
+					}
+				]
+			},
+			"_npmUser": {
+				"name": "webfansplz",
+				"email": "webfansplz@gmail.com"
+			},
+			"directories": {},
+			"maintainers": [
+				{
+					"name": "webfansplz",
+					"email": "webfansplz@gmail.com"
+				}
+			],
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/devtools-ui_7.0.5_1704383229538_0.6511743673336412"
+			},
+			"_hasShrinkwrap": false,
+			"contributors": []
+		},
+		"7.0.6": {
+			"name": "@vue/devtools-ui",
+			"type": "module",
+			"version": "7.0.6",
+			"author": {
+				"name": "webfansplz"
+			},
+			"license": "MIT",
+			"exports": {
+				".": {
+					"types": "./dist/types/src/index.d.ts",
+					"import": "./dist/index.js",
+					"require": "./dist/index.cjs"
+				},
+				"./style.css": "./dist/style.css",
+				"./theme": {
+					"types": "./dist/types/theme/index.d.ts",
+					"import": "./dist/theme.js",
+					"require": "./dist/theme.cjs"
+				}
+			},
+			"main": "./dist/index.cjs",
+			"module": "./dist/index.js",
+			"types": "./dist/types/src/index.d.ts",
+			"peerDependencies": {
+				"@unocss/reset": ">=0.50.0-0",
+				"floating-vue": ">=2.0.0-0",
+				"unocss": ">=0.50.0-0",
+				"vue": ">=3.0.0-0"
+			},
+			"dependencies": {
+				"@vueuse/components": "^10.7.1",
+				"@vueuse/core": "^10.7.1",
+				"@vueuse/integrations": "^10.7.1",
+				"colord": "^2.9.3",
+				"focus-trap": "^7.5.4"
+			},
+			"devDependencies": {
+				"@histoire/plugin-vue": "^0.17.6",
+				"@types/node": "^20.10.6",
+				"@unocss/reset": "^0.58.3",
+				"@vitejs/plugin-vue": "^4.6.2",
+				"floating-vue": "2.0.0-beta.24",
+				"histoire": "^0.17.6",
+				"unocss": "^0.58.3",
+				"vite-plugin-dts": "^3.7.0"
+			},
+			"scripts": {
+				"build": "vite build",
+				"story:build": "histoire build",
+				"story:dev": "histoire dev",
+				"story:preview": "histoire preview"
+			},
+			"description": "> UI kit for DevTools.",
+			"_id": "@vue/devtools-ui@7.0.6",
+			"_integrity": "sha512-K9gdnmjP3ZJ8Gfclq2TkLLfAEQOXMlVBo0WpLaeN2PTamhKe8foEKnMf68xNqBuYxVBaj1rmRjc5d6hCFowcgQ==",
+			"_resolved": "/private/var/folders/6s/79hm4q7x5f982tndmbvckmn80000gn/T/fe5f119167e391707a524e0c8501ea6e/vue-devtools-ui-7.0.6.tgz",
+			"_from": "file:vue-devtools-ui-7.0.6.tgz",
+			"_nodeVersion": "18.16.1",
+			"_npmVersion": "9.5.1",
+			"dist": {
+				"integrity": "sha512-K9gdnmjP3ZJ8Gfclq2TkLLfAEQOXMlVBo0WpLaeN2PTamhKe8foEKnMf68xNqBuYxVBaj1rmRjc5d6hCFowcgQ==",
+				"shasum": "011cc6075af2e1d05610feaa7d868ea56db966b8",
+				"tarball": "https://registry.npmjs.org/@vue/devtools-ui/-/devtools-ui-7.0.6.tgz",
+				"fileCount": 36,
+				"unpackedSize": 181169,
+				"signatures": [
+					{
+						"keyid": "SHA256:jl3bwswu80PjjokCgh0o2w5c2U4LhQAE57gj9cz1kzA",
+						"sig": "MEYCIQD5FAUyGzEYGvAF1ClabI+4+lHIgaBW3CIX6Km2epLzsgIhAMplQrXa+6LQbc1DB6OjeIYi/+R3WOwxfr83GiCYW8fN"
+					}
+				]
+			},
+			"_npmUser": {
+				"name": "webfansplz",
+				"email": "webfansplz@gmail.com"
+			},
+			"directories": {},
+			"maintainers": [
+				{
+					"name": "webfansplz",
+					"email": "webfansplz@gmail.com"
+				}
+			],
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/devtools-ui_7.0.6_1704528978268_0.8300603892402669"
+			},
+			"_hasShrinkwrap": false,
+			"contributors": []
+		},
+		"7.0.7": {
+			"name": "@vue/devtools-ui",
+			"type": "module",
+			"version": "7.0.7",
+			"author": {
+				"name": "webfansplz"
+			},
+			"license": "MIT",
+			"exports": {
+				".": {
+					"types": "./dist/types/src/index.d.ts",
+					"import": "./dist/index.js",
+					"require": "./dist/index.cjs"
+				},
+				"./style.css": "./dist/style.css",
+				"./theme": {
+					"types": "./dist/types/theme/index.d.ts",
+					"import": "./dist/theme.js",
+					"require": "./dist/theme.cjs"
+				}
+			},
+			"main": "./dist/index.cjs",
+			"module": "./dist/index.js",
+			"types": "./dist/types/src/index.d.ts",
+			"peerDependencies": {
+				"@unocss/reset": ">=0.50.0-0",
+				"floating-vue": ">=2.0.0-0",
+				"unocss": ">=0.50.0-0",
+				"vue": ">=3.0.0-0"
+			},
+			"dependencies": {
+				"@vueuse/components": "^10.7.1",
+				"@vueuse/core": "^10.7.1",
+				"@vueuse/integrations": "^10.7.1",
+				"colord": "^2.9.3",
+				"focus-trap": "^7.5.4"
+			},
+			"devDependencies": {
+				"@histoire/plugin-vue": "^0.17.6",
+				"@types/node": "^20.10.6",
+				"@unocss/reset": "^0.58.3",
+				"@vitejs/plugin-vue": "^4.6.2",
+				"floating-vue": "2.0.0-beta.24",
+				"histoire": "^0.17.6",
+				"unocss": "^0.58.3",
+				"vite-plugin-dts": "^3.7.0"
+			},
+			"scripts": {
+				"build": "vite build",
+				"story:build": "histoire build",
+				"story:dev": "histoire dev",
+				"story:preview": "histoire preview"
+			},
+			"description": "> UI kit for DevTools.",
+			"_id": "@vue/devtools-ui@7.0.7",
+			"_integrity": "sha512-H0H+udA2uOaj0S20Qi5BF83IGNK2SymKFTK+X/pL45IT6lQNZPpBFFzXa8ssuAjmVrK+OmDk3zfxUAOL05oQkg==",
+			"_resolved": "/private/var/folders/6s/79hm4q7x5f982tndmbvckmn80000gn/T/f40393455cae836451f3f7682b909c94/vue-devtools-ui-7.0.7.tgz",
+			"_from": "file:vue-devtools-ui-7.0.7.tgz",
+			"_nodeVersion": "18.16.1",
+			"_npmVersion": "9.5.1",
+			"dist": {
+				"integrity": "sha512-H0H+udA2uOaj0S20Qi5BF83IGNK2SymKFTK+X/pL45IT6lQNZPpBFFzXa8ssuAjmVrK+OmDk3zfxUAOL05oQkg==",
+				"shasum": "62b419e97f7d27d09650e7e5a1edead47ecb020c",
+				"tarball": "https://registry.npmjs.org/@vue/devtools-ui/-/devtools-ui-7.0.7.tgz",
+				"fileCount": 36,
+				"unpackedSize": 181089,
+				"signatures": [
+					{
+						"keyid": "SHA256:jl3bwswu80PjjokCgh0o2w5c2U4LhQAE57gj9cz1kzA",
+						"sig": "MEYCIQCSdnjJkg1H4fr237X3/BhjB0auix3murFbRjN7Q2voDAIhAN1Ae27ZfFvg5IqdYEf07pyHNCnZVz7M7zpArkExbm9i"
+					}
+				]
+			},
+			"_npmUser": {
+				"name": "webfansplz",
+				"email": "webfansplz@gmail.com"
+			},
+			"directories": {},
+			"maintainers": [
+				{
+					"name": "webfansplz",
+					"email": "webfansplz@gmail.com"
+				}
+			],
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/devtools-ui_7.0.7_1704801324170_0.496040272333923"
+			},
+			"_hasShrinkwrap": false,
+			"contributors": []
+		},
+		"7.0.8": {
+			"name": "@vue/devtools-ui",
+			"type": "module",
+			"version": "7.0.8",
+			"author": {
+				"name": "webfansplz"
+			},
+			"license": "MIT",
+			"exports": {
+				".": {
+					"types": "./dist/types/src/index.d.ts",
+					"import": "./dist/index.js",
+					"require": "./dist/index.cjs"
+				},
+				"./style.css": "./dist/style.css",
+				"./theme": {
+					"types": "./dist/types/theme/index.d.ts",
+					"import": "./dist/theme.js",
+					"require": "./dist/theme.cjs"
+				}
+			},
+			"main": "./dist/index.cjs",
+			"module": "./dist/index.js",
+			"types": "./dist/types/src/index.d.ts",
+			"peerDependencies": {
+				"@unocss/reset": ">=0.50.0-0",
+				"floating-vue": ">=2.0.0-0",
+				"unocss": ">=0.50.0-0",
+				"vue": ">=3.0.0-0"
+			},
+			"dependencies": {
+				"@vueuse/components": "^10.7.1",
+				"@vueuse/core": "^10.7.1",
+				"@vueuse/integrations": "^10.7.1",
+				"colord": "^2.9.3",
+				"focus-trap": "^7.5.4"
+			},
+			"devDependencies": {
+				"@histoire/plugin-vue": "^0.17.6",
+				"@types/node": "^20.10.6",
+				"@unocss/reset": "^0.58.3",
+				"@vitejs/plugin-vue": "^4.6.2",
+				"floating-vue": "2.0.0-beta.24",
+				"histoire": "^0.17.6",
+				"unocss": "^0.58.3",
+				"vite-plugin-dts": "^3.7.0"
+			},
+			"scripts": {
+				"build": "vite build",
+				"story:build": "histoire build",
+				"story:dev": "histoire dev",
+				"story:preview": "histoire preview"
+			},
+			"description": "> UI kit for DevTools.",
+			"_id": "@vue/devtools-ui@7.0.8",
+			"_integrity": "sha512-XSiCCz3VUyKazsbbt5nJoqZqNoKatTUTWm8tsEuHAkgegUSeh2DCX7h/rlwMm9+Ksy7dfzZN/0qk+BC0ximiAA==",
+			"_resolved": "/private/var/folders/6s/79hm4q7x5f982tndmbvckmn80000gn/T/09cd13912b41ae6be64558ead4e6abae/vue-devtools-ui-7.0.8.tgz",
+			"_from": "file:vue-devtools-ui-7.0.8.tgz",
+			"_nodeVersion": "18.16.1",
+			"_npmVersion": "9.5.1",
+			"dist": {
+				"integrity": "sha512-XSiCCz3VUyKazsbbt5nJoqZqNoKatTUTWm8tsEuHAkgegUSeh2DCX7h/rlwMm9+Ksy7dfzZN/0qk+BC0ximiAA==",
+				"shasum": "4f5fa21da3495a6541c80830087820d60727136b",
+				"tarball": "https://registry.npmjs.org/@vue/devtools-ui/-/devtools-ui-7.0.8.tgz",
+				"fileCount": 36,
+				"unpackedSize": 181089,
+				"signatures": [
+					{
+						"keyid": "SHA256:jl3bwswu80PjjokCgh0o2w5c2U4LhQAE57gj9cz1kzA",
+						"sig": "MEUCIQC79G2LcfL+IRHZkRZD15GKsNEQoEe2lzHoWLe2FZb5lwIgD2A485oNMtZYRwnxWZtO34WxOFnx6G8xJcG8tmk5TbI="
+					}
+				]
+			},
+			"_npmUser": {
+				"name": "webfansplz",
+				"email": "webfansplz@gmail.com"
+			},
+			"directories": {},
+			"maintainers": [
+				{
+					"name": "webfansplz",
+					"email": "webfansplz@gmail.com"
+				}
+			],
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/devtools-ui_7.0.8_1704978531697_0.7279167073449075"
+			},
+			"_hasShrinkwrap": false,
+			"contributors": []
+		},
+		"7.0.9": {
+			"name": "@vue/devtools-ui",
+			"type": "module",
+			"version": "7.0.9",
+			"author": {
+				"name": "webfansplz"
+			},
+			"license": "MIT",
+			"exports": {
+				".": {
+					"types": "./dist/types/src/index.d.ts",
+					"import": "./dist/index.js",
+					"require": "./dist/index.cjs"
+				},
+				"./style.css": "./dist/style.css",
+				"./theme": {
+					"types": "./dist/types/theme/index.d.ts",
+					"import": "./dist/theme.js",
+					"require": "./dist/theme.cjs"
+				}
+			},
+			"main": "./dist/index.cjs",
+			"module": "./dist/index.js",
+			"types": "./dist/types/src/index.d.ts",
+			"peerDependencies": {
+				"@unocss/reset": ">=0.50.0-0",
+				"floating-vue": ">=2.0.0-0",
+				"unocss": ">=0.50.0-0",
+				"vue": ">=3.0.0-0"
+			},
+			"dependencies": {
+				"@vueuse/components": "^10.7.1",
+				"@vueuse/core": "^10.7.1",
+				"@vueuse/integrations": "^10.7.1",
+				"colord": "^2.9.3",
+				"focus-trap": "^7.5.4"
+			},
+			"devDependencies": {
+				"@histoire/plugin-vue": "^0.17.6",
+				"@types/node": "^20.10.6",
+				"@unocss/reset": "^0.58.3",
+				"@vitejs/plugin-vue": "^4.6.2",
+				"floating-vue": "2.0.0-beta.24",
+				"histoire": "^0.17.6",
+				"unocss": "^0.58.3",
+				"vite-plugin-dts": "^3.7.0"
+			},
+			"scripts": {
+				"build": "vite build",
+				"story:build": "histoire build",
+				"story:dev": "histoire dev",
+				"story:preview": "histoire preview"
+			},
+			"description": "> UI kit for DevTools.",
+			"_id": "@vue/devtools-ui@7.0.9",
+			"_integrity": "sha512-SRZWJZMby1vOZZRmA0VTxDoZnO2xMmv7JJ23Xc7ZwbrgE1yNPAdfQW7ciICN6PZVLueZYbtSbvta8p5BwkR5HA==",
+			"_resolved": "/private/var/folders/6s/79hm4q7x5f982tndmbvckmn80000gn/T/08c4d286ef57a5eddbe6ffeb914d0488/vue-devtools-ui-7.0.9.tgz",
+			"_from": "file:vue-devtools-ui-7.0.9.tgz",
+			"_nodeVersion": "18.16.1",
+			"_npmVersion": "9.5.1",
+			"dist": {
+				"integrity": "sha512-SRZWJZMby1vOZZRmA0VTxDoZnO2xMmv7JJ23Xc7ZwbrgE1yNPAdfQW7ciICN6PZVLueZYbtSbvta8p5BwkR5HA==",
+				"shasum": "078480827bd66a135773b3b4e3593db2968279e4",
+				"tarball": "https://registry.npmjs.org/@vue/devtools-ui/-/devtools-ui-7.0.9.tgz",
+				"fileCount": 36,
+				"unpackedSize": 181089,
+				"signatures": [
+					{
+						"keyid": "SHA256:jl3bwswu80PjjokCgh0o2w5c2U4LhQAE57gj9cz1kzA",
+						"sig": "MEUCIQDRfaHH6iSYRE9X6j93MEgm6UFllQVV01iZ8OZec2vWrgIgYBiB2l77NyYWRDbJEakP928AOKly0rjEimQcbdWnRuc="
+					}
+				]
+			},
+			"_npmUser": {
+				"name": "webfansplz",
+				"email": "webfansplz@gmail.com"
+			},
+			"directories": {},
+			"maintainers": [
+				{
+					"name": "webfansplz",
+					"email": "webfansplz@gmail.com"
+				}
+			],
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/devtools-ui_7.0.9_1705212120372_0.48144928754473915"
+			},
+			"_hasShrinkwrap": false,
+			"contributors": []
+		},
+		"7.0.10": {
+			"name": "@vue/devtools-ui",
+			"type": "module",
+			"version": "7.0.10",
+			"author": {
+				"name": "webfansplz"
+			},
+			"license": "MIT",
+			"exports": {
+				".": {
+					"types": "./dist/types/src/index.d.ts",
+					"import": "./dist/index.js",
+					"require": "./dist/index.cjs"
+				},
+				"./style.css": "./dist/style.css",
+				"./theme": {
+					"types": "./dist/types/theme/index.d.ts",
+					"import": "./dist/theme.js",
+					"require": "./dist/theme.cjs"
+				}
+			},
+			"main": "./dist/index.cjs",
+			"module": "./dist/index.js",
+			"types": "./dist/types/src/index.d.ts",
+			"peerDependencies": {
+				"@unocss/reset": ">=0.50.0-0",
+				"floating-vue": ">=2.0.0-0",
+				"unocss": ">=0.50.0-0",
+				"vue": ">=3.0.0-0"
+			},
+			"dependencies": {
+				"@vueuse/components": "^10.7.1",
+				"@vueuse/core": "^10.7.1",
+				"@vueuse/integrations": "^10.7.1",
+				"colord": "^2.9.3",
+				"focus-trap": "^7.5.4"
+			},
+			"devDependencies": {
+				"@histoire/plugin-vue": "^0.17.6",
+				"@types/node": "^20.10.6",
+				"@unocss/reset": "^0.58.3",
+				"@vitejs/plugin-vue": "^4.6.2",
+				"floating-vue": "2.0.0-beta.24",
+				"histoire": "^0.17.6",
+				"unocss": "^0.58.3",
+				"vite-plugin-dts": "^3.7.0"
+			},
+			"scripts": {
+				"build": "vite build",
+				"story:build": "histoire build",
+				"story:dev": "histoire dev",
+				"story:preview": "histoire preview"
+			},
+			"description": "> UI kit for DevTools.",
+			"_id": "@vue/devtools-ui@7.0.10",
+			"_integrity": "sha512-JoeswD8qh0469LYEo6ikqGOt/CpREFR3AE6kt+bD+SDjXhFrdCO7ABcFM4GGneunpRsOoUXAXaUmRbjg2L3e7w==",
+			"_resolved": "/private/var/folders/6s/79hm4q7x5f982tndmbvckmn80000gn/T/2e82738547d92b5dff1fc1543813265e/vue-devtools-ui-7.0.10.tgz",
+			"_from": "file:vue-devtools-ui-7.0.10.tgz",
+			"_nodeVersion": "18.16.1",
+			"_npmVersion": "9.5.1",
+			"dist": {
+				"integrity": "sha512-JoeswD8qh0469LYEo6ikqGOt/CpREFR3AE6kt+bD+SDjXhFrdCO7ABcFM4GGneunpRsOoUXAXaUmRbjg2L3e7w==",
+				"shasum": "dcca20053a7665946203d2ed5b3cb59b3bf1734d",
+				"tarball": "https://registry.npmjs.org/@vue/devtools-ui/-/devtools-ui-7.0.10.tgz",
+				"fileCount": 36,
+				"unpackedSize": 181090,
+				"signatures": [
+					{
+						"keyid": "SHA256:jl3bwswu80PjjokCgh0o2w5c2U4LhQAE57gj9cz1kzA",
+						"sig": "MEUCIQCNMrwETLNgvyYSLTxN1frUYoQubfhRtXA4NTeV4XpajgIgOXcjLAgmg66g+uASYG5DrqYTV2smjjT8mHy928ohu6g="
+					}
+				]
+			},
+			"_npmUser": {
+				"name": "webfansplz",
+				"email": "webfansplz@gmail.com"
+			},
+			"directories": {},
+			"maintainers": [
+				{
+					"name": "webfansplz",
+					"email": "webfansplz@gmail.com"
+				}
+			],
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/devtools-ui_7.0.10_1705218885199_0.4700701763818209"
+			},
+			"_hasShrinkwrap": false,
+			"contributors": []
+		},
+		"7.0.11": {
+			"name": "@vue/devtools-ui",
+			"type": "module",
+			"version": "7.0.11",
+			"author": {
+				"name": "webfansplz"
+			},
+			"license": "MIT",
+			"exports": {
+				".": {
+					"types": "./dist/types/src/index.d.ts",
+					"import": "./dist/index.js",
+					"require": "./dist/index.cjs"
+				},
+				"./style.css": "./dist/style.css",
+				"./theme": {
+					"types": "./dist/types/theme/index.d.ts",
+					"import": "./dist/theme.js",
+					"require": "./dist/theme.cjs"
+				}
+			},
+			"main": "./dist/index.cjs",
+			"module": "./dist/index.js",
+			"types": "./dist/types/src/index.d.ts",
+			"peerDependencies": {
+				"@unocss/reset": ">=0.50.0-0",
+				"floating-vue": ">=2.0.0-0",
+				"unocss": ">=0.50.0-0",
+				"vue": ">=3.0.0-0"
+			},
+			"dependencies": {
+				"@vueuse/components": "^10.7.2",
+				"@vueuse/core": "^10.7.2",
+				"@vueuse/integrations": "^10.7.2",
+				"colord": "^2.9.3",
+				"focus-trap": "^7.5.4"
+			},
+			"devDependencies": {
+				"@histoire/plugin-vue": "^0.17.8",
+				"@types/node": "^20.11.5",
+				"@unocss/reset": "^0.58.3",
+				"@vitejs/plugin-vue": "^5.0.3",
+				"floating-vue": "2.0.0-beta.24",
+				"histoire": "^0.17.8",
+				"unocss": "^0.58.3",
+				"vite-plugin-dts": "^3.7.1"
+			},
+			"scripts": {
+				"build": "vite build",
+				"story:build": "histoire build",
+				"story:dev": "histoire dev",
+				"story:preview": "histoire preview"
+			},
+			"description": "> UI kit for DevTools.",
+			"_id": "@vue/devtools-ui@7.0.11",
+			"_integrity": "sha512-z1iKLwJHpZmwYTY9Ng3K3WoQcsozy+yf39RtfgESuo5SontEwevXUpfHaeCf3CTrFfw8KdUNDsaQsrQyCsrS3w==",
+			"_resolved": "/private/var/folders/6s/79hm4q7x5f982tndmbvckmn80000gn/T/a4074096178d2d75c8b3ab2c821981e8/vue-devtools-ui-7.0.11.tgz",
+			"_from": "file:vue-devtools-ui-7.0.11.tgz",
+			"_nodeVersion": "18.16.1",
+			"_npmVersion": "9.5.1",
+			"dist": {
+				"integrity": "sha512-z1iKLwJHpZmwYTY9Ng3K3WoQcsozy+yf39RtfgESuo5SontEwevXUpfHaeCf3CTrFfw8KdUNDsaQsrQyCsrS3w==",
+				"shasum": "4fc6bddfe6675d693510796515f29d604b0b9c8d",
+				"tarball": "https://registry.npmjs.org/@vue/devtools-ui/-/devtools-ui-7.0.11.tgz",
+				"fileCount": 36,
+				"unpackedSize": 181090,
+				"signatures": [
+					{
+						"keyid": "SHA256:jl3bwswu80PjjokCgh0o2w5c2U4LhQAE57gj9cz1kzA",
+						"sig": "MEUCIQDz5w9/FJXQiGHJb3R9kLyzfuXq1S1XEjLEj2CXwTXG7gIgTZYWbEuP5l3i/ImxwOSLkf0tL8G2lmrpefKZTKwBsVE="
+					}
+				]
+			},
+			"_npmUser": {
+				"name": "webfansplz",
+				"email": "webfansplz@gmail.com"
+			},
+			"directories": {},
+			"maintainers": [
+				{
+					"name": "webfansplz",
+					"email": "webfansplz@gmail.com"
+				}
+			],
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/devtools-ui_7.0.11_1705580702794_0.48445688358237526"
+			},
+			"_hasShrinkwrap": false,
+			"contributors": []
+		},
+		"7.0.12": {
+			"name": "@vue/devtools-ui",
+			"type": "module",
+			"version": "7.0.12",
+			"author": {
+				"name": "webfansplz"
+			},
+			"license": "MIT",
+			"exports": {
+				".": {
+					"types": "./dist/types/src/index.d.ts",
+					"import": "./dist/index.js",
+					"require": "./dist/index.cjs"
+				},
+				"./style.css": "./dist/style.css",
+				"./theme": {
+					"types": "./dist/types/theme/index.d.ts",
+					"import": "./dist/theme.js",
+					"require": "./dist/theme.cjs"
+				}
+			},
+			"main": "./dist/index.cjs",
+			"module": "./dist/index.js",
+			"types": "./dist/types/src/index.d.ts",
+			"peerDependencies": {
+				"@unocss/reset": ">=0.50.0-0",
+				"floating-vue": ">=2.0.0-0",
+				"unocss": ">=0.50.0-0",
+				"vue": ">=3.0.0-0"
+			},
+			"dependencies": {
+				"@vueuse/components": "^10.7.2",
+				"@vueuse/core": "^10.7.2",
+				"@vueuse/integrations": "^10.7.2",
+				"colord": "^2.9.3",
+				"focus-trap": "^7.5.4"
+			},
+			"devDependencies": {
+				"@histoire/plugin-vue": "^0.17.8",
+				"@types/node": "^20.11.6",
+				"@unocss/reset": "^0.58.3",
+				"@vitejs/plugin-vue": "^5.0.3",
+				"floating-vue": "2.0.0-beta.24",
+				"histoire": "^0.17.8",
+				"unocss": "^0.58.3",
+				"vite-plugin-dts": "^3.7.2"
+			},
+			"scripts": {
+				"build": "vite build",
+				"story:build": "histoire build",
+				"story:dev": "histoire dev",
+				"story:preview": "histoire preview"
+			},
+			"description": "> UI kit for DevTools.",
+			"_id": "@vue/devtools-ui@7.0.12",
+			"_integrity": "sha512-NRj3oFn9IGgWsZgjAkD/GRSmMP8eaIBDObMkxYYgSOG/oDddSoUHzXQg0olTt8gQ8yCRDHs+PxCCvV/o0JogdA==",
+			"_resolved": "/private/var/folders/6s/79hm4q7x5f982tndmbvckmn80000gn/T/afdb22075d5b317b6758bb43f4e5ec67/vue-devtools-ui-7.0.12.tgz",
+			"_from": "file:vue-devtools-ui-7.0.12.tgz",
+			"_nodeVersion": "18.16.1",
+			"_npmVersion": "9.5.1",
+			"dist": {
+				"integrity": "sha512-NRj3oFn9IGgWsZgjAkD/GRSmMP8eaIBDObMkxYYgSOG/oDddSoUHzXQg0olTt8gQ8yCRDHs+PxCCvV/o0JogdA==",
+				"shasum": "e919ec3a3043665d6d5e1793fd21114e3377c80b",
+				"tarball": "https://registry.npmjs.org/@vue/devtools-ui/-/devtools-ui-7.0.12.tgz",
+				"fileCount": 36,
+				"unpackedSize": 181084,
+				"signatures": [
+					{
+						"keyid": "SHA256:jl3bwswu80PjjokCgh0o2w5c2U4LhQAE57gj9cz1kzA",
+						"sig": "MEYCIQDgyRL6DXqI6Nr3XIIALgDWAyiqm9LU0eXtE86qmL07fgIhAP06Ac7pLENnfi+XTc9gOchRieTD6UIKoPm2rN6UVkRa"
+					}
+				]
+			},
+			"_npmUser": {
+				"name": "webfansplz",
+				"email": "webfansplz@gmail.com"
+			},
+			"directories": {},
+			"maintainers": [
+				{
+					"name": "webfansplz",
+					"email": "webfansplz@gmail.com"
+				}
+			],
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/devtools-ui_7.0.12_1706192637149_0.36986054965978665"
+			},
+			"_hasShrinkwrap": false,
+			"contributors": []
+		},
+		"7.0.13": {
+			"name": "@vue/devtools-ui",
+			"type": "module",
+			"version": "7.0.13",
+			"author": {
+				"name": "webfansplz"
+			},
+			"license": "MIT",
+			"exports": {
+				".": {
+					"types": "./dist/types/src/index.d.ts",
+					"import": "./dist/index.js",
+					"require": "./dist/index.cjs"
+				},
+				"./style.css": "./dist/style.css",
+				"./theme": {
+					"types": "./dist/types/theme/index.d.ts",
+					"import": "./dist/theme.js",
+					"require": "./dist/theme.cjs"
+				}
+			},
+			"main": "./dist/index.cjs",
+			"module": "./dist/index.js",
+			"types": "./dist/types/src/index.d.ts",
+			"peerDependencies": {
+				"@unocss/reset": ">=0.50.0-0",
+				"floating-vue": ">=2.0.0-0",
+				"unocss": ">=0.50.0-0",
+				"vue": ">=3.0.0-0"
+			},
+			"dependencies": {
+				"@vueuse/components": "^10.7.2",
+				"@vueuse/core": "^10.7.2",
+				"@vueuse/integrations": "^10.7.2",
+				"colord": "^2.9.3",
+				"focus-trap": "^7.5.4"
+			},
+			"devDependencies": {
+				"@histoire/plugin-vue": "^0.17.8",
+				"@types/node": "^20.11.6",
+				"@unocss/reset": "^0.58.3",
+				"@vitejs/plugin-vue": "^5.0.3",
+				"floating-vue": "2.0.0-beta.24",
+				"histoire": "^0.17.8",
+				"unocss": "^0.58.3",
+				"vite-plugin-dts": "^3.7.2"
+			},
+			"scripts": {
+				"build": "vite build",
+				"story:build": "histoire build",
+				"story:dev": "histoire dev",
+				"story:preview": "histoire preview"
+			},
+			"description": "> UI kit for DevTools.",
+			"_id": "@vue/devtools-ui@7.0.13",
+			"_integrity": "sha512-kfmsX9l0nCIU0311gug9SjbZmY8HsCZKnQgCH2J1GzxH0t3NvRnwbMpqldnsZ70Tt4+excwEqkBJmR86vasFUA==",
+			"_resolved": "/private/var/folders/6s/79hm4q7x5f982tndmbvckmn80000gn/T/3c385938f1357abff16dbe31ff37ca01/vue-devtools-ui-7.0.13.tgz",
+			"_from": "file:vue-devtools-ui-7.0.13.tgz",
+			"_nodeVersion": "18.16.1",
+			"_npmVersion": "9.5.1",
+			"dist": {
+				"integrity": "sha512-kfmsX9l0nCIU0311gug9SjbZmY8HsCZKnQgCH2J1GzxH0t3NvRnwbMpqldnsZ70Tt4+excwEqkBJmR86vasFUA==",
+				"shasum": "6d87e112170225c3daa8d0de58107ad09d0da93f",
+				"tarball": "https://registry.npmjs.org/@vue/devtools-ui/-/devtools-ui-7.0.13.tgz",
+				"fileCount": 36,
+				"unpackedSize": 181084,
+				"signatures": [
+					{
+						"keyid": "SHA256:jl3bwswu80PjjokCgh0o2w5c2U4LhQAE57gj9cz1kzA",
+						"sig": "MEUCIBU2Y74lHxrQSoSnNngH8CdE5JBmr4A/fb930zlDHcwsAiEA0PBSnrx4JFV993/gLxrAuhZ185H+TWyWH2BXuHY6LG8="
+					}
+				]
+			},
+			"_npmUser": {
+				"name": "webfansplz",
+				"email": "webfansplz@gmail.com"
+			},
+			"directories": {},
+			"maintainers": [
+				{
+					"name": "webfansplz",
+					"email": "webfansplz@gmail.com"
+				}
+			],
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/devtools-ui_7.0.13_1706243164311_0.410944141817396"
+			},
+			"_hasShrinkwrap": false,
+			"contributors": []
+		},
+		"7.0.14": {
+			"name": "@vue/devtools-ui",
+			"type": "module",
+			"version": "7.0.14",
+			"author": {
+				"name": "webfansplz"
+			},
+			"license": "MIT",
+			"exports": {
+				".": {
+					"types": "./dist/types/src/index.d.ts",
+					"import": "./dist/index.js",
+					"require": "./dist/index.cjs"
+				},
+				"./style.css": "./dist/style.css",
+				"./theme": {
+					"types": "./dist/types/theme/index.d.ts",
+					"import": "./dist/theme.js",
+					"require": "./dist/theme.cjs"
+				}
+			},
+			"main": "./dist/index.cjs",
+			"module": "./dist/index.js",
+			"types": "./dist/types/src/index.d.ts",
+			"peerDependencies": {
+				"@unocss/reset": ">=0.50.0-0",
+				"floating-vue": ">=2.0.0-0",
+				"unocss": ">=0.50.0-0",
+				"vue": ">=3.0.0-0"
+			},
+			"dependencies": {
+				"@vueuse/components": "^10.7.2",
+				"@vueuse/core": "^10.7.2",
+				"@vueuse/integrations": "^10.7.2",
+				"colord": "^2.9.3",
+				"focus-trap": "^7.5.4"
+			},
+			"devDependencies": {
+				"@histoire/plugin-vue": "^0.17.9",
+				"@types/node": "^20.11.10",
+				"@unocss/reset": "^0.58.4",
+				"@vitejs/plugin-vue": "^5.0.3",
+				"floating-vue": "2.0.0",
+				"histoire": "^0.17.9",
+				"unocss": "^0.58.4",
+				"vite-plugin-dts": "^3.7.2"
+			},
+			"scripts": {
+				"build": "vite build",
+				"story:build": "histoire build",
+				"story:dev": "histoire dev",
+				"story:preview": "histoire preview"
+			},
+			"description": "> UI kit for DevTools.",
+			"_id": "@vue/devtools-ui@7.0.14",
+			"_integrity": "sha512-mCwC6Otapr0ioG4FOzc7OorxZXmGssRS89Q3hwkaSTcRbNKZii66wNSGpQxlDUu3i2nGpBDuqKLhcG0EVt58xQ==",
+			"_resolved": "/private/var/folders/6s/79hm4q7x5f982tndmbvckmn80000gn/T/4eaa3b9397ae80b1339fa7f6d1af3dd8/vue-devtools-ui-7.0.14.tgz",
+			"_from": "file:vue-devtools-ui-7.0.14.tgz",
+			"_nodeVersion": "20.11.0",
+			"_npmVersion": "10.2.4",
+			"dist": {
+				"integrity": "sha512-mCwC6Otapr0ioG4FOzc7OorxZXmGssRS89Q3hwkaSTcRbNKZii66wNSGpQxlDUu3i2nGpBDuqKLhcG0EVt58xQ==",
+				"shasum": "773ffabbf1ee6c6cb002d7f8f234c73dbd814d4c",
+				"tarball": "https://registry.npmjs.org/@vue/devtools-ui/-/devtools-ui-7.0.14.tgz",
+				"fileCount": 36,
+				"unpackedSize": 181077,
+				"signatures": [
+					{
+						"keyid": "SHA256:jl3bwswu80PjjokCgh0o2w5c2U4LhQAE57gj9cz1kzA",
+						"sig": "MEUCIQCii9fQPoRA+nGSr6rFkvQf6mdL0T5Se53bLGMf7x7bHQIgUD9XZl1g0UTTUiiYNcAdO6I8SJ9ficabJcQbXCIrXZU="
+					}
+				]
+			},
+			"_npmUser": {
+				"name": "webfansplz",
+				"email": "webfansplz@gmail.com"
+			},
+			"directories": {},
+			"maintainers": [
+				{
+					"name": "webfansplz",
+					"email": "webfansplz@gmail.com"
+				}
+			],
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/devtools-ui_7.0.14_1706798843079_0.7475541065342737"
+			},
+			"_hasShrinkwrap": false,
+			"contributors": []
+		},
+		"7.0.15": {
+			"name": "@vue/devtools-ui",
+			"type": "module",
+			"version": "7.0.15",
+			"author": {
+				"name": "webfansplz"
+			},
+			"license": "MIT",
+			"exports": {
+				".": {
+					"types": "./dist/types/src/index.d.ts",
+					"import": "./dist/index.js",
+					"require": "./dist/index.cjs"
+				},
+				"./style.css": "./dist/style.css",
+				"./theme": {
+					"types": "./dist/types/theme/index.d.ts",
+					"import": "./dist/theme.js",
+					"require": "./dist/theme.cjs"
+				}
+			},
+			"main": "./dist/index.cjs",
+			"module": "./dist/index.js",
+			"types": "./dist/types/src/index.d.ts",
+			"peerDependencies": {
+				"@unocss/reset": ">=0.50.0-0",
+				"floating-vue": ">=2.0.0-0",
+				"unocss": ">=0.50.0-0",
+				"vue": ">=3.0.0-0"
+			},
+			"dependencies": {
+				"@vueuse/components": "^10.7.2",
+				"@vueuse/core": "^10.7.2",
+				"@vueuse/integrations": "^10.7.2",
+				"colord": "^2.9.3",
+				"focus-trap": "^7.5.4"
+			},
+			"devDependencies": {
+				"@histoire/plugin-vue": "^0.17.11",
+				"@types/node": "^20.11.19",
+				"@unocss/reset": "^0.58.5",
+				"@vitejs/plugin-vue": "^5.0.4",
+				"floating-vue": "5.2.2",
+				"histoire": "^0.17.9",
+				"unocss": "^0.58.5",
+				"vite-plugin-dts": "^3.7.2"
+			},
+			"scripts": {
+				"build": "vite build",
+				"story:build": "histoire build",
+				"story:dev": "histoire dev",
+				"story:preview": "histoire preview"
+			},
+			"description": "> UI kit for DevTools.",
+			"_id": "@vue/devtools-ui@7.0.15",
+			"_integrity": "sha512-YjcsGfXcdyma6/ZUZeannO1jFg5EY1pcX7eWaPBH7OfqJ+oL2J9NAwvni4Osb/sO/yckKtdRy2NTAHrAiMngaQ==",
+			"_resolved": "/private/var/folders/6s/79hm4q7x5f982tndmbvckmn80000gn/T/719167a6b2ae495e06af8a8597535e1f/vue-devtools-ui-7.0.15.tgz",
+			"_from": "file:vue-devtools-ui-7.0.15.tgz",
+			"_nodeVersion": "20.11.0",
+			"_npmVersion": "10.2.4",
+			"dist": {
+				"integrity": "sha512-YjcsGfXcdyma6/ZUZeannO1jFg5EY1pcX7eWaPBH7OfqJ+oL2J9NAwvni4Osb/sO/yckKtdRy2NTAHrAiMngaQ==",
+				"shasum": "ebd14a1be869b5cc909fe23768e0454057ab987d",
+				"tarball": "https://registry.npmjs.org/@vue/devtools-ui/-/devtools-ui-7.0.15.tgz",
+				"fileCount": 36,
+				"unpackedSize": 181222,
+				"signatures": [
+					{
+						"keyid": "SHA256:jl3bwswu80PjjokCgh0o2w5c2U4LhQAE57gj9cz1kzA",
+						"sig": "MEUCIBd1CKxfxMjSbhb9WF9tCnXTheSoUOBIn3CVm/fT+8u0AiEAq7yn/uafLqQARBV7HxgkTOTDch1NzgAxNHsvvVlXfjA="
+					}
+				]
+			},
+			"_npmUser": {
+				"name": "webfansplz",
+				"email": "webfansplz@gmail.com"
+			},
+			"directories": {},
+			"maintainers": [
+				{
+					"name": "webfansplz",
+					"email": "webfansplz@gmail.com"
+				}
+			],
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/devtools-ui_7.0.15_1708095304516_0.6031630774566283"
+			},
+			"_hasShrinkwrap": false,
+			"contributors": []
+		},
+		"7.0.16": {
+			"name": "@vue/devtools-ui",
+			"type": "module",
+			"version": "7.0.16",
+			"author": {
+				"name": "webfansplz"
+			},
+			"license": "MIT",
+			"exports": {
+				".": {
+					"types": "./dist/types/src/index.d.ts",
+					"import": "./dist/index.js",
+					"require": "./dist/index.cjs"
+				},
+				"./style.css": "./dist/style.css",
+				"./theme": {
+					"types": "./dist/types/theme/index.d.ts",
+					"import": "./dist/theme.js",
+					"require": "./dist/theme.cjs"
+				}
+			},
+			"main": "./dist/index.cjs",
+			"module": "./dist/index.js",
+			"types": "./dist/types/src/index.d.ts",
+			"peerDependencies": {
+				"@unocss/reset": ">=0.50.0-0",
+				"floating-vue": ">=2.0.0-0",
+				"unocss": ">=0.50.0-0",
+				"vue": ">=3.0.0-0"
+			},
+			"dependencies": {
+				"@vueuse/components": "^10.9.0",
+				"@vueuse/core": "^10.9.0",
+				"@vueuse/integrations": "^10.9.0",
+				"colord": "^2.9.3",
+				"focus-trap": "^7.5.4"
+			},
+			"devDependencies": {
+				"@histoire/plugin-vue": "^0.17.12",
+				"@types/node": "^20.11.24",
+				"@unocss/reset": "^0.58.5",
+				"@vitejs/plugin-vue": "^5.0.4",
+				"floating-vue": "5.2.2",
+				"histoire": "^0.17.9",
+				"unocss": "^0.58.5",
+				"vite-plugin-dts": "^3.7.3"
+			},
+			"scripts": {
+				"build": "vite build",
+				"story:build": "histoire build",
+				"story:dev": "histoire dev",
+				"story:preview": "histoire preview"
+			},
+			"description": "> UI kit for DevTools.",
+			"_id": "@vue/devtools-ui@7.0.16",
+			"_integrity": "sha512-JpjgHMy3eBDu3Fr/FQZg69G0rw/2o+5lEVCac5Yn6xIzqjy4R7PntMKrYtJCg/RNx7XdUq/qJTJboKRqc2jTGA==",
+			"_resolved": "/private/var/folders/6s/79hm4q7x5f982tndmbvckmn80000gn/T/9fc6fac9983fd4dd0984daff79cf1b52/vue-devtools-ui-7.0.16.tgz",
+			"_from": "file:vue-devtools-ui-7.0.16.tgz",
+			"_nodeVersion": "20.11.0",
+			"_npmVersion": "10.2.4",
+			"dist": {
+				"integrity": "sha512-JpjgHMy3eBDu3Fr/FQZg69G0rw/2o+5lEVCac5Yn6xIzqjy4R7PntMKrYtJCg/RNx7XdUq/qJTJboKRqc2jTGA==",
+				"shasum": "930e955775a978ae32e9a72a358db69e543ad515",
+				"tarball": "https://registry.npmjs.org/@vue/devtools-ui/-/devtools-ui-7.0.16.tgz",
+				"fileCount": 36,
+				"unpackedSize": 181346,
+				"signatures": [
+					{
+						"keyid": "SHA256:jl3bwswu80PjjokCgh0o2w5c2U4LhQAE57gj9cz1kzA",
+						"sig": "MEUCIQCYtn6uSdY6YDxF8EbeW8UY8VppZnkWnBxGHB+W6ZBrdAIgX5jwGBRS+DLaSjTWEiyahb//8jT8bjUd3N/Zp8JTP8Q="
+					}
+				]
+			},
+			"_npmUser": {
+				"name": "webfansplz",
+				"email": "webfansplz@gmail.com"
+			},
+			"directories": {},
+			"maintainers": [
+				{
+					"name": "webfansplz",
+					"email": "webfansplz@gmail.com"
+				}
+			],
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/devtools-ui_7.0.16_1709352356185_0.7471445229229869"
+			},
+			"_hasShrinkwrap": false,
+			"contributors": []
+		},
+		"7.0.17": {
+			"name": "@vue/devtools-ui",
+			"type": "module",
+			"version": "7.0.17",
+			"author": {
+				"name": "webfansplz"
+			},
+			"license": "MIT",
+			"exports": {
+				".": {
+					"types": "./dist/types/src/index.d.ts",
+					"import": "./dist/index.js",
+					"require": "./dist/index.cjs"
+				},
+				"./style.css": "./dist/style.css",
+				"./theme": {
+					"types": "./dist/types/theme/index.d.ts",
+					"import": "./dist/theme.js",
+					"require": "./dist/theme.cjs"
+				}
+			},
+			"main": "./dist/index.cjs",
+			"module": "./dist/index.js",
+			"types": "./dist/types/src/index.d.ts",
+			"peerDependencies": {
+				"@unocss/reset": ">=0.50.0-0",
+				"floating-vue": ">=2.0.0-0",
+				"unocss": ">=0.50.0-0",
+				"vue": ">=3.0.0-0"
+			},
+			"dependencies": {
+				"@vueuse/components": "^10.9.0",
+				"@vueuse/core": "^10.9.0",
+				"@vueuse/integrations": "^10.9.0",
+				"colord": "^2.9.3",
+				"focus-trap": "^7.5.4"
+			},
+			"devDependencies": {
+				"@histoire/plugin-vue": "^0.17.12",
+				"@types/node": "^20.11.25",
+				"@unocss/reset": "^0.58.5",
+				"@vitejs/plugin-vue": "^5.0.4",
+				"floating-vue": "5.2.2",
+				"histoire": "^0.17.9",
+				"unocss": "^0.58.5",
+				"vite-plugin-dts": "^3.7.3"
+			},
+			"scripts": {
+				"build": "vite build",
+				"story:build": "histoire build",
+				"story:dev": "histoire dev",
+				"story:preview": "histoire preview"
+			},
+			"description": "> UI kit for DevTools.",
+			"_id": "@vue/devtools-ui@7.0.17",
+			"_integrity": "sha512-R+sOg3KgJm9g/XDz+bK05XjUZDOVdXZRvcvfa+T31COXuClarf1q8VcVXLASkgCn3COlizSUwXTFqyLSZZ5lcA==",
+			"_resolved": "/private/var/folders/6s/79hm4q7x5f982tndmbvckmn80000gn/T/1ae7b58fe44b67704ee3f31da0be9aca/vue-devtools-ui-7.0.17.tgz",
+			"_from": "file:vue-devtools-ui-7.0.17.tgz",
+			"_nodeVersion": "20.11.0",
+			"_npmVersion": "10.2.4",
+			"dist": {
+				"integrity": "sha512-R+sOg3KgJm9g/XDz+bK05XjUZDOVdXZRvcvfa+T31COXuClarf1q8VcVXLASkgCn3COlizSUwXTFqyLSZZ5lcA==",
+				"shasum": "a01c7218859e977f1a2e4069b9869f23ec02948c",
+				"tarball": "https://registry.npmjs.org/@vue/devtools-ui/-/devtools-ui-7.0.17.tgz",
+				"fileCount": 36,
+				"unpackedSize": 181243,
+				"signatures": [
+					{
+						"keyid": "SHA256:jl3bwswu80PjjokCgh0o2w5c2U4LhQAE57gj9cz1kzA",
+						"sig": "MEUCIGyVp3qfY/qwQpsAHw16akA6uNAgnvTdIvFPt1ywiItzAiEAjkBUnK4iPKvli+RS8mruesxUP7YL3ue9TnMWBWdm4LE="
+					}
+				]
+			},
+			"_npmUser": {
+				"name": "webfansplz",
+				"email": "webfansplz@gmail.com"
+			},
+			"directories": {},
+			"maintainers": [
+				{
+					"name": "webfansplz",
+					"email": "webfansplz@gmail.com"
+				}
+			],
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/devtools-ui_7.0.17_1710252333612_0.523768899385318"
+			},
+			"_hasShrinkwrap": false,
+			"contributors": []
+		},
+		"7.0.18": {
+			"name": "@vue/devtools-ui",
+			"type": "module",
+			"version": "7.0.18",
+			"author": {
+				"name": "webfansplz"
+			},
+			"license": "MIT",
+			"exports": {
+				".": {
+					"types": "./dist/types/src/index.d.ts",
+					"import": "./dist/index.js",
+					"require": "./dist/index.cjs"
+				},
+				"./style.css": "./dist/style.css",
+				"./theme": {
+					"types": "./dist/types/theme/index.d.ts",
+					"import": "./dist/theme.js",
+					"require": "./dist/theme.cjs"
+				}
+			},
+			"main": "./dist/index.cjs",
+			"module": "./dist/index.js",
+			"types": "./dist/types/src/index.d.ts",
+			"peerDependencies": {
+				"@unocss/reset": ">=0.50.0-0",
+				"floating-vue": ">=2.0.0-0",
+				"unocss": ">=0.50.0-0",
+				"vue": ">=3.0.0-0"
+			},
+			"dependencies": {
+				"@vueuse/components": "^10.9.0",
+				"@vueuse/core": "^10.9.0",
+				"@vueuse/integrations": "^10.9.0",
+				"colord": "^2.9.3",
+				"focus-trap": "^7.5.4"
+			},
+			"devDependencies": {
+				"@histoire/plugin-vue": "^0.17.12",
+				"@types/node": "^20.11.25",
+				"@unocss/reset": "^0.58.5",
+				"@vitejs/plugin-vue": "^5.0.4",
+				"floating-vue": "5.2.2",
+				"histoire": "^0.17.9",
+				"unocss": "^0.58.5",
+				"vite-plugin-dts": "^3.7.3"
+			},
+			"scripts": {
+				"build": "vite build",
+				"story:build": "histoire build",
+				"story:dev": "histoire dev",
+				"story:preview": "histoire preview"
+			},
+			"description": "> UI kit for DevTools.",
+			"_id": "@vue/devtools-ui@7.0.18",
+			"_integrity": "sha512-M48xdJahe6QhwjuyNto8OIW+9Hd0c+EQwjI1JypBNSvtD0/jyWZzXR2P0wNw75umwgCdC+Tk5YyUBFd43mtBDw==",
+			"_resolved": "/private/var/folders/6s/79hm4q7x5f982tndmbvckmn80000gn/T/7f6701cd5493176802d1ab08c31d60ff/vue-devtools-ui-7.0.18.tgz",
+			"_from": "file:vue-devtools-ui-7.0.18.tgz",
+			"_nodeVersion": "20.11.0",
+			"_npmVersion": "10.2.4",
+			"dist": {
+				"integrity": "sha512-M48xdJahe6QhwjuyNto8OIW+9Hd0c+EQwjI1JypBNSvtD0/jyWZzXR2P0wNw75umwgCdC+Tk5YyUBFd43mtBDw==",
+				"shasum": "3d149c99b5950cdcbeccf9a60b05d3fd8bd376c8",
+				"tarball": "https://registry.npmjs.org/@vue/devtools-ui/-/devtools-ui-7.0.18.tgz",
+				"fileCount": 36,
+				"unpackedSize": 181243,
+				"signatures": [
+					{
+						"keyid": "SHA256:jl3bwswu80PjjokCgh0o2w5c2U4LhQAE57gj9cz1kzA",
+						"sig": "MEQCIHeO6uPZzYwVa418YV1TqLs18lyI5nxkGy10GPlMttkhAiBtQ2m5CjWiEY1V6q+GlHzX2ZZRoNX1fI47v7+ly7Cvpw=="
+					}
+				]
+			},
+			"_npmUser": {
+				"name": "webfansplz",
+				"email": "webfansplz@gmail.com"
+			},
+			"directories": {},
+			"maintainers": [
+				{
+					"name": "webfansplz",
+					"email": "webfansplz@gmail.com"
+				}
+			],
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/devtools-ui_7.0.18_1710659586795_0.8248840859765771"
+			},
+			"_hasShrinkwrap": false,
+			"contributors": []
+		},
+		"7.0.19": {
+			"name": "@vue/devtools-ui",
+			"type": "module",
+			"version": "7.0.19",
+			"author": {
+				"name": "webfansplz"
+			},
+			"license": "MIT",
+			"exports": {
+				".": {
+					"types": "./dist/types/src/index.d.ts",
+					"import": "./dist/index.js",
+					"require": "./dist/index.cjs"
+				},
+				"./style.css": "./dist/style.css",
+				"./theme": {
+					"types": "./dist/types/theme/index.d.ts",
+					"import": "./dist/theme.js",
+					"require": "./dist/theme.cjs"
+				}
+			},
+			"main": "./dist/index.cjs",
+			"module": "./dist/index.js",
+			"types": "./dist/types/src/index.d.ts",
+			"peerDependencies": {
+				"@unocss/reset": ">=0.50.0-0",
+				"floating-vue": ">=2.0.0-0",
+				"unocss": ">=0.50.0-0",
+				"vue": ">=3.0.0-0"
+			},
+			"dependencies": {
+				"@vueuse/components": "^10.9.0",
+				"@vueuse/core": "^10.9.0",
+				"@vueuse/integrations": "^10.9.0",
+				"colord": "^2.9.3",
+				"focus-trap": "^7.5.4"
+			},
+			"devDependencies": {
+				"@histoire/plugin-vue": "^0.17.14",
+				"@types/node": "^20.11.29",
+				"@unocss/reset": "^0.58.6",
+				"@vitejs/plugin-vue": "^5.0.4",
+				"floating-vue": "5.2.2",
+				"histoire": "^0.17.14",
+				"unocss": "^0.58.6",
+				"vite-plugin-dts": "^3.7.3"
+			},
+			"scripts": {
+				"build": "vite build",
+				"story:build": "histoire build",
+				"story:dev": "histoire dev",
+				"story:preview": "histoire preview"
+			},
+			"description": "> UI kit for DevTools.",
+			"_id": "@vue/devtools-ui@7.0.19",
+			"_integrity": "sha512-3gYrXwW3Sw8pMeZfwlKbjZ7tbj6Vy7sRniec0+MkvupCeX4/dKgsUh/niaVhEnFVBq6/vOFjXAUTJ15UM2xE6w==",
+			"_resolved": "/private/var/folders/6s/79hm4q7x5f982tndmbvckmn80000gn/T/29d96c2d971b9cbcea45ed8baa639e43/vue-devtools-ui-7.0.19.tgz",
+			"_from": "file:vue-devtools-ui-7.0.19.tgz",
+			"_nodeVersion": "20.11.0",
+			"_npmVersion": "10.2.4",
+			"dist": {
+				"integrity": "sha512-3gYrXwW3Sw8pMeZfwlKbjZ7tbj6Vy7sRniec0+MkvupCeX4/dKgsUh/niaVhEnFVBq6/vOFjXAUTJ15UM2xE6w==",
+				"shasum": "f10071e286519676a1d662753131213f0b0cc4e9",
+				"tarball": "https://registry.npmjs.org/@vue/devtools-ui/-/devtools-ui-7.0.19.tgz",
+				"fileCount": 36,
+				"unpackedSize": 181244,
+				"signatures": [
+					{
+						"keyid": "SHA256:jl3bwswu80PjjokCgh0o2w5c2U4LhQAE57gj9cz1kzA",
+						"sig": "MEQCIHqyNLxoLHZsJBviCNHVx4KF1+qPmzq/9QqkE3IJtCaGAiB6lfd/A8RCz3UrnjASwo+BsNuDCHVUUzqGETodDjL1jg=="
+					}
+				]
+			},
+			"_npmUser": {
+				"name": "webfansplz",
+				"email": "webfansplz@gmail.com"
+			},
+			"directories": {},
+			"maintainers": [
+				{
+					"name": "webfansplz",
+					"email": "webfansplz@gmail.com"
+				}
+			],
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/devtools-ui_7.0.19_1710824236589_0.10801464657294213"
+			},
+			"_hasShrinkwrap": false,
+			"contributors": []
+		},
+		"7.0.20": {
+			"name": "@vue/devtools-ui",
+			"type": "module",
+			"version": "7.0.20",
+			"author": {
+				"name": "webfansplz"
+			},
+			"license": "MIT",
+			"exports": {
+				".": {
+					"types": "./dist/types/src/index.d.ts",
+					"import": "./dist/index.js",
+					"require": "./dist/index.cjs"
+				},
+				"./style.css": "./dist/style.css",
+				"./theme": {
+					"types": "./dist/types/theme/index.d.ts",
+					"import": "./dist/theme.js",
+					"require": "./dist/theme.cjs"
+				}
+			},
+			"main": "./dist/index.cjs",
+			"module": "./dist/index.js",
+			"types": "./dist/types/src/index.d.ts",
+			"peerDependencies": {
+				"@unocss/reset": ">=0.50.0-0",
+				"floating-vue": ">=2.0.0-0",
+				"unocss": ">=0.50.0-0",
+				"vue": ">=3.0.0-0"
+			},
+			"dependencies": {
+				"@vueuse/components": "^10.9.0",
+				"@vueuse/core": "^10.9.0",
+				"@vueuse/integrations": "^10.9.0",
+				"colord": "^2.9.3",
+				"focus-trap": "^7.5.4"
+			},
+			"devDependencies": {
+				"@histoire/plugin-vue": "^0.17.14",
+				"@types/node": "^20.11.29",
+				"@unocss/reset": "^0.58.6",
+				"@vitejs/plugin-vue": "^5.0.4",
+				"floating-vue": "5.2.2",
+				"histoire": "^0.17.14",
+				"unocss": "^0.58.6",
+				"vite-plugin-dts": "^3.7.3"
+			},
+			"scripts": {
+				"build": "vite build",
+				"story:build": "histoire build",
+				"story:dev": "histoire dev",
+				"story:preview": "histoire preview"
+			},
+			"description": "> UI kit for DevTools.",
+			"_id": "@vue/devtools-ui@7.0.20",
+			"_integrity": "sha512-0Jy+9l8gQKnEPitOBthib6bZPdf2FipPIpMZPZ90xH4z1nWGN2aHBqOHH3dMpNgnymlkgAR5QDvodj5RcxiUGw==",
+			"_resolved": "/private/var/folders/6s/79hm4q7x5f982tndmbvckmn80000gn/T/5004868ad9bcd4a896c0cae0859fd71a/vue-devtools-ui-7.0.20.tgz",
+			"_from": "file:vue-devtools-ui-7.0.20.tgz",
+			"_nodeVersion": "20.11.0",
+			"_npmVersion": "10.2.4",
+			"dist": {
+				"integrity": "sha512-0Jy+9l8gQKnEPitOBthib6bZPdf2FipPIpMZPZ90xH4z1nWGN2aHBqOHH3dMpNgnymlkgAR5QDvodj5RcxiUGw==",
+				"shasum": "e9fac207a92d6e62a9b0f6fc9d6cf85de559ebfb",
+				"tarball": "https://registry.npmjs.org/@vue/devtools-ui/-/devtools-ui-7.0.20.tgz",
+				"fileCount": 36,
+				"unpackedSize": 181244,
+				"signatures": [
+					{
+						"keyid": "SHA256:jl3bwswu80PjjokCgh0o2w5c2U4LhQAE57gj9cz1kzA",
+						"sig": "MEYCIQDFVyGHZdsKukJZXclUA2frIOXxSKTyehO7M4ICxAr7nAIhAJYVtUKTEuSMx2NEKv6qgItkvLl6W6ldv/amNJphU2Nd"
+					}
+				]
+			},
+			"_npmUser": {
+				"name": "webfansplz",
+				"email": "webfansplz@gmail.com"
+			},
+			"directories": {},
+			"maintainers": [
+				{
+					"name": "webfansplz",
+					"email": "webfansplz@gmail.com"
+				}
+			],
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/devtools-ui_7.0.20_1710949706794_0.5580793521635903"
+			},
+			"_hasShrinkwrap": false,
+			"contributors": []
+		},
+		"7.0.21": {
+			"name": "@vue/devtools-ui",
+			"type": "module",
+			"version": "7.0.21",
+			"author": {
+				"name": "webfansplz"
+			},
+			"license": "MIT",
+			"exports": {
+				".": {
+					"types": "./dist/types/src/index.d.ts",
+					"import": "./dist/index.js",
+					"require": "./dist/index.cjs"
+				},
+				"./style.css": "./dist/style.css",
+				"./theme": {
+					"types": "./dist/types/theme/index.d.ts",
+					"import": "./dist/theme.js",
+					"require": "./dist/theme.cjs"
+				}
+			},
+			"main": "./dist/index.cjs",
+			"module": "./dist/index.js",
+			"types": "./dist/types/src/index.d.ts",
+			"peerDependencies": {
+				"@unocss/reset": ">=0.50.0-0",
+				"floating-vue": ">=2.0.0-0",
+				"unocss": ">=0.50.0-0",
+				"vue": ">=3.0.0-0"
+			},
+			"dependencies": {
+				"@vueuse/components": "^10.9.0",
+				"@vueuse/core": "^10.9.0",
+				"@vueuse/integrations": "^10.9.0",
+				"colord": "^2.9.3",
+				"focus-trap": "^7.5.4"
+			},
+			"devDependencies": {
+				"@histoire/plugin-vue": "^0.17.14",
+				"@types/node": "^20.11.30",
+				"@unocss/reset": "^0.58.6",
+				"@vitejs/plugin-vue": "^5.0.4",
+				"floating-vue": "5.2.2",
+				"histoire": "^0.17.14",
+				"unocss": "^0.58.6",
+				"vite-plugin-dts": "^3.7.3"
+			},
+			"scripts": {
+				"build": "vite build",
+				"story:build": "histoire build",
+				"story:dev": "histoire dev",
+				"story:preview": "histoire preview"
+			},
+			"description": "> UI kit for DevTools.",
+			"_id": "@vue/devtools-ui@7.0.21",
+			"_integrity": "sha512-hYLhMAKoTJ2/Lbol0pbZW0jq49x/fYheTqa6zpLw1Qti5eOD+sOS9WGQZL/T8nBuOG/yZJswI+R0qaUrJXiLrA==",
+			"_resolved": "/private/var/folders/6s/79hm4q7x5f982tndmbvckmn80000gn/T/1096d959034dbb02ead8adf4ccb47ead/vue-devtools-ui-7.0.21.tgz",
+			"_from": "file:vue-devtools-ui-7.0.21.tgz",
+			"_nodeVersion": "20.11.0",
+			"_npmVersion": "10.2.4",
+			"dist": {
+				"integrity": "sha512-hYLhMAKoTJ2/Lbol0pbZW0jq49x/fYheTqa6zpLw1Qti5eOD+sOS9WGQZL/T8nBuOG/yZJswI+R0qaUrJXiLrA==",
+				"shasum": "cba45c328ab19176ab221a395b5ca2de599eaea1",
+				"tarball": "https://registry.npmjs.org/@vue/devtools-ui/-/devtools-ui-7.0.21.tgz",
+				"fileCount": 36,
+				"unpackedSize": 181178,
+				"signatures": [
+					{
+						"keyid": "SHA256:jl3bwswu80PjjokCgh0o2w5c2U4LhQAE57gj9cz1kzA",
+						"sig": "MEQCIBbr0ObU3EMHgafdjc1sY3CHbpPU+oKQ5LToGhKgcCofAiAw7C6oT35AGzKrsLlxkg96ydvCS6coVW51hgnri4DQcQ=="
+					}
+				]
+			},
+			"_npmUser": {
+				"name": "webfansplz",
+				"email": "webfansplz@gmail.com"
+			},
+			"directories": {},
+			"maintainers": [
+				{
+					"name": "webfansplz",
+					"email": "webfansplz@gmail.com"
+				}
+			],
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/devtools-ui_7.0.21_1711386210970_0.6520487945387181"
+			},
+			"_hasShrinkwrap": false,
+			"contributors": []
+		},
+		"7.0.22": {
+			"name": "@vue/devtools-ui",
+			"type": "module",
+			"version": "7.0.22",
+			"author": {
+				"name": "webfansplz"
+			},
+			"license": "MIT",
+			"exports": {
+				".": {
+					"types": "./dist/types/src/index.d.ts",
+					"import": "./dist/index.js",
+					"require": "./dist/index.cjs"
+				},
+				"./style.css": "./dist/style.css",
+				"./theme": {
+					"types": "./dist/types/theme/index.d.ts",
+					"import": "./dist/theme.js",
+					"require": "./dist/theme.cjs"
+				}
+			},
+			"main": "./dist/index.cjs",
+			"module": "./dist/index.js",
+			"types": "./dist/types/src/index.d.ts",
+			"peerDependencies": {
+				"@unocss/reset": ">=0.50.0-0",
+				"floating-vue": ">=2.0.0-0",
+				"unocss": ">=0.50.0-0",
+				"vue": ">=3.0.0-0"
+			},
+			"dependencies": {
+				"@vueuse/components": "^10.9.0",
+				"@vueuse/core": "^10.9.0",
+				"@vueuse/integrations": "^10.9.0",
+				"colord": "^2.9.3",
+				"focus-trap": "^7.5.4"
+			},
+			"devDependencies": {
+				"@histoire/plugin-vue": "^0.17.14",
+				"@types/node": "^20.11.30",
+				"@unocss/reset": "^0.58.6",
+				"@vitejs/plugin-vue": "^5.0.4",
+				"floating-vue": "5.2.2",
+				"histoire": "^0.17.14",
+				"unocss": "^0.58.6",
+				"vite-plugin-dts": "^3.7.3"
+			},
+			"scripts": {
+				"build": "vite build",
+				"story:build": "histoire build",
+				"story:dev": "histoire dev",
+				"story:preview": "histoire preview"
+			},
+			"description": "> UI kit for DevTools.",
+			"_id": "@vue/devtools-ui@7.0.22",
+			"_integrity": "sha512-1WtmpBSX4kxHJeqpn5ylN883Ly7epjAysvVm+QwabLwuuzqPn1tD/M55R3BFsPx2wAbjw/Kga5BqNHvnGms6mg==",
+			"_resolved": "/private/var/folders/6s/79hm4q7x5f982tndmbvckmn80000gn/T/8a52558e67fdc7a744686bc76a316fa8/vue-devtools-ui-7.0.22.tgz",
+			"_from": "file:vue-devtools-ui-7.0.22.tgz",
+			"_nodeVersion": "20.11.0",
+			"_npmVersion": "10.2.4",
+			"dist": {
+				"integrity": "sha512-1WtmpBSX4kxHJeqpn5ylN883Ly7epjAysvVm+QwabLwuuzqPn1tD/M55R3BFsPx2wAbjw/Kga5BqNHvnGms6mg==",
+				"shasum": "8a09158c840f033c3cdadfa5436e3ad324505903",
+				"tarball": "https://registry.npmjs.org/@vue/devtools-ui/-/devtools-ui-7.0.22.tgz",
+				"fileCount": 36,
+				"unpackedSize": 181178,
+				"signatures": [
+					{
+						"keyid": "SHA256:jl3bwswu80PjjokCgh0o2w5c2U4LhQAE57gj9cz1kzA",
+						"sig": "MEUCIFFo2sMnYqv/ffUV52udJbfxiV6J6pFZvQlin35N4k8NAiEAw8WztpdS3pWtXhUfk8C5er8OAf9onG3ejbvuQxHx+WQ="
+					}
+				]
+			},
+			"_npmUser": {
+				"name": "webfansplz",
+				"email": "webfansplz@gmail.com"
+			},
+			"directories": {},
+			"maintainers": [
+				{
+					"name": "webfansplz",
+					"email": "webfansplz@gmail.com"
+				}
+			],
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/devtools-ui_7.0.22_1711456263575_0.19340079746953354"
+			},
+			"_hasShrinkwrap": false,
+			"contributors": []
+		},
+		"7.0.23": {
+			"name": "@vue/devtools-ui",
+			"type": "module",
+			"version": "7.0.23",
+			"author": {
+				"name": "webfansplz"
+			},
+			"license": "MIT",
+			"exports": {
+				".": {
+					"types": "./dist/types/src/index.d.ts",
+					"import": "./dist/index.js",
+					"require": "./dist/index.cjs"
+				},
+				"./style.css": "./dist/style.css",
+				"./theme": {
+					"types": "./dist/types/theme/index.d.ts",
+					"import": "./dist/theme.js",
+					"require": "./dist/theme.cjs"
+				}
+			},
+			"main": "./dist/index.cjs",
+			"module": "./dist/index.js",
+			"types": "./dist/types/src/index.d.ts",
+			"peerDependencies": {
+				"@unocss/reset": ">=0.50.0-0",
+				"floating-vue": ">=2.0.0-0",
+				"unocss": ">=0.50.0-0",
+				"vue": ">=3.0.0-0"
+			},
+			"dependencies": {
+				"@vueuse/components": "^10.9.0",
+				"@vueuse/core": "^10.9.0",
+				"@vueuse/integrations": "^10.9.0",
+				"colord": "^2.9.3",
+				"focus-trap": "^7.5.4"
+			},
+			"devDependencies": {
+				"@histoire/plugin-vue": "^0.17.14",
+				"@types/node": "^20.11.30",
+				"@unocss/reset": "^0.58.6",
+				"@vitejs/plugin-vue": "^5.0.4",
+				"floating-vue": "5.2.2",
+				"histoire": "^0.17.14",
+				"unocss": "^0.58.6",
+				"vite-plugin-dts": "^3.7.3"
+			},
+			"scripts": {
+				"build": "vite build",
+				"story:build": "histoire build",
+				"story:dev": "histoire dev",
+				"story:preview": "histoire preview"
+			},
+			"description": "> UI kit for DevTools.",
+			"_id": "@vue/devtools-ui@7.0.23",
+			"_integrity": "sha512-+83KHg7V4jNC7GVTa8HE+218YWi4Ly6Fa9VLF9jQv/Ykl3Xy4vgB4PSiGq45Ol1iFFtmBQ1Z2MZ6+HULLhpWhw==",
+			"_resolved": "/private/var/folders/6s/79hm4q7x5f982tndmbvckmn80000gn/T/d6a0858ea3d69dd6eb0587106ee34c2f/vue-devtools-ui-7.0.23.tgz",
+			"_from": "file:vue-devtools-ui-7.0.23.tgz",
+			"_nodeVersion": "20.11.0",
+			"_npmVersion": "10.2.4",
+			"dist": {
+				"integrity": "sha512-+83KHg7V4jNC7GVTa8HE+218YWi4Ly6Fa9VLF9jQv/Ykl3Xy4vgB4PSiGq45Ol1iFFtmBQ1Z2MZ6+HULLhpWhw==",
+				"shasum": "c252380f201fb3c9b10879b9bde0c39d32e55023",
+				"tarball": "https://registry.npmjs.org/@vue/devtools-ui/-/devtools-ui-7.0.23.tgz",
+				"fileCount": 36,
+				"unpackedSize": 181178,
+				"signatures": [
+					{
+						"keyid": "SHA256:jl3bwswu80PjjokCgh0o2w5c2U4LhQAE57gj9cz1kzA",
+						"sig": "MEQCIFNCNb6Ka4dQvEge+t7Epk1AbRmx1uptTh+hmH6bcRnmAiAflkt36+FDmIsO53Ko9t/zN1DOyxhlsykVz2a1WDPL0w=="
+					}
+				]
+			},
+			"_npmUser": {
+				"name": "webfansplz",
+				"email": "webfansplz@gmail.com"
+			},
+			"directories": {},
+			"maintainers": [
+				{
+					"name": "webfansplz",
+					"email": "webfansplz@gmail.com"
+				}
+			],
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/devtools-ui_7.0.23_1711467067644_0.42063317284981916"
+			},
+			"_hasShrinkwrap": false,
+			"contributors": []
+		},
+		"7.0.24": {
+			"name": "@vue/devtools-ui",
+			"type": "module",
+			"version": "7.0.24",
+			"author": {
+				"name": "webfansplz"
+			},
+			"license": "MIT",
+			"exports": {
+				".": {
+					"types": "./dist/types/src/index.d.ts",
+					"import": "./dist/index.js",
+					"require": "./dist/index.cjs"
+				},
+				"./style.css": "./dist/style.css",
+				"./theme": {
+					"types": "./dist/types/theme/index.d.ts",
+					"import": "./dist/theme.js",
+					"require": "./dist/theme.cjs"
+				}
+			},
+			"main": "./dist/index.cjs",
+			"module": "./dist/index.js",
+			"types": "./dist/types/src/index.d.ts",
+			"peerDependencies": {
+				"@unocss/reset": ">=0.50.0-0",
+				"floating-vue": ">=2.0.0-0",
+				"unocss": ">=0.50.0-0",
+				"vue": ">=3.0.0-0"
+			},
+			"dependencies": {
+				"@vueuse/components": "^10.9.0",
+				"@vueuse/core": "^10.9.0",
+				"@vueuse/integrations": "^10.9.0",
+				"colord": "^2.9.3",
+				"focus-trap": "^7.5.4"
+			},
+			"devDependencies": {
+				"@histoire/plugin-vue": "^0.17.14",
+				"@types/node": "^20.11.30",
+				"@unocss/reset": "^0.58.6",
+				"@vitejs/plugin-vue": "^5.0.4",
+				"floating-vue": "5.2.2",
+				"histoire": "^0.17.14",
+				"unocss": "^0.58.6",
+				"vite-plugin-dts": "^3.7.3"
+			},
+			"scripts": {
+				"build": "vite build",
+				"story:build": "histoire build",
+				"story:dev": "histoire dev",
+				"story:preview": "histoire preview"
+			},
+			"description": "> UI kit for DevTools.",
+			"_id": "@vue/devtools-ui@7.0.24",
+			"_integrity": "sha512-Q7cq+viCJURAOXijI/W/C7qPOpucQL64AnmsK1uF6fw6CZDjqGrjSHCxf/TCn48VRH2qQ3Ej8d8JMx0RzeQwlA==",
+			"_resolved": "/private/var/folders/6s/79hm4q7x5f982tndmbvckmn80000gn/T/663bbcd74c324ded6789c90bd6947f6f/vue-devtools-ui-7.0.24.tgz",
+			"_from": "file:vue-devtools-ui-7.0.24.tgz",
+			"_nodeVersion": "20.11.0",
+			"_npmVersion": "10.2.4",
+			"dist": {
+				"integrity": "sha512-Q7cq+viCJURAOXijI/W/C7qPOpucQL64AnmsK1uF6fw6CZDjqGrjSHCxf/TCn48VRH2qQ3Ej8d8JMx0RzeQwlA==",
+				"shasum": "1817fc5c08de14068b579c6510c21466c5877c5e",
+				"tarball": "https://registry.npmjs.org/@vue/devtools-ui/-/devtools-ui-7.0.24.tgz",
+				"fileCount": 36,
+				"unpackedSize": 181178,
+				"signatures": [
+					{
+						"keyid": "SHA256:jl3bwswu80PjjokCgh0o2w5c2U4LhQAE57gj9cz1kzA",
+						"sig": "MEUCIQCPWBhwMjUTUhaVq/kh1D+mpXC/vdhqOERh+QTnG3MEJQIgYE+0cgMAI7uE/uFPCu4Ysbt7scT6+jl3WKX4fnLY1BU="
+					}
+				]
+			},
+			"_npmUser": {
+				"name": "webfansplz",
+				"email": "webfansplz@gmail.com"
+			},
+			"directories": {},
+			"maintainers": [
+				{
+					"name": "webfansplz",
+					"email": "webfansplz@gmail.com"
+				}
+			],
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/devtools-ui_7.0.24_1711514301269_0.9259177547705018"
+			},
+			"_hasShrinkwrap": false,
+			"contributors": []
+		},
+		"7.0.25": {
+			"name": "@vue/devtools-ui",
+			"type": "module",
+			"version": "7.0.25",
+			"author": {
+				"name": "webfansplz"
+			},
+			"license": "MIT",
+			"exports": {
+				".": {
+					"types": "./dist/types/src/index.d.ts",
+					"import": "./dist/index.js",
+					"require": "./dist/index.cjs"
+				},
+				"./style.css": "./dist/style.css",
+				"./theme": {
+					"types": "./dist/types/theme/index.d.ts",
+					"import": "./dist/theme.js",
+					"require": "./dist/theme.cjs"
+				}
+			},
+			"main": "./dist/index.cjs",
+			"module": "./dist/index.js",
+			"types": "./dist/types/src/index.d.ts",
+			"peerDependencies": {
+				"@unocss/reset": ">=0.50.0-0",
+				"floating-vue": ">=2.0.0-0",
+				"unocss": ">=0.50.0-0",
+				"vue": ">=3.0.0-0"
+			},
+			"dependencies": {
+				"@vueuse/components": "^10.9.0",
+				"@vueuse/core": "^10.9.0",
+				"@vueuse/integrations": "^10.9.0",
+				"colord": "^2.9.3",
+				"focus-trap": "^7.5.4"
+			},
+			"devDependencies": {
+				"@histoire/plugin-vue": "^0.17.14",
+				"@types/node": "^20.11.30",
+				"@unocss/reset": "^0.58.6",
+				"@vitejs/plugin-vue": "^5.0.4",
+				"floating-vue": "5.2.2",
+				"histoire": "^0.17.14",
+				"unocss": "^0.58.6",
+				"vite-plugin-dts": "^3.7.3"
+			},
+			"scripts": {
+				"build": "vite build",
+				"story:build": "histoire build",
+				"story:dev": "histoire dev",
+				"story:preview": "histoire preview"
+			},
+			"description": "> UI kit for DevTools.",
+			"_id": "@vue/devtools-ui@7.0.25",
+			"_integrity": "sha512-OxcwecnKmKm/zIG/VSixRgSqzjRU9UFld26LIq8kunxvr4zswjHT2xHMb/iauBC2c9TNo8Uk5muUTFLmNbYwnA==",
+			"_resolved": "/private/var/folders/6s/79hm4q7x5f982tndmbvckmn80000gn/T/9655c3834fd5a5b387f42e0bc02ba695/vue-devtools-ui-7.0.25.tgz",
+			"_from": "file:vue-devtools-ui-7.0.25.tgz",
+			"_nodeVersion": "20.11.0",
+			"_npmVersion": "10.2.4",
+			"dist": {
+				"integrity": "sha512-OxcwecnKmKm/zIG/VSixRgSqzjRU9UFld26LIq8kunxvr4zswjHT2xHMb/iauBC2c9TNo8Uk5muUTFLmNbYwnA==",
+				"shasum": "77b632583f74ea55974a99c94d7a673ddfbd4ebc",
+				"tarball": "https://registry.npmjs.org/@vue/devtools-ui/-/devtools-ui-7.0.25.tgz",
+				"fileCount": 36,
+				"unpackedSize": 181178,
+				"signatures": [
+					{
+						"keyid": "SHA256:jl3bwswu80PjjokCgh0o2w5c2U4LhQAE57gj9cz1kzA",
+						"sig": "MEYCIQDL7sSsB3huMWpEIBuowA+G7BRVNQIZeDV4sIDu6YEdWQIhAMJFJvauOfS+kOIcMf4dyucF5bRxcigX7IQ4koh7nk9g"
+					}
+				]
+			},
+			"_npmUser": {
+				"name": "webfansplz",
+				"email": "webfansplz@gmail.com"
+			},
+			"directories": {},
+			"maintainers": [
+				{
+					"name": "webfansplz",
+					"email": "webfansplz@gmail.com"
+				}
+			],
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/devtools-ui_7.0.25_1711601314968_0.5883116332241765"
+			},
+			"_hasShrinkwrap": false,
+			"contributors": []
+		},
+		"7.0.26": {
+			"name": "@vue/devtools-ui",
+			"type": "module",
+			"version": "7.0.26",
+			"author": {
+				"name": "webfansplz"
+			},
+			"license": "MIT",
+			"exports": {
+				".": {
+					"types": "./dist/types/src/index.d.ts",
+					"import": "./dist/index.js",
+					"require": "./dist/index.cjs"
+				},
+				"./style.css": "./dist/style.css",
+				"./theme": {
+					"types": "./dist/types/theme/index.d.ts",
+					"import": "./dist/theme.js",
+					"require": "./dist/theme.cjs"
+				}
+			},
+			"main": "./dist/index.cjs",
+			"module": "./dist/index.js",
+			"types": "./dist/types/src/index.d.ts",
+			"peerDependencies": {
+				"@unocss/reset": ">=0.50.0-0",
+				"floating-vue": ">=2.0.0-0",
+				"unocss": ">=0.50.0-0",
+				"vue": ">=3.0.0-0"
+			},
+			"dependencies": {
+				"@vueuse/components": "^10.9.0",
+				"@vueuse/core": "^10.9.0",
+				"@vueuse/integrations": "^10.9.0",
+				"colord": "^2.9.3",
+				"focus-trap": "^7.5.4"
+			},
+			"devDependencies": {
+				"@histoire/plugin-vue": "^0.17.15",
+				"@types/node": "^20.12.5",
+				"@unocss/reset": "^0.59.0",
+				"@vitejs/plugin-vue": "^5.0.4",
+				"floating-vue": "5.2.2",
+				"histoire": "^0.17.15",
+				"unocss": "^0.59.0",
+				"vite-plugin-dts": "^3.8.1"
+			},
+			"scripts": {
+				"build": "vite build",
+				"story:build": "histoire build",
+				"story:dev": "histoire dev",
+				"story:preview": "histoire preview"
+			},
+			"description": "> UI kit for DevTools.",
+			"_id": "@vue/devtools-ui@7.0.26",
+			"_integrity": "sha512-YLWmU4J+jhaLhdQolpNAll1hj3SbcZ78q3RK59eVTvVFK5+bzzGKSloJWKc/JvWmr7L0a54vLv5P+HOlXdJNoQ==",
+			"_resolved": "/private/var/folders/6s/79hm4q7x5f982tndmbvckmn80000gn/T/50d22a4abc6c29d4bdfd54ee31b06fe0/vue-devtools-ui-7.0.26.tgz",
+			"_from": "file:vue-devtools-ui-7.0.26.tgz",
+			"_nodeVersion": "20.11.0",
+			"_npmVersion": "10.2.4",
+			"dist": {
+				"integrity": "sha512-YLWmU4J+jhaLhdQolpNAll1hj3SbcZ78q3RK59eVTvVFK5+bzzGKSloJWKc/JvWmr7L0a54vLv5P+HOlXdJNoQ==",
+				"shasum": "30648b88fe08d2d224942f8f98c79a21625a552d",
+				"tarball": "https://registry.npmjs.org/@vue/devtools-ui/-/devtools-ui-7.0.26.tgz",
+				"fileCount": 36,
+				"unpackedSize": 181261,
+				"signatures": [
+					{
+						"keyid": "SHA256:jl3bwswu80PjjokCgh0o2w5c2U4LhQAE57gj9cz1kzA",
+						"sig": "MEQCIHAjoJlMDjdm/8dotROb1Fjb9CW+Bi/XI86j5rVLTA9qAiAgYXSDU+JOutq2rmp5SBlJClPZlAXpHrCoP6pZkGRpNQ=="
+					}
+				]
+			},
+			"_npmUser": {
+				"name": "webfansplz",
+				"email": "webfansplz@gmail.com"
+			},
+			"directories": {},
+			"maintainers": [
+				{
+					"name": "webfansplz",
+					"email": "webfansplz@gmail.com"
+				}
+			],
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/devtools-ui_7.0.26_1712724523278_0.503312464499386"
+			},
+			"_hasShrinkwrap": false,
+			"contributors": []
+		},
+		"7.0.27": {
+			"name": "@vue/devtools-ui",
+			"type": "module",
+			"version": "7.0.27",
+			"author": {
+				"name": "webfansplz"
+			},
+			"license": "MIT",
+			"exports": {
+				".": {
+					"types": "./dist/types/src/index.d.ts",
+					"import": "./dist/index.js",
+					"require": "./dist/index.cjs"
+				},
+				"./style.css": "./dist/style.css",
+				"./theme": {
+					"types": "./dist/types/theme/index.d.ts",
+					"import": "./dist/theme.js",
+					"require": "./dist/theme.cjs"
+				}
+			},
+			"main": "./dist/index.cjs",
+			"module": "./dist/index.js",
+			"types": "./dist/types/src/index.d.ts",
+			"peerDependencies": {
+				"@unocss/reset": ">=0.50.0-0",
+				"floating-vue": ">=2.0.0-0",
+				"unocss": ">=0.50.0-0",
+				"vue": ">=3.0.0-0"
+			},
+			"dependencies": {
+				"@vueuse/components": "^10.9.0",
+				"@vueuse/core": "^10.9.0",
+				"@vueuse/integrations": "^10.9.0",
+				"colord": "^2.9.3",
+				"focus-trap": "^7.5.4"
+			},
+			"devDependencies": {
+				"@histoire/plugin-vue": "^0.17.15",
+				"@types/node": "^20.12.5",
+				"@unocss/reset": "^0.59.0",
+				"@vitejs/plugin-vue": "^5.0.4",
+				"floating-vue": "5.2.2",
+				"histoire": "^0.17.15",
+				"unocss": "^0.59.0",
+				"vite-plugin-dts": "^3.8.1"
+			},
+			"scripts": {
+				"build": "vite build",
+				"story:build": "histoire build",
+				"story:dev": "histoire dev",
+				"story:preview": "histoire preview"
+			},
+			"description": "> UI kit for DevTools.",
+			"_id": "@vue/devtools-ui@7.0.27",
+			"_integrity": "sha512-MVcQwqqGNW2poW29OkzOcpNLHb0R/VQECWYiDYvKqjWp3G8M/FS2E5mUnjXxZGpfqHjSEmJs+fFGY8exnYpNng==",
+			"_resolved": "/private/var/folders/6s/79hm4q7x5f982tndmbvckmn80000gn/T/aea43e408c323db73944bdf57f4d1f7c/vue-devtools-ui-7.0.27.tgz",
+			"_from": "file:vue-devtools-ui-7.0.27.tgz",
+			"_nodeVersion": "20.11.0",
+			"_npmVersion": "10.2.4",
+			"dist": {
+				"integrity": "sha512-MVcQwqqGNW2poW29OkzOcpNLHb0R/VQECWYiDYvKqjWp3G8M/FS2E5mUnjXxZGpfqHjSEmJs+fFGY8exnYpNng==",
+				"shasum": "524e53a018e9f2d8669a0abee2642c7a98639da2",
+				"tarball": "https://registry.npmjs.org/@vue/devtools-ui/-/devtools-ui-7.0.27.tgz",
+				"fileCount": 36,
+				"unpackedSize": 181261,
+				"signatures": [
+					{
+						"keyid": "SHA256:jl3bwswu80PjjokCgh0o2w5c2U4LhQAE57gj9cz1kzA",
+						"sig": "MEUCIBEFlJtaF0Wh/R+WHPTtEADKCNcB3agoKCkKwo4Z3L2yAiEAoRupJ+OsvsTwlnqkgh1iZ5FU5TLB5DM67K3PntVHfpA="
+					}
+				]
+			},
+			"_npmUser": {
+				"name": "webfansplz",
+				"email": "webfansplz@gmail.com"
+			},
+			"directories": {},
+			"maintainers": [
+				{
+					"name": "webfansplz",
+					"email": "webfansplz@gmail.com"
+				}
+			],
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/devtools-ui_7.0.27_1712754023776_0.661308158938603"
+			},
+			"_hasShrinkwrap": false,
+			"contributors": []
+		},
+		"7.1.0": {
+			"name": "@vue/devtools-ui",
+			"type": "module",
+			"version": "7.1.0",
+			"author": {
+				"name": "webfansplz"
+			},
+			"license": "MIT",
+			"exports": {
+				".": {
+					"types": "./dist/types/src/index.d.ts",
+					"import": "./dist/index.js",
+					"require": "./dist/index.cjs"
+				},
+				"./style.css": "./dist/style.css",
+				"./theme": {
+					"types": "./dist/types/theme/index.d.ts",
+					"import": "./dist/theme.js",
+					"require": "./dist/theme.cjs"
+				}
+			},
+			"main": "./dist/index.cjs",
+			"module": "./dist/index.js",
+			"types": "./dist/types/src/index.d.ts",
+			"peerDependencies": {
+				"@unocss/reset": ">=0.50.0-0",
+				"floating-vue": ">=2.0.0-0",
+				"unocss": ">=0.50.0-0",
+				"vue": ">=3.0.0-0"
+			},
+			"dependencies": {
+				"@vueuse/components": "^10.9.0",
+				"@vueuse/core": "^10.9.0",
+				"@vueuse/integrations": "^10.9.0",
+				"colord": "^2.9.3",
+				"focus-trap": "^7.5.4",
+				"@vue/devtools-shared": "7.1.0"
+			},
+			"devDependencies": {
+				"@histoire/plugin-vue": "^0.17.17",
+				"@types/node": "^20.12.7",
+				"@unocss/reset": "^0.59.4",
+				"@vitejs/plugin-vue": "^5.0.4",
+				"floating-vue": "5.2.2",
+				"histoire": "^0.17.17",
+				"unocss": "^0.59.4",
+				"vite-plugin-dts": "^3.8.3"
+			},
+			"scripts": {
+				"build": "vite build",
+				"story:build": "histoire build",
+				"story:dev": "histoire dev",
+				"story:preview": "histoire preview"
+			},
+			"description": "> UI kit for DevTools.",
+			"_id": "@vue/devtools-ui@7.1.0",
+			"_integrity": "sha512-CVrF1v6zuNkFoRTjxS/d0XbCGt+Mmn241Trdyek9WxFnPT1XSzBRuBQKCjAc0kd4k0dVYINLo5Y2DQFVgtNbPw==",
+			"_resolved": "/private/var/folders/6s/79hm4q7x5f982tndmbvckmn80000gn/T/21cc3af47911cd0d4d84b190d71f7a41/vue-devtools-ui-7.1.0.tgz",
+			"_from": "file:vue-devtools-ui-7.1.0.tgz",
+			"_nodeVersion": "20.12.2",
+			"_npmVersion": "10.5.0",
+			"dist": {
+				"integrity": "sha512-CVrF1v6zuNkFoRTjxS/d0XbCGt+Mmn241Trdyek9WxFnPT1XSzBRuBQKCjAc0kd4k0dVYINLo5Y2DQFVgtNbPw==",
+				"shasum": "5d88ef4a32571fc4861f17bf2f766d3e7a4f1a2e",
+				"tarball": "https://registry.npmjs.org/@vue/devtools-ui/-/devtools-ui-7.1.0.tgz",
+				"fileCount": 36,
+				"unpackedSize": 192183,
+				"signatures": [
+					{
+						"keyid": "SHA256:jl3bwswu80PjjokCgh0o2w5c2U4LhQAE57gj9cz1kzA",
+						"sig": "MEUCIE2O3fmpfJr46Fn+D5J5Jm1vpFg/uh+B7erUCuIyOuOQAiEA3Mw1eas42vR6h2Im7XwznWtWhq0wP9cUoPDZWaK2eB0="
+					}
+				]
+			},
+			"_npmUser": {
+				"name": "webfansplz",
+				"email": "webfansplz@gmail.com"
+			},
+			"directories": {},
+			"maintainers": [
+				{
+					"name": "webfansplz",
+					"email": "webfansplz@gmail.com"
+				}
+			],
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/devtools-ui_7.1.0_1713881549986_0.4010690698454644"
+			},
+			"_hasShrinkwrap": false,
+			"contributors": []
+		},
+		"7.1.1": {
+			"name": "@vue/devtools-ui",
+			"type": "module",
+			"version": "7.1.1",
+			"author": {
+				"name": "webfansplz"
+			},
+			"license": "MIT",
+			"exports": {
+				".": {
+					"types": "./dist/types/src/index.d.ts",
+					"import": "./dist/index.js",
+					"require": "./dist/index.cjs"
+				},
+				"./style.css": "./dist/style.css",
+				"./theme": {
+					"types": "./dist/types/theme/index.d.ts",
+					"import": "./dist/theme.js",
+					"require": "./dist/theme.cjs"
+				}
+			},
+			"main": "./dist/index.cjs",
+			"module": "./dist/index.js",
+			"types": "./dist/types/src/index.d.ts",
+			"peerDependencies": {
+				"@unocss/reset": ">=0.50.0-0",
+				"floating-vue": ">=2.0.0-0",
+				"unocss": ">=0.50.0-0",
+				"vue": ">=3.0.0-0"
+			},
+			"dependencies": {
+				"@vueuse/components": "^10.9.0",
+				"@vueuse/core": "^10.9.0",
+				"@vueuse/integrations": "^10.9.0",
+				"colord": "^2.9.3",
+				"focus-trap": "^7.5.4",
+				"@vue/devtools-shared": "7.1.1"
+			},
+			"devDependencies": {
+				"@histoire/plugin-vue": "^0.17.17",
+				"@types/node": "^20.12.7",
+				"@unocss/reset": "^0.59.4",
+				"@vitejs/plugin-vue": "^5.0.4",
+				"floating-vue": "5.2.2",
+				"histoire": "^0.17.17",
+				"unocss": "^0.59.4",
+				"vite-plugin-dts": "^3.8.3"
+			},
+			"scripts": {
+				"build": "vite build",
+				"story:build": "histoire build",
+				"story:dev": "histoire dev",
+				"story:preview": "histoire preview"
+			},
+			"description": "> UI kit for DevTools.",
+			"_id": "@vue/devtools-ui@7.1.1",
+			"_integrity": "sha512-znGVe8Qf8gCk5bpdtKqmTKms7tqrCJUiyGPCrOnSlMukXqXYCB+reYUiFPyYX/yomWDwbyDuq8IYjLBBQIDRjw==",
+			"_resolved": "/private/var/folders/6s/79hm4q7x5f982tndmbvckmn80000gn/T/066fcd7a14f1be57b7ebb430470fcd46/vue-devtools-ui-7.1.1.tgz",
+			"_from": "file:vue-devtools-ui-7.1.1.tgz",
+			"_nodeVersion": "20.12.2",
+			"_npmVersion": "10.5.0",
+			"dist": {
+				"integrity": "sha512-znGVe8Qf8gCk5bpdtKqmTKms7tqrCJUiyGPCrOnSlMukXqXYCB+reYUiFPyYX/yomWDwbyDuq8IYjLBBQIDRjw==",
+				"shasum": "f0953bdf564742d8fdbad87ab271b84d51ee4abc",
+				"tarball": "https://registry.npmjs.org/@vue/devtools-ui/-/devtools-ui-7.1.1.tgz",
+				"fileCount": 37,
+				"unpackedSize": 182140,
+				"signatures": [
+					{
+						"keyid": "SHA256:jl3bwswu80PjjokCgh0o2w5c2U4LhQAE57gj9cz1kzA",
+						"sig": "MEYCIQDUCur6+hGrQPryRAWI6uJWhV96OlddooM0PYFIgQ2IdwIhAL6WnMdLKj3iwOyqhQ9Yq7MnfYt3I7s61mbP6rqvofc0"
+					}
+				]
+			},
+			"_npmUser": {
+				"name": "webfansplz",
+				"email": "webfansplz@gmail.com"
+			},
+			"directories": {},
+			"maintainers": [
+				{
+					"name": "webfansplz",
+					"email": "webfansplz@gmail.com"
+				}
+			],
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/devtools-ui_7.1.1_1713883037092_0.5426536424232495"
+			},
+			"_hasShrinkwrap": false,
+			"contributors": []
+		},
+		"7.1.2": {
+			"name": "@vue/devtools-ui",
+			"type": "module",
+			"version": "7.1.2",
+			"author": {
+				"name": "webfansplz"
+			},
+			"license": "MIT",
+			"exports": {
+				".": {
+					"types": "./dist/types/src/index.d.ts",
+					"import": "./dist/index.js",
+					"require": "./dist/index.cjs"
+				},
+				"./style.css": "./dist/style.css",
+				"./theme": {
+					"types": "./dist/types/theme/index.d.ts",
+					"import": "./dist/theme.js",
+					"require": "./dist/theme.cjs"
+				}
+			},
+			"main": "./dist/index.cjs",
+			"module": "./dist/index.js",
+			"types": "./dist/types/src/index.d.ts",
+			"peerDependencies": {
+				"@unocss/reset": ">=0.50.0-0",
+				"floating-vue": ">=2.0.0-0",
+				"unocss": ">=0.50.0-0",
+				"vue": ">=3.0.0-0"
+			},
+			"dependencies": {
+				"@vueuse/components": "^10.9.0",
+				"@vueuse/core": "^10.9.0",
+				"@vueuse/integrations": "^10.9.0",
+				"colord": "^2.9.3",
+				"focus-trap": "^7.5.4",
+				"@vue/devtools-shared": "7.1.2"
+			},
+			"devDependencies": {
+				"@histoire/plugin-vue": "^0.17.17",
+				"@types/node": "^20.12.7",
+				"@unocss/reset": "^0.59.4",
+				"@vitejs/plugin-vue": "^5.0.4",
+				"floating-vue": "5.2.2",
+				"histoire": "^0.17.17",
+				"unocss": "^0.59.4",
+				"vite-plugin-dts": "^3.8.3"
+			},
+			"scripts": {
+				"build": "vite build",
+				"story:build": "histoire build",
+				"story:dev": "histoire dev",
+				"story:preview": "histoire preview"
+			},
+			"description": "> UI kit for DevTools.",
+			"_id": "@vue/devtools-ui@7.1.2",
+			"_integrity": "sha512-LUjLRnG4Ft/kHP+yy1/Gdscz3YH6NG4i1sDtqLL/L+fmsJc6WDppXaUzylaHvpKDTh+eSG8OSZr5Jm51gEQFhw==",
+			"_resolved": "/private/var/folders/6s/79hm4q7x5f982tndmbvckmn80000gn/T/2a6c5f8271b1244efeafc7c415571dda/vue-devtools-ui-7.1.2.tgz",
+			"_from": "file:vue-devtools-ui-7.1.2.tgz",
+			"_nodeVersion": "20.12.2",
+			"_npmVersion": "10.5.0",
+			"dist": {
+				"integrity": "sha512-LUjLRnG4Ft/kHP+yy1/Gdscz3YH6NG4i1sDtqLL/L+fmsJc6WDppXaUzylaHvpKDTh+eSG8OSZr5Jm51gEQFhw==",
+				"shasum": "fac4c90cdcc5a7272efe3f02a17654d88b79f7da",
+				"tarball": "https://registry.npmjs.org/@vue/devtools-ui/-/devtools-ui-7.1.2.tgz",
+				"fileCount": 37,
+				"unpackedSize": 182140,
+				"signatures": [
+					{
+						"keyid": "SHA256:jl3bwswu80PjjokCgh0o2w5c2U4LhQAE57gj9cz1kzA",
+						"sig": "MEYCIQDkoSN+84wBUPg0fKQMg1CZ/VUVgZ/yFcFJu4a4TeOrBgIhAIdGNyQ6FeGN35GyMhWWnXctUMzC4njdCX2zXnvQlSgK"
+					}
+				]
+			},
+			"_npmUser": {
+				"name": "webfansplz",
+				"email": "webfansplz@gmail.com"
+			},
+			"directories": {},
+			"maintainers": [
+				{
+					"name": "webfansplz",
+					"email": "webfansplz@gmail.com"
+				}
+			],
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/devtools-ui_7.1.2_1713883745521_0.7381730914695339"
+			},
+			"_hasShrinkwrap": false,
+			"contributors": []
+		},
+		"7.1.3": {
+			"name": "@vue/devtools-ui",
+			"type": "module",
+			"version": "7.1.3",
+			"author": {
+				"name": "webfansplz"
+			},
+			"license": "MIT",
+			"exports": {
+				".": {
+					"types": "./dist/types/src/index.d.ts",
+					"import": "./dist/index.js",
+					"require": "./dist/index.cjs"
+				},
+				"./style.css": "./dist/style.css",
+				"./theme": {
+					"types": "./dist/types/theme/index.d.ts",
+					"import": "./dist/theme.js",
+					"require": "./dist/theme.cjs"
+				}
+			},
+			"main": "./dist/index.cjs",
+			"module": "./dist/index.js",
+			"types": "./dist/types/src/index.d.ts",
+			"peerDependencies": {
+				"@unocss/reset": ">=0.50.0-0",
+				"floating-vue": ">=2.0.0-0",
+				"unocss": ">=0.50.0-0",
+				"vue": ">=3.0.0-0"
+			},
+			"dependencies": {
+				"@vueuse/components": "^10.9.0",
+				"@vueuse/core": "^10.9.0",
+				"@vueuse/integrations": "^10.9.0",
+				"colord": "^2.9.3",
+				"focus-trap": "^7.5.4",
+				"@vue/devtools-shared": "7.1.3"
+			},
+			"devDependencies": {
+				"@histoire/plugin-vue": "^0.17.17",
+				"@types/node": "^20.12.7",
+				"@unocss/reset": "^0.59.4",
+				"@vitejs/plugin-vue": "^5.0.4",
+				"floating-vue": "5.2.2",
+				"histoire": "^0.17.17",
+				"unocss": "^0.59.4",
+				"vite-plugin-dts": "^3.8.3"
+			},
+			"scripts": {
+				"build": "vite build",
+				"story:build": "histoire build",
+				"story:dev": "histoire dev",
+				"story:preview": "histoire preview"
+			},
+			"description": "> UI kit for DevTools.",
+			"_id": "@vue/devtools-ui@7.1.3",
+			"_integrity": "sha512-gO2EV3T0wO+HK884+m6UgTEirNOuf+k8U4PcR0vIYA97/A9nTzv9HheCRyFMiHMePYxnlBOsgD7K2fp1/M+EWA==",
+			"_resolved": "/private/var/folders/6s/79hm4q7x5f982tndmbvckmn80000gn/T/9d47e526f9a8f4bc656e625fb7e00ee3/vue-devtools-ui-7.1.3.tgz",
+			"_from": "file:vue-devtools-ui-7.1.3.tgz",
+			"_nodeVersion": "20.12.2",
+			"_npmVersion": "10.5.0",
+			"dist": {
+				"integrity": "sha512-gO2EV3T0wO+HK884+m6UgTEirNOuf+k8U4PcR0vIYA97/A9nTzv9HheCRyFMiHMePYxnlBOsgD7K2fp1/M+EWA==",
+				"shasum": "346866cc8a6a72984c7e8b7f12c070c56a6ae387",
+				"tarball": "https://registry.npmjs.org/@vue/devtools-ui/-/devtools-ui-7.1.3.tgz",
+				"fileCount": 37,
+				"unpackedSize": 182140,
+				"signatures": [
+					{
+						"keyid": "SHA256:jl3bwswu80PjjokCgh0o2w5c2U4LhQAE57gj9cz1kzA",
+						"sig": "MEUCIC22wDtsfS94aAUnSy14JPDp2iBbpWlYcdOjbSLhWKXAAiEAgZ2DUaNtH0VF8XM/hoL5/pr27StTXek+OCUMuGLZakM="
+					}
+				]
+			},
+			"_npmUser": {
+				"name": "webfansplz",
+				"email": "webfansplz@gmail.com"
+			},
+			"directories": {},
+			"maintainers": [
+				{
+					"name": "webfansplz",
+					"email": "webfansplz@gmail.com"
+				}
+			],
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/devtools-ui_7.1.3_1714140944911_0.3912266067138761"
+			},
+			"_hasShrinkwrap": false,
+			"contributors": []
+		}
+	},
+	"time": {
+		"created": "2023-12-29T08:39:21.511Z",
+		"7.0.0": "2023-12-29T08:39:21.816Z",
+		"modified": "2024-04-26T14:15:45.246Z",
+		"7.0.1": "2023-12-29T16:07:56.670Z",
+		"7.0.2": "2023-12-29T16:59:47.484Z",
+		"7.0.3": "2024-01-02T15:03:00.463Z",
+		"7.0.4": "2024-01-03T12:55:13.925Z",
+		"7.0.5": "2024-01-04T15:47:09.724Z",
+		"7.0.6": "2024-01-06T08:16:18.510Z",
+		"7.0.7": "2024-01-09T11:55:24.317Z",
+		"7.0.8": "2024-01-11T13:08:51.854Z",
+		"7.0.9": "2024-01-14T06:02:00.515Z",
+		"7.0.10": "2024-01-14T07:54:45.339Z",
+		"7.0.11": "2024-01-18T12:25:02.956Z",
+		"7.0.12": "2024-01-25T14:23:57.368Z",
+		"7.0.13": "2024-01-26T04:26:04.466Z",
+		"7.0.14": "2024-02-01T14:47:23.230Z",
+		"7.0.15": "2024-02-16T14:55:04.698Z",
+		"7.0.16": "2024-03-02T04:05:56.364Z",
+		"7.0.17": "2024-03-12T14:05:33.749Z",
+		"7.0.18": "2024-03-17T07:13:06.997Z",
+		"7.0.19": "2024-03-19T04:57:16.783Z",
+		"7.0.20": "2024-03-20T15:48:26.978Z",
+		"7.0.21": "2024-03-25T17:03:31.234Z",
+		"7.0.22": "2024-03-26T12:31:03.778Z",
+		"7.0.23": "2024-03-26T15:31:07.832Z",
+		"7.0.24": "2024-03-27T04:38:21.442Z",
+		"7.0.25": "2024-03-28T04:48:35.177Z",
+		"7.0.26": "2024-04-10T04:48:43.470Z",
+		"7.0.27": "2024-04-10T13:00:23.936Z",
+		"7.1.0": "2024-04-23T14:12:30.165Z",
+		"7.1.1": "2024-04-23T14:37:17.226Z",
+		"7.1.2": "2024-04-23T14:49:05.693Z",
+		"7.1.3": "2024-04-26T14:15:45.059Z"
+	},
+	"users": {},
+	"dist-tags": {
+		"latest": "7.1.3"
+	},
+	"_uplinks": {
+		"npmjs": {
+			"etag": "W/\"f97924991d8cf027bab829722fef4e6f\"",
+			"fetched": 1715345913625
+		}
+	},
+	"_distfiles": {
+		"devtools-ui-7.0.0.tgz": {
+			"url": "https://registry.npmjs.org/@vue/devtools-ui/-/devtools-ui-7.0.0.tgz",
+			"sha": "34dfdaa2ab8719492377144dc3c605f492878627",
+			"registry": "npmjs"
+		},
+		"devtools-ui-7.0.1.tgz": {
+			"url": "https://registry.npmjs.org/@vue/devtools-ui/-/devtools-ui-7.0.1.tgz",
+			"sha": "b84aeed614b03c750f205135a606290cb6bb1813",
+			"registry": "npmjs"
+		},
+		"devtools-ui-7.0.2.tgz": {
+			"url": "https://registry.npmjs.org/@vue/devtools-ui/-/devtools-ui-7.0.2.tgz",
+			"sha": "5507e513cea39fc4e1fc07b67526de87507aa3f8",
+			"registry": "npmjs"
+		},
+		"devtools-ui-7.0.3.tgz": {
+			"url": "https://registry.npmjs.org/@vue/devtools-ui/-/devtools-ui-7.0.3.tgz",
+			"sha": "3b10a4b3c5035747f6bb6c11672527d9ea2d9b90",
+			"registry": "npmjs"
+		},
+		"devtools-ui-7.0.4.tgz": {
+			"url": "https://registry.npmjs.org/@vue/devtools-ui/-/devtools-ui-7.0.4.tgz",
+			"sha": "24d7332fbe122aedb7c4eff325bbe0a12e0bb31d",
+			"registry": "npmjs"
+		},
+		"devtools-ui-7.0.5.tgz": {
+			"url": "https://registry.npmjs.org/@vue/devtools-ui/-/devtools-ui-7.0.5.tgz",
+			"sha": "260543f99cfb410e53d6994100721585aafb6ad3",
+			"registry": "npmjs"
+		},
+		"devtools-ui-7.0.6.tgz": {
+			"url": "https://registry.npmjs.org/@vue/devtools-ui/-/devtools-ui-7.0.6.tgz",
+			"sha": "011cc6075af2e1d05610feaa7d868ea56db966b8",
+			"registry": "npmjs"
+		},
+		"devtools-ui-7.0.7.tgz": {
+			"url": "https://registry.npmjs.org/@vue/devtools-ui/-/devtools-ui-7.0.7.tgz",
+			"sha": "62b419e97f7d27d09650e7e5a1edead47ecb020c",
+			"registry": "npmjs"
+		},
+		"devtools-ui-7.0.8.tgz": {
+			"url": "https://registry.npmjs.org/@vue/devtools-ui/-/devtools-ui-7.0.8.tgz",
+			"sha": "4f5fa21da3495a6541c80830087820d60727136b",
+			"registry": "npmjs"
+		},
+		"devtools-ui-7.0.9.tgz": {
+			"url": "https://registry.npmjs.org/@vue/devtools-ui/-/devtools-ui-7.0.9.tgz",
+			"sha": "078480827bd66a135773b3b4e3593db2968279e4",
+			"registry": "npmjs"
+		},
+		"devtools-ui-7.0.10.tgz": {
+			"url": "https://registry.npmjs.org/@vue/devtools-ui/-/devtools-ui-7.0.10.tgz",
+			"sha": "dcca20053a7665946203d2ed5b3cb59b3bf1734d",
+			"registry": "npmjs"
+		},
+		"devtools-ui-7.0.11.tgz": {
+			"url": "https://registry.npmjs.org/@vue/devtools-ui/-/devtools-ui-7.0.11.tgz",
+			"sha": "4fc6bddfe6675d693510796515f29d604b0b9c8d",
+			"registry": "npmjs"
+		},
+		"devtools-ui-7.0.12.tgz": {
+			"url": "https://registry.npmjs.org/@vue/devtools-ui/-/devtools-ui-7.0.12.tgz",
+			"sha": "e919ec3a3043665d6d5e1793fd21114e3377c80b",
+			"registry": "npmjs"
+		},
+		"devtools-ui-7.0.13.tgz": {
+			"url": "https://registry.npmjs.org/@vue/devtools-ui/-/devtools-ui-7.0.13.tgz",
+			"sha": "6d87e112170225c3daa8d0de58107ad09d0da93f",
+			"registry": "npmjs"
+		},
+		"devtools-ui-7.0.14.tgz": {
+			"url": "https://registry.npmjs.org/@vue/devtools-ui/-/devtools-ui-7.0.14.tgz",
+			"sha": "773ffabbf1ee6c6cb002d7f8f234c73dbd814d4c",
+			"registry": "npmjs"
+		},
+		"devtools-ui-7.0.15.tgz": {
+			"url": "https://registry.npmjs.org/@vue/devtools-ui/-/devtools-ui-7.0.15.tgz",
+			"sha": "ebd14a1be869b5cc909fe23768e0454057ab987d",
+			"registry": "npmjs"
+		},
+		"devtools-ui-7.0.16.tgz": {
+			"url": "https://registry.npmjs.org/@vue/devtools-ui/-/devtools-ui-7.0.16.tgz",
+			"sha": "930e955775a978ae32e9a72a358db69e543ad515",
+			"registry": "npmjs"
+		},
+		"devtools-ui-7.0.17.tgz": {
+			"url": "https://registry.npmjs.org/@vue/devtools-ui/-/devtools-ui-7.0.17.tgz",
+			"sha": "a01c7218859e977f1a2e4069b9869f23ec02948c",
+			"registry": "npmjs"
+		},
+		"devtools-ui-7.0.18.tgz": {
+			"url": "https://registry.npmjs.org/@vue/devtools-ui/-/devtools-ui-7.0.18.tgz",
+			"sha": "3d149c99b5950cdcbeccf9a60b05d3fd8bd376c8",
+			"registry": "npmjs"
+		},
+		"devtools-ui-7.0.19.tgz": {
+			"url": "https://registry.npmjs.org/@vue/devtools-ui/-/devtools-ui-7.0.19.tgz",
+			"sha": "f10071e286519676a1d662753131213f0b0cc4e9",
+			"registry": "npmjs"
+		},
+		"devtools-ui-7.0.20.tgz": {
+			"url": "https://registry.npmjs.org/@vue/devtools-ui/-/devtools-ui-7.0.20.tgz",
+			"sha": "e9fac207a92d6e62a9b0f6fc9d6cf85de559ebfb",
+			"registry": "npmjs"
+		},
+		"devtools-ui-7.0.21.tgz": {
+			"url": "https://registry.npmjs.org/@vue/devtools-ui/-/devtools-ui-7.0.21.tgz",
+			"sha": "cba45c328ab19176ab221a395b5ca2de599eaea1",
+			"registry": "npmjs"
+		},
+		"devtools-ui-7.0.22.tgz": {
+			"url": "https://registry.npmjs.org/@vue/devtools-ui/-/devtools-ui-7.0.22.tgz",
+			"sha": "8a09158c840f033c3cdadfa5436e3ad324505903",
+			"registry": "npmjs"
+		},
+		"devtools-ui-7.0.23.tgz": {
+			"url": "https://registry.npmjs.org/@vue/devtools-ui/-/devtools-ui-7.0.23.tgz",
+			"sha": "c252380f201fb3c9b10879b9bde0c39d32e55023",
+			"registry": "npmjs"
+		},
+		"devtools-ui-7.0.24.tgz": {
+			"url": "https://registry.npmjs.org/@vue/devtools-ui/-/devtools-ui-7.0.24.tgz",
+			"sha": "1817fc5c08de14068b579c6510c21466c5877c5e",
+			"registry": "npmjs"
+		},
+		"devtools-ui-7.0.25.tgz": {
+			"url": "https://registry.npmjs.org/@vue/devtools-ui/-/devtools-ui-7.0.25.tgz",
+			"sha": "77b632583f74ea55974a99c94d7a673ddfbd4ebc",
+			"registry": "npmjs"
+		},
+		"devtools-ui-7.0.26.tgz": {
+			"url": "https://registry.npmjs.org/@vue/devtools-ui/-/devtools-ui-7.0.26.tgz",
+			"sha": "30648b88fe08d2d224942f8f98c79a21625a552d",
+			"registry": "npmjs"
+		},
+		"devtools-ui-7.0.27.tgz": {
+			"url": "https://registry.npmjs.org/@vue/devtools-ui/-/devtools-ui-7.0.27.tgz",
+			"sha": "524e53a018e9f2d8669a0abee2642c7a98639da2",
+			"registry": "npmjs"
+		},
+		"devtools-ui-7.1.0.tgz": {
+			"url": "https://registry.npmjs.org/@vue/devtools-ui/-/devtools-ui-7.1.0.tgz",
+			"sha": "5d88ef4a32571fc4861f17bf2f766d3e7a4f1a2e",
+			"registry": "npmjs"
+		},
+		"devtools-ui-7.1.1.tgz": {
+			"url": "https://registry.npmjs.org/@vue/devtools-ui/-/devtools-ui-7.1.1.tgz",
+			"sha": "f0953bdf564742d8fdbad87ab271b84d51ee4abc",
+			"registry": "npmjs"
+		},
+		"devtools-ui-7.1.2.tgz": {
+			"url": "https://registry.npmjs.org/@vue/devtools-ui/-/devtools-ui-7.1.2.tgz",
+			"sha": "fac4c90cdcc5a7272efe3f02a17654d88b79f7da",
+			"registry": "npmjs"
+		},
+		"devtools-ui-7.1.3.tgz": {
+			"url": "https://registry.npmjs.org/@vue/devtools-ui/-/devtools-ui-7.1.3.tgz",
+			"sha": "346866cc8a6a72984c7e8b7f12c070c56a6ae387",
+			"registry": "npmjs"
+		}
+	},
+	"_attachments": {
+		"devtools-ui-7.1.3.tgz": {
+			"shasum": "346866cc8a6a72984c7e8b7f12c070c56a6ae387"
+		}
+	},
+	"_rev": "2-759ff7daeaacce35",
+	"_id": "@vue/devtools-ui",
+	"readme": "# @vue/devtools-ui\n\n> UI kit for DevTools."
+}

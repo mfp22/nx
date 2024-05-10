@@ -1,0 +1,1649 @@
+{
+	"name": "spawnd",
+	"versions": {
+		"1.1.0": {
+			"name": "spawnd",
+			"description": "Spawn a dependent child process.",
+			"version": "1.1.0",
+			"main": "lib/index.js",
+			"repository": {
+				"type": "git",
+				"url": "https://github.com/smooth-code/jest-puppeteer/tree/master/packages/spawnd"
+			},
+			"author": {
+				"name": "Greg Bergé",
+				"email": "berge.greg@gmail.com"
+			},
+			"license": "MIT",
+			"keywords": [
+				"spawn",
+				"exec",
+				"process",
+				"child_process",
+				"depe,dent",
+				"exit",
+				"child"
+			],
+			"scripts": {
+				"prebuild": "rm -rf lib/",
+				"build": "babel src -d lib --ignore \"*.test.js\"",
+				"dev": "yarn build --watch",
+				"prepublishOnly": "yarn build"
+			},
+			"dependencies": {
+				"exit": "^0.1.2",
+				"signal-exit": "^3.0.2",
+				"terminate": "^2.1.0",
+				"wait-port": "^0.2.2"
+			},
+			"licenseText": "Copyright 2018 Smooth Code\n\nPermission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the \"Software\"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:\n\nThe above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.\n\nTHE SOFTWARE IS PROVIDED \"AS IS\", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.\n",
+			"_id": "spawnd@1.1.0",
+			"dist": {
+				"shasum": "eec82d96e9e748ce6a3b01a2393f211634a7ee65",
+				"tarball": "https://registry.npmjs.org/spawnd/-/spawnd-1.1.0.tgz",
+				"fileCount": 7,
+				"unpackedSize": 4680,
+				"integrity": "sha512-AMrcnhwuHuKiNM7hv1Mgnnq3ccUsIfLEFtRU0oTVetXjf9Gxn+cavp8zZvaJsE0Qq53c2glY7XIpOoAfvTRDuQ==",
+				"signatures": [
+					{
+						"keyid": "SHA256:jl3bwswu80PjjokCgh0o2w5c2U4LhQAE57gj9cz1kzA",
+						"sig": "MEUCIQDkdLl20mOdTyLhRUopWdUwA71cPjP/dXMuE02P9UWmbAIgHuofdhg84CpZaqOc2jHh756fFhQxc6HLQzEbvrxfz4g="
+					}
+				]
+			},
+			"maintainers": [
+				{
+					"name": "neoziro",
+					"email": "berge.greg@gmail.com"
+				}
+			],
+			"_npmUser": {
+				"name": "neoziro",
+				"email": "berge.greg@gmail.com"
+			},
+			"directories": {},
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/spawnd_1.1.0_1520191279965_0.8256981068359031"
+			},
+			"_hasShrinkwrap": false,
+			"contributors": []
+		},
+		"1.1.1": {
+			"name": "spawnd",
+			"description": "Spawn a dependent child process.",
+			"version": "1.1.1",
+			"main": "lib/index.js",
+			"repository": {
+				"type": "git",
+				"url": "https://github.com/smooth-code/jest-puppeteer/tree/master/packages/spawnd"
+			},
+			"author": {
+				"name": "Greg Bergé",
+				"email": "berge.greg@gmail.com"
+			},
+			"license": "MIT",
+			"keywords": [
+				"spawn",
+				"exec",
+				"process",
+				"child_process",
+				"depe,dent",
+				"exit",
+				"child"
+			],
+			"scripts": {
+				"prebuild": "rm -rf lib/",
+				"build": "babel src -d lib --ignore \"*.test.js\"",
+				"dev": "yarn build --watch",
+				"prepublishOnly": "yarn build"
+			},
+			"dependencies": {
+				"exit": "^0.1.2",
+				"signal-exit": "^3.0.2",
+				"terminate": "^2.1.0",
+				"wait-port": "^0.2.2"
+			},
+			"licenseText": "Copyright 2018 Smooth Code\n\nPermission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the \"Software\"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:\n\nThe above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.\n\nTHE SOFTWARE IS PROVIDED \"AS IS\", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.\n",
+			"_id": "spawnd@1.1.1",
+			"dist": {
+				"shasum": "a7288027fc32e72b2ca72d462f4f814ba0a489dd",
+				"tarball": "https://registry.npmjs.org/spawnd/-/spawnd-1.1.1.tgz",
+				"fileCount": 7,
+				"unpackedSize": 4994,
+				"integrity": "sha512-idga630IOfxto6zPpcPNCnUTen22Flvi25h6oATfsPQvu8qpgToOXtO7LPzaxXXQ11PL+S9Gpt+Origtj4yYXQ==",
+				"signatures": [
+					{
+						"keyid": "SHA256:jl3bwswu80PjjokCgh0o2w5c2U4LhQAE57gj9cz1kzA",
+						"sig": "MEQCID7iierCTvI18HtHoY2CEcdxmRaWW16iGAoX+LMkNRXRAiB2DIzD4/s1mHr7hroUfdi9s5j97DbeIUGhoHiP0Qp/Dw=="
+					}
+				]
+			},
+			"maintainers": [
+				{
+					"name": "neoziro",
+					"email": "berge.greg@gmail.com"
+				}
+			],
+			"_npmUser": {
+				"name": "neoziro",
+				"email": "berge.greg@gmail.com"
+			},
+			"directories": {},
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/spawnd_1.1.1_1520192248150_0.7643169483395451"
+			},
+			"_hasShrinkwrap": false,
+			"contributors": []
+		},
+		"2.0.0": {
+			"name": "spawnd",
+			"description": "Spawn a dependent child process.",
+			"version": "2.0.0",
+			"main": "lib/index.js",
+			"repository": {
+				"type": "git",
+				"url": "https://github.com/smooth-code/jest-puppeteer/tree/master/packages/spawnd"
+			},
+			"author": {
+				"name": "Greg Bergé",
+				"email": "berge.greg@gmail.com"
+			},
+			"license": "MIT",
+			"keywords": [
+				"spawn",
+				"exec",
+				"process",
+				"child_process",
+				"depe,dent",
+				"exit",
+				"child"
+			],
+			"scripts": {
+				"prebuild": "rm -rf lib/",
+				"build": "babel src -d lib --ignore \"*.test.js\"",
+				"dev": "yarn build --watch",
+				"prepublishOnly": "yarn build"
+			},
+			"dependencies": {
+				"exit": "^0.1.2",
+				"signal-exit": "^3.0.2",
+				"terminate": "^2.1.0",
+				"wait-port": "^0.2.2"
+			},
+			"licenseText": "Copyright 2018 Smooth Code\n\nPermission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the \"Software\"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:\n\nThe above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.\n\nTHE SOFTWARE IS PROVIDED \"AS IS\", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.\n",
+			"_id": "spawnd@2.0.0",
+			"dist": {
+				"shasum": "d2020403dc5ef72ecac3ffab9b42fa16ae9175f5",
+				"tarball": "https://registry.npmjs.org/spawnd/-/spawnd-2.0.0.tgz",
+				"fileCount": 7,
+				"unpackedSize": 5391,
+				"integrity": "sha512-0ky2NF2cvfl+9nw6GhNYEkh2xudHQj+chcyDqKFWwgrbbLTBICm1dBmQzwtEqCi62gpjQo6dbcPFgHtRgk4JVw==",
+				"signatures": [
+					{
+						"keyid": "SHA256:jl3bwswu80PjjokCgh0o2w5c2U4LhQAE57gj9cz1kzA",
+						"sig": "MEYCIQD+yV3TQD3bk+ZcLf9QOUeKlMBEG0Mwuemy2BtM0Ie32AIhAOvCo1LBNBfxqUmAVhAoNrNxHULKP038FE0A/MP08zVu"
+					}
+				]
+			},
+			"maintainers": [
+				{
+					"name": "neoziro",
+					"email": "berge.greg@gmail.com"
+				}
+			],
+			"_npmUser": {
+				"name": "neoziro",
+				"email": "berge.greg@gmail.com"
+			},
+			"directories": {},
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/spawnd_2.0.0_1520242700102_0.26228786112473146"
+			},
+			"_hasShrinkwrap": false,
+			"contributors": []
+		},
+		"3.4.0": {
+			"name": "spawnd",
+			"description": "Spawn a dependent child process.",
+			"version": "3.4.0",
+			"main": "lib/index.js",
+			"repository": {
+				"type": "git",
+				"url": "https://github.com/smooth-code/jest-puppeteer/tree/master/packages/spawnd"
+			},
+			"author": {
+				"name": "Greg Bergé",
+				"email": "berge.greg@gmail.com"
+			},
+			"license": "MIT",
+			"keywords": [
+				"spawn",
+				"exec",
+				"process",
+				"child_process",
+				"depe,dent",
+				"exit",
+				"child"
+			],
+			"scripts": {
+				"prebuild": "rm -rf lib/",
+				"build": "babel --config-file ../../babel.config.js -d lib --ignore \"**/*.test.js\" src",
+				"dev": "yarn build --watch",
+				"prepublishOnly": "yarn build"
+			},
+			"dependencies": {
+				"exit": "^0.1.2",
+				"signal-exit": "^3.0.2",
+				"terminate": "^2.1.0",
+				"wait-port": "^0.2.2"
+			},
+			"gitHead": "5c014f28a9a67b765dcc468471bc23a437903b18",
+			"licenseText": "Copyright 2018 Smooth Code\n\nPermission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the \"Software\"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:\n\nThe above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.\n\nTHE SOFTWARE IS PROVIDED \"AS IS\", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.\n",
+			"_id": "spawnd@3.4.0",
+			"dist": {
+				"shasum": "73d71bdf6e9d196ecef9a22ab433e978a7a31bec",
+				"tarball": "https://registry.npmjs.org/spawnd/-/spawnd-3.4.0.tgz",
+				"integrity": "sha512-bP+Cc5/jhjXJjMJNt/qX/0xuUkoMFqy5AbXIy0zZNdozzG6RF7F0oSzy7fX4B2ctqT/gNRFrAah0bLsBP7X6QA==",
+				"fileCount": 5,
+				"unpackedSize": 5592,
+				"npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.4\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJbqKuVCRA9TVsSAnZWagAAY9MP/3S+RXWkq5RAwPMACm3S\nHotKEYzVbvcwBM4ZfBX/IzbgMNdCTrTzTOZSHzYkgFGnsuuIxkrXh+vVTtcE\nHM8PtGMnKTRR72kDcS+gypA4rmHgdMB8P4IsmM1FdyEktAxrwX7ZKlzFqxuu\nFS8AzzUfxPCSpnN16NuzXNqikXs7+4Ex+gBirOn0+4UmZjl1GuPNVp3fLsLa\n1qgMsy6SDoP4RveSB4RNVyW5ng3/aLvwZOLv1UbuX9iDwoIZfV6HsgeLOxPT\nq88UvZ/6zbUpv/CuRGM2DeGQDRWwWIpHSsbMp6Gr2CWBjTRkfpEtP+yALGZP\nr+0hW2vuYyz7PqfU7fwGXamiiYetdmxtZ+kLFpb4lMgnbYDB8t9OhhmvHQor\nAPu5xB3KzgiDb/u706kf9KGZLV3IW8ZkcRv6zSXQ6L3Owq/k/KSmor6Bzse/\nuPb4p3vUI4EJsFV4Zxpnhay2BtqZ3ED9QErwi0vZp58Bjx9dSRY61Tgjq0Rd\nhc0+ro3FIeaSHEWC+7gLURPMSoiQcAii3RhOEhCrzJmB9E3NRaTYbjMZvg8j\nrL5slKsnObOmRNbL4eIlNfxgdb/1pGv9q1/lC4E4BKOaMIPhTBFtYw893dpI\n6ShFj3F5/3Y1hrQX5qYskvPRveGxlXm0Rmk7HV+GtEUBiU7Gg25jQep5p7uJ\nMDgO\r\n=tbNb\r\n-----END PGP SIGNATURE-----\r\n",
+				"signatures": [
+					{
+						"keyid": "SHA256:jl3bwswu80PjjokCgh0o2w5c2U4LhQAE57gj9cz1kzA",
+						"sig": "MEQCIFiVohsNiOOzZAnZJ5GzPqvX+kEmXoSaoQsUeKPfdOlZAiAvCgEA14ldHQYk8YUaQDXzuAvs7lvIoW0SZe9FhSensA=="
+					}
+				]
+			},
+			"maintainers": [
+				{
+					"name": "neoziro",
+					"email": "berge.greg@gmail.com"
+				}
+			],
+			"_npmUser": {
+				"name": "neoziro",
+				"email": "berge.greg@gmail.com"
+			},
+			"directories": {},
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/spawnd_3.4.0_1537780628727_0.7010483462496937"
+			},
+			"_hasShrinkwrap": false,
+			"contributors": []
+		},
+		"3.5.2": {
+			"name": "spawnd",
+			"description": "Spawn a dependent child process.",
+			"version": "3.5.2",
+			"main": "lib/index.js",
+			"repository": {
+				"type": "git",
+				"url": "https://github.com/smooth-code/jest-puppeteer/tree/master/packages/spawnd"
+			},
+			"author": {
+				"name": "Greg Bergé",
+				"email": "berge.greg@gmail.com"
+			},
+			"license": "MIT",
+			"keywords": [
+				"spawn",
+				"exec",
+				"process",
+				"child_process",
+				"depe,dent",
+				"exit",
+				"child"
+			],
+			"scripts": {
+				"prebuild": "rm -rf lib/",
+				"build": "babel --config-file ../../babel.config.js -d lib --ignore \"**/*.test.js\" src",
+				"dev": "yarn build --watch",
+				"prepublishOnly": "yarn build"
+			},
+			"dependencies": {
+				"exit": "^0.1.2",
+				"signal-exit": "^3.0.2",
+				"terminate": "^2.1.2",
+				"wait-port": "^0.2.2"
+			},
+			"gitHead": "3c77d2603c864a43647cd6ed7d40a6f133d116b4",
+			"licenseText": "Copyright 2018 Smooth Code\n\nPermission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the \"Software\"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:\n\nThe above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.\n\nTHE SOFTWARE IS PROVIDED \"AS IS\", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.\n",
+			"_id": "spawnd@3.5.2",
+			"dist": {
+				"shasum": "a3a546544666e5c8a22e0329fcfecc92cb10d307",
+				"integrity": "sha512-taf6nYLIl8b3b1RNt0YuxnIUUgHqfx+nix8Rdr2FkNG8259+Jt8YJahrPDShOPa9vCMnDPfPsefRAY/oJy+QBg==",
+				"tarball": "https://registry.npmjs.org/spawnd/-/spawnd-3.5.2.tgz",
+				"fileCount": 5,
+				"unpackedSize": 5876,
+				"npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.4\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJb/QepCRA9TVsSAnZWagAAxgYP/0sXlFm9ju5VpYEGBB79\nElMtWdZgo2w0T/j3h6pfGSlzXv8jpv21F4wDKqR3Ro0t1Zg/P4FJWZJ5OahT\nA16GhzZ3P1MJ14SR4+LXaFzniKJmvfAdfb6X7/wPmgNBQJQy1IdM4PPHNZHN\nQ2m3UKDOpRX/HKPdjVzBAucJIwpgAMv/7Tq0lEHEN7pLEukZl6/ix30g2GTA\nSJoznlxlPONLOp0+AmfkRA7CKBBvH0ntQLUi5bVLRMXbazDVPlYNLybZrJBW\n9CMhoObpova8RTVffWVT1C9fGg3BS1ITvgMfQ3IstIy1bmnT2I2pi9CqRZmJ\nN6+m1OgTZToRqdRBAm1uw68AvoSXgJMtbUkcCL9s4SaVwzID4r32rOegJrIk\nuop/shrJIjDKxFjfHA8KzE1ukll0cD25WO/lEO0+bePHJGbMUIkZedcp6D5r\ngsU6jOpviA64owWkOZYzkr5b9hC7nUyOK58EJ17Qh9wXtq6UQz1vGaQI0udB\nkspHty35AuK2GtFhTv/IXPcXUHsw6pU4DyWJZhK72MuL3nc2MB8WRJfv4q6i\nByL1Av76KtjMGmpVPsibDQmWBfaqCDsOxqf2AYYeDD7ilvsNhPLJaqeo+Qgm\nfT9y3VJR9ynwAIktzDzf5IAVW1rSJnhZ8bh6X2VzPCYfg+YWKfzdyVNMt7bI\nLrOD\r\n=ck0u\r\n-----END PGP SIGNATURE-----\r\n",
+				"signatures": [
+					{
+						"keyid": "SHA256:jl3bwswu80PjjokCgh0o2w5c2U4LhQAE57gj9cz1kzA",
+						"sig": "MEUCIQDn/fiH7/Th+ZR7Rhdy/1rrwuTOSJ0LZQOFeJSwq3BckgIgPGDU+7K4AfZoSNCVc2V/lBMkcphMEw91owriJoLVxO8="
+					}
+				]
+			},
+			"maintainers": [
+				{
+					"name": "neoziro",
+					"email": "berge.greg@gmail.com"
+				}
+			],
+			"_npmUser": {
+				"name": "neoziro",
+				"email": "berge.greg@gmail.com"
+			},
+			"directories": {},
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/spawnd_3.5.2_1543309224450_0.35978063273693595"
+			},
+			"_hasShrinkwrap": false,
+			"contributors": []
+		},
+		"3.7.0": {
+			"name": "spawnd",
+			"description": "Spawn a dependent child process.",
+			"version": "3.7.0",
+			"main": "lib/index.js",
+			"repository": {
+				"type": "git",
+				"url": "https://github.com/smooth-code/jest-puppeteer/tree/master/packages/spawnd"
+			},
+			"author": {
+				"name": "Greg Bergé",
+				"email": "berge.greg@gmail.com"
+			},
+			"license": "MIT",
+			"keywords": [
+				"spawn",
+				"exec",
+				"process",
+				"child_process",
+				"depe,dent",
+				"exit",
+				"child"
+			],
+			"scripts": {
+				"prebuild": "rm -rf lib/",
+				"build": "babel --config-file ../../babel.config.js -d lib --ignore \"**/*.test.js\" src",
+				"dev": "yarn build --watch",
+				"prepublishOnly": "yarn build"
+			},
+			"dependencies": {
+				"exit": "^0.1.2",
+				"signal-exit": "^3.0.2",
+				"tree-kill": "^1.2.1",
+				"wait-port": "^0.2.2"
+			},
+			"gitHead": "8b7df93ed52fd2edabaa7af702aaa4742e13c81b",
+			"licenseText": "Copyright 2018 Smooth Code\n\nPermission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the \"Software\"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:\n\nThe above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.\n\nTHE SOFTWARE IS PROVIDED \"AS IS\", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.\n",
+			"_id": "spawnd@3.7.0",
+			"dist": {
+				"shasum": "9807503ab408950771b93634e3f76115bcc8fe31",
+				"integrity": "sha512-ENQEB/aHTBg9327fog7uzrjuRkJGZvlBjlY+9TZsu52ATme6NwE/bAVRoRP7+0jnFljK00rwbMbWszQ9bjxg2Q==",
+				"tarball": "https://registry.npmjs.org/spawnd/-/spawnd-3.7.0.tgz",
+				"fileCount": 5,
+				"unpackedSize": 6248,
+				"npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.4\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJcEEpJCRA9TVsSAnZWagAAypkP/iROON1tCY6AVgF4zbU8\nQFFJNoUAtenhgDLb6T4W7/KwdNDAHFRft43Wv4d6re8ycSttFZ1nYRJ93wXG\ne2YvM0O6O9h3y9I91xuIrvE3757JqJgooNFDd8u78FSbmxCZlzIVpKRDRAKj\nv004GCHhMQT9vLSxZW0FVJYD7o1xiP8bJBQzYJ5xYFkOPd7TzLbeBs6+AiiH\ngJ7XCis8oEW5vQTVDRTDjdz3VmGFlcRy4WvL9DLhRRnpdnCvIgLySUwSdVrI\n0CU3wDanrX5K6bIaq3GD//3XZj8eTKhJU+rRXoBi94Y6qV2Hg36ElyGtG2iU\n2EInbzcvGJoZ5Sq7axY2mMklx09he2B6ISkcqKejadGemFvyG8vP5jPQS3S1\nZflQQXTK4etU+ayQvTwXgXEcS1Q8dFV7lP8j2B4I3+QNfJW08PlOp+neIVdz\nK4+VgMlxxE2JI6OTEzpHz1tTMgQ8flnRV64df/ySU/ha7gjJVU8lOxutdrCf\n/Fzm2VHE2P7lhhkTt9z6b8V7U3bT8DsmxUoYghGXO8gj873agZWZzWJCPiP8\noOnUkFGMAWV4/zGdirs4hl+EgdGQFLe9r07YR/jCU2mwKmNquggaQQ/e3T4H\nM1EXift05hZX8gUweR2yTcmoZ6WLj8q8zP7TYsH8oP/c2sswexuVgykw7fL8\ncC6s\r\n=FmTi\r\n-----END PGP SIGNATURE-----\r\n",
+				"signatures": [
+					{
+						"keyid": "SHA256:jl3bwswu80PjjokCgh0o2w5c2U4LhQAE57gj9cz1kzA",
+						"sig": "MEQCIFIS2Mn6tCNvvHNPmQYojerjEopR9CD3EOPTJ8K1xgnbAiBiYjpW5vtMsvsdxxJTmmA9AF57ajpf1KbGqGAwdZ381g=="
+					}
+				]
+			},
+			"maintainers": [
+				{
+					"name": "neoziro",
+					"email": "berge.greg@gmail.com"
+				}
+			],
+			"_npmUser": {
+				"name": "neoziro",
+				"email": "berge.greg@gmail.com"
+			},
+			"directories": {},
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/spawnd_3.7.0_1544571464157_0.38503969209155087"
+			},
+			"_hasShrinkwrap": false,
+			"contributors": []
+		},
+		"4.0.0": {
+			"name": "spawnd",
+			"description": "Spawn a dependent child process.",
+			"version": "4.0.0",
+			"main": "lib/index.js",
+			"repository": {
+				"type": "git",
+				"url": "https://github.com/smooth-code/jest-puppeteer/tree/master/packages/spawnd"
+			},
+			"author": {
+				"name": "Greg Bergé",
+				"email": "berge.greg@gmail.com"
+			},
+			"license": "MIT",
+			"keywords": [
+				"spawn",
+				"exec",
+				"process",
+				"child_process",
+				"depe,dent",
+				"exit",
+				"child"
+			],
+			"scripts": {
+				"prebuild": "rm -rf lib/",
+				"build": "babel --config-file ../../babel.config.js -d lib --ignore \"**/*.test.js\" src",
+				"dev": "yarn build --watch",
+				"prepublishOnly": "yarn build"
+			},
+			"dependencies": {
+				"exit": "^0.1.2",
+				"signal-exit": "^3.0.2",
+				"tree-kill": "^1.2.1",
+				"wait-port": "^0.2.2"
+			},
+			"gitHead": "b1764c332ff5b3ea73e69b700f70196541b94970",
+			"_id": "spawnd@4.0.0",
+			"_nodeVersion": "10.14.2",
+			"_npmVersion": "lerna/3.11.1/node@v10.14.2+x64 (darwin)",
+			"dist": {
+				"integrity": "sha512-ql3qhJnhAkvXpaqKBWOqou1rUTSQhFRaZkyOT+MTFB4xY3X+brgw6LTWV2wHuE9A6YPhrNe1cbg7S+jAYnbC0Q==",
+				"shasum": "b27ee6e7ec55c6ec232c05a21418cf35a77e0409",
+				"tarball": "https://registry.npmjs.org/spawnd/-/spawnd-4.0.0.tgz",
+				"fileCount": 5,
+				"unpackedSize": 6423,
+				"npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.4\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJcZErxCRA9TVsSAnZWagAAZScP/0xsVHTOMyO5BXPEyJMT\nm1qoyDlsJdOJVaKwypLc3vcSdeEOzLXdkkC5bxheD62c5xBfLMv7+8NU+l9J\nrZpziJdaJmUADniC1wI1OgRDl7t2LcHnGfVsOiTJ9fXaBJJr/+1Gdf2EbP4a\nIeTPptpt2JxhxMO/gGb0a1mcVSVK3Cw28vHFZZrREA1NlIMot5BUlFCXb9rn\nrhLhmfpyWJkQCt7Sfz9VGUyVDASr3jKUEzVeFdldFdElbauZtAldB7e2LpzW\nzAtWeBvNE3VUkjwW8DCO8NgmOL7D7TQNa/CZIa+Q+/MnmYwNyc94JnTuITmB\naxtkW920lv7GGNx0gx1xBt18MP0YLUSerK8C0PafnfcYFHtNFj7HBV7pZGE6\nU7DNfOzaoeYRC/M+9gKPI4TTTL+SO09zGobjp9t0YW+UVdThJ5UDbpc3WefE\ngDtnOCplp6VWNnRoFaESUZPkgRYvYzFqeHluIiNTFVGQhUi5ow+kftQAavRv\nJsDkHdjvEg37/KdcY+cu4piPipsvVR4LNKHdL8w4Z0ltB+waMygaa3Hwp1aB\nHzCWC1a5M1n9Ck9EDUF+IaQjpTJyuXxnLZDkkwQbrNhe1tQbGPSkCk3+YKFE\ng83p+YLSICN+So56KhGdnp7rUXAkii3ZfVzlZNNhaGbqMQvpFoqB2bxbrJh+\n0wKN\r\n=mipC\r\n-----END PGP SIGNATURE-----\r\n",
+				"signatures": [
+					{
+						"keyid": "SHA256:jl3bwswu80PjjokCgh0o2w5c2U4LhQAE57gj9cz1kzA",
+						"sig": "MEYCIQDKVFfi+qS7OB1AYLQRYryAd23raimx5t+zgRfV4Q40egIhALUEqsHZmbHnoKqRejGLhCQlaWu/QhaD8fiNLJpFZ4T6"
+					}
+				]
+			},
+			"maintainers": [
+				{
+					"name": "neoziro",
+					"email": "berge.greg@gmail.com"
+				}
+			],
+			"_npmUser": {
+				"name": "neoziro",
+				"email": "berge.greg@gmail.com"
+			},
+			"directories": {},
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/spawnd_4.0.0_1550076657048_0.6401526376297966"
+			},
+			"_hasShrinkwrap": false,
+			"contributors": []
+		},
+		"4.4.0": {
+			"name": "spawnd",
+			"description": "Spawn a dependent child process.",
+			"version": "4.4.0",
+			"main": "lib/index.js",
+			"repository": {
+				"type": "git",
+				"url": "https://github.com/smooth-code/jest-puppeteer/tree/master/packages/spawnd"
+			},
+			"author": {
+				"name": "Greg Bergé",
+				"email": "berge.greg@gmail.com"
+			},
+			"license": "MIT",
+			"keywords": [
+				"spawn",
+				"exec",
+				"process",
+				"child_process",
+				"depe,dent",
+				"exit",
+				"child"
+			],
+			"scripts": {
+				"prebuild": "rm -rf lib/",
+				"build": "babel --config-file ../../babel.config.js -d lib --ignore \"**/*.test.js\" src",
+				"dev": "yarn build --watch",
+				"prepublishOnly": "yarn build"
+			},
+			"dependencies": {
+				"exit": "^0.1.2",
+				"signal-exit": "^3.0.2",
+				"tree-kill": "^1.2.2",
+				"wait-port": "^0.2.7"
+			},
+			"gitHead": "c28ecb7729bef11cee25e91b16d75fb34f81f07a",
+			"_id": "spawnd@4.4.0",
+			"_nodeVersion": "12.13.1",
+			"_npmVersion": "lerna/3.19.0/node@v12.13.1+x64 (darwin)",
+			"_npmUser": {
+				"name": "neoziro",
+				"email": "berge.greg@gmail.com"
+			},
+			"dist": {
+				"integrity": "sha512-jLPOfB6QOEgMOQY15Z6+lwZEhH3F5ncXxIaZ7WHPIapwNNLyjrs61okj3VJ3K6tmP5TZ6cO0VAu9rEY4MD4YQg==",
+				"shasum": "bb52c5b34a22e3225ae1d3acb873b2cd58af0886",
+				"tarball": "https://registry.npmjs.org/spawnd/-/spawnd-4.4.0.tgz",
+				"fileCount": 5,
+				"unpackedSize": 6598,
+				"npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.4\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJd+djyCRA9TVsSAnZWagAAz/gP+wQv2xlv6LC/365RW2I8\no4STMgKECdHrexXmny0qjmpKhma60SYt2HK3jqNcKLLjqfOBF/5Dzbaa5GLe\nSbFJJf16axQ9fwjtHVnvW+srA6A91qY6O7AuQWUEYIfeUJVvhscZlwO54c+x\nGfwSLMty4dClbYq4qQqNzGzVhgjm+/8E6IgBbrO9qNU8pFyOyH7K5F0TFv2p\nNnz6UmxepFDOeBSCurkfWXJuvE8iYIurv6qmc+NXsUElir0jsUEdFwUcCpC7\na3Phafv1gkbBu62vijhwM55spwRnre29Q2gYDMJj2ZEBsOM+PzKW+gaSL+Jt\n78tjRsRvnAf6WBud+3Ri55nrwmhSYN7lJLOAH2ew4WJhUIYQgDVCSJUZhQ9A\nDWLSvDRon81lvvA2BpXLs381lKJECOcpJsC6qA6bul8nOUfdB2HnfYHc9l1H\nnUDi4z3QyCoO3YD88ggawIaoFPD7Mc8eYKf18+jDrOrsnbNMiN5FESi3TSQa\ngyOtHL7oAg7pwdPN5ZppZkmduCivUVqHX3R2O+pY1yH2hlMJ6FVG5EE0L7/S\nkq8oHXc0ZTidVUt8K4UJhCEVcXvFO97yfjebcjke6nUSGP8QVt7WTbeXChFm\nLIufMzOyXuCpFQPXJh8yGGS/5/90p8sIN9eqYfxAj+Wi98c7NjfJcZGojKHo\nEm+S\r\n=ex+1\r\n-----END PGP SIGNATURE-----\r\n",
+				"signatures": [
+					{
+						"keyid": "SHA256:jl3bwswu80PjjokCgh0o2w5c2U4LhQAE57gj9cz1kzA",
+						"sig": "MEYCIQCsqCDXxutCAmUsRAonY2AKVRv3NcEL3LV0UfRN+VxamgIhAKPNlYR0wR7eEbiLR2gT2UrHks4SGV4UEpvazYpd6kHY"
+					}
+				]
+			},
+			"maintainers": [
+				{
+					"name": "neoziro",
+					"email": "berge.greg@gmail.com"
+				}
+			],
+			"directories": {},
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/spawnd_4.4.0_1576655090339_0.6816689632726947"
+			},
+			"_hasShrinkwrap": false,
+			"contributors": []
+		},
+		"5.0.0": {
+			"name": "spawnd",
+			"description": "Spawn a dependent child process.",
+			"version": "5.0.0",
+			"main": "lib/index.js",
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/smooth-code/jest-puppeteer.git#master"
+			},
+			"author": {
+				"name": "Greg Bergé",
+				"email": "berge.greg@gmail.com"
+			},
+			"license": "MIT",
+			"keywords": [
+				"spawn",
+				"exec",
+				"process",
+				"child_process",
+				"depe,dent",
+				"exit",
+				"child"
+			],
+			"scripts": {
+				"prebuild": "rimraf lib/",
+				"build": "babel --config-file ../../babel.config.js -d lib --ignore \"**/*.test.js\" src",
+				"dev": "yarn build --watch",
+				"prepublishOnly": "yarn build"
+			},
+			"dependencies": {
+				"exit": "^0.1.2",
+				"signal-exit": "^3.0.3",
+				"tree-kill": "^1.2.2",
+				"wait-port": "^0.2.9"
+			},
+			"gitHead": "153d47bf5a733f6525b018d50c2cae841d606d3f",
+			"bugs": {
+				"url": "https://github.com/smooth-code/jest-puppeteer/issues"
+			},
+			"homepage": "https://github.com/smooth-code/jest-puppeteer/tree/master#readme",
+			"_id": "spawnd@5.0.0",
+			"_nodeVersion": "14.16.0",
+			"_npmVersion": "lerna/4.0.0/node@v14.16.0+x64 (win32)",
+			"dist": {
+				"integrity": "sha512-28+AJr82moMVWolQvlAIv3JcYDkjkFTEmfDc503wxrF5l2rQ3dFz6DpbXp3kD4zmgGGldfM4xM4v1sFj/ZaIOA==",
+				"shasum": "ea72200bdc468998e84e1c3e7b914ce85fc1c32c",
+				"tarball": "https://registry.npmjs.org/spawnd/-/spawnd-5.0.0.tgz",
+				"fileCount": 5,
+				"unpackedSize": 6773,
+				"npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.13\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJgeZFkCRA9TVsSAnZWagAA8v8P/3VQaebX6cKyNUhDIY+P\ngc43yR7xdhIC3DPcLMXUit03SE2Lr9Z3QFM0s09J0+2OGDwzY0H1TAreNmhg\n9qhSfEDckCo8Uh1tMaIAmRlroiNwZ6zZvDT0lt98biZ18WrYiM8kcEu3pFm1\nan5cceR6A1V6KMDBgF7c9hMj5E+c0FvUotK2BoYpGM9rNCastn7HqwGQcMlv\nmwHXFta5Xtius28yOzHLpKydNJGEbpbMeDS9pRPjc+k1k0S6G9HUI3u2d0z2\nngoTrKQRtPtctZYez//au1mZLhZVXxIsPRUpQJ8wKxQKj9csaGsJXrNCCGut\nP2kDdAzmeq0bn5m7UD/ucOXrELFBY3Vqj0vflg/umz4/qDUxLLnzMr6RJJm3\ng6xjS5hg2Sh7A6hyrUDLbKnBp8ZdrSj3hE7yAicjHaq0bI01NaPZoMWlmBrF\nLt/YVLAcCp8LR/tVM4FV1Z16tDtr256q67BzCyncmOGTPBO1Imqlf3rXYAWL\nsxlfRUAQqUAvl3LBNc974J2HVJarvlTiOhx79tHtJM+FMK8rcclUhUY+uv+L\nhQghzOesKyaxzQk6apqIrrVfd2PHxgijzDW7mayg5CGMxPzQwkWLcZHwnBNh\nl7sirO3Xd8Q1Gsb6fON1bAPgA5Sl+eYQZ6ElTGMDU73WUDcUjVF0Cg0E7WQ5\nJ2j3\r\n=ZI5o\r\n-----END PGP SIGNATURE-----\r\n",
+				"signatures": [
+					{
+						"keyid": "SHA256:jl3bwswu80PjjokCgh0o2w5c2U4LhQAE57gj9cz1kzA",
+						"sig": "MEYCIQD0ta3YpllXJOrSZDpAHtTOtTRyekIDSOqehvoFuiwczQIhAM6kmf9+cg3LYqbh0zBMNDE7DfXSVDWSJ/Wk0xECr8To"
+					}
+				]
+			},
+			"_npmUser": {
+				"name": "tonybrix",
+				"email": "tony@brix.ninja"
+			},
+			"directories": {},
+			"maintainers": [
+				{
+					"name": "neoziro",
+					"email": "berge.greg@gmail.com"
+				},
+				{
+					"name": "tonybrix",
+					"email": "tony@brix.ninja"
+				}
+			],
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/spawnd_5.0.0_1618579812288_0.21973486013574983"
+			},
+			"_hasShrinkwrap": false,
+			"contributors": []
+		},
+		"6.0.0": {
+			"name": "spawnd",
+			"description": "Spawn a dependent child process.",
+			"version": "6.0.0",
+			"main": "lib/index.js",
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/smooth-code/jest-puppeteer.git#master"
+			},
+			"author": {
+				"name": "Greg Bergé",
+				"email": "berge.greg@gmail.com"
+			},
+			"license": "MIT",
+			"keywords": [
+				"spawn",
+				"exec",
+				"process",
+				"child_process",
+				"depe,dent",
+				"exit",
+				"child"
+			],
+			"scripts": {
+				"prebuild": "rimraf lib/",
+				"build": "babel --config-file ../../babel.config.js -d lib --ignore \"**/*.test.js\" src",
+				"dev": "yarn build --watch",
+				"prepublishOnly": "yarn build"
+			},
+			"dependencies": {
+				"exit": "^0.1.2",
+				"signal-exit": "^3.0.3",
+				"tree-kill": "^1.2.2"
+			},
+			"gitHead": "e54ddc950fc3e5badce064523a44a8b1dc95180f",
+			"bugs": {
+				"url": "https://github.com/smooth-code/jest-puppeteer/issues"
+			},
+			"homepage": "https://github.com/smooth-code/jest-puppeteer/tree/master#readme",
+			"_id": "spawnd@6.0.0",
+			"_nodeVersion": "14.17.6",
+			"_npmVersion": "lerna/4.0.0/node@v14.17.6+x64 (win32)",
+			"dist": {
+				"integrity": "sha512-ItqOhwoMppJDL8IEF44bupB37f7dIpKrCqkd8TV8PWB7gHDBfMYgGgslTkkcdvKPxhE4BfvNqs2ZI/GVoGXyIQ==",
+				"shasum": "8bcb3b8769901cfb434ea3ff4334ac3bde3b9cda",
+				"tarball": "https://registry.npmjs.org/spawnd/-/spawnd-6.0.0.tgz",
+				"fileCount": 5,
+				"unpackedSize": 7150,
+				"signatures": [
+					{
+						"keyid": "SHA256:jl3bwswu80PjjokCgh0o2w5c2U4LhQAE57gj9cz1kzA",
+						"sig": "MEUCIQDFJJYdju0oTxNqkRoVpt9GEBSYRPDG105P2uhteeaWjAIgTGei/XcFs3+7PlnyZ7e0CeWUum16Ggdz8edUrdZV3+A="
+					}
+				]
+			},
+			"_npmUser": {
+				"name": "tonybrix",
+				"email": "tony@brix.ninja"
+			},
+			"directories": {},
+			"maintainers": [
+				{
+					"name": "neoziro",
+					"email": "berge.greg@gmail.com"
+				},
+				{
+					"name": "tonybrix",
+					"email": "tony@brix.ninja"
+				}
+			],
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/spawnd_6.0.0_1632369974528_0.9868717995688074"
+			},
+			"_hasShrinkwrap": false,
+			"contributors": []
+		},
+		"6.0.2": {
+			"name": "spawnd",
+			"description": "Spawn a dependent child process.",
+			"version": "6.0.2",
+			"main": "lib/index.js",
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/smooth-code/jest-puppeteer.git#master"
+			},
+			"author": {
+				"name": "Greg Bergé",
+				"email": "berge.greg@gmail.com"
+			},
+			"license": "MIT",
+			"keywords": [
+				"spawn",
+				"exec",
+				"process",
+				"child_process",
+				"depe,dent",
+				"exit",
+				"child"
+			],
+			"scripts": {
+				"prebuild": "rimraf lib/",
+				"build": "babel --config-file ../../babel.config.js -d lib --ignore \"**/*.test.js\" src",
+				"dev": "yarn build --watch",
+				"prepublishOnly": "yarn build"
+			},
+			"dependencies": {
+				"exit": "^0.1.2",
+				"signal-exit": "^3.0.6",
+				"tree-kill": "^1.2.2"
+			},
+			"gitHead": "a6834d88c4e8102233beb07ef928f036ff53fb59",
+			"bugs": {
+				"url": "https://github.com/smooth-code/jest-puppeteer/issues"
+			},
+			"homepage": "https://github.com/smooth-code/jest-puppeteer/tree/master#readme",
+			"_id": "spawnd@6.0.2",
+			"_nodeVersion": "16.12.0",
+			"_npmVersion": "lerna/4.0.0/node@v16.12.0+x64 (win32)",
+			"dist": {
+				"integrity": "sha512-+YJtx0dvy2wt304MrHD//tASc84zinBUYU1jacPBzrjhZUd7RsDo25krxr4HUHAQzEQFuMAs4/p+yLYU5ciZ1w==",
+				"shasum": "a2631cab24ce5e3525e720af4058f10a0905147c",
+				"tarball": "https://registry.npmjs.org/spawnd/-/spawnd-6.0.2.tgz",
+				"fileCount": 5,
+				"unpackedSize": 7619,
+				"npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.13\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJhn7IACRA9TVsSAnZWagAAb4MP/0Ui/Zl0Cd1o2wCybCAI\nYurfTpRi8iePDEB+m/1KS476iayOiJ6OaHB4ZgiWhedSHI9j2uyaU+YhLhVs\nA6og4q3su7DxLKC/tmi3yd6hFjmrIFXiAyvqZLZpnyrFj8d73lwILGSJsn2m\ng8HJniQoDMwel4O5w+ykP426amQNvLWEziOel2s1HbXj18UV0nKjIhpEbUv9\nnjxFy/Af2apX7SBIw9vff7rOMBpQmR4cJIhB9gbE4Wclc6wUAQT02FVNqIil\nhbEKhomAPXwOeBXoUbRhvrUbZQP+WF11nwCWxEz7cihFVWR36EzMwipa3E5d\nNeWSCxUEt4q06dLhjNrM4jhewVsin05z9knKobzfUxPkN6AmAK6peHBTwkBa\nMkp0mnXD/iJXabku8iikL9vG9MHMVSfJS5Yhri1oeaJzwS6JwRJlA67ASc0o\nDxxZTA86L/JDlJVU+FMcA/KfLtwN4722f4d1Vl5mRnPDLgMd81ro3M34XVQU\nmk9ygYUdcRfSNcOIQMcpD9hYSOVb0tUioPmri59PDtyRJcBs2W7dBCx81jom\nUxslLGVyUIXYIhKLt3/h2uiZaEnSyMZCltI8oso9Er7lKE8VlOAapiWjYvbR\n9X0w9UtzB989I/+0RYbKLofuioYW43SLNkPM5o5dKM0uS8gH3f8Rb5amh9v7\nw0cj\r\n=A2Pa\r\n-----END PGP SIGNATURE-----\r\n",
+				"signatures": [
+					{
+						"keyid": "SHA256:jl3bwswu80PjjokCgh0o2w5c2U4LhQAE57gj9cz1kzA",
+						"sig": "MEUCIFayoZnYWQx54PPgIASXBTevzvx95GBgMwUlQvx8dsyBAiEA8t2udWpOurHZ7dxSWyPkk3wO62eoTR/VZXYycDwkT4Q="
+					}
+				]
+			},
+			"_npmUser": {
+				"name": "tonybrix",
+				"email": "tony@brix.ninja"
+			},
+			"directories": {},
+			"maintainers": [
+				{
+					"name": "neoziro",
+					"email": "berge.greg@gmail.com"
+				},
+				{
+					"name": "tonybrix",
+					"email": "tony@brix.ninja"
+				}
+			],
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/spawnd_6.0.2_1637855744681_0.17283454625733818"
+			},
+			"_hasShrinkwrap": false,
+			"contributors": []
+		},
+		"6.2.0": {
+			"name": "spawnd",
+			"description": "Spawn a dependent child process.",
+			"version": "6.2.0",
+			"main": "lib/index.js",
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/smooth-code/jest-puppeteer.git#master"
+			},
+			"author": {
+				"name": "Greg Bergé",
+				"email": "berge.greg@gmail.com"
+			},
+			"license": "MIT",
+			"keywords": [
+				"spawn",
+				"exec",
+				"process",
+				"child_process",
+				"depe,dent",
+				"exit",
+				"child"
+			],
+			"scripts": {
+				"prebuild": "rimraf lib/",
+				"build": "babel --config-file ../../babel.config.js -d lib --ignore \"**/*.test.js\" src",
+				"dev": "yarn build --watch",
+				"prepublishOnly": "yarn build"
+			},
+			"dependencies": {
+				"exit": "^0.1.2",
+				"signal-exit": "^3.0.7",
+				"tree-kill": "^1.2.2"
+			},
+			"gitHead": "108d6f69cb65ae2929c7269aac1c2e4c5077b142",
+			"bugs": {
+				"url": "https://github.com/smooth-code/jest-puppeteer/issues"
+			},
+			"homepage": "https://github.com/smooth-code/jest-puppeteer/tree/master#readme",
+			"_id": "spawnd@6.2.0",
+			"_nodeVersion": "18.10.0",
+			"_npmVersion": "lerna/5.6.2/node@v18.10.0+x64 (win32)",
+			"dist": {
+				"integrity": "sha512-qX/I4lQy4KgVEcNle0kuc4FxFWHISzBhZW1YemPfwmrmQjyZmfTK/OhBKkhrD2ooAaFZEm1maEBLE6/6enwt+g==",
+				"shasum": "255bb3f405d0fbacefa1c5398cec58588c263c81",
+				"tarball": "https://registry.npmjs.org/spawnd/-/spawnd-6.2.0.tgz",
+				"fileCount": 4,
+				"unpackedSize": 4276,
+				"signatures": [
+					{
+						"keyid": "SHA256:jl3bwswu80PjjokCgh0o2w5c2U4LhQAE57gj9cz1kzA",
+						"sig": "MEUCIEApRYhep3gVXWBOnQHR41g/IPYMPyyw6gpjLhDgkKe4AiEAwF/wOoRtDv4jjp0b1RT0khWDtUE6nFo4LnkkFTS3EbA="
+					}
+				],
+				"npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v4.10.10\r\nComment: https://openpgpjs.org\r\n\r\nwsFzBAEBCAAGBQJjlkLKACEJED1NWxICdlZqFiEECWMYAoorWMhJKdjhPU1b\r\nEgJ2VmpwSg//aECgAhvTTTvfxeJ3J9jqTmnbjKPXI/+n23kH3yzGiQUovafC\r\n4P2xqdvQ2U5Pxd5k2coC4dTdL+HaEdAEoqpY7J9HxqmfrDH0G2dn7k2CfN2e\r\n/lW2APJw0Q+qIkarl1f4S05Sc+pviAcvaeWRXJ11O0JffE3iPnchjKgGNtdN\r\npWwTKPbZdEXAsW0KEwWt7etpSm8FnRkZTzIDwK61z+dLX/iYoDIHguy8g8uC\r\nB++Eeu2UaqwZerrmgcr4vO9oxo4vzHTfqyD1Us8vj/BM3NI9yS/b1oh6P0P/\r\n15h1FFLY0e1SLViqxgb6o2GpMvNewr7BjcHvEhfx7G7ti8s9kCY5FjZ25k79\r\n37bNoz1XiUiosPtj1KkRspx6QwoMbLmiZuu6QJZ77kr1Uk539iqhmbNsVbFF\r\n9Z4UqA/R55CyUsR5VYb5DGoyALBoHZPYgO6uf9aoQeZasZro+/UYgZoJjZ26\r\nwx7mYtyrFEHjdK0F/n5DPDKVfs/7jTCSUwQyoqQvPt9Lxs2WKmFAUrSR4kKf\r\no10bccoxtwHjkl5sxOvyi3YSqn9c8/+RpY14XiGXwOzfwq963CAHvKcaIZ8X\r\nJs4UJOqoaQ5q9OjYFXW9W2WuQd9gdrlPlpwP9Y8a8ue+fAo1iX5GpjrX4D57\r\nqk7WBJ5QpQWuDH9eIbiWEqBUGx/ikJxcRyQ=\r\n=tZMf\r\n-----END PGP SIGNATURE-----\r\n"
+			},
+			"_npmUser": {
+				"name": "tonybrix",
+				"email": "tony@brix.ninja"
+			},
+			"directories": {},
+			"maintainers": [
+				{
+					"name": "neoziro",
+					"email": "berge.greg@gmail.com"
+				},
+				{
+					"name": "tonybrix",
+					"email": "tony@brix.ninja"
+				}
+			],
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/spawnd_6.2.0_1670791882085_0.05057731091062179"
+			},
+			"_hasShrinkwrap": false,
+			"contributors": []
+		},
+		"7.0.0": {
+			"name": "spawnd",
+			"description": "Spawn a dependent child process.",
+			"version": "7.0.0",
+			"type": "commonjs",
+			"main": "./lib/index.js",
+			"exports": {
+				".": "./lib/index.js",
+				"./package.json": "./package.json"
+			},
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/argos-ci/jest-puppeteer.git",
+				"directory": "packages/spawnd"
+			},
+			"homepage": "https://github.com/argos-ci/jest-puppeteer/tree/main/packages/spawnd#readme",
+			"bugs": {
+				"url": "https://github.com/argos-ci/jest-puppeteer/issues"
+			},
+			"engines": {
+				"node": ">=14.0.0"
+			},
+			"keywords": [
+				"spawn",
+				"exec",
+				"process",
+				"child_process",
+				"depe,dent",
+				"exit",
+				"child"
+			],
+			"publishConfig": {
+				"access": "public"
+			},
+			"scripts": {
+				"prebuild": "rm -rf dist",
+				"build": "rollup -c"
+			},
+			"dependencies": {
+				"exit": "^0.1.2",
+				"signal-exit": "^3.0.7",
+				"tree-kill": "^1.2.2"
+			},
+			"gitHead": "cc80f623551a199c022c0b26a77050bd20ad48fc",
+			"_id": "spawnd@7.0.0",
+			"_nodeVersion": "18.12.1",
+			"_npmVersion": "lerna/6.4.1/node@v18.12.1+arm64 (darwin)",
+			"dist": {
+				"integrity": "sha512-TU/M4qYmigdeET4HTR7l9nqySTTvStWM6rW8QyixXRxWn90E718y5Q31ZVXyG7VEqT6oo6EUvE9zk4rGU39HbA==",
+				"shasum": "6e14a30c45470d1d1e11c0ef1e8d01c84a269b4a",
+				"tarball": "https://registry.npmjs.org/spawnd/-/spawnd-7.0.0.tgz",
+				"fileCount": 4,
+				"unpackedSize": 4629,
+				"signatures": [
+					{
+						"keyid": "SHA256:jl3bwswu80PjjokCgh0o2w5c2U4LhQAE57gj9cz1kzA",
+						"sig": "MEUCIG4cCKnKvTxrrUhTyw7nsCwrE1jUdEbSKSZvb0mgc/JaAiEAjaUeCimXQfaa4U1cYAm/Cx79XEuzoGSx2ke2gcAf3V8="
+					}
+				],
+				"npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v4.10.10\r\nComment: https://openpgpjs.org\r\n\r\nwsFzBAEBCAAGBQJj3TJ/ACEJED1NWxICdlZqFiEECWMYAoorWMhJKdjhPU1b\r\nEgJ2Vmo1Zg//U+JqqAU4eslV9p+RXkMVJDNvX3sgJ+P3J5UjeGcg0u1LR9mL\r\nsn/R/vffcGPMaSS4KPbpGycixFOtNZdY7E0X2T2StSfgw7DXeQzZvMN5KGVV\r\nD1/a8hmsOj5xOCzalCku22bnFQU8GxCfcz2O8uagynsOqJzTPZM+p5wIUzWD\r\n8TEfSt5Yo5Acq8WjhFA8aJ092+stPaxKPTUN5f79ZJWt8ec+3EsZrCJQiN1q\r\n9IE+MxLtCJkp5y6NzYVkiwqRWR+3oTjiN88apSDkxJvA6hdjRboOB4OaGgMN\r\ni1NmNIpDUd7XeTDpmyOY88Sn+vXokxk/k4jw0ce0Dz4F58HIgkpzi5EWvdjX\r\n4WMD2xRBgg9tv6h2a9qZMM69gw5Se/4vNsXDY04GWkmnwnX+yp2Iqt3D38qc\r\njouxVq95xMSpKPHlmI4DFICMAxr3Gfb/kEIKFfJptBM3teubxkl0EouGZkPN\r\n/Hh7hPCJPeAP9mBnX7VOdjprZKTMlPsFTlCwaTx7JTfeo/B7z0ggppsp8Cz6\r\nqwFKbbBGJwMXRnGDbQp5JeoDBbpQ8nGwhVQuBbtPsDyJPIlc+OShDuMhpdaU\r\ntxlXkSMc7Vazacpo8eSAZvQ1TonJ1WT/PjVbiBMKX2p0MPVYMZSkVvsNBZn4\r\nYt10zqWssJYrpwWlbXew0DlskLQtAnBpOzE=\r\n=JOHI\r\n-----END PGP SIGNATURE-----\r\n"
+			},
+			"_npmUser": {
+				"name": "neoziro",
+				"email": "berge.greg@gmail.com"
+			},
+			"directories": {},
+			"maintainers": [
+				{
+					"name": "neoziro",
+					"email": "berge.greg@gmail.com"
+				},
+				{
+					"name": "tonybrix",
+					"email": "tony@brix.ninja"
+				}
+			],
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/spawnd_7.0.0_1675440766937_0.10851800794758582"
+			},
+			"_hasShrinkwrap": false,
+			"contributors": []
+		},
+		"8.0.0": {
+			"name": "spawnd",
+			"description": "Spawn a dependent child process.",
+			"version": "8.0.0",
+			"type": "commonjs",
+			"main": "./dist/index.js",
+			"types": "./dist/index.d.ts",
+			"exports": {
+				".": {
+					"types": "./dist/index.d.ts",
+					"default": "./dist/index.js"
+				},
+				"./package.json": "./package.json"
+			},
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/argos-ci/jest-puppeteer.git",
+				"directory": "packages/spawnd"
+			},
+			"homepage": "https://github.com/argos-ci/jest-puppeteer/tree/main/packages/spawnd#readme",
+			"bugs": {
+				"url": "https://github.com/argos-ci/jest-puppeteer/issues"
+			},
+			"engines": {
+				"node": ">=14.0.0"
+			},
+			"keywords": [
+				"spawn",
+				"exec",
+				"process",
+				"child_process",
+				"dependent",
+				"exit",
+				"child"
+			],
+			"publishConfig": {
+				"access": "public"
+			},
+			"scripts": {
+				"prebuild": "rm -rf dist",
+				"build": "rollup -c"
+			},
+			"devDependencies": {
+				"@types/exit": "^0.1.31",
+				"@types/signal-exit": "^3.0.1",
+				"exit": "^0.1.2",
+				"rollup": "^3.15.0",
+				"rollup-plugin-dts": "^5.2.0",
+				"rollup-plugin-swc3": "^0.8.0"
+			},
+			"dependencies": {
+				"signal-exit": "^3.0.7",
+				"tree-kill": "^1.2.2"
+			},
+			"gitHead": "c6d19dbd7e0fbb3b2310ae5bd6ffdff8d2c27820",
+			"_id": "spawnd@8.0.0",
+			"_nodeVersion": "18.14.0",
+			"_npmVersion": "lerna/6.5.1/node@v18.14.0+arm64 (darwin)",
+			"dist": {
+				"integrity": "sha512-fvzXTTDvz2mOygQc6XvOXCwcmiQ5qvFW/FSwDfkrg7aw89GyN7ubrsHO8Bcb4z+d4oV/Ck0ZjOIwbE3ZmZ3N3Q==",
+				"shasum": "ccde046b6fd8268f282fa0e007754dd9e590f415",
+				"tarball": "https://registry.npmjs.org/spawnd/-/spawnd-8.0.0.tgz",
+				"fileCount": 5,
+				"unpackedSize": 4746,
+				"signatures": [
+					{
+						"keyid": "SHA256:jl3bwswu80PjjokCgh0o2w5c2U4LhQAE57gj9cz1kzA",
+						"sig": "MEUCIBeoKI7ERxWVYNYfr3eJhlnrANqM4UHLVucffuct7Gn7AiEAyb8e8GA7tp8wfsV4l1zwRt5A9dCI5aOUFPPlLwZZit0="
+					}
+				],
+				"npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v4.10.10\r\nComment: https://openpgpjs.org\r\n\r\nwsFzBAEBCAAGBQJkBaeNACEJED1NWxICdlZqFiEECWMYAoorWMhJKdjhPU1b\r\nEgJ2Vmotzg//cX3NnRaEG2kCle4OkIWMNIvOP37PdZKhA90HYHN7W7EC2Ga0\r\nNLSCNfuFK4muuxet4Qjp4CatfyiywYHkLBiRcSoqa9VzaRu3SiUK6Zz4YNRK\r\nqppcnRyixhJkjHfBZiYTfKr6Z6M4LR/SNYco0vgtqpFVJvcgqbD5MGhZyOmh\r\nTlwSGlAytWupIE1MeP+3MhBolLtxB5PtV2SjbNbnPIn+AQWt3AuXKyp2FKqa\r\nnGO86X4fmFljWUdvWYfFEOYV/boThHHGSWbYtymPpplA7Kxk7RH6Q8Sre65Z\r\nE5snuwMcfDNlnJ8CWkq+nnATk4KRjytITpbMdhjOaKBw7Cjx+dnp4rGltTFA\r\nZRjYF1I4/MxOI82Y45O17Zc8w8L9lA/rYO1FTR7IGuXXs/7XkNn+fL4rY1wT\r\ndNNCmYqEyZFvO6x5dV7GZpRoJCToXmOXTJatMtKhG1JqEOjEi/TefVaNVn63\r\n3oFfAlDpk0t2FZvVq/HDJ1hNyosVbdKG0buEkvtjmLwyd3zAcdT8yg/HfPoV\r\nfd0Spkv8yN2TD9ydJnholD/TdkKSBJMk6P/dL8uijU24YSVtOJqgQ6DC1t6f\r\nfznW/f325H+/uHNzlMaYjj44Mlmpg4Mm1HELzFnfNbZeRU4gCKVNFQE+MLGU\r\nuhbn/kob1uAfKJ45EIeniaIjLN5taoXJKO4=\r\n=4tmS\r\n-----END PGP SIGNATURE-----\r\n"
+			},
+			"_npmUser": {
+				"name": "neoziro",
+				"email": "berge.greg@gmail.com"
+			},
+			"directories": {},
+			"maintainers": [
+				{
+					"name": "neoziro",
+					"email": "berge.greg@gmail.com"
+				},
+				{
+					"name": "tonybrix",
+					"email": "tony@brix.ninja"
+				}
+			],
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/spawnd_8.0.0_1678092173661_0.4313590752294769"
+			},
+			"_hasShrinkwrap": false,
+			"contributors": []
+		},
+		"8.0.5": {
+			"name": "spawnd",
+			"description": "Spawn a dependent child process.",
+			"version": "8.0.5",
+			"type": "commonjs",
+			"main": "./dist/index.js",
+			"types": "./dist/index.d.ts",
+			"exports": {
+				".": {
+					"types": "./dist/index.d.ts",
+					"default": "./dist/index.js"
+				},
+				"./package.json": "./package.json"
+			},
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/argos-ci/jest-puppeteer.git",
+				"directory": "packages/spawnd"
+			},
+			"homepage": "https://github.com/argos-ci/jest-puppeteer/tree/main/packages/spawnd#readme",
+			"bugs": {
+				"url": "https://github.com/argos-ci/jest-puppeteer/issues"
+			},
+			"engines": {
+				"node": ">=14.0.0"
+			},
+			"keywords": [
+				"spawn",
+				"exec",
+				"process",
+				"child_process",
+				"dependent",
+				"exit",
+				"child"
+			],
+			"publishConfig": {
+				"access": "public"
+			},
+			"scripts": {
+				"prebuild": "rm -rf dist",
+				"build": "rollup -c"
+			},
+			"devDependencies": {
+				"@types/exit": "^0.1.31",
+				"@types/signal-exit": "^3.0.1",
+				"rollup": "^3.18.0",
+				"rollup-plugin-dts": "^5.2.0",
+				"rollup-plugin-swc3": "^0.8.0"
+			},
+			"dependencies": {
+				"signal-exit": "^3.0.7",
+				"tree-kill": "^1.2.2"
+			},
+			"gitHead": "05992b2c3082b68bac0fffb8e4f1847a7ae4472d",
+			"_id": "spawnd@8.0.5",
+			"_nodeVersion": "18.14.0",
+			"_npmVersion": "lerna/6.5.1/node@v18.14.0+arm64 (darwin)",
+			"dist": {
+				"integrity": "sha512-D+crPxX9sSXzF4o/3RjtNcc+PT+CQuSrLsq0VP1SQDy6ka3rD2wUmzkxhD1XlNEcNX0zccQEmPJI2xBYcdpR7Q==",
+				"shasum": "e3166d7c8c3d02200ee16d94318e0b56a7483c69",
+				"tarball": "https://registry.npmjs.org/spawnd/-/spawnd-8.0.5.tgz",
+				"fileCount": 5,
+				"unpackedSize": 4712,
+				"signatures": [
+					{
+						"keyid": "SHA256:jl3bwswu80PjjokCgh0o2w5c2U4LhQAE57gj9cz1kzA",
+						"sig": "MEQCIAT2892AB7o8/ckGDkSlY2Za+CeBMsNbzYX+q5XnpUtAAiB+DdGpdKz+wF3ES3Yfdmkp7mnsECnZdcL3gHGSai+n4g=="
+					}
+				],
+				"npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v4.10.10\r\nComment: https://openpgpjs.org\r\n\r\nwsFzBAEBCAAGBQJkCeheACEJED1NWxICdlZqFiEECWMYAoorWMhJKdjhPU1b\r\nEgJ2VmoR5Q/+Ki2yZuVt0Ue9byxgCyASXYdtHAuC7psOqaeyrUU8F5ny3QuP\r\nI6R8pprwQWPEhJRr83b78n5hipEQEJ6m1sp/Zv36kWtBxujgTp8FGg0gMB95\r\nT4VzNh25uPBgQry24/kqGIwygmXpbk8KBQr7e035fkKcf1NCHX5AkBfWA6vo\r\nKGgz1GvcmTAa6N+Ca/wXagxx4mOg7SCMAm8omu9M/mjRut7WDcnkZCAqEOFI\r\n/oQtCeStNBiUwl4iMcvV6p0VO4xUB0Voc0sv/7lDMBxSBX35Smm3YLeXh130\r\nkYz8XBoLjt0PDtILwct5/XDFB1H7RsX1L2kA8EDHdNfTQRIPyYRNmvFI8vcq\r\nCZwreKxh3OaLY3OzxUmuxUS/HXQbbbmxhURKmeH8QFJ9Vaaf8NOs2vYF8smF\r\nmVa2dRUMUkIPwUNjTeotclnFRO+Ogi/OZWylw89ZdwbRWefvJNYXw5f43qHD\r\nbW0hBs3FROrxUjyVoFy2RE0GyO9nQN1SDLFcoGEfbcMl1fEYsC874oJogmYq\r\nsBrOtuJTt4LY4vC+YR4Wj9Nub1NoMTfl/1vvwNr2Ee0tOMswylM+2r4da7x5\r\nl7zo8VWCC6gzQgq4Lb5A4Hs+vrw5BSbO4x9u7vKCsCt6SYHRj/1hql29annm\r\ny1RzXwKCxF1XKvHcY4t5Fx0jlSZ8HRtCSSU=\r\n=jcS0\r\n-----END PGP SIGNATURE-----\r\n"
+			},
+			"_npmUser": {
+				"name": "neoziro",
+				"email": "berge.greg@gmail.com"
+			},
+			"directories": {},
+			"maintainers": [
+				{
+					"name": "neoziro",
+					"email": "berge.greg@gmail.com"
+				},
+				{
+					"name": "tonybrix",
+					"email": "tony@brix.ninja"
+				}
+			],
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/spawnd_8.0.5_1678370909808_0.9790977535879339"
+			},
+			"_hasShrinkwrap": false,
+			"contributors": []
+		},
+		"9.0.0": {
+			"name": "spawnd",
+			"description": "Spawn a dependent child process.",
+			"version": "9.0.0",
+			"type": "commonjs",
+			"main": "./dist/index.js",
+			"types": "./dist/index.d.ts",
+			"exports": {
+				".": {
+					"types": "./dist/index.d.ts",
+					"default": "./dist/index.js"
+				},
+				"./package.json": "./package.json"
+			},
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/argos-ci/jest-puppeteer.git",
+				"directory": "packages/spawnd"
+			},
+			"homepage": "https://github.com/argos-ci/jest-puppeteer/tree/main/packages/spawnd#readme",
+			"bugs": {
+				"url": "https://github.com/argos-ci/jest-puppeteer/issues"
+			},
+			"engines": {
+				"node": ">=16"
+			},
+			"keywords": [
+				"spawn",
+				"exec",
+				"process",
+				"child_process",
+				"dependent",
+				"exit",
+				"child"
+			],
+			"publishConfig": {
+				"access": "public"
+			},
+			"scripts": {
+				"prebuild": "rm -rf dist",
+				"build": "rollup -c"
+			},
+			"devDependencies": {
+				"@types/exit": "^0.1.31",
+				"@types/signal-exit": "^3.0.1",
+				"rollup": "^3.23.0",
+				"rollup-plugin-dts": "^5.3.0",
+				"rollup-plugin-swc3": "^0.8.1"
+			},
+			"dependencies": {
+				"signal-exit": "^4.0.2",
+				"tree-kill": "^1.2.2"
+			},
+			"gitHead": "e13d1ddce8f557405419b37cc2f6f37b4fe45212",
+			"_id": "spawnd@9.0.0",
+			"_nodeVersion": "18.14.0",
+			"_npmVersion": "lerna/6.6.2/node@v18.14.0+arm64 (darwin)",
+			"dist": {
+				"integrity": "sha512-YJRGf0loiLsHTQZztPSI5pb9RmlKE5y6Nvxko6dNtGrkra+1BaJ7PN86GQ1/2ldLZgMhMG9ITopkDJ+7lHkBYw==",
+				"shasum": "f41b60cd4618ad43d237a110ce391a2b3f93dd2b",
+				"tarball": "https://registry.npmjs.org/spawnd/-/spawnd-9.0.0.tgz",
+				"fileCount": 5,
+				"unpackedSize": 4715,
+				"signatures": [
+					{
+						"keyid": "SHA256:jl3bwswu80PjjokCgh0o2w5c2U4LhQAE57gj9cz1kzA",
+						"sig": "MEQCIBhFwi6iaGoRX/BPC+4r6ROtsqBodW5QiVY78BjjIsqeAiBttiml5w7l/y69G04CrS9ms7+h/m9wBM49Lf7jgOKx9w=="
+					}
+				]
+			},
+			"_npmUser": {
+				"name": "neoziro",
+				"email": "berge.greg@gmail.com"
+			},
+			"directories": {},
+			"maintainers": [
+				{
+					"name": "neoziro",
+					"email": "berge.greg@gmail.com"
+				},
+				{
+					"name": "tonybrix",
+					"email": "tony@brix.ninja"
+				}
+			],
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/spawnd_9.0.0_1684960245622_0.6850708407264614"
+			},
+			"_hasShrinkwrap": false,
+			"contributors": []
+		},
+		"9.0.1": {
+			"name": "spawnd",
+			"description": "Spawn a dependent child process.",
+			"version": "9.0.1",
+			"type": "commonjs",
+			"main": "./dist/index.js",
+			"types": "./dist/index.d.ts",
+			"exports": {
+				".": {
+					"types": "./dist/index.d.ts",
+					"default": "./dist/index.js"
+				},
+				"./package.json": "./package.json"
+			},
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/argos-ci/jest-puppeteer.git",
+				"directory": "packages/spawnd"
+			},
+			"homepage": "https://github.com/argos-ci/jest-puppeteer/tree/main/packages/spawnd#readme",
+			"bugs": {
+				"url": "https://github.com/argos-ci/jest-puppeteer/issues"
+			},
+			"engines": {
+				"node": ">=16"
+			},
+			"keywords": [
+				"spawn",
+				"exec",
+				"process",
+				"child_process",
+				"dependent",
+				"exit",
+				"child"
+			],
+			"publishConfig": {
+				"access": "public"
+			},
+			"scripts": {
+				"prebuild": "rm -rf dist",
+				"build": "rollup -c"
+			},
+			"devDependencies": {
+				"@types/exit": "^0.1.31",
+				"@types/signal-exit": "^3.0.2",
+				"rollup": "^3.29.4",
+				"rollup-plugin-dts": "^6.0.2",
+				"rollup-plugin-swc3": "^0.10.1"
+			},
+			"dependencies": {
+				"signal-exit": "^4.1.0",
+				"tree-kill": "^1.2.2"
+			},
+			"gitHead": "76ed6ee5441d039bcbd616d5e6821dfc529ad43f",
+			"_id": "spawnd@9.0.1",
+			"_nodeVersion": "18.12.0",
+			"_npmVersion": "lerna/7.3.0/node@v18.12.0+arm64 (darwin)",
+			"dist": {
+				"integrity": "sha512-vaMk8E9CpbjTYToBxLXowDeArGf1+yI7A6PU6Nr57b2g8BVY8nRi5vTBj3bMF8UkCrMdTMyf/Lh+lrcrW2z7pw==",
+				"shasum": "43b39b4bf5bdf6b5e38fbb7fabb2fbd0385b23b9",
+				"tarball": "https://registry.npmjs.org/spawnd/-/spawnd-9.0.1.tgz",
+				"fileCount": 5,
+				"unpackedSize": 4726,
+				"signatures": [
+					{
+						"keyid": "SHA256:jl3bwswu80PjjokCgh0o2w5c2U4LhQAE57gj9cz1kzA",
+						"sig": "MEUCIEBBzajkmYf750bMAjUlSIjM/fBLSX+XVB88pG+TioRHAiEArKK9F5eQseDYhafT4fE7GQ9AahSJ19kI62RlMKSDdNs="
+					}
+				]
+			},
+			"_npmUser": {
+				"name": "neoziro",
+				"email": "berge.greg@gmail.com"
+			},
+			"directories": {},
+			"maintainers": [
+				{
+					"name": "neoziro",
+					"email": "berge.greg@gmail.com"
+				},
+				{
+					"name": "tonybrix",
+					"email": "tony@brix.ninja"
+				}
+			],
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/spawnd_9.0.1_1696148768355_0.6269321335174636"
+			},
+			"_hasShrinkwrap": false,
+			"contributors": []
+		},
+		"9.0.2": {
+			"name": "spawnd",
+			"description": "Spawn a dependent child process.",
+			"version": "9.0.2",
+			"type": "commonjs",
+			"main": "./dist/index.js",
+			"types": "./dist/index.d.ts",
+			"exports": {
+				".": {
+					"types": "./dist/index.d.ts",
+					"default": "./dist/index.js"
+				},
+				"./package.json": "./package.json"
+			},
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/argos-ci/jest-puppeteer.git",
+				"directory": "packages/spawnd"
+			},
+			"homepage": "https://github.com/argos-ci/jest-puppeteer/tree/main/packages/spawnd#readme",
+			"bugs": {
+				"url": "https://github.com/argos-ci/jest-puppeteer/issues"
+			},
+			"engines": {
+				"node": ">=16"
+			},
+			"keywords": [
+				"spawn",
+				"exec",
+				"process",
+				"child_process",
+				"dependent",
+				"exit",
+				"child"
+			],
+			"publishConfig": {
+				"access": "public"
+			},
+			"scripts": {
+				"prebuild": "rm -rf dist",
+				"build": "rollup -c"
+			},
+			"devDependencies": {
+				"@types/exit": "^0.1.33",
+				"@types/signal-exit": "^3.0.4",
+				"rollup": "^4.5.0",
+				"rollup-plugin-dts": "^6.1.0",
+				"rollup-plugin-swc3": "^0.10.4"
+			},
+			"dependencies": {
+				"signal-exit": "^4.1.0",
+				"tree-kill": "^1.2.2"
+			},
+			"gitHead": "648701a447c79e430fb7ad45cacacae25843f01a",
+			"_id": "spawnd@9.0.2",
+			"_nodeVersion": "20.9.0",
+			"_npmVersion": "lerna/7.4.2/node@v20.9.0+arm64 (darwin)",
+			"dist": {
+				"integrity": "sha512-nl8DVHEDQ57IcKakzpjanspVChkMpGLuVwMR/eOn9cXE55Qr6luD2Kn06sA0ootRMdgrU4tInN6lA6ohTNvysw==",
+				"shasum": "7799635d183b27552e90ca639876dac10d45f7f7",
+				"tarball": "https://registry.npmjs.org/spawnd/-/spawnd-9.0.2.tgz",
+				"fileCount": 5,
+				"unpackedSize": 4725,
+				"signatures": [
+					{
+						"keyid": "SHA256:jl3bwswu80PjjokCgh0o2w5c2U4LhQAE57gj9cz1kzA",
+						"sig": "MEUCIDzpEdnX+rI/Ll3/joNrsMb65A/6uIJ3xzGYR7qxJHMnAiEAqbdzcbTQlPMLsLQpRntyxaJaNiLgBqaEt4sRBKNuxIE="
+					}
+				]
+			},
+			"_npmUser": {
+				"name": "neoziro",
+				"email": "berge.greg@gmail.com"
+			},
+			"directories": {},
+			"maintainers": [
+				{
+					"name": "neoziro",
+					"email": "berge.greg@gmail.com"
+				},
+				{
+					"name": "tonybrix",
+					"email": "tony@brix.ninja"
+				}
+			],
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/spawnd_9.0.2_1701859118107_0.7773084068665101"
+			},
+			"_hasShrinkwrap": false,
+			"contributors": []
+		},
+		"10.0.0": {
+			"name": "spawnd",
+			"description": "Spawn a dependent child process.",
+			"version": "10.0.0",
+			"type": "commonjs",
+			"main": "./dist/index.js",
+			"types": "./dist/index.d.ts",
+			"exports": {
+				".": {
+					"types": "./dist/index.d.ts",
+					"default": "./dist/index.js"
+				},
+				"./package.json": "./package.json"
+			},
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/argos-ci/jest-puppeteer.git",
+				"directory": "packages/spawnd"
+			},
+			"homepage": "https://github.com/argos-ci/jest-puppeteer/tree/main/packages/spawnd#readme",
+			"bugs": {
+				"url": "https://github.com/argos-ci/jest-puppeteer/issues"
+			},
+			"engines": {
+				"node": ">=16"
+			},
+			"keywords": [
+				"spawn",
+				"exec",
+				"process",
+				"child_process",
+				"dependent",
+				"exit",
+				"child"
+			],
+			"publishConfig": {
+				"access": "public"
+			},
+			"scripts": {
+				"prebuild": "rm -rf dist",
+				"build": "rollup -c"
+			},
+			"devDependencies": {
+				"@types/exit": "^0.1.33",
+				"@types/signal-exit": "^3.0.4",
+				"rollup": "^4.5.0",
+				"rollup-plugin-dts": "^6.1.0",
+				"rollup-plugin-swc3": "^0.10.4"
+			},
+			"dependencies": {
+				"signal-exit": "^4.1.0",
+				"tree-kill": "^1.2.2"
+			},
+			"gitHead": "018b0100a8c99cb73610a5cb927296de66f4b0bb",
+			"_id": "spawnd@10.0.0",
+			"_nodeVersion": "20.11.0",
+			"_npmVersion": "lerna/7.4.2/node@v20.11.0+arm64 (darwin)",
+			"dist": {
+				"integrity": "sha512-6GKcakMTryb5b1SWCvdubCDHEsR2k+5VZUD5G19umZRarkvj1RyCGyizcqhjewI7cqZo8fTVD8HpnDZbVOLMtg==",
+				"shasum": "cf1b222831272f4bef7e2abc9f98cd31c380a4dc",
+				"tarball": "https://registry.npmjs.org/spawnd/-/spawnd-10.0.0.tgz",
+				"fileCount": 5,
+				"unpackedSize": 4726,
+				"signatures": [
+					{
+						"keyid": "SHA256:jl3bwswu80PjjokCgh0o2w5c2U4LhQAE57gj9cz1kzA",
+						"sig": "MEYCIQD7FuqFoo3MAKIqOrYwBwK7oX2JPK1w/UTMCW1kWOeU/QIhAPuhyc+OpXMYQXIXACJELi5f1dc9C9hOfagP54LgDaxQ"
+					}
+				]
+			},
+			"_npmUser": {
+				"name": "neoziro",
+				"email": "berge.greg@gmail.com"
+			},
+			"directories": {},
+			"maintainers": [
+				{
+					"name": "neoziro",
+					"email": "berge.greg@gmail.com"
+				},
+				{
+					"name": "tonybrix",
+					"email": "tony@brix.ninja"
+				}
+			],
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/spawnd_10.0.0_1707576340758_0.6757862922676405"
+			},
+			"_hasShrinkwrap": false,
+			"contributors": []
+		}
+	},
+	"time": {
+		"created": "2018-03-04T19:21:19.964Z",
+		"1.1.0": "2018-03-04T19:21:20.025Z",
+		"modified": "2024-02-10T14:45:41.082Z",
+		"1.1.1": "2018-03-04T19:37:28.216Z",
+		"2.0.0": "2018-03-05T09:38:20.160Z",
+		"3.4.0": "2018-09-24T09:17:08.939Z",
+		"3.5.2": "2018-11-27T09:00:24.596Z",
+		"3.7.0": "2018-12-11T23:37:44.246Z",
+		"4.0.0": "2019-02-13T16:50:57.148Z",
+		"4.4.0": "2019-12-18T07:44:50.542Z",
+		"5.0.0": "2021-04-16T13:30:12.417Z",
+		"6.0.0": "2021-09-23T04:06:14.674Z",
+		"6.0.2": "2021-11-25T15:55:44.833Z",
+		"6.2.0": "2022-12-11T20:51:22.269Z",
+		"7.0.0": "2023-02-03T16:12:47.166Z",
+		"8.0.0": "2023-03-06T08:42:53.814Z",
+		"8.0.5": "2023-03-09T14:08:29.983Z",
+		"9.0.0": "2023-05-24T20:30:45.821Z",
+		"9.0.1": "2023-10-01T08:26:08.562Z",
+		"9.0.2": "2023-12-06T10:38:38.286Z",
+		"10.0.0": "2024-02-10T14:45:40.906Z"
+	},
+	"users": {},
+	"dist-tags": {
+		"latest": "10.0.0"
+	},
+	"_uplinks": {
+		"npmjs": {
+			"etag": "W/\"053ca75c8dcba7afc64a71afb231767e\"",
+			"fetched": 1715345985126
+		}
+	},
+	"_distfiles": {
+		"spawnd-1.1.0.tgz": {
+			"url": "https://registry.npmjs.org/spawnd/-/spawnd-1.1.0.tgz",
+			"sha": "eec82d96e9e748ce6a3b01a2393f211634a7ee65",
+			"registry": "npmjs"
+		},
+		"spawnd-1.1.1.tgz": {
+			"url": "https://registry.npmjs.org/spawnd/-/spawnd-1.1.1.tgz",
+			"sha": "a7288027fc32e72b2ca72d462f4f814ba0a489dd",
+			"registry": "npmjs"
+		},
+		"spawnd-2.0.0.tgz": {
+			"url": "https://registry.npmjs.org/spawnd/-/spawnd-2.0.0.tgz",
+			"sha": "d2020403dc5ef72ecac3ffab9b42fa16ae9175f5",
+			"registry": "npmjs"
+		},
+		"spawnd-3.4.0.tgz": {
+			"url": "https://registry.npmjs.org/spawnd/-/spawnd-3.4.0.tgz",
+			"sha": "73d71bdf6e9d196ecef9a22ab433e978a7a31bec",
+			"registry": "npmjs"
+		},
+		"spawnd-3.5.2.tgz": {
+			"url": "https://registry.npmjs.org/spawnd/-/spawnd-3.5.2.tgz",
+			"sha": "a3a546544666e5c8a22e0329fcfecc92cb10d307",
+			"registry": "npmjs"
+		},
+		"spawnd-3.7.0.tgz": {
+			"url": "https://registry.npmjs.org/spawnd/-/spawnd-3.7.0.tgz",
+			"sha": "9807503ab408950771b93634e3f76115bcc8fe31",
+			"registry": "npmjs"
+		},
+		"spawnd-4.0.0.tgz": {
+			"url": "https://registry.npmjs.org/spawnd/-/spawnd-4.0.0.tgz",
+			"sha": "b27ee6e7ec55c6ec232c05a21418cf35a77e0409",
+			"registry": "npmjs"
+		},
+		"spawnd-4.4.0.tgz": {
+			"url": "https://registry.npmjs.org/spawnd/-/spawnd-4.4.0.tgz",
+			"sha": "bb52c5b34a22e3225ae1d3acb873b2cd58af0886",
+			"registry": "npmjs"
+		},
+		"spawnd-5.0.0.tgz": {
+			"url": "https://registry.npmjs.org/spawnd/-/spawnd-5.0.0.tgz",
+			"sha": "ea72200bdc468998e84e1c3e7b914ce85fc1c32c",
+			"registry": "npmjs"
+		},
+		"spawnd-6.0.0.tgz": {
+			"url": "https://registry.npmjs.org/spawnd/-/spawnd-6.0.0.tgz",
+			"sha": "8bcb3b8769901cfb434ea3ff4334ac3bde3b9cda",
+			"registry": "npmjs"
+		},
+		"spawnd-6.0.2.tgz": {
+			"url": "https://registry.npmjs.org/spawnd/-/spawnd-6.0.2.tgz",
+			"sha": "a2631cab24ce5e3525e720af4058f10a0905147c",
+			"registry": "npmjs"
+		},
+		"spawnd-6.2.0.tgz": {
+			"url": "https://registry.npmjs.org/spawnd/-/spawnd-6.2.0.tgz",
+			"sha": "255bb3f405d0fbacefa1c5398cec58588c263c81",
+			"registry": "npmjs"
+		},
+		"spawnd-7.0.0.tgz": {
+			"url": "https://registry.npmjs.org/spawnd/-/spawnd-7.0.0.tgz",
+			"sha": "6e14a30c45470d1d1e11c0ef1e8d01c84a269b4a",
+			"registry": "npmjs"
+		},
+		"spawnd-8.0.0.tgz": {
+			"url": "https://registry.npmjs.org/spawnd/-/spawnd-8.0.0.tgz",
+			"sha": "ccde046b6fd8268f282fa0e007754dd9e590f415",
+			"registry": "npmjs"
+		},
+		"spawnd-8.0.5.tgz": {
+			"url": "https://registry.npmjs.org/spawnd/-/spawnd-8.0.5.tgz",
+			"sha": "e3166d7c8c3d02200ee16d94318e0b56a7483c69",
+			"registry": "npmjs"
+		},
+		"spawnd-9.0.0.tgz": {
+			"url": "https://registry.npmjs.org/spawnd/-/spawnd-9.0.0.tgz",
+			"sha": "f41b60cd4618ad43d237a110ce391a2b3f93dd2b",
+			"registry": "npmjs"
+		},
+		"spawnd-9.0.1.tgz": {
+			"url": "https://registry.npmjs.org/spawnd/-/spawnd-9.0.1.tgz",
+			"sha": "43b39b4bf5bdf6b5e38fbb7fabb2fbd0385b23b9",
+			"registry": "npmjs"
+		},
+		"spawnd-9.0.2.tgz": {
+			"url": "https://registry.npmjs.org/spawnd/-/spawnd-9.0.2.tgz",
+			"sha": "7799635d183b27552e90ca639876dac10d45f7f7",
+			"registry": "npmjs"
+		},
+		"spawnd-10.0.0.tgz": {
+			"url": "https://registry.npmjs.org/spawnd/-/spawnd-10.0.0.tgz",
+			"sha": "cf1b222831272f4bef7e2abc9f98cd31c380a4dc",
+			"registry": "npmjs"
+		}
+	},
+	"_attachments": {
+		"spawnd-5.0.0.tgz": {
+			"shasum": "ea72200bdc468998e84e1c3e7b914ce85fc1c32c"
+		}
+	},
+	"_rev": "2-c223de7e6e20b87d",
+	"_id": "spawnd",
+	"readme": "# spawnd\n\n[![npm version](https://img.shields.io/npm/v/spawnd.svg)](https://www.npmjs.com/package/spawnd)\n[![npm dm](https://img.shields.io/npm/dm/spawnd.svg)](https://www.npmjs.com/package/spawnd)\n[![npm dt](https://img.shields.io/npm/dt/spawnd.svg)](https://www.npmjs.com/package/spawnd)\n\nSpawn a process inter-dependent with parent process.\n\n```\nnpm install spawnd\n```\n\n## Usage\n\n```js\nimport { spawnd } from \"spawnd\";\n\nconst proc = spawnd(\"node server.js\", { shell: true });\n\nproc.destroy().then(() => {\n  console.log(\"Destroyed!\");\n});\n```\n\n## API\n\n### spawnd(command[, args[, options]])\n\nExactly the same API as [Node.js spawn](https://nodejs.org/api/child_process.html#child_process_child_process_spawn_command_args_options).\n\nIt returns a [Child Process](https://nodejs.org/api/child_process.html#child_process_class_childprocess) that exposes a destroy method that will kill the process."
+}

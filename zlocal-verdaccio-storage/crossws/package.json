@@ -1,0 +1,1561 @@
+{
+	"name": "crossws",
+	"versions": {
+		"0.0.0": {
+			"name": "crossws",
+			"version": "0.0.0",
+			"_id": "crossws@0.0.0",
+			"_nodeVersion": "20.10.0",
+			"_npmVersion": "10.2.3",
+			"dist": {
+				"integrity": "sha512-DrPW2o9pHYMeqPx8QGciI0GipNiCAsX8NJPdvRl0LQKvH+YoBwNcwb2SQp962kh56DdCCpOJprDs6Kr3dnrTTw==",
+				"shasum": "96e538ace96236eb143a912f9c03f8f141ef531c",
+				"tarball": "https://registry.npmjs.org/crossws/-/crossws-0.0.0.tgz",
+				"fileCount": 1,
+				"unpackedSize": 36,
+				"signatures": [
+					{
+						"keyid": "SHA256:jl3bwswu80PjjokCgh0o2w5c2U4LhQAE57gj9cz1kzA",
+						"sig": "MEQCID9TMd4wjEZx+jvx8ktJ4L2FKEpWDW/8iE4KQG/VSlXKAiBI2q5caQZxVtMQfP8/RdVbYSapwSFYE8K5d4l0DlvjYg=="
+					}
+				]
+			},
+			"_npmUser": {
+				"name": "pi0",
+				"email": "pyapar@gmail.com"
+			},
+			"directories": {},
+			"maintainers": [
+				{
+					"name": "pi0",
+					"email": "pyapar@gmail.com"
+				}
+			],
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/crossws_0.0.0_1701883920774_0.6178452165439714"
+			},
+			"_hasShrinkwrap": false,
+			"contributors": []
+		},
+		"0.0.1": {
+			"name": "crossws",
+			"version": "0.0.1",
+			"description": "[![npm version][npm-version-src]][npm-version-href] [![bundle][bundle-src]][bundle-href]",
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/unjs/crossws.git"
+			},
+			"license": "MIT",
+			"sideEffects": false,
+			"type": "module",
+			"exports": {
+				".": {
+					"types": "./dist/index.d.ts",
+					"import": "./dist/index.mjs",
+					"require": "./dist/index.cjs"
+				},
+				"./adapters/bun": {
+					"types": "./dist/adapters/bun.d.ts",
+					"import": "./dist/adapters/bun.mjs",
+					"require": "./dist/adapters/bun.cjs"
+				},
+				"./adapters/deno": {
+					"types": "./dist/adapters/deno.d.ts",
+					"import": "./dist/adapters/deno.mjs",
+					"require": "./dist/adapters/deno.cjs"
+				},
+				"./adapters/node": {
+					"types": "./dist/adapters/node.d.ts",
+					"import": "./dist/adapters/node.mjs",
+					"require": "./dist/adapters/node.cjs"
+				}
+			},
+			"main": "./dist/index.cjs",
+			"module": "./dist/index.mjs",
+			"types": "./dist/index.d.ts",
+			"scripts": {
+				"build": "unbuild",
+				"dev": "vitest dev",
+				"play:node": "jiti playground/node.ts",
+				"play:bun": "bun playground/bun.ts",
+				"play:deno": "deno run -A playground/deno.ts",
+				"lint": "eslint --cache --ext .ts,.js,.mjs,.cjs . && prettier -c src test",
+				"lint:fix": "eslint --cache --ext .ts,.js,.mjs,.cjs . --fix && prettier -c src test -w",
+				"prepack": "pnpm run build",
+				"release": "pnpm test && changelogen --release && npm publish && git push --follow-tags",
+				"test": "pnpm lint && pnpm test:types && vitest run --coverage",
+				"test:types": "tsc --noEmit --skipLibCheck"
+			},
+			"devDependencies": {
+				"@types/node": "^20.10.3",
+				"@types/web": "^0.0.125",
+				"@types/ws": "^8.5.10",
+				"@vitest/coverage-v8": "^1.0.1",
+				"changelogen": "^0.5.5",
+				"eslint": "^8.55.0",
+				"eslint-config-unjs": "^0.2.1",
+				"jiti": "^1.21.0",
+				"prettier": "^3.1.0",
+				"typescript": "^5.3.2",
+				"uWebSockets.js": "github:uNetworking/uWebSockets.js#v20.33.0",
+				"unbuild": "^2.0.0",
+				"vitest": "^1.0.1",
+				"ws": "^8.14.2"
+			},
+			"packageManager": "pnpm@8.11.0",
+			"_id": "crossws@0.0.1",
+			"gitHead": "799120a485e478c2d397724bad7beafc521ec29d",
+			"bugs": {
+				"url": "https://github.com/unjs/crossws/issues"
+			},
+			"homepage": "https://github.com/unjs/crossws#readme",
+			"_nodeVersion": "20.10.0",
+			"_npmVersion": "10.2.3",
+			"dist": {
+				"integrity": "sha512-BzJlVSOfDVWWN5OOyIRixnr2Oz1Df17FZy+vI1OWVd9ovJButoH8NvYxlqQm1cVT9nADQegpfPEFPl50WAz4YA==",
+				"shasum": "6164f52168d78ae218fc2c0cc3ebb39cf2a0d8a9",
+				"tarball": "https://registry.npmjs.org/crossws/-/crossws-0.0.1.tgz",
+				"fileCount": 25,
+				"unpackedSize": 317424,
+				"signatures": [
+					{
+						"keyid": "SHA256:jl3bwswu80PjjokCgh0o2w5c2U4LhQAE57gj9cz1kzA",
+						"sig": "MEUCICXzfAgbR/EPRGQb4H7RIGw6WXUyJ5h3GyrWQAooCjCZAiEArVmXtOJKVnOiswVGpzGR3UY9ReR1l3v0yecEGUDoEJ8="
+					}
+				]
+			},
+			"_npmUser": {
+				"name": "pi0",
+				"email": "pyapar@gmail.com"
+			},
+			"directories": {},
+			"maintainers": [
+				{
+					"name": "pi0",
+					"email": "pyapar@gmail.com"
+				}
+			],
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/crossws_0.0.1_1701910884424_0.08775325658335542"
+			},
+			"_hasShrinkwrap": false,
+			"contributors": []
+		},
+		"0.1.0": {
+			"name": "crossws",
+			"version": "0.1.0",
+			"description": "Cross-platform WebSocket Servers for Node.js, Deno, Bun and Cloudflare Workers",
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/unjs/crossws.git"
+			},
+			"license": "MIT",
+			"sideEffects": false,
+			"type": "module",
+			"exports": {
+				".": {
+					"types": "./dist/index.d.ts",
+					"import": "./dist/index.mjs",
+					"require": "./dist/index.cjs"
+				},
+				"./websocket": {
+					"types": {
+						"import": "./dist/websocket/index.d.mts",
+						"require": "./dist/websocket/index.d.cts"
+					},
+					"browser": "./dist/websocket/index.mjs",
+					"worker": "./dist/websocket/index.mjs",
+					"bun": "./dist/websocket/index.mjs",
+					"deno": "./dist/websocket/index.mjs",
+					"edge-light": "./dist/websocket/index.mjs",
+					"workerd": "./dist/websocket/index.mjs",
+					"node": {
+						"import": "./dist/websocket/node.mjs",
+						"require": "./dist/websocket/node.cjs"
+					},
+					"import": "./dist/websocket/index.mjs",
+					"require": "./dist/websocket/index.cjs"
+				},
+				"./adapters/bun": {
+					"types": "./dist/adapters/bun.d.ts",
+					"import": "./dist/adapters/bun.mjs",
+					"require": "./dist/adapters/bun.cjs"
+				},
+				"./adapters/deno": {
+					"types": "./dist/adapters/deno.d.ts",
+					"import": "./dist/adapters/deno.mjs",
+					"require": "./dist/adapters/deno.cjs"
+				},
+				"./adapters/cloudflare": {
+					"types": "./dist/adapters/cloudflare.d.ts",
+					"import": "./dist/adapters/cloudflare.mjs",
+					"require": "./dist/adapters/cloudflare.cjs"
+				},
+				"./adapters/node": {
+					"types": "./dist/adapters/node.d.ts",
+					"import": "./dist/adapters/node.mjs",
+					"require": "./dist/adapters/node.cjs"
+				}
+			},
+			"main": "./dist/index.cjs",
+			"module": "./dist/index.mjs",
+			"types": "./dist/index.d.ts",
+			"scripts": {
+				"build": "unbuild",
+				"play:node": "jiti playground/node.ts",
+				"play:bun": "bun playground/bun.ts",
+				"play:deno": "deno run -A playground/deno.ts",
+				"play:cf": "wrangler dev --port 3001",
+				"lint": "eslint --cache --ext .ts,.js,.mjs,.cjs . && prettier -c src",
+				"lint:fix": "eslint --cache --ext .ts,.js,.mjs,.cjs . --fix && prettier -c src -w",
+				"prepack": "pnpm run build",
+				"release": "pnpm test && changelogen --release && npm publish && git push --follow-tags",
+				"test": "pnpm lint && pnpm test:types",
+				"test:types": "tsc --noEmit --skipLibCheck"
+			},
+			"devDependencies": {
+				"@cloudflare/workers-types": "^4.20240117.0",
+				"@types/node": "^20.11.10",
+				"@types/web": "^0.0.135",
+				"@types/ws": "^8.5.10",
+				"bun-types": "^1.0.25",
+				"changelogen": "^0.5.5",
+				"consola": "^3.2.3",
+				"eslint": "^8.56.0",
+				"eslint-config-unjs": "^0.2.1",
+				"jiti": "^1.21.0",
+				"prettier": "^3.2.4",
+				"typescript": "^5.3.3",
+				"uWebSockets.js": "github:uNetworking/uWebSockets.js#v20.33.0",
+				"unbuild": "^2.0.0",
+				"wrangler": "^3.25.0",
+				"ws": "^8.16.0"
+			},
+			"packageManager": "pnpm@8.15.0",
+			"_id": "crossws@0.1.0",
+			"gitHead": "d7eb0aa01dfb86d4711d178dec0415dfcebad067",
+			"bugs": {
+				"url": "https://github.com/unjs/crossws/issues"
+			},
+			"homepage": "https://github.com/unjs/crossws#readme",
+			"_nodeVersion": "20.11.0",
+			"_npmVersion": "10.2.4",
+			"dist": {
+				"integrity": "sha512-k/CMEn83hK9xflL4RD4puf+qOgTjTsA8svK+u/fkbKCrVzthkWAhiXpXc49Ju5V+aa3TqM3EW+0ROixh1MclzA==",
+				"shasum": "6943d64959e521a08594f3173291803eabd71e17",
+				"tarball": "https://registry.npmjs.org/crossws/-/crossws-0.1.0.tgz",
+				"fileCount": 47,
+				"unpackedSize": 332554,
+				"signatures": [
+					{
+						"keyid": "SHA256:jl3bwswu80PjjokCgh0o2w5c2U4LhQAE57gj9cz1kzA",
+						"sig": "MEUCIGtFYGAoB67IxiKsY/J74LY5w8fMBr5eGKB70A0wBVICAiEAvnMHf59gzsUDVcRntGkePxkum12J2Q//xs8h2XZKEo0="
+					}
+				]
+			},
+			"_npmUser": {
+				"name": "pi0",
+				"email": "pyapar@gmail.com"
+			},
+			"directories": {},
+			"maintainers": [
+				{
+					"name": "pi0",
+					"email": "pyapar@gmail.com"
+				}
+			],
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/crossws_0.1.0_1706495316722_0.10638268528470385"
+			},
+			"_hasShrinkwrap": false,
+			"contributors": []
+		},
+		"0.1.1": {
+			"name": "crossws",
+			"version": "0.1.1",
+			"description": "Cross-platform WebSocket Servers for Node.js, Deno, Bun and Cloudflare Workers",
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/unjs/crossws.git"
+			},
+			"license": "MIT",
+			"sideEffects": false,
+			"type": "module",
+			"exports": {
+				".": {
+					"types": "./dist/index.d.ts",
+					"import": "./dist/index.mjs",
+					"require": "./dist/index.cjs"
+				},
+				"./websocket": {
+					"types": {
+						"import": "./dist/websocket/index.d.mts",
+						"require": "./dist/websocket/index.d.cts"
+					},
+					"browser": "./dist/websocket/index.mjs",
+					"worker": "./dist/websocket/index.mjs",
+					"bun": "./dist/websocket/index.mjs",
+					"deno": "./dist/websocket/index.mjs",
+					"edge-light": "./dist/websocket/index.mjs",
+					"workerd": "./dist/websocket/index.mjs",
+					"node": {
+						"import": "./dist/websocket/node.mjs",
+						"require": "./dist/websocket/node.cjs"
+					},
+					"import": "./dist/websocket/index.mjs",
+					"require": "./dist/websocket/index.cjs"
+				},
+				"./adapters/bun": {
+					"types": "./dist/adapters/bun.d.ts",
+					"import": "./dist/adapters/bun.mjs",
+					"require": "./dist/adapters/bun.cjs"
+				},
+				"./adapters/deno": {
+					"types": "./dist/adapters/deno.d.ts",
+					"import": "./dist/adapters/deno.mjs",
+					"require": "./dist/adapters/deno.cjs"
+				},
+				"./adapters/cloudflare": {
+					"types": "./dist/adapters/cloudflare.d.ts",
+					"import": "./dist/adapters/cloudflare.mjs",
+					"require": "./dist/adapters/cloudflare.cjs"
+				},
+				"./adapters/node": {
+					"types": "./dist/adapters/node.d.ts",
+					"import": "./dist/adapters/node.mjs",
+					"require": "./dist/adapters/node.cjs"
+				}
+			},
+			"main": "./dist/index.cjs",
+			"module": "./dist/index.mjs",
+			"types": "./dist/index.d.ts",
+			"scripts": {
+				"build": "unbuild",
+				"play:node": "jiti playground/node.ts",
+				"play:bun": "bun playground/bun.ts",
+				"play:deno": "deno run -A playground/deno.ts",
+				"play:cf": "wrangler dev --port 3001",
+				"lint": "eslint --cache --ext .ts,.js,.mjs,.cjs . && prettier -c src",
+				"lint:fix": "eslint --cache --ext .ts,.js,.mjs,.cjs . --fix && prettier -c src -w",
+				"prepack": "pnpm run build",
+				"release": "pnpm test && changelogen --release && npm publish && git push --follow-tags",
+				"test": "pnpm lint && pnpm test:types",
+				"test:types": "tsc --noEmit --skipLibCheck"
+			},
+			"devDependencies": {
+				"@cloudflare/workers-types": "^4.20240117.0",
+				"@types/bun": "^1.0.4",
+				"@types/node": "^20.11.10",
+				"@types/web": "^0.0.135",
+				"@types/ws": "^8.5.10",
+				"changelogen": "^0.5.5",
+				"consola": "^3.2.3",
+				"eslint": "^8.56.0",
+				"eslint-config-unjs": "^0.2.1",
+				"jiti": "^1.21.0",
+				"prettier": "^3.2.4",
+				"typescript": "^5.3.3",
+				"uWebSockets.js": "github:uNetworking/uWebSockets.js#v20.33.0",
+				"unbuild": "^2.0.0",
+				"wrangler": "^3.25.0",
+				"ws": "^8.16.0"
+			},
+			"packageManager": "pnpm@8.15.0",
+			"_id": "crossws@0.1.1",
+			"gitHead": "7977f532feeda310525e5477f77efd2929854b2d",
+			"bugs": {
+				"url": "https://github.com/unjs/crossws/issues"
+			},
+			"homepage": "https://github.com/unjs/crossws#readme",
+			"_nodeVersion": "20.11.0",
+			"_npmVersion": "10.2.4",
+			"dist": {
+				"integrity": "sha512-c9c/o7bS3OjsdpSkvexpka0JNlesBF2JU9B2V1yNsYGwRbAafxhJQ7VI9b48D5bpONz/oxbPGMzBojy9sXoQIQ==",
+				"shasum": "3a85a8140568e4828d9747a884171ea7e6a8bbe2",
+				"tarball": "https://registry.npmjs.org/crossws/-/crossws-0.1.1.tgz",
+				"fileCount": 47,
+				"unpackedSize": 333128,
+				"signatures": [
+					{
+						"keyid": "SHA256:jl3bwswu80PjjokCgh0o2w5c2U4LhQAE57gj9cz1kzA",
+						"sig": "MEQCIBpZQCTqQaGkrOhQ9VwiNcAzPX6pV4pU6FnG4FcorxR1AiAsgbjXxrxLAlTps07ybTLdcmOdTgIKXhP1vQ+UMCpzhA=="
+					}
+				]
+			},
+			"_npmUser": {
+				"name": "pi0",
+				"email": "pyapar@gmail.com"
+			},
+			"directories": {},
+			"maintainers": [
+				{
+					"name": "pi0",
+					"email": "pyapar@gmail.com"
+				}
+			],
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/crossws_0.1.1_1706531165319_0.07305399639126486"
+			},
+			"_hasShrinkwrap": false,
+			"contributors": []
+		},
+		"0.1.2": {
+			"name": "crossws",
+			"version": "0.1.2",
+			"description": "Cross-platform WebSocket Servers for Node.js, Deno, Bun and Cloudflare Workers",
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/unjs/crossws.git"
+			},
+			"license": "MIT",
+			"sideEffects": false,
+			"type": "module",
+			"exports": {
+				".": {
+					"types": "./dist/index.d.ts",
+					"import": "./dist/index.mjs",
+					"require": "./dist/index.cjs"
+				},
+				"./websocket": {
+					"types": {
+						"import": "./dist/websocket/index.d.mts",
+						"require": "./dist/websocket/index.d.cts"
+					},
+					"browser": "./dist/websocket/index.mjs",
+					"worker": "./dist/websocket/index.mjs",
+					"bun": "./dist/websocket/index.mjs",
+					"deno": "./dist/websocket/index.mjs",
+					"edge-light": "./dist/websocket/index.mjs",
+					"workerd": "./dist/websocket/index.mjs",
+					"node": {
+						"import": "./dist/websocket/node.mjs",
+						"require": "./dist/websocket/node.cjs"
+					},
+					"import": "./dist/websocket/index.mjs",
+					"require": "./dist/websocket/index.cjs"
+				},
+				"./adapters/bun": {
+					"types": "./dist/adapters/bun.d.ts",
+					"import": "./dist/adapters/bun.mjs",
+					"require": "./dist/adapters/bun.cjs"
+				},
+				"./adapters/deno": {
+					"types": "./dist/adapters/deno.d.ts",
+					"import": "./dist/adapters/deno.mjs",
+					"require": "./dist/adapters/deno.cjs"
+				},
+				"./adapters/cloudflare": {
+					"types": "./dist/adapters/cloudflare.d.ts",
+					"import": "./dist/adapters/cloudflare.mjs",
+					"require": "./dist/adapters/cloudflare.cjs"
+				},
+				"./adapters/node": {
+					"types": "./dist/adapters/node.d.ts",
+					"import": "./dist/adapters/node.mjs",
+					"require": "./dist/adapters/node.cjs"
+				},
+				"./adapters/uws": {
+					"types": "./dist/adapters/uws.d.ts",
+					"import": "./dist/adapters/uws.mjs",
+					"require": "./dist/adapters/uws.cjs"
+				}
+			},
+			"main": "./dist/index.cjs",
+			"module": "./dist/index.mjs",
+			"types": "./dist/index.d.ts",
+			"scripts": {
+				"build": "unbuild",
+				"dev": "pnpm play:node",
+				"lint": "eslint --cache --ext .ts,.js,.mjs,.cjs . && prettier -c src",
+				"lint:fix": "eslint --cache --ext .ts,.js,.mjs,.cjs . --fix && prettier -c src -w",
+				"prepack": "pnpm run build",
+				"play:bun": "bun playground/bun.ts",
+				"play:cf": "wrangler dev --port 3001",
+				"play:deno": "deno run --unstable-sloppy-imports -A playground/deno.ts",
+				"play:node": "jiti playground/node.ts",
+				"play:uws": "jiti playground/uws.ts",
+				"release": "pnpm test && changelogen --release && npm publish && git push --follow-tags",
+				"test": "pnpm lint && pnpm test:types",
+				"test:types": "tsc --noEmit --skipLibCheck"
+			},
+			"resolutions": {
+				"crossws": "workspace:*"
+			},
+			"devDependencies": {
+				"@cloudflare/workers-types": "^4.20240117.0",
+				"@deno/types": "^0.0.1",
+				"@types/bun": "^1.0.4",
+				"@types/node": "^20.11.10",
+				"@types/web": "^0.0.135",
+				"@types/ws": "^8.5.10",
+				"automd": "^0.3.6",
+				"changelogen": "^0.5.5",
+				"consola": "^3.2.3",
+				"eslint": "^8.56.0",
+				"eslint-config-unjs": "^0.2.1",
+				"h3": "^1.10.1",
+				"jiti": "^1.21.0",
+				"listhen": "^1.6.0",
+				"prettier": "^3.2.4",
+				"typescript": "^5.3.3",
+				"uWebSockets.js": "github:uNetworking/uWebSockets.js#v20.33.0",
+				"unbuild": "^2.0.0",
+				"wrangler": "^3.25.0",
+				"ws": "^8.16.0"
+			},
+			"peerDependencies": {
+				"uWebSockets.js": "*"
+			},
+			"peerDependenciesMeta": {
+				"uWebSockets.js": {
+					"optional": true
+				}
+			},
+			"packageManager": "pnpm@8.15.0",
+			"_id": "crossws@0.1.2",
+			"gitHead": "fba6c92d8d0487f9ec9ca5f00f88bb58aa6240da",
+			"bugs": {
+				"url": "https://github.com/unjs/crossws/issues"
+			},
+			"homepage": "https://github.com/unjs/crossws#readme",
+			"_nodeVersion": "20.11.1",
+			"_npmVersion": "10.2.4",
+			"dist": {
+				"integrity": "sha512-QNNGkiMJ6MLROO78mge7bHqnfU+0HhfIda8jOwOclZV2aYhC7HbFOp1SpZ6XtohWTSeQWbEUnHibilFI/omquQ==",
+				"shasum": "e4b69e50659e9dd6d9b4ec2cfa2ea92afd90de26",
+				"tarball": "https://registry.npmjs.org/crossws/-/crossws-0.1.2.tgz",
+				"fileCount": 55,
+				"unpackedSize": 352380,
+				"signatures": [
+					{
+						"keyid": "SHA256:jl3bwswu80PjjokCgh0o2w5c2U4LhQAE57gj9cz1kzA",
+						"sig": "MEUCIHMzztw2zWkbFbXk/2Fs+28uITqI4feGChP24dc5VrMTAiEAz5wMzH02DLOQDJ+TjVvFcR03rnphvJ+5l2cAvFoz6fY="
+					}
+				]
+			},
+			"_npmUser": {
+				"name": "pi0",
+				"email": "pyapar@gmail.com"
+			},
+			"directories": {},
+			"maintainers": [
+				{
+					"name": "pi0",
+					"email": "pyapar@gmail.com"
+				}
+			],
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/crossws_0.1.2_1708803926408_0.7222618869186002"
+			},
+			"_hasShrinkwrap": false,
+			"contributors": []
+		},
+		"0.1.3": {
+			"name": "crossws",
+			"version": "0.1.3",
+			"description": "Cross-platform WebSocket Servers for Node.js, Deno, Bun and Cloudflare Workers",
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/unjs/crossws.git"
+			},
+			"license": "MIT",
+			"sideEffects": false,
+			"type": "module",
+			"exports": {
+				".": {
+					"types": "./dist/index.d.ts",
+					"import": "./dist/index.mjs",
+					"require": "./dist/index.cjs"
+				},
+				"./websocket": {
+					"types": {
+						"import": "./dist/websocket/index.d.mts",
+						"require": "./dist/websocket/index.d.cts"
+					},
+					"browser": "./dist/websocket/index.mjs",
+					"worker": "./dist/websocket/index.mjs",
+					"bun": "./dist/websocket/index.mjs",
+					"deno": "./dist/websocket/index.mjs",
+					"edge-light": "./dist/websocket/index.mjs",
+					"workerd": "./dist/websocket/index.mjs",
+					"node": {
+						"import": "./dist/websocket/node.mjs",
+						"require": "./dist/websocket/node.cjs"
+					},
+					"import": "./dist/websocket/index.mjs",
+					"require": "./dist/websocket/index.cjs"
+				},
+				"./adapters/bun": {
+					"types": "./dist/adapters/bun.d.ts",
+					"import": "./dist/adapters/bun.mjs",
+					"require": "./dist/adapters/bun.cjs"
+				},
+				"./adapters/deno": {
+					"types": "./dist/adapters/deno.d.ts",
+					"import": "./dist/adapters/deno.mjs",
+					"require": "./dist/adapters/deno.cjs"
+				},
+				"./adapters/cloudflare": {
+					"types": "./dist/adapters/cloudflare.d.ts",
+					"import": "./dist/adapters/cloudflare.mjs",
+					"require": "./dist/adapters/cloudflare.cjs"
+				},
+				"./adapters/node": {
+					"types": "./dist/adapters/node.d.ts",
+					"import": "./dist/adapters/node.mjs",
+					"require": "./dist/adapters/node.cjs"
+				},
+				"./adapters/uws": {
+					"types": "./dist/adapters/uws.d.ts",
+					"import": "./dist/adapters/uws.mjs",
+					"require": "./dist/adapters/uws.cjs"
+				}
+			},
+			"main": "./dist/index.cjs",
+			"module": "./dist/index.mjs",
+			"types": "./dist/index.d.ts",
+			"scripts": {
+				"build": "unbuild",
+				"dev": "pnpm play:node",
+				"lint": "eslint --cache --ext .ts,.js,.mjs,.cjs . && prettier -c src",
+				"lint:fix": "eslint --cache --ext .ts,.js,.mjs,.cjs . --fix && prettier -c src -w",
+				"prepack": "pnpm run build",
+				"play:bun": "bun playground/bun.ts",
+				"play:cf": "wrangler dev --port 3001",
+				"play:deno": "deno run --unstable-sloppy-imports -A playground/deno.ts",
+				"play:node": "jiti playground/node.ts",
+				"play:uws": "jiti playground/uws.ts",
+				"release": "pnpm test && pnpm build && changelogen --release && npm publish && git push --follow-tags",
+				"test": "pnpm lint && pnpm test:types",
+				"test:types": "tsc --noEmit --skipLibCheck"
+			},
+			"resolutions": {
+				"crossws": "workspace:*"
+			},
+			"devDependencies": {
+				"@cloudflare/workers-types": "^4.20240117.0",
+				"@deno/types": "^0.0.1",
+				"@types/bun": "^1.0.4",
+				"@types/node": "^20.11.10",
+				"@types/web": "^0.0.135",
+				"@types/ws": "^8.5.10",
+				"automd": "^0.3.6",
+				"changelogen": "^0.5.5",
+				"consola": "^3.2.3",
+				"eslint": "^8.56.0",
+				"eslint-config-unjs": "^0.2.1",
+				"h3": "^1.10.1",
+				"jiti": "^1.21.0",
+				"listhen": "^1.6.0",
+				"prettier": "^3.2.4",
+				"typescript": "^5.3.3",
+				"uWebSockets.js": "github:uNetworking/uWebSockets.js#v20.33.0",
+				"unbuild": "^2.0.0",
+				"wrangler": "^3.25.0",
+				"ws": "^8.16.0"
+			},
+			"peerDependencies": {
+				"uWebSockets.js": "*"
+			},
+			"peerDependenciesMeta": {
+				"uWebSockets.js": {
+					"optional": true
+				}
+			},
+			"packageManager": "pnpm@8.15.0",
+			"_id": "crossws@0.1.3",
+			"gitHead": "a6f0ca88b7a47b25143a2f8b5c06816c10cc3414",
+			"bugs": {
+				"url": "https://github.com/unjs/crossws/issues"
+			},
+			"homepage": "https://github.com/unjs/crossws#readme",
+			"_nodeVersion": "20.11.1",
+			"_npmVersion": "10.2.4",
+			"dist": {
+				"integrity": "sha512-uZwy53h6ITBxXdzsw7UcGQZ1QSyjBSkAknu70Zb7+JWmJ1LstE1hVFEgt34RVoCQJn8kstSOnNmRjK93SG1LBg==",
+				"shasum": "158f2bb716b5163a46364a44e682b8900e471097",
+				"tarball": "https://registry.npmjs.org/crossws/-/crossws-0.1.3.tgz",
+				"fileCount": 55,
+				"unpackedSize": 352394,
+				"signatures": [
+					{
+						"keyid": "SHA256:jl3bwswu80PjjokCgh0o2w5c2U4LhQAE57gj9cz1kzA",
+						"sig": "MEUCIEvKPK1Z8K7m7ZawGw6r5Piv0oyxYF+SQDoeHDHjju+yAiEA3FTMaPlm/0q9EvWu5cYXF9i9e0UuY2zftZIRx8wzuPo="
+					}
+				]
+			},
+			"_npmUser": {
+				"name": "pi0",
+				"email": "pyapar@gmail.com"
+			},
+			"directories": {},
+			"maintainers": [
+				{
+					"name": "pi0",
+					"email": "pyapar@gmail.com"
+				}
+			],
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/crossws_0.1.3_1708803974336_0.6368038842481307"
+			},
+			"_hasShrinkwrap": false,
+			"contributors": []
+		},
+		"0.2.0": {
+			"name": "crossws",
+			"version": "0.2.0",
+			"description": "Cross-platform WebSocket Servers for Node.js, Deno, Bun and Cloudflare Workers",
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/unjs/crossws.git"
+			},
+			"license": "MIT",
+			"sideEffects": false,
+			"type": "module",
+			"exports": {
+				".": {
+					"types": "./dist/index.d.ts",
+					"import": "./dist/index.mjs",
+					"require": "./dist/index.cjs"
+				},
+				"./websocket": {
+					"types": {
+						"import": "./dist/websocket/index.d.mts",
+						"require": "./dist/websocket/index.d.cts"
+					},
+					"browser": "./dist/websocket/index.mjs",
+					"worker": "./dist/websocket/index.mjs",
+					"bun": "./dist/websocket/index.mjs",
+					"deno": "./dist/websocket/index.mjs",
+					"edge-light": "./dist/websocket/index.mjs",
+					"workerd": "./dist/websocket/index.mjs",
+					"node": {
+						"import": "./dist/websocket/node.mjs",
+						"require": "./dist/websocket/node.cjs"
+					},
+					"import": "./dist/websocket/index.mjs",
+					"require": "./dist/websocket/index.cjs"
+				},
+				"./adapters/bun": {
+					"types": "./dist/adapters/bun.d.ts",
+					"import": "./dist/adapters/bun.mjs",
+					"require": "./dist/adapters/bun.cjs"
+				},
+				"./adapters/deno": {
+					"types": "./dist/adapters/deno.d.ts",
+					"import": "./dist/adapters/deno.mjs",
+					"require": "./dist/adapters/deno.cjs"
+				},
+				"./adapters/cloudflare": {
+					"types": "./dist/adapters/cloudflare.d.ts",
+					"import": "./dist/adapters/cloudflare.mjs",
+					"require": "./dist/adapters/cloudflare.cjs"
+				},
+				"./adapters/node": {
+					"types": "./dist/adapters/node.d.ts",
+					"import": "./dist/adapters/node.mjs",
+					"require": "./dist/adapters/node.cjs"
+				},
+				"./adapters/uws": {
+					"types": "./dist/adapters/uws.d.ts",
+					"import": "./dist/adapters/uws.mjs",
+					"require": "./dist/adapters/uws.cjs"
+				}
+			},
+			"main": "./dist/index.cjs",
+			"module": "./dist/index.mjs",
+			"types": "./dist/index.d.ts",
+			"scripts": {
+				"build": "unbuild",
+				"dev": "pnpm play:node",
+				"lint": "eslint --cache --ext .ts,.js,.mjs,.cjs . && prettier -c src",
+				"lint:fix": "eslint --cache --ext .ts,.js,.mjs,.cjs . --fix && prettier -c src -w",
+				"prepack": "pnpm run build",
+				"play:bun": "bun playground/bun.ts",
+				"play:cf": "wrangler dev --port 3001",
+				"play:deno": "deno run --unstable-sloppy-imports -A playground/deno.ts",
+				"play:node": "jiti playground/node.ts",
+				"play:uws": "jiti playground/uws.ts",
+				"release": "pnpm test && pnpm build && changelogen --release && npm publish && git push --follow-tags",
+				"test": "pnpm lint && pnpm test:types",
+				"test:types": "tsc --noEmit --skipLibCheck"
+			},
+			"resolutions": {
+				"crossws": "workspace:*"
+			},
+			"devDependencies": {
+				"@cloudflare/workers-types": "^4.20240117.0",
+				"@deno/types": "^0.0.1",
+				"@types/bun": "^1.0.4",
+				"@types/node": "^20.11.10",
+				"@types/web": "^0.0.135",
+				"@types/ws": "^8.5.10",
+				"automd": "^0.3.6",
+				"changelogen": "^0.5.5",
+				"consola": "^3.2.3",
+				"eslint": "^8.56.0",
+				"eslint-config-unjs": "^0.2.1",
+				"h3": "^1.10.1",
+				"jiti": "^1.21.0",
+				"listhen": "^1.6.0",
+				"prettier": "^3.2.4",
+				"typescript": "^5.3.3",
+				"uWebSockets.js": "github:uNetworking/uWebSockets.js#v20.33.0",
+				"unbuild": "^2.0.0",
+				"wrangler": "^3.25.0",
+				"ws": "^8.16.0"
+			},
+			"peerDependencies": {
+				"uWebSockets.js": "*"
+			},
+			"peerDependenciesMeta": {
+				"uWebSockets.js": {
+					"optional": true
+				}
+			},
+			"packageManager": "pnpm@8.15.0",
+			"_id": "crossws@0.2.0",
+			"gitHead": "50e9407c2fb1d1a8b73c1c6b303d00e3ac745319",
+			"bugs": {
+				"url": "https://github.com/unjs/crossws/issues"
+			},
+			"homepage": "https://github.com/unjs/crossws#readme",
+			"_nodeVersion": "20.11.1",
+			"_npmVersion": "10.2.4",
+			"dist": {
+				"integrity": "sha512-WW4qfY5ylZDzTPplWcMVh6dj3IXUme2yb1hGC4wWnAKEwL0txtiRrWdIctSAsDlcfm2udmH7GcH60IT5esY2Zw==",
+				"shasum": "099c22edeaaab2704f321adda85a9d482ae8bc06",
+				"tarball": "https://registry.npmjs.org/crossws/-/crossws-0.2.0.tgz",
+				"fileCount": 56,
+				"unpackedSize": 353502,
+				"signatures": [
+					{
+						"keyid": "SHA256:jl3bwswu80PjjokCgh0o2w5c2U4LhQAE57gj9cz1kzA",
+						"sig": "MEUCIQD8EpVgJCqHRC9bIoLY4E7M6lAOjODCQ33uM1znktk2dwIgZt2DVyBCG/Og2e6FzTQ0YUk/rtnaMKwU1h3zuv0x6RM="
+					}
+				]
+			},
+			"_npmUser": {
+				"name": "pi0",
+				"email": "pyapar@gmail.com"
+			},
+			"directories": {},
+			"maintainers": [
+				{
+					"name": "pi0",
+					"email": "pyapar@gmail.com"
+				}
+			],
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/crossws_0.2.0_1708881712655_0.0576785627899743"
+			},
+			"_hasShrinkwrap": false,
+			"contributors": []
+		},
+		"0.2.1": {
+			"name": "crossws",
+			"version": "0.2.1",
+			"description": "Cross-platform WebSocket Servers for Node.js, Deno, Bun and Cloudflare Workers",
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/unjs/crossws.git"
+			},
+			"license": "MIT",
+			"sideEffects": false,
+			"type": "module",
+			"exports": {
+				".": {
+					"types": "./dist/index.d.ts",
+					"import": "./dist/index.mjs",
+					"require": "./dist/index.cjs"
+				},
+				"./websocket": {
+					"types": {
+						"import": "./dist/websocket/index.d.mts",
+						"require": "./dist/websocket/index.d.cts"
+					},
+					"browser": "./dist/websocket/index.mjs",
+					"worker": "./dist/websocket/index.mjs",
+					"bun": "./dist/websocket/index.mjs",
+					"deno": "./dist/websocket/index.mjs",
+					"edge-light": "./dist/websocket/index.mjs",
+					"workerd": "./dist/websocket/index.mjs",
+					"node": {
+						"import": "./dist/websocket/node.mjs",
+						"require": "./dist/websocket/node.cjs"
+					},
+					"import": "./dist/websocket/index.mjs",
+					"require": "./dist/websocket/index.cjs"
+				},
+				"./adapters/bun": {
+					"types": "./dist/adapters/bun.d.ts",
+					"import": "./dist/adapters/bun.mjs",
+					"require": "./dist/adapters/bun.cjs"
+				},
+				"./adapters/deno": {
+					"types": "./dist/adapters/deno.d.ts",
+					"import": "./dist/adapters/deno.mjs",
+					"require": "./dist/adapters/deno.cjs"
+				},
+				"./adapters/cloudflare": {
+					"types": "./dist/adapters/cloudflare.d.ts",
+					"import": "./dist/adapters/cloudflare.mjs",
+					"require": "./dist/adapters/cloudflare.cjs"
+				},
+				"./adapters/node": {
+					"types": "./dist/adapters/node.d.ts",
+					"import": "./dist/adapters/node.mjs",
+					"require": "./dist/adapters/node.cjs"
+				},
+				"./adapters/uws": {
+					"types": "./dist/adapters/uws.d.ts",
+					"import": "./dist/adapters/uws.mjs",
+					"require": "./dist/adapters/uws.cjs"
+				}
+			},
+			"main": "./dist/index.cjs",
+			"module": "./dist/index.mjs",
+			"types": "./dist/index.d.ts",
+			"scripts": {
+				"build": "unbuild",
+				"dev": "pnpm play:node",
+				"lint": "eslint --cache --ext .ts,.js,.mjs,.cjs . && prettier -c src",
+				"lint:fix": "eslint --cache --ext .ts,.js,.mjs,.cjs . --fix && prettier -c src -w",
+				"prepack": "pnpm run build",
+				"play:bun": "bun playground/bun.ts",
+				"play:cf": "wrangler dev --port 3001",
+				"play:deno": "deno run --unstable-sloppy-imports -A playground/deno.ts",
+				"play:node": "jiti playground/node.ts",
+				"play:uws": "jiti playground/uws.ts",
+				"release": "pnpm test && pnpm build && changelogen --release && npm publish && git push --follow-tags",
+				"test": "pnpm lint && pnpm test:types",
+				"test:types": "tsc --noEmit --skipLibCheck"
+			},
+			"resolutions": {
+				"crossws": "workspace:*"
+			},
+			"devDependencies": {
+				"@cloudflare/workers-types": "^4.20240117.0",
+				"@deno/types": "^0.0.1",
+				"@types/bun": "^1.0.4",
+				"@types/node": "^20.11.10",
+				"@types/web": "^0.0.135",
+				"@types/ws": "^8.5.10",
+				"automd": "^0.3.6",
+				"changelogen": "^0.5.5",
+				"consola": "^3.2.3",
+				"eslint": "^8.56.0",
+				"eslint-config-unjs": "^0.2.1",
+				"h3": "^1.10.1",
+				"jiti": "^1.21.0",
+				"listhen": "^1.7.0",
+				"prettier": "^3.2.4",
+				"typescript": "^5.3.3",
+				"uWebSockets.js": "github:uNetworking/uWebSockets.js#v20.33.0",
+				"unbuild": "^2.0.0",
+				"wrangler": "^3.25.0",
+				"ws": "^8.16.0"
+			},
+			"peerDependencies": {
+				"uWebSockets.js": "*"
+			},
+			"peerDependenciesMeta": {
+				"uWebSockets.js": {
+					"optional": true
+				}
+			},
+			"packageManager": "pnpm@8.15.0",
+			"_id": "crossws@0.2.1",
+			"gitHead": "017d5c31279757c19b2d8d570bca4196ba91619d",
+			"bugs": {
+				"url": "https://github.com/unjs/crossws/issues"
+			},
+			"homepage": "https://github.com/unjs/crossws#readme",
+			"_nodeVersion": "20.11.1",
+			"_npmVersion": "10.2.4",
+			"dist": {
+				"integrity": "sha512-NCFCpxTCUQxUiLZUkICT0Pc5J2XJF50IAYiw1wwzVN9m4gpKsUWdvbVb4ZLAzNlTL32SrJmk7cOKUJNCdAWKmA==",
+				"shasum": "e6af31ccdb31225e3c02a1538111e52dfe5aa031",
+				"tarball": "https://registry.npmjs.org/crossws/-/crossws-0.2.1.tgz",
+				"fileCount": 56,
+				"unpackedSize": 353504,
+				"signatures": [
+					{
+						"keyid": "SHA256:jl3bwswu80PjjokCgh0o2w5c2U4LhQAE57gj9cz1kzA",
+						"sig": "MEUCIQDc3dr1FUHz9L83QYhFvNCgmupVKHxFIjayhinZWqZIZwIgRfaexK20QwO1O/zjp+YWq4a2dRCuY9Wo9vt2oXJhjQM="
+					}
+				]
+			},
+			"_npmUser": {
+				"name": "pi0",
+				"email": "pyapar@gmail.com"
+			},
+			"directories": {},
+			"maintainers": [
+				{
+					"name": "pi0",
+					"email": "pyapar@gmail.com"
+				}
+			],
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/crossws_0.2.1_1708887262823_0.08389694432103556"
+			},
+			"_hasShrinkwrap": false,
+			"contributors": []
+		},
+		"0.2.2": {
+			"name": "crossws",
+			"version": "0.2.2",
+			"description": "Cross-platform WebSocket Servers for Node.js, Deno, Bun and Cloudflare Workers",
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/unjs/crossws.git"
+			},
+			"license": "MIT",
+			"sideEffects": false,
+			"type": "module",
+			"exports": {
+				".": {
+					"types": "./dist/index.d.ts",
+					"import": "./dist/index.mjs",
+					"require": "./dist/index.cjs"
+				},
+				"./websocket": {
+					"types": {
+						"import": "./dist/websocket/index.d.mts",
+						"require": "./dist/websocket/index.d.cts"
+					},
+					"browser": "./dist/websocket/index.mjs",
+					"worker": "./dist/websocket/index.mjs",
+					"bun": "./dist/websocket/index.mjs",
+					"deno": "./dist/websocket/index.mjs",
+					"edge-light": "./dist/websocket/index.mjs",
+					"workerd": "./dist/websocket/index.mjs",
+					"node": {
+						"import": "./dist/websocket/node.mjs",
+						"require": "./dist/websocket/node.cjs"
+					},
+					"import": "./dist/websocket/index.mjs",
+					"require": "./dist/websocket/index.cjs"
+				},
+				"./adapters/bun": {
+					"types": "./dist/adapters/bun.d.ts",
+					"import": "./dist/adapters/bun.mjs",
+					"require": "./dist/adapters/bun.cjs"
+				},
+				"./adapters/deno": {
+					"types": "./dist/adapters/deno.d.ts",
+					"import": "./dist/adapters/deno.mjs",
+					"require": "./dist/adapters/deno.cjs"
+				},
+				"./adapters/cloudflare": {
+					"types": "./dist/adapters/cloudflare.d.ts",
+					"import": "./dist/adapters/cloudflare.mjs",
+					"require": "./dist/adapters/cloudflare.cjs"
+				},
+				"./adapters/node": {
+					"types": "./dist/adapters/node.d.ts",
+					"import": "./dist/adapters/node.mjs",
+					"require": "./dist/adapters/node.cjs"
+				},
+				"./adapters/uws": {
+					"types": "./dist/adapters/uws.d.ts",
+					"import": "./dist/adapters/uws.mjs",
+					"require": "./dist/adapters/uws.cjs"
+				}
+			},
+			"main": "./dist/index.cjs",
+			"module": "./dist/index.mjs",
+			"types": "./dist/index.d.ts",
+			"scripts": {
+				"build": "unbuild",
+				"dev": "pnpm play:node",
+				"lint": "eslint --cache --ext .ts,.js,.mjs,.cjs . && prettier -c src",
+				"lint:fix": "eslint --cache --ext .ts,.js,.mjs,.cjs . --fix && prettier -c src -w",
+				"prepack": "pnpm run build",
+				"play:bun": "bun playground/bun.ts",
+				"play:cf": "wrangler dev --port 3001",
+				"play:deno": "deno run --unstable-sloppy-imports -A playground/deno.ts",
+				"play:node": "jiti playground/node.ts",
+				"play:uws": "jiti playground/uws.ts",
+				"release": "pnpm test && pnpm build && changelogen --release && npm publish && git push --follow-tags",
+				"test": "pnpm lint && pnpm test:types",
+				"test:types": "tsc --noEmit --skipLibCheck"
+			},
+			"resolutions": {
+				"crossws": "workspace:*"
+			},
+			"devDependencies": {
+				"@cloudflare/workers-types": "^4.20240117.0",
+				"@deno/types": "^0.0.1",
+				"@types/bun": "^1.0.4",
+				"@types/node": "^20.11.10",
+				"@types/web": "^0.0.135",
+				"@types/ws": "^8.5.10",
+				"automd": "^0.3.6",
+				"changelogen": "^0.5.5",
+				"consola": "^3.2.3",
+				"eslint": "^8.56.0",
+				"eslint-config-unjs": "^0.2.1",
+				"h3": "^1.10.1",
+				"jiti": "^1.21.0",
+				"listhen": "^1.7.0",
+				"prettier": "^3.2.4",
+				"typescript": "^5.3.3",
+				"uWebSockets.js": "github:uNetworking/uWebSockets.js#v20.33.0",
+				"unbuild": "^2.0.0",
+				"wrangler": "^3.25.0",
+				"ws": "^8.16.0"
+			},
+			"peerDependencies": {
+				"uWebSockets.js": "*"
+			},
+			"peerDependenciesMeta": {
+				"uWebSockets.js": {
+					"optional": true
+				}
+			},
+			"packageManager": "pnpm@8.15.0",
+			"_id": "crossws@0.2.2",
+			"gitHead": "7722716966b833e164664bc1dcd08e8bab32169b",
+			"bugs": {
+				"url": "https://github.com/unjs/crossws/issues"
+			},
+			"homepage": "https://github.com/unjs/crossws#readme",
+			"_nodeVersion": "20.11.1",
+			"_npmVersion": "10.2.4",
+			"dist": {
+				"integrity": "sha512-SsxhRN2sKF7HstaSPxeQWSGygOhRm8GdROwk1Av1Yn2yvC1xkuVNQcOpCVXKo6GceaTi5E5fKfmaP4Cszr19FA==",
+				"shasum": "4462cb24e26c556144c390cd618de0868d5ff15a",
+				"tarball": "https://registry.npmjs.org/crossws/-/crossws-0.2.2.tgz",
+				"fileCount": 56,
+				"unpackedSize": 353687,
+				"signatures": [
+					{
+						"keyid": "SHA256:jl3bwswu80PjjokCgh0o2w5c2U4LhQAE57gj9cz1kzA",
+						"sig": "MEUCIQCvLy0SvSe2qXkp0DLxFJ89Z1Y4Rto59AQEBz5lMFeyawIgT9+9GUeivBPkmLFbrJaUzeJpwzMVZaIWJvMQ89ivv5U="
+					}
+				]
+			},
+			"_npmUser": {
+				"name": "pi0",
+				"email": "pyapar@gmail.com"
+			},
+			"directories": {},
+			"maintainers": [
+				{
+					"name": "pi0",
+					"email": "pyapar@gmail.com"
+				}
+			],
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/crossws_0.2.2_1708890160096_0.3182348259790293"
+			},
+			"_hasShrinkwrap": false,
+			"contributors": []
+		},
+		"0.2.3": {
+			"name": "crossws",
+			"version": "0.2.3",
+			"description": "Cross-platform WebSocket Servers for Node.js, Deno, Bun and Cloudflare Workers",
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/unjs/crossws.git"
+			},
+			"license": "MIT",
+			"sideEffects": false,
+			"type": "module",
+			"exports": {
+				".": {
+					"types": "./dist/index.d.ts",
+					"import": "./dist/index.mjs",
+					"require": "./dist/index.cjs"
+				},
+				"./websocket": {
+					"types": {
+						"import": "./dist/websocket/index.d.mts",
+						"require": "./dist/websocket/index.d.cts"
+					},
+					"browser": "./dist/websocket/index.mjs",
+					"worker": "./dist/websocket/index.mjs",
+					"bun": "./dist/websocket/index.mjs",
+					"deno": "./dist/websocket/index.mjs",
+					"edge-light": "./dist/websocket/index.mjs",
+					"workerd": "./dist/websocket/index.mjs",
+					"node": {
+						"import": "./dist/websocket/node.mjs",
+						"require": "./dist/websocket/node.cjs"
+					},
+					"import": "./dist/websocket/index.mjs",
+					"require": "./dist/websocket/index.cjs"
+				},
+				"./adapters/bun": {
+					"types": "./dist/adapters/bun.d.ts",
+					"import": "./dist/adapters/bun.mjs",
+					"require": "./dist/adapters/bun.cjs"
+				},
+				"./adapters/deno": {
+					"types": "./dist/adapters/deno.d.ts",
+					"import": "./dist/adapters/deno.mjs",
+					"require": "./dist/adapters/deno.cjs"
+				},
+				"./adapters/cloudflare": {
+					"types": "./dist/adapters/cloudflare.d.ts",
+					"import": "./dist/adapters/cloudflare.mjs",
+					"require": "./dist/adapters/cloudflare.cjs"
+				},
+				"./adapters/node": {
+					"types": "./dist/adapters/node.d.ts",
+					"import": "./dist/adapters/node.mjs",
+					"require": "./dist/adapters/node.cjs"
+				},
+				"./adapters/uws": {
+					"types": "./dist/adapters/uws.d.ts",
+					"import": "./dist/adapters/uws.mjs",
+					"require": "./dist/adapters/uws.cjs"
+				}
+			},
+			"main": "./dist/index.cjs",
+			"module": "./dist/index.mjs",
+			"types": "./dist/index.d.ts",
+			"scripts": {
+				"build": "unbuild",
+				"dev": "pnpm play:node",
+				"lint": "eslint --cache --ext .ts,.js,.mjs,.cjs . && prettier -c src",
+				"lint:fix": "eslint --cache --ext .ts,.js,.mjs,.cjs . --fix && prettier -c src -w",
+				"prepack": "pnpm run build",
+				"play:bun": "bun playground/bun.ts",
+				"play:cf": "wrangler dev --port 3001",
+				"play:deno": "deno run --unstable-sloppy-imports -A playground/deno.ts",
+				"play:node": "jiti playground/node.ts",
+				"play:uws": "jiti playground/uws.ts",
+				"release": "pnpm test && pnpm build && changelogen --release && npm publish && git push --follow-tags",
+				"test": "pnpm lint && pnpm test:types",
+				"test:types": "tsc --noEmit --skipLibCheck"
+			},
+			"resolutions": {
+				"crossws": "workspace:*"
+			},
+			"devDependencies": {
+				"@cloudflare/workers-types": "^4.20240117.0",
+				"@deno/types": "^0.0.1",
+				"@types/bun": "^1.0.4",
+				"@types/node": "^20.11.10",
+				"@types/web": "^0.0.135",
+				"@types/ws": "^8.5.10",
+				"automd": "^0.3.6",
+				"changelogen": "^0.5.5",
+				"consola": "^3.2.3",
+				"eslint": "^8.56.0",
+				"eslint-config-unjs": "^0.2.1",
+				"h3": "^1.10.1",
+				"jiti": "^1.21.0",
+				"listhen": "^1.7.0",
+				"prettier": "^3.2.4",
+				"typescript": "^5.3.3",
+				"uWebSockets.js": "github:uNetworking/uWebSockets.js#v20.33.0",
+				"unbuild": "^2.0.0",
+				"wrangler": "^3.25.0",
+				"ws": "^8.16.0"
+			},
+			"peerDependencies": {
+				"uWebSockets.js": "*"
+			},
+			"peerDependenciesMeta": {
+				"uWebSockets.js": {
+					"optional": true
+				}
+			},
+			"packageManager": "pnpm@8.15.0",
+			"_id": "crossws@0.2.3",
+			"gitHead": "64c8fbf29d3740af7d1228aa3186fb24001ff14e",
+			"bugs": {
+				"url": "https://github.com/unjs/crossws/issues"
+			},
+			"homepage": "https://github.com/unjs/crossws#readme",
+			"_nodeVersion": "20.11.1",
+			"_npmVersion": "10.2.4",
+			"dist": {
+				"integrity": "sha512-bAdbYPj/ej8+WCVRVnjEr54WYI/LncI25G/pJPZteO2CXUQFrhj5IOCscw9qsYKGKTWs9NkimUtTjdp9SoLD9A==",
+				"shasum": "5ec4f8a60633a9206a7035a36ba10fb8ee0fdd86",
+				"tarball": "https://registry.npmjs.org/crossws/-/crossws-0.2.3.tgz",
+				"fileCount": 56,
+				"unpackedSize": 353975,
+				"signatures": [
+					{
+						"keyid": "SHA256:jl3bwswu80PjjokCgh0o2w5c2U4LhQAE57gj9cz1kzA",
+						"sig": "MEUCIC5lYeSAPDkJFs67p9VH+xCnmb5VEB0y0qHkH/LFkjlEAiEA1hAH+4Qbf8XRly2LqEfneo0upKWXIl/gQq1Dcvnu8Q8="
+					}
+				]
+			},
+			"_npmUser": {
+				"name": "pi0",
+				"email": "pyapar@gmail.com"
+			},
+			"directories": {},
+			"maintainers": [
+				{
+					"name": "pi0",
+					"email": "pyapar@gmail.com"
+				}
+			],
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/crossws_0.2.3_1708893543004_0.5122815975642239"
+			},
+			"_hasShrinkwrap": false,
+			"contributors": []
+		},
+		"0.2.4": {
+			"name": "crossws",
+			"version": "0.2.4",
+			"description": "Cross-platform WebSocket Servers for Node.js, Deno, Bun and Cloudflare Workers",
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/unjs/crossws.git"
+			},
+			"license": "MIT",
+			"sideEffects": false,
+			"type": "module",
+			"exports": {
+				".": {
+					"types": "./dist/index.d.ts",
+					"import": "./dist/index.mjs",
+					"require": "./dist/index.cjs"
+				},
+				"./websocket": {
+					"types": {
+						"import": "./dist/websocket/index.d.mts",
+						"require": "./dist/websocket/index.d.cts"
+					},
+					"browser": "./dist/websocket/index.mjs",
+					"worker": "./dist/websocket/index.mjs",
+					"bun": "./dist/websocket/index.mjs",
+					"deno": "./dist/websocket/index.mjs",
+					"edge-light": "./dist/websocket/index.mjs",
+					"workerd": "./dist/websocket/index.mjs",
+					"node": {
+						"import": "./dist/websocket/node.mjs",
+						"require": "./dist/websocket/node.cjs"
+					},
+					"import": "./dist/websocket/index.mjs",
+					"require": "./dist/websocket/index.cjs"
+				},
+				"./adapters/bun": {
+					"types": "./dist/adapters/bun.d.ts",
+					"import": "./dist/adapters/bun.mjs",
+					"require": "./dist/adapters/bun.cjs"
+				},
+				"./adapters/deno": {
+					"types": "./dist/adapters/deno.d.ts",
+					"import": "./dist/adapters/deno.mjs",
+					"require": "./dist/adapters/deno.cjs"
+				},
+				"./adapters/cloudflare": {
+					"types": "./dist/adapters/cloudflare.d.ts",
+					"import": "./dist/adapters/cloudflare.mjs",
+					"require": "./dist/adapters/cloudflare.cjs"
+				},
+				"./adapters/node": {
+					"types": "./dist/adapters/node.d.ts",
+					"import": "./dist/adapters/node.mjs",
+					"require": "./dist/adapters/node.cjs"
+				},
+				"./adapters/uws": {
+					"types": "./dist/adapters/uws.d.ts",
+					"import": "./dist/adapters/uws.mjs",
+					"require": "./dist/adapters/uws.cjs"
+				}
+			},
+			"main": "./dist/index.cjs",
+			"module": "./dist/index.mjs",
+			"types": "./dist/index.d.ts",
+			"scripts": {
+				"build": "unbuild",
+				"dev": "pnpm play:node",
+				"lint": "eslint --cache --ext .ts,.js,.mjs,.cjs . && prettier -c src",
+				"lint:fix": "eslint --cache --ext .ts,.js,.mjs,.cjs . --fix && prettier -c src -w",
+				"prepack": "pnpm run build",
+				"play:bun": "bun playground/bun.ts",
+				"play:cf": "wrangler dev --port 3001",
+				"play:deno": "deno run --unstable-sloppy-imports -A playground/deno.ts",
+				"play:node": "jiti playground/node.ts",
+				"play:uws": "jiti playground/uws.ts",
+				"release": "pnpm test && pnpm build && changelogen --release && npm publish && git push --follow-tags",
+				"test": "pnpm lint && pnpm test:types",
+				"test:types": "tsc --noEmit --skipLibCheck"
+			},
+			"resolutions": {
+				"crossws": "workspace:*"
+			},
+			"devDependencies": {
+				"@cloudflare/workers-types": "^4.20240117.0",
+				"@deno/types": "^0.0.1",
+				"@types/bun": "^1.0.4",
+				"@types/node": "^20.11.10",
+				"@types/web": "^0.0.135",
+				"@types/ws": "^8.5.10",
+				"automd": "^0.3.6",
+				"changelogen": "^0.5.5",
+				"consola": "^3.2.3",
+				"eslint": "^8.56.0",
+				"eslint-config-unjs": "^0.2.1",
+				"h3": "^1.10.1",
+				"jiti": "^1.21.0",
+				"listhen": "^1.7.0",
+				"prettier": "^3.2.4",
+				"typescript": "^5.3.3",
+				"uWebSockets.js": "github:uNetworking/uWebSockets.js#v20.33.0",
+				"unbuild": "^2.0.0",
+				"wrangler": "^3.25.0",
+				"ws": "^8.16.0"
+			},
+			"peerDependencies": {
+				"uWebSockets.js": "*"
+			},
+			"peerDependenciesMeta": {
+				"uWebSockets.js": {
+					"optional": true
+				}
+			},
+			"packageManager": "pnpm@8.15.0",
+			"_id": "crossws@0.2.4",
+			"gitHead": "bbe9c30809f331867042d2d2736350b25375ee42",
+			"bugs": {
+				"url": "https://github.com/unjs/crossws/issues"
+			},
+			"homepage": "https://github.com/unjs/crossws#readme",
+			"_nodeVersion": "20.11.1",
+			"_npmVersion": "10.2.4",
+			"dist": {
+				"integrity": "sha512-DAxroI2uSOgUKLz00NX6A8U/8EE3SZHmIND+10jkVSaypvyt57J5JEOxAQOL6lQxyzi/wZbTIwssU1uy69h5Vg==",
+				"shasum": "82a8b518bff1018ab1d21ced9e35ffbe1681ad03",
+				"tarball": "https://registry.npmjs.org/crossws/-/crossws-0.2.4.tgz",
+				"fileCount": 56,
+				"unpackedSize": 355515,
+				"signatures": [
+					{
+						"keyid": "SHA256:jl3bwswu80PjjokCgh0o2w5c2U4LhQAE57gj9cz1kzA",
+						"sig": "MEYCIQDOch40BWfnhYxsdQjvsEJRFWnwoyXBMdRuEwnEPe+Z1QIhANnOR6sAK0R1tSw3O3pOCib39Qd2t99Y4KU9x9btE76P"
+					}
+				]
+			},
+			"_npmUser": {
+				"name": "pi0",
+				"email": "pyapar@gmail.com"
+			},
+			"directories": {},
+			"maintainers": [
+				{
+					"name": "pi0",
+					"email": "pyapar@gmail.com"
+				}
+			],
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/crossws_0.2.4_1708953503838_0.9758941639930647"
+			},
+			"_hasShrinkwrap": false,
+			"contributors": []
+		}
+	},
+	"time": {
+		"created": "2023-12-06T17:32:00.774Z",
+		"0.0.0": "2023-12-06T17:32:00.934Z",
+		"modified": "2024-02-26T13:18:24.792Z",
+		"0.0.1": "2023-12-07T01:01:24.673Z",
+		"0.1.0": "2024-01-29T02:28:36.875Z",
+		"0.1.1": "2024-01-29T12:26:05.533Z",
+		"0.1.2": "2024-02-24T19:45:26.572Z",
+		"0.1.3": "2024-02-24T19:46:14.492Z",
+		"0.2.0": "2024-02-25T17:21:52.806Z",
+		"0.2.1": "2024-02-25T18:54:22.989Z",
+		"0.2.2": "2024-02-25T19:42:40.342Z",
+		"0.2.3": "2024-02-25T20:39:03.221Z",
+		"0.2.4": "2024-02-26T13:18:23.986Z"
+	},
+	"users": {},
+	"dist-tags": {
+		"latest": "0.2.4"
+	},
+	"_uplinks": {
+		"npmjs": {
+			"etag": "W/\"046cc0bd527b70400db8d9b7366c9337\"",
+			"fetched": 1715345899304
+		}
+	},
+	"_distfiles": {
+		"crossws-0.0.0.tgz": {
+			"url": "https://registry.npmjs.org/crossws/-/crossws-0.0.0.tgz",
+			"sha": "96e538ace96236eb143a912f9c03f8f141ef531c",
+			"registry": "npmjs"
+		},
+		"crossws-0.0.1.tgz": {
+			"url": "https://registry.npmjs.org/crossws/-/crossws-0.0.1.tgz",
+			"sha": "6164f52168d78ae218fc2c0cc3ebb39cf2a0d8a9",
+			"registry": "npmjs"
+		},
+		"crossws-0.1.0.tgz": {
+			"url": "https://registry.npmjs.org/crossws/-/crossws-0.1.0.tgz",
+			"sha": "6943d64959e521a08594f3173291803eabd71e17",
+			"registry": "npmjs"
+		},
+		"crossws-0.1.1.tgz": {
+			"url": "https://registry.npmjs.org/crossws/-/crossws-0.1.1.tgz",
+			"sha": "3a85a8140568e4828d9747a884171ea7e6a8bbe2",
+			"registry": "npmjs"
+		},
+		"crossws-0.1.2.tgz": {
+			"url": "https://registry.npmjs.org/crossws/-/crossws-0.1.2.tgz",
+			"sha": "e4b69e50659e9dd6d9b4ec2cfa2ea92afd90de26",
+			"registry": "npmjs"
+		},
+		"crossws-0.1.3.tgz": {
+			"url": "https://registry.npmjs.org/crossws/-/crossws-0.1.3.tgz",
+			"sha": "158f2bb716b5163a46364a44e682b8900e471097",
+			"registry": "npmjs"
+		},
+		"crossws-0.2.0.tgz": {
+			"url": "https://registry.npmjs.org/crossws/-/crossws-0.2.0.tgz",
+			"sha": "099c22edeaaab2704f321adda85a9d482ae8bc06",
+			"registry": "npmjs"
+		},
+		"crossws-0.2.1.tgz": {
+			"url": "https://registry.npmjs.org/crossws/-/crossws-0.2.1.tgz",
+			"sha": "e6af31ccdb31225e3c02a1538111e52dfe5aa031",
+			"registry": "npmjs"
+		},
+		"crossws-0.2.2.tgz": {
+			"url": "https://registry.npmjs.org/crossws/-/crossws-0.2.2.tgz",
+			"sha": "4462cb24e26c556144c390cd618de0868d5ff15a",
+			"registry": "npmjs"
+		},
+		"crossws-0.2.3.tgz": {
+			"url": "https://registry.npmjs.org/crossws/-/crossws-0.2.3.tgz",
+			"sha": "5ec4f8a60633a9206a7035a36ba10fb8ee0fdd86",
+			"registry": "npmjs"
+		},
+		"crossws-0.2.4.tgz": {
+			"url": "https://registry.npmjs.org/crossws/-/crossws-0.2.4.tgz",
+			"sha": "82a8b518bff1018ab1d21ced9e35ffbe1681ad03",
+			"registry": "npmjs"
+		}
+	},
+	"_attachments": {
+		"crossws-0.2.4.tgz": {
+			"shasum": "82a8b518bff1018ab1d21ced9e35ffbe1681ad03"
+		}
+	},
+	"_rev": "2-a28fa6e8e6851bbb",
+	"_id": "crossws",
+	"readme": "# ⛨ CrossWS\n\n<!-- automd:badges -->\n\n[![npm version](https://flat.badgen.net/npm/v/crossws)](https://npmjs.com/package/crossws)\n[![npm downloads](https://flat.badgen.net/npm/dm/crossws)](https://npmjs.com/package/crossws)\n\n<!-- /automd -->\n\nElegant, typed, and simple interface to implement platform-agnostic WebSocket servers.\n\n👉 [📖 documentation](https://crossws.unjs.io)\n\n## Features\n\n🧩 Seamlessly integrates with, [Bun](https://bun.sh/), [Deno](https://deno.com/), [Cloudflare Workers](https://workers.cloudflare.com/) and [Node.js](https://nodejs.org/en) ([ws](https://github.com/websockets/ws) || [uWebSockets](https://github.com/uNetworking/uWebSockets.js)).\n\n🚀 High-performance server hooks, avoiding heavy per-connection events API ([why](https://bun.sh/docs/api/websockets#lcYFjkFYJC-summary))\n\n📦 No external dependencies, includes [ws](https://github.com/websockets/ws) for Node.js support\n\n💡 Extremely lightweight and tree-shakable packaging with ESM and CJS support\n\n🔍 Developer-friendly object logging\n\n> [!IMPORTANT]\n> This project and API are under development.\n\n## Contribution\n\n<details>\n  <summary>Local development</summary>\n\n- Clone this repository\n- Install the latest LTS version of [Node.js](https://nodejs.org/en/)\n- Enable [Corepack](https://github.com/nodejs/corepack) using `corepack enable`\n- Install dependencies using `pnpm install`\n- Run examples using `pnpm play:` scripts\n\n</details>\n\n<!-- /automd -->\n\n## License\n\n<!-- automd:contributors license=MIT author=\"pi0\" -->\n\nPublished under the [MIT](https://github.com/unjs/crossws/blob/main/LICENSE) license.\nMade by [@pi0](https://github.com/pi0) and [community](https://github.com/unjs/crossws/graphs/contributors) 💛\n<br><br>\n<a href=\"https://github.com/unjs/crossws/graphs/contributors\">\n<img src=\"https://contrib.rocks/image?repo=unjs/crossws\" />\n</a>\n\n<!-- /automd -->\n\n<!-- automd:with-automd -->\n\n---\n\n_🤖 auto updated with [automd](https://automd.unjs.io)_\n\n<!-- /automd -->"
+}

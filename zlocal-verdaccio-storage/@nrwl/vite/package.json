@@ -51886,6 +51886,229 @@
 			"_hasShrinkwrap": false,
 			"contributors": []
 		},
+		"19.0.2": {
+			"name": "@nrwl/vite",
+			"version": "19.0.2",
+			"private": false,
+			"description": "The Nx Plugin for building and testing applications using Vite",
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/nrwl/nx.git",
+				"directory": "packages-legacy/vite"
+			},
+			"keywords": [
+				"Monorepo",
+				"Vite",
+				"Web",
+				"CLI"
+			],
+			"main": "./index.js",
+			"typings": "./index.d.ts",
+			"author": {
+				"name": "Victor Savkin"
+			},
+			"license": "MIT",
+			"bugs": {
+				"url": "https://github.com/nrwl/nx/issues"
+			},
+			"homepage": "https://nx.dev",
+			"schematics": "./generators.json",
+			"builders": "./executors.json",
+			"dependencies": {
+				"@nx/vite": "19.0.2"
+			},
+			"publishConfig": {
+				"access": "public"
+			},
+			"exports": {
+				"./package.json": {
+					"require": "./package.json"
+				},
+				"./generators.json": "./generators.json",
+				"./executors.json": "./executors.json",
+				"./executors": "./executors.js"
+			},
+			"nx-migrations": {
+				"migrations": "@nx/vite/migrations.json"
+			},
+			"type": "commonjs",
+			"_id": "@nrwl/vite@19.0.2",
+			"gitHead": "61861be0f7335082d5e0b44fa96ff3f6d49774ad",
+			"_nodeVersion": "18.20.2",
+			"_npmVersion": "10.5.0",
+			"dist": {
+				"integrity": "sha512-OIKJMO0+Gp6VZT40BJr780uGI4H1VvcrMSRPu1tA/7+LmwVhecBJXjLeDHJUrEhA7nS2DzF07IXJTBW0bP5XQQ==",
+				"shasum": "5aa4051bff0208c14ebd5e1eb773213209585113",
+				"tarball": "https://registry.npmjs.org/@nrwl/vite/-/vite-19.0.2.tgz",
+				"fileCount": 11,
+				"unpackedSize": 5228,
+				"attestations": {
+					"url": "https://registry.npmjs.org/-/npm/v1/attestations/@nrwl%2fvite@19.0.2",
+					"provenance": {
+						"predicateType": "https://slsa.dev/provenance/v1"
+					}
+				},
+				"signatures": [
+					{
+						"keyid": "SHA256:jl3bwswu80PjjokCgh0o2w5c2U4LhQAE57gj9cz1kzA",
+						"sig": "MEQCIBWHTTG3s1524dih5DnItm0Yl4ylNFoZbvY53/8vJHkKAiAszfH4JnAUiiL1uEBhC/+/iMBeepVHyfcZemyg+z92Wg=="
+					}
+				]
+			},
+			"_npmUser": {
+				"name": "nrwl-jason",
+				"email": "jason@nrwl.io"
+			},
+			"directories": {},
+			"maintainers": [
+				{
+					"name": "jameshenry",
+					"email": "james@henry.sc"
+				},
+				{
+					"name": "meeroslav",
+					"email": "missing.manual@gmail.com"
+				},
+				{
+					"name": "altan-nrwl",
+					"email": "altan@nrwl.io"
+				},
+				{
+					"name": "juristr",
+					"email": "juri.strumpflohner@gmail.com"
+				},
+				{
+					"name": "jack-nrwl",
+					"email": "jack@nrwl.io"
+				},
+				{
+					"name": "nrwl-jason",
+					"email": "jason@nrwl.io"
+				},
+				{
+					"name": "nrwlowner",
+					"email": "hello@nrwl.io"
+				}
+			],
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/vite_19.0.2_1715263058401_0.7656434997279224"
+			},
+			"_hasShrinkwrap": false,
+			"contributors": []
+		},
+		"19.1.0-canary.20240510-1a85787": {
+			"name": "@nrwl/vite",
+			"version": "19.1.0-canary.20240510-1a85787",
+			"private": false,
+			"description": "The Nx Plugin for building and testing applications using Vite",
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/nrwl/nx.git",
+				"directory": "packages-legacy/vite"
+			},
+			"keywords": [
+				"Monorepo",
+				"Vite",
+				"Web",
+				"CLI"
+			],
+			"main": "./index.js",
+			"typings": "./index.d.ts",
+			"author": {
+				"name": "Victor Savkin"
+			},
+			"license": "MIT",
+			"bugs": {
+				"url": "https://github.com/nrwl/nx/issues"
+			},
+			"homepage": "https://nx.dev",
+			"schematics": "./generators.json",
+			"builders": "./executors.json",
+			"dependencies": {
+				"@nx/vite": "19.1.0-canary.20240510-1a85787"
+			},
+			"publishConfig": {
+				"access": "public"
+			},
+			"exports": {
+				"./package.json": {
+					"require": "./package.json"
+				},
+				"./generators.json": "./generators.json",
+				"./executors.json": "./executors.json",
+				"./executors": "./executors.js"
+			},
+			"nx-migrations": {
+				"migrations": "@nx/vite/migrations.json"
+			},
+			"type": "commonjs",
+			"_id": "@nrwl/vite@19.1.0-canary.20240510-1a85787",
+			"readmeFilename": "README.md",
+			"gitHead": "1a85787e1c310d8409d99361800ef30e81938795",
+			"_nodeVersion": "18.20.2",
+			"_npmVersion": "10.5.0",
+			"dist": {
+				"integrity": "sha512-zuFW9CIS1Bit5CBYvA0nvpSKwSRvedkneh/DPO3a+TqaUzetuNHoQRh6EEOR37Gi0M3VclmNfQFYOrpFfW16jQ==",
+				"shasum": "a1967d6622518ab1144d9b2786ee0ddd3295af8c",
+				"tarball": "https://registry.npmjs.org/@nrwl/vite/-/vite-19.1.0-canary.20240510-1a85787.tgz",
+				"fileCount": 11,
+				"unpackedSize": 5276,
+				"attestations": {
+					"url": "https://registry.npmjs.org/-/npm/v1/attestations/@nrwl%2fvite@19.1.0-canary.20240510-1a85787",
+					"provenance": {
+						"predicateType": "https://slsa.dev/provenance/v1"
+					}
+				},
+				"signatures": [
+					{
+						"keyid": "SHA256:jl3bwswu80PjjokCgh0o2w5c2U4LhQAE57gj9cz1kzA",
+						"sig": "MEQCICTUqfpAsNjlWoYhjeSiJXBa0IaFy5+7XLd97dGXPCe1AiA56gWHlQsdpTCV+ZLKF5eVHNh/RQX7K0JpG+JPOjPyAw=="
+					}
+				]
+			},
+			"_npmUser": {
+				"name": "nrwl-jason",
+				"email": "jason@nrwl.io"
+			},
+			"directories": {},
+			"maintainers": [
+				{
+					"name": "jameshenry",
+					"email": "james@henry.sc"
+				},
+				{
+					"name": "meeroslav",
+					"email": "missing.manual@gmail.com"
+				},
+				{
+					"name": "altan-nrwl",
+					"email": "altan@nrwl.io"
+				},
+				{
+					"name": "juristr",
+					"email": "juri.strumpflohner@gmail.com"
+				},
+				{
+					"name": "jack-nrwl",
+					"email": "jack@nrwl.io"
+				},
+				{
+					"name": "nrwl-jason",
+					"email": "jason@nrwl.io"
+				},
+				{
+					"name": "nrwlowner",
+					"email": "hello@nrwl.io"
+				}
+			],
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/vite_19.1.0-canary.20240510-1a85787_1715310994914_0.8987436036992309"
+			},
+			"_hasShrinkwrap": false,
+			"contributors": []
+		},
 		"20.0.0": {
 			"name": "@nrwl/vite",
 			"version": "20.0.0",
@@ -51934,9 +52157,9 @@
 			"type": "commonjs",
 			"_id": "@nrwl/vite@20.0.0",
 			"readmeFilename": "README.md",
-			"gitHead": "792f73081571dea27da52bddf6184313bb7b5737",
-			"_nodeVersion": "20.9.0",
-			"_npmVersion": "10.1.0",
+			"gitHead": "86106e2454080d81eec30be2268bd93f9c6cfcad",
+			"_nodeVersion": "18.18.0",
+			"_npmVersion": "9.8.1",
 			"dist": {
 				"integrity": "sha512-z31unz9s/TojOBt+tgp5HGv9CGvOPtyqKAYA50Pfog2ajPT5iYybLV5xEEiL2qEiQttvDhB1TyE5JiwTfdn/lw==",
 				"shasum": "37c4e439edc272be8be213667c9d5a90c936731b",
@@ -51948,7 +52171,7 @@
 	"time": {
 		"created": "2022-11-08T14:46:19.603Z",
 		"15.0.12": "2022-11-08T14:46:19.847Z",
-		"modified": "2024-05-09T08:19:56.838Z",
+		"modified": "2024-05-10T12:56:56.092Z",
 		"15.0.13": "2022-11-08T23:31:44.458Z",
 		"15.2.0-beta.1": "2022-11-17T17:36:58.351Z",
 		"15.2.0": "2022-11-17T21:59:34.133Z",
@@ -52421,19 +52644,21 @@
 		"19.0.1": "2024-05-07T22:26:39.065Z",
 		"19.1.0-canary.20240508-fd78152": "2024-05-08T03:16:50.686Z",
 		"19.1.0-canary.20240509-8f705e3": "2024-05-09T03:15:57.553Z",
-		"20.0.0": "2024-05-09T08:19:56.838Z"
+		"19.0.2": "2024-05-09T13:57:38.557Z",
+		"19.1.0-canary.20240510-1a85787": "2024-05-10T03:16:35.084Z",
+		"20.0.0": "2024-05-10T12:56:56.092Z"
 	},
 	"users": {},
 	"dist-tags": {
 		"latest": "20.0.0",
 		"next": "19.0.0-rc.2",
 		"previous": "18.3.4",
-		"canary": "19.1.0-canary.20240509-8f705e3"
+		"canary": "19.1.0-canary.20240510-1a85787"
 	},
 	"_uplinks": {
 		"npmjs": {
-			"etag": "W/\"33fb2ae6810ab701dc24c0c0776d68ca\"",
-			"fetched": 1715242796482
+			"etag": "W/\"fa96cec394b173c8ec819f4fb6607f3d\"",
+			"fetched": 1715345815253
 		}
 	},
 	"_distfiles": {
@@ -54801,6 +55026,16 @@
 			"url": "https://registry.npmjs.org/@nrwl/vite/-/vite-19.1.0-canary.20240509-8f705e3.tgz",
 			"sha": "20fe87c988cfbaa816bb3efd742b257085207a9b",
 			"registry": "npmjs"
+		},
+		"vite-19.0.2.tgz": {
+			"url": "https://registry.npmjs.org/@nrwl/vite/-/vite-19.0.2.tgz",
+			"sha": "5aa4051bff0208c14ebd5e1eb773213209585113",
+			"registry": "npmjs"
+		},
+		"vite-19.1.0-canary.20240510-1a85787.tgz": {
+			"url": "https://registry.npmjs.org/@nrwl/vite/-/vite-19.1.0-canary.20240510-1a85787.tgz",
+			"sha": "a1967d6622518ab1144d9b2786ee0ddd3295af8c",
+			"registry": "npmjs"
 		}
 	},
 	"_attachments": {
@@ -54809,7 +55044,7 @@
 			"version": "20.0.0"
 		}
 	},
-	"_rev": "5-2a8c76493071465a",
+	"_rev": "5-6c329d128527ad7f",
 	"_id": "@nrwl/vite",
 	"readme": "## @nrwl/vite has been renamed to @nx/vite!\n\n@nrwl/vite has been renamed to [@nx/vite](https://www.npmjs.com/package/@nx/vite). Please use that instead.\n\n[Read more here](https://nx.dev/recipes/other/rescope)\n\n@nrwl/vite will no longer be published in the future.\n\n<p style=\"text-align: center;\">\n  <picture>\n    <source media=\"(prefers-color-scheme: dark)\" srcset=\"https://raw.githubusercontent.com/nrwl/nx/master/images/nx-dark.svg\">\n    <img alt=\"Nx - Smart Monorepos · Fast CI\" src=\"https://raw.githubusercontent.com/nrwl/nx/master/images/nx-light.svg\" width=\"100%\">\n  </picture>\n</p>\n\n# Nx: Smart Monorepos · Fast CI\n\nNx is a build system with built-in tooling and advanced CI capabilities. It helps you maintain and scale monorepos, both locally and on CI."
 }

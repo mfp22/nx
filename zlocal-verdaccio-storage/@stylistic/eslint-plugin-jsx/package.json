@@ -1,0 +1,4020 @@
+{
+	"name": "@stylistic/eslint-plugin-jsx",
+	"versions": {
+		"0.0.7": {
+			"name": "@stylistic/eslint-plugin-jsx",
+			"version": "0.0.7",
+			"author": {
+				"name": "Anthony Fu",
+				"email": "anthonyfu117@hotmail.com"
+			},
+			"license": "MIT",
+			"homepage": "https://github.com/eslint-stylistic/eslint-stylistic#readme",
+			"repository": {
+				"directory": "packages/eslint-plugin-jsx",
+				"type": "git",
+				"url": "git+https://github.com/eslint-stylistic/eslint-stylistic.git"
+			},
+			"bugs": {
+				"url": "https://github.com/eslint-stylistic/eslint-stylistic/issues"
+			},
+			"main": "./dist/index.js",
+			"dependencies": {
+				"estraverse": "^5.3.0",
+				"jsx-ast-utils": "^3.3.5",
+				"@stylistic/eslint-plugin-js": "^0.0.7"
+			},
+			"devDependencies": {
+				"@babel/eslint-parser": "^7.22.15",
+				"@babel/plugin-syntax-decorators": "^7.22.10",
+				"@babel/plugin-syntax-do-expressions": "^7.22.5",
+				"@babel/plugin-syntax-function-bind": "^7.22.5",
+				"@babel/preset-react": "^7.22.15",
+				"@typescript-eslint/parser": "^6.7.4",
+				"babel-eslint": "^10.1.0",
+				"eslint": "^8.50.0",
+				"semver": "^7.5.4",
+				"typescript-eslint-parser": "^22.0.0"
+			},
+			"scripts": {
+				"build": "rimraf dist && rollup --config=rollup.config.mts --configPlugin=rollup-plugin-esbuild",
+				"dev": "rollup --config=rollup.config.mts --configPlugin=rollup-plugin-esbuild --watch"
+			},
+			"description": "JSX stylistic rules for ESLint, migrated from [`eslint-plugin-react`](https://github.com/jsx-eslint/eslint-plugin-react).",
+			"_id": "@stylistic/eslint-plugin-jsx@0.0.7",
+			"_integrity": "sha512-Ahgcji3J4wajtJh9ezvd9er2M7HKwbGWR8+Xp0wTrKmFi30hpZNaPzBGZy/zsQTktHM4xe/X+pyy7vZyFoqaZw==",
+			"_resolved": "/private/var/folders/30/nymxcyb909ggq2j5lwn7b_600000gn/T/5f60244dac62c8dfafc91b9e689773d6/stylistic-eslint-plugin-jsx-0.0.7.tgz",
+			"_from": "file:stylistic-eslint-plugin-jsx-0.0.7.tgz",
+			"_nodeVersion": "20.4.0",
+			"_npmVersion": "9.7.2",
+			"dist": {
+				"integrity": "sha512-Ahgcji3J4wajtJh9ezvd9er2M7HKwbGWR8+Xp0wTrKmFi30hpZNaPzBGZy/zsQTktHM4xe/X+pyy7vZyFoqaZw==",
+				"shasum": "930d5ca0972eb76de680fb763f47b447739aa17f",
+				"tarball": "https://registry.npmjs.org/@stylistic/eslint-plugin-jsx/-/eslint-plugin-jsx-0.0.7.tgz",
+				"fileCount": 24,
+				"unpackedSize": 171305,
+				"signatures": [
+					{
+						"keyid": "SHA256:jl3bwswu80PjjokCgh0o2w5c2U4LhQAE57gj9cz1kzA",
+						"sig": "MEUCIQD4wY07XievNLqlbXBeMEKrhkunEXQ7lwMj+X0jZwoHtQIgIpHehAHqIFe5VR7xhGDLCxfNF1o0mWuTvZyLRP3TUAI="
+					}
+				]
+			},
+			"_npmUser": {
+				"name": "antfu",
+				"email": "anthonyfu117@hotmail.com"
+			},
+			"directories": {},
+			"maintainers": [
+				{
+					"name": "antfu",
+					"email": "anthonyfu117@hotmail.com"
+				}
+			],
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/eslint-plugin-jsx_0.0.7_1696833691646_0.3047722548311127"
+			},
+			"_hasShrinkwrap": false,
+			"contributors": []
+		},
+		"0.0.8": {
+			"name": "@stylistic/eslint-plugin-jsx",
+			"version": "0.0.8",
+			"author": {
+				"name": "Anthony Fu",
+				"email": "anthonyfu117@hotmail.com"
+			},
+			"license": "MIT",
+			"homepage": "https://github.com/eslint-stylistic/eslint-stylistic#readme",
+			"repository": {
+				"directory": "packages/eslint-plugin-jsx",
+				"type": "git",
+				"url": "git+https://github.com/eslint-stylistic/eslint-stylistic.git"
+			},
+			"bugs": {
+				"url": "https://github.com/eslint-stylistic/eslint-stylistic/issues"
+			},
+			"main": "./dist/index.js",
+			"dependencies": {
+				"estraverse": "^5.3.0",
+				"jsx-ast-utils": "^3.3.5",
+				"@stylistic/eslint-plugin-js": "^0.0.8"
+			},
+			"devDependencies": {
+				"@babel/eslint-parser": "^7.22.15",
+				"@babel/plugin-syntax-decorators": "^7.22.10",
+				"@babel/plugin-syntax-do-expressions": "^7.22.5",
+				"@babel/plugin-syntax-function-bind": "^7.22.5",
+				"@babel/preset-react": "^7.22.15",
+				"@typescript-eslint/parser": "^6.7.4",
+				"babel-eslint": "^10.1.0",
+				"eslint": "^8.50.0",
+				"semver": "^7.5.4",
+				"typescript-eslint-parser": "^22.0.0"
+			},
+			"scripts": {
+				"build": "rimraf dist && rollup --config=rollup.config.mts --configPlugin=rollup-plugin-esbuild",
+				"dev": "rollup --config=rollup.config.mts --configPlugin=rollup-plugin-esbuild --watch"
+			},
+			"description": "JSX stylistic rules for ESLint, migrated from [`eslint-plugin-react`](https://github.com/jsx-eslint/eslint-plugin-react).",
+			"_id": "@stylistic/eslint-plugin-jsx@0.0.8",
+			"_integrity": "sha512-CM4LmgS93zEXPqNLismYnlulBAT7cpHoVEqcRMBVsVj53FmaiEOg1WTO4r9qj00ByYQgf/TDXz1XHX84rr4nbA==",
+			"_resolved": "/private/var/folders/30/nymxcyb909ggq2j5lwn7b_600000gn/T/a9dd7e8cbc763e6af02ce6a70d8c2b4a/stylistic-eslint-plugin-jsx-0.0.8.tgz",
+			"_from": "file:stylistic-eslint-plugin-jsx-0.0.8.tgz",
+			"_nodeVersion": "20.4.0",
+			"_npmVersion": "9.7.2",
+			"dist": {
+				"integrity": "sha512-CM4LmgS93zEXPqNLismYnlulBAT7cpHoVEqcRMBVsVj53FmaiEOg1WTO4r9qj00ByYQgf/TDXz1XHX84rr4nbA==",
+				"shasum": "5e222c9970e519eafe73523064385fbf5e88ea03",
+				"tarball": "https://registry.npmjs.org/@stylistic/eslint-plugin-jsx/-/eslint-plugin-jsx-0.0.8.tgz",
+				"fileCount": 24,
+				"unpackedSize": 171305,
+				"signatures": [
+					{
+						"keyid": "SHA256:jl3bwswu80PjjokCgh0o2w5c2U4LhQAE57gj9cz1kzA",
+						"sig": "MEYCIQDdNd66gZ77RFMjX4UtKERZMbtwV2Oy03aKYsvoG2+bbgIhAP79eREbyJMXcj7H+0ZniT4tzfNF5tpuSR0mvDZ5eucN"
+					}
+				]
+			},
+			"_npmUser": {
+				"name": "antfu",
+				"email": "anthonyfu117@hotmail.com"
+			},
+			"directories": {},
+			"maintainers": [
+				{
+					"name": "antfu",
+					"email": "anthonyfu117@hotmail.com"
+				}
+			],
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/eslint-plugin-jsx_0.0.8_1696834086092_0.007705276792067783"
+			},
+			"_hasShrinkwrap": false,
+			"contributors": []
+		},
+		"0.0.9": {
+			"name": "@stylistic/eslint-plugin-jsx",
+			"version": "0.0.9",
+			"author": {
+				"name": "Anthony Fu",
+				"email": "anthonyfu117@hotmail.com"
+			},
+			"license": "MIT",
+			"homepage": "https://github.com/eslint-stylistic/eslint-stylistic#readme",
+			"repository": {
+				"directory": "packages/eslint-plugin-jsx",
+				"type": "git",
+				"url": "git+https://github.com/eslint-stylistic/eslint-stylistic.git"
+			},
+			"bugs": {
+				"url": "https://github.com/eslint-stylistic/eslint-stylistic/issues"
+			},
+			"exports": {
+				".": {
+					"require": "./dist/index.js"
+				},
+				"./define-config-support": {
+					"types": "./dts/define-config-support.d.ts"
+				},
+				"./rule-options": {
+					"types": "./dts/rule-options.d.ts"
+				}
+			},
+			"main": "./dist/index.js",
+			"dependencies": {
+				"estraverse": "^5.3.0",
+				"jsx-ast-utils": "^3.3.5",
+				"@stylistic/eslint-plugin-js": "^0.0.9"
+			},
+			"devDependencies": {
+				"@babel/eslint-parser": "^7.22.15",
+				"@babel/plugin-syntax-decorators": "^7.22.10",
+				"@babel/plugin-syntax-do-expressions": "^7.22.5",
+				"@babel/plugin-syntax-function-bind": "^7.22.5",
+				"@babel/preset-react": "^7.22.15",
+				"@typescript-eslint/parser": "^6.7.4",
+				"babel-eslint": "^10.1.0",
+				"eslint": "^8.50.0",
+				"semver": "^7.5.4",
+				"typescript-eslint-parser": "^22.0.0"
+			},
+			"scripts": {
+				"build": "rimraf dist && rollup --config=rollup.config.mts --configPlugin=rollup-plugin-esbuild",
+				"dev": "rollup --config=rollup.config.mts --configPlugin=rollup-plugin-esbuild --watch"
+			},
+			"description": "JSX stylistic rules for ESLint, migrated from [`eslint-plugin-react`](https://github.com/jsx-eslint/eslint-plugin-react).",
+			"_id": "@stylistic/eslint-plugin-jsx@0.0.9",
+			"_integrity": "sha512-NKDeY82nHZwsxmsiUxAYFglKTxX6+/y38007Z45oXYmhTajktbg7sqCXWKjIZzjUbKdR+3mq2qFuZ3yXBC2VAQ==",
+			"_resolved": "/private/var/folders/30/nymxcyb909ggq2j5lwn7b_600000gn/T/d346c1ae1c60f9a1e1acd422a6a67266/stylistic-eslint-plugin-jsx-0.0.9.tgz",
+			"_from": "file:stylistic-eslint-plugin-jsx-0.0.9.tgz",
+			"_nodeVersion": "20.4.0",
+			"_npmVersion": "9.7.2",
+			"dist": {
+				"integrity": "sha512-NKDeY82nHZwsxmsiUxAYFglKTxX6+/y38007Z45oXYmhTajktbg7sqCXWKjIZzjUbKdR+3mq2qFuZ3yXBC2VAQ==",
+				"shasum": "411a16af331b00b6f7f80a422bde4da2187dbf03",
+				"tarball": "https://registry.npmjs.org/@stylistic/eslint-plugin-jsx/-/eslint-plugin-jsx-0.0.9.tgz",
+				"fileCount": 25,
+				"unpackedSize": 171819,
+				"signatures": [
+					{
+						"keyid": "SHA256:jl3bwswu80PjjokCgh0o2w5c2U4LhQAE57gj9cz1kzA",
+						"sig": "MEUCIQD3l3o0hfkgm+5H8CAOg9DP62w+emDG3NxNJNpQAxeC4QIgKsyVdTAYnSIErj01oGTI1YTF+Qwj8qPEcmvj9RIbJL4="
+					}
+				]
+			},
+			"_npmUser": {
+				"name": "antfu",
+				"email": "anthonyfu117@hotmail.com"
+			},
+			"directories": {},
+			"maintainers": [
+				{
+					"name": "antfu",
+					"email": "anthonyfu117@hotmail.com"
+				}
+			],
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/eslint-plugin-jsx_0.0.9_1697158169442_0.9111193144225116"
+			},
+			"_hasShrinkwrap": false,
+			"contributors": []
+		},
+		"0.0.10": {
+			"name": "@stylistic/eslint-plugin-jsx",
+			"version": "0.0.10",
+			"author": {
+				"name": "Anthony Fu",
+				"email": "anthonyfu117@hotmail.com"
+			},
+			"license": "MIT",
+			"homepage": "https://github.com/eslint-stylistic/eslint-stylistic#readme",
+			"repository": {
+				"directory": "packages/eslint-plugin-jsx",
+				"type": "git",
+				"url": "git+https://github.com/eslint-stylistic/eslint-stylistic.git"
+			},
+			"bugs": {
+				"url": "https://github.com/eslint-stylistic/eslint-stylistic/issues"
+			},
+			"exports": {
+				".": {
+					"types": "./dts/index.d.ts",
+					"require": "./dist/index.js"
+				},
+				"./define-config-support": {
+					"types": "./dts/define-config-support.d.ts"
+				},
+				"./rule-options": {
+					"types": "./dts/rule-options.d.ts"
+				}
+			},
+			"main": "./dist/index.js",
+			"types": "./dts/index.d.ts",
+			"dependencies": {
+				"estraverse": "^5.3.0",
+				"jsx-ast-utils": "^3.3.5",
+				"@stylistic/eslint-plugin-js": "^0.0.10"
+			},
+			"devDependencies": {
+				"@babel/eslint-parser": "^7.22.15",
+				"@babel/plugin-syntax-decorators": "^7.22.10",
+				"@babel/plugin-syntax-do-expressions": "^7.22.5",
+				"@babel/plugin-syntax-function-bind": "^7.22.5",
+				"@babel/preset-react": "^7.22.15",
+				"@typescript-eslint/parser": "^6.7.5",
+				"babel-eslint": "^10.1.0",
+				"eslint": "^8.51.0",
+				"semver": "^7.5.4",
+				"typescript-eslint-parser": "^22.0.0"
+			},
+			"scripts": {
+				"build": "rimraf dist && rollup --config=rollup.config.mts --configPlugin=rollup-plugin-esbuild",
+				"dev": "rollup --config=rollup.config.mts --configPlugin=rollup-plugin-esbuild --watch"
+			},
+			"description": "JSX stylistic rules for ESLint, migrated from [`eslint-plugin-react`](https://github.com/jsx-eslint/eslint-plugin-react).",
+			"_id": "@stylistic/eslint-plugin-jsx@0.0.10",
+			"_integrity": "sha512-MBJpaML+Mwsh5iT0MMCUnEFY4jScomc4bB5R/3FzozCPYog2ssEfzg9KygFGEzZg8NcrnykbgNhHQYvtaRXhwA==",
+			"_resolved": "/private/var/folders/30/nymxcyb909ggq2j5lwn7b_600000gn/T/82e73ecbd4316d406ee0d568b8d1bac0/stylistic-eslint-plugin-jsx-0.0.10.tgz",
+			"_from": "file:stylistic-eslint-plugin-jsx-0.0.10.tgz",
+			"_nodeVersion": "20.4.0",
+			"_npmVersion": "9.7.2",
+			"dist": {
+				"integrity": "sha512-MBJpaML+Mwsh5iT0MMCUnEFY4jScomc4bB5R/3FzozCPYog2ssEfzg9KygFGEzZg8NcrnykbgNhHQYvtaRXhwA==",
+				"shasum": "4e8d01af52eb1633fa84b6e0ea4e0603fb0243bf",
+				"tarball": "https://registry.npmjs.org/@stylistic/eslint-plugin-jsx/-/eslint-plugin-jsx-0.0.10.tgz",
+				"fileCount": 26,
+				"unpackedSize": 172010,
+				"signatures": [
+					{
+						"keyid": "SHA256:jl3bwswu80PjjokCgh0o2w5c2U4LhQAE57gj9cz1kzA",
+						"sig": "MEUCIQC9SFyWckBOyi/c055SQpBGxT559r+/9zA4t0fQr/kfIAIgU4mrLduQxzoFEleWmS/GB86h6owFE+mYQzBZOJIO/o8="
+					}
+				]
+			},
+			"_npmUser": {
+				"name": "antfu",
+				"email": "anthonyfu117@hotmail.com"
+			},
+			"directories": {},
+			"maintainers": [
+				{
+					"name": "antfu",
+					"email": "anthonyfu117@hotmail.com"
+				}
+			],
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/eslint-plugin-jsx_0.0.10_1697203630146_0.5139018598293863"
+			},
+			"_hasShrinkwrap": false,
+			"contributors": []
+		},
+		"0.0.11": {
+			"name": "@stylistic/eslint-plugin-jsx",
+			"version": "0.0.11",
+			"author": {
+				"name": "Anthony Fu",
+				"email": "anthonyfu117@hotmail.com"
+			},
+			"license": "MIT",
+			"homepage": "https://github.com/eslint-stylistic/eslint-stylistic#readme",
+			"repository": {
+				"directory": "packages/eslint-plugin-jsx",
+				"type": "git",
+				"url": "git+https://github.com/eslint-stylistic/eslint-stylistic.git"
+			},
+			"bugs": {
+				"url": "https://github.com/eslint-stylistic/eslint-stylistic/issues"
+			},
+			"exports": {
+				".": {
+					"types": "./dts/index.d.ts",
+					"require": "./dist/index.js",
+					"default": "./dist/index.js"
+				},
+				"./define-config-support": {
+					"types": "./dts/define-config-support.d.ts"
+				},
+				"./rule-options": {
+					"types": "./dts/rule-options.d.ts"
+				}
+			},
+			"main": "./dist/index.js",
+			"types": "./dts/index.d.ts",
+			"dependencies": {
+				"estraverse": "^5.3.0",
+				"jsx-ast-utils": "^3.3.5",
+				"@stylistic/eslint-plugin-js": "^0.0.11"
+			},
+			"devDependencies": {
+				"@babel/eslint-parser": "^7.22.15",
+				"@babel/plugin-syntax-decorators": "^7.22.10",
+				"@babel/plugin-syntax-do-expressions": "^7.22.5",
+				"@babel/plugin-syntax-function-bind": "^7.22.5",
+				"@babel/preset-react": "^7.22.15",
+				"@typescript-eslint/parser": "^6.7.5",
+				"babel-eslint": "^10.1.0",
+				"eslint": "^8.51.0",
+				"semver": "^7.5.4",
+				"typescript-eslint-parser": "^22.0.0"
+			},
+			"scripts": {
+				"build": "rimraf dist && rollup --config=rollup.config.mts --configPlugin=rollup-plugin-esbuild",
+				"dev": "rollup --config=rollup.config.mts --configPlugin=rollup-plugin-esbuild --watch"
+			},
+			"description": "JSX stylistic rules for ESLint, migrated from [`eslint-plugin-react`](https://github.com/jsx-eslint/eslint-plugin-react).",
+			"_id": "@stylistic/eslint-plugin-jsx@0.0.11",
+			"_integrity": "sha512-pbCDoSmYSZrRHYkd2ayfLLzbMLzW1xYLk6NWB/bSk365wDYh9x+ghW2uXS6PZno3ON7K1+2OKXhvXDaLBdMVPg==",
+			"_resolved": "/private/var/folders/30/nymxcyb909ggq2j5lwn7b_600000gn/T/ab37c7412f221323dec2e47ff1f295ed/stylistic-eslint-plugin-jsx-0.0.11.tgz",
+			"_from": "file:stylistic-eslint-plugin-jsx-0.0.11.tgz",
+			"_nodeVersion": "20.4.0",
+			"_npmVersion": "9.7.2",
+			"dist": {
+				"integrity": "sha512-pbCDoSmYSZrRHYkd2ayfLLzbMLzW1xYLk6NWB/bSk365wDYh9x+ghW2uXS6PZno3ON7K1+2OKXhvXDaLBdMVPg==",
+				"shasum": "1167f938fe12e1c430ab03585222330a56aba09b",
+				"tarball": "https://registry.npmjs.org/@stylistic/eslint-plugin-jsx/-/eslint-plugin-jsx-0.0.11.tgz",
+				"fileCount": 26,
+				"unpackedSize": 172046,
+				"signatures": [
+					{
+						"keyid": "SHA256:jl3bwswu80PjjokCgh0o2w5c2U4LhQAE57gj9cz1kzA",
+						"sig": "MEUCIDyWCRh5U2+1fJZG3fi7rNWi6LTLJLv/vniyVlUbB9jeAiEA/yBloaALfkaZDe5wd07fBp8vlEvsM2pnKL93tjyYSPI="
+					}
+				]
+			},
+			"_npmUser": {
+				"name": "antfu",
+				"email": "anthonyfu117@hotmail.com"
+			},
+			"directories": {},
+			"maintainers": [
+				{
+					"name": "antfu",
+					"email": "anthonyfu117@hotmail.com"
+				}
+			],
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/eslint-plugin-jsx_0.0.11_1697204552236_0.9593572104542878"
+			},
+			"_hasShrinkwrap": false,
+			"contributors": []
+		},
+		"0.0.12": {
+			"name": "@stylistic/eslint-plugin-jsx",
+			"version": "0.0.12",
+			"author": {
+				"name": "Anthony Fu",
+				"email": "anthonyfu117@hotmail.com"
+			},
+			"license": "MIT",
+			"homepage": "https://github.com/eslint-stylistic/eslint-stylistic#readme",
+			"repository": {
+				"directory": "packages/eslint-plugin-jsx",
+				"type": "git",
+				"url": "git+https://github.com/eslint-stylistic/eslint-stylistic.git"
+			},
+			"bugs": {
+				"url": "https://github.com/eslint-stylistic/eslint-stylistic/issues"
+			},
+			"exports": {
+				".": {
+					"types": "./dts/index.d.ts",
+					"require": "./dist/index.js",
+					"default": "./dist/index.js"
+				},
+				"./define-config-support": {
+					"types": "./dts/define-config-support.d.ts"
+				},
+				"./rule-options": {
+					"types": "./dts/rule-options.d.ts"
+				}
+			},
+			"main": "./dist/index.js",
+			"types": "./dts/index.d.ts",
+			"dependencies": {
+				"estraverse": "^5.3.0",
+				"jsx-ast-utils": "^3.3.5",
+				"@stylistic/eslint-plugin-js": "^0.0.12"
+			},
+			"devDependencies": {
+				"@babel/eslint-parser": "^7.22.15",
+				"@babel/plugin-syntax-decorators": "^7.22.10",
+				"@babel/plugin-syntax-do-expressions": "^7.22.5",
+				"@babel/plugin-syntax-function-bind": "^7.22.5",
+				"@babel/preset-react": "^7.22.15",
+				"@typescript-eslint/parser": "^6.7.5",
+				"babel-eslint": "^10.1.0",
+				"eslint": "^8.51.0",
+				"semver": "^7.5.4",
+				"typescript-eslint-parser": "^22.0.0"
+			},
+			"scripts": {
+				"build": "rimraf dist && rollup --config=rollup.config.mts --configPlugin=rollup-plugin-esbuild",
+				"dev": "rollup --config=rollup.config.mts --configPlugin=rollup-plugin-esbuild --watch"
+			},
+			"description": "JSX stylistic rules for ESLint, migrated from [`eslint-plugin-react`](https://github.com/jsx-eslint/eslint-plugin-react).",
+			"_id": "@stylistic/eslint-plugin-jsx@0.0.12",
+			"_integrity": "sha512-VWxv4t/V83arM5A8yymI9ogzcA0/J8989XTyU4uwLK3K9Z1jFHkHCckBYn6JSlKV0+x8iEOginBdis7TTgx73A==",
+			"_resolved": "/private/var/folders/30/nymxcyb909ggq2j5lwn7b_600000gn/T/8a992d20cc82ef7cfb392da288059637/stylistic-eslint-plugin-jsx-0.0.12.tgz",
+			"_from": "file:stylistic-eslint-plugin-jsx-0.0.12.tgz",
+			"_nodeVersion": "20.4.0",
+			"_npmVersion": "9.7.2",
+			"dist": {
+				"integrity": "sha512-VWxv4t/V83arM5A8yymI9ogzcA0/J8989XTyU4uwLK3K9Z1jFHkHCckBYn6JSlKV0+x8iEOginBdis7TTgx73A==",
+				"shasum": "d66ce82ce5cf7f97bceeaca935dc782719e9915a",
+				"tarball": "https://registry.npmjs.org/@stylistic/eslint-plugin-jsx/-/eslint-plugin-jsx-0.0.12.tgz",
+				"fileCount": 26,
+				"unpackedSize": 172046,
+				"signatures": [
+					{
+						"keyid": "SHA256:jl3bwswu80PjjokCgh0o2w5c2U4LhQAE57gj9cz1kzA",
+						"sig": "MEUCIETTEikz+tKU5/7QdmRpDZpHigNgv6lT4cJTHHB8NJHlAiEAvcm1ZjNlmyLzn3BiZdkaV9zER5gDdXq265QsA6z7yJg="
+					}
+				]
+			},
+			"_npmUser": {
+				"name": "antfu",
+				"email": "anthonyfu117@hotmail.com"
+			},
+			"directories": {},
+			"maintainers": [
+				{
+					"name": "antfu",
+					"email": "anthonyfu117@hotmail.com"
+				}
+			],
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/eslint-plugin-jsx_0.0.12_1697567338338_0.013999982701197844"
+			},
+			"_hasShrinkwrap": false,
+			"contributors": []
+		},
+		"0.1.0": {
+			"name": "@stylistic/eslint-plugin-jsx",
+			"version": "0.1.0",
+			"author": {
+				"name": "Anthony Fu",
+				"email": "anthonyfu117@hotmail.com"
+			},
+			"license": "MIT",
+			"homepage": "https://github.com/eslint-stylistic/eslint-stylistic#readme",
+			"repository": {
+				"directory": "packages/eslint-plugin-jsx",
+				"type": "git",
+				"url": "git+https://github.com/eslint-stylistic/eslint-stylistic.git"
+			},
+			"bugs": {
+				"url": "https://github.com/eslint-stylistic/eslint-stylistic/issues"
+			},
+			"exports": {
+				".": {
+					"types": "./dts/index.d.ts",
+					"require": "./dist/index.js",
+					"default": "./dist/index.js"
+				},
+				"./define-config-support": {
+					"types": "./dts/define-config-support.d.ts"
+				},
+				"./rule-options": {
+					"types": "./dts/rule-options.d.ts"
+				}
+			},
+			"main": "./dist/index.js",
+			"types": "./dts/index.d.ts",
+			"dependencies": {
+				"estraverse": "^5.3.0",
+				"jsx-ast-utils": "^3.3.5",
+				"@stylistic/eslint-plugin-js": "^0.1.0"
+			},
+			"devDependencies": {
+				"@babel/eslint-parser": "^7.22.15",
+				"@babel/plugin-syntax-decorators": "^7.22.10",
+				"@babel/plugin-syntax-do-expressions": "^7.22.5",
+				"@babel/plugin-syntax-function-bind": "^7.22.5",
+				"@babel/preset-react": "^7.22.15",
+				"@typescript-eslint/parser": "^6.7.5",
+				"babel-eslint": "^10.1.0",
+				"eslint": "^8.51.0",
+				"semver": "^7.5.4",
+				"typescript-eslint-parser": "^22.0.0"
+			},
+			"scripts": {
+				"build": "rimraf dist && rollup --config=rollup.config.mts --configPlugin=rollup-plugin-esbuild",
+				"dev": "rollup --config=rollup.config.mts --configPlugin=rollup-plugin-esbuild --watch"
+			},
+			"description": "JSX stylistic rules for ESLint, migrated from [`eslint-plugin-react`](https://github.com/jsx-eslint/eslint-plugin-react).",
+			"_id": "@stylistic/eslint-plugin-jsx@0.1.0",
+			"_integrity": "sha512-3ePgdjPkaUmpQvaPm5uQsTiT2KmvV8RoXLofebrm2XMHToYMa0VkwIHT7jVLR/kksZlJcm2Pp6tW12VU3/G0Bg==",
+			"_resolved": "/private/var/folders/30/nymxcyb909ggq2j5lwn7b_600000gn/T/4aab7da1eca4cb996b8744526735d27c/stylistic-eslint-plugin-jsx-0.1.0.tgz",
+			"_from": "file:stylistic-eslint-plugin-jsx-0.1.0.tgz",
+			"_nodeVersion": "20.4.0",
+			"_npmVersion": "9.7.2",
+			"dist": {
+				"integrity": "sha512-3ePgdjPkaUmpQvaPm5uQsTiT2KmvV8RoXLofebrm2XMHToYMa0VkwIHT7jVLR/kksZlJcm2Pp6tW12VU3/G0Bg==",
+				"shasum": "fb03225f93e23cca6fe29d99dcca1a3deed40b3e",
+				"tarball": "https://registry.npmjs.org/@stylistic/eslint-plugin-jsx/-/eslint-plugin-jsx-0.1.0.tgz",
+				"fileCount": 27,
+				"unpackedSize": 175691,
+				"signatures": [
+					{
+						"keyid": "SHA256:jl3bwswu80PjjokCgh0o2w5c2U4LhQAE57gj9cz1kzA",
+						"sig": "MEUCIDvfUcxcnpweQ//WDIVnmUd0e9n+/DmxqZw4+WnunZpQAiEAjwt4JhrjLd40PhSznlCx9Ku+atyq0xr0PBFEYpM2+Rc="
+					}
+				]
+			},
+			"_npmUser": {
+				"name": "antfu",
+				"email": "anthonyfu117@hotmail.com"
+			},
+			"directories": {},
+			"maintainers": [
+				{
+					"name": "antfu",
+					"email": "anthonyfu117@hotmail.com"
+				}
+			],
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/eslint-plugin-jsx_0.1.0_1697744491752_0.6628791606958531"
+			},
+			"_hasShrinkwrap": false,
+			"contributors": []
+		},
+		"0.1.1": {
+			"name": "@stylistic/eslint-plugin-jsx",
+			"version": "0.1.1",
+			"author": {
+				"name": "Anthony Fu",
+				"email": "anthonyfu117@hotmail.com"
+			},
+			"license": "MIT",
+			"homepage": "https://github.com/eslint-stylistic/eslint-stylistic#readme",
+			"repository": {
+				"directory": "packages/eslint-plugin-jsx",
+				"type": "git",
+				"url": "git+https://github.com/eslint-stylistic/eslint-stylistic.git"
+			},
+			"bugs": {
+				"url": "https://github.com/eslint-stylistic/eslint-stylistic/issues"
+			},
+			"exports": {
+				".": {
+					"types": "./dts/index.d.ts",
+					"require": "./dist/index.js",
+					"default": "./dist/index.js"
+				},
+				"./define-config-support": {
+					"types": "./dts/define-config-support.d.ts"
+				},
+				"./rule-options": {
+					"types": "./dts/rule-options.d.ts"
+				}
+			},
+			"main": "./dist/index.js",
+			"types": "./dts/index.d.ts",
+			"dependencies": {
+				"estraverse": "^5.3.0",
+				"jsx-ast-utils": "^3.3.5",
+				"@stylistic/eslint-plugin-js": "^0.1.1"
+			},
+			"devDependencies": {
+				"@babel/eslint-parser": "^7.22.15",
+				"@babel/plugin-syntax-decorators": "^7.22.10",
+				"@babel/plugin-syntax-do-expressions": "^7.22.5",
+				"@babel/plugin-syntax-function-bind": "^7.22.5",
+				"@babel/preset-react": "^7.22.15",
+				"@typescript-eslint/parser": "^6.8.0",
+				"babel-eslint": "^10.1.0",
+				"eslint": "^8.52.0",
+				"semver": "^7.5.4",
+				"typescript-eslint-parser": "^22.0.0"
+			},
+			"scripts": {
+				"build": "rimraf dist && rollup --config=rollup.config.mts --configPlugin=rollup-plugin-esbuild",
+				"dev": "rollup --config=rollup.config.mts --configPlugin=rollup-plugin-esbuild --watch"
+			},
+			"description": "JSX stylistic rules for ESLint, migrated from [`eslint-plugin-react`](https://github.com/jsx-eslint/eslint-plugin-react).",
+			"_id": "@stylistic/eslint-plugin-jsx@0.1.1",
+			"_integrity": "sha512-36+iAWxGIAwGb2k7vS4S14NIt/2NVBCJSn3Q+T91t4MF1fWyaQFOoc5l6c4oW5UTzfr0vgMMcqsr8f8JJjqm0g==",
+			"_resolved": "/private/var/folders/30/nymxcyb909ggq2j5lwn7b_600000gn/T/ad12319c092d5769ee46564b33f970cd/stylistic-eslint-plugin-jsx-0.1.1.tgz",
+			"_from": "file:stylistic-eslint-plugin-jsx-0.1.1.tgz",
+			"_nodeVersion": "20.4.0",
+			"_npmVersion": "9.7.2",
+			"dist": {
+				"integrity": "sha512-36+iAWxGIAwGb2k7vS4S14NIt/2NVBCJSn3Q+T91t4MF1fWyaQFOoc5l6c4oW5UTzfr0vgMMcqsr8f8JJjqm0g==",
+				"shasum": "1480589f25bbb4f035e8dc5421e648f5d843e1f2",
+				"tarball": "https://registry.npmjs.org/@stylistic/eslint-plugin-jsx/-/eslint-plugin-jsx-0.1.1.tgz",
+				"fileCount": 45,
+				"unpackedSize": 179817,
+				"signatures": [
+					{
+						"keyid": "SHA256:jl3bwswu80PjjokCgh0o2w5c2U4LhQAE57gj9cz1kzA",
+						"sig": "MEUCIQCfQFyIZ/ZfpE6zaprLnp9stJSvCviZ/O/8yENZbeSwsAIgF804cVUnqwDCTzOuG4sMbG2tzg13KOxYQ4AD/22LTiU="
+					}
+				]
+			},
+			"_npmUser": {
+				"name": "antfu",
+				"email": "anthonyfu117@hotmail.com"
+			},
+			"directories": {},
+			"maintainers": [
+				{
+					"name": "antfu",
+					"email": "anthonyfu117@hotmail.com"
+				}
+			],
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/eslint-plugin-jsx_0.1.1_1698028746147_0.7019983080292993"
+			},
+			"_hasShrinkwrap": false,
+			"contributors": []
+		},
+		"0.1.2": {
+			"name": "@stylistic/eslint-plugin-jsx",
+			"version": "0.1.2",
+			"author": {
+				"name": "Anthony Fu",
+				"email": "anthonyfu117@hotmail.com"
+			},
+			"license": "MIT",
+			"homepage": "https://github.com/eslint-stylistic/eslint-stylistic#readme",
+			"repository": {
+				"directory": "packages/eslint-plugin-jsx",
+				"type": "git",
+				"url": "git+https://github.com/eslint-stylistic/eslint-stylistic.git"
+			},
+			"bugs": {
+				"url": "https://github.com/eslint-stylistic/eslint-stylistic/issues"
+			},
+			"exports": {
+				".": {
+					"types": "./dts/index.d.ts",
+					"require": "./dist/index.js",
+					"default": "./dist/index.js"
+				},
+				"./define-config-support": {
+					"types": "./dts/define-config-support.d.ts"
+				},
+				"./rule-options": {
+					"types": "./dts/rule-options.d.ts"
+				}
+			},
+			"main": "./dist/index.js",
+			"types": "./dts/index.d.ts",
+			"dependencies": {
+				"estraverse": "^5.3.0",
+				"jsx-ast-utils": "^3.3.5",
+				"@stylistic/eslint-plugin-js": "^0.1.2"
+			},
+			"devDependencies": {
+				"@babel/eslint-parser": "^7.22.15",
+				"@babel/plugin-syntax-decorators": "^7.22.10",
+				"@babel/plugin-syntax-do-expressions": "^7.22.5",
+				"@babel/plugin-syntax-function-bind": "^7.22.5",
+				"@babel/preset-react": "^7.22.15",
+				"@typescript-eslint/parser": "^6.8.0",
+				"babel-eslint": "^10.1.0",
+				"eslint": "^8.52.0",
+				"semver": "^7.5.4",
+				"typescript-eslint-parser": "^22.0.0"
+			},
+			"scripts": {
+				"build": "rimraf dist && rollup --config=rollup.config.mts --configPlugin=rollup-plugin-esbuild",
+				"dev": "rollup --config=rollup.config.mts --configPlugin=rollup-plugin-esbuild --watch"
+			},
+			"description": "JSX stylistic rules for ESLint, migrated from [`eslint-plugin-react`](https://github.com/jsx-eslint/eslint-plugin-react).",
+			"_id": "@stylistic/eslint-plugin-jsx@0.1.2",
+			"_integrity": "sha512-zq6od8bWuTr2MhJGohyjhQGTzHp38UvfzZo5e0uJvFr+E09EOcgQ7MAez68Zh00Fim57CLtHQt0F+geLdtC2vg==",
+			"_resolved": "/private/var/folders/30/nymxcyb909ggq2j5lwn7b_600000gn/T/5caae1c68b532471bd8deab382215e3c/stylistic-eslint-plugin-jsx-0.1.2.tgz",
+			"_from": "file:stylistic-eslint-plugin-jsx-0.1.2.tgz",
+			"_nodeVersion": "20.4.0",
+			"_npmVersion": "9.7.2",
+			"dist": {
+				"integrity": "sha512-zq6od8bWuTr2MhJGohyjhQGTzHp38UvfzZo5e0uJvFr+E09EOcgQ7MAez68Zh00Fim57CLtHQt0F+geLdtC2vg==",
+				"shasum": "5d9fb2eb048be24a7f0428ff333ea8a6b618cab0",
+				"tarball": "https://registry.npmjs.org/@stylistic/eslint-plugin-jsx/-/eslint-plugin-jsx-0.1.2.tgz",
+				"fileCount": 45,
+				"unpackedSize": 179793,
+				"signatures": [
+					{
+						"keyid": "SHA256:jl3bwswu80PjjokCgh0o2w5c2U4LhQAE57gj9cz1kzA",
+						"sig": "MEYCIQDRuZk5lMIbt/4vSrtzd6knEjCpH+OqSxNZuiYLR8iOoQIhAMA8jbZqngrZRYENBWczvauIGjUwwLLAI47d659a888N"
+					}
+				]
+			},
+			"_npmUser": {
+				"name": "antfu",
+				"email": "anthonyfu117@hotmail.com"
+			},
+			"directories": {},
+			"maintainers": [
+				{
+					"name": "antfu",
+					"email": "anthonyfu117@hotmail.com"
+				}
+			],
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/eslint-plugin-jsx_0.1.2_1698552858209_0.16307977388710926"
+			},
+			"_hasShrinkwrap": false,
+			"contributors": []
+		},
+		"1.0.0": {
+			"name": "@stylistic/eslint-plugin-jsx",
+			"version": "1.0.0",
+			"author": {
+				"name": "Anthony Fu",
+				"email": "anthonyfu117@hotmail.com"
+			},
+			"license": "MIT",
+			"homepage": "https://github.com/eslint-stylistic/eslint-stylistic#readme",
+			"repository": {
+				"directory": "packages/eslint-plugin-jsx",
+				"type": "git",
+				"url": "git+https://github.com/eslint-stylistic/eslint-stylistic.git"
+			},
+			"bugs": {
+				"url": "https://github.com/eslint-stylistic/eslint-stylistic/issues"
+			},
+			"exports": {
+				".": {
+					"types": "./dts/index.d.ts",
+					"require": "./dist/index.js",
+					"default": "./dist/index.js"
+				},
+				"./define-config-support": {
+					"types": "./dts/define-config-support.d.ts"
+				},
+				"./rule-options": {
+					"types": "./dts/rule-options.d.ts"
+				}
+			},
+			"main": "./dist/index.js",
+			"types": "./dts/index.d.ts",
+			"dependencies": {
+				"estraverse": "^5.3.0",
+				"jsx-ast-utils": "^3.3.5",
+				"@stylistic/eslint-plugin-js": "^1.0.0"
+			},
+			"devDependencies": {
+				"@babel/eslint-parser": "^7.22.15",
+				"@babel/plugin-syntax-decorators": "^7.22.10",
+				"@babel/plugin-syntax-do-expressions": "^7.22.5",
+				"@babel/plugin-syntax-function-bind": "^7.22.5",
+				"@babel/preset-react": "^7.22.15",
+				"@typescript-eslint/parser": "^6.8.0",
+				"babel-eslint": "^10.1.0",
+				"eslint": "^8.52.0",
+				"semver": "^7.5.4",
+				"typescript-eslint-parser": "^22.0.0"
+			},
+			"scripts": {
+				"build": "rimraf dist && rollup --config=rollup.config.mts --configPlugin=rollup-plugin-esbuild",
+				"dev": "rollup --config=rollup.config.mts --configPlugin=rollup-plugin-esbuild --watch"
+			},
+			"description": "JSX stylistic rules for ESLint, migrated from [`eslint-plugin-react`](https://github.com/jsx-eslint/eslint-plugin-react).",
+			"_id": "@stylistic/eslint-plugin-jsx@1.0.0",
+			"_integrity": "sha512-waUm7dcTFAI4d/3luf06RRNt89gSGaofHJ4BiuqKnpyu3yxn1lKbholjGQrw0xPjAciUe+ZSF6BKlBA9P2aV4Q==",
+			"_resolved": "/private/var/folders/30/nymxcyb909ggq2j5lwn7b_600000gn/T/48187808df0728f7990f1d8c2186c1f4/stylistic-eslint-plugin-jsx-1.0.0.tgz",
+			"_from": "file:stylistic-eslint-plugin-jsx-1.0.0.tgz",
+			"_nodeVersion": "20.4.0",
+			"_npmVersion": "9.7.2",
+			"dist": {
+				"integrity": "sha512-waUm7dcTFAI4d/3luf06RRNt89gSGaofHJ4BiuqKnpyu3yxn1lKbholjGQrw0xPjAciUe+ZSF6BKlBA9P2aV4Q==",
+				"shasum": "b32c3b77b4a2a0368ad4cf6f8c3d8dfe33d5f3f6",
+				"tarball": "https://registry.npmjs.org/@stylistic/eslint-plugin-jsx/-/eslint-plugin-jsx-1.0.0.tgz",
+				"fileCount": 45,
+				"unpackedSize": 179793,
+				"signatures": [
+					{
+						"keyid": "SHA256:jl3bwswu80PjjokCgh0o2w5c2U4LhQAE57gj9cz1kzA",
+						"sig": "MEQCIH3zXpIsTT2bKMQYdL2xQjh7TSP0sPsLyLAFxz7U7iaDAiBanBD19SpqtTrrj/XIuyBcAy6s4oqY0mtpUZOK1IWYjw=="
+					}
+				]
+			},
+			"_npmUser": {
+				"name": "antfu",
+				"email": "anthonyfu117@hotmail.com"
+			},
+			"directories": {},
+			"maintainers": [
+				{
+					"name": "antfu",
+					"email": "anthonyfu117@hotmail.com"
+				}
+			],
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/eslint-plugin-jsx_1.0.0_1698932496847_0.8327411021721469"
+			},
+			"_hasShrinkwrap": false,
+			"contributors": []
+		},
+		"1.0.1": {
+			"name": "@stylistic/eslint-plugin-jsx",
+			"version": "1.0.1",
+			"author": {
+				"name": "Anthony Fu",
+				"email": "anthonyfu117@hotmail.com"
+			},
+			"license": "MIT",
+			"homepage": "https://github.com/eslint-stylistic/eslint-stylistic#readme",
+			"repository": {
+				"directory": "packages/eslint-plugin-jsx",
+				"type": "git",
+				"url": "git+https://github.com/eslint-stylistic/eslint-stylistic.git"
+			},
+			"bugs": {
+				"url": "https://github.com/eslint-stylistic/eslint-stylistic/issues"
+			},
+			"exports": {
+				".": {
+					"types": "./dts/index.d.ts",
+					"require": "./dist/index.js",
+					"default": "./dist/index.js"
+				},
+				"./define-config-support": {
+					"types": "./dts/define-config-support.d.ts"
+				},
+				"./rule-options": {
+					"types": "./dts/rule-options.d.ts"
+				}
+			},
+			"main": "./dist/index.js",
+			"types": "./dts/index.d.ts",
+			"dependencies": {
+				"estraverse": "^5.3.0",
+				"@stylistic/eslint-plugin-js": "^1.0.1"
+			},
+			"devDependencies": {
+				"@babel/eslint-parser": "^7.22.15",
+				"@babel/plugin-syntax-decorators": "^7.22.10",
+				"@babel/plugin-syntax-do-expressions": "^7.22.5",
+				"@babel/plugin-syntax-function-bind": "^7.22.5",
+				"@babel/preset-react": "^7.22.15",
+				"@typescript-eslint/parser": "^6.10.0",
+				"babel-eslint": "^10.1.0",
+				"eslint": "^8.53.0",
+				"semver": "^7.5.4",
+				"typescript-eslint-parser": "^22.0.0"
+			},
+			"scripts": {
+				"build": "rimraf dist && rollup --config=rollup.config.mts --configPlugin=rollup-plugin-esbuild",
+				"dev": "rollup --config=rollup.config.mts --configPlugin=rollup-plugin-esbuild --watch"
+			},
+			"description": "JSX stylistic rules for ESLint, migrated from [`eslint-plugin-react`](https://github.com/jsx-eslint/eslint-plugin-react).",
+			"_id": "@stylistic/eslint-plugin-jsx@1.0.1",
+			"_integrity": "sha512-qWtZcjWhbJ2roeI0tIPPtI9kWq/aCPsm/OTnMMRN6MtcufYm5oUjuU9cnAFW1pbCcmNWAcTkzbquyYavTAHcDg==",
+			"_resolved": "/private/var/folders/30/nymxcyb909ggq2j5lwn7b_600000gn/T/578f818a7733520df8171d22ef3524cc/stylistic-eslint-plugin-jsx-1.0.1.tgz",
+			"_from": "file:stylistic-eslint-plugin-jsx-1.0.1.tgz",
+			"_nodeVersion": "20.4.0",
+			"_npmVersion": "9.7.2",
+			"dist": {
+				"integrity": "sha512-qWtZcjWhbJ2roeI0tIPPtI9kWq/aCPsm/OTnMMRN6MtcufYm5oUjuU9cnAFW1pbCcmNWAcTkzbquyYavTAHcDg==",
+				"shasum": "75cbfc211ca21fa97874f0a82f7a2071e421b832",
+				"tarball": "https://registry.npmjs.org/@stylistic/eslint-plugin-jsx/-/eslint-plugin-jsx-1.0.1.tgz",
+				"fileCount": 80,
+				"unpackedSize": 294051,
+				"signatures": [
+					{
+						"keyid": "SHA256:jl3bwswu80PjjokCgh0o2w5c2U4LhQAE57gj9cz1kzA",
+						"sig": "MEQCIEx69bqJ0QIxRxATFC7KsU5W/46EgEO6bJx3HAm8xmTMAiAdqGLzrayBnWtxtLhbA/O/5+THqGVUWemwOzPG4RSAag=="
+					}
+				]
+			},
+			"_npmUser": {
+				"name": "antfu",
+				"email": "anthonyfu117@hotmail.com"
+			},
+			"directories": {},
+			"maintainers": [
+				{
+					"name": "antfu",
+					"email": "anthonyfu117@hotmail.com"
+				}
+			],
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/eslint-plugin-jsx_1.0.1_1699367950992_0.1654959945832435"
+			},
+			"_hasShrinkwrap": false,
+			"contributors": []
+		},
+		"1.1.0-beta.0": {
+			"name": "@stylistic/eslint-plugin-jsx",
+			"version": "1.1.0-beta.0",
+			"author": {
+				"name": "Anthony Fu",
+				"email": "anthonyfu117@hotmail.com"
+			},
+			"license": "MIT",
+			"homepage": "https://github.com/eslint-stylistic/eslint-stylistic#readme",
+			"repository": {
+				"directory": "packages/eslint-plugin-jsx",
+				"type": "git",
+				"url": "git+https://github.com/eslint-stylistic/eslint-stylistic.git"
+			},
+			"bugs": {
+				"url": "https://github.com/eslint-stylistic/eslint-stylistic/issues"
+			},
+			"exports": {
+				".": {
+					"types": "./dts/index.d.ts",
+					"require": "./dist/index.js",
+					"default": "./dist/index.js"
+				},
+				"./define-config-support": {
+					"types": "./dts/define-config-support.d.ts"
+				},
+				"./rule-options": {
+					"types": "./dts/rule-options.d.ts"
+				},
+				"./rules/jsx-child-element-spacing": "./dist/jsx-child-element-spacing.js",
+				"./rules/jsx-closing-bracket-location": "./dist/jsx-closing-bracket-location.js",
+				"./rules/jsx-closing-tag-location": "./dist/jsx-closing-tag-location.js",
+				"./rules/jsx-curly-brace-presence": "./dist/jsx-curly-brace-presence.js",
+				"./rules/jsx-curly-newline": "./dist/jsx-curly-newline.js",
+				"./rules/jsx-curly-spacing": "./dist/jsx-curly-spacing.js",
+				"./rules/jsx-equals-spacing": "./dist/jsx-equals-spacing.js",
+				"./rules/jsx-first-prop-new-line": "./dist/jsx-first-prop-new-line.js",
+				"./rules/jsx-indent": "./dist/jsx-indent.js",
+				"./rules/jsx-indent-props": "./dist/jsx-indent-props.js",
+				"./rules/jsx-max-props-per-line": "./dist/jsx-max-props-per-line.js",
+				"./rules/jsx-newline": "./dist/jsx-newline.js",
+				"./rules/jsx-one-expression-per-line": "./dist/jsx-one-expression-per-line.js",
+				"./rules/jsx-props-no-multi-spaces": "./dist/jsx-props-no-multi-spaces.js",
+				"./rules/jsx-self-closing-comp": "./dist/jsx-self-closing-comp.js",
+				"./rules/jsx-sort-props": "./dist/jsx-sort-props.js",
+				"./rules/jsx-tag-spacing": "./dist/jsx-tag-spacing.js",
+				"./rules/jsx-wrap-multilines": "./dist/jsx-wrap-multilines.js"
+			},
+			"main": "./dist/index.js",
+			"types": "./dts/index.d.ts",
+			"dependencies": {
+				"estraverse": "^5.3.0",
+				"@stylistic/eslint-plugin-js": "^1.1.0-beta.0"
+			},
+			"devDependencies": {
+				"@babel/eslint-parser": "^7.22.15",
+				"@babel/plugin-syntax-decorators": "^7.22.10",
+				"@babel/plugin-syntax-do-expressions": "^7.22.5",
+				"@babel/plugin-syntax-function-bind": "^7.22.5",
+				"@babel/preset-react": "^7.22.15",
+				"@typescript-eslint/parser": "^6.10.0",
+				"babel-eslint": "^10.1.0",
+				"eslint": "^8.53.0",
+				"semver": "^7.5.4",
+				"typescript-eslint-parser": "^22.0.0"
+			},
+			"scripts": {
+				"build": "rimraf dist && rollup --config=rollup.config.mts --configPlugin=rollup-plugin-esbuild",
+				"dev": "rollup --config=rollup.config.mts --configPlugin=rollup-plugin-esbuild --watch"
+			},
+			"readmeFilename": "README.md",
+			"description": "JSX stylistic rules for ESLint, migrated from [`eslint-plugin-react`](https://github.com/jsx-eslint/eslint-plugin-react).",
+			"_id": "@stylistic/eslint-plugin-jsx@1.1.0-beta.0",
+			"_integrity": "sha512-VZ4bx/QvqpxLNog5RzyLoimQ1QH+1r4fYUc6pFNdQGUMlNHcIX7VCM8H3N9O5htciiVfX16pAsxughmh3ndI+Q==",
+			"_resolved": "/private/var/folders/30/nymxcyb909ggq2j5lwn7b_600000gn/T/01fb712d553f245df6cb7e19755db471/stylistic-eslint-plugin-jsx-1.1.0-beta.0.tgz",
+			"_from": "file:stylistic-eslint-plugin-jsx-1.1.0-beta.0.tgz",
+			"_nodeVersion": "20.4.0",
+			"_npmVersion": "9.7.2",
+			"dist": {
+				"integrity": "sha512-VZ4bx/QvqpxLNog5RzyLoimQ1QH+1r4fYUc6pFNdQGUMlNHcIX7VCM8H3N9O5htciiVfX16pAsxughmh3ndI+Q==",
+				"shasum": "25237ed0635dbbdc93617712d31bc411f302c6d2",
+				"tarball": "https://registry.npmjs.org/@stylistic/eslint-plugin-jsx/-/eslint-plugin-jsx-1.1.0-beta.0.tgz",
+				"fileCount": 80,
+				"unpackedSize": 284548,
+				"signatures": [
+					{
+						"keyid": "SHA256:jl3bwswu80PjjokCgh0o2w5c2U4LhQAE57gj9cz1kzA",
+						"sig": "MEQCIFiqWMz21Huv6ygtXzMyhAB9AyL6Bx4944/mbKdgCvrQAiA2ek2T6wPM0/LEVJyjIwZAysB4ejzkJI9C17sM73Ij1Q=="
+					}
+				]
+			},
+			"_npmUser": {
+				"name": "antfu",
+				"email": "anthonyfu117@hotmail.com"
+			},
+			"directories": {},
+			"maintainers": [
+				{
+					"name": "antfu",
+					"email": "anthonyfu117@hotmail.com"
+				}
+			],
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/eslint-plugin-jsx_1.1.0-beta.0_1699699101463_0.8300582146714466"
+			},
+			"_hasShrinkwrap": false,
+			"contributors": []
+		},
+		"1.1.0": {
+			"name": "@stylistic/eslint-plugin-jsx",
+			"version": "1.1.0",
+			"author": {
+				"name": "Anthony Fu",
+				"email": "anthonyfu117@hotmail.com"
+			},
+			"license": "MIT",
+			"homepage": "https://github.com/eslint-stylistic/eslint-stylistic#readme",
+			"repository": {
+				"directory": "packages/eslint-plugin-jsx",
+				"type": "git",
+				"url": "git+https://github.com/eslint-stylistic/eslint-stylistic.git"
+			},
+			"bugs": {
+				"url": "https://github.com/eslint-stylistic/eslint-stylistic/issues"
+			},
+			"exports": {
+				".": {
+					"types": "./dts/index.d.ts",
+					"require": "./dist/index.js",
+					"default": "./dist/index.js"
+				},
+				"./define-config-support": {
+					"types": "./dts/define-config-support.d.ts"
+				},
+				"./rule-options": {
+					"types": "./dts/rule-options.d.ts"
+				},
+				"./rules/jsx-child-element-spacing": "./dist/jsx-child-element-spacing.js",
+				"./rules/jsx-closing-bracket-location": "./dist/jsx-closing-bracket-location.js",
+				"./rules/jsx-closing-tag-location": "./dist/jsx-closing-tag-location.js",
+				"./rules/jsx-curly-brace-presence": "./dist/jsx-curly-brace-presence.js",
+				"./rules/jsx-curly-newline": "./dist/jsx-curly-newline.js",
+				"./rules/jsx-curly-spacing": "./dist/jsx-curly-spacing.js",
+				"./rules/jsx-equals-spacing": "./dist/jsx-equals-spacing.js",
+				"./rules/jsx-first-prop-new-line": "./dist/jsx-first-prop-new-line.js",
+				"./rules/jsx-indent": "./dist/jsx-indent.js",
+				"./rules/jsx-indent-props": "./dist/jsx-indent-props.js",
+				"./rules/jsx-max-props-per-line": "./dist/jsx-max-props-per-line.js",
+				"./rules/jsx-newline": "./dist/jsx-newline.js",
+				"./rules/jsx-one-expression-per-line": "./dist/jsx-one-expression-per-line.js",
+				"./rules/jsx-props-no-multi-spaces": "./dist/jsx-props-no-multi-spaces.js",
+				"./rules/jsx-self-closing-comp": "./dist/jsx-self-closing-comp.js",
+				"./rules/jsx-sort-props": "./dist/jsx-sort-props.js",
+				"./rules/jsx-tag-spacing": "./dist/jsx-tag-spacing.js",
+				"./rules/jsx-wrap-multilines": "./dist/jsx-wrap-multilines.js"
+			},
+			"main": "./dist/index.js",
+			"types": "./dts/index.d.ts",
+			"dependencies": {
+				"estraverse": "^5.3.0",
+				"@stylistic/eslint-plugin-js": "^1.1.0"
+			},
+			"devDependencies": {
+				"@babel/eslint-parser": "^7.22.15",
+				"@babel/plugin-syntax-decorators": "^7.22.10",
+				"@babel/plugin-syntax-do-expressions": "^7.22.5",
+				"@babel/plugin-syntax-function-bind": "^7.22.5",
+				"@babel/preset-react": "^7.22.15",
+				"@typescript-eslint/parser": "^6.10.0",
+				"babel-eslint": "^10.1.0",
+				"eslint": "^8.53.0",
+				"semver": "^7.5.4",
+				"typescript-eslint-parser": "^22.0.0"
+			},
+			"scripts": {
+				"build": "rimraf dist && rollup --config=rollup.config.mts --configPlugin=rollup-plugin-esbuild",
+				"dev": "rollup --config=rollup.config.mts --configPlugin=rollup-plugin-esbuild --watch"
+			},
+			"description": "JSX stylistic rules for ESLint, migrated from [`eslint-plugin-react`](https://github.com/jsx-eslint/eslint-plugin-react).",
+			"_id": "@stylistic/eslint-plugin-jsx@1.1.0",
+			"_integrity": "sha512-XMTAYQ9t7ZoWjqciqOy99O0sRCHh/6x/Q4Dm8sCVKzKlsnPzVlXzAD0htNqHG+Fu7qyGblDqb0/7PNJXBdQc5Q==",
+			"_resolved": "/private/var/folders/30/nymxcyb909ggq2j5lwn7b_600000gn/T/acd6d396ba6342e8c1757e97fc4d8344/stylistic-eslint-plugin-jsx-1.1.0.tgz",
+			"_from": "file:stylistic-eslint-plugin-jsx-1.1.0.tgz",
+			"_nodeVersion": "20.4.0",
+			"_npmVersion": "9.7.2",
+			"dist": {
+				"integrity": "sha512-XMTAYQ9t7ZoWjqciqOy99O0sRCHh/6x/Q4Dm8sCVKzKlsnPzVlXzAD0htNqHG+Fu7qyGblDqb0/7PNJXBdQc5Q==",
+				"shasum": "2d1c4f01a0e46ad08fe36d90b19cf64533122148",
+				"tarball": "https://registry.npmjs.org/@stylistic/eslint-plugin-jsx/-/eslint-plugin-jsx-1.1.0.tgz",
+				"fileCount": 80,
+				"unpackedSize": 284534,
+				"signatures": [
+					{
+						"keyid": "SHA256:jl3bwswu80PjjokCgh0o2w5c2U4LhQAE57gj9cz1kzA",
+						"sig": "MEQCIBZI8ECfPUDP6I+t/MiciqLa7BnH3zqdtB7YHJwe4cs2AiATJSRFT6JLQ25ZLjupJ1Pmf3MkjQCwuVoY8B5msrUTHQ=="
+					}
+				]
+			},
+			"_npmUser": {
+				"name": "antfu",
+				"email": "anthonyfu117@hotmail.com"
+			},
+			"directories": {},
+			"maintainers": [
+				{
+					"name": "antfu",
+					"email": "anthonyfu117@hotmail.com"
+				}
+			],
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/eslint-plugin-jsx_1.1.0_1699704637588_0.5555216631821718"
+			},
+			"_hasShrinkwrap": false,
+			"contributors": []
+		},
+		"1.2.0": {
+			"name": "@stylistic/eslint-plugin-jsx",
+			"version": "1.2.0",
+			"author": {
+				"name": "Anthony Fu",
+				"email": "anthonyfu117@hotmail.com"
+			},
+			"license": "MIT",
+			"homepage": "https://github.com/eslint-stylistic/eslint-stylistic#readme",
+			"repository": {
+				"directory": "packages/eslint-plugin-jsx",
+				"type": "git",
+				"url": "git+https://github.com/eslint-stylistic/eslint-stylistic.git"
+			},
+			"bugs": {
+				"url": "https://github.com/eslint-stylistic/eslint-stylistic/issues"
+			},
+			"exports": {
+				".": {
+					"types": "./dts/index.d.ts",
+					"require": "./dist/index.js",
+					"default": "./dist/index.js"
+				},
+				"./define-config-support": {
+					"types": "./dts/define-config-support.d.ts"
+				},
+				"./rule-options": {
+					"types": "./dts/rule-options.d.ts"
+				},
+				"./rules/jsx-child-element-spacing": "./dist/jsx-child-element-spacing.js",
+				"./rules/jsx-closing-bracket-location": "./dist/jsx-closing-bracket-location.js",
+				"./rules/jsx-closing-tag-location": "./dist/jsx-closing-tag-location.js",
+				"./rules/jsx-curly-brace-presence": "./dist/jsx-curly-brace-presence.js",
+				"./rules/jsx-curly-newline": "./dist/jsx-curly-newline.js",
+				"./rules/jsx-curly-spacing": "./dist/jsx-curly-spacing.js",
+				"./rules/jsx-equals-spacing": "./dist/jsx-equals-spacing.js",
+				"./rules/jsx-first-prop-new-line": "./dist/jsx-first-prop-new-line.js",
+				"./rules/jsx-indent": "./dist/jsx-indent.js",
+				"./rules/jsx-indent-props": "./dist/jsx-indent-props.js",
+				"./rules/jsx-max-props-per-line": "./dist/jsx-max-props-per-line.js",
+				"./rules/jsx-newline": "./dist/jsx-newline.js",
+				"./rules/jsx-one-expression-per-line": "./dist/jsx-one-expression-per-line.js",
+				"./rules/jsx-props-no-multi-spaces": "./dist/jsx-props-no-multi-spaces.js",
+				"./rules/jsx-self-closing-comp": "./dist/jsx-self-closing-comp.js",
+				"./rules/jsx-sort-props": "./dist/jsx-sort-props.js",
+				"./rules/jsx-tag-spacing": "./dist/jsx-tag-spacing.js",
+				"./rules/jsx-wrap-multilines": "./dist/jsx-wrap-multilines.js"
+			},
+			"main": "./dist/index.js",
+			"types": "./dts/index.d.ts",
+			"dependencies": {
+				"estraverse": "^5.3.0",
+				"@stylistic/eslint-plugin-js": "^1.2.0"
+			},
+			"devDependencies": {
+				"@babel/eslint-parser": "^7.22.15",
+				"@babel/plugin-syntax-decorators": "^7.22.10",
+				"@babel/plugin-syntax-do-expressions": "^7.22.5",
+				"@babel/plugin-syntax-function-bind": "^7.22.5",
+				"@babel/preset-react": "^7.22.15",
+				"@typescript-eslint/parser": "^6.10.0",
+				"babel-eslint": "^10.1.0",
+				"eslint": "^8.53.0",
+				"semver": "^7.5.4",
+				"typescript-eslint-parser": "^22.0.0"
+			},
+			"scripts": {
+				"build": "rimraf dist && rollup --config=rollup.config.mts --configPlugin=rollup-plugin-esbuild",
+				"dev": "rollup --config=rollup.config.mts --configPlugin=rollup-plugin-esbuild --watch"
+			},
+			"description": "JSX stylistic rules for ESLint, migrated from [`eslint-plugin-react`](https://github.com/jsx-eslint/eslint-plugin-react).",
+			"_id": "@stylistic/eslint-plugin-jsx@1.2.0",
+			"_integrity": "sha512-8YHFw8x6nObGtJSMrFt40+nth6fI1lLJASg12qB1nfeLQYEGlPv5UCOA0sysKATnQF12j6wVO68CdeEsp0RZgA==",
+			"_resolved": "/private/var/folders/30/nymxcyb909ggq2j5lwn7b_600000gn/T/af8c471385297822793af790d5cb02ce/stylistic-eslint-plugin-jsx-1.2.0.tgz",
+			"_from": "file:stylistic-eslint-plugin-jsx-1.2.0.tgz",
+			"_nodeVersion": "20.4.0",
+			"_npmVersion": "9.7.2",
+			"dist": {
+				"integrity": "sha512-8YHFw8x6nObGtJSMrFt40+nth6fI1lLJASg12qB1nfeLQYEGlPv5UCOA0sysKATnQF12j6wVO68CdeEsp0RZgA==",
+				"shasum": "7515729cb4a40bec29f832ff39ce07f4ceb53702",
+				"tarball": "https://registry.npmjs.org/@stylistic/eslint-plugin-jsx/-/eslint-plugin-jsx-1.2.0.tgz",
+				"fileCount": 81,
+				"unpackedSize": 254586,
+				"signatures": [
+					{
+						"keyid": "SHA256:jl3bwswu80PjjokCgh0o2w5c2U4LhQAE57gj9cz1kzA",
+						"sig": "MEYCIQCY1AL7wSjDMFqiVfPXnmZ8BequuXhDVkI5gIXmhN4/BwIhAPGoAqLsQPRnuADbbaa6qceg9hST5eMcKqd8Ne1GslHk"
+					}
+				]
+			},
+			"_npmUser": {
+				"name": "antfu",
+				"email": "anthonyfu117@hotmail.com"
+			},
+			"directories": {},
+			"maintainers": [
+				{
+					"name": "antfu",
+					"email": "anthonyfu117@hotmail.com"
+				}
+			],
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/eslint-plugin-jsx_1.2.0_1699891279108_0.7013119662708736"
+			},
+			"_hasShrinkwrap": false,
+			"contributors": []
+		},
+		"1.3.0": {
+			"name": "@stylistic/eslint-plugin-jsx",
+			"version": "1.3.0",
+			"author": {
+				"name": "Anthony Fu",
+				"email": "anthonyfu117@hotmail.com"
+			},
+			"license": "MIT",
+			"homepage": "https://github.com/eslint-stylistic/eslint-stylistic#readme",
+			"repository": {
+				"directory": "packages/eslint-plugin-jsx",
+				"type": "git",
+				"url": "git+https://github.com/eslint-stylistic/eslint-stylistic.git"
+			},
+			"bugs": {
+				"url": "https://github.com/eslint-stylistic/eslint-stylistic/issues"
+			},
+			"exports": {
+				".": {
+					"types": "./dts/index.d.ts",
+					"require": "./dist/index.js",
+					"default": "./dist/index.js"
+				},
+				"./define-config-support": {
+					"types": "./dts/define-config-support.d.ts"
+				},
+				"./rule-options": {
+					"types": "./dts/rule-options.d.ts"
+				},
+				"./rules/jsx-child-element-spacing": "./dist/jsx-child-element-spacing.js",
+				"./rules/jsx-closing-bracket-location": "./dist/jsx-closing-bracket-location.js",
+				"./rules/jsx-closing-tag-location": "./dist/jsx-closing-tag-location.js",
+				"./rules/jsx-curly-brace-presence": "./dist/jsx-curly-brace-presence.js",
+				"./rules/jsx-curly-newline": "./dist/jsx-curly-newline.js",
+				"./rules/jsx-curly-spacing": "./dist/jsx-curly-spacing.js",
+				"./rules/jsx-equals-spacing": "./dist/jsx-equals-spacing.js",
+				"./rules/jsx-first-prop-new-line": "./dist/jsx-first-prop-new-line.js",
+				"./rules/jsx-indent": "./dist/jsx-indent.js",
+				"./rules/jsx-indent-props": "./dist/jsx-indent-props.js",
+				"./rules/jsx-max-props-per-line": "./dist/jsx-max-props-per-line.js",
+				"./rules/jsx-newline": "./dist/jsx-newline.js",
+				"./rules/jsx-one-expression-per-line": "./dist/jsx-one-expression-per-line.js",
+				"./rules/jsx-props-no-multi-spaces": "./dist/jsx-props-no-multi-spaces.js",
+				"./rules/jsx-self-closing-comp": "./dist/jsx-self-closing-comp.js",
+				"./rules/jsx-sort-props": "./dist/jsx-sort-props.js",
+				"./rules/jsx-tag-spacing": "./dist/jsx-tag-spacing.js",
+				"./rules/jsx-wrap-multilines": "./dist/jsx-wrap-multilines.js"
+			},
+			"main": "./dist/index.js",
+			"types": "./dts/index.d.ts",
+			"dependencies": {
+				"estraverse": "^5.3.0",
+				"@stylistic/eslint-plugin-js": "^1.3.0"
+			},
+			"devDependencies": {
+				"@babel/eslint-parser": "^7.23.3",
+				"@babel/plugin-syntax-decorators": "^7.23.3",
+				"@babel/plugin-syntax-do-expressions": "^7.23.3",
+				"@babel/plugin-syntax-function-bind": "^7.23.3",
+				"@babel/preset-react": "^7.23.3",
+				"@typescript-eslint/parser": "^6.11.0",
+				"babel-eslint": "^10.1.0",
+				"eslint": "^8.53.0",
+				"semver": "^7.5.4",
+				"typescript-eslint-parser": "^22.0.0"
+			},
+			"scripts": {
+				"build": "rimraf dist && rollup --config=rollup.config.mts --configPlugin=rollup-plugin-esbuild",
+				"dev": "rollup --config=rollup.config.mts --configPlugin=rollup-plugin-esbuild --watch"
+			},
+			"description": "JSX stylistic rules for ESLint, migrated from [`eslint-plugin-react`](https://github.com/jsx-eslint/eslint-plugin-react).",
+			"_id": "@stylistic/eslint-plugin-jsx@1.3.0",
+			"_integrity": "sha512-YdVfdbE/WoJSb9X2wnUl1Sa14ev8QzDazRq7Ujq+04C/nrw9m1dM48Ba1RuIc++lnMXdaQbrqrzcj1Wl2AJgCw==",
+			"_resolved": "/private/var/folders/30/nymxcyb909ggq2j5lwn7b_600000gn/T/3e4afceee988874196c4557d8ee28ffa/stylistic-eslint-plugin-jsx-1.3.0.tgz",
+			"_from": "file:stylistic-eslint-plugin-jsx-1.3.0.tgz",
+			"_nodeVersion": "20.4.0",
+			"_npmVersion": "9.7.2",
+			"dist": {
+				"integrity": "sha512-YdVfdbE/WoJSb9X2wnUl1Sa14ev8QzDazRq7Ujq+04C/nrw9m1dM48Ba1RuIc++lnMXdaQbrqrzcj1Wl2AJgCw==",
+				"shasum": "a44010e89aca192df153fa094b2adf1e374abb84",
+				"tarball": "https://registry.npmjs.org/@stylistic/eslint-plugin-jsx/-/eslint-plugin-jsx-1.3.0.tgz",
+				"fileCount": 45,
+				"unpackedSize": 139402,
+				"signatures": [
+					{
+						"keyid": "SHA256:jl3bwswu80PjjokCgh0o2w5c2U4LhQAE57gj9cz1kzA",
+						"sig": "MEUCIBwz6YGvQPb830MnJ0tFQKWOBJjBidaXokdZ2GJ2uIXlAiEAn4NaQPiJL3swpcntbwvjfGwpFHvxwbRfEqBg3RM5nTQ="
+					}
+				]
+			},
+			"_npmUser": {
+				"name": "antfu",
+				"email": "anthonyfu117@hotmail.com"
+			},
+			"directories": {},
+			"maintainers": [
+				{
+					"name": "antfu",
+					"email": "anthonyfu117@hotmail.com"
+				}
+			],
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/eslint-plugin-jsx_1.3.0_1700193699367_0.66920446477771"
+			},
+			"_hasShrinkwrap": false,
+			"contributors": []
+		},
+		"1.3.1": {
+			"name": "@stylistic/eslint-plugin-jsx",
+			"version": "1.3.1",
+			"author": {
+				"name": "Anthony Fu",
+				"email": "anthonyfu117@hotmail.com"
+			},
+			"license": "MIT",
+			"homepage": "https://github.com/eslint-stylistic/eslint-stylistic#readme",
+			"repository": {
+				"directory": "packages/eslint-plugin-jsx",
+				"type": "git",
+				"url": "git+https://github.com/eslint-stylistic/eslint-stylistic.git"
+			},
+			"bugs": {
+				"url": "https://github.com/eslint-stylistic/eslint-stylistic/issues"
+			},
+			"exports": {
+				".": {
+					"types": "./dts/index.d.ts",
+					"require": "./dist/index.js",
+					"default": "./dist/index.js"
+				},
+				"./define-config-support": {
+					"types": "./dts/define-config-support.d.ts"
+				},
+				"./rule-options": {
+					"types": "./dts/rule-options.d.ts"
+				},
+				"./rules/jsx-child-element-spacing": "./dist/jsx-child-element-spacing.js",
+				"./rules/jsx-closing-bracket-location": "./dist/jsx-closing-bracket-location.js",
+				"./rules/jsx-closing-tag-location": "./dist/jsx-closing-tag-location.js",
+				"./rules/jsx-curly-brace-presence": "./dist/jsx-curly-brace-presence.js",
+				"./rules/jsx-curly-newline": "./dist/jsx-curly-newline.js",
+				"./rules/jsx-curly-spacing": "./dist/jsx-curly-spacing.js",
+				"./rules/jsx-equals-spacing": "./dist/jsx-equals-spacing.js",
+				"./rules/jsx-first-prop-new-line": "./dist/jsx-first-prop-new-line.js",
+				"./rules/jsx-indent": "./dist/jsx-indent.js",
+				"./rules/jsx-indent-props": "./dist/jsx-indent-props.js",
+				"./rules/jsx-max-props-per-line": "./dist/jsx-max-props-per-line.js",
+				"./rules/jsx-newline": "./dist/jsx-newline.js",
+				"./rules/jsx-one-expression-per-line": "./dist/jsx-one-expression-per-line.js",
+				"./rules/jsx-props-no-multi-spaces": "./dist/jsx-props-no-multi-spaces.js",
+				"./rules/jsx-self-closing-comp": "./dist/jsx-self-closing-comp.js",
+				"./rules/jsx-sort-props": "./dist/jsx-sort-props.js",
+				"./rules/jsx-tag-spacing": "./dist/jsx-tag-spacing.js",
+				"./rules/jsx-wrap-multilines": "./dist/jsx-wrap-multilines.js"
+			},
+			"main": "./dist/index.js",
+			"types": "./dts/index.d.ts",
+			"dependencies": {
+				"estraverse": "^5.3.0",
+				"@stylistic/eslint-plugin-js": "^1.3.1"
+			},
+			"devDependencies": {
+				"@babel/eslint-parser": "^7.23.3",
+				"@babel/plugin-syntax-decorators": "^7.23.3",
+				"@babel/plugin-syntax-do-expressions": "^7.23.3",
+				"@babel/plugin-syntax-function-bind": "^7.23.3",
+				"@babel/preset-react": "^7.23.3",
+				"@typescript-eslint/parser": "^6.11.0",
+				"babel-eslint": "^10.1.0",
+				"eslint": "^8.53.0",
+				"semver": "^7.5.4",
+				"typescript-eslint-parser": "^22.0.0"
+			},
+			"scripts": {
+				"build": "rimraf dist && rollup --config=rollup.config.mts --configPlugin=rollup-plugin-esbuild",
+				"dev": "rollup --config=rollup.config.mts --configPlugin=rollup-plugin-esbuild --watch"
+			},
+			"description": "JSX stylistic rules for ESLint, migrated from [`eslint-plugin-react`](https://github.com/jsx-eslint/eslint-plugin-react).",
+			"_id": "@stylistic/eslint-plugin-jsx@1.3.1",
+			"_integrity": "sha512-yq+sQHsYm6IaBsER7k2bEjdHGMGJhq4RdC1OUMPreyYz9hrPO5JMn2yyeHz4dPRvmmBguTBsrLfmrKPIZdGN6A==",
+			"_resolved": "/private/var/folders/30/nymxcyb909ggq2j5lwn7b_600000gn/T/f77813ebd6612beda5adc8728c721db9/stylistic-eslint-plugin-jsx-1.3.1.tgz",
+			"_from": "file:stylistic-eslint-plugin-jsx-1.3.1.tgz",
+			"_nodeVersion": "20.4.0",
+			"_npmVersion": "9.7.2",
+			"dist": {
+				"integrity": "sha512-yq+sQHsYm6IaBsER7k2bEjdHGMGJhq4RdC1OUMPreyYz9hrPO5JMn2yyeHz4dPRvmmBguTBsrLfmrKPIZdGN6A==",
+				"shasum": "252db3fd6206de47d76e45ecb7c92f30d1b0ed2a",
+				"tarball": "https://registry.npmjs.org/@stylistic/eslint-plugin-jsx/-/eslint-plugin-jsx-1.3.1.tgz",
+				"fileCount": 45,
+				"unpackedSize": 139402,
+				"signatures": [
+					{
+						"keyid": "SHA256:jl3bwswu80PjjokCgh0o2w5c2U4LhQAE57gj9cz1kzA",
+						"sig": "MEYCIQDa6imDWBo3SmSUBSZr2hQ7FJZS35MrL6QmjOYEedYMAQIhAMViee5C7/Vb6+iQsFnZEVonR93itQf7kTvE1W2M6KE5"
+					}
+				]
+			},
+			"_npmUser": {
+				"name": "antfu",
+				"email": "anthonyfu117@hotmail.com"
+			},
+			"directories": {},
+			"maintainers": [
+				{
+					"name": "antfu",
+					"email": "anthonyfu117@hotmail.com"
+				}
+			],
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/eslint-plugin-jsx_1.3.1_1700194771325_0.33672379315178813"
+			},
+			"_hasShrinkwrap": false,
+			"contributors": []
+		},
+		"1.3.2": {
+			"name": "@stylistic/eslint-plugin-jsx",
+			"version": "1.3.2",
+			"author": {
+				"name": "Anthony Fu",
+				"email": "anthonyfu117@hotmail.com"
+			},
+			"license": "MIT",
+			"homepage": "https://github.com/eslint-stylistic/eslint-stylistic#readme",
+			"repository": {
+				"directory": "packages/eslint-plugin-jsx",
+				"type": "git",
+				"url": "git+https://github.com/eslint-stylistic/eslint-stylistic.git"
+			},
+			"bugs": {
+				"url": "https://github.com/eslint-stylistic/eslint-stylistic/issues"
+			},
+			"exports": {
+				".": {
+					"types": "./dts/index.d.ts",
+					"require": "./dist/index.js",
+					"default": "./dist/index.js"
+				},
+				"./define-config-support": {
+					"types": "./dts/define-config-support.d.ts"
+				},
+				"./rule-options": {
+					"types": "./dts/rule-options.d.ts"
+				},
+				"./rules/jsx-child-element-spacing": "./dist/jsx-child-element-spacing.js",
+				"./rules/jsx-closing-bracket-location": "./dist/jsx-closing-bracket-location.js",
+				"./rules/jsx-closing-tag-location": "./dist/jsx-closing-tag-location.js",
+				"./rules/jsx-curly-brace-presence": "./dist/jsx-curly-brace-presence.js",
+				"./rules/jsx-curly-newline": "./dist/jsx-curly-newline.js",
+				"./rules/jsx-curly-spacing": "./dist/jsx-curly-spacing.js",
+				"./rules/jsx-equals-spacing": "./dist/jsx-equals-spacing.js",
+				"./rules/jsx-first-prop-new-line": "./dist/jsx-first-prop-new-line.js",
+				"./rules/jsx-indent": "./dist/jsx-indent.js",
+				"./rules/jsx-indent-props": "./dist/jsx-indent-props.js",
+				"./rules/jsx-max-props-per-line": "./dist/jsx-max-props-per-line.js",
+				"./rules/jsx-newline": "./dist/jsx-newline.js",
+				"./rules/jsx-one-expression-per-line": "./dist/jsx-one-expression-per-line.js",
+				"./rules/jsx-props-no-multi-spaces": "./dist/jsx-props-no-multi-spaces.js",
+				"./rules/jsx-self-closing-comp": "./dist/jsx-self-closing-comp.js",
+				"./rules/jsx-sort-props": "./dist/jsx-sort-props.js",
+				"./rules/jsx-tag-spacing": "./dist/jsx-tag-spacing.js",
+				"./rules/jsx-wrap-multilines": "./dist/jsx-wrap-multilines.js"
+			},
+			"main": "./dist/index.js",
+			"types": "./dts/index.d.ts",
+			"dependencies": {
+				"estraverse": "^5.3.0",
+				"@stylistic/eslint-plugin-js": "^1.3.2"
+			},
+			"devDependencies": {
+				"@babel/eslint-parser": "^7.23.3",
+				"@babel/plugin-syntax-decorators": "^7.23.3",
+				"@babel/plugin-syntax-do-expressions": "^7.23.3",
+				"@babel/plugin-syntax-function-bind": "^7.23.3",
+				"@babel/preset-react": "^7.23.3",
+				"@typescript-eslint/parser": "^6.11.0",
+				"babel-eslint": "^10.1.0",
+				"eslint": "^8.53.0",
+				"semver": "^7.5.4",
+				"typescript-eslint-parser": "^22.0.0"
+			},
+			"scripts": {
+				"build": "rimraf dist && rollup --config=rollup.config.mts --configPlugin=rollup-plugin-esbuild",
+				"dev": "rollup --config=rollup.config.mts --configPlugin=rollup-plugin-esbuild --watch"
+			},
+			"description": "JSX stylistic rules for ESLint, migrated from [`eslint-plugin-react`](https://github.com/jsx-eslint/eslint-plugin-react).",
+			"_id": "@stylistic/eslint-plugin-jsx@1.3.2",
+			"_integrity": "sha512-gLkdAAEZeWYTgf/Bxq2mJp/Hyd+xR9ZXDcQXF07l1GeMU08KunWrEpzBzdEwUZjStr6J6SROOiQPw3U2Jm5BfQ==",
+			"_resolved": "/private/var/folders/30/nymxcyb909ggq2j5lwn7b_600000gn/T/50c8c4616982b819baa5ba9ce61547d0/stylistic-eslint-plugin-jsx-1.3.2.tgz",
+			"_from": "file:stylistic-eslint-plugin-jsx-1.3.2.tgz",
+			"_nodeVersion": "20.4.0",
+			"_npmVersion": "9.7.2",
+			"dist": {
+				"integrity": "sha512-gLkdAAEZeWYTgf/Bxq2mJp/Hyd+xR9ZXDcQXF07l1GeMU08KunWrEpzBzdEwUZjStr6J6SROOiQPw3U2Jm5BfQ==",
+				"shasum": "ad202be2c792463f3188197b13c0b7c4f38ae399",
+				"tarball": "https://registry.npmjs.org/@stylistic/eslint-plugin-jsx/-/eslint-plugin-jsx-1.3.2.tgz",
+				"fileCount": 45,
+				"unpackedSize": 139402,
+				"signatures": [
+					{
+						"keyid": "SHA256:jl3bwswu80PjjokCgh0o2w5c2U4LhQAE57gj9cz1kzA",
+						"sig": "MEUCIGr5CHLIa44lvb4kE+OH7IrC1GlkxlrpQ4IJ8x4VSM4dAiEA21BUxDB4kefN/HaBWTavh2/VioUk3oF86Zou8o6p94U="
+					}
+				]
+			},
+			"_npmUser": {
+				"name": "antfu",
+				"email": "anthonyfu117@hotmail.com"
+			},
+			"directories": {},
+			"maintainers": [
+				{
+					"name": "antfu",
+					"email": "anthonyfu117@hotmail.com"
+				}
+			],
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/eslint-plugin-jsx_1.3.2_1700227915829_0.11414424833384529"
+			},
+			"_hasShrinkwrap": false,
+			"contributors": []
+		},
+		"1.3.3": {
+			"name": "@stylistic/eslint-plugin-jsx",
+			"version": "1.3.3",
+			"author": {
+				"name": "Anthony Fu",
+				"email": "anthonyfu117@hotmail.com"
+			},
+			"license": "MIT",
+			"homepage": "https://github.com/eslint-stylistic/eslint-stylistic#readme",
+			"repository": {
+				"directory": "packages/eslint-plugin-jsx",
+				"type": "git",
+				"url": "git+https://github.com/eslint-stylistic/eslint-stylistic.git"
+			},
+			"bugs": {
+				"url": "https://github.com/eslint-stylistic/eslint-stylistic/issues"
+			},
+			"exports": {
+				".": {
+					"types": "./dts/index.d.ts",
+					"require": "./dist/index.js",
+					"default": "./dist/index.js"
+				},
+				"./define-config-support": {
+					"types": "./dts/define-config-support.d.ts"
+				},
+				"./rule-options": {
+					"types": "./dts/rule-options.d.ts"
+				},
+				"./rules/jsx-child-element-spacing": "./dist/jsx-child-element-spacing.js",
+				"./rules/jsx-closing-bracket-location": "./dist/jsx-closing-bracket-location.js",
+				"./rules/jsx-closing-tag-location": "./dist/jsx-closing-tag-location.js",
+				"./rules/jsx-curly-brace-presence": "./dist/jsx-curly-brace-presence.js",
+				"./rules/jsx-curly-newline": "./dist/jsx-curly-newline.js",
+				"./rules/jsx-curly-spacing": "./dist/jsx-curly-spacing.js",
+				"./rules/jsx-equals-spacing": "./dist/jsx-equals-spacing.js",
+				"./rules/jsx-first-prop-new-line": "./dist/jsx-first-prop-new-line.js",
+				"./rules/jsx-indent": "./dist/jsx-indent.js",
+				"./rules/jsx-indent-props": "./dist/jsx-indent-props.js",
+				"./rules/jsx-max-props-per-line": "./dist/jsx-max-props-per-line.js",
+				"./rules/jsx-newline": "./dist/jsx-newline.js",
+				"./rules/jsx-one-expression-per-line": "./dist/jsx-one-expression-per-line.js",
+				"./rules/jsx-props-no-multi-spaces": "./dist/jsx-props-no-multi-spaces.js",
+				"./rules/jsx-self-closing-comp": "./dist/jsx-self-closing-comp.js",
+				"./rules/jsx-sort-props": "./dist/jsx-sort-props.js",
+				"./rules/jsx-tag-spacing": "./dist/jsx-tag-spacing.js",
+				"./rules/jsx-wrap-multilines": "./dist/jsx-wrap-multilines.js"
+			},
+			"main": "./dist/index.js",
+			"types": "./dts/index.d.ts",
+			"dependencies": {
+				"estraverse": "^5.3.0",
+				"@stylistic/eslint-plugin-js": "^1.3.3"
+			},
+			"devDependencies": {
+				"@babel/eslint-parser": "^7.23.3",
+				"@babel/plugin-syntax-decorators": "^7.23.3",
+				"@babel/plugin-syntax-do-expressions": "^7.23.3",
+				"@babel/plugin-syntax-function-bind": "^7.23.3",
+				"@babel/preset-react": "^7.23.3",
+				"@typescript-eslint/parser": "^6.11.0",
+				"babel-eslint": "^10.1.0",
+				"eslint": "^8.53.0",
+				"semver": "^7.5.4",
+				"typescript-eslint-parser": "^22.0.0"
+			},
+			"scripts": {
+				"build": "rimraf dist && rollup --config=rollup.config.mts --configPlugin=rollup-plugin-esbuild",
+				"dev": "rollup --config=rollup.config.mts --configPlugin=rollup-plugin-esbuild --watch"
+			},
+			"description": "JSX stylistic rules for ESLint, migrated from [`eslint-plugin-react`](https://github.com/jsx-eslint/eslint-plugin-react).",
+			"_id": "@stylistic/eslint-plugin-jsx@1.3.3",
+			"_integrity": "sha512-L/uM6wNc6tu2a41wRNTUODHz8ogj8mxuB0Q+ScD6/o7JN5fDkrPyUtgvLx36bjlW4qDTmHLI4Hijxw98tw9Upw==",
+			"_resolved": "/private/var/folders/30/nymxcyb909ggq2j5lwn7b_600000gn/T/55701b9ec6675ea20279434f24dfcea4/stylistic-eslint-plugin-jsx-1.3.3.tgz",
+			"_from": "file:stylistic-eslint-plugin-jsx-1.3.3.tgz",
+			"_nodeVersion": "20.4.0",
+			"_npmVersion": "9.7.2",
+			"dist": {
+				"integrity": "sha512-L/uM6wNc6tu2a41wRNTUODHz8ogj8mxuB0Q+ScD6/o7JN5fDkrPyUtgvLx36bjlW4qDTmHLI4Hijxw98tw9Upw==",
+				"shasum": "9bd9a50e957c9392f84a402b6c3c96300f3d45b5",
+				"tarball": "https://registry.npmjs.org/@stylistic/eslint-plugin-jsx/-/eslint-plugin-jsx-1.3.3.tgz",
+				"fileCount": 45,
+				"unpackedSize": 139402,
+				"signatures": [
+					{
+						"keyid": "SHA256:jl3bwswu80PjjokCgh0o2w5c2U4LhQAE57gj9cz1kzA",
+						"sig": "MEQCIFqTf001hyGrGV3YNxNNC0LIjVQ6LKeHfBbCM/tdrdCTAiB6GfukVmJl0a2414wdYqiZbt0mw48M04cPHjvMgDhbYw=="
+					}
+				]
+			},
+			"_npmUser": {
+				"name": "antfu",
+				"email": "anthonyfu117@hotmail.com"
+			},
+			"directories": {},
+			"maintainers": [
+				{
+					"name": "antfu",
+					"email": "anthonyfu117@hotmail.com"
+				}
+			],
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/eslint-plugin-jsx_1.3.3_1700263692120_0.5945353294029077"
+			},
+			"_hasShrinkwrap": false,
+			"contributors": []
+		},
+		"1.4.0": {
+			"name": "@stylistic/eslint-plugin-jsx",
+			"version": "1.4.0",
+			"author": {
+				"name": "Anthony Fu",
+				"email": "anthonyfu117@hotmail.com"
+			},
+			"license": "MIT",
+			"homepage": "https://github.com/eslint-stylistic/eslint-stylistic#readme",
+			"repository": {
+				"directory": "packages/eslint-plugin-jsx",
+				"type": "git",
+				"url": "git+https://github.com/eslint-stylistic/eslint-stylistic.git"
+			},
+			"bugs": {
+				"url": "https://github.com/eslint-stylistic/eslint-stylistic/issues"
+			},
+			"exports": {
+				".": {
+					"types": "./dts/index.d.ts",
+					"require": "./dist/index.js",
+					"default": "./dist/index.js"
+				},
+				"./define-config-support": {
+					"types": "./dts/define-config-support.d.ts"
+				},
+				"./rule-options": {
+					"types": "./dts/rule-options.d.ts"
+				},
+				"./rules/jsx-child-element-spacing": "./dist/jsx-child-element-spacing.js",
+				"./rules/jsx-closing-bracket-location": "./dist/jsx-closing-bracket-location.js",
+				"./rules/jsx-closing-tag-location": "./dist/jsx-closing-tag-location.js",
+				"./rules/jsx-curly-brace-presence": "./dist/jsx-curly-brace-presence.js",
+				"./rules/jsx-curly-newline": "./dist/jsx-curly-newline.js",
+				"./rules/jsx-curly-spacing": "./dist/jsx-curly-spacing.js",
+				"./rules/jsx-equals-spacing": "./dist/jsx-equals-spacing.js",
+				"./rules/jsx-first-prop-new-line": "./dist/jsx-first-prop-new-line.js",
+				"./rules/jsx-indent": "./dist/jsx-indent.js",
+				"./rules/jsx-indent-props": "./dist/jsx-indent-props.js",
+				"./rules/jsx-max-props-per-line": "./dist/jsx-max-props-per-line.js",
+				"./rules/jsx-newline": "./dist/jsx-newline.js",
+				"./rules/jsx-one-expression-per-line": "./dist/jsx-one-expression-per-line.js",
+				"./rules/jsx-props-no-multi-spaces": "./dist/jsx-props-no-multi-spaces.js",
+				"./rules/jsx-self-closing-comp": "./dist/jsx-self-closing-comp.js",
+				"./rules/jsx-sort-props": "./dist/jsx-sort-props.js",
+				"./rules/jsx-tag-spacing": "./dist/jsx-tag-spacing.js",
+				"./rules/jsx-wrap-multilines": "./dist/jsx-wrap-multilines.js"
+			},
+			"main": "./dist/index.js",
+			"types": "./dts/index.d.ts",
+			"dependencies": {
+				"estraverse": "^5.3.0",
+				"@stylistic/eslint-plugin-js": "^1.4.0"
+			},
+			"devDependencies": {
+				"@babel/eslint-parser": "^7.23.3",
+				"@babel/plugin-syntax-decorators": "^7.23.3",
+				"@babel/plugin-syntax-do-expressions": "^7.23.3",
+				"@babel/plugin-syntax-function-bind": "^7.23.3",
+				"@babel/preset-react": "^7.23.3",
+				"@typescript-eslint/parser": "^6.11.0",
+				"babel-eslint": "^10.1.0",
+				"eslint": "^8.53.0",
+				"semver": "^7.5.4",
+				"typescript-eslint-parser": "^22.0.0"
+			},
+			"scripts": {
+				"build": "rimraf dist && rollup --config=rollup.config.mts --configPlugin=rollup-plugin-esbuild",
+				"dev": "rollup --config=rollup.config.mts --configPlugin=rollup-plugin-esbuild --watch"
+			},
+			"description": "JSX stylistic rules for ESLint, migrated from [`eslint-plugin-react`](https://github.com/jsx-eslint/eslint-plugin-react).",
+			"_id": "@stylistic/eslint-plugin-jsx@1.4.0",
+			"_integrity": "sha512-MB5MW8HnRm0nAeUpgVzr4NOzLtxWYBIBtW9iDXopykl1ZJOm/0LlSFlsw9wsXd4Zqarkow6IrV18HcZ0Hc06yQ==",
+			"_resolved": "/private/var/folders/30/nymxcyb909ggq2j5lwn7b_600000gn/T/81fd2880cc4aad60c80d6ca32af1d148/stylistic-eslint-plugin-jsx-1.4.0.tgz",
+			"_from": "file:stylistic-eslint-plugin-jsx-1.4.0.tgz",
+			"_nodeVersion": "20.4.0",
+			"_npmVersion": "9.7.2",
+			"dist": {
+				"integrity": "sha512-MB5MW8HnRm0nAeUpgVzr4NOzLtxWYBIBtW9iDXopykl1ZJOm/0LlSFlsw9wsXd4Zqarkow6IrV18HcZ0Hc06yQ==",
+				"shasum": "82c7c1a81b0b67c787e28e8c135052bc2f089fd7",
+				"tarball": "https://registry.npmjs.org/@stylistic/eslint-plugin-jsx/-/eslint-plugin-jsx-1.4.0.tgz",
+				"fileCount": 45,
+				"unpackedSize": 140955,
+				"signatures": [
+					{
+						"keyid": "SHA256:jl3bwswu80PjjokCgh0o2w5c2U4LhQAE57gj9cz1kzA",
+						"sig": "MEQCIGwZ+ceYFbk2ZzekBAMZgMwbDW79yGjIGR4UwS6WTDpCAiBCMoIERTO7ZFtcneQGh+v6T6htgHtAM7Pddw+EBwbgMA=="
+					}
+				]
+			},
+			"_npmUser": {
+				"name": "antfu",
+				"email": "anthonyfu117@hotmail.com"
+			},
+			"directories": {},
+			"maintainers": [
+				{
+					"name": "antfu",
+					"email": "anthonyfu117@hotmail.com"
+				}
+			],
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/eslint-plugin-jsx_1.4.0_1700326099598_0.7939231376836242"
+			},
+			"_hasShrinkwrap": false,
+			"contributors": []
+		},
+		"1.4.1": {
+			"name": "@stylistic/eslint-plugin-jsx",
+			"version": "1.4.1",
+			"author": {
+				"name": "Anthony Fu",
+				"email": "anthonyfu117@hotmail.com"
+			},
+			"license": "MIT",
+			"homepage": "https://github.com/eslint-stylistic/eslint-stylistic#readme",
+			"repository": {
+				"directory": "packages/eslint-plugin-jsx",
+				"type": "git",
+				"url": "git+https://github.com/eslint-stylistic/eslint-stylistic.git"
+			},
+			"bugs": {
+				"url": "https://github.com/eslint-stylistic/eslint-stylistic/issues"
+			},
+			"exports": {
+				".": {
+					"types": "./dts/index.d.ts",
+					"require": "./dist/index.js",
+					"default": "./dist/index.js"
+				},
+				"./define-config-support": {
+					"types": "./dts/define-config-support.d.ts"
+				},
+				"./rule-options": {
+					"types": "./dts/rule-options.d.ts"
+				},
+				"./rules/jsx-child-element-spacing": "./dist/jsx-child-element-spacing.js",
+				"./rules/jsx-closing-bracket-location": "./dist/jsx-closing-bracket-location.js",
+				"./rules/jsx-closing-tag-location": "./dist/jsx-closing-tag-location.js",
+				"./rules/jsx-curly-brace-presence": "./dist/jsx-curly-brace-presence.js",
+				"./rules/jsx-curly-newline": "./dist/jsx-curly-newline.js",
+				"./rules/jsx-curly-spacing": "./dist/jsx-curly-spacing.js",
+				"./rules/jsx-equals-spacing": "./dist/jsx-equals-spacing.js",
+				"./rules/jsx-first-prop-new-line": "./dist/jsx-first-prop-new-line.js",
+				"./rules/jsx-indent": "./dist/jsx-indent.js",
+				"./rules/jsx-indent-props": "./dist/jsx-indent-props.js",
+				"./rules/jsx-max-props-per-line": "./dist/jsx-max-props-per-line.js",
+				"./rules/jsx-newline": "./dist/jsx-newline.js",
+				"./rules/jsx-one-expression-per-line": "./dist/jsx-one-expression-per-line.js",
+				"./rules/jsx-props-no-multi-spaces": "./dist/jsx-props-no-multi-spaces.js",
+				"./rules/jsx-self-closing-comp": "./dist/jsx-self-closing-comp.js",
+				"./rules/jsx-sort-props": "./dist/jsx-sort-props.js",
+				"./rules/jsx-tag-spacing": "./dist/jsx-tag-spacing.js",
+				"./rules/jsx-wrap-multilines": "./dist/jsx-wrap-multilines.js"
+			},
+			"main": "./dist/index.js",
+			"types": "./dts/index.d.ts",
+			"engines": {
+				"node": "^16.0.0 || >=18.0.0"
+			},
+			"peerDependencies": {
+				"eslint": ">=8.40.0"
+			},
+			"dependencies": {
+				"estraverse": "^5.3.0",
+				"@stylistic/eslint-plugin-js": "^1.4.1"
+			},
+			"devDependencies": {
+				"@babel/eslint-parser": "^7.23.3",
+				"@babel/plugin-syntax-decorators": "^7.23.3",
+				"@babel/plugin-syntax-do-expressions": "^7.23.3",
+				"@babel/plugin-syntax-function-bind": "^7.23.3",
+				"@babel/preset-react": "^7.23.3",
+				"@typescript-eslint/parser": "^6.11.0",
+				"babel-eslint": "^10.1.0",
+				"eslint": "^8.53.0",
+				"semver": "^7.5.4",
+				"typescript-eslint-parser": "^22.0.0"
+			},
+			"scripts": {
+				"build": "rimraf dist && rollup --config=rollup.config.mts --configPlugin=rollup-plugin-esbuild",
+				"dev": "rollup --config=rollup.config.mts --configPlugin=rollup-plugin-esbuild --watch"
+			},
+			"description": "JSX stylistic rules for ESLint, migrated from [`eslint-plugin-react`](https://github.com/jsx-eslint/eslint-plugin-react).",
+			"_id": "@stylistic/eslint-plugin-jsx@1.4.1",
+			"_integrity": "sha512-INBYpZmXrkeqnjCrUuTKMa7BeXiCR5VNvq71033hbPqXnG9oQDxX5mqE9Duj9qlISEOsxzhSr+UXGmq3mVYG9Q==",
+			"_resolved": "/private/var/folders/30/nymxcyb909ggq2j5lwn7b_600000gn/T/8c426288dbb853e9fa8c82f6e0c33de9/stylistic-eslint-plugin-jsx-1.4.1.tgz",
+			"_from": "file:stylistic-eslint-plugin-jsx-1.4.1.tgz",
+			"_nodeVersion": "20.4.0",
+			"_npmVersion": "9.7.2",
+			"dist": {
+				"integrity": "sha512-INBYpZmXrkeqnjCrUuTKMa7BeXiCR5VNvq71033hbPqXnG9oQDxX5mqE9Duj9qlISEOsxzhSr+UXGmq3mVYG9Q==",
+				"shasum": "b25ab2f2fc1d35d25c3989c158846a1a493f213e",
+				"tarball": "https://registry.npmjs.org/@stylistic/eslint-plugin-jsx/-/eslint-plugin-jsx-1.4.1.tgz",
+				"fileCount": 45,
+				"unpackedSize": 141063,
+				"signatures": [
+					{
+						"keyid": "SHA256:jl3bwswu80PjjokCgh0o2w5c2U4LhQAE57gj9cz1kzA",
+						"sig": "MEQCIEdmbay7yQTN35ZXN2GngWE1OBMaQagv3dO9h5t1R2eiAiBnwjA5pvK+iXv3nU8XEF0UD1FVtOXmNd1vd6O3ll+zLQ=="
+					}
+				]
+			},
+			"_npmUser": {
+				"name": "antfu",
+				"email": "anthonyfu117@hotmail.com"
+			},
+			"directories": {},
+			"maintainers": [
+				{
+					"name": "antfu",
+					"email": "anthonyfu117@hotmail.com"
+				}
+			],
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/eslint-plugin-jsx_1.4.1_1700738400954_0.49694378997675903"
+			},
+			"_hasShrinkwrap": false,
+			"contributors": []
+		},
+		"1.5.0-beta.0": {
+			"name": "@stylistic/eslint-plugin-jsx",
+			"version": "1.5.0-beta.0",
+			"author": {
+				"name": "Anthony Fu",
+				"email": "anthonyfu117@hotmail.com"
+			},
+			"license": "MIT",
+			"homepage": "https://github.com/eslint-stylistic/eslint-stylistic#readme",
+			"repository": {
+				"directory": "packages/eslint-plugin-jsx",
+				"type": "git",
+				"url": "git+https://github.com/eslint-stylistic/eslint-stylistic.git"
+			},
+			"bugs": {
+				"url": "https://github.com/eslint-stylistic/eslint-stylistic/issues"
+			},
+			"exports": {
+				".": {
+					"types": "./dts/index.d.ts",
+					"require": "./dist/index.js",
+					"default": "./dist/index.js"
+				},
+				"./define-config-support": {
+					"types": "./dts/define-config-support.d.ts"
+				},
+				"./rule-options": {
+					"types": "./dts/rule-options.d.ts"
+				},
+				"./rules/jsx-child-element-spacing": "./dist/jsx-child-element-spacing.js",
+				"./rules/jsx-closing-bracket-location": "./dist/jsx-closing-bracket-location.js",
+				"./rules/jsx-closing-tag-location": "./dist/jsx-closing-tag-location.js",
+				"./rules/jsx-curly-brace-presence": "./dist/jsx-curly-brace-presence.js",
+				"./rules/jsx-curly-newline": "./dist/jsx-curly-newline.js",
+				"./rules/jsx-curly-spacing": "./dist/jsx-curly-spacing.js",
+				"./rules/jsx-equals-spacing": "./dist/jsx-equals-spacing.js",
+				"./rules/jsx-first-prop-new-line": "./dist/jsx-first-prop-new-line.js",
+				"./rules/jsx-indent": "./dist/jsx-indent.js",
+				"./rules/jsx-indent-props": "./dist/jsx-indent-props.js",
+				"./rules/jsx-max-props-per-line": "./dist/jsx-max-props-per-line.js",
+				"./rules/jsx-newline": "./dist/jsx-newline.js",
+				"./rules/jsx-one-expression-per-line": "./dist/jsx-one-expression-per-line.js",
+				"./rules/jsx-props-no-multi-spaces": "./dist/jsx-props-no-multi-spaces.js",
+				"./rules/jsx-self-closing-comp": "./dist/jsx-self-closing-comp.js",
+				"./rules/jsx-sort-props": "./dist/jsx-sort-props.js",
+				"./rules/jsx-tag-spacing": "./dist/jsx-tag-spacing.js",
+				"./rules/jsx-wrap-multilines": "./dist/jsx-wrap-multilines.js"
+			},
+			"main": "./dist/index.js",
+			"types": "./dts/index.d.ts",
+			"engines": {
+				"node": "^16.0.0 || >=18.0.0"
+			},
+			"peerDependencies": {
+				"eslint": ">=8.40.0"
+			},
+			"dependencies": {
+				"estraverse": "^5.3.0",
+				"@stylistic/eslint-plugin-js": "^1.5.0-beta.0"
+			},
+			"devDependencies": {
+				"@babel/eslint-parser": "^7.23.3",
+				"@babel/plugin-syntax-decorators": "^7.23.3",
+				"@babel/plugin-syntax-do-expressions": "^7.23.3",
+				"@babel/plugin-syntax-function-bind": "^7.23.3",
+				"@babel/preset-react": "^7.23.3",
+				"@typescript-eslint/parser": "^6.13.1",
+				"babel-eslint": "^10.1.0",
+				"eslint": "^8.55.0",
+				"semver": "^7.5.4",
+				"typescript-eslint-parser": "^22.0.0"
+			},
+			"scripts": {
+				"build": "rimraf dist && rollup --config=rollup.config.mts --configPlugin=rollup-plugin-esbuild",
+				"dev": "rollup --config=rollup.config.mts --configPlugin=rollup-plugin-esbuild --watch"
+			},
+			"readmeFilename": "README.md",
+			"description": "JSX stylistic rules for ESLint, migrated from [`eslint-plugin-react`](https://github.com/jsx-eslint/eslint-plugin-react).",
+			"_id": "@stylistic/eslint-plugin-jsx@1.5.0-beta.0",
+			"_integrity": "sha512-CxlF+DNMJhgG4aFiRT5aW25vPDgPhYbDVCKS61OGYCfZkVypp1v5j9ZGQMvHXhFYYk9qPG0uYlM877ChUc4T1g==",
+			"_resolved": "/private/var/folders/30/nymxcyb909ggq2j5lwn7b_600000gn/T/2ff490128de9bfeb8a95fffac6b81eb6/stylistic-eslint-plugin-jsx-1.5.0-beta.0.tgz",
+			"_from": "file:stylistic-eslint-plugin-jsx-1.5.0-beta.0.tgz",
+			"_nodeVersion": "20.4.0",
+			"_npmVersion": "9.7.2",
+			"dist": {
+				"integrity": "sha512-CxlF+DNMJhgG4aFiRT5aW25vPDgPhYbDVCKS61OGYCfZkVypp1v5j9ZGQMvHXhFYYk9qPG0uYlM877ChUc4T1g==",
+				"shasum": "9e972efb8cba57afc30f01879c7c5f425d08b2ac",
+				"tarball": "https://registry.npmjs.org/@stylistic/eslint-plugin-jsx/-/eslint-plugin-jsx-1.5.0-beta.0.tgz",
+				"fileCount": 45,
+				"unpackedSize": 141311,
+				"signatures": [
+					{
+						"keyid": "SHA256:jl3bwswu80PjjokCgh0o2w5c2U4LhQAE57gj9cz1kzA",
+						"sig": "MEQCIEfjOaw3CAQOl+l/vLomFsr8R1V20A85EcBXWtzNwBaSAiAjEj0tzqTmcLTnRJLIPvMAaU79RunhImDglA3go/cDBA=="
+					}
+				]
+			},
+			"_npmUser": {
+				"name": "antfu",
+				"email": "anthonyfu117@hotmail.com"
+			},
+			"directories": {},
+			"maintainers": [
+				{
+					"name": "antfu",
+					"email": "anthonyfu117@hotmail.com"
+				}
+			],
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/eslint-plugin-jsx_1.5.0-beta.0_1701616685196_0.021527592513859828"
+			},
+			"_hasShrinkwrap": false,
+			"contributors": []
+		},
+		"1.5.0": {
+			"name": "@stylistic/eslint-plugin-jsx",
+			"version": "1.5.0",
+			"author": {
+				"name": "Anthony Fu",
+				"email": "anthonyfu117@hotmail.com"
+			},
+			"license": "MIT",
+			"homepage": "https://github.com/eslint-stylistic/eslint-stylistic#readme",
+			"repository": {
+				"directory": "packages/eslint-plugin-jsx",
+				"type": "git",
+				"url": "git+https://github.com/eslint-stylistic/eslint-stylistic.git"
+			},
+			"bugs": {
+				"url": "https://github.com/eslint-stylistic/eslint-stylistic/issues"
+			},
+			"exports": {
+				".": {
+					"types": "./dts/index.d.ts",
+					"require": "./dist/index.js",
+					"default": "./dist/index.js"
+				},
+				"./define-config-support": {
+					"types": "./dts/define-config-support.d.ts"
+				},
+				"./rule-options": {
+					"types": "./dts/rule-options.d.ts"
+				},
+				"./rules/jsx-child-element-spacing": "./dist/jsx-child-element-spacing.js",
+				"./rules/jsx-closing-bracket-location": "./dist/jsx-closing-bracket-location.js",
+				"./rules/jsx-closing-tag-location": "./dist/jsx-closing-tag-location.js",
+				"./rules/jsx-curly-brace-presence": "./dist/jsx-curly-brace-presence.js",
+				"./rules/jsx-curly-newline": "./dist/jsx-curly-newline.js",
+				"./rules/jsx-curly-spacing": "./dist/jsx-curly-spacing.js",
+				"./rules/jsx-equals-spacing": "./dist/jsx-equals-spacing.js",
+				"./rules/jsx-first-prop-new-line": "./dist/jsx-first-prop-new-line.js",
+				"./rules/jsx-indent": "./dist/jsx-indent.js",
+				"./rules/jsx-indent-props": "./dist/jsx-indent-props.js",
+				"./rules/jsx-max-props-per-line": "./dist/jsx-max-props-per-line.js",
+				"./rules/jsx-newline": "./dist/jsx-newline.js",
+				"./rules/jsx-one-expression-per-line": "./dist/jsx-one-expression-per-line.js",
+				"./rules/jsx-props-no-multi-spaces": "./dist/jsx-props-no-multi-spaces.js",
+				"./rules/jsx-self-closing-comp": "./dist/jsx-self-closing-comp.js",
+				"./rules/jsx-sort-props": "./dist/jsx-sort-props.js",
+				"./rules/jsx-tag-spacing": "./dist/jsx-tag-spacing.js",
+				"./rules/jsx-wrap-multilines": "./dist/jsx-wrap-multilines.js"
+			},
+			"main": "./dist/index.js",
+			"types": "./dts/index.d.ts",
+			"engines": {
+				"node": "^16.0.0 || >=18.0.0"
+			},
+			"peerDependencies": {
+				"eslint": ">=8.40.0"
+			},
+			"dependencies": {
+				"estraverse": "^5.3.0",
+				"@stylistic/eslint-plugin-js": "^1.5.0"
+			},
+			"devDependencies": {
+				"@babel/eslint-parser": "^7.23.3",
+				"@babel/plugin-syntax-decorators": "^7.23.3",
+				"@babel/plugin-syntax-do-expressions": "^7.23.3",
+				"@babel/plugin-syntax-function-bind": "^7.23.3",
+				"@babel/preset-react": "^7.23.3",
+				"@typescript-eslint/parser": "^6.13.2",
+				"babel-eslint": "^10.1.0",
+				"eslint": "^8.55.0",
+				"semver": "^7.5.4",
+				"typescript-eslint-parser": "^22.0.0"
+			},
+			"scripts": {
+				"build": "rimraf dist && rollup --config=rollup.config.mts --configPlugin=rollup-plugin-esbuild",
+				"dev": "rollup --config=rollup.config.mts --configPlugin=rollup-plugin-esbuild --watch"
+			},
+			"description": "JSX stylistic rules for ESLint, migrated from [`eslint-plugin-react`](https://github.com/jsx-eslint/eslint-plugin-react).",
+			"_id": "@stylistic/eslint-plugin-jsx@1.5.0",
+			"_integrity": "sha512-sqFdA1mS0jwovAatS8xFAiwxPbcy69S2AUjrGMxyhxaKbELPjvqbxPYJL+35ylT0xqirUlm118xZIFDooC8koQ==",
+			"_resolved": "/private/var/folders/30/nymxcyb909ggq2j5lwn7b_600000gn/T/34c5d49d65e4cfd3d72190151cfc2f84/stylistic-eslint-plugin-jsx-1.5.0.tgz",
+			"_from": "file:stylistic-eslint-plugin-jsx-1.5.0.tgz",
+			"_nodeVersion": "20.4.0",
+			"_npmVersion": "9.7.2",
+			"dist": {
+				"integrity": "sha512-sqFdA1mS0jwovAatS8xFAiwxPbcy69S2AUjrGMxyhxaKbELPjvqbxPYJL+35ylT0xqirUlm118xZIFDooC8koQ==",
+				"shasum": "f8fcb23dcc75b455650426887b24711c4831bee6",
+				"tarball": "https://registry.npmjs.org/@stylistic/eslint-plugin-jsx/-/eslint-plugin-jsx-1.5.0.tgz",
+				"fileCount": 45,
+				"unpackedSize": 141297,
+				"signatures": [
+					{
+						"keyid": "SHA256:jl3bwswu80PjjokCgh0o2w5c2U4LhQAE57gj9cz1kzA",
+						"sig": "MEQCIHX8vu77M7stz6kQkOUsSz4PrQV5sLEIBjb9LMzYVBUIAiAY22fAEtFyyeATHcMwmv5FMP8LNa4/pXrn5Y28c2U7HA=="
+					}
+				]
+			},
+			"_npmUser": {
+				"name": "antfu",
+				"email": "anthonyfu117@hotmail.com"
+			},
+			"directories": {},
+			"maintainers": [
+				{
+					"name": "antfu",
+					"email": "anthonyfu117@hotmail.com"
+				}
+			],
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/eslint-plugin-jsx_1.5.0_1701776015375_0.3438568384936702"
+			},
+			"_hasShrinkwrap": false,
+			"contributors": []
+		},
+		"1.5.1": {
+			"name": "@stylistic/eslint-plugin-jsx",
+			"version": "1.5.1",
+			"author": {
+				"name": "Anthony Fu",
+				"email": "anthonyfu117@hotmail.com"
+			},
+			"license": "MIT",
+			"homepage": "https://github.com/eslint-stylistic/eslint-stylistic#readme",
+			"repository": {
+				"directory": "packages/eslint-plugin-jsx",
+				"type": "git",
+				"url": "git+https://github.com/eslint-stylistic/eslint-stylistic.git"
+			},
+			"bugs": {
+				"url": "https://github.com/eslint-stylistic/eslint-stylistic/issues"
+			},
+			"exports": {
+				".": {
+					"types": "./dts/index.d.ts",
+					"require": "./dist/index.js",
+					"default": "./dist/index.js"
+				},
+				"./define-config-support": {
+					"types": "./dts/define-config-support.d.ts"
+				},
+				"./rule-options": {
+					"types": "./dts/rule-options.d.ts"
+				},
+				"./rules/jsx-child-element-spacing": "./dist/jsx-child-element-spacing.js",
+				"./rules/jsx-closing-bracket-location": "./dist/jsx-closing-bracket-location.js",
+				"./rules/jsx-closing-tag-location": "./dist/jsx-closing-tag-location.js",
+				"./rules/jsx-curly-brace-presence": "./dist/jsx-curly-brace-presence.js",
+				"./rules/jsx-curly-newline": "./dist/jsx-curly-newline.js",
+				"./rules/jsx-curly-spacing": "./dist/jsx-curly-spacing.js",
+				"./rules/jsx-equals-spacing": "./dist/jsx-equals-spacing.js",
+				"./rules/jsx-first-prop-new-line": "./dist/jsx-first-prop-new-line.js",
+				"./rules/jsx-indent": "./dist/jsx-indent.js",
+				"./rules/jsx-indent-props": "./dist/jsx-indent-props.js",
+				"./rules/jsx-max-props-per-line": "./dist/jsx-max-props-per-line.js",
+				"./rules/jsx-newline": "./dist/jsx-newline.js",
+				"./rules/jsx-one-expression-per-line": "./dist/jsx-one-expression-per-line.js",
+				"./rules/jsx-props-no-multi-spaces": "./dist/jsx-props-no-multi-spaces.js",
+				"./rules/jsx-self-closing-comp": "./dist/jsx-self-closing-comp.js",
+				"./rules/jsx-sort-props": "./dist/jsx-sort-props.js",
+				"./rules/jsx-tag-spacing": "./dist/jsx-tag-spacing.js",
+				"./rules/jsx-wrap-multilines": "./dist/jsx-wrap-multilines.js"
+			},
+			"main": "./dist/index.js",
+			"types": "./dts/index.d.ts",
+			"engines": {
+				"node": "^16.0.0 || >=18.0.0"
+			},
+			"peerDependencies": {
+				"eslint": ">=8.40.0"
+			},
+			"dependencies": {
+				"estraverse": "^5.3.0",
+				"@stylistic/eslint-plugin-js": "^1.5.1"
+			},
+			"devDependencies": {
+				"@babel/eslint-parser": "^7.23.3",
+				"@babel/plugin-syntax-decorators": "^7.23.3",
+				"@babel/plugin-syntax-do-expressions": "^7.23.3",
+				"@babel/plugin-syntax-function-bind": "^7.23.3",
+				"@babel/preset-react": "^7.23.3",
+				"@typescript-eslint/parser": "^6.13.2",
+				"babel-eslint": "^10.1.0",
+				"eslint": "^8.55.0",
+				"semver": "^7.5.4",
+				"typescript-eslint-parser": "^22.0.0"
+			},
+			"scripts": {
+				"build": "rimraf dist && rollup --config=rollup.config.mts --configPlugin=rollup-plugin-esbuild",
+				"dev": "rollup --config=rollup.config.mts --configPlugin=rollup-plugin-esbuild --watch"
+			},
+			"description": "JSX stylistic rules for ESLint, migrated from [`eslint-plugin-react`](https://github.com/jsx-eslint/eslint-plugin-react).",
+			"_id": "@stylistic/eslint-plugin-jsx@1.5.1",
+			"_integrity": "sha512-JuX+jsbVdpZ6EZXkbxYr9ERcGc0ndSMFgOuwEPHhOWPZ+7F8JP/nzpBjrRf7dUPMX7ezTYLZ2a3KRGRNme6rWQ==",
+			"_resolved": "/private/var/folders/30/nymxcyb909ggq2j5lwn7b_600000gn/T/7276d4b6ef2c9dca113cac27c1d947fc/stylistic-eslint-plugin-jsx-1.5.1.tgz",
+			"_from": "file:stylistic-eslint-plugin-jsx-1.5.1.tgz",
+			"_nodeVersion": "20.4.0",
+			"_npmVersion": "9.7.2",
+			"dist": {
+				"integrity": "sha512-JuX+jsbVdpZ6EZXkbxYr9ERcGc0ndSMFgOuwEPHhOWPZ+7F8JP/nzpBjrRf7dUPMX7ezTYLZ2a3KRGRNme6rWQ==",
+				"shasum": "c382de3514af708b002df20ae97a71e34c361cbd",
+				"tarball": "https://registry.npmjs.org/@stylistic/eslint-plugin-jsx/-/eslint-plugin-jsx-1.5.1.tgz",
+				"fileCount": 45,
+				"unpackedSize": 141297,
+				"signatures": [
+					{
+						"keyid": "SHA256:jl3bwswu80PjjokCgh0o2w5c2U4LhQAE57gj9cz1kzA",
+						"sig": "MEYCIQC8ztWqhoikBgjHvcjGvwNkaXdAmRYSd1eMA05/tgzJegIhAPCESxNjKt0sQGjx2jmd+OsQ3+wRg9KeyyhAxWca5jnc"
+					}
+				]
+			},
+			"_npmUser": {
+				"name": "antfu",
+				"email": "anthonyfu117@hotmail.com"
+			},
+			"directories": {},
+			"maintainers": [
+				{
+					"name": "antfu",
+					"email": "anthonyfu117@hotmail.com"
+				}
+			],
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/eslint-plugin-jsx_1.5.1_1702297895570_0.2403991564234047"
+			},
+			"_hasShrinkwrap": false,
+			"contributors": []
+		},
+		"1.5.3": {
+			"name": "@stylistic/eslint-plugin-jsx",
+			"version": "1.5.3",
+			"author": {
+				"name": "Anthony Fu",
+				"email": "anthonyfu117@hotmail.com"
+			},
+			"license": "MIT",
+			"homepage": "https://github.com/eslint-stylistic/eslint-stylistic#readme",
+			"repository": {
+				"directory": "packages/eslint-plugin-jsx",
+				"type": "git",
+				"url": "git+https://github.com/eslint-stylistic/eslint-stylistic.git"
+			},
+			"bugs": {
+				"url": "https://github.com/eslint-stylistic/eslint-stylistic/issues"
+			},
+			"exports": {
+				".": {
+					"types": "./dts/index.d.ts",
+					"require": "./dist/index.js",
+					"default": "./dist/index.js"
+				},
+				"./define-config-support": {
+					"types": "./dts/define-config-support.d.ts"
+				},
+				"./rule-options": {
+					"types": "./dts/rule-options.d.ts"
+				},
+				"./rules/jsx-child-element-spacing": "./dist/jsx-child-element-spacing.js",
+				"./rules/jsx-closing-bracket-location": "./dist/jsx-closing-bracket-location.js",
+				"./rules/jsx-closing-tag-location": "./dist/jsx-closing-tag-location.js",
+				"./rules/jsx-curly-brace-presence": "./dist/jsx-curly-brace-presence.js",
+				"./rules/jsx-curly-newline": "./dist/jsx-curly-newline.js",
+				"./rules/jsx-curly-spacing": "./dist/jsx-curly-spacing.js",
+				"./rules/jsx-equals-spacing": "./dist/jsx-equals-spacing.js",
+				"./rules/jsx-first-prop-new-line": "./dist/jsx-first-prop-new-line.js",
+				"./rules/jsx-indent": "./dist/jsx-indent.js",
+				"./rules/jsx-indent-props": "./dist/jsx-indent-props.js",
+				"./rules/jsx-max-props-per-line": "./dist/jsx-max-props-per-line.js",
+				"./rules/jsx-newline": "./dist/jsx-newline.js",
+				"./rules/jsx-one-expression-per-line": "./dist/jsx-one-expression-per-line.js",
+				"./rules/jsx-props-no-multi-spaces": "./dist/jsx-props-no-multi-spaces.js",
+				"./rules/jsx-self-closing-comp": "./dist/jsx-self-closing-comp.js",
+				"./rules/jsx-sort-props": "./dist/jsx-sort-props.js",
+				"./rules/jsx-tag-spacing": "./dist/jsx-tag-spacing.js",
+				"./rules/jsx-wrap-multilines": "./dist/jsx-wrap-multilines.js"
+			},
+			"main": "./dist/index.js",
+			"types": "./dts/index.d.ts",
+			"engines": {
+				"node": "^16.0.0 || >=18.0.0"
+			},
+			"peerDependencies": {
+				"eslint": ">=8.40.0"
+			},
+			"dependencies": {
+				"estraverse": "^5.3.0",
+				"@stylistic/eslint-plugin-js": "^1.5.3"
+			},
+			"devDependencies": {
+				"@babel/eslint-parser": "^7.23.3",
+				"@babel/plugin-syntax-decorators": "^7.23.3",
+				"@babel/plugin-syntax-do-expressions": "^7.23.3",
+				"@babel/plugin-syntax-function-bind": "^7.23.3",
+				"@babel/preset-react": "^7.23.3",
+				"@typescript-eslint/parser": "^6.17.0",
+				"babel-eslint": "^10.1.0",
+				"eslint": "^8.56.0",
+				"semver": "^7.5.4",
+				"typescript-eslint-parser": "^22.0.0"
+			},
+			"scripts": {
+				"build": "rimraf dist && rollup --config=rollup.config.mts --configPlugin=rollup-plugin-esbuild",
+				"dev": "rollup --config=rollup.config.mts --configPlugin=rollup-plugin-esbuild --watch"
+			},
+			"description": "JSX stylistic rules for ESLint, migrated from [`eslint-plugin-react`](https://github.com/jsx-eslint/eslint-plugin-react).",
+			"_id": "@stylistic/eslint-plugin-jsx@1.5.3",
+			"_integrity": "sha512-gKXWFmvg3B4e6G+bVz2p37icjj3gS5lzazZD6oLjmQ2b0Lw527VpnxGjWxQ16keKXtrVzUfebakjskOoALg3CQ==",
+			"_resolved": "/tmp/12252c8c412eb2d745ea81ab67689d70/stylistic-eslint-plugin-jsx-1.5.3.tgz",
+			"_from": "file:stylistic-eslint-plugin-jsx-1.5.3.tgz",
+			"_nodeVersion": "20.10.0",
+			"_npmVersion": "10.2.3",
+			"dist": {
+				"integrity": "sha512-gKXWFmvg3B4e6G+bVz2p37icjj3gS5lzazZD6oLjmQ2b0Lw527VpnxGjWxQ16keKXtrVzUfebakjskOoALg3CQ==",
+				"shasum": "ec152b94853c187b521d2d3d1e0b93bb36677d77",
+				"tarball": "https://registry.npmjs.org/@stylistic/eslint-plugin-jsx/-/eslint-plugin-jsx-1.5.3.tgz",
+				"fileCount": 45,
+				"unpackedSize": 141297,
+				"attestations": {
+					"url": "https://registry.npmjs.org/-/npm/v1/attestations/@stylistic%2feslint-plugin-jsx@1.5.3",
+					"provenance": {
+						"predicateType": "https://slsa.dev/provenance/v1"
+					}
+				},
+				"signatures": [
+					{
+						"keyid": "SHA256:jl3bwswu80PjjokCgh0o2w5c2U4LhQAE57gj9cz1kzA",
+						"sig": "MEUCIAm3w6Ej7Nqdjx5ucaHVjs/Q8J9xumiCPvJOAVO32AWtAiEAtwFktT4Otdz+3Q6XzZoLQ0eM8+TK25usjg6DG82IvfY="
+					}
+				]
+			},
+			"_npmUser": {
+				"name": "antfu",
+				"email": "anthonyfu117@hotmail.com"
+			},
+			"directories": {},
+			"maintainers": [
+				{
+					"name": "antfu",
+					"email": "anthonyfu117@hotmail.com"
+				}
+			],
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/eslint-plugin-jsx_1.5.3_1704202562433_0.9855964912474706"
+			},
+			"_hasShrinkwrap": false,
+			"contributors": []
+		},
+		"1.5.4": {
+			"name": "@stylistic/eslint-plugin-jsx",
+			"version": "1.5.4",
+			"author": {
+				"name": "Anthony Fu",
+				"email": "anthonyfu117@hotmail.com"
+			},
+			"license": "MIT",
+			"homepage": "https://github.com/eslint-stylistic/eslint-stylistic#readme",
+			"repository": {
+				"directory": "packages/eslint-plugin-jsx",
+				"type": "git",
+				"url": "git+https://github.com/eslint-stylistic/eslint-stylistic.git"
+			},
+			"bugs": {
+				"url": "https://github.com/eslint-stylistic/eslint-stylistic/issues"
+			},
+			"exports": {
+				".": {
+					"types": "./dts/index.d.ts",
+					"require": "./dist/index.js",
+					"default": "./dist/index.js"
+				},
+				"./define-config-support": {
+					"types": "./dts/define-config-support.d.ts"
+				},
+				"./rule-options": {
+					"types": "./dts/rule-options.d.ts"
+				},
+				"./rules/jsx-child-element-spacing": "./dist/jsx-child-element-spacing.js",
+				"./rules/jsx-closing-bracket-location": "./dist/jsx-closing-bracket-location.js",
+				"./rules/jsx-closing-tag-location": "./dist/jsx-closing-tag-location.js",
+				"./rules/jsx-curly-brace-presence": "./dist/jsx-curly-brace-presence.js",
+				"./rules/jsx-curly-newline": "./dist/jsx-curly-newline.js",
+				"./rules/jsx-curly-spacing": "./dist/jsx-curly-spacing.js",
+				"./rules/jsx-equals-spacing": "./dist/jsx-equals-spacing.js",
+				"./rules/jsx-first-prop-new-line": "./dist/jsx-first-prop-new-line.js",
+				"./rules/jsx-indent": "./dist/jsx-indent.js",
+				"./rules/jsx-indent-props": "./dist/jsx-indent-props.js",
+				"./rules/jsx-max-props-per-line": "./dist/jsx-max-props-per-line.js",
+				"./rules/jsx-newline": "./dist/jsx-newline.js",
+				"./rules/jsx-one-expression-per-line": "./dist/jsx-one-expression-per-line.js",
+				"./rules/jsx-props-no-multi-spaces": "./dist/jsx-props-no-multi-spaces.js",
+				"./rules/jsx-self-closing-comp": "./dist/jsx-self-closing-comp.js",
+				"./rules/jsx-sort-props": "./dist/jsx-sort-props.js",
+				"./rules/jsx-tag-spacing": "./dist/jsx-tag-spacing.js",
+				"./rules/jsx-wrap-multilines": "./dist/jsx-wrap-multilines.js"
+			},
+			"main": "./dist/index.js",
+			"types": "./dts/index.d.ts",
+			"engines": {
+				"node": "^16.0.0 || >=18.0.0"
+			},
+			"peerDependencies": {
+				"eslint": ">=8.40.0"
+			},
+			"dependencies": {
+				"estraverse": "^5.3.0",
+				"@stylistic/eslint-plugin-js": "^1.5.4"
+			},
+			"devDependencies": {
+				"@babel/eslint-parser": "^7.23.3",
+				"@babel/plugin-syntax-decorators": "^7.23.3",
+				"@babel/plugin-syntax-do-expressions": "^7.23.3",
+				"@babel/plugin-syntax-function-bind": "^7.23.3",
+				"@babel/preset-react": "^7.23.3",
+				"@typescript-eslint/parser": "^6.19.0",
+				"babel-eslint": "^10.1.0",
+				"eslint": "^8.56.0",
+				"semver": "^7.5.4",
+				"typescript-eslint-parser": "^22.0.0"
+			},
+			"scripts": {
+				"build": "rimraf dist && rollup --config=rollup.config.mts --configPlugin=rollup-plugin-esbuild",
+				"dev": "rollup --config=rollup.config.mts --configPlugin=rollup-plugin-esbuild --watch"
+			},
+			"description": "JSX stylistic rules for ESLint, migrated from [`eslint-plugin-react`](https://github.com/jsx-eslint/eslint-plugin-react).",
+			"_id": "@stylistic/eslint-plugin-jsx@1.5.4",
+			"_integrity": "sha512-JUfrpCkeBCqt1IZ4QsP4WgxGza4PhK4LPbc0VnCjHKygl+rgqoDAovqOuzFJ49wJ4Ix3r6OIHFuwiBGswZEVvg==",
+			"_resolved": "/tmp/d1385af80ead196b3aa63709d129099b/stylistic-eslint-plugin-jsx-1.5.4.tgz",
+			"_from": "file:stylistic-eslint-plugin-jsx-1.5.4.tgz",
+			"_nodeVersion": "20.10.0",
+			"_npmVersion": "10.2.3",
+			"dist": {
+				"integrity": "sha512-JUfrpCkeBCqt1IZ4QsP4WgxGza4PhK4LPbc0VnCjHKygl+rgqoDAovqOuzFJ49wJ4Ix3r6OIHFuwiBGswZEVvg==",
+				"shasum": "be661004e7a775c3ca60b4cf4fa1bfe4d2df1f0a",
+				"tarball": "https://registry.npmjs.org/@stylistic/eslint-plugin-jsx/-/eslint-plugin-jsx-1.5.4.tgz",
+				"fileCount": 45,
+				"unpackedSize": 141297,
+				"attestations": {
+					"url": "https://registry.npmjs.org/-/npm/v1/attestations/@stylistic%2feslint-plugin-jsx@1.5.4",
+					"provenance": {
+						"predicateType": "https://slsa.dev/provenance/v1"
+					}
+				},
+				"signatures": [
+					{
+						"keyid": "SHA256:jl3bwswu80PjjokCgh0o2w5c2U4LhQAE57gj9cz1kzA",
+						"sig": "MEUCIQDXUnK1qalnKBYubiM8RowsRrM3iQtjo0W/uZ/qeyud1wIgXpFb/c3X1voYQunqKfGsXyhB0jkK7VDvs/PC8n3eDDg="
+					}
+				]
+			},
+			"_npmUser": {
+				"name": "antfu",
+				"email": "anthonyfu117@hotmail.com"
+			},
+			"directories": {},
+			"maintainers": [
+				{
+					"name": "antfu",
+					"email": "anthonyfu117@hotmail.com"
+				}
+			],
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/eslint-plugin-jsx_1.5.4_1705485917101_0.8327465916172041"
+			},
+			"_hasShrinkwrap": false,
+			"contributors": []
+		},
+		"1.6.0": {
+			"name": "@stylistic/eslint-plugin-jsx",
+			"version": "1.6.0",
+			"author": {
+				"name": "Anthony Fu",
+				"email": "anthonyfu117@hotmail.com"
+			},
+			"license": "MIT",
+			"homepage": "https://github.com/eslint-stylistic/eslint-stylistic#readme",
+			"repository": {
+				"directory": "packages/eslint-plugin-jsx",
+				"type": "git",
+				"url": "git+https://github.com/eslint-stylistic/eslint-stylistic.git"
+			},
+			"bugs": {
+				"url": "https://github.com/eslint-stylistic/eslint-stylistic/issues"
+			},
+			"exports": {
+				".": {
+					"types": "./dts/index.d.ts",
+					"require": "./dist/index.js",
+					"default": "./dist/index.js"
+				},
+				"./define-config-support": {
+					"types": "./dts/define-config-support.d.ts"
+				},
+				"./rule-options": {
+					"types": "./dts/rule-options.d.ts"
+				},
+				"./rules/jsx-child-element-spacing": "./dist/jsx-child-element-spacing.js",
+				"./rules/jsx-closing-bracket-location": "./dist/jsx-closing-bracket-location.js",
+				"./rules/jsx-closing-tag-location": "./dist/jsx-closing-tag-location.js",
+				"./rules/jsx-curly-brace-presence": "./dist/jsx-curly-brace-presence.js",
+				"./rules/jsx-curly-newline": "./dist/jsx-curly-newline.js",
+				"./rules/jsx-curly-spacing": "./dist/jsx-curly-spacing.js",
+				"./rules/jsx-equals-spacing": "./dist/jsx-equals-spacing.js",
+				"./rules/jsx-first-prop-new-line": "./dist/jsx-first-prop-new-line.js",
+				"./rules/jsx-indent": "./dist/jsx-indent.js",
+				"./rules/jsx-indent-props": "./dist/jsx-indent-props.js",
+				"./rules/jsx-max-props-per-line": "./dist/jsx-max-props-per-line.js",
+				"./rules/jsx-newline": "./dist/jsx-newline.js",
+				"./rules/jsx-one-expression-per-line": "./dist/jsx-one-expression-per-line.js",
+				"./rules/jsx-pascal-case": "./dist/jsx-pascal-case.js",
+				"./rules/jsx-props-no-multi-spaces": "./dist/jsx-props-no-multi-spaces.js",
+				"./rules/jsx-self-closing-comp": "./dist/jsx-self-closing-comp.js",
+				"./rules/jsx-sort-props": "./dist/jsx-sort-props.js",
+				"./rules/jsx-tag-spacing": "./dist/jsx-tag-spacing.js",
+				"./rules/jsx-wrap-multilines": "./dist/jsx-wrap-multilines.js"
+			},
+			"main": "./dist/index.js",
+			"types": "./dts/index.d.ts",
+			"engines": {
+				"node": "^16.0.0 || >=18.0.0"
+			},
+			"peerDependencies": {
+				"eslint": ">=8.40.0"
+			},
+			"dependencies": {
+				"estraverse": "^5.3.0",
+				"picomatch": "^3.0.1",
+				"@stylistic/eslint-plugin-js": "^1.6.0"
+			},
+			"devDependencies": {
+				"@babel/eslint-parser": "^7.23.10",
+				"@babel/plugin-syntax-decorators": "^7.23.3",
+				"@babel/plugin-syntax-do-expressions": "^7.23.3",
+				"@babel/plugin-syntax-function-bind": "^7.23.3",
+				"@babel/preset-react": "^7.23.3",
+				"@types/picomatch": "^2.3.3",
+				"@typescript-eslint/parser": "^6.20.0",
+				"babel-eslint": "^10.1.0",
+				"eslint": "^8.56.0",
+				"semver": "^7.5.4",
+				"typescript-eslint-parser": "^22.0.0"
+			},
+			"scripts": {
+				"build": "rimraf dist && rollup --config=rollup.config.mts --configPlugin=rollup-plugin-esbuild",
+				"dev": "rollup --config=rollup.config.mts --configPlugin=rollup-plugin-esbuild --watch"
+			},
+			"description": "JSX stylistic rules for ESLint, migrated from [`eslint-plugin-react`](https://github.com/jsx-eslint/eslint-plugin-react).",
+			"_id": "@stylistic/eslint-plugin-jsx@1.6.0",
+			"_integrity": "sha512-MlRpiuNpanQrszotBlar77GDf71HjemJNNQBvLnsk/MHxo6fxbIcAyLSNSVQJhP14ah6PvpPFcExRK4Hj7MGeg==",
+			"_resolved": "/tmp/75ffcef464a3bab9efc1a37bf33aafb8/stylistic-eslint-plugin-jsx-1.6.0.tgz",
+			"_from": "file:stylistic-eslint-plugin-jsx-1.6.0.tgz",
+			"_nodeVersion": "20.11.0",
+			"_npmVersion": "10.2.4",
+			"dist": {
+				"integrity": "sha512-MlRpiuNpanQrszotBlar77GDf71HjemJNNQBvLnsk/MHxo6fxbIcAyLSNSVQJhP14ah6PvpPFcExRK4Hj7MGeg==",
+				"shasum": "4aad037bb680cad44b60c135f198494a7ced5651",
+				"tarball": "https://registry.npmjs.org/@stylistic/eslint-plugin-jsx/-/eslint-plugin-jsx-1.6.0.tgz",
+				"fileCount": 47,
+				"unpackedSize": 146318,
+				"attestations": {
+					"url": "https://registry.npmjs.org/-/npm/v1/attestations/@stylistic%2feslint-plugin-jsx@1.6.0",
+					"provenance": {
+						"predicateType": "https://slsa.dev/provenance/v1"
+					}
+				},
+				"signatures": [
+					{
+						"keyid": "SHA256:jl3bwswu80PjjokCgh0o2w5c2U4LhQAE57gj9cz1kzA",
+						"sig": "MEUCIAPPYb2+Edb9sv+1hDVcC7SqigzB3aUwjzcvKtwOBG9aAiEAhkpIwqT9PU1X1WnWbjY3eDT4eL654oS2gqnCL9Zjd/U="
+					}
+				]
+			},
+			"_npmUser": {
+				"name": "antfu",
+				"email": "anthonyfu117@hotmail.com"
+			},
+			"directories": {},
+			"maintainers": [
+				{
+					"name": "antfu",
+					"email": "anthonyfu117@hotmail.com"
+				}
+			],
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/eslint-plugin-jsx_1.6.0_1707150907074_0.36162747414277097"
+			},
+			"_hasShrinkwrap": false,
+			"contributors": []
+		},
+		"1.6.1": {
+			"name": "@stylistic/eslint-plugin-jsx",
+			"version": "1.6.1",
+			"author": {
+				"name": "Anthony Fu",
+				"email": "anthonyfu117@hotmail.com"
+			},
+			"license": "MIT",
+			"homepage": "https://github.com/eslint-stylistic/eslint-stylistic#readme",
+			"repository": {
+				"directory": "packages/eslint-plugin-jsx",
+				"type": "git",
+				"url": "git+https://github.com/eslint-stylistic/eslint-stylistic.git"
+			},
+			"bugs": {
+				"url": "https://github.com/eslint-stylistic/eslint-stylistic/issues"
+			},
+			"exports": {
+				".": {
+					"types": "./dts/index.d.ts",
+					"require": "./dist/index.js",
+					"default": "./dist/index.js"
+				},
+				"./define-config-support": {
+					"types": "./dts/define-config-support.d.ts"
+				},
+				"./rule-options": {
+					"types": "./dts/rule-options.d.ts"
+				},
+				"./rules/jsx-child-element-spacing": "./dist/jsx-child-element-spacing.js",
+				"./rules/jsx-closing-bracket-location": "./dist/jsx-closing-bracket-location.js",
+				"./rules/jsx-closing-tag-location": "./dist/jsx-closing-tag-location.js",
+				"./rules/jsx-curly-brace-presence": "./dist/jsx-curly-brace-presence.js",
+				"./rules/jsx-curly-newline": "./dist/jsx-curly-newline.js",
+				"./rules/jsx-curly-spacing": "./dist/jsx-curly-spacing.js",
+				"./rules/jsx-equals-spacing": "./dist/jsx-equals-spacing.js",
+				"./rules/jsx-first-prop-new-line": "./dist/jsx-first-prop-new-line.js",
+				"./rules/jsx-indent": "./dist/jsx-indent.js",
+				"./rules/jsx-indent-props": "./dist/jsx-indent-props.js",
+				"./rules/jsx-max-props-per-line": "./dist/jsx-max-props-per-line.js",
+				"./rules/jsx-newline": "./dist/jsx-newline.js",
+				"./rules/jsx-one-expression-per-line": "./dist/jsx-one-expression-per-line.js",
+				"./rules/jsx-pascal-case": "./dist/jsx-pascal-case.js",
+				"./rules/jsx-props-no-multi-spaces": "./dist/jsx-props-no-multi-spaces.js",
+				"./rules/jsx-self-closing-comp": "./dist/jsx-self-closing-comp.js",
+				"./rules/jsx-sort-props": "./dist/jsx-sort-props.js",
+				"./rules/jsx-tag-spacing": "./dist/jsx-tag-spacing.js",
+				"./rules/jsx-wrap-multilines": "./dist/jsx-wrap-multilines.js"
+			},
+			"main": "./dist/index.js",
+			"types": "./dts/index.d.ts",
+			"engines": {
+				"node": "^16.0.0 || >=18.0.0"
+			},
+			"peerDependencies": {
+				"eslint": ">=8.40.0"
+			},
+			"dependencies": {
+				"estraverse": "^5.3.0",
+				"picomatch": "^3.0.1",
+				"@stylistic/eslint-plugin-js": "^1.6.1"
+			},
+			"devDependencies": {
+				"@babel/eslint-parser": "^7.23.10",
+				"@babel/plugin-syntax-decorators": "^7.23.3",
+				"@babel/plugin-syntax-do-expressions": "^7.23.3",
+				"@babel/plugin-syntax-function-bind": "^7.23.3",
+				"@babel/preset-react": "^7.23.3",
+				"@types/picomatch": "^2.3.3",
+				"@typescript-eslint/parser": "^6.20.0",
+				"babel-eslint": "^10.1.0",
+				"eslint": "^8.56.0",
+				"semver": "^7.5.4",
+				"typescript-eslint-parser": "^22.0.0"
+			},
+			"scripts": {
+				"build": "rimraf dist && rollup --config=rollup.config.mts --configPlugin=rollup-plugin-esbuild",
+				"dev": "rollup --config=rollup.config.mts --configPlugin=rollup-plugin-esbuild --watch"
+			},
+			"description": "JSX stylistic rules for ESLint, migrated from [`eslint-plugin-react`](https://github.com/jsx-eslint/eslint-plugin-react).",
+			"_id": "@stylistic/eslint-plugin-jsx@1.6.1",
+			"_integrity": "sha512-uJQcg3iqrhm3EH15ZjxmZ1YmXXexkLKFEgxkWA3RYjgAVTx8k7xGJwClK/JnjKDGdbFRiDQPjxt964R1vsaFaQ==",
+			"_resolved": "/tmp/5f6a03859c9b690a31faaba4aa7a16b4/stylistic-eslint-plugin-jsx-1.6.1.tgz",
+			"_from": "file:stylistic-eslint-plugin-jsx-1.6.1.tgz",
+			"_nodeVersion": "20.11.0",
+			"_npmVersion": "10.2.4",
+			"dist": {
+				"integrity": "sha512-uJQcg3iqrhm3EH15ZjxmZ1YmXXexkLKFEgxkWA3RYjgAVTx8k7xGJwClK/JnjKDGdbFRiDQPjxt964R1vsaFaQ==",
+				"shasum": "9ac17d1d0600038f03222a1c52c6677ebd523790",
+				"tarball": "https://registry.npmjs.org/@stylistic/eslint-plugin-jsx/-/eslint-plugin-jsx-1.6.1.tgz",
+				"fileCount": 47,
+				"unpackedSize": 146318,
+				"attestations": {
+					"url": "https://registry.npmjs.org/-/npm/v1/attestations/@stylistic%2feslint-plugin-jsx@1.6.1",
+					"provenance": {
+						"predicateType": "https://slsa.dev/provenance/v1"
+					}
+				},
+				"signatures": [
+					{
+						"keyid": "SHA256:jl3bwswu80PjjokCgh0o2w5c2U4LhQAE57gj9cz1kzA",
+						"sig": "MEUCIBAD637lYraKj78NXhwuY0MnFz8UCet6Vz+r/UUWwM+WAiEA5fqisahPSojCz9OtG4IICbzl4q9EcFy6tXrBiUhskls="
+					}
+				]
+			},
+			"_npmUser": {
+				"name": "antfu",
+				"email": "anthonyfu117@hotmail.com"
+			},
+			"directories": {},
+			"maintainers": [
+				{
+					"name": "antfu",
+					"email": "anthonyfu117@hotmail.com"
+				}
+			],
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/eslint-plugin-jsx_1.6.1_1707419898938_0.46356303285121125"
+			},
+			"_hasShrinkwrap": false,
+			"contributors": []
+		},
+		"1.6.2": {
+			"name": "@stylistic/eslint-plugin-jsx",
+			"version": "1.6.2",
+			"author": {
+				"name": "Anthony Fu",
+				"email": "anthonyfu117@hotmail.com"
+			},
+			"license": "MIT",
+			"homepage": "https://github.com/eslint-stylistic/eslint-stylistic#readme",
+			"repository": {
+				"directory": "packages/eslint-plugin-jsx",
+				"type": "git",
+				"url": "git+https://github.com/eslint-stylistic/eslint-stylistic.git"
+			},
+			"bugs": {
+				"url": "https://github.com/eslint-stylistic/eslint-stylistic/issues"
+			},
+			"exports": {
+				".": {
+					"types": "./dts/index.d.ts",
+					"require": "./dist/index.js",
+					"default": "./dist/index.js"
+				},
+				"./define-config-support": {
+					"types": "./dts/define-config-support.d.ts"
+				},
+				"./rule-options": {
+					"types": "./dts/rule-options.d.ts"
+				},
+				"./rules/jsx-child-element-spacing": "./dist/jsx-child-element-spacing.js",
+				"./rules/jsx-closing-bracket-location": "./dist/jsx-closing-bracket-location.js",
+				"./rules/jsx-closing-tag-location": "./dist/jsx-closing-tag-location.js",
+				"./rules/jsx-curly-brace-presence": "./dist/jsx-curly-brace-presence.js",
+				"./rules/jsx-curly-newline": "./dist/jsx-curly-newline.js",
+				"./rules/jsx-curly-spacing": "./dist/jsx-curly-spacing.js",
+				"./rules/jsx-equals-spacing": "./dist/jsx-equals-spacing.js",
+				"./rules/jsx-first-prop-new-line": "./dist/jsx-first-prop-new-line.js",
+				"./rules/jsx-indent": "./dist/jsx-indent.js",
+				"./rules/jsx-indent-props": "./dist/jsx-indent-props.js",
+				"./rules/jsx-max-props-per-line": "./dist/jsx-max-props-per-line.js",
+				"./rules/jsx-newline": "./dist/jsx-newline.js",
+				"./rules/jsx-one-expression-per-line": "./dist/jsx-one-expression-per-line.js",
+				"./rules/jsx-pascal-case": "./dist/jsx-pascal-case.js",
+				"./rules/jsx-props-no-multi-spaces": "./dist/jsx-props-no-multi-spaces.js",
+				"./rules/jsx-self-closing-comp": "./dist/jsx-self-closing-comp.js",
+				"./rules/jsx-sort-props": "./dist/jsx-sort-props.js",
+				"./rules/jsx-tag-spacing": "./dist/jsx-tag-spacing.js",
+				"./rules/jsx-wrap-multilines": "./dist/jsx-wrap-multilines.js"
+			},
+			"main": "./dist/index.js",
+			"types": "./dts/index.d.ts",
+			"engines": {
+				"node": "^16.0.0 || >=18.0.0"
+			},
+			"peerDependencies": {
+				"eslint": ">=8.40.0"
+			},
+			"dependencies": {
+				"@types/eslint": "^8.56.2",
+				"estraverse": "^5.3.0",
+				"picomatch": "^4.0.1",
+				"@stylistic/eslint-plugin-js": "^1.6.2"
+			},
+			"devDependencies": {
+				"@babel/eslint-parser": "^7.23.10",
+				"@babel/plugin-syntax-decorators": "^7.23.3",
+				"@babel/plugin-syntax-do-expressions": "^7.23.3",
+				"@babel/plugin-syntax-function-bind": "^7.23.3",
+				"@babel/preset-react": "^7.23.3",
+				"@types/picomatch": "^2.3.3",
+				"@typescript-eslint/parser": "^6.21.0",
+				"babel-eslint": "^10.1.0",
+				"eslint": "^8.56.0",
+				"semver": "^7.6.0",
+				"typescript-eslint-parser": "^22.0.0"
+			},
+			"scripts": {
+				"build": "rimraf dist && rollup --config=rollup.config.mts --configPlugin=rollup-plugin-esbuild",
+				"dev": "rollup --config=rollup.config.mts --configPlugin=rollup-plugin-esbuild --watch"
+			},
+			"description": "JSX stylistic rules for ESLint, migrated from [`eslint-plugin-react`](https://github.com/jsx-eslint/eslint-plugin-react).",
+			"_id": "@stylistic/eslint-plugin-jsx@1.6.2",
+			"_integrity": "sha512-hbbouazSJbHD/fshBIOLh9JgtSphKNoTCfHLSNBjAkXLK+GR4i2jhEZZF9P0mtXrNuy2WWInmpq/g0pfWBmSBA==",
+			"_resolved": "/tmp/b2937c547fba1b30c17cf00e81602143/stylistic-eslint-plugin-jsx-1.6.2.tgz",
+			"_from": "file:stylistic-eslint-plugin-jsx-1.6.2.tgz",
+			"_nodeVersion": "20.11.0",
+			"_npmVersion": "10.2.4",
+			"dist": {
+				"integrity": "sha512-hbbouazSJbHD/fshBIOLh9JgtSphKNoTCfHLSNBjAkXLK+GR4i2jhEZZF9P0mtXrNuy2WWInmpq/g0pfWBmSBA==",
+				"shasum": "846f6ae87feb089e3aa0f1c1adbb018b56fc5ea4",
+				"tarball": "https://registry.npmjs.org/@stylistic/eslint-plugin-jsx/-/eslint-plugin-jsx-1.6.2.tgz",
+				"fileCount": 47,
+				"unpackedSize": 146350,
+				"attestations": {
+					"url": "https://registry.npmjs.org/-/npm/v1/attestations/@stylistic%2feslint-plugin-jsx@1.6.2",
+					"provenance": {
+						"predicateType": "https://slsa.dev/provenance/v1"
+					}
+				},
+				"signatures": [
+					{
+						"keyid": "SHA256:jl3bwswu80PjjokCgh0o2w5c2U4LhQAE57gj9cz1kzA",
+						"sig": "MEYCIQDfzRrdL+D6JI/51Zk9atjArn8ICJOTFIDii7uivPavDQIhALCzPTLOh4Rg4b1I1gzhLmWTfblvh2z4S6sK4Wk80ZD0"
+					}
+				]
+			},
+			"_npmUser": {
+				"name": "antfu",
+				"email": "anthonyfu117@hotmail.com"
+			},
+			"directories": {},
+			"maintainers": [
+				{
+					"name": "antfu",
+					"email": "anthonyfu117@hotmail.com"
+				}
+			],
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/eslint-plugin-jsx_1.6.2_1707997623194_0.09221865927161432"
+			},
+			"_hasShrinkwrap": false,
+			"contributors": []
+		},
+		"1.6.3": {
+			"name": "@stylistic/eslint-plugin-jsx",
+			"version": "1.6.3",
+			"author": {
+				"name": "Anthony Fu",
+				"email": "anthonyfu117@hotmail.com"
+			},
+			"license": "MIT",
+			"homepage": "https://github.com/eslint-stylistic/eslint-stylistic#readme",
+			"repository": {
+				"directory": "packages/eslint-plugin-jsx",
+				"type": "git",
+				"url": "git+https://github.com/eslint-stylistic/eslint-stylistic.git"
+			},
+			"bugs": {
+				"url": "https://github.com/eslint-stylistic/eslint-stylistic/issues"
+			},
+			"exports": {
+				".": {
+					"types": "./dts/index.d.ts",
+					"require": "./dist/index.js",
+					"default": "./dist/index.js"
+				},
+				"./define-config-support": {
+					"types": "./dts/define-config-support.d.ts"
+				},
+				"./rule-options": {
+					"types": "./dts/rule-options.d.ts"
+				},
+				"./rules/jsx-child-element-spacing": "./dist/jsx-child-element-spacing.js",
+				"./rules/jsx-closing-bracket-location": "./dist/jsx-closing-bracket-location.js",
+				"./rules/jsx-closing-tag-location": "./dist/jsx-closing-tag-location.js",
+				"./rules/jsx-curly-brace-presence": "./dist/jsx-curly-brace-presence.js",
+				"./rules/jsx-curly-newline": "./dist/jsx-curly-newline.js",
+				"./rules/jsx-curly-spacing": "./dist/jsx-curly-spacing.js",
+				"./rules/jsx-equals-spacing": "./dist/jsx-equals-spacing.js",
+				"./rules/jsx-first-prop-new-line": "./dist/jsx-first-prop-new-line.js",
+				"./rules/jsx-indent": "./dist/jsx-indent.js",
+				"./rules/jsx-indent-props": "./dist/jsx-indent-props.js",
+				"./rules/jsx-max-props-per-line": "./dist/jsx-max-props-per-line.js",
+				"./rules/jsx-newline": "./dist/jsx-newline.js",
+				"./rules/jsx-one-expression-per-line": "./dist/jsx-one-expression-per-line.js",
+				"./rules/jsx-pascal-case": "./dist/jsx-pascal-case.js",
+				"./rules/jsx-props-no-multi-spaces": "./dist/jsx-props-no-multi-spaces.js",
+				"./rules/jsx-self-closing-comp": "./dist/jsx-self-closing-comp.js",
+				"./rules/jsx-sort-props": "./dist/jsx-sort-props.js",
+				"./rules/jsx-tag-spacing": "./dist/jsx-tag-spacing.js",
+				"./rules/jsx-wrap-multilines": "./dist/jsx-wrap-multilines.js"
+			},
+			"main": "./dist/index.js",
+			"types": "./dts/index.d.ts",
+			"engines": {
+				"node": "^16.0.0 || >=18.0.0"
+			},
+			"peerDependencies": {
+				"eslint": ">=8.40.0"
+			},
+			"dependencies": {
+				"@types/eslint": "^8.56.2",
+				"estraverse": "^5.3.0",
+				"picomatch": "^4.0.1",
+				"@stylistic/eslint-plugin-js": "^1.6.3"
+			},
+			"devDependencies": {
+				"@babel/eslint-parser": "^7.23.10",
+				"@babel/plugin-syntax-decorators": "^7.23.3",
+				"@babel/plugin-syntax-do-expressions": "^7.23.3",
+				"@babel/plugin-syntax-function-bind": "^7.23.3",
+				"@babel/preset-react": "^7.23.3",
+				"@types/picomatch": "^2.3.3",
+				"@typescript-eslint/parser": "^6.21.0",
+				"babel-eslint": "^10.1.0",
+				"eslint": "^8.56.0",
+				"semver": "^7.6.0",
+				"typescript-eslint-parser": "^22.0.0"
+			},
+			"scripts": {
+				"build": "rimraf dist && rollup --config=rollup.config.mts --configPlugin=rollup-plugin-esbuild",
+				"dev": "rollup --config=rollup.config.mts --configPlugin=rollup-plugin-esbuild --watch"
+			},
+			"description": "JSX stylistic rules for ESLint, migrated from [`eslint-plugin-react`](https://github.com/jsx-eslint/eslint-plugin-react).",
+			"_id": "@stylistic/eslint-plugin-jsx@1.6.3",
+			"_integrity": "sha512-SRysCIg59Zvn3dJPqHziiHwuni4NNj1et5stAmivmyQ3Cdp2ULCB7tGxCF1OxpkwRlZQue3ZgdiM7EXfJKaf9w==",
+			"_resolved": "/tmp/f11cff8f7598aa4ac5171070e33a5bbc/stylistic-eslint-plugin-jsx-1.6.3.tgz",
+			"_from": "file:stylistic-eslint-plugin-jsx-1.6.3.tgz",
+			"_nodeVersion": "20.11.1",
+			"_npmVersion": "10.2.4",
+			"dist": {
+				"integrity": "sha512-SRysCIg59Zvn3dJPqHziiHwuni4NNj1et5stAmivmyQ3Cdp2ULCB7tGxCF1OxpkwRlZQue3ZgdiM7EXfJKaf9w==",
+				"shasum": "6560eca8de9ada77d3b4eeb4a6805b49dc4b7c29",
+				"tarball": "https://registry.npmjs.org/@stylistic/eslint-plugin-jsx/-/eslint-plugin-jsx-1.6.3.tgz",
+				"fileCount": 47,
+				"unpackedSize": 146350,
+				"attestations": {
+					"url": "https://registry.npmjs.org/-/npm/v1/attestations/@stylistic%2feslint-plugin-jsx@1.6.3",
+					"provenance": {
+						"predicateType": "https://slsa.dev/provenance/v1"
+					}
+				},
+				"signatures": [
+					{
+						"keyid": "SHA256:jl3bwswu80PjjokCgh0o2w5c2U4LhQAE57gj9cz1kzA",
+						"sig": "MEQCIBlFOJVsnr9TsSz4vl4Sn/vm6aY4PQDZJru7dhCTt75hAiACX5mO1pTZeGh/EHQtKdgKfaMdZ5+2bUpbxtMQq9Wx6g=="
+					}
+				]
+			},
+			"_npmUser": {
+				"name": "antfu",
+				"email": "anthonyfu117@hotmail.com"
+			},
+			"directories": {},
+			"maintainers": [
+				{
+					"name": "antfu",
+					"email": "anthonyfu117@hotmail.com"
+				}
+			],
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/eslint-plugin-jsx_1.6.3_1709213979100_0.12993245593391545"
+			},
+			"_hasShrinkwrap": false,
+			"contributors": []
+		},
+		"1.7.0": {
+			"name": "@stylistic/eslint-plugin-jsx",
+			"version": "1.7.0",
+			"author": {
+				"name": "Anthony Fu",
+				"email": "anthonyfu117@hotmail.com"
+			},
+			"license": "MIT",
+			"homepage": "https://github.com/eslint-stylistic/eslint-stylistic#readme",
+			"repository": {
+				"directory": "packages/eslint-plugin-jsx",
+				"type": "git",
+				"url": "git+https://github.com/eslint-stylistic/eslint-stylistic.git"
+			},
+			"bugs": {
+				"url": "https://github.com/eslint-stylistic/eslint-stylistic/issues"
+			},
+			"exports": {
+				".": {
+					"types": "./dts/index.d.ts",
+					"require": "./dist/index.js",
+					"default": "./dist/index.js"
+				},
+				"./define-config-support": {
+					"types": "./dts/define-config-support.d.ts"
+				},
+				"./rule-options": {
+					"types": "./dts/rule-options.d.ts"
+				},
+				"./rules/jsx-child-element-spacing": "./dist/jsx-child-element-spacing.js",
+				"./rules/jsx-closing-bracket-location": "./dist/jsx-closing-bracket-location.js",
+				"./rules/jsx-closing-tag-location": "./dist/jsx-closing-tag-location.js",
+				"./rules/jsx-curly-brace-presence": "./dist/jsx-curly-brace-presence.js",
+				"./rules/jsx-curly-newline": "./dist/jsx-curly-newline.js",
+				"./rules/jsx-curly-spacing": "./dist/jsx-curly-spacing.js",
+				"./rules/jsx-equals-spacing": "./dist/jsx-equals-spacing.js",
+				"./rules/jsx-first-prop-new-line": "./dist/jsx-first-prop-new-line.js",
+				"./rules/jsx-indent": "./dist/jsx-indent.js",
+				"./rules/jsx-indent-props": "./dist/jsx-indent-props.js",
+				"./rules/jsx-max-props-per-line": "./dist/jsx-max-props-per-line.js",
+				"./rules/jsx-newline": "./dist/jsx-newline.js",
+				"./rules/jsx-one-expression-per-line": "./dist/jsx-one-expression-per-line.js",
+				"./rules/jsx-pascal-case": "./dist/jsx-pascal-case.js",
+				"./rules/jsx-props-no-multi-spaces": "./dist/jsx-props-no-multi-spaces.js",
+				"./rules/jsx-self-closing-comp": "./dist/jsx-self-closing-comp.js",
+				"./rules/jsx-sort-props": "./dist/jsx-sort-props.js",
+				"./rules/jsx-tag-spacing": "./dist/jsx-tag-spacing.js",
+				"./rules/jsx-wrap-multilines": "./dist/jsx-wrap-multilines.js"
+			},
+			"main": "./dist/index.js",
+			"types": "./dts/index.d.ts",
+			"engines": {
+				"node": "^16.0.0 || >=18.0.0"
+			},
+			"peerDependencies": {
+				"eslint": ">=8.40.0"
+			},
+			"dependencies": {
+				"@types/eslint": "^8.56.2",
+				"estraverse": "^5.3.0",
+				"picomatch": "^4.0.1",
+				"@stylistic/eslint-plugin-js": "^1.7.0"
+			},
+			"devDependencies": {
+				"@babel/eslint-parser": "^7.23.10",
+				"@babel/plugin-syntax-decorators": "^7.23.3",
+				"@babel/plugin-syntax-do-expressions": "^7.23.3",
+				"@babel/plugin-syntax-function-bind": "^7.23.3",
+				"@babel/preset-react": "^7.23.3",
+				"@types/picomatch": "^2.3.3",
+				"@typescript-eslint/parser": "^6.21.0",
+				"babel-eslint": "^10.1.0",
+				"eslint": "^8.56.0",
+				"semver": "^7.6.0",
+				"typescript-eslint-parser": "^22.0.0"
+			},
+			"scripts": {
+				"build": "rimraf dist && rollup --config=rollup.config.mts --configPlugin=rollup-plugin-esbuild",
+				"dev": "rollup --config=rollup.config.mts --configPlugin=rollup-plugin-esbuild --watch"
+			},
+			"description": "JSX stylistic rules for ESLint, migrated from [`eslint-plugin-react`](https://github.com/jsx-eslint/eslint-plugin-react).",
+			"_id": "@stylistic/eslint-plugin-jsx@1.7.0",
+			"_integrity": "sha512-BACdBwXakQvjYIST5N2WWhRbvhRsIxa/F59BiZol+0IH4FSmDXhie7v/yaxDIIA9CbfElzOmIA5nWNYTVXcnwQ==",
+			"_resolved": "/tmp/6486459a896e5a92d601c5e50545311f/stylistic-eslint-plugin-jsx-1.7.0.tgz",
+			"_from": "file:stylistic-eslint-plugin-jsx-1.7.0.tgz",
+			"_nodeVersion": "20.11.1",
+			"_npmVersion": "10.2.4",
+			"dist": {
+				"integrity": "sha512-BACdBwXakQvjYIST5N2WWhRbvhRsIxa/F59BiZol+0IH4FSmDXhie7v/yaxDIIA9CbfElzOmIA5nWNYTVXcnwQ==",
+				"shasum": "6f85a4ee68af0ad0c94dad000631eea06fc4103f",
+				"tarball": "https://registry.npmjs.org/@stylistic/eslint-plugin-jsx/-/eslint-plugin-jsx-1.7.0.tgz",
+				"fileCount": 47,
+				"unpackedSize": 146350,
+				"attestations": {
+					"url": "https://registry.npmjs.org/-/npm/v1/attestations/@stylistic%2feslint-plugin-jsx@1.7.0",
+					"provenance": {
+						"predicateType": "https://slsa.dev/provenance/v1"
+					}
+				},
+				"signatures": [
+					{
+						"keyid": "SHA256:jl3bwswu80PjjokCgh0o2w5c2U4LhQAE57gj9cz1kzA",
+						"sig": "MEUCIF9E/ehmBsxS9rKMs2aMk40hrvehfz5Y4MW61JtBhimWAiEAnkXV7ehIXGkObXCRAxir3q8pDW1jWMnSfbWeoR6BFag="
+					}
+				]
+			},
+			"_npmUser": {
+				"name": "antfu",
+				"email": "anthonyfu117@hotmail.com"
+			},
+			"directories": {},
+			"maintainers": [
+				{
+					"name": "antfu",
+					"email": "anthonyfu117@hotmail.com"
+				}
+			],
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/eslint-plugin-jsx_1.7.0_1710411453301_0.7052107527616549"
+			},
+			"_hasShrinkwrap": false,
+			"contributors": []
+		},
+		"1.7.2": {
+			"name": "@stylistic/eslint-plugin-jsx",
+			"version": "1.7.2",
+			"author": {
+				"name": "Anthony Fu",
+				"email": "anthonyfu117@hotmail.com"
+			},
+			"license": "MIT",
+			"homepage": "https://github.com/eslint-community/eslint-stylistic#readme",
+			"repository": {
+				"directory": "packages/eslint-plugin-jsx",
+				"type": "git",
+				"url": "git+https://github.com/eslint-community/eslint-stylistic.git"
+			},
+			"bugs": {
+				"url": "https://github.com/eslint-community/eslint-stylistic/issues"
+			},
+			"exports": {
+				".": {
+					"types": "./dts/index.d.ts",
+					"require": "./dist/index.js",
+					"default": "./dist/index.js"
+				},
+				"./define-config-support": {
+					"types": "./dts/define-config-support.d.ts"
+				},
+				"./rule-options": {
+					"types": "./dts/rule-options.d.ts"
+				},
+				"./rules/jsx-child-element-spacing": "./dist/jsx-child-element-spacing.js",
+				"./rules/jsx-closing-bracket-location": "./dist/jsx-closing-bracket-location.js",
+				"./rules/jsx-closing-tag-location": "./dist/jsx-closing-tag-location.js",
+				"./rules/jsx-curly-brace-presence": "./dist/jsx-curly-brace-presence.js",
+				"./rules/jsx-curly-newline": "./dist/jsx-curly-newline.js",
+				"./rules/jsx-curly-spacing": "./dist/jsx-curly-spacing.js",
+				"./rules/jsx-equals-spacing": "./dist/jsx-equals-spacing.js",
+				"./rules/jsx-first-prop-new-line": "./dist/jsx-first-prop-new-line.js",
+				"./rules/jsx-indent": "./dist/jsx-indent.js",
+				"./rules/jsx-indent-props": "./dist/jsx-indent-props.js",
+				"./rules/jsx-max-props-per-line": "./dist/jsx-max-props-per-line.js",
+				"./rules/jsx-newline": "./dist/jsx-newline.js",
+				"./rules/jsx-one-expression-per-line": "./dist/jsx-one-expression-per-line.js",
+				"./rules/jsx-pascal-case": "./dist/jsx-pascal-case.js",
+				"./rules/jsx-props-no-multi-spaces": "./dist/jsx-props-no-multi-spaces.js",
+				"./rules/jsx-self-closing-comp": "./dist/jsx-self-closing-comp.js",
+				"./rules/jsx-sort-props": "./dist/jsx-sort-props.js",
+				"./rules/jsx-tag-spacing": "./dist/jsx-tag-spacing.js",
+				"./rules/jsx-wrap-multilines": "./dist/jsx-wrap-multilines.js"
+			},
+			"main": "./dist/index.js",
+			"types": "./dts/index.d.ts",
+			"engines": {
+				"node": "^16.0.0 || >=18.0.0"
+			},
+			"peerDependencies": {
+				"eslint": ">=8.40.0"
+			},
+			"dependencies": {
+				"@types/eslint": "^8.56.8",
+				"estraverse": "^5.3.0",
+				"picomatch": "^4.0.2",
+				"@stylistic/eslint-plugin-js": "^1.7.2"
+			},
+			"devDependencies": {
+				"@babel/eslint-parser": "^7.24.1",
+				"@babel/plugin-syntax-decorators": "^7.24.1",
+				"@babel/plugin-syntax-do-expressions": "^7.24.1",
+				"@babel/plugin-syntax-function-bind": "^7.24.1",
+				"@babel/preset-react": "^7.24.1",
+				"@types/picomatch": "^2.3.3",
+				"@typescript-eslint/parser": "^6.21.0",
+				"babel-eslint": "^10.1.0",
+				"eslint": "^8.57.0",
+				"semver": "^7.6.0",
+				"typescript-eslint-parser": "^22.0.0"
+			},
+			"scripts": {
+				"build": "rimraf dist && rollup --config=rollup.config.mts --configPlugin=rollup-plugin-esbuild",
+				"dev": "rollup --config=rollup.config.mts --configPlugin=rollup-plugin-esbuild --watch"
+			},
+			"description": "JSX stylistic rules for ESLint, migrated from [`eslint-plugin-react`](https://github.com/jsx-eslint/eslint-plugin-react).",
+			"_id": "@stylistic/eslint-plugin-jsx@1.7.2",
+			"_integrity": "sha512-lNZR5PR0HLJPs+kY0y8fy6KroKlYqA5PwsYWpVYWzqZWiL5jgAeUo4s9yLFYjJjzildJ5MsTVMy/xP81Qz6GXg==",
+			"_resolved": "/tmp/0345db7261f27587258c1d2ec4633810/stylistic-eslint-plugin-jsx-1.7.2.tgz",
+			"_from": "file:stylistic-eslint-plugin-jsx-1.7.2.tgz",
+			"_nodeVersion": "20.12.1",
+			"_npmVersion": "10.5.0",
+			"dist": {
+				"integrity": "sha512-lNZR5PR0HLJPs+kY0y8fy6KroKlYqA5PwsYWpVYWzqZWiL5jgAeUo4s9yLFYjJjzildJ5MsTVMy/xP81Qz6GXg==",
+				"shasum": "50c927d562fda0cb3234fbd75759ba086102a6de",
+				"tarball": "https://registry.npmjs.org/@stylistic/eslint-plugin-jsx/-/eslint-plugin-jsx-1.7.2.tgz",
+				"fileCount": 47,
+				"unpackedSize": 146349,
+				"attestations": {
+					"url": "https://registry.npmjs.org/-/npm/v1/attestations/@stylistic%2feslint-plugin-jsx@1.7.2",
+					"provenance": {
+						"predicateType": "https://slsa.dev/provenance/v1"
+					}
+				},
+				"signatures": [
+					{
+						"keyid": "SHA256:jl3bwswu80PjjokCgh0o2w5c2U4LhQAE57gj9cz1kzA",
+						"sig": "MEUCIQDRqp57BSG0LWDOSVGEN4XGIxXrMRyFV5T7F6XDjAPykAIgLanlAHCCZWP3WJdnO5+eiZ88Vknc3E+xFN2n5lgGEBI="
+					}
+				]
+			},
+			"_npmUser": {
+				"name": "eslint-community-bot",
+				"email": "contact+eslintcbot@eslint.org"
+			},
+			"directories": {},
+			"maintainers": [
+				{
+					"name": "eslint-community-bot",
+					"email": "contact+eslintcbot@eslint.org"
+				},
+				{
+					"name": "antfu",
+					"email": "anthonyfu117@hotmail.com"
+				},
+				{
+					"name": "michaeldeboey",
+					"email": "info@michaeldeboey.be"
+				}
+			],
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/eslint-plugin-jsx_1.7.2_1713213270658_0.9359421672451225"
+			},
+			"_hasShrinkwrap": false,
+			"contributors": []
+		},
+		"1.8.0": {
+			"name": "@stylistic/eslint-plugin-jsx",
+			"version": "1.8.0",
+			"author": {
+				"name": "Anthony Fu",
+				"email": "anthonyfu117@hotmail.com"
+			},
+			"license": "MIT",
+			"homepage": "https://github.com/eslint-stylistic/eslint-stylistic#readme",
+			"repository": {
+				"directory": "packages/eslint-plugin-jsx",
+				"type": "git",
+				"url": "git+https://github.com/eslint-stylistic/eslint-stylistic.git"
+			},
+			"bugs": {
+				"url": "https://github.com/eslint-stylistic/eslint-stylistic/issues"
+			},
+			"exports": {
+				".": {
+					"types": "./dts/index.d.ts",
+					"require": "./dist/index.js",
+					"default": "./dist/index.js"
+				},
+				"./define-config-support": {
+					"types": "./dts/define-config-support.d.ts"
+				},
+				"./rule-options": {
+					"types": "./dts/rule-options.d.ts"
+				},
+				"./rules/jsx-child-element-spacing": "./dist/jsx-child-element-spacing.js",
+				"./rules/jsx-closing-bracket-location": "./dist/jsx-closing-bracket-location.js",
+				"./rules/jsx-closing-tag-location": "./dist/jsx-closing-tag-location.js",
+				"./rules/jsx-curly-brace-presence": "./dist/jsx-curly-brace-presence.js",
+				"./rules/jsx-curly-newline": "./dist/jsx-curly-newline.js",
+				"./rules/jsx-curly-spacing": "./dist/jsx-curly-spacing.js",
+				"./rules/jsx-equals-spacing": "./dist/jsx-equals-spacing.js",
+				"./rules/jsx-first-prop-new-line": "./dist/jsx-first-prop-new-line.js",
+				"./rules/jsx-function-call-newline": "./dist/jsx-function-call-newline.js",
+				"./rules/jsx-indent": "./dist/jsx-indent.js",
+				"./rules/jsx-indent-props": "./dist/jsx-indent-props.js",
+				"./rules/jsx-max-props-per-line": "./dist/jsx-max-props-per-line.js",
+				"./rules/jsx-newline": "./dist/jsx-newline.js",
+				"./rules/jsx-one-expression-per-line": "./dist/jsx-one-expression-per-line.js",
+				"./rules/jsx-pascal-case": "./dist/jsx-pascal-case.js",
+				"./rules/jsx-props-no-multi-spaces": "./dist/jsx-props-no-multi-spaces.js",
+				"./rules/jsx-self-closing-comp": "./dist/jsx-self-closing-comp.js",
+				"./rules/jsx-sort-props": "./dist/jsx-sort-props.js",
+				"./rules/jsx-tag-spacing": "./dist/jsx-tag-spacing.js",
+				"./rules/jsx-wrap-multilines": "./dist/jsx-wrap-multilines.js"
+			},
+			"main": "./dist/index.js",
+			"types": "./dts/index.d.ts",
+			"engines": {
+				"node": "^16.0.0 || >=18.0.0"
+			},
+			"peerDependencies": {
+				"eslint": ">=8.40.0"
+			},
+			"dependencies": {
+				"@types/eslint": "^8.56.10",
+				"estraverse": "^5.3.0",
+				"picomatch": "^4.0.2",
+				"@stylistic/eslint-plugin-js": "^1.8.0"
+			},
+			"devDependencies": {
+				"@babel/eslint-parser": "^7.24.1",
+				"@babel/plugin-syntax-decorators": "^7.24.1",
+				"@babel/plugin-syntax-do-expressions": "^7.24.1",
+				"@babel/plugin-syntax-function-bind": "^7.24.1",
+				"@babel/preset-react": "^7.24.1",
+				"@types/picomatch": "^2.3.3",
+				"@typescript-eslint/parser": "^6.21.0",
+				"babel-eslint": "^10.1.0",
+				"eslint": "^8.57.0",
+				"semver": "^7.6.0",
+				"typescript-eslint-parser": "^22.0.0"
+			},
+			"scripts": {
+				"build": "rimraf dist && rollup --config=rollup.config.mts --configPlugin=rollup-plugin-esbuild",
+				"dev": "rollup --config=rollup.config.mts --configPlugin=rollup-plugin-esbuild --watch"
+			},
+			"description": "JSX stylistic rules for ESLint, migrated from [`eslint-plugin-react`](https://github.com/jsx-eslint/eslint-plugin-react).",
+			"_id": "@stylistic/eslint-plugin-jsx@1.8.0",
+			"_integrity": "sha512-PC7tYXipF03TTilGJva1amAham7qOAFXT5r5jLTY6iIxkFqyb6H7Ljx5pv8d7n98VyIVidOEKY/AP8vNzAFNKg==",
+			"_resolved": "/tmp/32654e778916561b58e6b0151dfb923b/stylistic-eslint-plugin-jsx-1.8.0.tgz",
+			"_from": "file:stylistic-eslint-plugin-jsx-1.8.0.tgz",
+			"_nodeVersion": "20.12.2",
+			"_npmVersion": "10.5.0",
+			"dist": {
+				"integrity": "sha512-PC7tYXipF03TTilGJva1amAham7qOAFXT5r5jLTY6iIxkFqyb6H7Ljx5pv8d7n98VyIVidOEKY/AP8vNzAFNKg==",
+				"shasum": "b3824baa4c34b40983ff57514768ead11e214e6b",
+				"tarball": "https://registry.npmjs.org/@stylistic/eslint-plugin-jsx/-/eslint-plugin-jsx-1.8.0.tgz",
+				"fileCount": 49,
+				"unpackedSize": 151323,
+				"attestations": {
+					"url": "https://registry.npmjs.org/-/npm/v1/attestations/@stylistic%2feslint-plugin-jsx@1.8.0",
+					"provenance": {
+						"predicateType": "https://slsa.dev/provenance/v1"
+					}
+				},
+				"signatures": [
+					{
+						"keyid": "SHA256:jl3bwswu80PjjokCgh0o2w5c2U4LhQAE57gj9cz1kzA",
+						"sig": "MEUCICReND+Zlvtzf8cJDx8P5oK+ZZOwFtDpBl8QhJV4juRhAiEA5e2TEfPrIBp3zXpk9ymrFYYM9Cm05PGSkLisspB24oY="
+					}
+				]
+			},
+			"_npmUser": {
+				"name": "eslint-stylistic-bot",
+				"email": "npm-eslint-stylistic@antfu.me"
+			},
+			"directories": {},
+			"maintainers": [
+				{
+					"name": "eslint-stylistic-bot",
+					"email": "npm-eslint-stylistic@antfu.me"
+				}
+			],
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/eslint-plugin-jsx_1.8.0_1714480730660_0.34043691855898306"
+			},
+			"_hasShrinkwrap": false,
+			"contributors": []
+		},
+		"1.8.1": {
+			"name": "@stylistic/eslint-plugin-jsx",
+			"version": "1.8.1",
+			"author": {
+				"name": "Anthony Fu",
+				"email": "anthonyfu117@hotmail.com"
+			},
+			"license": "MIT",
+			"homepage": "https://github.com/eslint-stylistic/eslint-stylistic#readme",
+			"repository": {
+				"directory": "packages/eslint-plugin-jsx",
+				"type": "git",
+				"url": "git+https://github.com/eslint-stylistic/eslint-stylistic.git"
+			},
+			"bugs": {
+				"url": "https://github.com/eslint-stylistic/eslint-stylistic/issues"
+			},
+			"exports": {
+				".": {
+					"types": "./dts/index.d.ts",
+					"require": "./dist/index.js",
+					"default": "./dist/index.js"
+				},
+				"./define-config-support": {
+					"types": "./dts/define-config-support.d.ts"
+				},
+				"./rule-options": {
+					"types": "./dts/rule-options.d.ts"
+				},
+				"./rules/jsx-child-element-spacing": "./dist/jsx-child-element-spacing.js",
+				"./rules/jsx-closing-bracket-location": "./dist/jsx-closing-bracket-location.js",
+				"./rules/jsx-closing-tag-location": "./dist/jsx-closing-tag-location.js",
+				"./rules/jsx-curly-brace-presence": "./dist/jsx-curly-brace-presence.js",
+				"./rules/jsx-curly-newline": "./dist/jsx-curly-newline.js",
+				"./rules/jsx-curly-spacing": "./dist/jsx-curly-spacing.js",
+				"./rules/jsx-equals-spacing": "./dist/jsx-equals-spacing.js",
+				"./rules/jsx-first-prop-new-line": "./dist/jsx-first-prop-new-line.js",
+				"./rules/jsx-function-call-newline": "./dist/jsx-function-call-newline.js",
+				"./rules/jsx-indent": "./dist/jsx-indent.js",
+				"./rules/jsx-indent-props": "./dist/jsx-indent-props.js",
+				"./rules/jsx-max-props-per-line": "./dist/jsx-max-props-per-line.js",
+				"./rules/jsx-newline": "./dist/jsx-newline.js",
+				"./rules/jsx-one-expression-per-line": "./dist/jsx-one-expression-per-line.js",
+				"./rules/jsx-pascal-case": "./dist/jsx-pascal-case.js",
+				"./rules/jsx-props-no-multi-spaces": "./dist/jsx-props-no-multi-spaces.js",
+				"./rules/jsx-self-closing-comp": "./dist/jsx-self-closing-comp.js",
+				"./rules/jsx-sort-props": "./dist/jsx-sort-props.js",
+				"./rules/jsx-tag-spacing": "./dist/jsx-tag-spacing.js",
+				"./rules/jsx-wrap-multilines": "./dist/jsx-wrap-multilines.js"
+			},
+			"main": "./dist/index.js",
+			"types": "./dts/index.d.ts",
+			"engines": {
+				"node": "^16.0.0 || >=18.0.0"
+			},
+			"peerDependencies": {
+				"eslint": ">=8.40.0"
+			},
+			"dependencies": {
+				"@types/eslint": "^8.56.10",
+				"estraverse": "^5.3.0",
+				"picomatch": "^4.0.2",
+				"@stylistic/eslint-plugin-js": "^1.8.1"
+			},
+			"devDependencies": {
+				"@babel/eslint-parser": "^7.24.1",
+				"@babel/plugin-syntax-decorators": "^7.24.1",
+				"@babel/plugin-syntax-do-expressions": "^7.24.1",
+				"@babel/plugin-syntax-function-bind": "^7.24.1",
+				"@babel/preset-react": "^7.24.1",
+				"@types/picomatch": "^2.3.3",
+				"@typescript-eslint/parser": "^6.21.0",
+				"babel-eslint": "^10.1.0",
+				"eslint": "^8.57.0",
+				"semver": "^7.6.0",
+				"typescript-eslint-parser": "^22.0.0"
+			},
+			"scripts": {
+				"build": "rimraf dist && rollup --config=rollup.config.mts --configPlugin=rollup-plugin-esbuild",
+				"dev": "rollup --config=rollup.config.mts --configPlugin=rollup-plugin-esbuild --watch"
+			},
+			"description": "JSX stylistic rules for ESLint, migrated from [`eslint-plugin-react`](https://github.com/jsx-eslint/eslint-plugin-react).",
+			"_id": "@stylistic/eslint-plugin-jsx@1.8.1",
+			"_integrity": "sha512-k1Eb6rcjMP+mmjvj+vd9y5KUdWn1OBkkPLHXhsrHt5lCDFZxJEs0aVQzE5lpYrtVZVkpc5esTtss/cPJux0lfA==",
+			"_resolved": "/tmp/74130b64e93b4783b84edfe9dc03e8d2/stylistic-eslint-plugin-jsx-1.8.1.tgz",
+			"_from": "file:stylistic-eslint-plugin-jsx-1.8.1.tgz",
+			"_nodeVersion": "20.12.2",
+			"_npmVersion": "10.5.0",
+			"dist": {
+				"integrity": "sha512-k1Eb6rcjMP+mmjvj+vd9y5KUdWn1OBkkPLHXhsrHt5lCDFZxJEs0aVQzE5lpYrtVZVkpc5esTtss/cPJux0lfA==",
+				"shasum": "853acc3fb41b88db12c6f1dd4c0219c87f987e5c",
+				"tarball": "https://registry.npmjs.org/@stylistic/eslint-plugin-jsx/-/eslint-plugin-jsx-1.8.1.tgz",
+				"fileCount": 49,
+				"unpackedSize": 151409,
+				"attestations": {
+					"url": "https://registry.npmjs.org/-/npm/v1/attestations/@stylistic%2feslint-plugin-jsx@1.8.1",
+					"provenance": {
+						"predicateType": "https://slsa.dev/provenance/v1"
+					}
+				},
+				"signatures": [
+					{
+						"keyid": "SHA256:jl3bwswu80PjjokCgh0o2w5c2U4LhQAE57gj9cz1kzA",
+						"sig": "MEUCICbqOT1PMdB0GZzA65alr3QJ0S0FxicFA6cRpuCP4ozXAiEA85/ZDrWhPs2tR1IjMvKkpVPUG9RSL6xzQoZdYuwPpEs="
+					}
+				]
+			},
+			"_npmUser": {
+				"name": "eslint-stylistic-bot",
+				"email": "npm-eslint-stylistic@antfu.me"
+			},
+			"directories": {},
+			"maintainers": [
+				{
+					"name": "eslint-stylistic-bot",
+					"email": "npm-eslint-stylistic@antfu.me"
+				}
+			],
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/eslint-plugin-jsx_1.8.1_1715099367380_0.20442400197623223"
+			},
+			"_hasShrinkwrap": false,
+			"contributors": []
+		},
+		"2.0.0": {
+			"name": "@stylistic/eslint-plugin-jsx",
+			"version": "2.0.0",
+			"author": {
+				"name": "Anthony Fu",
+				"email": "anthonyfu117@hotmail.com"
+			},
+			"license": "MIT",
+			"homepage": "https://github.com/eslint-stylistic/eslint-stylistic#readme",
+			"repository": {
+				"directory": "packages/eslint-plugin-jsx",
+				"type": "git",
+				"url": "git+https://github.com/eslint-stylistic/eslint-stylistic.git"
+			},
+			"bugs": {
+				"url": "https://github.com/eslint-stylistic/eslint-stylistic/issues"
+			},
+			"exports": {
+				".": {
+					"types": "./dts/index.d.ts",
+					"require": "./dist/index.js",
+					"default": "./dist/index.js"
+				},
+				"./define-config-support": {
+					"types": "./dts/define-config-support.d.ts"
+				},
+				"./rule-options": {
+					"types": "./dts/rule-options.d.ts"
+				},
+				"./rules/jsx-child-element-spacing": "./dist/jsx-child-element-spacing.js",
+				"./rules/jsx-closing-bracket-location": "./dist/jsx-closing-bracket-location.js",
+				"./rules/jsx-closing-tag-location": "./dist/jsx-closing-tag-location.js",
+				"./rules/jsx-curly-brace-presence": "./dist/jsx-curly-brace-presence.js",
+				"./rules/jsx-curly-newline": "./dist/jsx-curly-newline.js",
+				"./rules/jsx-curly-spacing": "./dist/jsx-curly-spacing.js",
+				"./rules/jsx-equals-spacing": "./dist/jsx-equals-spacing.js",
+				"./rules/jsx-first-prop-new-line": "./dist/jsx-first-prop-new-line.js",
+				"./rules/jsx-function-call-newline": "./dist/jsx-function-call-newline.js",
+				"./rules/jsx-indent": "./dist/jsx-indent.js",
+				"./rules/jsx-indent-props": "./dist/jsx-indent-props.js",
+				"./rules/jsx-max-props-per-line": "./dist/jsx-max-props-per-line.js",
+				"./rules/jsx-newline": "./dist/jsx-newline.js",
+				"./rules/jsx-one-expression-per-line": "./dist/jsx-one-expression-per-line.js",
+				"./rules/jsx-pascal-case": "./dist/jsx-pascal-case.js",
+				"./rules/jsx-props-no-multi-spaces": "./dist/jsx-props-no-multi-spaces.js",
+				"./rules/jsx-self-closing-comp": "./dist/jsx-self-closing-comp.js",
+				"./rules/jsx-sort-props": "./dist/jsx-sort-props.js",
+				"./rules/jsx-tag-spacing": "./dist/jsx-tag-spacing.js",
+				"./rules/jsx-wrap-multilines": "./dist/jsx-wrap-multilines.js"
+			},
+			"main": "./dist/index.js",
+			"types": "./dts/index.d.ts",
+			"engines": {
+				"node": "^18.18.0 || ^20.9.0 || >=21.1.0"
+			},
+			"peerDependencies": {
+				"eslint": ">=8.40.0"
+			},
+			"dependencies": {
+				"@types/eslint": "^8.56.10",
+				"estraverse": "^5.3.0",
+				"picomatch": "^4.0.2",
+				"@stylistic/eslint-plugin-js": "^2.0.0"
+			},
+			"devDependencies": {
+				"@babel/eslint-parser": "^7.24.5",
+				"@babel/plugin-syntax-decorators": "^7.24.1",
+				"@babel/plugin-syntax-do-expressions": "^7.24.1",
+				"@babel/plugin-syntax-function-bind": "^7.24.1",
+				"@babel/preset-react": "^7.24.1",
+				"@types/picomatch": "^2.3.3",
+				"@typescript-eslint/parser": "^7.8.0",
+				"babel-eslint": "^10.1.0",
+				"eslint": "^9.2.0",
+				"semver": "^7.6.1",
+				"typescript-eslint-parser": "^22.0.0"
+			},
+			"scripts": {
+				"build": "rimraf dist && rollup --config=rollup.config.mts --configPlugin=rollup-plugin-esbuild",
+				"dev": "rollup --config=rollup.config.mts --configPlugin=rollup-plugin-esbuild --watch"
+			},
+			"description": "JSX stylistic rules for ESLint, migrated from [`eslint-plugin-react`](https://github.com/jsx-eslint/eslint-plugin-react).",
+			"_id": "@stylistic/eslint-plugin-jsx@2.0.0",
+			"_integrity": "sha512-XwsqawXfCvFdU8iu217xfiVIDXq3xF6zRpmGTrgmnXP/FxBcY9shDz9sZYGwNzEgiBeS14nL1vRuO9NWkYutoA==",
+			"_resolved": "/tmp/ab5cdb79aaaa7c26e0cc2787154dd9dd/stylistic-eslint-plugin-jsx-2.0.0.tgz",
+			"_from": "file:stylistic-eslint-plugin-jsx-2.0.0.tgz",
+			"_nodeVersion": "20.12.2",
+			"_npmVersion": "10.5.0",
+			"dist": {
+				"integrity": "sha512-XwsqawXfCvFdU8iu217xfiVIDXq3xF6zRpmGTrgmnXP/FxBcY9shDz9sZYGwNzEgiBeS14nL1vRuO9NWkYutoA==",
+				"shasum": "3f472b51888fca67f7184573b55577b1ccb66f29",
+				"tarball": "https://registry.npmjs.org/@stylistic/eslint-plugin-jsx/-/eslint-plugin-jsx-2.0.0.tgz",
+				"fileCount": 49,
+				"unpackedSize": 151460,
+				"attestations": {
+					"url": "https://registry.npmjs.org/-/npm/v1/attestations/@stylistic%2feslint-plugin-jsx@2.0.0",
+					"provenance": {
+						"predicateType": "https://slsa.dev/provenance/v1"
+					}
+				},
+				"signatures": [
+					{
+						"keyid": "SHA256:jl3bwswu80PjjokCgh0o2w5c2U4LhQAE57gj9cz1kzA",
+						"sig": "MEUCIQDLg0NfvfNpyd26eYgGiDHTMhDUTf4j5407peUFgIuLHAIgWmUXj9Yedk6fFbNeTWPomh6YUPmR3LtjR2Xa1VDSpf4="
+					}
+				]
+			},
+			"_npmUser": {
+				"name": "eslint-stylistic-bot",
+				"email": "npm-eslint-stylistic@antfu.me"
+			},
+			"directories": {},
+			"maintainers": [
+				{
+					"name": "eslint-stylistic-bot",
+					"email": "npm-eslint-stylistic@antfu.me"
+				}
+			],
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/eslint-plugin-jsx_2.0.0_1715176534720_0.633553623555273"
+			},
+			"_hasShrinkwrap": false,
+			"contributors": []
+		},
+		"2.1.0": {
+			"name": "@stylistic/eslint-plugin-jsx",
+			"version": "2.1.0",
+			"author": {
+				"name": "Anthony Fu",
+				"email": "anthonyfu117@hotmail.com"
+			},
+			"license": "MIT",
+			"homepage": "https://github.com/eslint-stylistic/eslint-stylistic#readme",
+			"repository": {
+				"directory": "packages/eslint-plugin-jsx",
+				"type": "git",
+				"url": "git+https://github.com/eslint-stylistic/eslint-stylistic.git"
+			},
+			"bugs": {
+				"url": "https://github.com/eslint-stylistic/eslint-stylistic/issues"
+			},
+			"exports": {
+				".": {
+					"types": "./dts/index.d.ts",
+					"require": "./dist/index.js",
+					"default": "./dist/index.js"
+				},
+				"./define-config-support": {
+					"types": "./dts/define-config-support.d.ts"
+				},
+				"./rule-options": {
+					"types": "./dts/rule-options.d.ts"
+				},
+				"./rules/jsx-child-element-spacing": "./dist/jsx-child-element-spacing.js",
+				"./rules/jsx-closing-bracket-location": "./dist/jsx-closing-bracket-location.js",
+				"./rules/jsx-closing-tag-location": "./dist/jsx-closing-tag-location.js",
+				"./rules/jsx-curly-brace-presence": "./dist/jsx-curly-brace-presence.js",
+				"./rules/jsx-curly-newline": "./dist/jsx-curly-newline.js",
+				"./rules/jsx-curly-spacing": "./dist/jsx-curly-spacing.js",
+				"./rules/jsx-equals-spacing": "./dist/jsx-equals-spacing.js",
+				"./rules/jsx-first-prop-new-line": "./dist/jsx-first-prop-new-line.js",
+				"./rules/jsx-function-call-newline": "./dist/jsx-function-call-newline.js",
+				"./rules/jsx-indent": "./dist/jsx-indent.js",
+				"./rules/jsx-indent-props": "./dist/jsx-indent-props.js",
+				"./rules/jsx-max-props-per-line": "./dist/jsx-max-props-per-line.js",
+				"./rules/jsx-newline": "./dist/jsx-newline.js",
+				"./rules/jsx-one-expression-per-line": "./dist/jsx-one-expression-per-line.js",
+				"./rules/jsx-pascal-case": "./dist/jsx-pascal-case.js",
+				"./rules/jsx-props-no-multi-spaces": "./dist/jsx-props-no-multi-spaces.js",
+				"./rules/jsx-self-closing-comp": "./dist/jsx-self-closing-comp.js",
+				"./rules/jsx-sort-props": "./dist/jsx-sort-props.js",
+				"./rules/jsx-tag-spacing": "./dist/jsx-tag-spacing.js",
+				"./rules/jsx-wrap-multilines": "./dist/jsx-wrap-multilines.js"
+			},
+			"main": "./dist/index.js",
+			"types": "./dts/index.d.ts",
+			"engines": {
+				"node": "^18.18.0 || ^20.9.0 || >=21.1.0"
+			},
+			"peerDependencies": {
+				"eslint": ">=8.40.0"
+			},
+			"dependencies": {
+				"@types/eslint": "^8.56.10",
+				"estraverse": "^5.3.0",
+				"picomatch": "^4.0.2",
+				"@stylistic/eslint-plugin-js": "^2.1.0"
+			},
+			"devDependencies": {
+				"@babel/eslint-parser": "^7.24.5",
+				"@babel/plugin-syntax-decorators": "^7.24.1",
+				"@babel/plugin-syntax-do-expressions": "^7.24.1",
+				"@babel/plugin-syntax-function-bind": "^7.24.1",
+				"@babel/preset-react": "^7.24.1",
+				"@types/picomatch": "^2.3.3",
+				"@typescript-eslint/parser": "^7.8.0",
+				"babel-eslint": "^10.1.0",
+				"eslint": "^9.2.0",
+				"semver": "^7.6.1",
+				"typescript-eslint-parser": "^22.0.0"
+			},
+			"scripts": {
+				"build": "rimraf dist && rollup --config=rollup.config.mts --configPlugin=rollup-plugin-esbuild",
+				"dev": "rollup --config=rollup.config.mts --configPlugin=rollup-plugin-esbuild --watch"
+			},
+			"description": "JSX stylistic rules for ESLint, migrated from [`eslint-plugin-react`](https://github.com/jsx-eslint/eslint-plugin-react).",
+			"_id": "@stylistic/eslint-plugin-jsx@2.1.0",
+			"_integrity": "sha512-mMD7S+IndZo2vxmwpHVTCwx2O1VdtE5tmpeNwgaEcXODzWV1WTWpnsc/PECQKIr/mkLPFWiSIqcuYNhQ/3l6AQ==",
+			"_resolved": "/tmp/dfba546d42f9e2352df3515e834a0eaa/stylistic-eslint-plugin-jsx-2.1.0.tgz",
+			"_from": "file:stylistic-eslint-plugin-jsx-2.1.0.tgz",
+			"_nodeVersion": "20.12.2",
+			"_npmVersion": "10.5.0",
+			"dist": {
+				"integrity": "sha512-mMD7S+IndZo2vxmwpHVTCwx2O1VdtE5tmpeNwgaEcXODzWV1WTWpnsc/PECQKIr/mkLPFWiSIqcuYNhQ/3l6AQ==",
+				"shasum": "ce59d90bc47bc7ecc43574440b19b69d3b0dc5f1",
+				"tarball": "https://registry.npmjs.org/@stylistic/eslint-plugin-jsx/-/eslint-plugin-jsx-2.1.0.tgz",
+				"fileCount": 49,
+				"unpackedSize": 151460,
+				"attestations": {
+					"url": "https://registry.npmjs.org/-/npm/v1/attestations/@stylistic%2feslint-plugin-jsx@2.1.0",
+					"provenance": {
+						"predicateType": "https://slsa.dev/provenance/v1"
+					}
+				},
+				"signatures": [
+					{
+						"keyid": "SHA256:jl3bwswu80PjjokCgh0o2w5c2U4LhQAE57gj9cz1kzA",
+						"sig": "MEUCIGo9IyqE8LTy8i1HpVK2GiYxveuf8frCSblXO+bedSjHAiEAr9Cy+dtni9WIrz48OPHlvrieuyhLxRAn7FPdOyJPA+w="
+					}
+				]
+			},
+			"_npmUser": {
+				"name": "eslint-stylistic-bot",
+				"email": "npm-eslint-stylistic@antfu.me"
+			},
+			"directories": {},
+			"maintainers": [
+				{
+					"name": "eslint-stylistic-bot",
+					"email": "npm-eslint-stylistic@antfu.me"
+				}
+			],
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/eslint-plugin-jsx_2.1.0_1715247228344_0.4937811194846218"
+			},
+			"_hasShrinkwrap": false,
+			"contributors": []
+		}
+	},
+	"time": {
+		"created": "2023-10-09T06:41:31.539Z",
+		"0.0.7": "2023-10-09T06:41:31.908Z",
+		"modified": "2024-05-09T09:33:48.998Z",
+		"0.0.8": "2023-10-09T06:48:06.300Z",
+		"0.0.9": "2023-10-13T00:49:29.692Z",
+		"0.0.10": "2023-10-13T13:27:10.368Z",
+		"0.0.11": "2023-10-13T13:42:32.526Z",
+		"0.0.12": "2023-10-17T18:28:58.593Z",
+		"0.1.0": "2023-10-19T19:41:31.996Z",
+		"0.1.1": "2023-10-23T02:39:06.362Z",
+		"0.1.2": "2023-10-29T04:14:18.387Z",
+		"1.0.0": "2023-11-02T13:41:37.113Z",
+		"1.0.1": "2023-11-07T14:39:11.271Z",
+		"1.1.0-beta.0": "2023-11-11T10:38:21.712Z",
+		"1.1.0": "2023-11-11T12:10:37.896Z",
+		"1.2.0": "2023-11-13T16:01:19.296Z",
+		"1.3.0": "2023-11-17T04:01:39.602Z",
+		"1.3.1": "2023-11-17T04:19:31.466Z",
+		"1.3.2": "2023-11-17T13:31:56.026Z",
+		"1.3.3": "2023-11-17T23:28:12.294Z",
+		"1.4.0": "2023-11-18T16:48:19.906Z",
+		"1.4.1": "2023-11-23T11:20:01.107Z",
+		"1.5.0-beta.0": "2023-12-03T15:18:05.383Z",
+		"1.5.0": "2023-12-05T11:33:35.658Z",
+		"1.5.1": "2023-12-11T12:31:35.790Z",
+		"1.5.3": "2024-01-02T13:36:02.591Z",
+		"1.5.4": "2024-01-17T10:05:17.249Z",
+		"1.6.0": "2024-02-05T16:35:07.235Z",
+		"1.6.1": "2024-02-08T19:18:19.108Z",
+		"1.6.2": "2024-02-15T11:47:03.368Z",
+		"1.6.3": "2024-02-29T13:39:39.278Z",
+		"1.7.0": "2024-03-14T10:17:33.537Z",
+		"1.7.2": "2024-04-15T20:34:30.805Z",
+		"1.8.0": "2024-04-30T12:38:50.815Z",
+		"1.8.1": "2024-05-07T16:29:27.531Z",
+		"2.0.0": "2024-05-08T13:55:34.880Z",
+		"2.1.0": "2024-05-09T09:33:48.528Z"
+	},
+	"users": {},
+	"dist-tags": {
+		"latest": "2.1.0",
+		"beta": "1.5.0-beta.0"
+	},
+	"_uplinks": {
+		"npmjs": {
+			"etag": "W/\"5342b3b48f3e8481a046d838d4deb6c2\"",
+			"fetched": 1715345903060
+		}
+	},
+	"_distfiles": {
+		"eslint-plugin-jsx-0.0.7.tgz": {
+			"url": "https://registry.npmjs.org/@stylistic/eslint-plugin-jsx/-/eslint-plugin-jsx-0.0.7.tgz",
+			"sha": "930d5ca0972eb76de680fb763f47b447739aa17f",
+			"registry": "npmjs"
+		},
+		"eslint-plugin-jsx-0.0.8.tgz": {
+			"url": "https://registry.npmjs.org/@stylistic/eslint-plugin-jsx/-/eslint-plugin-jsx-0.0.8.tgz",
+			"sha": "5e222c9970e519eafe73523064385fbf5e88ea03",
+			"registry": "npmjs"
+		},
+		"eslint-plugin-jsx-0.0.9.tgz": {
+			"url": "https://registry.npmjs.org/@stylistic/eslint-plugin-jsx/-/eslint-plugin-jsx-0.0.9.tgz",
+			"sha": "411a16af331b00b6f7f80a422bde4da2187dbf03",
+			"registry": "npmjs"
+		},
+		"eslint-plugin-jsx-0.0.10.tgz": {
+			"url": "https://registry.npmjs.org/@stylistic/eslint-plugin-jsx/-/eslint-plugin-jsx-0.0.10.tgz",
+			"sha": "4e8d01af52eb1633fa84b6e0ea4e0603fb0243bf",
+			"registry": "npmjs"
+		},
+		"eslint-plugin-jsx-0.0.11.tgz": {
+			"url": "https://registry.npmjs.org/@stylistic/eslint-plugin-jsx/-/eslint-plugin-jsx-0.0.11.tgz",
+			"sha": "1167f938fe12e1c430ab03585222330a56aba09b",
+			"registry": "npmjs"
+		},
+		"eslint-plugin-jsx-0.0.12.tgz": {
+			"url": "https://registry.npmjs.org/@stylistic/eslint-plugin-jsx/-/eslint-plugin-jsx-0.0.12.tgz",
+			"sha": "d66ce82ce5cf7f97bceeaca935dc782719e9915a",
+			"registry": "npmjs"
+		},
+		"eslint-plugin-jsx-0.1.0.tgz": {
+			"url": "https://registry.npmjs.org/@stylistic/eslint-plugin-jsx/-/eslint-plugin-jsx-0.1.0.tgz",
+			"sha": "fb03225f93e23cca6fe29d99dcca1a3deed40b3e",
+			"registry": "npmjs"
+		},
+		"eslint-plugin-jsx-0.1.1.tgz": {
+			"url": "https://registry.npmjs.org/@stylistic/eslint-plugin-jsx/-/eslint-plugin-jsx-0.1.1.tgz",
+			"sha": "1480589f25bbb4f035e8dc5421e648f5d843e1f2",
+			"registry": "npmjs"
+		},
+		"eslint-plugin-jsx-0.1.2.tgz": {
+			"url": "https://registry.npmjs.org/@stylistic/eslint-plugin-jsx/-/eslint-plugin-jsx-0.1.2.tgz",
+			"sha": "5d9fb2eb048be24a7f0428ff333ea8a6b618cab0",
+			"registry": "npmjs"
+		},
+		"eslint-plugin-jsx-1.0.0.tgz": {
+			"url": "https://registry.npmjs.org/@stylistic/eslint-plugin-jsx/-/eslint-plugin-jsx-1.0.0.tgz",
+			"sha": "b32c3b77b4a2a0368ad4cf6f8c3d8dfe33d5f3f6",
+			"registry": "npmjs"
+		},
+		"eslint-plugin-jsx-1.0.1.tgz": {
+			"url": "https://registry.npmjs.org/@stylistic/eslint-plugin-jsx/-/eslint-plugin-jsx-1.0.1.tgz",
+			"sha": "75cbfc211ca21fa97874f0a82f7a2071e421b832",
+			"registry": "npmjs"
+		},
+		"eslint-plugin-jsx-1.1.0-beta.0.tgz": {
+			"url": "https://registry.npmjs.org/@stylistic/eslint-plugin-jsx/-/eslint-plugin-jsx-1.1.0-beta.0.tgz",
+			"sha": "25237ed0635dbbdc93617712d31bc411f302c6d2",
+			"registry": "npmjs"
+		},
+		"eslint-plugin-jsx-1.1.0.tgz": {
+			"url": "https://registry.npmjs.org/@stylistic/eslint-plugin-jsx/-/eslint-plugin-jsx-1.1.0.tgz",
+			"sha": "2d1c4f01a0e46ad08fe36d90b19cf64533122148",
+			"registry": "npmjs"
+		},
+		"eslint-plugin-jsx-1.2.0.tgz": {
+			"url": "https://registry.npmjs.org/@stylistic/eslint-plugin-jsx/-/eslint-plugin-jsx-1.2.0.tgz",
+			"sha": "7515729cb4a40bec29f832ff39ce07f4ceb53702",
+			"registry": "npmjs"
+		},
+		"eslint-plugin-jsx-1.3.0.tgz": {
+			"url": "https://registry.npmjs.org/@stylistic/eslint-plugin-jsx/-/eslint-plugin-jsx-1.3.0.tgz",
+			"sha": "a44010e89aca192df153fa094b2adf1e374abb84",
+			"registry": "npmjs"
+		},
+		"eslint-plugin-jsx-1.3.1.tgz": {
+			"url": "https://registry.npmjs.org/@stylistic/eslint-plugin-jsx/-/eslint-plugin-jsx-1.3.1.tgz",
+			"sha": "252db3fd6206de47d76e45ecb7c92f30d1b0ed2a",
+			"registry": "npmjs"
+		},
+		"eslint-plugin-jsx-1.3.2.tgz": {
+			"url": "https://registry.npmjs.org/@stylistic/eslint-plugin-jsx/-/eslint-plugin-jsx-1.3.2.tgz",
+			"sha": "ad202be2c792463f3188197b13c0b7c4f38ae399",
+			"registry": "npmjs"
+		},
+		"eslint-plugin-jsx-1.3.3.tgz": {
+			"url": "https://registry.npmjs.org/@stylistic/eslint-plugin-jsx/-/eslint-plugin-jsx-1.3.3.tgz",
+			"sha": "9bd9a50e957c9392f84a402b6c3c96300f3d45b5",
+			"registry": "npmjs"
+		},
+		"eslint-plugin-jsx-1.4.0.tgz": {
+			"url": "https://registry.npmjs.org/@stylistic/eslint-plugin-jsx/-/eslint-plugin-jsx-1.4.0.tgz",
+			"sha": "82c7c1a81b0b67c787e28e8c135052bc2f089fd7",
+			"registry": "npmjs"
+		},
+		"eslint-plugin-jsx-1.4.1.tgz": {
+			"url": "https://registry.npmjs.org/@stylistic/eslint-plugin-jsx/-/eslint-plugin-jsx-1.4.1.tgz",
+			"sha": "b25ab2f2fc1d35d25c3989c158846a1a493f213e",
+			"registry": "npmjs"
+		},
+		"eslint-plugin-jsx-1.5.0-beta.0.tgz": {
+			"url": "https://registry.npmjs.org/@stylistic/eslint-plugin-jsx/-/eslint-plugin-jsx-1.5.0-beta.0.tgz",
+			"sha": "9e972efb8cba57afc30f01879c7c5f425d08b2ac",
+			"registry": "npmjs"
+		},
+		"eslint-plugin-jsx-1.5.0.tgz": {
+			"url": "https://registry.npmjs.org/@stylistic/eslint-plugin-jsx/-/eslint-plugin-jsx-1.5.0.tgz",
+			"sha": "f8fcb23dcc75b455650426887b24711c4831bee6",
+			"registry": "npmjs"
+		},
+		"eslint-plugin-jsx-1.5.1.tgz": {
+			"url": "https://registry.npmjs.org/@stylistic/eslint-plugin-jsx/-/eslint-plugin-jsx-1.5.1.tgz",
+			"sha": "c382de3514af708b002df20ae97a71e34c361cbd",
+			"registry": "npmjs"
+		},
+		"eslint-plugin-jsx-1.5.3.tgz": {
+			"url": "https://registry.npmjs.org/@stylistic/eslint-plugin-jsx/-/eslint-plugin-jsx-1.5.3.tgz",
+			"sha": "ec152b94853c187b521d2d3d1e0b93bb36677d77",
+			"registry": "npmjs"
+		},
+		"eslint-plugin-jsx-1.5.4.tgz": {
+			"url": "https://registry.npmjs.org/@stylistic/eslint-plugin-jsx/-/eslint-plugin-jsx-1.5.4.tgz",
+			"sha": "be661004e7a775c3ca60b4cf4fa1bfe4d2df1f0a",
+			"registry": "npmjs"
+		},
+		"eslint-plugin-jsx-1.6.0.tgz": {
+			"url": "https://registry.npmjs.org/@stylistic/eslint-plugin-jsx/-/eslint-plugin-jsx-1.6.0.tgz",
+			"sha": "4aad037bb680cad44b60c135f198494a7ced5651",
+			"registry": "npmjs"
+		},
+		"eslint-plugin-jsx-1.6.1.tgz": {
+			"url": "https://registry.npmjs.org/@stylistic/eslint-plugin-jsx/-/eslint-plugin-jsx-1.6.1.tgz",
+			"sha": "9ac17d1d0600038f03222a1c52c6677ebd523790",
+			"registry": "npmjs"
+		},
+		"eslint-plugin-jsx-1.6.2.tgz": {
+			"url": "https://registry.npmjs.org/@stylistic/eslint-plugin-jsx/-/eslint-plugin-jsx-1.6.2.tgz",
+			"sha": "846f6ae87feb089e3aa0f1c1adbb018b56fc5ea4",
+			"registry": "npmjs"
+		},
+		"eslint-plugin-jsx-1.6.3.tgz": {
+			"url": "https://registry.npmjs.org/@stylistic/eslint-plugin-jsx/-/eslint-plugin-jsx-1.6.3.tgz",
+			"sha": "6560eca8de9ada77d3b4eeb4a6805b49dc4b7c29",
+			"registry": "npmjs"
+		},
+		"eslint-plugin-jsx-1.7.0.tgz": {
+			"url": "https://registry.npmjs.org/@stylistic/eslint-plugin-jsx/-/eslint-plugin-jsx-1.7.0.tgz",
+			"sha": "6f85a4ee68af0ad0c94dad000631eea06fc4103f",
+			"registry": "npmjs"
+		},
+		"eslint-plugin-jsx-1.7.2.tgz": {
+			"url": "https://registry.npmjs.org/@stylistic/eslint-plugin-jsx/-/eslint-plugin-jsx-1.7.2.tgz",
+			"sha": "50c927d562fda0cb3234fbd75759ba086102a6de",
+			"registry": "npmjs"
+		},
+		"eslint-plugin-jsx-1.8.0.tgz": {
+			"url": "https://registry.npmjs.org/@stylistic/eslint-plugin-jsx/-/eslint-plugin-jsx-1.8.0.tgz",
+			"sha": "b3824baa4c34b40983ff57514768ead11e214e6b",
+			"registry": "npmjs"
+		},
+		"eslint-plugin-jsx-1.8.1.tgz": {
+			"url": "https://registry.npmjs.org/@stylistic/eslint-plugin-jsx/-/eslint-plugin-jsx-1.8.1.tgz",
+			"sha": "853acc3fb41b88db12c6f1dd4c0219c87f987e5c",
+			"registry": "npmjs"
+		},
+		"eslint-plugin-jsx-2.0.0.tgz": {
+			"url": "https://registry.npmjs.org/@stylistic/eslint-plugin-jsx/-/eslint-plugin-jsx-2.0.0.tgz",
+			"sha": "3f472b51888fca67f7184573b55577b1ccb66f29",
+			"registry": "npmjs"
+		},
+		"eslint-plugin-jsx-2.1.0.tgz": {
+			"url": "https://registry.npmjs.org/@stylistic/eslint-plugin-jsx/-/eslint-plugin-jsx-2.1.0.tgz",
+			"sha": "ce59d90bc47bc7ecc43574440b19b69d3b0dc5f1",
+			"registry": "npmjs"
+		}
+	},
+	"_attachments": {
+		"eslint-plugin-jsx-2.1.0.tgz": {
+			"shasum": "ce59d90bc47bc7ecc43574440b19b69d3b0dc5f1"
+		}
+	},
+	"_rev": "2-c613c689cd1510a2",
+	"_id": "@stylistic/eslint-plugin-jsx",
+	"readme": "# @stylistic/eslint-plugin-jsx\n\nJSX stylistic rules for ESLint, migrated from [`eslint-plugin-react`](https://github.com/jsx-eslint/eslint-plugin-react).\n\nCredits to all contributors who have committed to the original rules.\n\nCheck the [documentation](https://eslint.style/packages/jsx) for more details."
+}

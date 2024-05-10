@@ -82019,6 +82019,217 @@
 			"_hasShrinkwrap": false,
 			"contributors": []
 		},
+		"19.0.2": {
+			"name": "@nrwl/detox",
+			"version": "19.0.2",
+			"private": false,
+			"description": "The Nx Plugin for Detox contains executors and generators for allowing your workspace to use the powerful Detox integration testing capabilities.",
+			"keywords": [
+				"Monorepo",
+				"React",
+				"Web",
+				"Native",
+				"CLI",
+				"Detox"
+			],
+			"homepage": "https://nx.dev",
+			"bugs": {
+				"url": "https://github.com/nrwl/nx/issues"
+			},
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/nrwl/nx.git",
+				"directory": "packages-legacy/detox"
+			},
+			"license": "MIT",
+			"author": {
+				"name": "Victor Savkin"
+			},
+			"main": "./index.js",
+			"types": "index.d.ts",
+			"dependencies": {
+				"@nx/detox": "19.0.2"
+			},
+			"builders": "./executors.json",
+			"schematics": "./generators.json",
+			"publishConfig": {
+				"access": "public"
+			},
+			"nx-migrations": {
+				"migrations": "@nx/detox/migrations.json"
+			},
+			"type": "commonjs",
+			"_id": "@nrwl/detox@19.0.2",
+			"gitHead": "61861be0f7335082d5e0b44fa96ff3f6d49774ad",
+			"_nodeVersion": "18.20.2",
+			"_npmVersion": "10.5.0",
+			"dist": {
+				"integrity": "sha512-cnhfcfgnJv1WZXMDdf/Wa8Ar8hOaxuNe0j2I1W+wfMxWD7hBd8pnwpV90GMM8TnViHjQhIq5yjrjsPfUUqtEjw==",
+				"shasum": "d08cb18d5b7bf1e0a6185ba333e957f33ffa881d",
+				"tarball": "https://registry.npmjs.org/@nrwl/detox/-/detox-19.0.2.tgz",
+				"fileCount": 7,
+				"unpackedSize": 3504,
+				"attestations": {
+					"url": "https://registry.npmjs.org/-/npm/v1/attestations/@nrwl%2fdetox@19.0.2",
+					"provenance": {
+						"predicateType": "https://slsa.dev/provenance/v1"
+					}
+				},
+				"signatures": [
+					{
+						"keyid": "SHA256:jl3bwswu80PjjokCgh0o2w5c2U4LhQAE57gj9cz1kzA",
+						"sig": "MEYCIQC5w4ecWYZAoZinBzbgEKWn4DQXxBgyXCppBKdS8Z/rLwIhAOu2hjramwQTc9Gvp0nkLbpucwjFu5QK1gNn1G8m+ZDS"
+					}
+				]
+			},
+			"_npmUser": {
+				"name": "nrwl-jason",
+				"email": "jason@nrwl.io"
+			},
+			"directories": {},
+			"maintainers": [
+				{
+					"name": "jameshenry",
+					"email": "james@henry.sc"
+				},
+				{
+					"name": "meeroslav",
+					"email": "missing.manual@gmail.com"
+				},
+				{
+					"name": "altan-nrwl",
+					"email": "altan@nrwl.io"
+				},
+				{
+					"name": "juristr",
+					"email": "juri.strumpflohner@gmail.com"
+				},
+				{
+					"name": "jack-nrwl",
+					"email": "jack@nrwl.io"
+				},
+				{
+					"name": "nrwl-jason",
+					"email": "jason@nrwl.io"
+				},
+				{
+					"name": "nrwlowner",
+					"email": "hello@nrwl.io"
+				}
+			],
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/detox_19.0.2_1715263097911_0.5349456429539927"
+			},
+			"_hasShrinkwrap": false,
+			"contributors": []
+		},
+		"19.1.0-canary.20240510-1a85787": {
+			"name": "@nrwl/detox",
+			"version": "19.1.0-canary.20240510-1a85787",
+			"private": false,
+			"description": "The Nx Plugin for Detox contains executors and generators for allowing your workspace to use the powerful Detox integration testing capabilities.",
+			"keywords": [
+				"Monorepo",
+				"React",
+				"Web",
+				"Native",
+				"CLI",
+				"Detox"
+			],
+			"homepage": "https://nx.dev",
+			"bugs": {
+				"url": "https://github.com/nrwl/nx/issues"
+			},
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/nrwl/nx.git",
+				"directory": "packages-legacy/detox"
+			},
+			"license": "MIT",
+			"author": {
+				"name": "Victor Savkin"
+			},
+			"main": "./index.js",
+			"types": "index.d.ts",
+			"dependencies": {
+				"@nx/detox": "19.1.0-canary.20240510-1a85787"
+			},
+			"builders": "./executors.json",
+			"schematics": "./generators.json",
+			"publishConfig": {
+				"access": "public"
+			},
+			"nx-migrations": {
+				"migrations": "@nx/detox/migrations.json"
+			},
+			"type": "commonjs",
+			"_id": "@nrwl/detox@19.1.0-canary.20240510-1a85787",
+			"readmeFilename": "README.md",
+			"gitHead": "1a85787e1c310d8409d99361800ef30e81938795",
+			"_nodeVersion": "18.20.2",
+			"_npmVersion": "10.5.0",
+			"dist": {
+				"integrity": "sha512-0Kq3lN7p7vVjIAZSpFvXiyNtJjb3izr26WdE1T+Ot0aQhkOIc9GKiH7I51n/okBSBwOLegRbWoPCoE2d+2tKiQ==",
+				"shasum": "03ed96180642b932c80a56e5e9e2874a0bc9eafe",
+				"tarball": "https://registry.npmjs.org/@nrwl/detox/-/detox-19.1.0-canary.20240510-1a85787.tgz",
+				"fileCount": 7,
+				"unpackedSize": 3552,
+				"attestations": {
+					"url": "https://registry.npmjs.org/-/npm/v1/attestations/@nrwl%2fdetox@19.1.0-canary.20240510-1a85787",
+					"provenance": {
+						"predicateType": "https://slsa.dev/provenance/v1"
+					}
+				},
+				"signatures": [
+					{
+						"keyid": "SHA256:jl3bwswu80PjjokCgh0o2w5c2U4LhQAE57gj9cz1kzA",
+						"sig": "MEQCIExfQJl7IIp0+u3OBNveckle3WJUEhjvGQWFkmQQ07SwAiBK5ZKlI5Eywo6LzDJ83muINJnQdHQVMfqN66ogwIgPBw=="
+					}
+				]
+			},
+			"_npmUser": {
+				"name": "nrwl-jason",
+				"email": "jason@nrwl.io"
+			},
+			"directories": {},
+			"maintainers": [
+				{
+					"name": "jameshenry",
+					"email": "james@henry.sc"
+				},
+				{
+					"name": "meeroslav",
+					"email": "missing.manual@gmail.com"
+				},
+				{
+					"name": "altan-nrwl",
+					"email": "altan@nrwl.io"
+				},
+				{
+					"name": "juristr",
+					"email": "juri.strumpflohner@gmail.com"
+				},
+				{
+					"name": "jack-nrwl",
+					"email": "jack@nrwl.io"
+				},
+				{
+					"name": "nrwl-jason",
+					"email": "jason@nrwl.io"
+				},
+				{
+					"name": "nrwlowner",
+					"email": "hello@nrwl.io"
+				}
+			],
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/detox_19.1.0-canary.20240510-1a85787_1715311033008_0.2267875083985964"
+			},
+			"_hasShrinkwrap": false,
+			"contributors": []
+		},
 		"20.0.0": {
 			"name": "@nrwl/detox",
 			"version": "20.0.0",
@@ -82061,9 +82272,9 @@
 			"type": "commonjs",
 			"_id": "@nrwl/detox@20.0.0",
 			"readmeFilename": "README.md",
-			"gitHead": "792f73081571dea27da52bddf6184313bb7b5737",
-			"_nodeVersion": "20.9.0",
-			"_npmVersion": "10.1.0",
+			"gitHead": "86106e2454080d81eec30be2268bd93f9c6cfcad",
+			"_nodeVersion": "18.18.0",
+			"_npmVersion": "9.8.1",
 			"dist": {
 				"integrity": "sha512-R63tjPtdWSjetKrklndmX6XiAhhrxXMrRnPyLpT7RXYwGyFakuGWCCbuAOtHb02iQejZPnJlvKRhX/BPbv0CpQ==",
 				"shasum": "0fadcd2f2e8a3416d5105f65de94b8fb4ed0af7a",
@@ -82075,7 +82286,7 @@
 	"time": {
 		"created": "2021-07-03T01:44:28.730Z",
 		"12.4.0-rc.1": "2021-07-03T01:44:28.900Z",
-		"modified": "2024-05-09T08:20:04.461Z",
+		"modified": "2024-05-10T12:57:11.478Z",
 		"12.4.0-rc.2": "2021-07-03T01:55:48.027Z",
 		"12.5.0-rc.1": "2021-07-03T02:22:03.592Z",
 		"12.5.0-rc.2": "2021-07-05T16:13:30.394Z",
@@ -82914,19 +83125,21 @@
 		"19.0.1": "2024-05-07T22:27:35.148Z",
 		"19.1.0-canary.20240508-fd78152": "2024-05-08T03:17:28.975Z",
 		"19.1.0-canary.20240509-8f705e3": "2024-05-09T03:16:46.322Z",
-		"20.0.0": "2024-05-09T08:20:04.461Z"
+		"19.0.2": "2024-05-09T13:58:18.057Z",
+		"19.1.0-canary.20240510-1a85787": "2024-05-10T03:17:13.138Z",
+		"20.0.0": "2024-05-10T12:57:11.478Z"
 	},
 	"users": {},
 	"dist-tags": {
 		"next": "19.0.0-rc.2",
 		"latest": "20.0.0",
 		"previous": "18.3.4",
-		"canary": "19.1.0-canary.20240509-8f705e3"
+		"canary": "19.1.0-canary.20240510-1a85787"
 	},
 	"_uplinks": {
 		"npmjs": {
-			"etag": "W/\"05436a2d2c34729f4a6651aba984b9ab\"",
-			"fetched": 1715242804135
+			"etag": "W/\"0edfa45ea65b148557501302f3650795\"",
+			"fetched": 1715345830547
 		}
 	},
 	"_distfiles": {
@@ -87124,6 +87337,16 @@
 			"url": "https://registry.npmjs.org/@nrwl/detox/-/detox-19.1.0-canary.20240509-8f705e3.tgz",
 			"sha": "3b06d2bc64aa743b9aabd6e0178b1401e6ede3a8",
 			"registry": "npmjs"
+		},
+		"detox-19.0.2.tgz": {
+			"url": "https://registry.npmjs.org/@nrwl/detox/-/detox-19.0.2.tgz",
+			"sha": "d08cb18d5b7bf1e0a6185ba333e957f33ffa881d",
+			"registry": "npmjs"
+		},
+		"detox-19.1.0-canary.20240510-1a85787.tgz": {
+			"url": "https://registry.npmjs.org/@nrwl/detox/-/detox-19.1.0-canary.20240510-1a85787.tgz",
+			"sha": "03ed96180642b932c80a56e5e9e2874a0bc9eafe",
+			"registry": "npmjs"
 		}
 	},
 	"_attachments": {
@@ -87132,7 +87355,7 @@
 			"version": "20.0.0"
 		}
 	},
-	"_rev": "4-fe167c2812561a27",
+	"_rev": "4-a7985c13b6c61565",
 	"_id": "@nrwl/detox",
 	"readme": "## @nrwl/detox has been renamed to @nx/detox!\n\n@nrwl/detox has been renamed to [@nx/detox](https://www.npmjs.com/package/@nx/detox). Please use that instead.\n\n[Read more here](https://nx.dev/recipes/other/rescope)\n\n@nrwl/detox will no longer be published in the future.\n\n<p style=\"text-align: center;\">\n  <picture>\n    <source media=\"(prefers-color-scheme: dark)\" srcset=\"https://raw.githubusercontent.com/nrwl/nx/master/images/nx-dark.svg\">\n    <img alt=\"Nx - Smart Monorepos · Fast CI\" src=\"https://raw.githubusercontent.com/nrwl/nx/master/images/nx-light.svg\" width=\"100%\">\n  </picture>\n</p>\n\n# Nx: Smart Monorepos · Fast CI\n\nNx is a build system with built-in tooling and advanced CI capabilities. It helps you maintain and scale monorepos, both locally and on CI.\n"
 }

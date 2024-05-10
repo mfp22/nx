@@ -1,0 +1,3509 @@
+{
+	"name": "@nuxt/eslint-config",
+	"versions": {
+		"0.0.1": {
+			"name": "@nuxt/eslint-config",
+			"version": "0.0.1",
+			"scripts": {
+				"test": "echo \"Error: no test specified\" && exit 1"
+			},
+			"keywords": [],
+			"license": "MIT",
+			"_id": "@nuxt/eslint-config@0.0.1",
+			"_nodeVersion": "18.12.1",
+			"_npmVersion": "8.19.2",
+			"dist": {
+				"integrity": "sha512-uTtzAXu6CYhy5FLtrv9J0nFcemJ/niiCAk7L4/KxlxpD6Y0d+zHOp3qb46OwSNxuumrDSR9myxlGcjLFndnR8A==",
+				"shasum": "6474f5606a019c796a94f8eec4fa6801d7ef79d3",
+				"tarball": "https://registry.npmjs.org/@nuxt/eslint-config/-/eslint-config-0.0.1.tgz",
+				"fileCount": 1,
+				"unpackedSize": 203,
+				"signatures": [
+					{
+						"keyid": "SHA256:jl3bwswu80PjjokCgh0o2w5c2U4LhQAE57gj9cz1kzA",
+						"sig": "MEUCID9oE89LrtQFdZoIj+H1mNqIIvSeKEZGZtYHmHA1GAbPAiEApR9t98iE94sI0JVeaJ4Tq8ZBa9g7GG+p7c4UuUHh7e0="
+					}
+				],
+				"npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v4.10.10\r\nComment: https://openpgpjs.org\r\n\r\nwsFzBAEBCAAGBQJjjd/JACEJED1NWxICdlZqFiEECWMYAoorWMhJKdjhPU1b\r\nEgJ2Vmo9xBAAg9c+K1bJ+AVIsKSWlgyUUf3ETpy4nkB7TVwsLT/GG83+xs8d\r\naCl71EDjVvDhQB6nWR2TZqTNNDrlkREkpwTo1r9df6H3wO4OwaokOXuz+4NM\r\nJWxs9opfOWIrZEA5nc94NeTDRQbnGZFWDTdaI+gCdmXrlZcyZ2w5GSqhXKht\r\nyezEr5oNN0v/K9H6Jcc9gU7SK0jEUmAZeeWkfACcdi70T6YX148UZSo6NPKJ\r\nsTe38CC19WxhXxP3H7VpH0jogDnNxz+AU9UDXMdck803hJ61xErMwVnVIyw1\r\new9YCiqJ/9ziAX8F2fcIRC2lj/rqjVJpr4eocFWrqrZ1ajixZUNqv6qeYU4r\r\niaKrDIPlxI7F8xSJhBYCciF1BfW1Fywln4tcJ3J7Ma6kWaDlyD61hklytYTe\r\nV3z8TwFQ6FfTXVDTsKbUWp33F2nAwsoCBlOZUYb2UlThw895cmRHHtVFyYWr\r\nDpYEJrmkUlLB1DpkGjqTqXM1iXb77kiWIbepIxy75GvASWexEbkNQ3BVFpYA\r\n0IwlHqqmCGJw7oRoSP8BVNWMxuunU51sribsIe4Rr6TaJuo7kD6MyneABv1H\r\n56Q2JTH9J99w+ny0SfYXjdSLsGqZuqgR2QAVUnr+DsKa9ZeohO6wyI7JCTBA\r\n2d2lVqVuN3vBt5s4kTO3gvKAXP28la405CQ=\r\n=TwPL\r\n-----END PGP SIGNATURE-----\r\n"
+			},
+			"_npmUser": {
+				"name": "danielroe",
+				"email": "daniel@roe.dev"
+			},
+			"directories": {},
+			"maintainers": [
+				{
+					"name": "antfu",
+					"email": "anthonyfu117@hotmail.com"
+				},
+				{
+					"name": "atinux",
+					"email": "atinux@gmail.com"
+				},
+				{
+					"name": "pi0",
+					"email": "pyapar@gmail.com"
+				},
+				{
+					"name": "clarkdo",
+					"email": "clark.duxin@gmail.com"
+				},
+				{
+					"name": "danielroe",
+					"email": "daniel@roe.dev"
+				}
+			],
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/eslint-config_0.0.1_1670242249684_0.2555108493970788"
+			},
+			"_hasShrinkwrap": false,
+			"contributors": []
+		},
+		"0.1.0": {
+			"name": "@nuxt/eslint-config",
+			"version": "0.1.0",
+			"description": "ESLint config for Nuxt projects",
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/nuxt/eslint-config.git"
+			},
+			"license": "MIT",
+			"main": "index.js",
+			"exports": {
+				".": "./index.js"
+			},
+			"dependencies": {
+				"@rushstack/eslint-patch": "^1.2.0",
+				"@typescript-eslint/eslint-plugin": "^5.45.0",
+				"@typescript-eslint/parser": "^5.45.0",
+				"eslint-plugin-vue": "^9.8.0",
+				"typescript": "^4.9.3"
+			},
+			"devDependencies": {
+				"eslint": "^8.29.0"
+			},
+			"peerDependencies": {
+				"eslint": "^8.29.0"
+			},
+			"gitHead": "bf74ad93338cf0f6fb3938762ae2fd6fe1f73729",
+			"bugs": {
+				"url": "https://github.com/nuxt/eslint-config/issues"
+			},
+			"homepage": "https://github.com/nuxt/eslint-config#readme",
+			"_id": "@nuxt/eslint-config@0.1.0",
+			"_nodeVersion": "18.12.1",
+			"_npmVersion": "8.19.2",
+			"dist": {
+				"integrity": "sha512-YzuaFgR3O/h5orgTOzHngUC+lq+PlD0uiikJaVHDzUcCdQBBcWYrgaRws1sbUnyI4ujtN+p0oKl7Pt3D53SjCA==",
+				"shasum": "a270c28d3cc5c06c8820ceedf82952fd23af5159",
+				"tarball": "https://registry.npmjs.org/@nuxt/eslint-config/-/eslint-config-0.1.0.tgz",
+				"fileCount": 2,
+				"unpackedSize": 2050,
+				"signatures": [
+					{
+						"keyid": "SHA256:jl3bwswu80PjjokCgh0o2w5c2U4LhQAE57gj9cz1kzA",
+						"sig": "MEYCIQCQJNPKUia2drneuNZfGPQXiwYsU93v3CmIt5Kch/EuhAIhAIVS8eHACDmaWaYaawNP175RPyo+GEf9lnuTc5Kv6pw2"
+					}
+				],
+				"npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v4.10.10\r\nComment: https://openpgpjs.org\r\n\r\nwsFzBAEBCAAGBQJjjxaKACEJED1NWxICdlZqFiEECWMYAoorWMhJKdjhPU1b\r\nEgJ2Vmrgtw/+IXmuGRHexg4xWE1B8z8biGdywGlwdHwTqU9fUecxtVlJYfU7\r\ndnBPW/77VItUFbvTdOFT3o0HV1odxQl2ciYSh9s9trl/tVT4kR4QjEeJIyY6\r\nd3TI1h/azoc7JB3maHN71k7cbkd+gzL2B0jkWFs5fqkpBucAotjWBA/uS4V9\r\nVAJ8AvpTbPw7/BEZZ5acuVfQyhcum3bTnC8t3b1Fu5D1U9o68dAEY6EA+4NO\r\n3UxswB/OK7tP8i8zxAYa4y6eE1gkdncsEYenkI5anClzdXAP1Pshr/lL51QI\r\nyfFIzAjP1fjeGG67A8lGnWppe0067YQBacBpWUx+ZFIKccIjVaNksUscOyNu\r\nC3lXmtKtELsqIxQ35r0RYq78aKsBPTSEbBYwxPfc92VvqPQxJy0nJBoIaA6e\r\nhLoywK/vWkONXYio8jjQPQm+HKep9x+/IgDk+I1dQpgdDOgAv5++03s+h+Zk\r\nE+aUqlUPyqPJkNTf7nrnjXlZgQWfWK9H/i2jyhqW+IlduQpwxQ9vdWyskM6d\r\n3TxxYqR4YqIu8U7sS/TN9FzLOY5JhHa8U9FX/nVyN6GRLIgQhOk4cDqbTme3\r\nNcXppRhLE0nWbpsHvY8w4OTAiwMXUzCMIRaCl63IyLiY+Ai+xFeeR7T1BtGQ\r\ntGuSevcHnLC7mTgXXTSqKoEinveiBtNQtZg=\r\n=mvOH\r\n-----END PGP SIGNATURE-----\r\n"
+			},
+			"_npmUser": {
+				"name": "danielroe",
+				"email": "daniel@roe.dev"
+			},
+			"directories": {},
+			"maintainers": [
+				{
+					"name": "antfu",
+					"email": "anthonyfu117@hotmail.com"
+				},
+				{
+					"name": "atinux",
+					"email": "atinux@gmail.com"
+				},
+				{
+					"name": "pi0",
+					"email": "pyapar@gmail.com"
+				},
+				{
+					"name": "clarkdo",
+					"email": "clark.duxin@gmail.com"
+				},
+				{
+					"name": "danielroe",
+					"email": "daniel@roe.dev"
+				}
+			],
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/eslint-config_0.1.0_1670321802158_0.8982469218692348"
+			},
+			"_hasShrinkwrap": false,
+			"contributors": []
+		},
+		"0.1.1": {
+			"name": "@nuxt/eslint-config",
+			"version": "0.1.1",
+			"description": "ESLint config for Nuxt projects",
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/nuxt/eslint-config.git"
+			},
+			"license": "MIT",
+			"main": "index.js",
+			"exports": {
+				".": "./index.js"
+			},
+			"dependencies": {
+				"@rushstack/eslint-patch": "^1.2.0",
+				"@typescript-eslint/eslint-plugin": "^5.45.1",
+				"@typescript-eslint/parser": "^5.45.1",
+				"eslint-plugin-vue": "^9.8.0",
+				"typescript": "^4.9.3"
+			},
+			"devDependencies": {
+				"eslint": "^8.29.0"
+			},
+			"peerDependencies": {
+				"eslint": "^8.29.0"
+			},
+			"gitHead": "a9611785fd93f3c7339a436badae7b54c0d80253",
+			"bugs": {
+				"url": "https://github.com/nuxt/eslint-config/issues"
+			},
+			"homepage": "https://github.com/nuxt/eslint-config#readme",
+			"_id": "@nuxt/eslint-config@0.1.1",
+			"_nodeVersion": "18.12.1",
+			"_npmVersion": "8.19.2",
+			"dist": {
+				"integrity": "sha512-znm1xlbhldUubB2XGx6Ca5uarwlIieKf0o8CtxtF6eEauDbpa3T2p3JnTcdguMW2nj1YPneoGmhshANfOlghiQ==",
+				"shasum": "99058b84f92aa2c67028a19e6c66cdf5beb9f5f6",
+				"tarball": "https://registry.npmjs.org/@nuxt/eslint-config/-/eslint-config-0.1.1.tgz",
+				"fileCount": 2,
+				"unpackedSize": 3499,
+				"signatures": [
+					{
+						"keyid": "SHA256:jl3bwswu80PjjokCgh0o2w5c2U4LhQAE57gj9cz1kzA",
+						"sig": "MEUCIQDlIQlcWCRQzvHPl1QTQgWShoVHL+gEUrcZv+rPA+13FwIgWUGRm2M5duyn8qiefHrRYT1vXKOukiEo5YRjspVW3Do="
+					}
+				],
+				"npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v4.10.10\r\nComment: https://openpgpjs.org\r\n\r\nwsFzBAEBCAAGBQJjj0riACEJED1NWxICdlZqFiEECWMYAoorWMhJKdjhPU1b\r\nEgJ2Vmr2MA//UJMq1S4WJsTp/dzM5bpBEidJk4Mlq2JD4ILWr5ElpIywyulO\r\ne7dG0k7aY+IAGKc/ObIvFAPArkUBzUqWDUENHx8BiaS79srIutGvR8KYMKat\r\nATlmFvay2N6c/zgN1MwAdinSZ8U6zUIY59UOJHYzE5RyyDUyZSiE/8c8+6gm\r\npokg9dZRckHU+gfRNyBzc1WFPR+U+LH6w5sI9L3CoaCTVznOEVqqm+b0reZa\r\nFzW/tR8DC4aATmwG0Sf3rLG4P3xcOVQzSaF3ZfgLvc+iVwFaZ8F3PO97t639\r\n4oKODDDsx/Iz45s4QGYhzXTZlT/XZM9NpRnLxIDzaCQVxkHqwNyuwX2JVNOi\r\njPDBjcvwRhEjpwf9nvkmUkdR4NygKd/vdXzZusN1HP1F06kDf7A9ubhu75M9\r\nU8k7XygeXTNBxN2wjUhbc7JnJwoEC3XR7DSisxpeMsM6Ks6mw0ZtAfCcuFFq\r\nQnwhGJeMuFtHUaGRlCrooMdIBWKdVv22yZYbMunUIdhwY1VDdJD6kDoHlxLn\r\nW/QH+mnNI0YySv4Hm6xK1rCszYTCCznWGZDZqRBNfWBuiWnpDsdQTCnKFg+9\r\nuC6orxSrSFyc72dtPqapttYDL4RRjTj3UoYkzv2JNBVK8X3fdsR2nailDrGD\r\nGvpfgOPDVUHh3poRCvPUGTub69I1yFaXL5E=\r\n=pMJ3\r\n-----END PGP SIGNATURE-----\r\n"
+			},
+			"_npmUser": {
+				"name": "danielroe",
+				"email": "daniel@roe.dev"
+			},
+			"directories": {},
+			"maintainers": [
+				{
+					"name": "antfu",
+					"email": "anthonyfu117@hotmail.com"
+				},
+				{
+					"name": "atinux",
+					"email": "atinux@gmail.com"
+				},
+				{
+					"name": "pi0",
+					"email": "pyapar@gmail.com"
+				},
+				{
+					"name": "clarkdo",
+					"email": "clark.duxin@gmail.com"
+				},
+				{
+					"name": "danielroe",
+					"email": "daniel@roe.dev"
+				}
+			],
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/eslint-config_0.1.1_1670335202117_0.41223659034766613"
+			},
+			"_hasShrinkwrap": false,
+			"contributors": []
+		},
+		"0.2.0": {
+			"name": "@nuxt/eslint-config",
+			"version": "0.2.0",
+			"description": "ESLint config for Nuxt projects",
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/nuxt/eslint-config.git"
+			},
+			"license": "MIT",
+			"main": "index.js",
+			"exports": {
+				".": "./index.js"
+			},
+			"dependencies": {
+				"@rushstack/eslint-patch": "^1.3.3",
+				"@typescript-eslint/eslint-plugin": "^6.5.0",
+				"@typescript-eslint/parser": "^6.5.0",
+				"eslint-plugin-vue": "^9.17.0",
+				"typescript": "^5.2.2"
+			},
+			"devDependencies": {
+				"@types/eslint": "^8.44.2",
+				"eslint": "^8.48.0"
+			},
+			"peerDependencies": {
+				"eslint": "^8.48.0"
+			},
+			"bugs": {
+				"url": "https://github.com/nuxt/eslint-config/issues"
+			},
+			"homepage": "https://github.com/nuxt/eslint-config#readme",
+			"_id": "@nuxt/eslint-config@0.2.0",
+			"_integrity": "sha512-NeJX8TLcnNAjQFiDs3XhP+9CHKK8jaKsP7eUyCSrQdgY7nqWe7VJx64lwzx5FTT4cW3RHMEyH+Y0qzLGYYoa/A==",
+			"_resolved": "/private/var/folders/48/0bsggqvn049_nfcq7msw2njw0000gn/T/acbc066b351eba81c8df3a201619f23c/nuxt-eslint-config-0.2.0.tgz",
+			"_from": "file:nuxt-eslint-config-0.2.0.tgz",
+			"_nodeVersion": "20.3.1",
+			"_npmVersion": "9.7.2",
+			"dist": {
+				"integrity": "sha512-NeJX8TLcnNAjQFiDs3XhP+9CHKK8jaKsP7eUyCSrQdgY7nqWe7VJx64lwzx5FTT4cW3RHMEyH+Y0qzLGYYoa/A==",
+				"shasum": "97e184bbea1000d3810cec9a20f398dcbfb98d3d",
+				"tarball": "https://registry.npmjs.org/@nuxt/eslint-config/-/eslint-config-0.2.0.tgz",
+				"fileCount": 3,
+				"unpackedSize": 4805,
+				"signatures": [
+					{
+						"keyid": "SHA256:jl3bwswu80PjjokCgh0o2w5c2U4LhQAE57gj9cz1kzA",
+						"sig": "MEYCIQCGNNjgUIZbRtfPb+BeWVW1GWqVWhTzFHrJJskJ6ZiLdgIhAMst1URDycf913reTkUcpGP4SJWjR579C4NSuqw+v1Yf"
+					}
+				]
+			},
+			"_npmUser": {
+				"name": "danielroe",
+				"email": "daniel@roe.dev"
+			},
+			"directories": {},
+			"maintainers": [
+				{
+					"name": "nuxtbot",
+					"email": "nuxtbot@roe.dev"
+				},
+				{
+					"name": "antfu",
+					"email": "anthonyfu117@hotmail.com"
+				},
+				{
+					"name": "atinux",
+					"email": "atinux@gmail.com"
+				},
+				{
+					"name": "pi0",
+					"email": "pyapar@gmail.com"
+				},
+				{
+					"name": "clarkdo",
+					"email": "clark.duxin@gmail.com"
+				},
+				{
+					"name": "danielroe",
+					"email": "daniel@roe.dev"
+				}
+			],
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/eslint-config_0.2.0_1693301319249_0.8147279925986428"
+			},
+			"_hasShrinkwrap": false,
+			"contributors": []
+		},
+		"0.3.0-alpha.0": {
+			"name": "@nuxt/eslint-config",
+			"version": "0.3.0-alpha.0",
+			"description": "ESLint config for Nuxt projects",
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/nuxt/eslint.git"
+			},
+			"license": "MIT",
+			"main": "./dist/legacy.cjs",
+			"exports": {
+				".": {
+					"import": "./dist/legacy.mjs",
+					"require": "./dist/legacy.cjs"
+				},
+				"./flat": {
+					"import": "./dist/flat.mjs",
+					"require": "./dist/flat.cjs"
+				}
+			},
+			"peerDependencies": {
+				"eslint": "^8.56.0"
+			},
+			"dependencies": {
+				"@eslint/js": "^8.57.0",
+				"@rushstack/eslint-patch": "^1.7.2",
+				"@stylistic/eslint-plugin": "^1.7.0",
+				"@typescript-eslint/eslint-plugin": "^7.2.0",
+				"@typescript-eslint/parser": "^7.2.0",
+				"eslint-plugin-vue": "^9.23.0",
+				"pathe": "^1.1.2",
+				"vue-eslint-parser": "^9.4.2",
+				"@nuxt/eslint-plugin": "0.3.0-alpha.0"
+			},
+			"devDependencies": {
+				"@types/eslint": "^8.56.5",
+				"eslint": "^8.57.0",
+				"typescript": "^5.4.2"
+			},
+			"scripts": {
+				"build": "unbuild",
+				"stub": "unbuild --stub"
+			},
+			"types": "./dist/legacy.d.ts",
+			"readmeFilename": "README.md",
+			"bugs": {
+				"url": "https://github.com/nuxt/eslint/issues"
+			},
+			"homepage": "https://github.com/nuxt/eslint#readme",
+			"_id": "@nuxt/eslint-config@0.3.0-alpha.0",
+			"_integrity": "sha512-DdCphIOwv8d/YpCf3szWcfcxN1SGJihfhIVqc4MynKUyijfeQ1X3Wbr78SCgGMt02DyTzoDFvWzkyl/9y1LNvQ==",
+			"_resolved": "/private/var/folders/30/nymxcyb909ggq2j5lwn7b_600000gn/T/dde38a84ee383118b4164efa36c11cbd/nuxt-eslint-config-0.3.0-alpha.0.tgz",
+			"_from": "file:nuxt-eslint-config-0.3.0-alpha.0.tgz",
+			"_nodeVersion": "20.4.0",
+			"_npmVersion": "9.7.2",
+			"dist": {
+				"integrity": "sha512-DdCphIOwv8d/YpCf3szWcfcxN1SGJihfhIVqc4MynKUyijfeQ1X3Wbr78SCgGMt02DyTzoDFvWzkyl/9y1LNvQ==",
+				"shasum": "87f289c98fbead01359a5b4eeeedb2e2a093f308",
+				"tarball": "https://registry.npmjs.org/@nuxt/eslint-config/-/eslint-config-0.3.0-alpha.0.tgz",
+				"fileCount": 13,
+				"unpackedSize": 30975,
+				"signatures": [
+					{
+						"keyid": "SHA256:jl3bwswu80PjjokCgh0o2w5c2U4LhQAE57gj9cz1kzA",
+						"sig": "MEUCIDXRU6a2yjkQnOqeOzSy1QMbaKD+Wz76gRVNI9cIDe6OAiEAih8aA5xEA9ZC7KTSkhnZoDbbV69qbm5Hdx8LNFT2jtw="
+					}
+				]
+			},
+			"_npmUser": {
+				"name": "antfu",
+				"email": "anthonyfu117@hotmail.com"
+			},
+			"directories": {},
+			"maintainers": [
+				{
+					"name": "nuxtbot",
+					"email": "nuxtbot@roe.dev"
+				},
+				{
+					"name": "antfu",
+					"email": "anthonyfu117@hotmail.com"
+				},
+				{
+					"name": "atinux",
+					"email": "atinux@gmail.com"
+				},
+				{
+					"name": "pi0",
+					"email": "pyapar@gmail.com"
+				},
+				{
+					"name": "clarkdo",
+					"email": "clark.duxin@gmail.com"
+				},
+				{
+					"name": "danielroe",
+					"email": "daniel@roe.dev"
+				}
+			],
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/eslint-config_0.3.0-alpha.0_1710848785386_0.6161174173387665"
+			},
+			"_hasShrinkwrap": false,
+			"contributors": []
+		},
+		"0.3.0-alpha.1": {
+			"name": "@nuxt/eslint-config",
+			"version": "0.3.0-alpha.1",
+			"description": "ESLint config for Nuxt projects",
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/nuxt/eslint.git"
+			},
+			"license": "MIT",
+			"main": "./dist/legacy.cjs",
+			"exports": {
+				".": {
+					"import": "./dist/legacy.mjs",
+					"require": "./dist/legacy.cjs"
+				},
+				"./flat": {
+					"import": "./dist/flat.mjs",
+					"require": "./dist/flat.cjs"
+				}
+			},
+			"peerDependencies": {
+				"eslint": "^8.56.0"
+			},
+			"dependencies": {
+				"@eslint/js": "^8.57.0",
+				"@rushstack/eslint-patch": "^1.7.2",
+				"@stylistic/eslint-plugin": "^1.7.0",
+				"@typescript-eslint/eslint-plugin": "^7.2.0",
+				"@typescript-eslint/parser": "^7.2.0",
+				"eslint-plugin-vue": "^9.23.0",
+				"pathe": "^1.1.2",
+				"vue-eslint-parser": "^9.4.2",
+				"@nuxt/eslint-plugin": "0.3.0-alpha.1"
+			},
+			"devDependencies": {
+				"@types/eslint": "^8.56.5",
+				"eslint": "^8.57.0",
+				"typescript": "^5.4.2"
+			},
+			"scripts": {
+				"build": "unbuild",
+				"stub": "unbuild --stub"
+			},
+			"types": "./dist/legacy.d.ts",
+			"readmeFilename": "README.md",
+			"bugs": {
+				"url": "https://github.com/nuxt/eslint/issues"
+			},
+			"homepage": "https://github.com/nuxt/eslint#readme",
+			"_id": "@nuxt/eslint-config@0.3.0-alpha.1",
+			"_integrity": "sha512-bB3X3pCnpnngea15/Xxk83wGGr/Kxop8hyD0sLkC+2q54RclLkBRLvK/hd5/tS1zjBOIZJ5mYhq63mE2biBG9w==",
+			"_resolved": "/private/var/folders/30/nymxcyb909ggq2j5lwn7b_600000gn/T/26542f72409e26a3010392dc10d9d1a0/nuxt-eslint-config-0.3.0-alpha.1.tgz",
+			"_from": "file:nuxt-eslint-config-0.3.0-alpha.1.tgz",
+			"_nodeVersion": "20.4.0",
+			"_npmVersion": "9.7.2",
+			"dist": {
+				"integrity": "sha512-bB3X3pCnpnngea15/Xxk83wGGr/Kxop8hyD0sLkC+2q54RclLkBRLvK/hd5/tS1zjBOIZJ5mYhq63mE2biBG9w==",
+				"shasum": "8efce55eb64f55645d439569e1edae505ed8b237",
+				"tarball": "https://registry.npmjs.org/@nuxt/eslint-config/-/eslint-config-0.3.0-alpha.1.tgz",
+				"fileCount": 13,
+				"unpackedSize": 31221,
+				"signatures": [
+					{
+						"keyid": "SHA256:jl3bwswu80PjjokCgh0o2w5c2U4LhQAE57gj9cz1kzA",
+						"sig": "MEQCIDSNwz5A9kLg3TJLGGCJDAVUQS7Z/9VcjQ0q8YQ//5YOAiA/6yuY0ybzyjCsR1DjlHusUlukXEHBLE1W34W1euqpZQ=="
+					}
+				]
+			},
+			"_npmUser": {
+				"name": "antfu",
+				"email": "anthonyfu117@hotmail.com"
+			},
+			"directories": {},
+			"maintainers": [
+				{
+					"name": "nuxtbot",
+					"email": "nuxtbot@roe.dev"
+				},
+				{
+					"name": "antfu",
+					"email": "anthonyfu117@hotmail.com"
+				},
+				{
+					"name": "atinux",
+					"email": "atinux@gmail.com"
+				},
+				{
+					"name": "pi0",
+					"email": "pyapar@gmail.com"
+				},
+				{
+					"name": "clarkdo",
+					"email": "clark.duxin@gmail.com"
+				},
+				{
+					"name": "danielroe",
+					"email": "daniel@roe.dev"
+				}
+			],
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/eslint-config_0.3.0-alpha.1_1710855837316_0.44669662250348385"
+			},
+			"_hasShrinkwrap": false,
+			"contributors": []
+		},
+		"0.3.0-beta.1": {
+			"name": "@nuxt/eslint-config",
+			"version": "0.3.0-beta.1",
+			"description": "ESLint config for Nuxt projects",
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/nuxt/eslint.git"
+			},
+			"license": "MIT",
+			"main": "./dist/legacy.cjs",
+			"exports": {
+				".": {
+					"import": "./dist/legacy.mjs",
+					"require": "./dist/legacy.cjs"
+				},
+				"./flat": {
+					"import": "./dist/flat.mjs",
+					"require": "./dist/flat.cjs"
+				}
+			},
+			"peerDependencies": {
+				"eslint": "^8.57.0"
+			},
+			"dependencies": {
+				"@eslint/js": "^8.57.0",
+				"@rushstack/eslint-patch": "^1.8.0",
+				"@stylistic/eslint-plugin": "^1.7.0",
+				"@typescript-eslint/eslint-plugin": "^7.3.1",
+				"@typescript-eslint/parser": "^7.3.1",
+				"eslint-plugin-vue": "^9.23.0",
+				"pathe": "^1.1.2",
+				"vue-eslint-parser": "^9.4.2",
+				"@nuxt/eslint-plugin": "0.3.0-beta.1"
+			},
+			"devDependencies": {
+				"@types/eslint": "^8.56.6",
+				"eslint": "^8.57.0",
+				"typescript": "^5.4.2"
+			},
+			"scripts": {
+				"build": "unbuild",
+				"stub": "unbuild --stub"
+			},
+			"types": "./dist/legacy.d.ts",
+			"readmeFilename": "README.md",
+			"bugs": {
+				"url": "https://github.com/nuxt/eslint/issues"
+			},
+			"homepage": "https://github.com/nuxt/eslint#readme",
+			"_id": "@nuxt/eslint-config@0.3.0-beta.1",
+			"_integrity": "sha512-pQz6FwDBwsUWtY1VIzfeuWE8QniX+FG75bgBPExl2FGqoGi/twQU5EJjbp4uTKnzAVggmcHjaXuqbW8liVg4Ng==",
+			"_resolved": "/private/var/folders/30/nymxcyb909ggq2j5lwn7b_600000gn/T/8852efc99b406207ea91549025c48ffa/nuxt-eslint-config-0.3.0-beta.1.tgz",
+			"_from": "file:nuxt-eslint-config-0.3.0-beta.1.tgz",
+			"_nodeVersion": "20.11.1",
+			"_npmVersion": "10.2.4",
+			"dist": {
+				"integrity": "sha512-pQz6FwDBwsUWtY1VIzfeuWE8QniX+FG75bgBPExl2FGqoGi/twQU5EJjbp4uTKnzAVggmcHjaXuqbW8liVg4Ng==",
+				"shasum": "194635e584faa1e31ea048d7d22ecc073d8f562c",
+				"tarball": "https://registry.npmjs.org/@nuxt/eslint-config/-/eslint-config-0.3.0-beta.1.tgz",
+				"fileCount": 13,
+				"unpackedSize": 35040,
+				"signatures": [
+					{
+						"keyid": "SHA256:jl3bwswu80PjjokCgh0o2w5c2U4LhQAE57gj9cz1kzA",
+						"sig": "MEUCIE1IWgic2MNJ52zLFx7XqTdlIQ+oXdzRO6e3jywXWZ9HAiEAoQm7egsOxlGNWy5UH366ddXlf9NghhG01xYDUiNjWWg="
+					}
+				]
+			},
+			"_npmUser": {
+				"name": "antfu",
+				"email": "anthonyfu117@hotmail.com"
+			},
+			"directories": {},
+			"maintainers": [
+				{
+					"name": "nuxtbot",
+					"email": "nuxtbot@roe.dev"
+				},
+				{
+					"name": "antfu",
+					"email": "anthonyfu117@hotmail.com"
+				},
+				{
+					"name": "atinux",
+					"email": "atinux@gmail.com"
+				},
+				{
+					"name": "pi0",
+					"email": "pyapar@gmail.com"
+				},
+				{
+					"name": "clarkdo",
+					"email": "clark.duxin@gmail.com"
+				},
+				{
+					"name": "danielroe",
+					"email": "daniel@roe.dev"
+				}
+			],
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/eslint-config_0.3.0-beta.1_1710943924658_0.31636264438425643"
+			},
+			"_hasShrinkwrap": false,
+			"contributors": []
+		},
+		"0.3.0-beta.2": {
+			"name": "@nuxt/eslint-config",
+			"version": "0.3.0-beta.2",
+			"description": "ESLint config for Nuxt projects",
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/nuxt/eslint.git"
+			},
+			"license": "MIT",
+			"main": "./dist/legacy.cjs",
+			"exports": {
+				".": {
+					"import": "./dist/legacy.mjs",
+					"require": "./dist/legacy.cjs"
+				},
+				"./flat": {
+					"import": "./dist/flat.mjs",
+					"require": "./dist/flat.cjs"
+				}
+			},
+			"peerDependencies": {
+				"eslint": "^8.57.0"
+			},
+			"dependencies": {
+				"@eslint/js": "^8.57.0",
+				"@rushstack/eslint-patch": "^1.8.0",
+				"@stylistic/eslint-plugin": "^1.7.0",
+				"@typescript-eslint/eslint-plugin": "^7.3.1",
+				"@typescript-eslint/parser": "^7.3.1",
+				"eslint-plugin-vue": "^9.23.0",
+				"pathe": "^1.1.2",
+				"vue-eslint-parser": "^9.4.2",
+				"@nuxt/eslint-plugin": "0.3.0-beta.2"
+			},
+			"devDependencies": {
+				"@types/eslint": "^8.56.6",
+				"eslint": "^8.57.0",
+				"typescript": "^5.4.2"
+			},
+			"scripts": {
+				"build": "unbuild",
+				"stub": "unbuild --stub"
+			},
+			"types": "./dist/legacy.d.ts",
+			"readmeFilename": "README.md",
+			"bugs": {
+				"url": "https://github.com/nuxt/eslint/issues"
+			},
+			"homepage": "https://github.com/nuxt/eslint#readme",
+			"_id": "@nuxt/eslint-config@0.3.0-beta.2",
+			"_integrity": "sha512-EMKXOCC3uUzvuu6MrdWym1kJC14DMBQfhyZf8tis2RSY1gvVqwPJ10e0Buczf/n4ikcI0KSFK4Hm1nrl2NAaYw==",
+			"_resolved": "/private/var/folders/30/nymxcyb909ggq2j5lwn7b_600000gn/T/79ca1cd951bf09bcf095c01b9004037f/nuxt-eslint-config-0.3.0-beta.2.tgz",
+			"_from": "file:nuxt-eslint-config-0.3.0-beta.2.tgz",
+			"_nodeVersion": "20.11.1",
+			"_npmVersion": "10.2.4",
+			"dist": {
+				"integrity": "sha512-EMKXOCC3uUzvuu6MrdWym1kJC14DMBQfhyZf8tis2RSY1gvVqwPJ10e0Buczf/n4ikcI0KSFK4Hm1nrl2NAaYw==",
+				"shasum": "37d2d0c8eb00145b81c65f12e84460215f4740d2",
+				"tarball": "https://registry.npmjs.org/@nuxt/eslint-config/-/eslint-config-0.3.0-beta.2.tgz",
+				"fileCount": 13,
+				"unpackedSize": 35040,
+				"signatures": [
+					{
+						"keyid": "SHA256:jl3bwswu80PjjokCgh0o2w5c2U4LhQAE57gj9cz1kzA",
+						"sig": "MEQCIG47BbnAoeeXdDn76TZ4IGcig3ZrC2W1Cg+I1hhnY0oAAiBlf1mr/qzt0+0Gf6zrQsJ85qPc2RSNcIV+1pby9sWMZA=="
+					}
+				]
+			},
+			"_npmUser": {
+				"name": "antfu",
+				"email": "anthonyfu117@hotmail.com"
+			},
+			"directories": {},
+			"maintainers": [
+				{
+					"name": "nuxtbot",
+					"email": "nuxtbot@roe.dev"
+				},
+				{
+					"name": "antfu",
+					"email": "anthonyfu117@hotmail.com"
+				},
+				{
+					"name": "atinux",
+					"email": "atinux@gmail.com"
+				},
+				{
+					"name": "pi0",
+					"email": "pyapar@gmail.com"
+				},
+				{
+					"name": "clarkdo",
+					"email": "clark.duxin@gmail.com"
+				},
+				{
+					"name": "danielroe",
+					"email": "daniel@roe.dev"
+				}
+			],
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/eslint-config_0.3.0-beta.2_1710960372010_0.4097837008867482"
+			},
+			"_hasShrinkwrap": false,
+			"contributors": []
+		},
+		"0.3.0-beta.3": {
+			"name": "@nuxt/eslint-config",
+			"version": "0.3.0-beta.3",
+			"description": "ESLint config for Nuxt projects",
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/nuxt/eslint.git"
+			},
+			"license": "MIT",
+			"main": "./dist/legacy.cjs",
+			"exports": {
+				".": {
+					"import": "./dist/legacy.mjs",
+					"require": "./dist/legacy.cjs"
+				},
+				"./flat": {
+					"import": "./dist/flat.mjs",
+					"require": "./dist/flat.cjs"
+				}
+			},
+			"peerDependencies": {
+				"eslint": "^8.57.0"
+			},
+			"dependencies": {
+				"@eslint/js": "^8.57.0",
+				"@rushstack/eslint-patch": "^1.8.0",
+				"@stylistic/eslint-plugin": "^1.7.0",
+				"@typescript-eslint/eslint-plugin": "^7.3.1",
+				"@typescript-eslint/parser": "^7.3.1",
+				"eslint-plugin-vue": "^9.23.0",
+				"pathe": "^1.1.2",
+				"vue-eslint-parser": "^9.4.2",
+				"@nuxt/eslint-plugin": "0.3.0-beta.3"
+			},
+			"devDependencies": {
+				"@types/eslint": "^8.56.6",
+				"eslint": "^8.57.0",
+				"typescript": "^5.4.2"
+			},
+			"scripts": {
+				"build": "unbuild",
+				"stub": "unbuild --stub"
+			},
+			"types": "./dist/legacy.d.ts",
+			"readmeFilename": "README.md",
+			"bugs": {
+				"url": "https://github.com/nuxt/eslint/issues"
+			},
+			"homepage": "https://github.com/nuxt/eslint#readme",
+			"_id": "@nuxt/eslint-config@0.3.0-beta.3",
+			"_integrity": "sha512-qXvIT5bGm8nmOuCKrX4lfxPcVEtGj+ZS65ex8Dos33LSRjqLqhBdtVwJZFIsZmxMGS6p8B5l2bRrcBB5HxaIoQ==",
+			"_resolved": "/private/var/folders/30/nymxcyb909ggq2j5lwn7b_600000gn/T/37e08faf61c6f6a6029719068e19fb21/nuxt-eslint-config-0.3.0-beta.3.tgz",
+			"_from": "file:nuxt-eslint-config-0.3.0-beta.3.tgz",
+			"_nodeVersion": "20.11.1",
+			"_npmVersion": "10.2.4",
+			"dist": {
+				"integrity": "sha512-qXvIT5bGm8nmOuCKrX4lfxPcVEtGj+ZS65ex8Dos33LSRjqLqhBdtVwJZFIsZmxMGS6p8B5l2bRrcBB5HxaIoQ==",
+				"shasum": "60df0ddd4211508b25044b1fb621073a3fd30993",
+				"tarball": "https://registry.npmjs.org/@nuxt/eslint-config/-/eslint-config-0.3.0-beta.3.tgz",
+				"fileCount": 13,
+				"unpackedSize": 35498,
+				"signatures": [
+					{
+						"keyid": "SHA256:jl3bwswu80PjjokCgh0o2w5c2U4LhQAE57gj9cz1kzA",
+						"sig": "MEUCIQC3OdjQfY/guhBh1y9o+F2gHK32YucIRyi/uHX3Syh1LwIgLN4hy6U1uPxfrmthwosOCAVLSdLL0wjC3lFqzCaeGeo="
+					}
+				]
+			},
+			"_npmUser": {
+				"name": "antfu",
+				"email": "anthonyfu117@hotmail.com"
+			},
+			"directories": {},
+			"maintainers": [
+				{
+					"name": "nuxtbot",
+					"email": "nuxtbot@roe.dev"
+				},
+				{
+					"name": "antfu",
+					"email": "anthonyfu117@hotmail.com"
+				},
+				{
+					"name": "atinux",
+					"email": "atinux@gmail.com"
+				},
+				{
+					"name": "pi0",
+					"email": "pyapar@gmail.com"
+				},
+				{
+					"name": "clarkdo",
+					"email": "clark.duxin@gmail.com"
+				},
+				{
+					"name": "danielroe",
+					"email": "daniel@roe.dev"
+				}
+			],
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/eslint-config_0.3.0-beta.3_1711025099209_0.902613807130707"
+			},
+			"_hasShrinkwrap": false,
+			"contributors": []
+		},
+		"0.3.0-beta.4": {
+			"name": "@nuxt/eslint-config",
+			"version": "0.3.0-beta.4",
+			"description": "ESLint config for Nuxt projects",
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/nuxt/eslint.git"
+			},
+			"license": "MIT",
+			"main": "./dist/legacy.cjs",
+			"exports": {
+				".": {
+					"import": "./dist/legacy.mjs",
+					"require": "./dist/legacy.cjs"
+				},
+				"./flat": {
+					"import": "./dist/flat.mjs",
+					"require": "./dist/flat.cjs"
+				}
+			},
+			"peerDependencies": {
+				"eslint": "^8.57.0"
+			},
+			"dependencies": {
+				"@eslint/js": "^8.57.0",
+				"@rushstack/eslint-patch": "^1.8.0",
+				"@stylistic/eslint-plugin": "^1.7.0",
+				"@typescript-eslint/eslint-plugin": "^7.3.1",
+				"@typescript-eslint/parser": "^7.3.1",
+				"eslint-plugin-vue": "^9.23.0",
+				"globals": "^14.0.0",
+				"pathe": "^1.1.2",
+				"vue-eslint-parser": "^9.4.2",
+				"@nuxt/eslint-plugin": "0.3.0-beta.4"
+			},
+			"devDependencies": {
+				"@types/eslint": "^8.56.6",
+				"eslint": "^8.57.0",
+				"typescript": "^5.4.3"
+			},
+			"scripts": {
+				"build": "unbuild",
+				"stub": "unbuild --stub"
+			},
+			"types": "./dist/legacy.d.ts",
+			"readmeFilename": "README.md",
+			"bugs": {
+				"url": "https://github.com/nuxt/eslint/issues"
+			},
+			"homepage": "https://github.com/nuxt/eslint#readme",
+			"_id": "@nuxt/eslint-config@0.3.0-beta.4",
+			"_integrity": "sha512-CqbCAt8Mlr16mW6iGlUv61Yy3wcydkTOPg7uEQROdJUA86qhv+3QKZ67f7wMrU0EXzg78Z+2X1ehTXqI29gqzQ==",
+			"_resolved": "/private/var/folders/30/nymxcyb909ggq2j5lwn7b_600000gn/T/b453f4fc1d67de89fdffb44f839921ed/nuxt-eslint-config-0.3.0-beta.4.tgz",
+			"_from": "file:nuxt-eslint-config-0.3.0-beta.4.tgz",
+			"_nodeVersion": "20.11.1",
+			"_npmVersion": "10.2.4",
+			"dist": {
+				"integrity": "sha512-CqbCAt8Mlr16mW6iGlUv61Yy3wcydkTOPg7uEQROdJUA86qhv+3QKZ67f7wMrU0EXzg78Z+2X1ehTXqI29gqzQ==",
+				"shasum": "668a9de493778ec1d9a4aafc0130601221ff0477",
+				"tarball": "https://registry.npmjs.org/@nuxt/eslint-config/-/eslint-config-0.3.0-beta.4.tgz",
+				"fileCount": 13,
+				"unpackedSize": 36758,
+				"signatures": [
+					{
+						"keyid": "SHA256:jl3bwswu80PjjokCgh0o2w5c2U4LhQAE57gj9cz1kzA",
+						"sig": "MEYCIQCxJsVimELrtY3BhMKZEwKeZ05aqw8YCvRpiLG+TLp3/QIhAIceYG8+pkySeOuKT4C4LXjWY4qlHgMhUiURTuR0H5py"
+					}
+				]
+			},
+			"_npmUser": {
+				"name": "antfu",
+				"email": "anthonyfu117@hotmail.com"
+			},
+			"directories": {},
+			"maintainers": [
+				{
+					"name": "nuxtbot",
+					"email": "nuxtbot@roe.dev"
+				},
+				{
+					"name": "antfu",
+					"email": "anthonyfu117@hotmail.com"
+				},
+				{
+					"name": "atinux",
+					"email": "atinux@gmail.com"
+				},
+				{
+					"name": "pi0",
+					"email": "pyapar@gmail.com"
+				},
+				{
+					"name": "clarkdo",
+					"email": "clark.duxin@gmail.com"
+				},
+				{
+					"name": "danielroe",
+					"email": "daniel@roe.dev"
+				}
+			],
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/eslint-config_0.3.0-beta.4_1711357216850_0.2995912015775686"
+			},
+			"_hasShrinkwrap": false,
+			"contributors": []
+		},
+		"0.3.0-beta.5": {
+			"name": "@nuxt/eslint-config",
+			"version": "0.3.0-beta.5",
+			"description": "ESLint config for Nuxt projects",
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/nuxt/eslint.git"
+			},
+			"license": "MIT",
+			"main": "./dist/legacy.cjs",
+			"exports": {
+				".": {
+					"import": "./dist/legacy.mjs",
+					"require": "./dist/legacy.cjs"
+				},
+				"./flat": {
+					"import": "./dist/flat.mjs",
+					"require": "./dist/flat.cjs"
+				}
+			},
+			"peerDependencies": {
+				"eslint": "^8.57.0"
+			},
+			"dependencies": {
+				"@eslint/js": "^8.57.0",
+				"@rushstack/eslint-patch": "^1.9.0",
+				"@stylistic/eslint-plugin": "^1.7.0",
+				"@typescript-eslint/eslint-plugin": "^7.4.0",
+				"@typescript-eslint/parser": "^7.4.0",
+				"eslint-flat-config-utils": "^0.1.0",
+				"eslint-plugin-vue": "^9.24.0",
+				"globals": "^15.0.0",
+				"pathe": "^1.1.2",
+				"vue-eslint-parser": "^9.4.2",
+				"@nuxt/eslint-plugin": "0.3.0-beta.5"
+			},
+			"devDependencies": {
+				"@types/eslint": "^8.56.6",
+				"eslint": "^8.57.0",
+				"typescript": "^5.4.3"
+			},
+			"scripts": {
+				"build": "unbuild",
+				"stub": "unbuild --stub"
+			},
+			"types": "./dist/legacy.d.ts",
+			"readmeFilename": "README.md",
+			"bugs": {
+				"url": "https://github.com/nuxt/eslint/issues"
+			},
+			"homepage": "https://github.com/nuxt/eslint#readme",
+			"_id": "@nuxt/eslint-config@0.3.0-beta.5",
+			"_integrity": "sha512-KltOLR5AiQg/FRiR8HPs+MxqipwLZ2DH/MutJ5G+xe2GqRJ9NcKUSVdnD7NKPKI8pwvQY0ik9DV0VWuhXalLQA==",
+			"_resolved": "/private/var/folders/30/nymxcyb909ggq2j5lwn7b_600000gn/T/a31f8ecf43e20a7aef3499b10e1d7cfa/nuxt-eslint-config-0.3.0-beta.5.tgz",
+			"_from": "file:nuxt-eslint-config-0.3.0-beta.5.tgz",
+			"_nodeVersion": "20.11.1",
+			"_npmVersion": "10.2.4",
+			"dist": {
+				"integrity": "sha512-KltOLR5AiQg/FRiR8HPs+MxqipwLZ2DH/MutJ5G+xe2GqRJ9NcKUSVdnD7NKPKI8pwvQY0ik9DV0VWuhXalLQA==",
+				"shasum": "c73dc5082c8cf82523b946a2fcd8ef73af4c456d",
+				"tarball": "https://registry.npmjs.org/@nuxt/eslint-config/-/eslint-config-0.3.0-beta.5.tgz",
+				"fileCount": 13,
+				"unpackedSize": 37095,
+				"signatures": [
+					{
+						"keyid": "SHA256:jl3bwswu80PjjokCgh0o2w5c2U4LhQAE57gj9cz1kzA",
+						"sig": "MEUCIF2K4skJEocGa5lnRaskUYcmPv/htvVtgjnE8EsDYau4AiEA7KJOzENhGDrJZB9ZDdkryalGTnn4iHhRa0ptaJToDRo="
+					}
+				]
+			},
+			"_npmUser": {
+				"name": "antfu",
+				"email": "anthonyfu117@hotmail.com"
+			},
+			"directories": {},
+			"maintainers": [
+				{
+					"name": "nuxtbot",
+					"email": "nuxtbot@roe.dev"
+				},
+				{
+					"name": "antfu",
+					"email": "anthonyfu117@hotmail.com"
+				},
+				{
+					"name": "atinux",
+					"email": "atinux@gmail.com"
+				},
+				{
+					"name": "pi0",
+					"email": "pyapar@gmail.com"
+				},
+				{
+					"name": "clarkdo",
+					"email": "clark.duxin@gmail.com"
+				},
+				{
+					"name": "danielroe",
+					"email": "daniel@roe.dev"
+				}
+			],
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/eslint-config_0.3.0-beta.5_1711583105538_0.12330799404507564"
+			},
+			"_hasShrinkwrap": false,
+			"contributors": []
+		},
+		"0.3.0-beta.6": {
+			"name": "@nuxt/eslint-config",
+			"version": "0.3.0-beta.6",
+			"description": "ESLint config for Nuxt projects",
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/nuxt/eslint.git",
+				"directory": "packages/eslint-config"
+			},
+			"license": "MIT",
+			"main": "./dist/legacy.cjs",
+			"module": "./dist/legacy.mjs",
+			"types": "./dist/legacy.d.ts",
+			"exports": {
+				".": {
+					"import": "./dist/legacy.mjs",
+					"require": "./dist/legacy.cjs"
+				},
+				"./flat": {
+					"import": "./dist/flat.mjs",
+					"require": "./dist/flat.cjs"
+				},
+				"./legacy": {
+					"import": "./dist/legacy.mjs",
+					"require": "./dist/legacy.cjs"
+				}
+			},
+			"peerDependencies": {
+				"eslint": "^8.57.0"
+			},
+			"dependencies": {
+				"@eslint/js": "^8.57.0",
+				"@rushstack/eslint-patch": "^1.9.0",
+				"@stylistic/eslint-plugin": "^1.7.0",
+				"@typescript-eslint/eslint-plugin": "^7.4.0",
+				"@typescript-eslint/parser": "^7.4.0",
+				"eslint-flat-config-utils": "^0.1.2",
+				"eslint-plugin-vue": "^9.24.0",
+				"globals": "^15.0.0",
+				"pathe": "^1.1.2",
+				"vue-eslint-parser": "^9.4.2",
+				"@nuxt/eslint-plugin": "0.3.0-beta.6"
+			},
+			"devDependencies": {
+				"@types/eslint": "^8.56.6",
+				"eslint": "^8.57.0",
+				"typescript": "^5.4.3"
+			},
+			"scripts": {
+				"build": "unbuild",
+				"stub": "unbuild --stub"
+			},
+			"readmeFilename": "README.md",
+			"bugs": {
+				"url": "https://github.com/nuxt/eslint/issues"
+			},
+			"homepage": "https://github.com/nuxt/eslint#readme",
+			"_id": "@nuxt/eslint-config@0.3.0-beta.6",
+			"_integrity": "sha512-vQh2lp1YjdKm5oC498KcUluoUhimne0glHBifhLh/c2BVbSihkfzrranXe1MpsWHcCsiVIIVJkXezwwRq/89kQ==",
+			"_resolved": "/private/var/folders/30/nymxcyb909ggq2j5lwn7b_600000gn/T/3473686b9a7e49e73fe55c1d059911d4/nuxt-eslint-config-0.3.0-beta.6.tgz",
+			"_from": "file:nuxt-eslint-config-0.3.0-beta.6.tgz",
+			"_nodeVersion": "20.11.1",
+			"_npmVersion": "10.2.4",
+			"dist": {
+				"integrity": "sha512-vQh2lp1YjdKm5oC498KcUluoUhimne0glHBifhLh/c2BVbSihkfzrranXe1MpsWHcCsiVIIVJkXezwwRq/89kQ==",
+				"shasum": "7bad4bed38f68597c71cfbde3830170438ec1ac8",
+				"tarball": "https://registry.npmjs.org/@nuxt/eslint-config/-/eslint-config-0.3.0-beta.6.tgz",
+				"fileCount": 13,
+				"unpackedSize": 37434,
+				"signatures": [
+					{
+						"keyid": "SHA256:jl3bwswu80PjjokCgh0o2w5c2U4LhQAE57gj9cz1kzA",
+						"sig": "MEUCIEMi4Va+J/EWonRxfEQ0oF+eaYKV7kg+JXL71d+dttUNAiEA9YGtw6N6AZjgz7mSAcEiBzCizAuFxM7Gz7JmacibFOE="
+					}
+				]
+			},
+			"_npmUser": {
+				"name": "antfu",
+				"email": "anthonyfu117@hotmail.com"
+			},
+			"directories": {},
+			"maintainers": [
+				{
+					"name": "nuxtbot",
+					"email": "nuxtbot@roe.dev"
+				},
+				{
+					"name": "antfu",
+					"email": "anthonyfu117@hotmail.com"
+				},
+				{
+					"name": "atinux",
+					"email": "atinux@gmail.com"
+				},
+				{
+					"name": "pi0",
+					"email": "pyapar@gmail.com"
+				},
+				{
+					"name": "clarkdo",
+					"email": "clark.duxin@gmail.com"
+				},
+				{
+					"name": "danielroe",
+					"email": "daniel@roe.dev"
+				}
+			],
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/eslint-config_0.3.0-beta.6_1711617604500_0.2185477453526381"
+			},
+			"_hasShrinkwrap": false,
+			"contributors": []
+		},
+		"0.3.0-beta.7": {
+			"name": "@nuxt/eslint-config",
+			"version": "0.3.0-beta.7",
+			"description": "ESLint config for Nuxt projects",
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/nuxt/eslint.git",
+				"directory": "packages/eslint-config"
+			},
+			"license": "MIT",
+			"main": "./dist/legacy.cjs",
+			"module": "./dist/legacy.mjs",
+			"types": "./dist/legacy.d.ts",
+			"exports": {
+				".": {
+					"import": "./dist/legacy.mjs",
+					"require": "./dist/legacy.cjs"
+				},
+				"./flat": {
+					"import": "./dist/flat.mjs",
+					"require": "./dist/flat.cjs"
+				},
+				"./legacy": {
+					"import": "./dist/legacy.mjs",
+					"require": "./dist/legacy.cjs"
+				}
+			},
+			"peerDependencies": {
+				"eslint": "^8.57.0"
+			},
+			"dependencies": {
+				"@eslint/js": "^8.57.0",
+				"@rushstack/eslint-patch": "^1.10.1",
+				"@stylistic/eslint-plugin": "^1.7.0",
+				"@typescript-eslint/eslint-plugin": "^7.4.0",
+				"@typescript-eslint/parser": "^7.4.0",
+				"eslint-flat-config-utils": "^0.1.2",
+				"eslint-plugin-vue": "^9.24.0",
+				"globals": "^15.0.0",
+				"pathe": "^1.1.2",
+				"vue-eslint-parser": "^9.4.2",
+				"@nuxt/eslint-plugin": "0.3.0-beta.7"
+			},
+			"devDependencies": {
+				"@types/eslint": "^8.56.6",
+				"eslint": "^8.57.0",
+				"typescript": "^5.4.3"
+			},
+			"scripts": {
+				"build": "unbuild",
+				"stub": "unbuild --stub"
+			},
+			"readmeFilename": "README.md",
+			"bugs": {
+				"url": "https://github.com/nuxt/eslint/issues"
+			},
+			"homepage": "https://github.com/nuxt/eslint#readme",
+			"_id": "@nuxt/eslint-config@0.3.0-beta.7",
+			"_integrity": "sha512-zyddELzIcWoTzh3FFowbT1gu2/9UxclgjDv1bJkpcXB+MmVhm+BkkaIvKVNZ49gJVZGjXY7B4JUpFd4vkdmBFg==",
+			"_resolved": "/private/var/folders/30/nymxcyb909ggq2j5lwn7b_600000gn/T/025c6593b0fc4b774179ce8a23764057/nuxt-eslint-config-0.3.0-beta.7.tgz",
+			"_from": "file:nuxt-eslint-config-0.3.0-beta.7.tgz",
+			"_nodeVersion": "20.11.1",
+			"_npmVersion": "10.2.4",
+			"dist": {
+				"integrity": "sha512-zyddELzIcWoTzh3FFowbT1gu2/9UxclgjDv1bJkpcXB+MmVhm+BkkaIvKVNZ49gJVZGjXY7B4JUpFd4vkdmBFg==",
+				"shasum": "92a02e6f4773463f9f1e0550f3e4f7af2a4db872",
+				"tarball": "https://registry.npmjs.org/@nuxt/eslint-config/-/eslint-config-0.3.0-beta.7.tgz",
+				"fileCount": 13,
+				"unpackedSize": 42407,
+				"signatures": [
+					{
+						"keyid": "SHA256:jl3bwswu80PjjokCgh0o2w5c2U4LhQAE57gj9cz1kzA",
+						"sig": "MEQCIEhTsPQsjuFXptwYv3Bu09ZR535KCiXwSHJsk5PRGr71AiAcbYfbLr8QW8/A1FbPiFQdvMeaqsuH7fSoc1G4d6FCiw=="
+					}
+				]
+			},
+			"_npmUser": {
+				"name": "antfu",
+				"email": "anthonyfu117@hotmail.com"
+			},
+			"directories": {},
+			"maintainers": [
+				{
+					"name": "nuxtbot",
+					"email": "nuxtbot@roe.dev"
+				},
+				{
+					"name": "antfu",
+					"email": "anthonyfu117@hotmail.com"
+				},
+				{
+					"name": "atinux",
+					"email": "atinux@gmail.com"
+				},
+				{
+					"name": "pi0",
+					"email": "pyapar@gmail.com"
+				},
+				{
+					"name": "clarkdo",
+					"email": "clark.duxin@gmail.com"
+				},
+				{
+					"name": "danielroe",
+					"email": "daniel@roe.dev"
+				}
+			],
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/eslint-config_0.3.0-beta.7_1711724876841_0.9602226309685651"
+			},
+			"_hasShrinkwrap": false,
+			"contributors": []
+		},
+		"0.3.0-beta.8": {
+			"name": "@nuxt/eslint-config",
+			"version": "0.3.0-beta.8",
+			"description": "ESLint config for Nuxt projects",
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/nuxt/eslint.git",
+				"directory": "packages/eslint-config"
+			},
+			"license": "MIT",
+			"main": "./dist/legacy.cjs",
+			"module": "./dist/legacy.mjs",
+			"types": "./dist/legacy.d.ts",
+			"exports": {
+				".": {
+					"import": "./dist/legacy.mjs",
+					"require": "./dist/legacy.cjs"
+				},
+				"./flat": {
+					"import": "./dist/flat.mjs",
+					"require": "./dist/flat.cjs"
+				},
+				"./legacy": {
+					"import": "./dist/legacy.mjs",
+					"require": "./dist/legacy.cjs"
+				}
+			},
+			"peerDependencies": {
+				"eslint": "^8.57.0"
+			},
+			"dependencies": {
+				"@eslint/js": "^8.57.0",
+				"@rushstack/eslint-patch": "^1.10.1",
+				"@stylistic/eslint-plugin": "^1.7.0",
+				"@typescript-eslint/eslint-plugin": "^7.4.0",
+				"@typescript-eslint/parser": "^7.4.0",
+				"eslint-flat-config-utils": "^0.1.2",
+				"eslint-plugin-vue": "^9.24.0",
+				"globals": "^15.0.0",
+				"pathe": "^1.1.2",
+				"vue-eslint-parser": "^9.4.2",
+				"@nuxt/eslint-plugin": "0.3.0-beta.8"
+			},
+			"devDependencies": {
+				"@types/eslint": "^8.56.6",
+				"eslint": "^8.57.0",
+				"typescript": "^5.4.3"
+			},
+			"scripts": {
+				"build": "unbuild",
+				"stub": "unbuild --stub"
+			},
+			"readmeFilename": "README.md",
+			"bugs": {
+				"url": "https://github.com/nuxt/eslint/issues"
+			},
+			"homepage": "https://github.com/nuxt/eslint#readme",
+			"_id": "@nuxt/eslint-config@0.3.0-beta.8",
+			"_integrity": "sha512-9bqAcjXYG8KCNGCuEQC0TpUu6go+unEODMuAs69gnI1fHb1mrSvY7dh5+lbQ1QCX+D+6B6sHoCDJkhgZdyQ5YQ==",
+			"_resolved": "/private/var/folders/30/nymxcyb909ggq2j5lwn7b_600000gn/T/dd3118ec062dce623715e554bcca928d/nuxt-eslint-config-0.3.0-beta.8.tgz",
+			"_from": "file:nuxt-eslint-config-0.3.0-beta.8.tgz",
+			"_nodeVersion": "20.11.1",
+			"_npmVersion": "10.2.4",
+			"dist": {
+				"integrity": "sha512-9bqAcjXYG8KCNGCuEQC0TpUu6go+unEODMuAs69gnI1fHb1mrSvY7dh5+lbQ1QCX+D+6B6sHoCDJkhgZdyQ5YQ==",
+				"shasum": "913d4139b34bacf0e10a765837d6d597b549e63f",
+				"tarball": "https://registry.npmjs.org/@nuxt/eslint-config/-/eslint-config-0.3.0-beta.8.tgz",
+				"fileCount": 13,
+				"unpackedSize": 42407,
+				"signatures": [
+					{
+						"keyid": "SHA256:jl3bwswu80PjjokCgh0o2w5c2U4LhQAE57gj9cz1kzA",
+						"sig": "MEUCIC6K9DEPODWchF8ZqMBqsQ6yMz8sl0rUASFPt1eiaSZHAiEAvOzdW5h7ZS9iIoXiPnAN1UdW7qQDQ3oDNjnmvJXdbxY="
+					}
+				]
+			},
+			"_npmUser": {
+				"name": "antfu",
+				"email": "anthonyfu117@hotmail.com"
+			},
+			"directories": {},
+			"maintainers": [
+				{
+					"name": "nuxtbot",
+					"email": "nuxtbot@roe.dev"
+				},
+				{
+					"name": "antfu",
+					"email": "anthonyfu117@hotmail.com"
+				},
+				{
+					"name": "atinux",
+					"email": "atinux@gmail.com"
+				},
+				{
+					"name": "pi0",
+					"email": "pyapar@gmail.com"
+				},
+				{
+					"name": "clarkdo",
+					"email": "clark.duxin@gmail.com"
+				},
+				{
+					"name": "danielroe",
+					"email": "daniel@roe.dev"
+				}
+			],
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/eslint-config_0.3.0-beta.8_1711750085924_0.5349337468053104"
+			},
+			"_hasShrinkwrap": false,
+			"contributors": []
+		},
+		"0.3.0-beta.9": {
+			"name": "@nuxt/eslint-config",
+			"version": "0.3.0-beta.9",
+			"description": "ESLint config for Nuxt projects",
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/nuxt/eslint.git",
+				"directory": "packages/eslint-config"
+			},
+			"license": "MIT",
+			"main": "./dist/legacy.cjs",
+			"module": "./dist/legacy.mjs",
+			"types": "./dist/legacy.d.ts",
+			"exports": {
+				".": {
+					"import": "./dist/legacy.mjs",
+					"require": "./dist/legacy.cjs"
+				},
+				"./flat": {
+					"import": "./dist/flat.mjs",
+					"require": "./dist/flat.cjs"
+				},
+				"./legacy": {
+					"import": "./dist/legacy.mjs",
+					"require": "./dist/legacy.cjs"
+				}
+			},
+			"peerDependencies": {
+				"eslint": "^8.57.0"
+			},
+			"dependencies": {
+				"@eslint/js": "^8.57.0",
+				"@rushstack/eslint-patch": "^1.10.1",
+				"@stylistic/eslint-plugin": "^1.7.0",
+				"@typescript-eslint/eslint-plugin": "^7.5.0",
+				"@typescript-eslint/parser": "^7.5.0",
+				"eslint-flat-config-utils": "^0.2.0",
+				"eslint-plugin-vue": "^9.24.0",
+				"globals": "^15.0.0",
+				"pathe": "^1.1.2",
+				"vue-eslint-parser": "^9.4.2",
+				"@nuxt/eslint-plugin": "0.3.0-beta.9"
+			},
+			"devDependencies": {
+				"@types/eslint": "^8.56.7",
+				"eslint": "^8.57.0",
+				"typescript": "^5.4.3"
+			},
+			"scripts": {
+				"build": "unbuild",
+				"stub": "unbuild --stub"
+			},
+			"readmeFilename": "README.md",
+			"bugs": {
+				"url": "https://github.com/nuxt/eslint/issues"
+			},
+			"homepage": "https://github.com/nuxt/eslint#readme",
+			"_id": "@nuxt/eslint-config@0.3.0-beta.9",
+			"_integrity": "sha512-jRhsoGG7fOumI1KlgmKl1r3GqnnjSco4RayDny0kabx32QDeD0cLZ2UDSmvpliS4of8P8kWKBkYPGPXZg+5Ayw==",
+			"_resolved": "/private/var/folders/30/nymxcyb909ggq2j5lwn7b_600000gn/T/f9cba39fe983482705f34605370bbec8/nuxt-eslint-config-0.3.0-beta.9.tgz",
+			"_from": "file:nuxt-eslint-config-0.3.0-beta.9.tgz",
+			"_nodeVersion": "20.11.1",
+			"_npmVersion": "10.2.4",
+			"dist": {
+				"integrity": "sha512-jRhsoGG7fOumI1KlgmKl1r3GqnnjSco4RayDny0kabx32QDeD0cLZ2UDSmvpliS4of8P8kWKBkYPGPXZg+5Ayw==",
+				"shasum": "561e2174212673a7d2f735aa63c53f3071267097",
+				"tarball": "https://registry.npmjs.org/@nuxt/eslint-config/-/eslint-config-0.3.0-beta.9.tgz",
+				"fileCount": 13,
+				"unpackedSize": 42813,
+				"signatures": [
+					{
+						"keyid": "SHA256:jl3bwswu80PjjokCgh0o2w5c2U4LhQAE57gj9cz1kzA",
+						"sig": "MEYCIQDpamslpaXDu53E3WxCoCt3hmPFQ1EbViZsfa7mpSG1UAIhAJePIRJ2hMjznLhICc4nKHwuA9W8HWY/nhSDR6Xq4HUm"
+					}
+				]
+			},
+			"_npmUser": {
+				"name": "antfu",
+				"email": "anthonyfu117@hotmail.com"
+			},
+			"directories": {},
+			"maintainers": [
+				{
+					"name": "nuxtbot",
+					"email": "nuxtbot@roe.dev"
+				},
+				{
+					"name": "antfu",
+					"email": "anthonyfu117@hotmail.com"
+				},
+				{
+					"name": "atinux",
+					"email": "atinux@gmail.com"
+				},
+				{
+					"name": "pi0",
+					"email": "pyapar@gmail.com"
+				},
+				{
+					"name": "clarkdo",
+					"email": "clark.duxin@gmail.com"
+				},
+				{
+					"name": "danielroe",
+					"email": "daniel@roe.dev"
+				}
+			],
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/eslint-config_0.3.0-beta.9_1712144881654_0.558746011054168"
+			},
+			"_hasShrinkwrap": false,
+			"contributors": []
+		},
+		"0.3.0-beta.10": {
+			"name": "@nuxt/eslint-config",
+			"version": "0.3.0-beta.10",
+			"description": "ESLint config for Nuxt projects",
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/nuxt/eslint.git",
+				"directory": "packages/eslint-config"
+			},
+			"license": "MIT",
+			"main": "./dist/legacy.cjs",
+			"module": "./dist/legacy.mjs",
+			"types": "./dist/legacy.d.ts",
+			"exports": {
+				".": {
+					"import": "./dist/legacy.mjs",
+					"require": "./dist/legacy.cjs"
+				},
+				"./flat": {
+					"import": "./dist/flat.mjs",
+					"require": "./dist/flat.cjs"
+				},
+				"./legacy": {
+					"import": "./dist/legacy.mjs",
+					"require": "./dist/legacy.cjs"
+				}
+			},
+			"peerDependencies": {
+				"eslint": "^8.57.0"
+			},
+			"dependencies": {
+				"@eslint/js": "^8.57.0",
+				"@rushstack/eslint-patch": "^1.10.1",
+				"@stylistic/eslint-plugin": "^1.7.0",
+				"@typescript-eslint/eslint-plugin": "^7.5.0",
+				"@typescript-eslint/parser": "^7.5.0",
+				"eslint-config-flat-gitignore": "^0.1.5",
+				"eslint-flat-config-utils": "^0.2.0",
+				"eslint-plugin-import-x": "^0.5.0",
+				"eslint-plugin-jsdoc": "^48.2.3",
+				"eslint-plugin-unicorn": "^52.0.0",
+				"eslint-plugin-vue": "^9.24.0",
+				"globals": "^15.0.0",
+				"pathe": "^1.1.2",
+				"tslib": "^2.6.2",
+				"vue-eslint-parser": "^9.4.2",
+				"@nuxt/eslint-plugin": "0.3.0-beta.10"
+			},
+			"devDependencies": {
+				"@types/eslint": "^8.56.7",
+				"eslint": "^8.57.0",
+				"typescript": "^5.4.4"
+			},
+			"scripts": {
+				"build": "unbuild",
+				"stub": "unbuild --stub"
+			},
+			"readmeFilename": "README.md",
+			"bugs": {
+				"url": "https://github.com/nuxt/eslint/issues"
+			},
+			"homepage": "https://github.com/nuxt/eslint#readme",
+			"_id": "@nuxt/eslint-config@0.3.0-beta.10",
+			"_integrity": "sha512-HAB8Vov/9gY3U2VB4LbM4IY5PreQoQSsu3oDApzyreoxudmzWBgns+uOfOXsaP477+7hstKpVlsc2P4VKrsxkA==",
+			"_resolved": "/private/var/folders/30/nymxcyb909ggq2j5lwn7b_600000gn/T/dec7c0ba36b99dc69a81c026e90f4bb7/nuxt-eslint-config-0.3.0-beta.10.tgz",
+			"_from": "file:nuxt-eslint-config-0.3.0-beta.10.tgz",
+			"_nodeVersion": "20.11.1",
+			"_npmVersion": "10.2.4",
+			"dist": {
+				"integrity": "sha512-HAB8Vov/9gY3U2VB4LbM4IY5PreQoQSsu3oDApzyreoxudmzWBgns+uOfOXsaP477+7hstKpVlsc2P4VKrsxkA==",
+				"shasum": "6ef9bbad367047236a06807343828c6a69e2ad14",
+				"tarball": "https://registry.npmjs.org/@nuxt/eslint-config/-/eslint-config-0.3.0-beta.10.tgz",
+				"fileCount": 27,
+				"unpackedSize": 56018,
+				"signatures": [
+					{
+						"keyid": "SHA256:jl3bwswu80PjjokCgh0o2w5c2U4LhQAE57gj9cz1kzA",
+						"sig": "MEQCIEJb55Yd+PfPCMsT/6uTrJ642pw1W43lmT3TyG+J44EgAiAcrTmyX9E1NwFwbIhK1btdKhGeWoSiXRU+DNK7/z7XNw=="
+					}
+				]
+			},
+			"_npmUser": {
+				"name": "antfu",
+				"email": "anthonyfu117@hotmail.com"
+			},
+			"directories": {},
+			"maintainers": [
+				{
+					"name": "nuxtbot",
+					"email": "nuxtbot@roe.dev"
+				},
+				{
+					"name": "antfu",
+					"email": "anthonyfu117@hotmail.com"
+				},
+				{
+					"name": "atinux",
+					"email": "atinux@gmail.com"
+				},
+				{
+					"name": "pi0",
+					"email": "pyapar@gmail.com"
+				},
+				{
+					"name": "clarkdo",
+					"email": "clark.duxin@gmail.com"
+				},
+				{
+					"name": "danielroe",
+					"email": "daniel@roe.dev"
+				}
+			],
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/eslint-config_0.3.0-beta.10_1712311643355_0.49571300414781194"
+			},
+			"_hasShrinkwrap": false,
+			"contributors": []
+		},
+		"0.3.0": {
+			"name": "@nuxt/eslint-config",
+			"version": "0.3.0",
+			"description": "ESLint config for Nuxt projects",
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/nuxt/eslint.git",
+				"directory": "packages/eslint-config"
+			},
+			"license": "MIT",
+			"main": "./dist/legacy.cjs",
+			"module": "./dist/legacy.mjs",
+			"types": "./dist/legacy.d.ts",
+			"exports": {
+				".": {
+					"import": "./dist/legacy.mjs",
+					"require": "./dist/legacy.cjs"
+				},
+				"./flat": {
+					"import": "./dist/flat.mjs",
+					"require": "./dist/flat.cjs"
+				},
+				"./legacy": {
+					"import": "./dist/legacy.mjs",
+					"require": "./dist/legacy.cjs"
+				}
+			},
+			"peerDependencies": {
+				"eslint": "^8.57.0"
+			},
+			"dependencies": {
+				"@eslint/js": "^8.57.0",
+				"@rushstack/eslint-patch": "^1.10.1",
+				"@stylistic/eslint-plugin": "^1.7.0",
+				"@typescript-eslint/eslint-plugin": "^7.5.0",
+				"@typescript-eslint/parser": "^7.5.0",
+				"eslint-config-flat-gitignore": "^0.1.5",
+				"eslint-flat-config-utils": "^0.2.0",
+				"eslint-plugin-import-x": "^0.5.0",
+				"eslint-plugin-jsdoc": "^48.2.3",
+				"eslint-plugin-unicorn": "^52.0.0",
+				"eslint-plugin-vue": "^9.24.0",
+				"globals": "^15.0.0",
+				"pathe": "^1.1.2",
+				"tslib": "^2.6.2",
+				"vue-eslint-parser": "^9.4.2",
+				"@nuxt/eslint-plugin": "0.3.0"
+			},
+			"devDependencies": {
+				"@types/eslint": "^8.56.7",
+				"eslint": "^8.57.0",
+				"typescript": "^5.4.4"
+			},
+			"scripts": {
+				"build": "unbuild",
+				"stub": "unbuild --stub"
+			},
+			"bugs": {
+				"url": "https://github.com/nuxt/eslint/issues"
+			},
+			"homepage": "https://github.com/nuxt/eslint#readme",
+			"_id": "@nuxt/eslint-config@0.3.0",
+			"_integrity": "sha512-9E06BZBmJlTDw5BlI04q0gMylucleEM2gkdCgAqbQQTgICVUzF+BhK+WHtnYwNs4OjhTARcnh6fZc94eO6ND/w==",
+			"_resolved": "/private/var/folders/30/nymxcyb909ggq2j5lwn7b_600000gn/T/0262c85b5cb429a209a6ee77eb6e061d/nuxt-eslint-config-0.3.0.tgz",
+			"_from": "file:nuxt-eslint-config-0.3.0.tgz",
+			"_nodeVersion": "20.11.1",
+			"_npmVersion": "10.2.4",
+			"dist": {
+				"integrity": "sha512-9E06BZBmJlTDw5BlI04q0gMylucleEM2gkdCgAqbQQTgICVUzF+BhK+WHtnYwNs4OjhTARcnh6fZc94eO6ND/w==",
+				"shasum": "67606dfd55ba82373707d8b9c61ecaa8b0dae9f7",
+				"tarball": "https://registry.npmjs.org/@nuxt/eslint-config/-/eslint-config-0.3.0.tgz",
+				"fileCount": 27,
+				"unpackedSize": 59562,
+				"signatures": [
+					{
+						"keyid": "SHA256:jl3bwswu80PjjokCgh0o2w5c2U4LhQAE57gj9cz1kzA",
+						"sig": "MEUCIQCJePMnJcsYJML6XnTwW534NH3RzFU2q39FTuURtwnKpQIgS8qdy0TlT2+og+QnPzgxroJ/yG+/NBwNAowY/MGDaXU="
+					}
+				]
+			},
+			"_npmUser": {
+				"name": "antfu",
+				"email": "anthonyfu117@hotmail.com"
+			},
+			"directories": {},
+			"maintainers": [
+				{
+					"name": "nuxtbot",
+					"email": "nuxtbot@roe.dev"
+				},
+				{
+					"name": "antfu",
+					"email": "anthonyfu117@hotmail.com"
+				},
+				{
+					"name": "atinux",
+					"email": "atinux@gmail.com"
+				},
+				{
+					"name": "pi0",
+					"email": "pyapar@gmail.com"
+				},
+				{
+					"name": "clarkdo",
+					"email": "clark.duxin@gmail.com"
+				},
+				{
+					"name": "danielroe",
+					"email": "daniel@roe.dev"
+				}
+			],
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/eslint-config_0.3.0_1712316289824_0.1720727851791526"
+			},
+			"_hasShrinkwrap": false,
+			"contributors": []
+		},
+		"0.3.1": {
+			"name": "@nuxt/eslint-config",
+			"version": "0.3.1",
+			"description": "ESLint config for Nuxt projects",
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/nuxt/eslint.git",
+				"directory": "packages/eslint-config"
+			},
+			"license": "MIT",
+			"main": "./dist/legacy.cjs",
+			"module": "./dist/legacy.mjs",
+			"types": "./dist/legacy.d.ts",
+			"exports": {
+				".": {
+					"import": "./dist/legacy.mjs",
+					"require": "./dist/legacy.cjs"
+				},
+				"./flat": {
+					"import": "./dist/flat.mjs",
+					"require": "./dist/flat.cjs"
+				},
+				"./legacy": {
+					"import": "./dist/legacy.mjs",
+					"require": "./dist/legacy.cjs"
+				}
+			},
+			"peerDependencies": {
+				"eslint": "^8.57.0 || ^9.0.0"
+			},
+			"dependencies": {
+				"@eslint/js": "^9.0.0",
+				"@rushstack/eslint-patch": "^1.10.1",
+				"@stylistic/eslint-plugin": "^1.7.0",
+				"@typescript-eslint/eslint-plugin": "^7.5.0",
+				"@typescript-eslint/parser": "^7.5.0",
+				"eslint-config-flat-gitignore": "^0.1.5",
+				"eslint-flat-config-utils": "^0.2.1",
+				"eslint-plugin-import-x": "^0.5.0",
+				"eslint-plugin-jsdoc": "^48.2.3",
+				"eslint-plugin-unicorn": "^52.0.0",
+				"eslint-plugin-vue": "^9.24.0",
+				"globals": "^15.0.0",
+				"pathe": "^1.1.2",
+				"tslib": "^2.6.2",
+				"vue-eslint-parser": "^9.4.2",
+				"@nuxt/eslint-plugin": "0.3.1"
+			},
+			"devDependencies": {
+				"@types/eslint": "^8.56.7",
+				"eslint": "^9.0.0",
+				"typescript": "^5.4.4"
+			},
+			"scripts": {
+				"build": "unbuild",
+				"stub": "unbuild --stub"
+			},
+			"bugs": {
+				"url": "https://github.com/nuxt/eslint/issues"
+			},
+			"homepage": "https://github.com/nuxt/eslint#readme",
+			"_id": "@nuxt/eslint-config@0.3.1",
+			"_integrity": "sha512-+dCRPXbq+/uB7cZn3HnhaVOyte1t21YHvtMj9MRa0ekAbY/G73DQztPVAnyh6yWaV1RtwvDBN6pf3o1SRRNbyg==",
+			"_resolved": "/private/var/folders/30/nymxcyb909ggq2j5lwn7b_600000gn/T/7df138c9cfe759642fd900dd490a93ec/nuxt-eslint-config-0.3.1.tgz",
+			"_from": "file:nuxt-eslint-config-0.3.1.tgz",
+			"_nodeVersion": "20.11.1",
+			"_npmVersion": "10.2.4",
+			"dist": {
+				"integrity": "sha512-+dCRPXbq+/uB7cZn3HnhaVOyte1t21YHvtMj9MRa0ekAbY/G73DQztPVAnyh6yWaV1RtwvDBN6pf3o1SRRNbyg==",
+				"shasum": "0381e195dd8312942da4a321efffc29010ebde86",
+				"tarball": "https://registry.npmjs.org/@nuxt/eslint-config/-/eslint-config-0.3.1.tgz",
+				"fileCount": 27,
+				"unpackedSize": 59570,
+				"signatures": [
+					{
+						"keyid": "SHA256:jl3bwswu80PjjokCgh0o2w5c2U4LhQAE57gj9cz1kzA",
+						"sig": "MEUCIQCQrho54/WAh2QDsBi3YV5zfjuArFtA6NOQ6jWQo9vbbAIgMxSPPb6R8aHNeAA91oJF6rs9Pv9bbdNyLuFpIxXKWFU="
+					}
+				]
+			},
+			"_npmUser": {
+				"name": "antfu",
+				"email": "anthonyfu117@hotmail.com"
+			},
+			"directories": {},
+			"maintainers": [
+				{
+					"name": "nuxtbot",
+					"email": "nuxtbot@roe.dev"
+				},
+				{
+					"name": "antfu",
+					"email": "anthonyfu117@hotmail.com"
+				},
+				{
+					"name": "atinux",
+					"email": "atinux@gmail.com"
+				},
+				{
+					"name": "pi0",
+					"email": "pyapar@gmail.com"
+				},
+				{
+					"name": "clarkdo",
+					"email": "clark.duxin@gmail.com"
+				},
+				{
+					"name": "danielroe",
+					"email": "daniel@roe.dev"
+				}
+			],
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/eslint-config_0.3.1_1712354358062_0.0007335478435475107"
+			},
+			"_hasShrinkwrap": false,
+			"contributors": []
+		},
+		"0.3.2": {
+			"name": "@nuxt/eslint-config",
+			"version": "0.3.2",
+			"description": "ESLint config for Nuxt projects",
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/nuxt/eslint.git",
+				"directory": "packages/eslint-config"
+			},
+			"license": "MIT",
+			"main": "./dist/legacy.cjs",
+			"module": "./dist/legacy.mjs",
+			"types": "./dist/legacy.d.ts",
+			"exports": {
+				".": {
+					"import": "./dist/legacy.mjs",
+					"require": "./dist/legacy.cjs"
+				},
+				"./flat": {
+					"import": "./dist/flat.mjs",
+					"require": "./dist/flat.cjs"
+				},
+				"./legacy": {
+					"import": "./dist/legacy.mjs",
+					"require": "./dist/legacy.cjs"
+				}
+			},
+			"peerDependencies": {
+				"eslint": "^8.57.0 || ^9.0.0"
+			},
+			"dependencies": {
+				"@eslint/js": "^9.0.0",
+				"@rushstack/eslint-patch": "^1.10.1",
+				"@stylistic/eslint-plugin": "^1.7.0",
+				"@typescript-eslint/eslint-plugin": "^7.5.0",
+				"@typescript-eslint/parser": "^7.5.0",
+				"eslint-config-flat-gitignore": "^0.1.5",
+				"eslint-flat-config-utils": "^0.2.1",
+				"eslint-plugin-import-x": "^0.5.0",
+				"eslint-plugin-jsdoc": "^48.2.3",
+				"eslint-plugin-unicorn": "^52.0.0",
+				"eslint-plugin-vue": "^9.24.1",
+				"globals": "^15.0.0",
+				"pathe": "^1.1.2",
+				"tslib": "^2.6.2",
+				"vue-eslint-parser": "^9.4.2",
+				"@nuxt/eslint-plugin": "0.3.2"
+			},
+			"devDependencies": {
+				"@types/eslint": "^8.56.7",
+				"eslint": "^9.0.0",
+				"typescript": "^5.4.4"
+			},
+			"scripts": {
+				"build": "unbuild",
+				"stub": "unbuild --stub"
+			},
+			"bugs": {
+				"url": "https://github.com/nuxt/eslint/issues"
+			},
+			"homepage": "https://github.com/nuxt/eslint#readme",
+			"_id": "@nuxt/eslint-config@0.3.2",
+			"_integrity": "sha512-yjl/bMORzxNNYPuRPyEVSHMWV/5wJdd16gZ3KF/56JUJ1Y8kMg+PrwZx5GTcau98vv+Hvo21IYqiObRYHIoF/w==",
+			"_resolved": "/private/var/folders/30/nymxcyb909ggq2j5lwn7b_600000gn/T/6d9862d2421b217cb7e856b6698cf2f1/nuxt-eslint-config-0.3.2.tgz",
+			"_from": "file:nuxt-eslint-config-0.3.2.tgz",
+			"_nodeVersion": "20.11.1",
+			"_npmVersion": "10.2.4",
+			"dist": {
+				"integrity": "sha512-yjl/bMORzxNNYPuRPyEVSHMWV/5wJdd16gZ3KF/56JUJ1Y8kMg+PrwZx5GTcau98vv+Hvo21IYqiObRYHIoF/w==",
+				"shasum": "f12ca7c36d1249e712e731556fd686f469d15483",
+				"tarball": "https://registry.npmjs.org/@nuxt/eslint-config/-/eslint-config-0.3.2.tgz",
+				"fileCount": 27,
+				"unpackedSize": 59448,
+				"signatures": [
+					{
+						"keyid": "SHA256:jl3bwswu80PjjokCgh0o2w5c2U4LhQAE57gj9cz1kzA",
+						"sig": "MEUCIQClwlLnjTGS3hR2B8mGPH3QEvhaIqpFufGYr6oV9uyLiAIgZJ9346uUlnvMarO5E9I3Ee93iOiw708iUC4noS1yTbw="
+					}
+				]
+			},
+			"_npmUser": {
+				"name": "antfu",
+				"email": "anthonyfu117@hotmail.com"
+			},
+			"directories": {},
+			"maintainers": [
+				{
+					"name": "nuxtbot",
+					"email": "nuxtbot@roe.dev"
+				},
+				{
+					"name": "antfu",
+					"email": "anthonyfu117@hotmail.com"
+				},
+				{
+					"name": "atinux",
+					"email": "atinux@gmail.com"
+				},
+				{
+					"name": "pi0",
+					"email": "pyapar@gmail.com"
+				},
+				{
+					"name": "clarkdo",
+					"email": "clark.duxin@gmail.com"
+				},
+				{
+					"name": "danielroe",
+					"email": "daniel@roe.dev"
+				}
+			],
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/eslint-config_0.3.2_1712594863886_0.5958600670012559"
+			},
+			"_hasShrinkwrap": false,
+			"contributors": []
+		},
+		"0.3.3": {
+			"name": "@nuxt/eslint-config",
+			"version": "0.3.3",
+			"description": "ESLint config for Nuxt projects",
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/nuxt/eslint.git",
+				"directory": "packages/eslint-config"
+			},
+			"license": "MIT",
+			"main": "./dist/legacy.cjs",
+			"module": "./dist/legacy.mjs",
+			"types": "./dist/legacy.d.ts",
+			"exports": {
+				".": {
+					"import": "./dist/legacy.mjs",
+					"require": "./dist/legacy.cjs"
+				},
+				"./flat": {
+					"import": "./dist/flat.mjs",
+					"require": "./dist/flat.cjs"
+				},
+				"./legacy": {
+					"import": "./dist/legacy.mjs",
+					"require": "./dist/legacy.cjs"
+				}
+			},
+			"typesVersions": {
+				"*": {
+					"flat": [
+						"./dist/flat.d.ts"
+					],
+					"legacy": [
+						"./dist/legacy.d.ts"
+					],
+					"*": [
+						"./dist/*",
+						"./*"
+					]
+				}
+			},
+			"peerDependencies": {
+				"eslint": "^8.57.0 || ^9.0.0"
+			},
+			"dependencies": {
+				"@eslint/js": "^9.0.0",
+				"@rushstack/eslint-patch": "^1.10.1",
+				"@stylistic/eslint-plugin": "^1.7.0",
+				"@typescript-eslint/eslint-plugin": "^7.6.0",
+				"@typescript-eslint/parser": "^7.6.0",
+				"eslint-config-flat-gitignore": "^0.1.5",
+				"eslint-flat-config-utils": "^0.2.1",
+				"eslint-plugin-import-x": "^0.5.0",
+				"eslint-plugin-jsdoc": "^48.2.3",
+				"eslint-plugin-unicorn": "^52.0.0",
+				"eslint-plugin-vue": "^9.24.1",
+				"globals": "^15.0.0",
+				"pathe": "^1.1.2",
+				"tslib": "^2.6.2",
+				"vue-eslint-parser": "^9.4.2",
+				"@nuxt/eslint-plugin": "0.3.3"
+			},
+			"devDependencies": {
+				"@types/eslint": "^8.56.7",
+				"eslint": "^9.0.0",
+				"typescript": "^5.4.4"
+			},
+			"scripts": {
+				"build": "unbuild",
+				"stub": "unbuild --stub"
+			},
+			"bugs": {
+				"url": "https://github.com/nuxt/eslint/issues"
+			},
+			"homepage": "https://github.com/nuxt/eslint#readme",
+			"_id": "@nuxt/eslint-config@0.3.3",
+			"_integrity": "sha512-9ZjKtPevguVAJOYF8275ftqSqENCSvR0JJ+3+LIwNf3TOR3lC37CdxLPyanqRebnXJUva0axbmzcbnDjWUicOw==",
+			"_resolved": "/private/var/folders/30/nymxcyb909ggq2j5lwn7b_600000gn/T/0d0f57847fab0c9091d4b3bf700b107c/nuxt-eslint-config-0.3.3.tgz",
+			"_from": "file:nuxt-eslint-config-0.3.3.tgz",
+			"_nodeVersion": "20.11.1",
+			"_npmVersion": "10.2.4",
+			"dist": {
+				"integrity": "sha512-9ZjKtPevguVAJOYF8275ftqSqENCSvR0JJ+3+LIwNf3TOR3lC37CdxLPyanqRebnXJUva0axbmzcbnDjWUicOw==",
+				"shasum": "ac7384d2f147ccfa2ba69ff98b79da9f40ece29c",
+				"tarball": "https://registry.npmjs.org/@nuxt/eslint-config/-/eslint-config-0.3.3.tgz",
+				"fileCount": 27,
+				"unpackedSize": 59654,
+				"signatures": [
+					{
+						"keyid": "SHA256:jl3bwswu80PjjokCgh0o2w5c2U4LhQAE57gj9cz1kzA",
+						"sig": "MEQCIGCuZ0iZbAc6y6XJr61nndBenKY2Avz1RcMUTpNHz1I8AiBKcBUOfid9HjNezw3jTlIU2ujlFP1TzB+L8orcp8dN9w=="
+					}
+				]
+			},
+			"_npmUser": {
+				"name": "antfu",
+				"email": "anthonyfu117@hotmail.com"
+			},
+			"directories": {},
+			"maintainers": [
+				{
+					"name": "nuxtbot",
+					"email": "nuxtbot@roe.dev"
+				},
+				{
+					"name": "antfu",
+					"email": "anthonyfu117@hotmail.com"
+				},
+				{
+					"name": "atinux",
+					"email": "atinux@gmail.com"
+				},
+				{
+					"name": "pi0",
+					"email": "pyapar@gmail.com"
+				},
+				{
+					"name": "clarkdo",
+					"email": "clark.duxin@gmail.com"
+				},
+				{
+					"name": "danielroe",
+					"email": "daniel@roe.dev"
+				}
+			],
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/eslint-config_0.3.3_1712660969064_0.20662500406415996"
+			},
+			"_hasShrinkwrap": false,
+			"contributors": []
+		},
+		"0.3.4": {
+			"name": "@nuxt/eslint-config",
+			"version": "0.3.4",
+			"description": "ESLint config for Nuxt projects",
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/nuxt/eslint.git",
+				"directory": "packages/eslint-config"
+			},
+			"license": "MIT",
+			"main": "./dist/legacy.cjs",
+			"module": "./dist/legacy.mjs",
+			"types": "./dist/legacy.d.ts",
+			"exports": {
+				".": {
+					"import": "./dist/legacy.mjs",
+					"require": "./dist/legacy.cjs"
+				},
+				"./flat": {
+					"import": "./dist/flat.mjs",
+					"require": "./dist/flat.cjs"
+				},
+				"./legacy": {
+					"import": "./dist/legacy.mjs",
+					"require": "./dist/legacy.cjs"
+				}
+			},
+			"typesVersions": {
+				"*": {
+					"flat": [
+						"./dist/flat.d.ts"
+					],
+					"legacy": [
+						"./dist/legacy.d.ts"
+					],
+					"*": [
+						"./dist/*",
+						"./*"
+					]
+				}
+			},
+			"peerDependencies": {
+				"eslint": "^8.57.0 || ^9.0.0"
+			},
+			"dependencies": {
+				"@eslint/js": "^9.0.0",
+				"@rushstack/eslint-patch": "^1.10.1",
+				"@stylistic/eslint-plugin": "^1.7.0",
+				"@typescript-eslint/eslint-plugin": "^7.6.0",
+				"@typescript-eslint/parser": "^7.6.0",
+				"eslint-config-flat-gitignore": "^0.1.5",
+				"eslint-flat-config-utils": "^0.2.1",
+				"eslint-plugin-import-x": "^0.5.0",
+				"eslint-plugin-jsdoc": "^48.2.3",
+				"eslint-plugin-unicorn": "^52.0.0",
+				"eslint-plugin-vue": "^9.24.1",
+				"globals": "^15.0.0",
+				"pathe": "^1.1.2",
+				"tslib": "^2.6.2",
+				"vue-eslint-parser": "^9.4.2",
+				"@nuxt/eslint-plugin": "0.3.4"
+			},
+			"devDependencies": {
+				"@types/eslint": "^8.56.7",
+				"eslint": "^9.0.0",
+				"typescript": "^5.4.4"
+			},
+			"scripts": {
+				"build": "unbuild",
+				"stub": "unbuild --stub"
+			},
+			"bugs": {
+				"url": "https://github.com/nuxt/eslint/issues"
+			},
+			"homepage": "https://github.com/nuxt/eslint#readme",
+			"_id": "@nuxt/eslint-config@0.3.4",
+			"_integrity": "sha512-O5Tpf4znp3n/GRP/8nBiHgdecJewdsweiat0OAkbcItxiioogQJ+VgUSNOsq5EHznJkX7umLQCeEOXd1YeKgvg==",
+			"_resolved": "/private/var/folders/30/nymxcyb909ggq2j5lwn7b_600000gn/T/4bc893c355f2cedcf2cbfc1c0ddde539/nuxt-eslint-config-0.3.4.tgz",
+			"_from": "file:nuxt-eslint-config-0.3.4.tgz",
+			"_nodeVersion": "20.11.1",
+			"_npmVersion": "10.2.4",
+			"dist": {
+				"integrity": "sha512-O5Tpf4znp3n/GRP/8nBiHgdecJewdsweiat0OAkbcItxiioogQJ+VgUSNOsq5EHznJkX7umLQCeEOXd1YeKgvg==",
+				"shasum": "98400f6fab7bf9fd59fe580ba1591580da7372a4",
+				"tarball": "https://registry.npmjs.org/@nuxt/eslint-config/-/eslint-config-0.3.4.tgz",
+				"fileCount": 27,
+				"unpackedSize": 59572,
+				"signatures": [
+					{
+						"keyid": "SHA256:jl3bwswu80PjjokCgh0o2w5c2U4LhQAE57gj9cz1kzA",
+						"sig": "MEQCIEGbRJTuLtgY8N5Fw+9tVgMF1u7vEhMAWWH/4CpAngeHAiA/0kuPc4TynUz8bplqVyQl7ad4VAcw7rlmS25iRAaxAA=="
+					}
+				]
+			},
+			"_npmUser": {
+				"name": "antfu",
+				"email": "anthonyfu117@hotmail.com"
+			},
+			"directories": {},
+			"maintainers": [
+				{
+					"name": "nuxtbot",
+					"email": "nuxtbot@roe.dev"
+				},
+				{
+					"name": "antfu",
+					"email": "anthonyfu117@hotmail.com"
+				},
+				{
+					"name": "atinux",
+					"email": "atinux@gmail.com"
+				},
+				{
+					"name": "pi0",
+					"email": "pyapar@gmail.com"
+				},
+				{
+					"name": "clarkdo",
+					"email": "clark.duxin@gmail.com"
+				},
+				{
+					"name": "danielroe",
+					"email": "daniel@roe.dev"
+				}
+			],
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/eslint-config_0.3.4_1712665164266_0.9840822803606175"
+			},
+			"_hasShrinkwrap": false,
+			"contributors": []
+		},
+		"0.3.5": {
+			"name": "@nuxt/eslint-config",
+			"version": "0.3.5",
+			"description": "ESLint config for Nuxt projects",
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/nuxt/eslint.git",
+				"directory": "packages/eslint-config"
+			},
+			"license": "MIT",
+			"main": "./dist/legacy.cjs",
+			"module": "./dist/legacy.mjs",
+			"types": "./dist/legacy.d.ts",
+			"exports": {
+				".": {
+					"import": "./dist/legacy.mjs",
+					"require": "./dist/legacy.cjs"
+				},
+				"./flat": {
+					"import": "./dist/flat.mjs",
+					"require": "./dist/flat.cjs"
+				},
+				"./legacy": {
+					"import": "./dist/legacy.mjs",
+					"require": "./dist/legacy.cjs"
+				}
+			},
+			"typesVersions": {
+				"*": {
+					"flat": [
+						"./dist/flat.d.ts"
+					],
+					"legacy": [
+						"./dist/legacy.d.ts"
+					],
+					"*": [
+						"./dist/*",
+						"./*"
+					]
+				}
+			},
+			"peerDependencies": {
+				"eslint": "^8.57.0 || ^9.0.0"
+			},
+			"dependencies": {
+				"@eslint/js": "^9.0.0",
+				"@rushstack/eslint-patch": "^1.10.1",
+				"@stylistic/eslint-plugin": "^1.7.0",
+				"@typescript-eslint/eslint-plugin": "^7.6.0",
+				"@typescript-eslint/parser": "^7.6.0",
+				"eslint-config-flat-gitignore": "^0.1.5",
+				"eslint-flat-config-utils": "^0.2.1",
+				"eslint-plugin-import-x": "^0.5.0",
+				"eslint-plugin-jsdoc": "^48.2.3",
+				"eslint-plugin-unicorn": "^52.0.0",
+				"eslint-plugin-vue": "^9.24.1",
+				"globals": "^15.0.0",
+				"pathe": "^1.1.2",
+				"tslib": "^2.6.2",
+				"vue-eslint-parser": "^9.4.2",
+				"@nuxt/eslint-plugin": "0.3.5"
+			},
+			"devDependencies": {
+				"@types/eslint": "^8.56.7",
+				"eslint": "^9.0.0",
+				"typescript": "^5.4.4"
+			},
+			"scripts": {
+				"build": "unbuild",
+				"stub": "unbuild --stub"
+			},
+			"bugs": {
+				"url": "https://github.com/nuxt/eslint/issues"
+			},
+			"homepage": "https://github.com/nuxt/eslint#readme",
+			"_id": "@nuxt/eslint-config@0.3.5",
+			"_integrity": "sha512-Sh8YJbna0ENg3r7minGipkxTMJ3ew0KOGY9Imb+YyS/0UfKsU/EJoWxNJqk1PKwTPQ+kSiTaai7fdwehwSNh0Q==",
+			"_resolved": "/private/var/folders/30/nymxcyb909ggq2j5lwn7b_600000gn/T/851df9d6893b0a648a7b41de6e292bf2/nuxt-eslint-config-0.3.5.tgz",
+			"_from": "file:nuxt-eslint-config-0.3.5.tgz",
+			"_nodeVersion": "20.11.1",
+			"_npmVersion": "10.2.4",
+			"dist": {
+				"integrity": "sha512-Sh8YJbna0ENg3r7minGipkxTMJ3ew0KOGY9Imb+YyS/0UfKsU/EJoWxNJqk1PKwTPQ+kSiTaai7fdwehwSNh0Q==",
+				"shasum": "b24c6008f987fadb6a3045b1a0c1126b93b239e2",
+				"tarball": "https://registry.npmjs.org/@nuxt/eslint-config/-/eslint-config-0.3.5.tgz",
+				"fileCount": 27,
+				"unpackedSize": 60153,
+				"signatures": [
+					{
+						"keyid": "SHA256:jl3bwswu80PjjokCgh0o2w5c2U4LhQAE57gj9cz1kzA",
+						"sig": "MEUCIQCemRvq/T/NueMYgYnX8WKq7XVYRiQGgzAS7YmcCssjxAIgbQhepUWOALgnGO/PqSy8O/fxM4Q+58divI7JNp1A90U="
+					}
+				]
+			},
+			"_npmUser": {
+				"name": "antfu",
+				"email": "anthonyfu117@hotmail.com"
+			},
+			"directories": {},
+			"maintainers": [
+				{
+					"name": "nuxtbot",
+					"email": "nuxtbot@roe.dev"
+				},
+				{
+					"name": "antfu",
+					"email": "anthonyfu117@hotmail.com"
+				},
+				{
+					"name": "atinux",
+					"email": "atinux@gmail.com"
+				},
+				{
+					"name": "pi0",
+					"email": "pyapar@gmail.com"
+				},
+				{
+					"name": "clarkdo",
+					"email": "clark.duxin@gmail.com"
+				},
+				{
+					"name": "danielroe",
+					"email": "daniel@roe.dev"
+				}
+			],
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/eslint-config_0.3.5_1712757931774_0.9541673388147947"
+			},
+			"_hasShrinkwrap": false,
+			"contributors": []
+		},
+		"0.3.6": {
+			"name": "@nuxt/eslint-config",
+			"version": "0.3.6",
+			"description": "ESLint config for Nuxt projects",
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/nuxt/eslint.git",
+				"directory": "packages/eslint-config"
+			},
+			"license": "MIT",
+			"main": "./dist/legacy.cjs",
+			"module": "./dist/legacy.mjs",
+			"types": "./dist/legacy.d.ts",
+			"exports": {
+				".": {
+					"import": "./dist/legacy.mjs",
+					"require": "./dist/legacy.cjs"
+				},
+				"./flat": {
+					"import": "./dist/flat.mjs",
+					"require": "./dist/flat.cjs"
+				},
+				"./legacy": {
+					"import": "./dist/legacy.mjs",
+					"require": "./dist/legacy.cjs"
+				}
+			},
+			"typesVersions": {
+				"*": {
+					"flat": [
+						"./dist/flat.d.ts"
+					],
+					"legacy": [
+						"./dist/legacy.d.ts"
+					],
+					"*": [
+						"./dist/*",
+						"./*"
+					]
+				}
+			},
+			"peerDependencies": {
+				"eslint": "^8.57.0 || ^9.0.0"
+			},
+			"dependencies": {
+				"@eslint/js": "^9.0.0",
+				"@rushstack/eslint-patch": "^1.10.1",
+				"@stylistic/eslint-plugin": "^1.7.0",
+				"@typescript-eslint/eslint-plugin": "^7.6.0",
+				"@typescript-eslint/parser": "^7.6.0",
+				"eslint-config-flat-gitignore": "^0.1.5",
+				"eslint-flat-config-utils": "^0.2.2",
+				"eslint-plugin-import-x": "^0.5.0",
+				"eslint-plugin-jsdoc": "^48.2.3",
+				"eslint-plugin-unicorn": "^52.0.0",
+				"eslint-plugin-vue": "^9.24.1",
+				"globals": "^15.0.0",
+				"pathe": "^1.1.2",
+				"tslib": "^2.6.2",
+				"vue-eslint-parser": "^9.4.2",
+				"@nuxt/eslint-plugin": "0.3.6"
+			},
+			"devDependencies": {
+				"@types/eslint": "^8.56.7",
+				"eslint": "^9.0.0",
+				"typescript": "^5.4.5"
+			},
+			"scripts": {
+				"build": "unbuild",
+				"stub": "unbuild --stub"
+			},
+			"bugs": {
+				"url": "https://github.com/nuxt/eslint/issues"
+			},
+			"homepage": "https://github.com/nuxt/eslint#readme",
+			"_id": "@nuxt/eslint-config@0.3.6",
+			"_integrity": "sha512-uuAPflhCSym2UUs+613CU4GJo10wtFFwzZLba/fHO7H6IqpVk8kHGDuwrV/AvVwnty8IhIIqOXBgrx16RoDkSA==",
+			"_resolved": "/private/var/folders/30/nymxcyb909ggq2j5lwn7b_600000gn/T/3e85f4d1e1345ab5e3db3b88a9dfb868/nuxt-eslint-config-0.3.6.tgz",
+			"_from": "file:nuxt-eslint-config-0.3.6.tgz",
+			"_nodeVersion": "20.11.1",
+			"_npmVersion": "10.2.4",
+			"dist": {
+				"integrity": "sha512-uuAPflhCSym2UUs+613CU4GJo10wtFFwzZLba/fHO7H6IqpVk8kHGDuwrV/AvVwnty8IhIIqOXBgrx16RoDkSA==",
+				"shasum": "9899186a576a1ca8bf4208a997c7c31cc2f607d6",
+				"tarball": "https://registry.npmjs.org/@nuxt/eslint-config/-/eslint-config-0.3.6.tgz",
+				"fileCount": 27,
+				"unpackedSize": 60153,
+				"signatures": [
+					{
+						"keyid": "SHA256:jl3bwswu80PjjokCgh0o2w5c2U4LhQAE57gj9cz1kzA",
+						"sig": "MEYCIQCpZx4rx3bgdptDLiAw6Yfo5HUWL/waJeL6CGnCO/xFdwIhAN6JjlqjjbpIRiLUaAl9eNWghgqCqy5FGPnb13JVY7mi"
+					}
+				]
+			},
+			"_npmUser": {
+				"name": "antfu",
+				"email": "anthonyfu117@hotmail.com"
+			},
+			"directories": {},
+			"maintainers": [
+				{
+					"name": "nuxtbot",
+					"email": "nuxtbot@roe.dev"
+				},
+				{
+					"name": "antfu",
+					"email": "anthonyfu117@hotmail.com"
+				},
+				{
+					"name": "atinux",
+					"email": "atinux@gmail.com"
+				},
+				{
+					"name": "pi0",
+					"email": "pyapar@gmail.com"
+				},
+				{
+					"name": "clarkdo",
+					"email": "clark.duxin@gmail.com"
+				},
+				{
+					"name": "danielroe",
+					"email": "daniel@roe.dev"
+				}
+			],
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/eslint-config_0.3.6_1712774254414_0.8965525372212697"
+			},
+			"_hasShrinkwrap": false,
+			"contributors": []
+		},
+		"0.3.7": {
+			"name": "@nuxt/eslint-config",
+			"version": "0.3.7",
+			"description": "ESLint config for Nuxt projects",
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/nuxt/eslint.git",
+				"directory": "packages/eslint-config"
+			},
+			"license": "MIT",
+			"main": "./dist/legacy.cjs",
+			"module": "./dist/legacy.mjs",
+			"types": "./dist/legacy.d.ts",
+			"exports": {
+				".": {
+					"import": "./dist/legacy.mjs",
+					"require": "./dist/legacy.cjs"
+				},
+				"./flat": {
+					"import": "./dist/flat.mjs",
+					"require": "./dist/flat.cjs"
+				},
+				"./legacy": {
+					"import": "./dist/legacy.mjs",
+					"require": "./dist/legacy.cjs"
+				}
+			},
+			"typesVersions": {
+				"*": {
+					"flat": [
+						"./dist/flat.d.ts"
+					],
+					"legacy": [
+						"./dist/legacy.d.ts"
+					],
+					"*": [
+						"./dist/*",
+						"./*"
+					]
+				}
+			},
+			"peerDependencies": {
+				"eslint": "^8.57.0 || ^9.0.0"
+			},
+			"dependencies": {
+				"@eslint/js": "^9.0.0",
+				"@rushstack/eslint-patch": "^1.10.2",
+				"@stylistic/eslint-plugin": "^1.7.0",
+				"@typescript-eslint/eslint-plugin": "^7.6.0",
+				"@typescript-eslint/parser": "^7.6.0",
+				"eslint-config-flat-gitignore": "^0.1.5",
+				"eslint-flat-config-utils": "^0.2.3",
+				"eslint-plugin-import-x": "^0.5.0",
+				"eslint-plugin-jsdoc": "^48.2.3",
+				"eslint-plugin-unicorn": "^52.0.0",
+				"eslint-plugin-vue": "^9.25.0",
+				"globals": "^15.0.0",
+				"pathe": "^1.1.2",
+				"tslib": "^2.6.2",
+				"vue-eslint-parser": "^9.4.2",
+				"@nuxt/eslint-plugin": "0.3.7"
+			},
+			"devDependencies": {
+				"@types/eslint": "^8.56.9",
+				"eslint": "^9.0.0",
+				"typescript": "^5.4.5"
+			},
+			"scripts": {
+				"build": "unbuild",
+				"stub": "unbuild --stub"
+			},
+			"bugs": {
+				"url": "https://github.com/nuxt/eslint/issues"
+			},
+			"homepage": "https://github.com/nuxt/eslint#readme",
+			"_id": "@nuxt/eslint-config@0.3.7",
+			"_integrity": "sha512-Pm3bf/XfbG9r/C76BSbeEquu3gXSsjoQYbILQP/peVBEM1gSJM2rPMmawfgV7V13UORpFBXhhk5hKQ3p7Auwkg==",
+			"_resolved": "/private/var/folders/30/nymxcyb909ggq2j5lwn7b_600000gn/T/d6c743b54423d4ece8dfcc635966df4f/nuxt-eslint-config-0.3.7.tgz",
+			"_from": "file:nuxt-eslint-config-0.3.7.tgz",
+			"_nodeVersion": "20.11.1",
+			"_npmVersion": "10.2.4",
+			"dist": {
+				"integrity": "sha512-Pm3bf/XfbG9r/C76BSbeEquu3gXSsjoQYbILQP/peVBEM1gSJM2rPMmawfgV7V13UORpFBXhhk5hKQ3p7Auwkg==",
+				"shasum": "a71c48241a969edb99f3ba5b6cbce9d02cc443cc",
+				"tarball": "https://registry.npmjs.org/@nuxt/eslint-config/-/eslint-config-0.3.7.tgz",
+				"fileCount": 27,
+				"unpackedSize": 61367,
+				"signatures": [
+					{
+						"keyid": "SHA256:jl3bwswu80PjjokCgh0o2w5c2U4LhQAE57gj9cz1kzA",
+						"sig": "MEUCIQDZsv+aEPdiCHQng5RT6+LuAGUqzkENHyWgSiwbDHbHjQIgN2wHqNVhVQ7uW87VHcfbjsoT5g6H7q4GhGltIHcfH0g="
+					}
+				]
+			},
+			"_npmUser": {
+				"name": "antfu",
+				"email": "anthonyfu117@hotmail.com"
+			},
+			"directories": {},
+			"maintainers": [
+				{
+					"name": "nuxtbot",
+					"email": "nuxtbot@roe.dev"
+				},
+				{
+					"name": "antfu",
+					"email": "anthonyfu117@hotmail.com"
+				},
+				{
+					"name": "atinux",
+					"email": "atinux@gmail.com"
+				},
+				{
+					"name": "pi0",
+					"email": "pyapar@gmail.com"
+				},
+				{
+					"name": "clarkdo",
+					"email": "clark.duxin@gmail.com"
+				},
+				{
+					"name": "danielroe",
+					"email": "daniel@roe.dev"
+				}
+			],
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/eslint-config_0.3.7_1713192107042_0.08559292479920644"
+			},
+			"_hasShrinkwrap": false,
+			"contributors": []
+		},
+		"0.3.8": {
+			"name": "@nuxt/eslint-config",
+			"version": "0.3.8",
+			"description": "ESLint config for Nuxt projects",
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/nuxt/eslint.git",
+				"directory": "packages/eslint-config"
+			},
+			"license": "MIT",
+			"main": "./dist/legacy.cjs",
+			"module": "./dist/legacy.mjs",
+			"types": "./dist/legacy.d.ts",
+			"exports": {
+				".": {
+					"import": "./dist/legacy.mjs",
+					"require": "./dist/legacy.cjs"
+				},
+				"./flat": {
+					"import": "./dist/flat.mjs",
+					"require": "./dist/flat.cjs"
+				},
+				"./legacy": {
+					"import": "./dist/legacy.mjs",
+					"require": "./dist/legacy.cjs"
+				}
+			},
+			"typesVersions": {
+				"*": {
+					"flat": [
+						"./dist/flat.d.ts"
+					],
+					"legacy": [
+						"./dist/legacy.d.ts"
+					],
+					"*": [
+						"./dist/*",
+						"./*"
+					]
+				}
+			},
+			"peerDependencies": {
+				"eslint": "^8.57.0 || ^9.0.0"
+			},
+			"dependencies": {
+				"@eslint/js": "^9.0.0",
+				"@rushstack/eslint-patch": "^1.10.2",
+				"@stylistic/eslint-plugin": "^1.7.2",
+				"@typescript-eslint/eslint-plugin": "^7.7.0",
+				"@typescript-eslint/parser": "^7.7.0",
+				"eslint-config-flat-gitignore": "^0.1.5",
+				"eslint-flat-config-utils": "^0.2.3",
+				"eslint-plugin-import-x": "^0.5.0",
+				"eslint-plugin-jsdoc": "^48.2.3",
+				"eslint-plugin-unicorn": "^52.0.0",
+				"eslint-plugin-vue": "^9.25.0",
+				"globals": "^15.0.0",
+				"pathe": "^1.1.2",
+				"tslib": "^2.6.2",
+				"vue-eslint-parser": "^9.4.2",
+				"@nuxt/eslint-plugin": "0.3.8"
+			},
+			"devDependencies": {
+				"@types/eslint": "^8.56.9",
+				"eslint": "^9.0.0",
+				"typescript": "^5.4.5"
+			},
+			"scripts": {
+				"build": "unbuild",
+				"stub": "unbuild --stub"
+			},
+			"bugs": {
+				"url": "https://github.com/nuxt/eslint/issues"
+			},
+			"homepage": "https://github.com/nuxt/eslint#readme",
+			"_id": "@nuxt/eslint-config@0.3.8",
+			"_integrity": "sha512-c65jwXbiRnJIQQqbtASmOIbtKoci7njizZ++n5p00r0065ICUME0h9NsO/s0WRJp3PTxuREzX1Ey/LNaZJoE1w==",
+			"_resolved": "/private/var/folders/30/nymxcyb909ggq2j5lwn7b_600000gn/T/affe9ce3b316e05f32493f75fc63f789/nuxt-eslint-config-0.3.8.tgz",
+			"_from": "file:nuxt-eslint-config-0.3.8.tgz",
+			"_nodeVersion": "20.11.1",
+			"_npmVersion": "10.2.4",
+			"dist": {
+				"integrity": "sha512-c65jwXbiRnJIQQqbtASmOIbtKoci7njizZ++n5p00r0065ICUME0h9NsO/s0WRJp3PTxuREzX1Ey/LNaZJoE1w==",
+				"shasum": "81a711d95e480ac4044a93397ad0b71e309d6af4",
+				"tarball": "https://registry.npmjs.org/@nuxt/eslint-config/-/eslint-config-0.3.8.tgz",
+				"fileCount": 27,
+				"unpackedSize": 61764,
+				"signatures": [
+					{
+						"keyid": "SHA256:jl3bwswu80PjjokCgh0o2w5c2U4LhQAE57gj9cz1kzA",
+						"sig": "MEYCIQDf5EG4YIZFNeINTyQhCf5v2md7AhMHKTRrTAybtRtaWwIhAPDrraqWayIjl4Rkztby0WcgTtYeUSR8WbXstUMv/Prv"
+					}
+				]
+			},
+			"_npmUser": {
+				"name": "antfu",
+				"email": "anthonyfu117@hotmail.com"
+			},
+			"directories": {},
+			"maintainers": [
+				{
+					"name": "nuxtbot",
+					"email": "nuxtbot@roe.dev"
+				},
+				{
+					"name": "antfu",
+					"email": "anthonyfu117@hotmail.com"
+				},
+				{
+					"name": "atinux",
+					"email": "atinux@gmail.com"
+				},
+				{
+					"name": "pi0",
+					"email": "pyapar@gmail.com"
+				},
+				{
+					"name": "clarkdo",
+					"email": "clark.duxin@gmail.com"
+				},
+				{
+					"name": "danielroe",
+					"email": "daniel@roe.dev"
+				}
+			],
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/eslint-config_0.3.8_1713404890342_0.30863873316804447"
+			},
+			"_hasShrinkwrap": false,
+			"contributors": []
+		},
+		"0.3.9": {
+			"name": "@nuxt/eslint-config",
+			"version": "0.3.9",
+			"description": "ESLint config for Nuxt projects",
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/nuxt/eslint.git",
+				"directory": "packages/eslint-config"
+			},
+			"license": "MIT",
+			"main": "./dist/legacy.cjs",
+			"module": "./dist/legacy.mjs",
+			"types": "./dist/legacy.d.ts",
+			"exports": {
+				".": {
+					"import": "./dist/legacy.mjs",
+					"require": "./dist/legacy.cjs"
+				},
+				"./flat": {
+					"import": "./dist/flat.mjs",
+					"require": "./dist/flat.cjs"
+				},
+				"./legacy": {
+					"import": "./dist/legacy.mjs",
+					"require": "./dist/legacy.cjs"
+				}
+			},
+			"typesVersions": {
+				"*": {
+					"flat": [
+						"./dist/flat.d.ts"
+					],
+					"legacy": [
+						"./dist/legacy.d.ts"
+					],
+					"*": [
+						"./dist/*",
+						"./*"
+					]
+				}
+			},
+			"peerDependencies": {
+				"eslint": "^8.57.0 || ^9.0.0"
+			},
+			"dependencies": {
+				"@eslint/js": "^9.1.1",
+				"@rushstack/eslint-patch": "^1.10.2",
+				"@stylistic/eslint-plugin": "^1.7.2",
+				"@typescript-eslint/eslint-plugin": "^7.7.0",
+				"@typescript-eslint/parser": "^7.7.0",
+				"eslint-config-flat-gitignore": "^0.1.5",
+				"eslint-flat-config-utils": "^0.2.3",
+				"eslint-plugin-import-x": "^0.5.0",
+				"eslint-plugin-jsdoc": "^48.2.3",
+				"eslint-plugin-unicorn": "^52.0.0",
+				"eslint-plugin-vue": "^9.25.0",
+				"globals": "^15.0.0",
+				"pathe": "^1.1.2",
+				"tslib": "^2.6.2",
+				"vue-eslint-parser": "^9.4.2",
+				"@nuxt/eslint-plugin": "0.3.9"
+			},
+			"devDependencies": {
+				"@types/eslint": "^8.56.10",
+				"eslint": "^9.1.0",
+				"typescript": "^5.4.5"
+			},
+			"scripts": {
+				"build": "unbuild",
+				"stub": "unbuild --stub"
+			},
+			"bugs": {
+				"url": "https://github.com/nuxt/eslint/issues"
+			},
+			"homepage": "https://github.com/nuxt/eslint#readme",
+			"_id": "@nuxt/eslint-config@0.3.9",
+			"_integrity": "sha512-/rxuXWRjin8QV5wM2OtNnYtEr02V9ze8TmCXV5ehmuW6PVexA6lQT/D72P0VK4y+JtuW4G3BUlb8pywtNaPtEw==",
+			"_resolved": "/private/var/folders/30/nymxcyb909ggq2j5lwn7b_600000gn/T/e642e0c10ece57a7498ea1fdda066c50/nuxt-eslint-config-0.3.9.tgz",
+			"_from": "file:nuxt-eslint-config-0.3.9.tgz",
+			"_nodeVersion": "20.11.1",
+			"_npmVersion": "10.2.4",
+			"dist": {
+				"integrity": "sha512-/rxuXWRjin8QV5wM2OtNnYtEr02V9ze8TmCXV5ehmuW6PVexA6lQT/D72P0VK4y+JtuW4G3BUlb8pywtNaPtEw==",
+				"shasum": "31f71f2c2fee3d0acf38ab1f99d4bb1da04df667",
+				"tarball": "https://registry.npmjs.org/@nuxt/eslint-config/-/eslint-config-0.3.9.tgz",
+				"fileCount": 27,
+				"unpackedSize": 61765,
+				"signatures": [
+					{
+						"keyid": "SHA256:jl3bwswu80PjjokCgh0o2w5c2U4LhQAE57gj9cz1kzA",
+						"sig": "MEUCIQCiZ1YTmBW3Urg9PyHRFHf3ys7HhsGWZH9Aerh3bDx/HwIgJrAbxVf+JsUA3gOI0CogZHuy/fX8fKzUKtTcZVICb4U="
+					}
+				]
+			},
+			"_npmUser": {
+				"name": "antfu",
+				"email": "anthonyfu117@hotmail.com"
+			},
+			"directories": {},
+			"maintainers": [
+				{
+					"name": "nuxtbot",
+					"email": "nuxtbot@roe.dev"
+				},
+				{
+					"name": "antfu",
+					"email": "anthonyfu117@hotmail.com"
+				},
+				{
+					"name": "atinux",
+					"email": "atinux@gmail.com"
+				},
+				{
+					"name": "pi0",
+					"email": "pyapar@gmail.com"
+				},
+				{
+					"name": "clarkdo",
+					"email": "clark.duxin@gmail.com"
+				},
+				{
+					"name": "danielroe",
+					"email": "daniel@roe.dev"
+				}
+			],
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/eslint-config_0.3.9_1713789274642_0.4800124143869473"
+			},
+			"_hasShrinkwrap": false,
+			"contributors": []
+		},
+		"0.3.10": {
+			"name": "@nuxt/eslint-config",
+			"version": "0.3.10",
+			"description": "ESLint config for Nuxt projects",
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/nuxt/eslint.git",
+				"directory": "packages/eslint-config"
+			},
+			"license": "MIT",
+			"main": "./dist/legacy.cjs",
+			"module": "./dist/legacy.mjs",
+			"types": "./dist/legacy.d.ts",
+			"exports": {
+				".": {
+					"import": "./dist/legacy.mjs",
+					"require": "./dist/legacy.cjs"
+				},
+				"./flat": {
+					"import": "./dist/flat.mjs",
+					"require": "./dist/flat.cjs"
+				},
+				"./legacy": {
+					"import": "./dist/legacy.mjs",
+					"require": "./dist/legacy.cjs"
+				}
+			},
+			"typesVersions": {
+				"*": {
+					"flat": [
+						"./dist/flat.d.ts"
+					],
+					"legacy": [
+						"./dist/legacy.d.ts"
+					],
+					"*": [
+						"./dist/*",
+						"./*"
+					]
+				}
+			},
+			"peerDependencies": {
+				"eslint": "^8.57.0 || ^9.0.0"
+			},
+			"dependencies": {
+				"@eslint/js": "^9.1.1",
+				"@rushstack/eslint-patch": "^1.10.2",
+				"@stylistic/eslint-plugin": "^1.7.2",
+				"@typescript-eslint/eslint-plugin": "^7.7.1",
+				"@typescript-eslint/parser": "^7.7.1",
+				"eslint-config-flat-gitignore": "^0.1.5",
+				"eslint-flat-config-utils": "^0.2.3",
+				"eslint-plugin-import-x": "^0.5.0",
+				"eslint-plugin-jsdoc": "^48.2.3",
+				"eslint-plugin-unicorn": "^52.0.0",
+				"eslint-plugin-vue": "^9.25.0",
+				"globals": "^15.0.0",
+				"pathe": "^1.1.2",
+				"tslib": "^2.6.2",
+				"vue-eslint-parser": "^9.4.2",
+				"@nuxt/eslint-plugin": "0.3.10"
+			},
+			"devDependencies": {
+				"@types/eslint": "^8.56.10",
+				"eslint": "^9.1.1",
+				"typescript": "^5.4.5"
+			},
+			"scripts": {
+				"build": "unbuild",
+				"stub": "unbuild --stub"
+			},
+			"bugs": {
+				"url": "https://github.com/nuxt/eslint/issues"
+			},
+			"homepage": "https://github.com/nuxt/eslint#readme",
+			"_id": "@nuxt/eslint-config@0.3.10",
+			"_integrity": "sha512-Hv1ncp0AzRSPD2FYjPW4r1ViSysXjZ2YFFBcfAdKtJtXrch+35B4H1+JXzHQa2P6M1nxMt3riPVSMibS9HkflQ==",
+			"_resolved": "/private/var/folders/30/nymxcyb909ggq2j5lwn7b_600000gn/T/3b4f7ddeda3dfe20e28bbe5f3b45799b/nuxt-eslint-config-0.3.10.tgz",
+			"_from": "file:nuxt-eslint-config-0.3.10.tgz",
+			"_nodeVersion": "20.11.1",
+			"_npmVersion": "10.2.4",
+			"dist": {
+				"integrity": "sha512-Hv1ncp0AzRSPD2FYjPW4r1ViSysXjZ2YFFBcfAdKtJtXrch+35B4H1+JXzHQa2P6M1nxMt3riPVSMibS9HkflQ==",
+				"shasum": "a2b2fb3cee03e2896efd4383a62e77c400582ef4",
+				"tarball": "https://registry.npmjs.org/@nuxt/eslint-config/-/eslint-config-0.3.10.tgz",
+				"fileCount": 27,
+				"unpackedSize": 61767,
+				"signatures": [
+					{
+						"keyid": "SHA256:jl3bwswu80PjjokCgh0o2w5c2U4LhQAE57gj9cz1kzA",
+						"sig": "MEYCIQCeqZPchsw5ZRZPzUoxF52bPB3OkTzTTv60Mmug5KXH4QIhAMKsMQlqk60LwPkB25QDqntH5etlmNj87VSOxwnNWIH+"
+					}
+				]
+			},
+			"_npmUser": {
+				"name": "antfu",
+				"email": "anthonyfu117@hotmail.com"
+			},
+			"directories": {},
+			"maintainers": [
+				{
+					"name": "nuxtbot",
+					"email": "nuxtbot@roe.dev"
+				},
+				{
+					"name": "antfu",
+					"email": "anthonyfu117@hotmail.com"
+				},
+				{
+					"name": "atinux",
+					"email": "atinux@gmail.com"
+				},
+				{
+					"name": "pi0",
+					"email": "pyapar@gmail.com"
+				},
+				{
+					"name": "clarkdo",
+					"email": "clark.duxin@gmail.com"
+				},
+				{
+					"name": "danielroe",
+					"email": "daniel@roe.dev"
+				}
+			],
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/eslint-config_0.3.10_1714068107088_0.9793663064968117"
+			},
+			"_hasShrinkwrap": false,
+			"contributors": []
+		},
+		"0.3.11": {
+			"name": "@nuxt/eslint-config",
+			"version": "0.3.11",
+			"description": "ESLint config for Nuxt projects",
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/nuxt/eslint.git",
+				"directory": "packages/eslint-config"
+			},
+			"license": "MIT",
+			"main": "./dist/legacy.cjs",
+			"module": "./dist/legacy.mjs",
+			"types": "./dist/legacy.d.ts",
+			"exports": {
+				".": {
+					"import": "./dist/legacy.mjs",
+					"require": "./dist/legacy.cjs"
+				},
+				"./flat": {
+					"import": "./dist/flat.mjs",
+					"require": "./dist/flat.cjs"
+				},
+				"./legacy": {
+					"import": "./dist/legacy.mjs",
+					"require": "./dist/legacy.cjs"
+				}
+			},
+			"typesVersions": {
+				"*": {
+					"flat": [
+						"./dist/flat.d.ts"
+					],
+					"legacy": [
+						"./dist/legacy.d.ts"
+					],
+					"*": [
+						"./dist/*",
+						"./*"
+					]
+				}
+			},
+			"peerDependencies": {
+				"eslint": "^8.57.0 || ^9.0.0"
+			},
+			"dependencies": {
+				"@eslint/js": "^9.2.0",
+				"@rushstack/eslint-patch": "^1.10.2",
+				"@stylistic/eslint-plugin": "^2.1.0",
+				"@typescript-eslint/eslint-plugin": "^7.8.0",
+				"@typescript-eslint/parser": "^7.8.0",
+				"eslint-config-flat-gitignore": "^0.1.5",
+				"eslint-flat-config-utils": "^0.2.4",
+				"eslint-plugin-import-x": "^0.5.0",
+				"eslint-plugin-jsdoc": "^48.2.3",
+				"eslint-plugin-unicorn": "^52.0.0",
+				"eslint-plugin-vue": "^9.26.0",
+				"globals": "^15.1.0",
+				"pathe": "^1.1.2",
+				"tslib": "^2.6.2",
+				"vue-eslint-parser": "^9.4.2",
+				"@nuxt/eslint-plugin": "0.3.11"
+			},
+			"devDependencies": {
+				"@types/eslint": "^8.56.10",
+				"eslint": "^9.2.0",
+				"typescript": "^5.4.5"
+			},
+			"scripts": {
+				"build": "unbuild",
+				"stub": "unbuild --stub"
+			},
+			"bugs": {
+				"url": "https://github.com/nuxt/eslint/issues"
+			},
+			"homepage": "https://github.com/nuxt/eslint#readme",
+			"_id": "@nuxt/eslint-config@0.3.11",
+			"_integrity": "sha512-PZElY8V0QFuon3ujVb2FmBCxC7UgjPjhI0dZl2HBS2SE2tdkvBMhbYAwvGTGCy/Zai2KgFw/JrrWAqHN6AGJuQ==",
+			"_resolved": "/private/var/folders/30/nymxcyb909ggq2j5lwn7b_600000gn/T/79822665b43ad3822ee637079723fea6/nuxt-eslint-config-0.3.11.tgz",
+			"_from": "file:nuxt-eslint-config-0.3.11.tgz",
+			"_nodeVersion": "20.12.2",
+			"_npmVersion": "10.5.0",
+			"dist": {
+				"integrity": "sha512-PZElY8V0QFuon3ujVb2FmBCxC7UgjPjhI0dZl2HBS2SE2tdkvBMhbYAwvGTGCy/Zai2KgFw/JrrWAqHN6AGJuQ==",
+				"shasum": "8885ad379f2db53e6b1560e855e1794afea5a301",
+				"tarball": "https://registry.npmjs.org/@nuxt/eslint-config/-/eslint-config-0.3.11.tgz",
+				"fileCount": 27,
+				"unpackedSize": 61767,
+				"signatures": [
+					{
+						"keyid": "SHA256:jl3bwswu80PjjokCgh0o2w5c2U4LhQAE57gj9cz1kzA",
+						"sig": "MEUCIB/s5j4629jXRzYLljwS5cJeMNTqvkfz98wi+Br9yVSBAiEAiR/IUy1osxNBjG7aW9Pe/gkHFc369iYCuZYxGBYa5Ys="
+					}
+				]
+			},
+			"_npmUser": {
+				"name": "antfu",
+				"email": "anthonyfu117@hotmail.com"
+			},
+			"directories": {},
+			"maintainers": [
+				{
+					"name": "nuxtbot",
+					"email": "nuxtbot@roe.dev"
+				},
+				{
+					"name": "antfu",
+					"email": "anthonyfu117@hotmail.com"
+				},
+				{
+					"name": "atinux",
+					"email": "atinux@gmail.com"
+				},
+				{
+					"name": "pi0",
+					"email": "pyapar@gmail.com"
+				},
+				{
+					"name": "clarkdo",
+					"email": "clark.duxin@gmail.com"
+				},
+				{
+					"name": "danielroe",
+					"email": "daniel@roe.dev"
+				}
+			],
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/eslint-config_0.3.11_1715259315644_0.6647223164137575"
+			},
+			"_hasShrinkwrap": false,
+			"contributors": []
+		},
+		"0.3.12": {
+			"name": "@nuxt/eslint-config",
+			"version": "0.3.12",
+			"description": "ESLint config for Nuxt projects",
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/nuxt/eslint.git",
+				"directory": "packages/eslint-config"
+			},
+			"license": "MIT",
+			"main": "./dist/legacy.cjs",
+			"module": "./dist/legacy.mjs",
+			"types": "./dist/legacy.d.ts",
+			"exports": {
+				".": {
+					"import": "./dist/legacy.mjs",
+					"require": "./dist/legacy.cjs"
+				},
+				"./flat": {
+					"import": "./dist/flat.mjs",
+					"require": "./dist/flat.cjs"
+				},
+				"./legacy": {
+					"import": "./dist/legacy.mjs",
+					"require": "./dist/legacy.cjs"
+				}
+			},
+			"typesVersions": {
+				"*": {
+					"flat": [
+						"./dist/flat.d.ts"
+					],
+					"legacy": [
+						"./dist/legacy.d.ts"
+					],
+					"*": [
+						"./dist/*",
+						"./*"
+					]
+				}
+			},
+			"peerDependencies": {
+				"eslint": "^8.57.0 || ^9.0.0"
+			},
+			"dependencies": {
+				"@eslint/js": "^9.2.0",
+				"@rushstack/eslint-patch": "^1.10.2",
+				"@stylistic/eslint-plugin": "^2.1.0",
+				"@typescript-eslint/eslint-plugin": "^7.8.0",
+				"@typescript-eslint/parser": "^7.8.0",
+				"eslint-config-flat-gitignore": "^0.1.5",
+				"eslint-flat-config-utils": "^0.2.4",
+				"eslint-plugin-import-x": "^0.5.0",
+				"eslint-plugin-jsdoc": "^48.2.3",
+				"eslint-plugin-unicorn": "^52.0.0",
+				"eslint-plugin-vue": "^9.26.0",
+				"globals": "^15.1.0",
+				"pathe": "^1.1.2",
+				"tslib": "^2.6.2",
+				"vue-eslint-parser": "^9.4.2",
+				"@nuxt/eslint-plugin": "0.3.12"
+			},
+			"devDependencies": {
+				"@types/eslint": "^8.56.10",
+				"eslint": "^9.2.0",
+				"typescript": "^5.4.5"
+			},
+			"scripts": {
+				"build": "unbuild",
+				"stub": "unbuild --stub"
+			},
+			"bugs": {
+				"url": "https://github.com/nuxt/eslint/issues"
+			},
+			"homepage": "https://github.com/nuxt/eslint#readme",
+			"_id": "@nuxt/eslint-config@0.3.12",
+			"_integrity": "sha512-ywGxClwkGPDV59iONa/d2fk3rgVPYxArm8aAmcTPOCbWCypAc/vlNDvgafo9VAljsZCbWj7JjlWmT5UzknwK7w==",
+			"_resolved": "/private/var/folders/30/nymxcyb909ggq2j5lwn7b_600000gn/T/01b730fe681cbeb632d15292281f0ede/nuxt-eslint-config-0.3.12.tgz",
+			"_from": "file:nuxt-eslint-config-0.3.12.tgz",
+			"_nodeVersion": "20.12.2",
+			"_npmVersion": "10.5.0",
+			"dist": {
+				"integrity": "sha512-ywGxClwkGPDV59iONa/d2fk3rgVPYxArm8aAmcTPOCbWCypAc/vlNDvgafo9VAljsZCbWj7JjlWmT5UzknwK7w==",
+				"shasum": "8bd03eb6eee3fd532a35b64438edf40ce36de46a",
+				"tarball": "https://registry.npmjs.org/@nuxt/eslint-config/-/eslint-config-0.3.12.tgz",
+				"fileCount": 27,
+				"unpackedSize": 62761,
+				"signatures": [
+					{
+						"keyid": "SHA256:jl3bwswu80PjjokCgh0o2w5c2U4LhQAE57gj9cz1kzA",
+						"sig": "MEQCIDNaGb0POPVHAWYSa3uAWa/WSSC3BApv5RO5OWYdfR4vAiBJTviccPgrJ2GbD/hyghWWXaeX6wB1rwo9dmr4aRJ0iQ=="
+					}
+				]
+			},
+			"_npmUser": {
+				"name": "antfu",
+				"email": "anthonyfu117@hotmail.com"
+			},
+			"directories": {},
+			"maintainers": [
+				{
+					"name": "nuxtbot",
+					"email": "nuxtbot@roe.dev"
+				},
+				{
+					"name": "antfu",
+					"email": "anthonyfu117@hotmail.com"
+				},
+				{
+					"name": "atinux",
+					"email": "atinux@gmail.com"
+				},
+				{
+					"name": "pi0",
+					"email": "pyapar@gmail.com"
+				},
+				{
+					"name": "clarkdo",
+					"email": "clark.duxin@gmail.com"
+				},
+				{
+					"name": "danielroe",
+					"email": "daniel@roe.dev"
+				}
+			],
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/eslint-config_0.3.12_1715261087512_0.4373703251897245"
+			},
+			"_hasShrinkwrap": false,
+			"contributors": []
+		}
+	},
+	"time": {
+		"created": "2022-12-05T12:10:49.466Z",
+		"0.0.1": "2022-12-05T12:10:49.853Z",
+		"modified": "2024-05-09T13:24:47.972Z",
+		"0.1.0": "2022-12-06T10:16:42.325Z",
+		"0.1.1": "2022-12-06T14:00:02.360Z",
+		"0.2.0": "2023-08-29T09:28:39.427Z",
+		"0.3.0-alpha.0": "2024-03-19T11:46:25.544Z",
+		"0.3.0-alpha.1": "2024-03-19T13:43:57.462Z",
+		"0.3.0-beta.1": "2024-03-20T14:12:04.806Z",
+		"0.3.0-beta.2": "2024-03-20T18:46:12.169Z",
+		"0.3.0-beta.3": "2024-03-21T12:44:59.381Z",
+		"0.3.0-beta.4": "2024-03-25T09:00:16.998Z",
+		"0.3.0-beta.5": "2024-03-27T23:45:05.702Z",
+		"0.3.0-beta.6": "2024-03-28T09:20:04.640Z",
+		"0.3.0-beta.7": "2024-03-29T15:07:56.986Z",
+		"0.3.0-beta.8": "2024-03-29T22:08:06.117Z",
+		"0.3.0-beta.9": "2024-04-03T11:48:01.798Z",
+		"0.3.0-beta.10": "2024-04-05T10:07:23.614Z",
+		"0.3.0": "2024-04-05T11:24:49.992Z",
+		"0.3.1": "2024-04-05T21:59:18.248Z",
+		"0.3.2": "2024-04-08T16:47:44.052Z",
+		"0.3.3": "2024-04-09T11:09:29.224Z",
+		"0.3.4": "2024-04-09T12:19:24.454Z",
+		"0.3.5": "2024-04-10T14:05:31.993Z",
+		"0.3.6": "2024-04-10T18:37:34.605Z",
+		"0.3.7": "2024-04-15T14:41:47.231Z",
+		"0.3.8": "2024-04-18T01:48:10.559Z",
+		"0.3.9": "2024-04-22T12:34:34.811Z",
+		"0.3.10": "2024-04-25T18:01:47.283Z",
+		"0.3.11": "2024-05-09T12:55:15.833Z",
+		"0.3.12": "2024-05-09T13:24:47.699Z"
+	},
+	"users": {},
+	"dist-tags": {
+		"latest": "0.3.12",
+		"next": "0.3.0-beta.10"
+	},
+	"_uplinks": {
+		"npmjs": {
+			"etag": "W/\"5bb3cda67322c1a150456f095517086b\"",
+			"fetched": 1715345885680
+		}
+	},
+	"_distfiles": {
+		"eslint-config-0.0.1.tgz": {
+			"url": "https://registry.npmjs.org/@nuxt/eslint-config/-/eslint-config-0.0.1.tgz",
+			"sha": "6474f5606a019c796a94f8eec4fa6801d7ef79d3",
+			"registry": "npmjs"
+		},
+		"eslint-config-0.1.0.tgz": {
+			"url": "https://registry.npmjs.org/@nuxt/eslint-config/-/eslint-config-0.1.0.tgz",
+			"sha": "a270c28d3cc5c06c8820ceedf82952fd23af5159",
+			"registry": "npmjs"
+		},
+		"eslint-config-0.1.1.tgz": {
+			"url": "https://registry.npmjs.org/@nuxt/eslint-config/-/eslint-config-0.1.1.tgz",
+			"sha": "99058b84f92aa2c67028a19e6c66cdf5beb9f5f6",
+			"registry": "npmjs"
+		},
+		"eslint-config-0.2.0.tgz": {
+			"url": "https://registry.npmjs.org/@nuxt/eslint-config/-/eslint-config-0.2.0.tgz",
+			"sha": "97e184bbea1000d3810cec9a20f398dcbfb98d3d",
+			"registry": "npmjs"
+		},
+		"eslint-config-0.3.0-alpha.0.tgz": {
+			"url": "https://registry.npmjs.org/@nuxt/eslint-config/-/eslint-config-0.3.0-alpha.0.tgz",
+			"sha": "87f289c98fbead01359a5b4eeeedb2e2a093f308",
+			"registry": "npmjs"
+		},
+		"eslint-config-0.3.0-alpha.1.tgz": {
+			"url": "https://registry.npmjs.org/@nuxt/eslint-config/-/eslint-config-0.3.0-alpha.1.tgz",
+			"sha": "8efce55eb64f55645d439569e1edae505ed8b237",
+			"registry": "npmjs"
+		},
+		"eslint-config-0.3.0-beta.1.tgz": {
+			"url": "https://registry.npmjs.org/@nuxt/eslint-config/-/eslint-config-0.3.0-beta.1.tgz",
+			"sha": "194635e584faa1e31ea048d7d22ecc073d8f562c",
+			"registry": "npmjs"
+		},
+		"eslint-config-0.3.0-beta.2.tgz": {
+			"url": "https://registry.npmjs.org/@nuxt/eslint-config/-/eslint-config-0.3.0-beta.2.tgz",
+			"sha": "37d2d0c8eb00145b81c65f12e84460215f4740d2",
+			"registry": "npmjs"
+		},
+		"eslint-config-0.3.0-beta.3.tgz": {
+			"url": "https://registry.npmjs.org/@nuxt/eslint-config/-/eslint-config-0.3.0-beta.3.tgz",
+			"sha": "60df0ddd4211508b25044b1fb621073a3fd30993",
+			"registry": "npmjs"
+		},
+		"eslint-config-0.3.0-beta.4.tgz": {
+			"url": "https://registry.npmjs.org/@nuxt/eslint-config/-/eslint-config-0.3.0-beta.4.tgz",
+			"sha": "668a9de493778ec1d9a4aafc0130601221ff0477",
+			"registry": "npmjs"
+		},
+		"eslint-config-0.3.0-beta.5.tgz": {
+			"url": "https://registry.npmjs.org/@nuxt/eslint-config/-/eslint-config-0.3.0-beta.5.tgz",
+			"sha": "c73dc5082c8cf82523b946a2fcd8ef73af4c456d",
+			"registry": "npmjs"
+		},
+		"eslint-config-0.3.0-beta.6.tgz": {
+			"url": "https://registry.npmjs.org/@nuxt/eslint-config/-/eslint-config-0.3.0-beta.6.tgz",
+			"sha": "7bad4bed38f68597c71cfbde3830170438ec1ac8",
+			"registry": "npmjs"
+		},
+		"eslint-config-0.3.0-beta.7.tgz": {
+			"url": "https://registry.npmjs.org/@nuxt/eslint-config/-/eslint-config-0.3.0-beta.7.tgz",
+			"sha": "92a02e6f4773463f9f1e0550f3e4f7af2a4db872",
+			"registry": "npmjs"
+		},
+		"eslint-config-0.3.0-beta.8.tgz": {
+			"url": "https://registry.npmjs.org/@nuxt/eslint-config/-/eslint-config-0.3.0-beta.8.tgz",
+			"sha": "913d4139b34bacf0e10a765837d6d597b549e63f",
+			"registry": "npmjs"
+		},
+		"eslint-config-0.3.0-beta.9.tgz": {
+			"url": "https://registry.npmjs.org/@nuxt/eslint-config/-/eslint-config-0.3.0-beta.9.tgz",
+			"sha": "561e2174212673a7d2f735aa63c53f3071267097",
+			"registry": "npmjs"
+		},
+		"eslint-config-0.3.0-beta.10.tgz": {
+			"url": "https://registry.npmjs.org/@nuxt/eslint-config/-/eslint-config-0.3.0-beta.10.tgz",
+			"sha": "6ef9bbad367047236a06807343828c6a69e2ad14",
+			"registry": "npmjs"
+		},
+		"eslint-config-0.3.0.tgz": {
+			"url": "https://registry.npmjs.org/@nuxt/eslint-config/-/eslint-config-0.3.0.tgz",
+			"sha": "67606dfd55ba82373707d8b9c61ecaa8b0dae9f7",
+			"registry": "npmjs"
+		},
+		"eslint-config-0.3.1.tgz": {
+			"url": "https://registry.npmjs.org/@nuxt/eslint-config/-/eslint-config-0.3.1.tgz",
+			"sha": "0381e195dd8312942da4a321efffc29010ebde86",
+			"registry": "npmjs"
+		},
+		"eslint-config-0.3.2.tgz": {
+			"url": "https://registry.npmjs.org/@nuxt/eslint-config/-/eslint-config-0.3.2.tgz",
+			"sha": "f12ca7c36d1249e712e731556fd686f469d15483",
+			"registry": "npmjs"
+		},
+		"eslint-config-0.3.3.tgz": {
+			"url": "https://registry.npmjs.org/@nuxt/eslint-config/-/eslint-config-0.3.3.tgz",
+			"sha": "ac7384d2f147ccfa2ba69ff98b79da9f40ece29c",
+			"registry": "npmjs"
+		},
+		"eslint-config-0.3.4.tgz": {
+			"url": "https://registry.npmjs.org/@nuxt/eslint-config/-/eslint-config-0.3.4.tgz",
+			"sha": "98400f6fab7bf9fd59fe580ba1591580da7372a4",
+			"registry": "npmjs"
+		},
+		"eslint-config-0.3.5.tgz": {
+			"url": "https://registry.npmjs.org/@nuxt/eslint-config/-/eslint-config-0.3.5.tgz",
+			"sha": "b24c6008f987fadb6a3045b1a0c1126b93b239e2",
+			"registry": "npmjs"
+		},
+		"eslint-config-0.3.6.tgz": {
+			"url": "https://registry.npmjs.org/@nuxt/eslint-config/-/eslint-config-0.3.6.tgz",
+			"sha": "9899186a576a1ca8bf4208a997c7c31cc2f607d6",
+			"registry": "npmjs"
+		},
+		"eslint-config-0.3.7.tgz": {
+			"url": "https://registry.npmjs.org/@nuxt/eslint-config/-/eslint-config-0.3.7.tgz",
+			"sha": "a71c48241a969edb99f3ba5b6cbce9d02cc443cc",
+			"registry": "npmjs"
+		},
+		"eslint-config-0.3.8.tgz": {
+			"url": "https://registry.npmjs.org/@nuxt/eslint-config/-/eslint-config-0.3.8.tgz",
+			"sha": "81a711d95e480ac4044a93397ad0b71e309d6af4",
+			"registry": "npmjs"
+		},
+		"eslint-config-0.3.9.tgz": {
+			"url": "https://registry.npmjs.org/@nuxt/eslint-config/-/eslint-config-0.3.9.tgz",
+			"sha": "31f71f2c2fee3d0acf38ab1f99d4bb1da04df667",
+			"registry": "npmjs"
+		},
+		"eslint-config-0.3.10.tgz": {
+			"url": "https://registry.npmjs.org/@nuxt/eslint-config/-/eslint-config-0.3.10.tgz",
+			"sha": "a2b2fb3cee03e2896efd4383a62e77c400582ef4",
+			"registry": "npmjs"
+		},
+		"eslint-config-0.3.11.tgz": {
+			"url": "https://registry.npmjs.org/@nuxt/eslint-config/-/eslint-config-0.3.11.tgz",
+			"sha": "8885ad379f2db53e6b1560e855e1794afea5a301",
+			"registry": "npmjs"
+		},
+		"eslint-config-0.3.12.tgz": {
+			"url": "https://registry.npmjs.org/@nuxt/eslint-config/-/eslint-config-0.3.12.tgz",
+			"sha": "8bd03eb6eee3fd532a35b64438edf40ce36de46a",
+			"registry": "npmjs"
+		}
+	},
+	"_attachments": {
+		"eslint-config-0.3.12.tgz": {
+			"shasum": "8bd03eb6eee3fd532a35b64438edf40ce36de46a"
+		}
+	},
+	"_rev": "2-bb1db6e425da19d6",
+	"_id": "@nuxt/eslint-config",
+	"readme": "# `@nuxt/eslint-config`\n\n[![npm version][npm-version-src]][npm-version-href]\n[![npm downloads][npm-downloads-src]][npm-downloads-href]\n\nShared ESLint config for Nuxt 3 projects. Unopinionated by default, but customizable.\n\nRefer to the [documentation](https://eslint.nuxt.com/packages/config) for more details.\n\n<!-- Badges -->\n\n[npm-version-src]: https://img.shields.io/npm/v/@nuxt/eslint-config?style=flat-square\n[npm-version-href]: https://npmjs.com/package/@nuxt/eslint-config\n[npm-downloads-src]: https://img.shields.io/npm/dm/@nuxt/eslint-config?style=flat-square\n[npm-downloads-href]: https://npmjs.com/package/@nuxt/eslint-config\n[github-actions-src]: https://img.shields.io/github/workflow/status/nuxt/eslint-config/ci/main?style=flat-square\n[github-actions-href]: https://github.com/nuxt/eslint-config/actions?query=workflow%3Aci\n[codecov-src]: https://img.shields.io/codecov/c/gh/nuxt/eslint-config/main?style=flat-square\n[codecov-href]: https://codecov.io/gh/nuxt/eslint-config\n[lgtm-src]: https://img.shields.io/lgtm/grade/javascript/github/nuxt/eslint-config?style=flat-square\n[lgtm-href]: https://lgtm.com/projects/g/nuxt/eslint-config\n[bundlephobia-src]: https://img.shields.io/bundlephobia/minzip/@nuxt/eslint-config?style=flat-square\n[bundlephobia-href]: https://bundlephobia.com/package/@nuxt/eslint-config"
+}

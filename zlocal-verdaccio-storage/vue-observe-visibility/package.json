@@ -1,0 +1,1858 @@
+{
+	"name": "vue-observe-visibility",
+	"versions": {
+		"0.0.1": {
+			"name": "vue-observe-visibility",
+			"description": "Detect when an element is becoming visible or hidden on the page. ",
+			"version": "0.0.1",
+			"author": {
+				"name": "Guillaume Chau",
+				"email": "guillaume.b.chau@gmail.com"
+			},
+			"keywords": [
+				"vue",
+				"vuejs",
+				"plugin"
+			],
+			"license": "MIT",
+			"main": "dist/vue-observe-visibility.js",
+			"module": "index.js",
+			"scripts": {
+				"dev": "cross-env NODE_ENV=development webpack --config config/webpack.dev.config.js --progress --watch",
+				"build": "cross-env NODE_ENV=production webpack --config config/webpack.prod.config.js --progress --hide-modules",
+				"prepublish": "npm run build"
+			},
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/Akryum/vue-observe-visibility.git"
+			},
+			"bugs": {
+				"url": "https://github.com/Akryum/vue-observe-visibility/issues"
+			},
+			"homepage": "https://github.com/Akryum/vue-observe-visibility#readme",
+			"devDependencies": {
+				"babel-core": "^6.0.0",
+				"babel-eslint": "^7.1.1",
+				"babel-loader": "^6.0.0",
+				"babel-preset-es2015": "^6.14.0",
+				"babel-preset-stage-0": "^6.16.0",
+				"cross-env": "^3.1.3",
+				"css-loader": "^0.26.1",
+				"eslint": "^3.12.1",
+				"eslint-config-standard": "^6.2.1",
+				"eslint-loader": "^1.6.1",
+				"eslint-plugin-html": "^1.6.0",
+				"eslint-plugin-promise": "^3.4.0",
+				"eslint-plugin-standard": "^2.0.1",
+				"extract-text-webpack-plugin": "^2.0.0-beta.4",
+				"vue-loader": "^10.0.0",
+				"vue-template-compiler": "^2.1.6",
+				"webpack": "^2.1.0-beta.28",
+				"webpack-merge": "^1.1.2"
+			},
+			"gitHead": "f1ab329f1b3bbae30ddcc063008b55edf0db240b",
+			"_id": "vue-observe-visibility@0.0.1",
+			"_shasum": "767566410b27a61ff352935cc7bbe1d5f644fca7",
+			"_from": ".",
+			"_npmVersion": "3.10.8",
+			"_nodeVersion": "7.0.0",
+			"_npmUser": {
+				"name": "akryum",
+				"email": "alphadelta.fg@gmail.com"
+			},
+			"dist": {
+				"shasum": "767566410b27a61ff352935cc7bbe1d5f644fca7",
+				"tarball": "https://registry.npmjs.org/vue-observe-visibility/-/vue-observe-visibility-0.0.1.tgz",
+				"integrity": "sha512-30WYhmM+axSCCEALwNRYm2WpFcSbiIzVNdQlmYgPaarXUbCZutLM59NboO33BbaxIVTCxBsJSf63klieTmCI+Q==",
+				"signatures": [
+					{
+						"keyid": "SHA256:jl3bwswu80PjjokCgh0o2w5c2U4LhQAE57gj9cz1kzA",
+						"sig": "MEQCIEBOc2IBRk29jX0ISnlHvGxOc/8yydXhNPh1m8m9r1AXAiBShN9xW24EKsOBW8iivIsXabF7+HAKkPMmbbAy/YbeBw=="
+					}
+				]
+			},
+			"maintainers": [
+				{
+					"name": "akryum",
+					"email": "alphadelta.fg@gmail.com"
+				}
+			],
+			"_npmOperationalInternal": {
+				"host": "packages-12-west.internal.npmjs.com",
+				"tmp": "tmp/vue-observe-visibility-0.0.1.tgz_1482507181683_0.7757573837880045"
+			},
+			"directories": {},
+			"contributors": []
+		},
+		"0.1.0": {
+			"name": "vue-observe-visibility",
+			"description": "Detect when an element is becoming visible or hidden on the page. ",
+			"version": "0.1.0",
+			"author": {
+				"name": "Guillaume Chau",
+				"email": "guillaume.b.chau@gmail.com"
+			},
+			"keywords": [
+				"vue",
+				"vuejs",
+				"plugin"
+			],
+			"license": "MIT",
+			"main": "dist/vue-observe-visibility.js",
+			"module": "index.js",
+			"scripts": {
+				"dev": "cross-env NODE_ENV=development webpack --config config/webpack.dev.config.js --progress --watch",
+				"build": "cross-env NODE_ENV=production webpack --config config/webpack.prod.config.js --progress --hide-modules",
+				"prepublish": "npm run build"
+			},
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/Akryum/vue-observe-visibility.git"
+			},
+			"bugs": {
+				"url": "https://github.com/Akryum/vue-observe-visibility/issues"
+			},
+			"homepage": "https://github.com/Akryum/vue-observe-visibility#readme",
+			"devDependencies": {
+				"babel-core": "^6.0.0",
+				"babel-eslint": "^7.1.1",
+				"babel-loader": "^6.0.0",
+				"babel-preset-es2015": "^6.14.0",
+				"babel-preset-stage-0": "^6.16.0",
+				"cross-env": "^3.1.3",
+				"css-loader": "^0.26.1",
+				"eslint": "^3.12.1",
+				"eslint-config-standard": "^6.2.1",
+				"eslint-loader": "^1.6.1",
+				"eslint-plugin-html": "^1.6.0",
+				"eslint-plugin-promise": "^3.4.0",
+				"eslint-plugin-standard": "^2.0.1",
+				"extract-text-webpack-plugin": "^2.0.0-beta.4",
+				"vue-loader": "^10.0.0",
+				"vue-template-compiler": "^2.1.6",
+				"webpack": "^2.1.0-beta.28",
+				"webpack-merge": "^1.1.2"
+			},
+			"gitHead": "f1ab329f1b3bbae30ddcc063008b55edf0db240b",
+			"_id": "vue-observe-visibility@0.1.0",
+			"_shasum": "4f1ddfccd7dabae78b51821b62be8393bbd7dff0",
+			"_from": ".",
+			"_npmVersion": "3.10.8",
+			"_nodeVersion": "7.0.0",
+			"_npmUser": {
+				"name": "akryum",
+				"email": "alphadelta.fg@gmail.com"
+			},
+			"dist": {
+				"shasum": "4f1ddfccd7dabae78b51821b62be8393bbd7dff0",
+				"tarball": "https://registry.npmjs.org/vue-observe-visibility/-/vue-observe-visibility-0.1.0.tgz",
+				"integrity": "sha512-5vELT9ZpdR70aOdy00VetoXXy6cW3ToBumWb/CIpm3Qg+y8zVq1e5GuWZNtAyWBgdy17T4+895uGecLGaV8vZw==",
+				"signatures": [
+					{
+						"keyid": "SHA256:jl3bwswu80PjjokCgh0o2w5c2U4LhQAE57gj9cz1kzA",
+						"sig": "MEYCIQDsLdsF6+hSaJ7WWVZ1587ROPlSFXhy/NXqauQ8eURQXAIhAO0qfdlpi/HO2SPsTyyB5nc2cTsmzV0Nr+Ck3xEzXH1O"
+					}
+				]
+			},
+			"maintainers": [
+				{
+					"name": "akryum",
+					"email": "alphadelta.fg@gmail.com"
+				}
+			],
+			"_npmOperationalInternal": {
+				"host": "packages-18-east.internal.npmjs.com",
+				"tmp": "tmp/vue-observe-visibility-0.1.0.tgz_1482507718628_0.5799211536068469"
+			},
+			"directories": {},
+			"contributors": []
+		},
+		"0.1.1": {
+			"name": "vue-observe-visibility",
+			"description": "Detect when an element is becoming visible or hidden on the page. ",
+			"version": "0.1.1",
+			"author": {
+				"name": "Guillaume Chau",
+				"email": "guillaume.b.chau@gmail.com"
+			},
+			"keywords": [
+				"vue",
+				"vuejs",
+				"plugin"
+			],
+			"license": "MIT",
+			"main": "dist/vue-observe-visibility.js",
+			"module": "index.js",
+			"scripts": {
+				"dev": "cross-env NODE_ENV=development webpack --config config/webpack.dev.config.js --progress --watch",
+				"build": "cross-env NODE_ENV=production webpack --config config/webpack.prod.config.js --progress --hide-modules",
+				"prepublish": "npm run build"
+			},
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/Akryum/vue-observe-visibility.git"
+			},
+			"bugs": {
+				"url": "https://github.com/Akryum/vue-observe-visibility/issues"
+			},
+			"homepage": "https://github.com/Akryum/vue-observe-visibility#readme",
+			"devDependencies": {
+				"babel-core": "^6.0.0",
+				"babel-eslint": "^7.1.1",
+				"babel-loader": "^6.0.0",
+				"babel-preset-es2015": "^6.14.0",
+				"babel-preset-stage-0": "^6.16.0",
+				"cross-env": "^3.1.3",
+				"css-loader": "^0.26.1",
+				"eslint": "^3.12.1",
+				"eslint-config-standard": "^6.2.1",
+				"eslint-loader": "^1.6.1",
+				"eslint-plugin-html": "^1.6.0",
+				"eslint-plugin-promise": "^3.4.0",
+				"eslint-plugin-standard": "^2.0.1",
+				"extract-text-webpack-plugin": "^2.0.0-beta.4",
+				"vue-loader": "^10.0.0",
+				"vue-template-compiler": "^2.1.6",
+				"webpack": "^2.1.0-beta.28",
+				"webpack-merge": "^1.1.2"
+			},
+			"gitHead": "eafff35b45f408ab80be584052a2d65e2501e5ff",
+			"_id": "vue-observe-visibility@0.1.1",
+			"_shasum": "3bc9ef304200634c6aee0000f7cf802bbfe83097",
+			"_from": ".",
+			"_npmVersion": "3.10.8",
+			"_nodeVersion": "7.0.0",
+			"_npmUser": {
+				"name": "akryum",
+				"email": "alphadelta.fg@gmail.com"
+			},
+			"dist": {
+				"shasum": "3bc9ef304200634c6aee0000f7cf802bbfe83097",
+				"tarball": "https://registry.npmjs.org/vue-observe-visibility/-/vue-observe-visibility-0.1.1.tgz",
+				"integrity": "sha512-68aWLcWaC+YkobVDmANJBfRDzPrPk3Vpu4MgFZxXkP3gwil0UnooNd4nt/EvVVxTFIlq/QpV+wtAokQP9LYYuw==",
+				"signatures": [
+					{
+						"keyid": "SHA256:jl3bwswu80PjjokCgh0o2w5c2U4LhQAE57gj9cz1kzA",
+						"sig": "MEUCIQDE+PFaznHxVVvMjNmYDweXDSlbjH3WMyAUXKuztnxY1gIgNHDCtvG/peuFW/YrA+fFNzq3FIDlMaaehExcS0TwNUU="
+					}
+				]
+			},
+			"maintainers": [
+				{
+					"name": "akryum",
+					"email": "alphadelta.fg@gmail.com"
+				}
+			],
+			"_npmOperationalInternal": {
+				"host": "packages-18-east.internal.npmjs.com",
+				"tmp": "tmp/vue-observe-visibility-0.1.1.tgz_1482509080056_0.12142008636146784"
+			},
+			"directories": {},
+			"contributors": []
+		},
+		"0.1.2": {
+			"name": "vue-observe-visibility",
+			"description": "Detect when an element is becoming visible or hidden on the page. ",
+			"version": "0.1.2",
+			"author": {
+				"name": "Guillaume Chau",
+				"email": "guillaume.b.chau@gmail.com"
+			},
+			"keywords": [
+				"vue",
+				"vuejs",
+				"plugin"
+			],
+			"license": "MIT",
+			"main": "dist/vue-observe-visibility.js",
+			"module": "index.js",
+			"scripts": {
+				"dev": "cross-env NODE_ENV=development webpack --config config/webpack.dev.config.js --progress --watch",
+				"build": "cross-env NODE_ENV=production webpack --config config/webpack.prod.config.js --progress --hide-modules",
+				"prepublish": "npm run build"
+			},
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/Akryum/vue-observe-visibility.git"
+			},
+			"bugs": {
+				"url": "https://github.com/Akryum/vue-observe-visibility/issues"
+			},
+			"homepage": "https://github.com/Akryum/vue-observe-visibility#readme",
+			"devDependencies": {
+				"babel-core": "^6.0.0",
+				"babel-eslint": "^7.1.1",
+				"babel-loader": "^6.0.0",
+				"babel-preset-es2015": "^6.14.0",
+				"babel-preset-stage-0": "^6.16.0",
+				"cross-env": "^3.1.3",
+				"css-loader": "^0.26.1",
+				"eslint": "^3.12.1",
+				"eslint-config-standard": "^6.2.1",
+				"eslint-loader": "^1.6.1",
+				"eslint-plugin-html": "^1.6.0",
+				"eslint-plugin-promise": "^3.4.0",
+				"eslint-plugin-standard": "^2.0.1",
+				"extract-text-webpack-plugin": "^2.0.0-beta.4",
+				"vue-loader": "^10.0.0",
+				"vue-template-compiler": "^2.1.6",
+				"webpack": "^2.1.0-beta.28",
+				"webpack-merge": "^1.1.2"
+			},
+			"gitHead": "9a61731f910774664d7e1f0150850fbe1763d5e4",
+			"_id": "vue-observe-visibility@0.1.2",
+			"_shasum": "3d96fdb99d98b0720f5012fc13368080b5af29fc",
+			"_from": ".",
+			"_npmVersion": "4.0.5",
+			"_nodeVersion": "7.3.0",
+			"_npmUser": {
+				"name": "akryum",
+				"email": "alphadelta.fg@gmail.com"
+			},
+			"dist": {
+				"shasum": "3d96fdb99d98b0720f5012fc13368080b5af29fc",
+				"tarball": "https://registry.npmjs.org/vue-observe-visibility/-/vue-observe-visibility-0.1.2.tgz",
+				"integrity": "sha512-cvdTSBvSTkAZZkJtJqUEYG7jIAtnQnJfzX3L5lds8pzPFnj0YerULTrUfvCL6nE5zOayaw4+ONOOVLMYTlgvHw==",
+				"signatures": [
+					{
+						"keyid": "SHA256:jl3bwswu80PjjokCgh0o2w5c2U4LhQAE57gj9cz1kzA",
+						"sig": "MEQCID5obDRIKWMMBAoMV+p7tpKn5FCn5Qxk+c8Gg6u+OXFDAiBIfwVGbQGB/ecXFp4etHjym7I0HY1FuKuhrVCE/ExMyA=="
+					}
+				]
+			},
+			"maintainers": [
+				{
+					"name": "akryum",
+					"email": "alphadelta.fg@gmail.com"
+				}
+			],
+			"_npmOperationalInternal": {
+				"host": "packages-12-west.internal.npmjs.com",
+				"tmp": "tmp/vue-observe-visibility-0.1.2.tgz_1483963131098_0.640930071240291"
+			},
+			"directories": {},
+			"contributors": []
+		},
+		"0.1.3": {
+			"name": "vue-observe-visibility",
+			"description": "Detect when an element is becoming visible or hidden on the page. ",
+			"version": "0.1.3",
+			"author": {
+				"name": "Guillaume Chau",
+				"email": "guillaume.b.chau@gmail.com"
+			},
+			"keywords": [
+				"vue",
+				"vuejs",
+				"plugin"
+			],
+			"license": "MIT",
+			"main": "dist/vue-observe-visibility.js",
+			"module": "index.js",
+			"scripts": {
+				"dev": "cross-env NODE_ENV=development webpack --config config/webpack.dev.config.js --progress --watch",
+				"build": "cross-env NODE_ENV=production webpack --config config/webpack.prod.config.js --progress --hide-modules",
+				"prepublish": "npm run build"
+			},
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/Akryum/vue-observe-visibility.git"
+			},
+			"bugs": {
+				"url": "https://github.com/Akryum/vue-observe-visibility/issues"
+			},
+			"homepage": "https://github.com/Akryum/vue-observe-visibility#readme",
+			"devDependencies": {
+				"babel-core": "^6.0.0",
+				"babel-eslint": "^7.1.1",
+				"babel-loader": "^6.0.0",
+				"babel-preset-es2015": "^6.14.0",
+				"babel-preset-stage-0": "^6.16.0",
+				"cross-env": "^3.1.3",
+				"css-loader": "^0.26.1",
+				"eslint": "^3.12.1",
+				"eslint-config-standard": "^6.2.1",
+				"eslint-loader": "^1.6.1",
+				"eslint-plugin-html": "^1.6.0",
+				"eslint-plugin-promise": "^3.4.0",
+				"eslint-plugin-standard": "^2.0.1",
+				"extract-text-webpack-plugin": "^2.0.0-beta.4",
+				"vue-loader": "^10.0.0",
+				"vue-template-compiler": "^2.1.6",
+				"webpack": "^2.1.0-beta.28",
+				"webpack-merge": "^1.1.2"
+			},
+			"gitHead": "338c6b1ee4cf8b11d69dbbce263837a9ad36637c",
+			"_id": "vue-observe-visibility@0.1.3",
+			"_shasum": "c2f0fcb5c86d5ae244f53c7e28fa635a0db8ba36",
+			"_from": ".",
+			"_npmVersion": "4.0.5",
+			"_nodeVersion": "7.3.0",
+			"_npmUser": {
+				"name": "akryum",
+				"email": "alphadelta.fg@gmail.com"
+			},
+			"dist": {
+				"shasum": "c2f0fcb5c86d5ae244f53c7e28fa635a0db8ba36",
+				"tarball": "https://registry.npmjs.org/vue-observe-visibility/-/vue-observe-visibility-0.1.3.tgz",
+				"integrity": "sha512-LFY80ru+J4+GUzOoNXILIYFovMZkgQU7/lwgC4ztiNGTj8tijRmTYp7dOOBwHuvoK+HEXjJWbfD6QXjcq8OsLg==",
+				"signatures": [
+					{
+						"keyid": "SHA256:jl3bwswu80PjjokCgh0o2w5c2U4LhQAE57gj9cz1kzA",
+						"sig": "MEUCIDAUMAo7b5STHjisFKkRvnuPLWtKf5husJoiWCBWu4DsAiEA9/TI26rE6ojzNF2hAdc3+hiTlU49opAuKcFZaOoOG5Q="
+					}
+				]
+			},
+			"maintainers": [
+				{
+					"name": "akryum",
+					"email": "alphadelta.fg@gmail.com"
+				}
+			],
+			"_npmOperationalInternal": {
+				"host": "packages-18-east.internal.npmjs.com",
+				"tmp": "tmp/vue-observe-visibility-0.1.3.tgz_1483963599797_0.44016200094483793"
+			},
+			"directories": {},
+			"contributors": []
+		},
+		"0.2.0": {
+			"name": "vue-observe-visibility",
+			"description": "Detect when an element is becoming visible or hidden on the page. ",
+			"version": "0.2.0",
+			"author": {
+				"name": "Guillaume Chau",
+				"email": "guillaume.b.chau@gmail.com"
+			},
+			"keywords": [
+				"vue",
+				"vuejs",
+				"plugin"
+			],
+			"license": "MIT",
+			"main": "dist/vue-observe-visibility.js",
+			"module": "index.js",
+			"scripts": {
+				"dev": "cross-env NODE_ENV=development webpack --config config/webpack.dev.config.js --progress --watch",
+				"build": "cross-env NODE_ENV=production webpack --config config/webpack.prod.config.js --progress --hide-modules",
+				"prepublish": "npm run build"
+			},
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/Akryum/vue-observe-visibility.git"
+			},
+			"bugs": {
+				"url": "https://github.com/Akryum/vue-observe-visibility/issues"
+			},
+			"homepage": "https://github.com/Akryum/vue-observe-visibility#readme",
+			"devDependencies": {
+				"babel-core": "^6.0.0",
+				"babel-eslint": "^7.1.1",
+				"babel-loader": "^7.1.2",
+				"babel-preset-es2015": "^6.14.0",
+				"babel-preset-stage-0": "^6.16.0",
+				"cross-env": "^5.0.5",
+				"css-loader": "^0.28.7",
+				"eslint": "^4.6.1",
+				"eslint-config-standard": "^10.2.1",
+				"eslint-loader": "^1.6.1",
+				"eslint-plugin-html": "^3.2.1",
+				"eslint-plugin-import": "^2.7.0",
+				"eslint-plugin-node": "^5.1.1",
+				"eslint-plugin-promise": "^3.4.0",
+				"eslint-plugin-standard": "^3.0.1",
+				"extract-text-webpack-plugin": "^3.0.0",
+				"vue-loader": "^13.0.0",
+				"vue-template-compiler": "^2.1.6",
+				"webpack": "^3.5.5",
+				"webpack-merge": "^4.1.0"
+			},
+			"gitHead": "1f158af9e2f4b6990ef7ef2d4ded2ac8af1a3218",
+			"_id": "vue-observe-visibility@0.2.0",
+			"_npmVersion": "5.4.0",
+			"_nodeVersion": "8.1.4",
+			"_npmUser": {
+				"name": "akryum",
+				"email": "alphadelta.fg@gmail.com"
+			},
+			"dist": {
+				"integrity": "sha512-Gkizcv1KiTbsiNhOq/UwVFWMf00TAv6UfADjcfo1n1b0TW646fvTU7FxIhIHrKeC83xnAGd/2yEhfN0jPVIn3w==",
+				"shasum": "28ce46efa08abf4cb5203d08e78ed11749700f24",
+				"tarball": "https://registry.npmjs.org/vue-observe-visibility/-/vue-observe-visibility-0.2.0.tgz",
+				"signatures": [
+					{
+						"keyid": "SHA256:jl3bwswu80PjjokCgh0o2w5c2U4LhQAE57gj9cz1kzA",
+						"sig": "MEYCIQDsLHo3mFoSoNWKKZBW0L4Mf4pXXM55FTAnfnjGzAG2FQIhANxZVnqVAhRZ307Vb6ZHs/eMKIfBEQ+OuwAUotcyqSSO"
+					}
+				]
+			},
+			"maintainers": [
+				{
+					"name": "akryum",
+					"email": "alphadelta.fg@gmail.com"
+				}
+			],
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/vue-observe-visibility-0.2.0.tgz_1504705836741_0.2445113151334226"
+			},
+			"directories": {},
+			"contributors": []
+		},
+		"0.2.1": {
+			"name": "vue-observe-visibility",
+			"description": "Detect when an element is becoming visible or hidden on the page. ",
+			"version": "0.2.1",
+			"author": {
+				"name": "Guillaume Chau",
+				"email": "guillaume.b.chau@gmail.com"
+			},
+			"keywords": [
+				"vue",
+				"vuejs",
+				"plugin"
+			],
+			"license": "MIT",
+			"main": "dist/vue-observe-visibility.js",
+			"scripts": {
+				"dev": "cross-env NODE_ENV=development webpack --config config/webpack.dev.config.js --progress --watch",
+				"build": "cross-env NODE_ENV=production webpack --config config/webpack.prod.config.js --progress --hide-modules",
+				"prepublish": "npm run build"
+			},
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/Akryum/vue-observe-visibility.git"
+			},
+			"bugs": {
+				"url": "https://github.com/Akryum/vue-observe-visibility/issues"
+			},
+			"homepage": "https://github.com/Akryum/vue-observe-visibility#readme",
+			"devDependencies": {
+				"babel-core": "^6.0.0",
+				"babel-eslint": "^7.1.1",
+				"babel-loader": "^7.1.2",
+				"babel-preset-es2015": "^6.14.0",
+				"babel-preset-stage-0": "^6.16.0",
+				"cross-env": "^5.0.5",
+				"css-loader": "^0.28.7",
+				"eslint": "^4.6.1",
+				"eslint-config-standard": "^10.2.1",
+				"eslint-loader": "^1.6.1",
+				"eslint-plugin-html": "^3.2.1",
+				"eslint-plugin-import": "^2.7.0",
+				"eslint-plugin-node": "^5.1.1",
+				"eslint-plugin-promise": "^3.4.0",
+				"eslint-plugin-standard": "^3.0.1",
+				"extract-text-webpack-plugin": "^3.0.0",
+				"vue-loader": "^13.0.0",
+				"vue-template-compiler": "^2.1.6",
+				"webpack": "^3.5.5",
+				"webpack-merge": "^4.1.0"
+			},
+			"gitHead": "1b451dd38502bffcfb7c6d2f1202d78029a48a76",
+			"_id": "vue-observe-visibility@0.2.1",
+			"_npmVersion": "5.4.0",
+			"_nodeVersion": "8.1.4",
+			"_npmUser": {
+				"name": "akryum",
+				"email": "alphadelta.fg@gmail.com"
+			},
+			"dist": {
+				"integrity": "sha512-2bYlUlaw2XdOKjeHpgKjEXwRGEWZWIkZuyM5yDgpd3xkqiGshV9iL1yzGFCaEVA9gVAsd9azNq+Z9t4HYpPI4Q==",
+				"shasum": "58a1ddbe5bbd4e3bf0c1f5053e3977af7d8259cd",
+				"tarball": "https://registry.npmjs.org/vue-observe-visibility/-/vue-observe-visibility-0.2.1.tgz",
+				"signatures": [
+					{
+						"keyid": "SHA256:jl3bwswu80PjjokCgh0o2w5c2U4LhQAE57gj9cz1kzA",
+						"sig": "MEYCIQDrkf1EXUAbM+Pu7+Zq+EH6gC9DeUUTmoMs3ct+LldbgAIhAMifw+CPnxHnkSNqFj+hNmDCwwVaVchuT1WxIQVgJtgD"
+					}
+				]
+			},
+			"maintainers": [
+				{
+					"name": "akryum",
+					"email": "alphadelta.fg@gmail.com"
+				}
+			],
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/vue-observe-visibility-0.2.1.tgz_1504707273166_0.6635481745470315"
+			},
+			"directories": {},
+			"contributors": []
+		},
+		"0.2.2": {
+			"name": "vue-observe-visibility",
+			"description": "Detect when an element is becoming visible or hidden on the page. ",
+			"version": "0.2.2",
+			"author": {
+				"name": "Guillaume Chau",
+				"email": "guillaume.b.chau@gmail.com"
+			},
+			"keywords": [
+				"vue",
+				"vuejs",
+				"plugin"
+			],
+			"license": "MIT",
+			"main": "dist/vue-observe-visibility.js",
+			"scripts": {
+				"dev": "cross-env NODE_ENV=development webpack --config config/webpack.dev.config.js --progress --watch",
+				"build": "cross-env NODE_ENV=production webpack --config config/webpack.prod.config.js --progress --hide-modules",
+				"prepublish": "npm run build"
+			},
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/Akryum/vue-observe-visibility.git"
+			},
+			"bugs": {
+				"url": "https://github.com/Akryum/vue-observe-visibility/issues"
+			},
+			"homepage": "https://github.com/Akryum/vue-observe-visibility#readme",
+			"devDependencies": {
+				"babel-core": "^6.0.0",
+				"babel-eslint": "^7.1.1",
+				"babel-loader": "^7.1.2",
+				"babel-preset-es2015": "^6.14.0",
+				"babel-preset-stage-0": "^6.16.0",
+				"cross-env": "^5.0.5",
+				"css-loader": "^0.28.7",
+				"eslint": "^4.6.1",
+				"eslint-config-standard": "^10.2.1",
+				"eslint-loader": "^1.6.1",
+				"eslint-plugin-html": "^3.2.1",
+				"eslint-plugin-import": "^2.7.0",
+				"eslint-plugin-node": "^5.1.1",
+				"eslint-plugin-promise": "^3.4.0",
+				"eslint-plugin-standard": "^3.0.1",
+				"extract-text-webpack-plugin": "^3.0.0",
+				"vue-loader": "^13.0.0",
+				"vue-template-compiler": "^2.1.6",
+				"webpack": "^3.5.5",
+				"webpack-merge": "^4.1.0"
+			},
+			"gitHead": "9ca99e920612b71ed6d0e1f88c561c362e50170b",
+			"_id": "vue-observe-visibility@0.2.2",
+			"_npmVersion": "5.4.0",
+			"_nodeVersion": "8.1.4",
+			"_npmUser": {
+				"name": "akryum",
+				"email": "alphadelta.fg@gmail.com"
+			},
+			"dist": {
+				"integrity": "sha512-zPkY5316LQnMehG1gFJXiCnGryoCaV5L2wunf27f3fSlt/Ps/H/MLZiq2k3CYIfNj4bpdwMT7kMiqMlZtgVoHQ==",
+				"shasum": "6c36b410b9bc9db93788c69e5eba4eca3000cfd7",
+				"tarball": "https://registry.npmjs.org/vue-observe-visibility/-/vue-observe-visibility-0.2.2.tgz",
+				"signatures": [
+					{
+						"keyid": "SHA256:jl3bwswu80PjjokCgh0o2w5c2U4LhQAE57gj9cz1kzA",
+						"sig": "MEUCIHwqAkXc+uFyl/3zbNRPUZxAoiClHg5FHYE20Pong1BAAiEAyccFZY0GP9IMiWP41JLowzMyHTw6fzwLxvzHZ5lRbWc="
+					}
+				]
+			},
+			"maintainers": [
+				{
+					"name": "akryum",
+					"email": "alphadelta.fg@gmail.com"
+				}
+			],
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/vue-observe-visibility-0.2.2.tgz_1504709381973_0.09837825526483357"
+			},
+			"directories": {},
+			"contributors": []
+		},
+		"0.3.0": {
+			"name": "vue-observe-visibility",
+			"description": "Detect when an element is becoming visible or hidden on the page. ",
+			"version": "0.3.0",
+			"author": {
+				"name": "Guillaume Chau",
+				"email": "guillaume.b.chau@gmail.com"
+			},
+			"keywords": [
+				"vue",
+				"vuejs",
+				"plugin"
+			],
+			"license": "MIT",
+			"main": "dist/observe-visibility.umd.js",
+			"module": "dist/observe-visibility.esm.js",
+			"unpkg": "dist/observe-visibility.min.js",
+			"scripts": {
+				"build": "npm run build:browser && npm run build:es && npm run build:umd",
+				"build:browser": "rollup --config build/rollup.config.browser.js",
+				"build:es": "rollup --config build/rollup.config.es.js",
+				"build:umd": "rollup --config build/rollup.config.umd.js",
+				"prepublish": "npm run build",
+				"dev": "cross-env NODE_ENV=development rollup --config build/rollup.config.es.js --watch"
+			},
+			"watch": {
+				"build": "src/*.js"
+			},
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/Akryum/vue-observe-visibility.git"
+			},
+			"bugs": {
+				"url": "https://github.com/Akryum/vue-observe-visibility/issues"
+			},
+			"homepage": "https://github.com/Akryum/vue-observe-visibility#readme",
+			"devDependencies": {
+				"babel-core": "^6.0.0",
+				"babel-eslint": "^7.1.1",
+				"babel-plugin-external-helpers": "^6.22.0",
+				"babel-preset-env": "^1.6.0",
+				"babel-preset-stage-0": "^6.16.0",
+				"cross-env": "^5.0.5",
+				"eslint": "^4.6.1",
+				"eslint-config-standard": "^10.2.1",
+				"eslint-plugin-html": "^3.2.1",
+				"eslint-plugin-import": "^2.7.0",
+				"eslint-plugin-node": "^5.1.1",
+				"eslint-plugin-promise": "^3.4.0",
+				"eslint-plugin-standard": "^3.0.1",
+				"npm-watch": "^0.2.0",
+				"rollup": "^0.50.0",
+				"rollup-plugin-babel": "^3.0.2",
+				"rollup-plugin-commonjs": "^8.2.0",
+				"rollup-plugin-css-only": "^0.2.0",
+				"rollup-plugin-css-porter": "^0.1.2",
+				"rollup-plugin-node-resolve": "^3.0.0",
+				"rollup-plugin-replace": "^2.0.0",
+				"rollup-plugin-stylus-css-modules": "^1.5.0",
+				"rollup-plugin-uglify": "^2.0.1",
+				"rollup-plugin-vue": "^2.4.1",
+				"uglify-es": "^3.0.28"
+			},
+			"gitHead": "141ee213ee688f67d1df35b0f58f39cd6ea3b198",
+			"_id": "vue-observe-visibility@0.3.0",
+			"_npmVersion": "5.4.1",
+			"_nodeVersion": "8.1.4",
+			"_npmUser": {
+				"name": "akryum",
+				"email": "alphadelta.fg@gmail.com"
+			},
+			"dist": {
+				"integrity": "sha512-XdxXbvoiua/RR9ayi2ejx5ufr6u1O05rPC5L3jyt+uo5Ev9i6LP5tRh7IPTBMMHgnqLb+iSUvKmhiFecosDjIQ==",
+				"shasum": "71f337b7b3b2d5e3af9d6a76f45341c91eaaaf7b",
+				"tarball": "https://registry.npmjs.org/vue-observe-visibility/-/vue-observe-visibility-0.3.0.tgz",
+				"signatures": [
+					{
+						"keyid": "SHA256:jl3bwswu80PjjokCgh0o2w5c2U4LhQAE57gj9cz1kzA",
+						"sig": "MEUCIQCFMchWzrhUCNNy8oYCkas5/TJahr5R0IQoIZEcKc3mcAIgflR4x7GDKblmUSek7LiMqjhJxKJ76kGVphK8SXyIZtU="
+					}
+				]
+			},
+			"maintainers": [
+				{
+					"name": "akryum",
+					"email": "alphadelta.fg@gmail.com"
+				}
+			],
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/vue-observe-visibility-0.3.0.tgz_1505746223639_0.3925571667496115"
+			},
+			"directories": {},
+			"contributors": []
+		},
+		"0.3.1": {
+			"name": "vue-observe-visibility",
+			"description": "Detect when an element is becoming visible or hidden on the page. ",
+			"version": "0.3.1",
+			"author": {
+				"name": "Guillaume Chau",
+				"email": "guillaume.b.chau@gmail.com"
+			},
+			"keywords": [
+				"vue",
+				"vuejs",
+				"plugin"
+			],
+			"license": "MIT",
+			"main": "dist/vue-observe-visibility.umd.js",
+			"module": "dist/vue-observe-visibility.esm.js",
+			"unpkg": "dist/vue-observe-visibility.min.js",
+			"scripts": {
+				"build": "npm run build:browser && npm run build:es && npm run build:umd",
+				"build:browser": "rollup --config build/rollup.config.browser.js",
+				"build:es": "rollup --config build/rollup.config.es.js",
+				"build:umd": "rollup --config build/rollup.config.umd.js",
+				"prepublish": "npm run build",
+				"dev": "cross-env NODE_ENV=development rollup --config build/rollup.config.es.js --watch"
+			},
+			"watch": {
+				"build": "src/*.js"
+			},
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/Akryum/vue-observe-visibility.git"
+			},
+			"bugs": {
+				"url": "https://github.com/Akryum/vue-observe-visibility/issues"
+			},
+			"homepage": "https://github.com/Akryum/vue-observe-visibility#readme",
+			"devDependencies": {
+				"babel-core": "^6.0.0",
+				"babel-eslint": "^7.1.1",
+				"babel-plugin-external-helpers": "^6.22.0",
+				"babel-preset-env": "^1.6.0",
+				"babel-preset-stage-0": "^6.16.0",
+				"cross-env": "^5.0.5",
+				"eslint": "^4.6.1",
+				"eslint-config-standard": "^10.2.1",
+				"eslint-plugin-html": "^3.2.1",
+				"eslint-plugin-import": "^2.7.0",
+				"eslint-plugin-node": "^5.1.1",
+				"eslint-plugin-promise": "^3.4.0",
+				"eslint-plugin-standard": "^3.0.1",
+				"npm-watch": "^0.2.0",
+				"rollup": "^0.50.0",
+				"rollup-plugin-babel": "^3.0.2",
+				"rollup-plugin-commonjs": "^8.2.0",
+				"rollup-plugin-css-only": "^0.2.0",
+				"rollup-plugin-css-porter": "^0.1.2",
+				"rollup-plugin-node-resolve": "^3.0.0",
+				"rollup-plugin-replace": "^2.0.0",
+				"rollup-plugin-stylus-css-modules": "^1.5.0",
+				"rollup-plugin-uglify": "^2.0.1",
+				"rollup-plugin-vue": "^2.4.1",
+				"uglify-es": "^3.0.28"
+			},
+			"gitHead": "e231fbeb03f8098513d1f35e0900e41a32391f1b",
+			"_id": "vue-observe-visibility@0.3.1",
+			"_npmVersion": "5.4.1",
+			"_nodeVersion": "8.1.4",
+			"_npmUser": {
+				"name": "akryum",
+				"email": "alphadelta.fg@gmail.com"
+			},
+			"dist": {
+				"integrity": "sha512-hrTdlkTiPmjjH+00dIiCsr/bBPNjUljNc9rboeLXMnXUqeom8LKa4l3iLwb3exa9PUUhtp4RrOtsa2eH0NimsQ==",
+				"shasum": "e7cad37893da42858c086196da9acdb0fd85340b",
+				"tarball": "https://registry.npmjs.org/vue-observe-visibility/-/vue-observe-visibility-0.3.1.tgz",
+				"signatures": [
+					{
+						"keyid": "SHA256:jl3bwswu80PjjokCgh0o2w5c2U4LhQAE57gj9cz1kzA",
+						"sig": "MEQCIAOhQSJOnnwy7S5XcssH5VMBEY3gpLiYtN+FGBexc7WJAiBzkNmWvwAIv1kMl2Txf0LjGH5uTOqMUtY/ivlLjzfBUg=="
+					}
+				]
+			},
+			"maintainers": [
+				{
+					"name": "akryum",
+					"email": "alphadelta.fg@gmail.com"
+				}
+			],
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/vue-observe-visibility-0.3.1.tgz_1505746458508_0.7921679196879268"
+			},
+			"directories": {},
+			"contributors": []
+		},
+		"0.4.0": {
+			"name": "vue-observe-visibility",
+			"description": "Detect when an element is becoming visible or hidden on the page. ",
+			"version": "0.4.0",
+			"author": {
+				"name": "Guillaume Chau",
+				"email": "guillaume.b.chau@gmail.com"
+			},
+			"keywords": [
+				"vue",
+				"vuejs",
+				"plugin"
+			],
+			"license": "MIT",
+			"main": "dist/vue-observe-visibility.umd.js",
+			"module": "dist/vue-observe-visibility.esm.js",
+			"unpkg": "dist/vue-observe-visibility.min.js",
+			"scripts": {
+				"build": "npm run build:browser && npm run build:es && npm run build:umd",
+				"build:browser": "rollup --config build/rollup.config.browser.js",
+				"build:es": "rollup --config build/rollup.config.es.js",
+				"build:umd": "rollup --config build/rollup.config.umd.js",
+				"prepublishOnly": "npm run build",
+				"dev": "nodemon --exec 'npm run build' --watch src",
+				"serve": "serve --open ./dist"
+			},
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/Akryum/vue-observe-visibility.git"
+			},
+			"bugs": {
+				"url": "https://github.com/Akryum/vue-observe-visibility/issues"
+			},
+			"homepage": "https://github.com/Akryum/vue-observe-visibility#readme",
+			"devDependencies": {
+				"babel-core": "^6.0.0",
+				"babel-eslint": "^7.1.1",
+				"babel-plugin-external-helpers": "^6.22.0",
+				"babel-preset-env": "^1.6.0",
+				"babel-preset-stage-0": "^6.16.0",
+				"cross-env": "^5.0.5",
+				"eslint": "^4.6.1",
+				"eslint-config-standard": "^10.2.1",
+				"eslint-plugin-html": "^3.2.1",
+				"eslint-plugin-import": "^2.7.0",
+				"eslint-plugin-node": "^5.1.1",
+				"eslint-plugin-promise": "^3.4.0",
+				"eslint-plugin-standard": "^3.0.1",
+				"nodemon": "^1.17.5",
+				"rollup": "^0.50.0",
+				"rollup-plugin-babel": "^3.0.2",
+				"rollup-plugin-commonjs": "^8.2.0",
+				"rollup-plugin-css-only": "^0.2.0",
+				"rollup-plugin-css-porter": "^0.1.2",
+				"rollup-plugin-node-resolve": "^3.0.0",
+				"rollup-plugin-replace": "^2.0.0",
+				"rollup-plugin-stylus-css-modules": "^1.5.0",
+				"rollup-plugin-uglify": "^2.0.1",
+				"rollup-plugin-vue": "^2.4.1",
+				"serve": "^6.5.8",
+				"uglify-es": "^3.0.28"
+			},
+			"gitHead": "b9cbff8182d49dbffac10551f78383213dc431d7",
+			"_id": "vue-observe-visibility@0.4.0",
+			"_npmVersion": "5.6.0",
+			"_nodeVersion": "9.7.1",
+			"_npmUser": {
+				"name": "akryum",
+				"email": "alphadelta.fg@gmail.com"
+			},
+			"dist": {
+				"integrity": "sha512-q5KU/bZZFdG0c7/YPuK/DQQ1VrJoJLnnK98i1h3Q+P8esUXa1zPZulW9kXjkxwtCzykeGdqKTPiySVNKisfMCw==",
+				"shasum": "75e0199e7aaa1dd8d86581169aea656197c8cb1b",
+				"tarball": "https://registry.npmjs.org/vue-observe-visibility/-/vue-observe-visibility-0.4.0.tgz",
+				"fileCount": 16,
+				"unpackedSize": 214153,
+				"npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.4\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJbC+hBCRA9TVsSAnZWagAAC1QP+webSJj+nlMAIN81MkQR\nXHhJSwu7JBMuPOrYMKhkQZ++VufOmWhNul0xuSgQmusXvuTNY51iq5UoAQ71\nSnD1K7wSpdt1iLiWSTyeFTsGWlV5/YKKU9wdxK14LlSK4P1jhmFxaJs1F4Ay\nHUfgTm7YzSn5PkhEAcWJUbTVY+5WFOgiqskjF0WaBvvRjdSZFCE6R0h6x5yk\nMkU8obJFCZna2DG4jqhIVRr8BZkUOFeaeA6ha7lb0LqNrZkMCbA1BzRTKS01\nDibK7cC5Ku/9gKb5n8JdVYYoT9tb0X9OZwhUWGuWvleIQotpfa+RbKWnbt43\nUpJm2IsPLshXY4yYgD5FEB0QsSGfJO4HbvrJKJ4GhomdoQW+cfYDJ+qNeuAK\nkD8RxHxrQz97ycWbQ1iBZNLsA6Yu6BtVgIfLXfegQRCpmguDZ9ifO4lIVn42\njtVflWsvonV4QhlEHioAxOfOnF7jSxiqccG1oLCa/VJge3DrJjwZZKgXC7K6\nmX0JS5+kmSP20TKLe5GnH1h6U/9/EuoaCPuji7hiNnHx7uTHs7GEpbMoX2i7\neeIXZlZHpkJsLTT72+MopvlkJnVnC8B3fGEcCykwelScwJPJDnTY9dQ93dhb\n1TvViXHygcx/iZEro1SAyqgGwMUD3b/lC3vaB9z/+anNjm4xv2sUD98goDFT\nN1fS\r\n=b+73\r\n-----END PGP SIGNATURE-----\r\n",
+				"signatures": [
+					{
+						"keyid": "SHA256:jl3bwswu80PjjokCgh0o2w5c2U4LhQAE57gj9cz1kzA",
+						"sig": "MEUCIQCL1MQA2MYf+Y8sSeWq+QHcAynCwOHFFzXWHwXuYnQjewIgDIF+BEOtMYrtNVX6IBaybK3rp+mXt8M8yN/e91gW81A="
+					}
+				]
+			},
+			"maintainers": [
+				{
+					"name": "akryum",
+					"email": "alphadelta.fg@gmail.com"
+				}
+			],
+			"directories": {},
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/vue-observe-visibility_0.4.0_1527507008372_0.5539879830612662"
+			},
+			"_hasShrinkwrap": false,
+			"contributors": []
+		},
+		"0.4.1": {
+			"name": "vue-observe-visibility",
+			"description": "Detect when an element is becoming visible or hidden on the page. ",
+			"version": "0.4.1",
+			"author": {
+				"name": "Guillaume Chau",
+				"email": "guillaume.b.chau@gmail.com"
+			},
+			"keywords": [
+				"vue",
+				"vuejs",
+				"plugin"
+			],
+			"license": "MIT",
+			"main": "dist/vue-observe-visibility.umd.js",
+			"module": "dist/vue-observe-visibility.esm.js",
+			"unpkg": "dist/vue-observe-visibility.min.js",
+			"scripts": {
+				"build": "npm run build:browser && npm run build:es && npm run build:umd",
+				"build:browser": "rollup --config build/rollup.config.browser.js",
+				"build:es": "rollup --config build/rollup.config.es.js",
+				"build:umd": "rollup --config build/rollup.config.umd.js",
+				"prepublishOnly": "npm run build",
+				"dev": "nodemon --exec 'npm run build' --watch src",
+				"serve": "serve --open ./dist"
+			},
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/Akryum/vue-observe-visibility.git"
+			},
+			"bugs": {
+				"url": "https://github.com/Akryum/vue-observe-visibility/issues"
+			},
+			"homepage": "https://github.com/Akryum/vue-observe-visibility#readme",
+			"devDependencies": {
+				"babel-core": "^6.0.0",
+				"babel-eslint": "^7.1.1",
+				"babel-plugin-external-helpers": "^6.22.0",
+				"babel-preset-env": "^1.6.0",
+				"babel-preset-stage-0": "^6.16.0",
+				"cross-env": "^5.0.5",
+				"eslint": "^4.6.1",
+				"eslint-config-standard": "^10.2.1",
+				"eslint-plugin-html": "^3.2.1",
+				"eslint-plugin-import": "^2.7.0",
+				"eslint-plugin-node": "^5.1.1",
+				"eslint-plugin-promise": "^3.4.0",
+				"eslint-plugin-standard": "^3.0.1",
+				"nodemon": "^1.17.5",
+				"rollup": "^0.50.0",
+				"rollup-plugin-babel": "^3.0.2",
+				"rollup-plugin-commonjs": "^8.2.0",
+				"rollup-plugin-css-only": "^0.2.0",
+				"rollup-plugin-css-porter": "^0.1.2",
+				"rollup-plugin-node-resolve": "^3.0.0",
+				"rollup-plugin-replace": "^2.0.0",
+				"rollup-plugin-stylus-css-modules": "^1.5.0",
+				"rollup-plugin-uglify": "^2.0.1",
+				"rollup-plugin-vue": "^2.4.1",
+				"serve": "^6.5.8",
+				"uglify-es": "^3.0.28"
+			},
+			"gitHead": "21fd454e911fd1d06dbdd2c7620583dabe24330c",
+			"_id": "vue-observe-visibility@0.4.1",
+			"_npmVersion": "5.6.0",
+			"_nodeVersion": "9.7.1",
+			"_npmUser": {
+				"name": "akryum",
+				"email": "alphadelta.fg@gmail.com"
+			},
+			"dist": {
+				"integrity": "sha512-JlrtUY8ZrDHO85gKVdOepJhsuKTXhum9+vfpHmkGVZg8sf9K1QTyikmeuqvAmQdNUgZ9vPBcs8vMsl4rm4A7fQ==",
+				"shasum": "741dfc6c7894f4f41abab9efa1a86b1eb5012b18",
+				"tarball": "https://registry.npmjs.org/vue-observe-visibility/-/vue-observe-visibility-0.4.1.tgz",
+				"fileCount": 16,
+				"unpackedSize": 214255,
+				"npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.4\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJbDVGJCRA9TVsSAnZWagAAZPUP/3gLM7mWm6aUrkllT0Va\nEMQv/7fmTweZO4ZYyWKpR3SsZkFDOa2jgQZ4wIBQETAWuKGMaqsJTWj1iMfT\n+w+D9hPsL8pC7Hj+ksIH1i6rRVKYLmaBMlWSX9Rxpxp0u9TS5tG2vMEYQCMC\nd3GptxX/QjBin4sZvh8uSqalEBjVwWUM9crDRUmsh3MmWCHI5IR/QhQQHXH1\n/jpkOBwonhVQ0rRGj4S0TiyJK9BF9jwBqW6wR/p5fg4xrjs9R5N8Ly9LA8IN\ni2a/TvLDEZDJE3bmH+ZnIvhx2DSaHKH0wRk95yDEjHxiDTluYO+xlin6zXlZ\nijU/u02D6e+5Fsvg+GkgY++dO00OrMbLVRHW3KrSyMGVHLam/1xI0eDIKnTM\nztqI/hsgy7a/XMqB7hTh84yYMkh8693HwvjPtHypJY+f/vuz+CjcFkQu1+Hh\nx5jncur3U2iWPwDg+WQZ7rYgi/Fqg/kgUQXLfkH4qHuTpEMu2NBYwkTu7P0N\nzwx+/asSK7sbiCwRIuwEQJ5L2srkZ6aaAi0tASn/BQDdVwRuvj06rJxhrD29\n/n/XNsUoML+U8HckchVuf9Sqg6RhXcEL00eCbYLoe7Nz+80m635g1g5r5MFB\n9/PIz58VDYZWOjNcJbp4AZ3ZaSh+76voj9ESUUfYUBxBPCtqSLv3lswRjhSj\nL1Ut\r\n=pPOh\r\n-----END PGP SIGNATURE-----\r\n",
+				"signatures": [
+					{
+						"keyid": "SHA256:jl3bwswu80PjjokCgh0o2w5c2U4LhQAE57gj9cz1kzA",
+						"sig": "MEQCIFIHUCdhhFchd0DZvz0hOBEQgAuWZGaduIkpaFHJbjYaAiB+oYEFGer+UPk0h/EqHUTH3x4uKrw8cMrGbqQVFIKvyw=="
+					}
+				]
+			},
+			"maintainers": [
+				{
+					"name": "akryum",
+					"email": "alphadelta.fg@gmail.com"
+				}
+			],
+			"directories": {},
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/vue-observe-visibility_0.4.1_1527599496716_0.30531997684821954"
+			},
+			"_hasShrinkwrap": false,
+			"contributors": []
+		},
+		"0.4.2": {
+			"name": "vue-observe-visibility",
+			"description": "Detect when an element is becoming visible or hidden on the page. ",
+			"version": "0.4.2",
+			"author": {
+				"name": "Guillaume Chau",
+				"email": "guillaume.b.chau@gmail.com"
+			},
+			"keywords": [
+				"vue",
+				"vuejs",
+				"plugin"
+			],
+			"license": "MIT",
+			"main": "dist/vue-observe-visibility.umd.js",
+			"module": "dist/vue-observe-visibility.esm.js",
+			"unpkg": "dist/vue-observe-visibility.min.js",
+			"scripts": {
+				"build": "npm run build:browser && npm run build:es && npm run build:umd",
+				"build:browser": "rollup --config build/rollup.config.browser.js",
+				"build:es": "rollup --config build/rollup.config.es.js",
+				"build:umd": "rollup --config build/rollup.config.umd.js",
+				"prepublishOnly": "npm run build",
+				"dev": "nodemon --exec 'npm run build' --watch src",
+				"serve": "serve --open ./dist"
+			},
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/Akryum/vue-observe-visibility.git"
+			},
+			"bugs": {
+				"url": "https://github.com/Akryum/vue-observe-visibility/issues"
+			},
+			"homepage": "https://github.com/Akryum/vue-observe-visibility#readme",
+			"devDependencies": {
+				"babel-core": "^6.0.0",
+				"babel-eslint": "^7.1.1",
+				"babel-plugin-external-helpers": "^6.22.0",
+				"babel-preset-env": "^1.6.0",
+				"babel-preset-stage-0": "^6.16.0",
+				"cross-env": "^5.0.5",
+				"eslint": "^4.6.1",
+				"eslint-config-standard": "^10.2.1",
+				"eslint-plugin-html": "^3.2.1",
+				"eslint-plugin-import": "^2.7.0",
+				"eslint-plugin-node": "^5.1.1",
+				"eslint-plugin-promise": "^3.4.0",
+				"eslint-plugin-standard": "^3.0.1",
+				"nodemon": "^1.17.5",
+				"rollup": "^0.50.0",
+				"rollup-plugin-babel": "^3.0.2",
+				"rollup-plugin-commonjs": "^8.2.0",
+				"rollup-plugin-css-only": "^0.2.0",
+				"rollup-plugin-node-resolve": "^3.0.0",
+				"rollup-plugin-replace": "^2.0.0",
+				"rollup-plugin-uglify": "^2.0.1",
+				"serve": "^6.5.8",
+				"uglify-es": "^3.0.28"
+			},
+			"gitHead": "94fec68e1d47816b26643b9f229d7cb863e2616a",
+			"_id": "vue-observe-visibility@0.4.2",
+			"_npmVersion": "6.1.0",
+			"_nodeVersion": "10.4.1",
+			"_npmUser": {
+				"name": "akryum",
+				"email": "guillaume.b.chau@gmail.com"
+			},
+			"dist": {
+				"integrity": "sha512-R5b//EVqObG8U41wW+r9AhwLYkaS9GzZj3+NbZ7W8OuFKxWtQSKAOZw3e0gLxv77aoRLx8QvqnPeoLRNuvy30A==",
+				"shasum": "11f9aa2c16567bd54a9b7dd1e312454086150641",
+				"tarball": "https://registry.npmjs.org/vue-observe-visibility/-/vue-observe-visibility-0.4.2.tgz",
+				"fileCount": 17,
+				"unpackedSize": 214297,
+				"npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.4\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJbthnnCRA9TVsSAnZWagAAJlcP/13aAV4LitUohracVmMp\n1is8mJwXEtGNKw2DB/6CPQMalZ8EZkVBguH4YA4UTQhazul2TuyhNVj0wN9O\n0VR8k95WX3nCEo2n+jPjez6YXKSAmLduokpuMIh+1srs+rcgDl9R595s5o7j\n5OOaH3GGBmRZaqhTmE1nB+UVFE9GScNFv1KUE9WbnScRMw8yLNCt4dDJThQT\njxRXJMOMqbx2VqC/63fe/wYPGU5eV9A8sHwKJmqh/AxFR5MEpAGOQN9IuCst\nFko5gdteD1CzqpioFwZKcacesOUvmbgNzjQBu1wG3n8HK/UkhobJKknH+fJZ\ns678Pc+MklNWwBtCYuccm0oMPaDOUgofPPx6UgWFrW9uZGCquT6Kl8ItYa5o\nCJ63JKOh7br6ZIswIajMs9recKq24wwt2hjaYbqehGpaqtgfU7quFb0LetzL\nzUyBkMSbjbWSb8qV9SE8gV/2mzUA1euHi0WJE0IUweH5PbiOlv5U6pltIoGX\nNHwbD0YmIccdMMeVUj2ffbzIF7M1zlgYVF55MCLtsrSFPEUzVo9DpaBxcimu\nbBLWcJdoAi7PyKYHWMvGD2cLb//4aYpKvFXMsLYehB+7IE6YcmVt8K785kWW\npsOf6XcsDcgWBvm8e08VmVV3cpOg4xi6L7V86XdK+ixThd9YIolPm3lxqD/h\nDYUn\r\n=KNul\r\n-----END PGP SIGNATURE-----\r\n",
+				"signatures": [
+					{
+						"keyid": "SHA256:jl3bwswu80PjjokCgh0o2w5c2U4LhQAE57gj9cz1kzA",
+						"sig": "MEQCIDQqnjKyDnQjZw9AGzCoN1PwWLYP3Dv/+uexDrk5ds5nAiAHIIE1QwGHZAj5hPpCtLaej0ACe60ViZjersl3HRd/hA=="
+					}
+				]
+			},
+			"maintainers": [
+				{
+					"name": "akryum",
+					"email": "alphadelta.fg@gmail.com"
+				}
+			],
+			"directories": {},
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/vue-observe-visibility_0.4.2_1538660838464_0.48582154466562977"
+			},
+			"_hasShrinkwrap": false,
+			"contributors": []
+		},
+		"0.4.3": {
+			"name": "vue-observe-visibility",
+			"description": "Detect when an element is becoming visible or hidden on the page. ",
+			"version": "0.4.3",
+			"author": {
+				"name": "Guillaume Chau",
+				"email": "guillaume.b.chau@gmail.com"
+			},
+			"keywords": [
+				"vue",
+				"vuejs",
+				"plugin"
+			],
+			"license": "MIT",
+			"main": "dist/vue-observe-visibility.umd.js",
+			"module": "dist/vue-observe-visibility.esm.js",
+			"unpkg": "dist/vue-observe-visibility.min.js",
+			"scripts": {
+				"build": "npm run build:browser && npm run build:es && npm run build:umd",
+				"build:browser": "rollup --config build/rollup.config.browser.js",
+				"build:es": "rollup --config build/rollup.config.es.js",
+				"build:umd": "rollup --config build/rollup.config.umd.js",
+				"prepublishOnly": "npm run build",
+				"dev": "nodemon --exec 'npm run build' --watch src",
+				"serve": "serve --open ./dist"
+			},
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/Akryum/vue-observe-visibility.git"
+			},
+			"bugs": {
+				"url": "https://github.com/Akryum/vue-observe-visibility/issues"
+			},
+			"homepage": "https://github.com/Akryum/vue-observe-visibility#readme",
+			"devDependencies": {
+				"babel-core": "^6.0.0",
+				"babel-eslint": "^7.1.1",
+				"babel-plugin-external-helpers": "^6.22.0",
+				"babel-preset-env": "^1.6.0",
+				"babel-preset-stage-0": "^6.16.0",
+				"cross-env": "^5.0.5",
+				"eslint": "^4.6.1",
+				"eslint-config-standard": "^10.2.1",
+				"eslint-plugin-html": "^3.2.1",
+				"eslint-plugin-import": "^2.7.0",
+				"eslint-plugin-node": "^5.1.1",
+				"eslint-plugin-promise": "^3.4.0",
+				"eslint-plugin-standard": "^3.0.1",
+				"nodemon": "^1.17.5",
+				"rollup": "^0.50.0",
+				"rollup-plugin-babel": "^3.0.2",
+				"rollup-plugin-commonjs": "^8.2.0",
+				"rollup-plugin-css-only": "^0.2.0",
+				"rollup-plugin-node-resolve": "^3.0.0",
+				"rollup-plugin-replace": "^2.0.0",
+				"rollup-plugin-uglify": "^2.0.1",
+				"serve": "^6.5.8",
+				"uglify-es": "^3.0.28"
+			},
+			"gitHead": "474776a77a9a2f8015d2ee0135fe1d468cf280b7",
+			"_id": "vue-observe-visibility@0.4.3",
+			"_npmVersion": "6.1.0",
+			"_nodeVersion": "10.4.1",
+			"_npmUser": {
+				"name": "akryum",
+				"email": "guillaume.b.chau@gmail.com"
+			},
+			"dist": {
+				"integrity": "sha512-YyyO3a5OUkgpmC0NEf+xWJR0jVdFWzVbKRDzUumOVMhfr3+jxXEycYNHCM3rEO5lcj3ZNJpDomZEYEx0Wqqh9A==",
+				"shasum": "b2694a83c94b274f566e03a497df51540e2daedc",
+				"tarball": "https://registry.npmjs.org/vue-observe-visibility/-/vue-observe-visibility-0.4.3.tgz",
+				"fileCount": 17,
+				"unpackedSize": 216498,
+				"signatures": [
+					{
+						"keyid": "SHA256:jl3bwswu80PjjokCgh0o2w5c2U4LhQAE57gj9cz1kzA",
+						"sig": "MEYCIQDQ7pQD28v+WdEaxOWIs9G6MiWX0NmdPUqm5+0wk41z4wIhALzzNqHszEHZ6fGvZUiRIf2QiYphZ9eVLpmGWjZ7IN4Z"
+					}
+				]
+			},
+			"maintainers": [
+				{
+					"name": "akryum",
+					"email": "alphadelta.fg@gmail.com"
+				}
+			],
+			"directories": {},
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/vue-observe-visibility_0.4.3_1538662277768_0.018905334190085332"
+			},
+			"_hasShrinkwrap": false,
+			"contributors": []
+		},
+		"0.4.4": {
+			"name": "vue-observe-visibility",
+			"description": "Detect when an element is becoming visible or hidden on the page. ",
+			"version": "0.4.4",
+			"author": {
+				"name": "Guillaume Chau",
+				"email": "guillaume.b.chau@gmail.com"
+			},
+			"keywords": [
+				"vue",
+				"vuejs",
+				"plugin"
+			],
+			"license": "MIT",
+			"main": "dist/vue-observe-visibility.umd.js",
+			"module": "dist/vue-observe-visibility.esm.js",
+			"unpkg": "dist/vue-observe-visibility.min.js",
+			"scripts": {
+				"dev": "nodemon --exec 'npm run build' --watch src",
+				"build": "npm run build:browser && npm run build:es && npm run build:umd",
+				"build:browser": "rollup --config build/rollup.config.browser.js",
+				"build:es": "rollup --config build/rollup.config.es.js",
+				"build:umd": "rollup --config build/rollup.config.umd.js",
+				"prepublishOnly": "npm run build",
+				"serve": "serve --open ./dist"
+			},
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/Akryum/vue-observe-visibility.git"
+			},
+			"bugs": {
+				"url": "https://github.com/Akryum/vue-observe-visibility/issues"
+			},
+			"homepage": "https://github.com/Akryum/vue-observe-visibility#readme",
+			"devDependencies": {
+				"@babel/core": "^7.4.0",
+				"@babel/plugin-transform-runtime": "^7.4.0",
+				"@babel/polyfill": "^7.4.3",
+				"@babel/preset-env": "^7.4.2",
+				"cross-env": "^5.2.0",
+				"eslint": "^5.16.0",
+				"eslint-config-standard": "^12.0.0",
+				"eslint-plugin-html": "^5.0.3",
+				"eslint-plugin-import": "^2.17.2",
+				"eslint-plugin-node": "^9.0.1",
+				"eslint-plugin-promise": "^4.1.1",
+				"eslint-plugin-standard": "^4.0.0",
+				"nodemon": "^1.19.0",
+				"rollup": "^1.7.0",
+				"rollup-plugin-babel": "^4.3.2",
+				"rollup-plugin-commonjs": "^9.2.1",
+				"rollup-plugin-node-resolve": "^4.0.1",
+				"rollup-plugin-replace": "^2.0.0",
+				"rollup-plugin-terser": "^4.0.4",
+				"serve": "^6.5.8"
+			},
+			"gitHead": "7a9d3c91798670ae7f380c1da3d0b8e4d089f414",
+			"_id": "vue-observe-visibility@0.4.4",
+			"_nodeVersion": "11.10.0",
+			"_npmVersion": "6.7.0",
+			"dist": {
+				"integrity": "sha512-2eDYHgL2MJ2wkkNZnus56D0CG8m80BFLuvEcGnD7rQ9jxFogpXMsM9aM5Md+XT8AmYGYCqVfOVBaWFtVvwbpmw==",
+				"shasum": "cf3e945bf80c1317a1c32bc516d6cfd4dda8f8fd",
+				"tarball": "https://registry.npmjs.org/vue-observe-visibility/-/vue-observe-visibility-0.4.4.tgz",
+				"fileCount": 17,
+				"unpackedSize": 221886,
+				"npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.4\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJc0GWfCRA9TVsSAnZWagAA61oP/jcutjgftwO3XOnYy8Vv\nNAYFQauMnWOWC+Q8/dEJJkh4OQm91Ld6Z0CwUDc+ovhC+xYILb5lzYjn/th3\nBDcRiOYn8QtPNGEvskQHlErI/p/7zKN6Ee4LPkvOpKzGpf/Gvw/8K2CAIJLD\nDXp0hf46JMNBBJS/lqcMVz6W7GpGALBtnQJW36qrVgzakQEaQKhBfwyjGEns\ntvtM0mVqVZB+Qgpc7jWTNHVFgh8xbY6Qp8Ce9Pzt4WbJMzX8aDMHwrKkm1I/\nquhzCGMOYI8V3Soe4Sl0asEYlm5HINa0vp4ElGbsOd2oD+eNCvE8UxP2jGuR\nYG0jeA4A8r8DJkXAkA51/6anPSW/86n9uoawlPOt5UTMmMJ73VVAWIQXBVnS\neGRqqnjFLwUwOs8124gon30qCwmAgLSECwIfK8lvlNK79JIUJoWTFLzaRrCq\noWJYDhQqbbVy6ZDzwAhaIaF8VnAVKikyrJwofLMOPsJR1vEV90d5ZErH9qul\ndv0nuVLcrkUEDStYcmnBFqvHKhOb45uXs/ME0FgUu94VWIHABLZLCdL1liyx\njVPsBapD6pdTc8gT826hlexDTa9LDGXRrdx3lD/RBVv6xXA21agm5dJEz1iK\nrOWxkUJorok5OJL87a7FV07UeSWpFf5Y9i6f1m5Y0vPGIohyVxhKd9YXPpFv\ny04r\r\n=ZTI7\r\n-----END PGP SIGNATURE-----\r\n",
+				"signatures": [
+					{
+						"keyid": "SHA256:jl3bwswu80PjjokCgh0o2w5c2U4LhQAE57gj9cz1kzA",
+						"sig": "MEUCIQDxd054TCziG+qAcT2Yrop6bujREb5vAcbN+MCPJfS+RgIgCgZp3UgC6hlGqmAfozTOpYwNnV+NHV8JaCTpmUFYsxA="
+					}
+				]
+			},
+			"maintainers": [
+				{
+					"name": "akryum",
+					"email": "alphadelta.fg@gmail.com"
+				}
+			],
+			"_npmUser": {
+				"name": "akryum",
+				"email": "guillaume.b.chau@gmail.com"
+			},
+			"directories": {},
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/vue-observe-visibility_0.4.4_1557161374583_0.5795936926480747"
+			},
+			"_hasShrinkwrap": false,
+			"contributors": []
+		},
+		"0.4.5": {
+			"name": "vue-observe-visibility",
+			"description": "Detect when an element is becoming visible or hidden on the page. ",
+			"version": "0.4.5",
+			"author": {
+				"name": "Guillaume Chau",
+				"email": "guillaume.b.chau@gmail.com"
+			},
+			"keywords": [
+				"vue",
+				"vuejs",
+				"plugin"
+			],
+			"license": "MIT",
+			"main": "dist/vue-observe-visibility.umd.js",
+			"module": "dist/vue-observe-visibility.esm.js",
+			"unpkg": "dist/vue-observe-visibility.min.js",
+			"scripts": {
+				"dev": "nodemon --exec 'npm run build' --watch src",
+				"build": "npm run build:browser && npm run build:es && npm run build:umd",
+				"build:browser": "rollup --config build/rollup.config.browser.js",
+				"build:es": "rollup --config build/rollup.config.es.js",
+				"build:umd": "rollup --config build/rollup.config.umd.js",
+				"prepublishOnly": "npm run build",
+				"serve": "serve --open ./dist"
+			},
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/Akryum/vue-observe-visibility.git"
+			},
+			"bugs": {
+				"url": "https://github.com/Akryum/vue-observe-visibility/issues"
+			},
+			"homepage": "https://github.com/Akryum/vue-observe-visibility#readme",
+			"devDependencies": {
+				"@babel/core": "^7.4.0",
+				"@babel/plugin-transform-runtime": "^7.4.0",
+				"@babel/polyfill": "^7.4.3",
+				"@babel/preset-env": "^7.4.2",
+				"cross-env": "^5.2.0",
+				"eslint": "^5.16.0",
+				"eslint-config-standard": "^12.0.0",
+				"eslint-plugin-html": "^5.0.3",
+				"eslint-plugin-import": "^2.17.2",
+				"eslint-plugin-node": "^9.0.1",
+				"eslint-plugin-promise": "^4.1.1",
+				"eslint-plugin-standard": "^4.0.0",
+				"nodemon": "^1.19.0",
+				"rollup": "^1.7.0",
+				"rollup-plugin-babel": "^4.3.2",
+				"rollup-plugin-commonjs": "^9.2.1",
+				"rollup-plugin-node-resolve": "^4.0.1",
+				"rollup-plugin-replace": "^2.0.0",
+				"rollup-plugin-terser": "^4.0.4",
+				"serve": "^6.5.8"
+			},
+			"gitHead": "b690f7b13298ebe081b86ca3a316593d25cada6c",
+			"_id": "vue-observe-visibility@0.4.5",
+			"_nodeVersion": "12.11.0",
+			"_npmVersion": "6.11.3",
+			"dist": {
+				"integrity": "sha512-FG2UWUk1nQBpPM168aH/7nFE4daCSVxkZXm1dbwOS4sGNW7kFe2lPBMfIdU5CcbSn015pKsqahEmXTrYyf71zw==",
+				"shasum": "32627299d53bb782ab0f848064cbd23ebfcf98a2",
+				"tarball": "https://registry.npmjs.org/vue-observe-visibility/-/vue-observe-visibility-0.4.5.tgz",
+				"fileCount": 19,
+				"unpackedSize": 63013,
+				"npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.4\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJdrInrCRA9TVsSAnZWagAAKlwP/3ZTDud3nWO1OhKOqLbH\nO/3z4FcbvKm5hfhJ03tioB//LjHp6Txshe/5ixKV1XzL1F9qWmsz5JfhWNeC\nB4HMn4QXHcgdlXA28UAL88Gc10eqTD3mO8kP+1yB0TKkPcNp+6eS0sXsScw8\nA+23fbIoA0McfcCsGbnGpqU/CdvKTk/vy42IA+skQXhCChRbbRlL5EXGK/FQ\nhWBCfLDCFM5O7/++LQVTg0V6S1OoyOTy3pqFTQVu84bArHim8QUr1VQEyjU3\n8Iz44RssPt7gLLWs7tgUrqoNZ1/blsl2bNgfPfJ9wuvurOaaxKGuhO0iRXjl\nnBFhQufIJP18+/BCjTV4Wp4V5Mx/gzOjkk/4LNzqo6lY5xKJAc582B4UsHdy\nkx2ASFbMYOSVqrEL3iEF28oeKGBZb1ByTDJ0M+LoRicIVBLz8trADWJdeyQX\neKVmTkhWX8buJxvi9Iu8iuNcCLVlWfCEl5N/oO/2h6nB9Tw2IS2EypRgccbw\nmWpb/NiLVhpskcA4u9aRK4ebBKpdvCTKvFNdFkAa5CIHZgMUjMTm6R1hiOYO\nFePZeXqzd46MUQvTX13+0D+3T9Du8TRp40z5cmzINXzbNg98W2K7PpITmGSB\nERMadg7ec2vc7J6K9rZvkdhrH96MK3f8X6yxz6GrQwDh1zxXglwE5AQmoIZR\nDEvN\r\n=w20f\r\n-----END PGP SIGNATURE-----\r\n",
+				"signatures": [
+					{
+						"keyid": "SHA256:jl3bwswu80PjjokCgh0o2w5c2U4LhQAE57gj9cz1kzA",
+						"sig": "MEYCIQCeFIZVf8FprRb8OwJP+LigfVhd8+cLobRzUW2/M+h5cQIhAMvW2ybOXdy3NC3cOQWdKHykbUDR0KFbhdGgPgWNF72L"
+					}
+				]
+			},
+			"maintainers": [
+				{
+					"name": "akryum",
+					"email": "alphadelta.fg@gmail.com"
+				}
+			],
+			"_npmUser": {
+				"name": "akryum",
+				"email": "guillaume.b.chau@gmail.com"
+			},
+			"directories": {},
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/vue-observe-visibility_0.4.5_1571588586581_0.06288122163578524"
+			},
+			"_hasShrinkwrap": false,
+			"contributors": []
+		},
+		"0.4.6": {
+			"name": "vue-observe-visibility",
+			"description": "Detect when an element is becoming visible or hidden on the page. ",
+			"version": "0.4.6",
+			"author": {
+				"name": "Guillaume Chau",
+				"email": "guillaume.b.chau@gmail.com"
+			},
+			"keywords": [
+				"vue",
+				"vuejs",
+				"plugin"
+			],
+			"license": "MIT",
+			"main": "dist/vue-observe-visibility.umd.js",
+			"module": "dist/vue-observe-visibility.esm.js",
+			"unpkg": "dist/vue-observe-visibility.min.js",
+			"scripts": {
+				"dev": "nodemon --exec 'npm run build' --watch src",
+				"build": "npm run build:browser && npm run build:es && npm run build:umd",
+				"build:browser": "rollup --config build/rollup.config.browser.js",
+				"build:es": "rollup --config build/rollup.config.es.js",
+				"build:umd": "rollup --config build/rollup.config.umd.js",
+				"prepublishOnly": "npm run build",
+				"serve": "serve --open ./dist"
+			},
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/Akryum/vue-observe-visibility.git"
+			},
+			"bugs": {
+				"url": "https://github.com/Akryum/vue-observe-visibility/issues"
+			},
+			"homepage": "https://github.com/Akryum/vue-observe-visibility#readme",
+			"devDependencies": {
+				"@babel/core": "^7.4.0",
+				"@babel/plugin-transform-runtime": "^7.4.0",
+				"@babel/polyfill": "^7.4.3",
+				"@babel/preset-env": "^7.4.2",
+				"cross-env": "^5.2.0",
+				"eslint": "^5.16.0",
+				"eslint-config-standard": "^12.0.0",
+				"eslint-plugin-html": "^5.0.3",
+				"eslint-plugin-import": "^2.17.2",
+				"eslint-plugin-node": "^9.0.1",
+				"eslint-plugin-promise": "^4.1.1",
+				"eslint-plugin-standard": "^4.0.0",
+				"nodemon": "^1.19.0",
+				"rollup": "^1.7.0",
+				"rollup-plugin-babel": "^4.3.2",
+				"rollup-plugin-commonjs": "^9.2.1",
+				"rollup-plugin-node-resolve": "^4.0.1",
+				"rollup-plugin-replace": "^2.0.0",
+				"rollup-plugin-terser": "^4.0.4",
+				"serve": "^6.5.8"
+			},
+			"gitHead": "5c2507a9f8010e28ea06f088a513fdcd2489ad28",
+			"_id": "vue-observe-visibility@0.4.6",
+			"_nodeVersion": "12.13.0",
+			"_npmVersion": "6.12.0",
+			"dist": {
+				"integrity": "sha512-xo0CEVdkjSjhJoDdLSvoZoQrw/H2BlzB5jrCBKGZNXN2zdZgMuZ9BKrxXDjNP2AxlcCoKc8OahI3F3r3JGLv2Q==",
+				"shasum": "878cb8ebcf3078e40807af29774e97105ebd519e",
+				"tarball": "https://registry.npmjs.org/vue-observe-visibility/-/vue-observe-visibility-0.4.6.tgz",
+				"fileCount": 19,
+				"unpackedSize": 63095,
+				"npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.4\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJdsCAWCRA9TVsSAnZWagAANb0P/2ESFgbdz6Y2phXHetjY\n6anRyBFf2Qf6xMGZhIloHrnDJ4By2DdgrLmwKeNBHue2NuBFux9PLugaRAaI\nV5IGqumtvWbnzC88zgpdiC1BQbFDNF811OiLPPJmPY80j1n6+CvY0K1zcPXl\n/Z5ZbWqD3hseS0u7gsPk26YaGVRmJBcB8lhN5mlSrxBHG80JtCfLK04scCLv\naE6ARj0wmzweLlOUujncDNn2tQfXt7i+RlHuIPfDGShvEE41DQM8yFQIkSeo\n7yVhVm0I7YbGTVIPLGL6FdOU9HsT2TmEb6BOj/Pr354VhMW2pWJpXoyFtiDj\nAyD4cM421O85DbdDMjbget9izUpkonRJ1rS3wT86+uJLBO3qy47Ij1+yqyOb\nFJ71Bb/yKe3M70YzjFKWBFvALpA3HCf9gSiJ9DUoLxV2LVJ7fq+zLJB4U4Po\npNXNabbpcOuS8/GhFv1RQHS0syFUqnDEVOui8ofTFSyVmlczy/7l44rEWDy0\nSs+uWS73PLNtFsQ+0zSMp3LCv85SF8MHS3z+xg5H8f4TTI4Wyr5A2cf9ZsbE\nRrFfd1WsMhczsBwJzfl1VsZP4C/+FBTHxT2zkd+BcCy7jEKUHv2V5X8cqpjz\nBMDqSVrp3GPtwydJQa82oyXDyp4id1PgEpyesq7B24chVcU5Z2Pl/Q8Au/Hg\noPhR\r\n=GYnU\r\n-----END PGP SIGNATURE-----\r\n",
+				"signatures": [
+					{
+						"keyid": "SHA256:jl3bwswu80PjjokCgh0o2w5c2U4LhQAE57gj9cz1kzA",
+						"sig": "MEUCIQDNR52rPlvGISV6NMcRcT249YCLIs3FDKVvPQrqwmLCAgIgMY/AWSAWUoBNfxeYGnIC5N+SYsKEwT3KyhDNMk3DdbA="
+					}
+				]
+			},
+			"maintainers": [
+				{
+					"name": "akryum",
+					"email": "alphadelta.fg@gmail.com"
+				}
+			],
+			"_npmUser": {
+				"name": "akryum",
+				"email": "guillaume.b.chau@gmail.com"
+			},
+			"directories": {},
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/vue-observe-visibility_0.4.6_1571823637856_0.4947825060835642"
+			},
+			"_hasShrinkwrap": false,
+			"contributors": []
+		},
+		"1.0.0": {
+			"name": "vue-observe-visibility",
+			"description": "Detect when an element is becoming visible or hidden on the page. ",
+			"version": "1.0.0",
+			"author": {
+				"name": "Guillaume Chau",
+				"email": "guillaume.b.chau@gmail.com"
+			},
+			"keywords": [
+				"vue",
+				"vuejs",
+				"plugin"
+			],
+			"license": "MIT",
+			"main": "dist/vue-observe-visibility.umd.js",
+			"module": "dist/vue-observe-visibility.esm.js",
+			"unpkg": "dist/vue-observe-visibility.min.js",
+			"scripts": {
+				"dev": "nodemon --exec 'npm run build' --watch src",
+				"build": "npm run build:browser && npm run build:es && npm run build:umd",
+				"build:browser": "rollup --config build/rollup.config.browser.js",
+				"build:es": "rollup --config build/rollup.config.es.js",
+				"build:umd": "rollup --config build/rollup.config.umd.js",
+				"prepublishOnly": "npm run build && npm run lint && npm run test",
+				"lint": "eslint . --ext js",
+				"serve": "serve -p 8080",
+				"test": "start-server-and-test serve 8080 test:e2e",
+				"test:e2e:open": "cypress open",
+				"test:e2e": "cypress run"
+			},
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/Akryum/vue-observe-visibility.git"
+			},
+			"bugs": {
+				"url": "https://github.com/Akryum/vue-observe-visibility/issues"
+			},
+			"homepage": "https://github.com/Akryum/vue-observe-visibility#readme",
+			"devDependencies": {
+				"@babel/core": "^7.4.0",
+				"@babel/plugin-transform-runtime": "^7.4.0",
+				"@babel/polyfill": "^7.4.3",
+				"@babel/preset-env": "^7.4.2",
+				"babel-eslint": "^10.1.0",
+				"cross-env": "^5.2.0",
+				"cypress": "^6.2.0",
+				"eslint": "^5.16.0",
+				"eslint-config-standard": "^12.0.0",
+				"eslint-plugin-cypress": "^2.11.2",
+				"eslint-plugin-html": "^5.0.3",
+				"eslint-plugin-import": "^2.17.2",
+				"eslint-plugin-node": "^9.0.1",
+				"eslint-plugin-promise": "^4.1.1",
+				"eslint-plugin-standard": "^4.0.0",
+				"nodemon": "^1.19.0",
+				"rollup": "^1.7.0",
+				"rollup-plugin-babel": "^4.3.2",
+				"rollup-plugin-commonjs": "^9.2.1",
+				"rollup-plugin-node-resolve": "^4.0.1",
+				"rollup-plugin-replace": "^2.0.0",
+				"rollup-plugin-terser": "^4.0.4",
+				"serve": "^6.5.8",
+				"start-server-and-test": "^1.11.7"
+			},
+			"_id": "vue-observe-visibility@1.0.0",
+			"dist": {
+				"shasum": "17cf1b2caf74022f0f3c95371468ddf2b9573152",
+				"integrity": "sha512-s5TFh3s3h3Mhd3jaz3zGzkVHKHnc/0C/gNr30olO99+yw2hl3WBhK3ng3/f9OF+qkW4+l7GkmwfAzDAcY3lCFg==",
+				"tarball": "https://registry.npmjs.org/vue-observe-visibility/-/vue-observe-visibility-1.0.0.tgz",
+				"fileCount": 39,
+				"unpackedSize": 105789,
+				"npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.13\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJf6iY4CRA9TVsSAnZWagAAFTkQAIIk56nD5wIMmIHBaApa\nV2oq09nTz+sRpR1+ZBB9n75exBinO8l7fLPVWXTlkJH1hKIm71/+iLHBFuUM\nd6tAmefQzGdEQhq6WHpzZEYZAJ2qgOJvnSbQMzGLlDrPanRE02GpbwLCJgug\nVyRcBnNPL0AI6DTYver46O+kjZQ+JmEmiuJFLGrulohdy/TyqwQTdICt6zL4\nus+mca4yZovldYg8T0syaW2QrzVTVnpGYPYfyq1mWHrCsS2+fBq2ZoBhro4V\n5ATZKLGawE7VYu1bYmRuw8sl3DH7LPAJuxxX1TWp4shKgDpjOpnJkQbhuc28\nLIvicQZde/lS60vjEwQUmpudYPnD9rJtXAZNNAAWYM0Ni2VKvMNzEKLyK2aT\np4kOUtbkRYx0xGUqahMt8iKwRtHheHC92DIdu+hqjoGwCoAZy5rESTuICP6L\nFtzVQ1Spx7F0RItcdPAuNlrdMebj5SwFQElaU9lwFILSPQMINxxnXC6lFGDl\nLsi/z3jyzJdrxPID/pgRbE8A74Fi8Duob0moUm4u+1qDzLvDR+EJWmEvwYbg\nGusnHDmcC8aGLxklYPHJ69tjV21vysk7YVR+HG5n3066NFxGHIVkCj0uaDuN\nLFwthxljoSYCkQLCNT51Em4CefjAndFKq4/eaF9+KHyjyyLt0J/MZmb9slyj\n+CDi\r\n=Y7It\r\n-----END PGP SIGNATURE-----\r\n",
+				"signatures": [
+					{
+						"keyid": "SHA256:jl3bwswu80PjjokCgh0o2w5c2U4LhQAE57gj9cz1kzA",
+						"sig": "MEQCIB5luHikZ+z1RvhnmzeHle26pD/Z2eaeAKCtPDSsMKqsAiBonSlDmvuCiLyxxIZE48s+Be269w4Qku+OybFiOEuQrg=="
+					}
+				]
+			},
+			"_npmUser": {
+				"name": "akryum",
+				"email": "guillaume.b.chau@gmail.com"
+			},
+			"directories": {},
+			"maintainers": [
+				{
+					"name": "akryum",
+					"email": "guillaume.b.chau@gmail.com"
+				}
+			],
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/vue-observe-visibility_1.0.0_1609180728080_0.1185147672029836"
+			},
+			"_hasShrinkwrap": false,
+			"contributors": []
+		},
+		"2.0.0-alpha.1": {
+			"name": "vue-observe-visibility",
+			"description": "Detect when an element is becoming visible or hidden on the page. ",
+			"version": "2.0.0-alpha.1",
+			"author": {
+				"name": "Guillaume Chau",
+				"email": "guillaume.b.chau@gmail.com"
+			},
+			"keywords": [
+				"vue",
+				"vuejs",
+				"plugin"
+			],
+			"license": "MIT",
+			"main": "dist/vue-observe-visibility.umd.js",
+			"module": "dist/vue-observe-visibility.esm.js",
+			"unpkg": "dist/vue-observe-visibility.min.js",
+			"scripts": {
+				"dev": "nodemon --exec 'npm run build' --watch src",
+				"build": "npm run build:browser && npm run build:es && npm run build:umd",
+				"build:browser": "rollup --config build/rollup.config.browser.js",
+				"build:es": "rollup --config build/rollup.config.es.js",
+				"build:umd": "rollup --config build/rollup.config.umd.js",
+				"prepublishOnly": "npm run build && npm run lint && npm run test",
+				"lint": "eslint . --ext js",
+				"serve": "serve -p 8080",
+				"test": "start-server-and-test serve 8080 test:e2e",
+				"test:e2e:open": "cypress open",
+				"test:e2e": "cypress run"
+			},
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/Akryum/vue-observe-visibility.git"
+			},
+			"bugs": {
+				"url": "https://github.com/Akryum/vue-observe-visibility/issues"
+			},
+			"homepage": "https://github.com/Akryum/vue-observe-visibility#readme",
+			"peerDependencies": {
+				"vue": "^3.0.0"
+			},
+			"devDependencies": {
+				"@babel/core": "^7.4.0",
+				"@babel/plugin-transform-runtime": "^7.4.0",
+				"@babel/polyfill": "^7.4.3",
+				"@babel/preset-env": "^7.4.2",
+				"babel-eslint": "^10.1.0",
+				"cross-env": "^5.2.0",
+				"cypress": "^6.2.0",
+				"eslint": "^5.16.0",
+				"eslint-config-standard": "^12.0.0",
+				"eslint-plugin-cypress": "^2.11.2",
+				"eslint-plugin-html": "^5.0.3",
+				"eslint-plugin-import": "^2.17.2",
+				"eslint-plugin-node": "^9.0.1",
+				"eslint-plugin-promise": "^4.1.1",
+				"eslint-plugin-standard": "^4.0.0",
+				"nodemon": "^1.19.0",
+				"rollup": "^1.7.0",
+				"rollup-plugin-babel": "^4.3.2",
+				"rollup-plugin-commonjs": "^9.2.1",
+				"rollup-plugin-node-resolve": "^4.0.1",
+				"rollup-plugin-replace": "^2.0.0",
+				"rollup-plugin-terser": "^4.0.4",
+				"serve": "^6.5.8",
+				"start-server-and-test": "^1.11.7"
+			},
+			"readmeFilename": "README.md",
+			"gitHead": "23f57abc6ad8fc62d2f7c14f74b2a673af1858c5",
+			"_id": "vue-observe-visibility@2.0.0-alpha.1",
+			"_nodeVersion": "14.12.0",
+			"_npmVersion": "6.14.8",
+			"dist": {
+				"integrity": "sha512-flFbp/gs9pZniXR6fans8smv1kDScJ8RS7rEpMjhVabiKeq7Qz3D9+eGsypncjfIyyU84saU88XZ0zjbD6Gq/g==",
+				"shasum": "1e4eda7b12562161d58984b7e0dea676d83bdb13",
+				"tarball": "https://registry.npmjs.org/vue-observe-visibility/-/vue-observe-visibility-2.0.0-alpha.1.tgz",
+				"fileCount": 27,
+				"unpackedSize": 104962,
+				"npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.13\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJf6i7DCRA9TVsSAnZWagAA9Z8P/RX8Elq8osQNdVyUjINo\nUKF9VWxA5JnRjPNRfhZ/J79Nb1rY5AAp6lTLxiYpYJ3gC+pL4tNugLWOVRM3\nZkQyzLLf4sImsc3JMXI7VZ2EvajImg+mjvYGO62geuy/YEK+gFa6gT2956wj\ndLdI47ZX5smNFP63FP4N3U6zH1bwf6De6qAAoupNLhvvkGVF5hvDZKD1MAYD\nsoiZhGVvZtui6ruCYJcWvd0DKdI7loZV8BWvb55ZlFF44ovBblEpL2Nx9kWV\nfbOxhP4poiyN2FPMPqJvRKdzYNHqJalNWYn+O1NB0r16P/RgPX2DeRye2rSb\n+9eVRGZqwSbCm6nFhHKX+rYk1iWHmyWJ0wzWI/Ju41rrd/xwzBHzXQRwXPZO\n87NmqY9554cGv07fsgW4tFo3nX64pR22wW/AMS7V1Vw9sSQP4s0VyjQT6snu\nwjPqQQifZYfbMGsGT01FrC+DAarnxfBUg9IsY/sOyQqfqBoVzZiBf2nQRH38\niXWGxc+1w52tYgc1EpwzzV1rV3I6vSz2Db+w3HSDbXDmtt6OAUagjlqzq1jl\nXjrdf5tNyRUd+b9/OJ6EUKrNmupEBrRy5zvvFirWibe3bAWUl/Eb1S9KgGM/\nP9PXsRKEdXjsEJ8TaLNK1jncjI3dHK67REwUZGaYubhIDo/yrld+DRLGWdTu\nwpA/\r\n=akD0\r\n-----END PGP SIGNATURE-----\r\n",
+				"signatures": [
+					{
+						"keyid": "SHA256:jl3bwswu80PjjokCgh0o2w5c2U4LhQAE57gj9cz1kzA",
+						"sig": "MEUCIQDbuazzHbGq/ahcIxQ8Q76oHXC2QqsPtjliJWL9dv6oowIgMhQpHLWSiga6RuglN78XV22rHATaoV9mFSzTyo7QE1U="
+					}
+				]
+			},
+			"_npmUser": {
+				"name": "akryum",
+				"email": "guillaume.b.chau@gmail.com"
+			},
+			"directories": {},
+			"maintainers": [
+				{
+					"name": "akryum",
+					"email": "guillaume.b.chau@gmail.com"
+				}
+			],
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/vue-observe-visibility_2.0.0-alpha.1_1609182914950_0.2830729640819323"
+			},
+			"_hasShrinkwrap": false,
+			"contributors": []
+		}
+	},
+	"time": {
+		"modified": "2023-08-20T09:50:53.529Z",
+		"created": "2016-12-23T15:33:03.443Z",
+		"0.0.1": "2016-12-23T15:33:03.443Z",
+		"0.1.0": "2016-12-23T15:41:59.293Z",
+		"0.1.1": "2016-12-23T16:04:40.799Z",
+		"0.1.2": "2017-01-09T11:58:53.090Z",
+		"0.1.3": "2017-01-09T12:06:40.420Z",
+		"0.2.0": "2017-09-06T13:50:37.946Z",
+		"0.2.1": "2017-09-06T14:14:34.267Z",
+		"0.2.2": "2017-09-06T14:49:42.983Z",
+		"0.3.0": "2017-09-18T14:50:26.060Z",
+		"0.3.1": "2017-09-18T14:54:19.594Z",
+		"0.4.0": "2018-05-28T11:30:08.479Z",
+		"0.4.1": "2018-05-29T13:11:37.133Z",
+		"0.4.2": "2018-10-04T13:47:18.582Z",
+		"0.4.3": "2018-10-04T14:11:17.971Z",
+		"0.4.4": "2019-05-06T16:49:34.764Z",
+		"0.4.5": "2019-10-20T16:23:06.707Z",
+		"0.4.6": "2019-10-23T09:40:38.009Z",
+		"1.0.0": "2020-12-28T18:38:48.311Z",
+		"2.0.0-alpha.1": "2020-12-28T19:15:15.107Z"
+	},
+	"users": {},
+	"dist-tags": {
+		"latest": "1.0.0",
+		"next": "2.0.0-alpha.1"
+	},
+	"_uplinks": {
+		"npmjs": {
+			"etag": "W/\"897928e68cc81e512b47d1521fc7f367\"",
+			"fetched": 1715345913693
+		}
+	},
+	"_distfiles": {
+		"vue-observe-visibility-0.0.1.tgz": {
+			"url": "https://registry.npmjs.org/vue-observe-visibility/-/vue-observe-visibility-0.0.1.tgz",
+			"sha": "767566410b27a61ff352935cc7bbe1d5f644fca7",
+			"registry": "npmjs"
+		},
+		"vue-observe-visibility-0.1.0.tgz": {
+			"url": "https://registry.npmjs.org/vue-observe-visibility/-/vue-observe-visibility-0.1.0.tgz",
+			"sha": "4f1ddfccd7dabae78b51821b62be8393bbd7dff0",
+			"registry": "npmjs"
+		},
+		"vue-observe-visibility-0.1.1.tgz": {
+			"url": "https://registry.npmjs.org/vue-observe-visibility/-/vue-observe-visibility-0.1.1.tgz",
+			"sha": "3bc9ef304200634c6aee0000f7cf802bbfe83097",
+			"registry": "npmjs"
+		},
+		"vue-observe-visibility-0.1.2.tgz": {
+			"url": "https://registry.npmjs.org/vue-observe-visibility/-/vue-observe-visibility-0.1.2.tgz",
+			"sha": "3d96fdb99d98b0720f5012fc13368080b5af29fc",
+			"registry": "npmjs"
+		},
+		"vue-observe-visibility-0.1.3.tgz": {
+			"url": "https://registry.npmjs.org/vue-observe-visibility/-/vue-observe-visibility-0.1.3.tgz",
+			"sha": "c2f0fcb5c86d5ae244f53c7e28fa635a0db8ba36",
+			"registry": "npmjs"
+		},
+		"vue-observe-visibility-0.2.0.tgz": {
+			"url": "https://registry.npmjs.org/vue-observe-visibility/-/vue-observe-visibility-0.2.0.tgz",
+			"sha": "28ce46efa08abf4cb5203d08e78ed11749700f24",
+			"registry": "npmjs"
+		},
+		"vue-observe-visibility-0.2.1.tgz": {
+			"url": "https://registry.npmjs.org/vue-observe-visibility/-/vue-observe-visibility-0.2.1.tgz",
+			"sha": "58a1ddbe5bbd4e3bf0c1f5053e3977af7d8259cd",
+			"registry": "npmjs"
+		},
+		"vue-observe-visibility-0.2.2.tgz": {
+			"url": "https://registry.npmjs.org/vue-observe-visibility/-/vue-observe-visibility-0.2.2.tgz",
+			"sha": "6c36b410b9bc9db93788c69e5eba4eca3000cfd7",
+			"registry": "npmjs"
+		},
+		"vue-observe-visibility-0.3.0.tgz": {
+			"url": "https://registry.npmjs.org/vue-observe-visibility/-/vue-observe-visibility-0.3.0.tgz",
+			"sha": "71f337b7b3b2d5e3af9d6a76f45341c91eaaaf7b",
+			"registry": "npmjs"
+		},
+		"vue-observe-visibility-0.3.1.tgz": {
+			"url": "https://registry.npmjs.org/vue-observe-visibility/-/vue-observe-visibility-0.3.1.tgz",
+			"sha": "e7cad37893da42858c086196da9acdb0fd85340b",
+			"registry": "npmjs"
+		},
+		"vue-observe-visibility-0.4.0.tgz": {
+			"url": "https://registry.npmjs.org/vue-observe-visibility/-/vue-observe-visibility-0.4.0.tgz",
+			"sha": "75e0199e7aaa1dd8d86581169aea656197c8cb1b",
+			"registry": "npmjs"
+		},
+		"vue-observe-visibility-0.4.1.tgz": {
+			"url": "https://registry.npmjs.org/vue-observe-visibility/-/vue-observe-visibility-0.4.1.tgz",
+			"sha": "741dfc6c7894f4f41abab9efa1a86b1eb5012b18",
+			"registry": "npmjs"
+		},
+		"vue-observe-visibility-0.4.2.tgz": {
+			"url": "https://registry.npmjs.org/vue-observe-visibility/-/vue-observe-visibility-0.4.2.tgz",
+			"sha": "11f9aa2c16567bd54a9b7dd1e312454086150641",
+			"registry": "npmjs"
+		},
+		"vue-observe-visibility-0.4.3.tgz": {
+			"url": "https://registry.npmjs.org/vue-observe-visibility/-/vue-observe-visibility-0.4.3.tgz",
+			"sha": "b2694a83c94b274f566e03a497df51540e2daedc",
+			"registry": "npmjs"
+		},
+		"vue-observe-visibility-0.4.4.tgz": {
+			"url": "https://registry.npmjs.org/vue-observe-visibility/-/vue-observe-visibility-0.4.4.tgz",
+			"sha": "cf3e945bf80c1317a1c32bc516d6cfd4dda8f8fd",
+			"registry": "npmjs"
+		},
+		"vue-observe-visibility-0.4.5.tgz": {
+			"url": "https://registry.npmjs.org/vue-observe-visibility/-/vue-observe-visibility-0.4.5.tgz",
+			"sha": "32627299d53bb782ab0f848064cbd23ebfcf98a2",
+			"registry": "npmjs"
+		},
+		"vue-observe-visibility-0.4.6.tgz": {
+			"url": "https://registry.npmjs.org/vue-observe-visibility/-/vue-observe-visibility-0.4.6.tgz",
+			"sha": "878cb8ebcf3078e40807af29774e97105ebd519e",
+			"registry": "npmjs"
+		},
+		"vue-observe-visibility-1.0.0.tgz": {
+			"url": "https://registry.npmjs.org/vue-observe-visibility/-/vue-observe-visibility-1.0.0.tgz",
+			"sha": "17cf1b2caf74022f0f3c95371468ddf2b9573152",
+			"registry": "npmjs"
+		},
+		"vue-observe-visibility-2.0.0-alpha.1.tgz": {
+			"url": "https://registry.npmjs.org/vue-observe-visibility/-/vue-observe-visibility-2.0.0-alpha.1.tgz",
+			"sha": "1e4eda7b12562161d58984b7e0dea676d83bdb13",
+			"registry": "npmjs"
+		}
+	},
+	"_attachments": {
+		"vue-observe-visibility-2.0.0-alpha.1.tgz": {
+			"shasum": "1e4eda7b12562161d58984b7e0dea676d83bdb13"
+		}
+	},
+	"_rev": "2-cf13672b8ee45edb",
+	"_id": "vue-observe-visibility",
+	"readme": "<p align=\"center\">\n<img src=\"./logo.png\" alt=\"vue-observe-visibility logo\"/>\n</p>\n\n<h1 align=\"center\">vue-observe-visibility</h1>\n\n<p align=\"center\">\n<a href=\"https://www.npmjs.com/package/vue-observe-visibility\"><img src=\"https://img.shields.io/npm/v/vue-observe-visibility.svg\"/> <img src=\"https://img.shields.io/npm/dm/vue-observe-visibility.svg\"/></a> <a href=\"https://vuejs.org/\"><img src=\"https://img.shields.io/badge/vue-2.x-brightgreen.svg\"/></a>\n</p>\n\n<p align=\"center\">\nDetect when an element is becoming visible or hidden on the page. <a href=\"https://jsfiddle.net/Akryum/ppt7endj/\">Demo</a>\n</p>\n\n<p align=\"center\">\n  <a href=\"https://www.patreon.com/akryum\" target=\"_blank\">\n    <img src=\"https://c5.patreon.com/external/logo/become_a_patron_button.png\" alt=\"Become a Patreon\">\n  </a>\n</p>\n\n## Sponsors\n\n[![sponsors logos](https://guillaume-chau.info/sponsors.png)](https://guillaume-chau.info/sponsors)\n\n<br>\n\n## Table of contents\n\n- [Installation](#installation)\n- [Usage](#usage)\n- [Example](#example)\n\n# Installation\n\n```\nnpm install --save vue-observe-visibility\n```\n\n**⚠️ This plugin uses the [Intersection Observer API](http://caniuse.com/#feat=intersectionobserver) that is not supported in every browser (currently supported in Edge, Firefox and Chrome). You need to include a [polyfill](https://github.com/w3c/IntersectionObserver/tree/master/polyfill) to make it work on incompatible browsers.**\n\n## Import\n\n```javascript\nimport Vue from 'vue'\nimport VueObserveVisibility from 'vue-observe-visibility'\n\nVue.use(VueObserveVisibility)\n```\n\nOr:\n\n```javascript\nimport Vue from 'vue'\nimport { ObserveVisibility } from 'vue-observe-visibility'\n\nVue.directive('observe-visibility', ObserveVisibility)\n```\n\n## Browser\n\n```html\n<script src=\"vue.js\"></script>\n<script src=\"https://unpkg.com/vue-observe-visibility/dist/vue-observe-visibility.min.js\"></script>\n```\n\nThe plugin should be auto-installed. If not, you can install it manually with the instructions below.\n\nInstall all the directives:\n\n```javascript\nVue.use(VueObserveVisibility)\n```\n\nUse specific directives:\n\n```javascript\nVue.directive('observe-visibility', VueObserveVisibility.ObserveVisibility)\n```\n\n# Usage\n\nThe `v-observe-visibility` directive is very easy to use. Just pass a function as the value:\n\n```html\n<div v-observe-visibility=\"visibilityChanged\">\n```\n\nThis also works on components:\n\n```html\n<MyComponent v-observe-visibility=\"visibilityChanged\" />\n```\n\nThe function will be called whenever the visiblity of the element changes with the argument being a boolean (`true` means the element is visible on the page, `false` means that it is not).\n\nThe second argument is the corresponding [IntersectionObserverEntry](https://developer.mozilla.org/en-US/docs/Web/API/IntersectionObserverEntry) object.\n\n```javascript\nvisibilityChanged (isVisible, entry) {\n  this.isVisible = isVisible\n  console.log(entry)\n}\n```\n\n## IntersectionObserver options\n\nIt's possible to pass the [IntersectionObserver `options` object](https://developer.mozilla.org/en-US/docs/Web/API/IntersectionObserver/IntersectionObserver#Parameters) using the `intersection` attribute:\n\n```html\n<div v-observe-visibility=\"{\n  callback: visibilityChanged,\n  intersection: {\n    root: ...,\n    rootMargin: ...,\n    threshold: 0.3,\n  },\n}\">\n```\n\n## Once\n\nIt can be useful to listen for when the element is visible only once, for example to build introduction animations. Set the `once` option to `true`:\n\n```html\n<div v-observe-visibility=\"{\n  callback: visibilityChanged,\n  once: true,\n}\">\n```\n\n## Throttling visibility\n\nYou can use the `throttle` options (in ms) specifying minimal state duration after which an event will be fired. It's useful when you are tracking visibility while scrolling and don't want events from fastly scrolled out elements.\n\n```html\n<div v-observe-visibility=\"{\n  callback: visibilityChanged,\n  throttle: 300,\n}\">\n```\n\nYou can also pass a `leading` option to trigger the callback the first time when the visibility changes without waiting for the throttle delay.\nI can either be `visible`, `hidden` or `both`.\n\n```html\n<div v-observe-visibility=\"{\n  callback: visibilityChanged,\n  throttle: 300,\n  throttleOptions: {\n    leading: 'visible',\n  },\n}\">\n```\n\n## Passing custom arguments\n\nYou can add custom argument by using an intermediate function:\n\n```html\n<div v-observe-visibility=\"(isVisible, entry) => visibilityChanged(isVisible, entry, customArgument)\">\n```\n\nHere `visibilityChanged` will be call with a third custom argument `customArgument`.\n\n## Disabling the observer\n\nPassing a falsy value to the directive will disable the observer:\n\n```html\n<div\n  v-for=\"(item, index) of items\"\n  :key=\"item.id\"\n  v-observe-visibility=\"index === items.length - 1 ? visibilityChanged : false\"\n>\n```\n\n# Example\n\n```html\n<div id=\"app\">\n  <button @click=\"show = !show\">Toggle</button>\n  <label>\n    <input type=\"checkbox\" v-model=\"isVisible\" disabled/> Is visible?\n  </label>\n  <div ref=\"test\" v-show=\"show\" v-observe-visibility=\"visibilityChanged\">Hello world!</div>\n</div>\n\n<script>\nnew Vue({\n  el: '#app',\n  data: {\n    show: true,\n    isVisible: true,\n  },\n  methods: {\n    visibilityChanged (isVisible, entry) {\n      this.isVisible = isVisible\n      console.log(entry)\n    },\n  },\n})\n</script>\n```\n\n---\n\n## License\n\n[MIT](http://opensource.org/licenses/MIT)"
+}

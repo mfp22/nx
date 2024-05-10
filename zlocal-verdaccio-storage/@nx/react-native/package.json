@@ -41145,6 +41145,229 @@
 			"_hasShrinkwrap": false,
 			"contributors": []
 		},
+		"19.0.2": {
+			"name": "@nx/react-native",
+			"version": "19.0.2",
+			"private": false,
+			"description": "The Nx Plugin for React Native contains generators for managing React Native applications and libraries within an Nx workspace. It provides: \n\n-Integration with libraries such as Jest, Detox, and Storybook.\n-Scaffolding for creating buildable libraries th",
+			"keywords": [
+				"Monorepo",
+				"React",
+				"Web",
+				"Jest",
+				"Native",
+				"CLI"
+			],
+			"homepage": "https://nx.dev",
+			"bugs": {
+				"url": "https://github.com/nrwl/nx/issues"
+			},
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/nrwl/nx.git",
+				"directory": "packages/react-native"
+			},
+			"license": "MIT",
+			"author": {
+				"name": "Victor Savkin"
+			},
+			"main": "./index.js",
+			"types": "index.d.ts",
+			"dependencies": {
+				"ajv": "^8.12.0",
+				"chalk": "^4.1.0",
+				"enhanced-resolve": "^5.8.3",
+				"fs-extra": "^11.1.0",
+				"glob": "7.1.4",
+				"ignore": "^5.0.4",
+				"metro-config": "~0.80.4",
+				"metro-resolver": "~0.80.4",
+				"node-fetch": "^2.6.7",
+				"tsconfig-paths": "^4.1.2",
+				"tslib": "^2.3.0",
+				"@nx/devkit": "19.0.2",
+				"@nx/jest": "19.0.2",
+				"@nx/js": "19.0.2",
+				"@nx/eslint": "19.0.2",
+				"@nx/react": "19.0.2",
+				"@nx/workspace": "19.0.2",
+				"@nrwl/react-native": "19.0.2"
+			},
+			"executors": "./executors.json",
+			"ng-update": {
+				"requirements": {},
+				"migrations": "./migrations.json"
+			},
+			"generators": "./generators.json",
+			"publishConfig": {
+				"access": "public"
+			},
+			"type": "commonjs",
+			"_id": "@nx/react-native@19.0.2",
+			"gitHead": "61861be0f7335082d5e0b44fa96ff3f6d49774ad",
+			"_nodeVersion": "18.20.2",
+			"_npmVersion": "10.5.0",
+			"dist": {
+				"integrity": "sha512-smg14yiW2Wfp44aCGTJfFZ6hIqDCz4kXkOrkqvNe3RoEj8Le82+jo5LDgYGlEUwZi4nIx6i8FZ9hU0/gJessJQ==",
+				"shasum": "668229eb05ceb56a5b6272f1b6b174066aff817b",
+				"tarball": "https://registry.npmjs.org/@nx/react-native/-/react-native-19.0.2.tgz",
+				"fileCount": 270,
+				"unpackedSize": 552377,
+				"attestations": {
+					"url": "https://registry.npmjs.org/-/npm/v1/attestations/@nx%2freact-native@19.0.2",
+					"provenance": {
+						"predicateType": "https://slsa.dev/provenance/v1"
+					}
+				},
+				"signatures": [
+					{
+						"keyid": "SHA256:jl3bwswu80PjjokCgh0o2w5c2U4LhQAE57gj9cz1kzA",
+						"sig": "MEUCIBAkNhX7/almP5qytGwvondj+02CSPR/PHFA8jEzNOADAiEAvM6OBwOlNN6GbGrFdoRVYVTKedvzzJTJDoxIPNiKCYE="
+					}
+				]
+			},
+			"_npmUser": {
+				"name": "nrwl-jason",
+				"email": "jason@nrwl.io"
+			},
+			"directories": {},
+			"maintainers": [
+				{
+					"name": "jameshenry",
+					"email": "james@henry.sc"
+				},
+				{
+					"name": "jack-nrwl",
+					"email": "jack@nrwl.io"
+				},
+				{
+					"name": "nrwl-jason",
+					"email": "jason@nrwl.io"
+				},
+				{
+					"name": "nrwlowner",
+					"email": "hello@nrwl.io"
+				}
+			],
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/react-native_19.0.2_1715263098214_0.3429045635919461"
+			},
+			"_hasShrinkwrap": false,
+			"contributors": []
+		},
+		"19.1.0-canary.20240510-1a85787": {
+			"name": "@nx/react-native",
+			"version": "19.1.0-canary.20240510-1a85787",
+			"private": false,
+			"description": "The Nx Plugin for React Native contains generators for managing React Native applications and libraries within an Nx workspace. It provides: \n\n-Integration with libraries such as Jest, Detox, and Storybook.\n-Scaffolding for creating buildable libraries th",
+			"keywords": [
+				"Monorepo",
+				"React",
+				"Web",
+				"Jest",
+				"Native",
+				"CLI"
+			],
+			"homepage": "https://nx.dev",
+			"bugs": {
+				"url": "https://github.com/nrwl/nx/issues"
+			},
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/nrwl/nx.git",
+				"directory": "packages/react-native"
+			},
+			"license": "MIT",
+			"author": {
+				"name": "Victor Savkin"
+			},
+			"main": "./index.js",
+			"types": "index.d.ts",
+			"dependencies": {
+				"ajv": "^8.12.0",
+				"chalk": "^4.1.0",
+				"enhanced-resolve": "^5.8.3",
+				"fs-extra": "^11.1.0",
+				"glob": "7.1.4",
+				"ignore": "^5.0.4",
+				"metro-config": "~0.80.4",
+				"metro-resolver": "~0.80.4",
+				"node-fetch": "^2.6.7",
+				"tsconfig-paths": "^4.1.2",
+				"tslib": "^2.3.0",
+				"@nx/devkit": "19.1.0-canary.20240510-1a85787",
+				"@nx/jest": "19.1.0-canary.20240510-1a85787",
+				"@nx/js": "19.1.0-canary.20240510-1a85787",
+				"@nx/eslint": "19.1.0-canary.20240510-1a85787",
+				"@nx/react": "19.1.0-canary.20240510-1a85787",
+				"@nx/workspace": "19.1.0-canary.20240510-1a85787",
+				"@nrwl/react-native": "19.1.0-canary.20240510-1a85787"
+			},
+			"executors": "./executors.json",
+			"ng-update": {
+				"requirements": {},
+				"migrations": "./migrations.json"
+			},
+			"generators": "./generators.json",
+			"publishConfig": {
+				"access": "public"
+			},
+			"type": "commonjs",
+			"_id": "@nx/react-native@19.1.0-canary.20240510-1a85787",
+			"readmeFilename": "README.md",
+			"gitHead": "1a85787e1c310d8409d99361800ef30e81938795",
+			"_nodeVersion": "18.20.2",
+			"_npmVersion": "10.5.0",
+			"dist": {
+				"integrity": "sha512-OFAAR/WcBvuWw1C5f6/Cu4flIoi6PSGMPPVvZP1HjnNcMUkN8DVMDc881Hha6p0DKZ+AarAMgObL07KHwpdS4w==",
+				"shasum": "241213898c9bccddb79d97149b2ed53a0903fc3b",
+				"tarball": "https://registry.npmjs.org/@nx/react-native/-/react-native-19.1.0-canary.20240510-1a85787.tgz",
+				"fileCount": 270,
+				"unpackedSize": 552569,
+				"attestations": {
+					"url": "https://registry.npmjs.org/-/npm/v1/attestations/@nx%2freact-native@19.1.0-canary.20240510-1a85787",
+					"provenance": {
+						"predicateType": "https://slsa.dev/provenance/v1"
+					}
+				},
+				"signatures": [
+					{
+						"keyid": "SHA256:jl3bwswu80PjjokCgh0o2w5c2U4LhQAE57gj9cz1kzA",
+						"sig": "MEYCIQCy6QQjoCDrTFdyAyPJai6wYtSqs+DQqMEzgqkm3cFxKgIhAP3FaTCRF+TFPwsduycy7AXcesgf3E4Z4KENrQQ8W88Z"
+					}
+				]
+			},
+			"_npmUser": {
+				"name": "nrwl-jason",
+				"email": "jason@nrwl.io"
+			},
+			"directories": {},
+			"maintainers": [
+				{
+					"name": "jameshenry",
+					"email": "james@henry.sc"
+				},
+				{
+					"name": "jack-nrwl",
+					"email": "jack@nrwl.io"
+				},
+				{
+					"name": "nrwl-jason",
+					"email": "jason@nrwl.io"
+				},
+				{
+					"name": "nrwlowner",
+					"email": "hello@nrwl.io"
+				}
+			],
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/react-native_19.1.0-canary.20240510-1a85787_1715311034305_0.8918533527296393"
+			},
+			"_hasShrinkwrap": false,
+			"contributors": []
+		},
 		"20.0.0": {
 			"name": "@nx/react-native",
 			"version": "20.0.0",
@@ -41205,12 +41428,12 @@
 			"type": "commonjs",
 			"_id": "@nx/react-native@20.0.0",
 			"readmeFilename": "README.md",
-			"gitHead": "792f73081571dea27da52bddf6184313bb7b5737",
-			"_nodeVersion": "20.9.0",
-			"_npmVersion": "10.1.0",
+			"gitHead": "86106e2454080d81eec30be2268bd93f9c6cfcad",
+			"_nodeVersion": "18.18.0",
+			"_npmVersion": "9.8.1",
 			"dist": {
-				"integrity": "sha512-i57I42OA5r8MEEKsLvl0P4lM6pLeSKSYjhPMnAVQAhiGgfEz4nOgWoAk5RbWVq/OHdjkx9ty7eKsYF47WIVkGQ==",
-				"shasum": "0f4c1f2d69b0bc433e14eed46a935656f8ab3df0",
+				"integrity": "sha512-wyLw8MvsbYQN9pBcomVaAsXoDzCGRnZPRW3wH0dPQBLpEUN7xzTTXB85PDR5AXFjyyr/brLyGeDSBdqvRGB2tQ==",
+				"shasum": "f719a0a6a79ca91015d69fcc98fdb5efc0684d12",
 				"tarball": "http://localhost:4873/@nx/react-native/-/@nx/react-native-20.0.0.tgz"
 			},
 			"contributors": []
@@ -41219,7 +41442,7 @@
 	"time": {
 		"created": "2023-04-17T15:04:16.696Z",
 		"16.0.0-beta.1": "2023-04-17T15:04:16.978Z",
-		"modified": "2024-05-09T08:20:04.295Z",
+		"modified": "2024-05-10T12:57:11.109Z",
 		"16.0.0-beta.2": "2023-04-18T15:10:31.629Z",
 		"16.0.0-beta.3": "2023-04-19T16:08:55.391Z",
 		"16.0.0-beta.4": "2023-04-19T19:32:23.721Z",
@@ -41574,19 +41797,21 @@
 		"19.0.1": "2024-05-07T22:27:35.186Z",
 		"19.1.0-canary.20240508-fd78152": "2024-05-08T03:17:29.583Z",
 		"19.1.0-canary.20240509-8f705e3": "2024-05-09T03:16:46.715Z",
-		"20.0.0": "2024-05-09T08:20:04.295Z"
+		"19.0.2": "2024-05-09T13:58:18.415Z",
+		"19.1.0-canary.20240510-1a85787": "2024-05-10T03:17:14.646Z",
+		"20.0.0": "2024-05-10T12:57:11.109Z"
 	},
 	"users": {},
 	"dist-tags": {
 		"next": "19.0.0-rc.2",
 		"latest": "20.0.0",
 		"previous": "18.3.4",
-		"canary": "19.1.0-canary.20240509-8f705e3"
+		"canary": "19.1.0-canary.20240510-1a85787"
 	},
 	"_uplinks": {
 		"npmjs": {
-			"etag": "W/\"3ede764c20a007b960281c55cf863c44\"",
-			"fetched": 1715242803776
+			"etag": "W/\"e9de4cb1391bce911d24ea4e7ab3c706\"",
+			"fetched": 1715345829807
 		}
 	},
 	"_distfiles": {
@@ -43364,15 +43589,25 @@
 			"url": "https://registry.npmjs.org/@nx/react-native/-/react-native-19.1.0-canary.20240509-8f705e3.tgz",
 			"sha": "7e27a0216c8057de4bcb9f9d4d73a26c50ec025e",
 			"registry": "npmjs"
+		},
+		"react-native-19.0.2.tgz": {
+			"url": "https://registry.npmjs.org/@nx/react-native/-/react-native-19.0.2.tgz",
+			"sha": "668229eb05ceb56a5b6272f1b6b174066aff817b",
+			"registry": "npmjs"
+		},
+		"react-native-19.1.0-canary.20240510-1a85787.tgz": {
+			"url": "https://registry.npmjs.org/@nx/react-native/-/react-native-19.1.0-canary.20240510-1a85787.tgz",
+			"sha": "241213898c9bccddb79d97149b2ed53a0903fc3b",
+			"registry": "npmjs"
 		}
 	},
 	"_attachments": {
 		"react-native-20.0.0.tgz": {
-			"shasum": "0f4c1f2d69b0bc433e14eed46a935656f8ab3df0",
+			"shasum": "f719a0a6a79ca91015d69fcc98fdb5efc0684d12",
 			"version": "20.0.0"
 		}
 	},
-	"_rev": "4-97194cc68702c455",
+	"_rev": "4-6f6a999902021049",
 	"_id": "@nx/react-native",
 	"readme": "<p style=\"text-align: center;\">\n  <picture>\n    <source media=\"(prefers-color-scheme: dark)\" srcset=\"https://raw.githubusercontent.com/nrwl/nx/master/images/nx-dark.svg\">\n    <img alt=\"Nx - Smart Monorepos · Fast CI\" src=\"https://raw.githubusercontent.com/nrwl/nx/master/images/nx-light.svg\" width=\"100%\">\n  </picture>\n</p>\n\n<div style=\"text-align: center;\">\n\n[![CircleCI](https://circleci.com/gh/nrwl/nx.svg?style=svg)](https://circleci.com/gh/nrwl/nx)\n[![License](https://img.shields.io/npm/l/@nx/workspace.svg?style=flat-square)]()\n[![NPM Version](https://badge.fury.io/js/%40nrwl%2Fworkspace.svg)](https://www.npmjs.com/@nx/workspace)\n[![Semantic Release](https://img.shields.io/badge/%20%20%F0%9F%93%A6%F0%9F%9A%80-semantic--release-e10079.svg?style=flat-square)]()\n[![Commitizen friendly](https://img.shields.io/badge/commitizen-friendly-brightgreen.svg)](http://commitizen.github.io/cz-cli/)\n[![Join the chat at https://gitter.im/nrwl-nx/community](https://badges.gitter.im/nrwl-nx/community.svg)](https://gitter.im/nrwl-nx/community?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)\n[![Join us on the Official Nx Discord Server](https://img.shields.io/discord/1143497901675401286?label=discord)](https://go.nx.dev/community)\n\n</div>\n\n\n<hr>\n\n# Nx: Smart Monorepos · Fast CI\n\nNx is a build system with built-in tooling and advanced CI capabilities. It helps you maintain and scale monorepos, both locally and on CI.\n\nThis package is a [React Native plugin for Nx](https://nx.dev/packages/react-native).\n\n## Getting Started\n\n### Creating an Nx Workspace\n\n**Using `npx`**\n\n```bash\nnpx create-nx-workspace\n```\n\n**Using `npm init`**\n\n```bash\nnpm init nx-workspace\n```\n\n**Using `yarn create`**\n\n```bash\nyarn create nx-workspace\n```\n\n### Adding Nx to an Existing Repository\n\nRun:\n\n```bash\nnpx nx@latest init\n```\n\n## Documentation & Resources\n\n- [Nx.Dev: Documentation, Guides, Tutorials](https://nx.dev)\n- [Intro to Nx](https://nx.dev/getting-started/intro)\n- [Official Nx YouTube Channel](https://www.youtube.com/@NxDevtools)\n- [Blog Posts About Nx](https://blog.nrwl.io/nx/home)\n\n<p style=\"text-align: center;\"><a href=\"https://nx.dev/#learning-materials\" target=\"_blank\" rel=\"noreferrer\"><img src=\"https://raw.githubusercontent.com/nrwl/nx/master/images/nx-courses-and-videos.svg\" \nwidth=\"100%\" alt=\"Nx - Smart Monorepos · Fast CI\"></a></p>\n\n"
 }

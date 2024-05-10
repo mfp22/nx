@@ -1,0 +1,276 @@
+{
+	"name": "ts-map",
+	"versions": {
+		"1.0.0": {
+			"name": "ts-map",
+			"version": "1.0.0",
+			"description": "A typescript Map structure like ES6 Map",
+			"main": "./src/ts-map.ts",
+			"homepage": "https://github.com/lavyun/ts-map",
+			"types": "./dist/ts-map.d.ts",
+			"repository": {
+				"type": "git",
+				"url": "git+ssh://git@github.com/lavyun/ts-map.git"
+			},
+			"keywords": [
+				"typescript",
+				"Map",
+				"ts",
+				"ts-map"
+			],
+			"author": {
+				"name": "lavyun"
+			},
+			"license": "MIT",
+			"dependencies": {
+				"user": "0.0.0"
+			},
+			"gitHead": "d4bb47026ab3f9b1cc40b72a82d35b105413dc5a",
+			"bugs": {
+				"url": "https://github.com/lavyun/ts-map/issues"
+			},
+			"_id": "ts-map@1.0.0",
+			"_npmVersion": "5.3.0",
+			"_nodeVersion": "8.2.1",
+			"_npmUser": {
+				"name": "lavyun",
+				"email": "lavyun@163.com"
+			},
+			"dist": {
+				"integrity": "sha512-0cYoUdFccZH+37/J7ja6uEtURPgu4kH4qr5A7nY9iFi62AsvS1pH1KLxrSXKJHCEC8ncNwCTFs6TlcisUr2Ltg==",
+				"shasum": "04b3ca798bd8d7f034e6ce6682daa4cdacf76340",
+				"tarball": "https://registry.npmjs.org/ts-map/-/ts-map-1.0.0.tgz",
+				"signatures": [
+					{
+						"keyid": "SHA256:jl3bwswu80PjjokCgh0o2w5c2U4LhQAE57gj9cz1kzA",
+						"sig": "MEUCIQDT+LFhzuwuZXBDtNHnuUmL6d5ixNXKaQP2Pl2OHcKV9AIgUceNwUqGH7mJkesRR9Bdjh5VHRM5ESCmiM2xNBg6B5s="
+					}
+				]
+			},
+			"maintainers": [
+				{
+					"name": "lavyun",
+					"email": "lavyun@163.com"
+				}
+			],
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/ts-map-1.0.0.tgz_1505555313499_0.23220019368454814"
+			},
+			"contributors": []
+		},
+		"1.0.1": {
+			"name": "ts-map",
+			"version": "1.0.1",
+			"description": "A typescript Map structure like ES6 Map",
+			"main": "./src/ts-map.ts",
+			"homepage": "https://github.com/lavyun/ts-map",
+			"types": "./dist/ts-map.d.ts",
+			"repository": {
+				"type": "git",
+				"url": "git+ssh://git@github.com/lavyun/ts-map.git"
+			},
+			"keywords": [
+				"typescript",
+				"Map",
+				"ts",
+				"ts-map"
+			],
+			"author": {
+				"name": "lavyun"
+			},
+			"license": "MIT",
+			"gitHead": "d4bb47026ab3f9b1cc40b72a82d35b105413dc5a",
+			"bugs": {
+				"url": "https://github.com/lavyun/ts-map/issues"
+			},
+			"_id": "ts-map@1.0.1",
+			"_npmVersion": "5.3.0",
+			"_nodeVersion": "8.2.1",
+			"_npmUser": {
+				"name": "lavyun",
+				"email": "lavyun@163.com"
+			},
+			"dist": {
+				"integrity": "sha512-VQh8mcNmDxNR+hncGzJgdp6I37tRPGhNmXBPSoTEr/apbRFAvKQn17ocxrCwflZWV7bhwVwyFS6HbeglXVhJPw==",
+				"shasum": "47672520b9f687e493a1d5d0bd50e207f05bbd8a",
+				"tarball": "https://registry.npmjs.org/ts-map/-/ts-map-1.0.1.tgz",
+				"signatures": [
+					{
+						"keyid": "SHA256:jl3bwswu80PjjokCgh0o2w5c2U4LhQAE57gj9cz1kzA",
+						"sig": "MEUCIQDMZzKaDAJ2yjpAFBdtkVlc9LE0c5UzKLut7PGNxKfqWgIgdiZaLcwaJpVS8nAes7bkSBzeoGB7FHqHmMgxRPbmpmI="
+					}
+				]
+			},
+			"maintainers": [
+				{
+					"name": "lavyun",
+					"email": "lavyun@163.com"
+				}
+			],
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/ts-map-1.0.1.tgz_1505555477128_0.5115959940012544"
+			},
+			"contributors": []
+		},
+		"1.0.2": {
+			"name": "ts-map",
+			"version": "1.0.2",
+			"description": "A typescript Map structure like ES6 Map",
+			"main": "./dist/ts-map.js",
+			"homepage": "https://github.com/lavyun/ts-map",
+			"types": "./dist/ts-map.d.ts",
+			"repository": {
+				"type": "git",
+				"url": "git+ssh://git@github.com/lavyun/ts-map.git"
+			},
+			"keywords": [
+				"typescript",
+				"Map",
+				"ts",
+				"ts-map"
+			],
+			"author": {
+				"name": "lavyun"
+			},
+			"license": "MIT",
+			"gitHead": "d4bb47026ab3f9b1cc40b72a82d35b105413dc5a",
+			"bugs": {
+				"url": "https://github.com/lavyun/ts-map/issues"
+			},
+			"_id": "ts-map@1.0.2",
+			"_npmVersion": "5.3.0",
+			"_nodeVersion": "8.2.1",
+			"_npmUser": {
+				"name": "lavyun",
+				"email": "lavyun@163.com"
+			},
+			"dist": {
+				"integrity": "sha512-e0nwATeMKZdvJVn9zPL9dxyBkJt82ZFXnnfS/ySZmipBDa5lOweR6573CEv2GFYRq16r4nop2jQhHhbUGWTiaQ==",
+				"shasum": "81fd51e42a6c9bdc7a05ba987cffbcb50f14c771",
+				"tarball": "https://registry.npmjs.org/ts-map/-/ts-map-1.0.2.tgz",
+				"signatures": [
+					{
+						"keyid": "SHA256:jl3bwswu80PjjokCgh0o2w5c2U4LhQAE57gj9cz1kzA",
+						"sig": "MEYCIQCcjcqzrtJb1jL6yDX2gw0ErxzVVZ0k02O1wpxLld45hgIhAN6fdcIJHZHJ97iMCfYy9J/Rcszl2e3UmsJ05xuzarRv"
+					}
+				]
+			},
+			"maintainers": [
+				{
+					"name": "lavyun",
+					"email": "lavyun@163.com"
+				}
+			],
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/ts-map-1.0.2.tgz_1505556667797_0.48083559167571366"
+			},
+			"contributors": []
+		},
+		"1.0.3": {
+			"name": "ts-map",
+			"version": "1.0.3",
+			"description": "A typescript Map structure like ES6 Map",
+			"main": "./dist/ts-map.js",
+			"homepage": "https://github.com/lavyun/ts-map",
+			"types": "./dist/ts-map.d.ts",
+			"repository": {
+				"type": "git",
+				"url": "git+ssh://git@github.com/lavyun/ts-map.git"
+			},
+			"keywords": [
+				"typescript",
+				"Map",
+				"ts",
+				"ts-map"
+			],
+			"author": {
+				"name": "lavyun"
+			},
+			"license": "MIT",
+			"gitHead": "d4bb47026ab3f9b1cc40b72a82d35b105413dc5a",
+			"bugs": {
+				"url": "https://github.com/lavyun/ts-map/issues"
+			},
+			"_id": "ts-map@1.0.3",
+			"_npmVersion": "5.3.0",
+			"_nodeVersion": "8.2.1",
+			"_npmUser": {
+				"name": "lavyun",
+				"email": "lavyun@163.com"
+			},
+			"dist": {
+				"integrity": "sha512-vDWbsl26LIcPGmDpoVzjEP6+hvHZkBkLW7JpvwbCv/5IYPJlsbzCVXY3wsCeAxAUeTclNOUZxnLdGh3VBD/J6w==",
+				"shasum": "1c4d218dec813d2103b7e04e4bcf348e1471c1ff",
+				"tarball": "https://registry.npmjs.org/ts-map/-/ts-map-1.0.3.tgz",
+				"signatures": [
+					{
+						"keyid": "SHA256:jl3bwswu80PjjokCgh0o2w5c2U4LhQAE57gj9cz1kzA",
+						"sig": "MEQCIHiaTZprjAQfCFxE/BKOUyFPHOIn1QJ5ybaTKkrjbKCbAiBC3grnlSHuQd8FBHfQvjg6TpuLemwR3HmqLtF1oQg5+Q=="
+					}
+				]
+			},
+			"maintainers": [
+				{
+					"name": "lavyun",
+					"email": "lavyun@163.com"
+				}
+			],
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/ts-map-1.0.3.tgz_1505556813988_0.3167326014954597"
+			},
+			"contributors": []
+		}
+	},
+	"time": {
+		"modified": "2022-05-22T07:25:53.995Z",
+		"created": "2017-09-16T09:48:33.619Z",
+		"1.0.0": "2017-09-16T09:48:33.619Z",
+		"1.0.1": "2017-09-16T09:51:17.226Z",
+		"1.0.2": "2017-09-16T10:11:07.934Z",
+		"1.0.3": "2017-09-16T10:13:34.217Z"
+	},
+	"users": {},
+	"dist-tags": {
+		"latest": "1.0.3"
+	},
+	"_uplinks": {
+		"npmjs": {
+			"etag": "W/\"eb5502f6e2dfeaf7ee4638470b6e87e0\"",
+			"fetched": 1715345982488
+		}
+	},
+	"_distfiles": {
+		"ts-map-1.0.0.tgz": {
+			"url": "https://registry.npmjs.org/ts-map/-/ts-map-1.0.0.tgz",
+			"sha": "04b3ca798bd8d7f034e6ce6682daa4cdacf76340",
+			"registry": "npmjs"
+		},
+		"ts-map-1.0.1.tgz": {
+			"url": "https://registry.npmjs.org/ts-map/-/ts-map-1.0.1.tgz",
+			"sha": "47672520b9f687e493a1d5d0bd50e207f05bbd8a",
+			"registry": "npmjs"
+		},
+		"ts-map-1.0.2.tgz": {
+			"url": "https://registry.npmjs.org/ts-map/-/ts-map-1.0.2.tgz",
+			"sha": "81fd51e42a6c9bdc7a05ba987cffbcb50f14c771",
+			"registry": "npmjs"
+		},
+		"ts-map-1.0.3.tgz": {
+			"url": "https://registry.npmjs.org/ts-map/-/ts-map-1.0.3.tgz",
+			"sha": "1c4d218dec813d2103b7e04e4bcf348e1471c1ff",
+			"registry": "npmjs"
+		}
+	},
+	"_attachments": {
+		"ts-map-1.0.3.tgz": {
+			"shasum": "1c4d218dec813d2103b7e04e4bcf348e1471c1ff"
+		}
+	},
+	"_rev": "2-0638261fec227887",
+	"_id": "ts-map",
+	"readme": "# What is ts-map？\n\nit is a Map structure like ES6 Map. Map is similar to the object, but also a set of key-value pairs, but the \"key\" range is not limited to strings, various types of values (including objects) can be used as a key.\n\n# Installation\n\n```bash\nnpm install ts-map\n```\n\n# Usage\n\nuse in typescript file\n\n```typescript\nimport TsMap from 'ts-map'\nconst map = new TsMap()\nconst k1: number = 1\nconst k2: number[] = [2] \nconst k3: boolean = true\nmap.set(1, \"hello\")\nmap.set(k2, \"ts\").set(k3, \"map\")\n\nmap.get(1) // \"hello\"\nmap.get(k2) // \"world\"\nmap.size // 3\nmap.keys() // [1, [2], true]\nmap.values() // [\"hello\", \"ts\", \"map\"]\n\nmap.forEach((value, key, map) => {\n  console.log(key, ':', value)\n})\n// 1 ':' 'hello'\n// [ 2 ] ':' 'ts'\n// true ':' 'map'\n```\n\n# Getting started\n\n## Constructor with parameter\n\nYou can pass in the default parameters in the constructor:\n\n```typescript\nconst map = new TsMap([\n  [1, \"ok\"],\n  [2, \"fail\"]\n])\n\nconsole.log(map.get(1)) // ok\n```\n\n## Class generic\n\nsupport define generic for ts-map\n\n```typescript\ninterface Coder {\n  name: string\n}\n\nconst map = new TsMap<number, Coder>([\n  [1, {name: 'lavyun'}]\n])\n\nmap.set(2, {name: \"tom\"}) // work\n\nmap.set(3, \"jack\") // sorry, error\n```\n\nIf you do not define generics, but in the constructor passed in the parameters, you also need follow the generic rules.If you do not use generics, you can set any type of key-value pairs for the map.\n\n## API\n\n### size: number\n\nreturn the Map's size\n\n```typescript\nconst map = new TsMap<number, Coder>([\n  [1, {name: 'lavyun'}]\n])\n\nmap.set(2, {name: \"tom\"})\nmap.size // 2\n```\n\n### set(k: K, v: V): TsMapInter<K, V>\n\nset a key-value to Map, support chain called.\n\n```ts\nmap.set(true, \"1\")\nmap.set(1, \"hello\").set(2, \"world\")\n```\n\nNotice: Only the reference to the same object, Map structure will be regarded as the same key.\n\n```ts\nconst k = [\"1\"]\nmap.set(k, \"hello\")\nmap.get(k)  // hello\nmap.get([\"1\"])  // undefind\n```\n\nIf the same key is assigned multiple times, the following value will overwrite the previous value.\n\n```ts\nmap.set(1, \"111\").set(1, \"222\")\nmap.get(1) // 222\n```\n\n### get(k: K): V | undefined\n\nReturn the value of the corresponding key,if dosn't include, return undefind.\n\n```ts\nmap.set(1, \"111\")\nmap.get(1) // 111\nmap.get(2) // undefind\n```\n\n### has(k: K): boolean\n\nDetermine if a key is included.\n\n```ts\nmap.set(1, \"111\")\nmap.has(1) // true\nmap.has(2) // false\n```\n\n### delete(k: k): boolean\n\nDelete all the corresponding keys and its value, if detele success, return true. else return false.\n\n```ts\nmap.set(1, \"111\")\nmap.set(2, \"222\")\nmap.delete(1)\nmap.has(1) //false\nmao.size // 1\n```\n\n### clear(): void\n\nDelete all key-value from the Map.\n\n```ts\nmap.set(1, \"111\")\nmap.set(2, \"222\")\nmap.size // 2\nmap.clear()\nmap.size // 0\n```\n\n### keys(): K[]\n\nreturn all Map's key.\n\n```ts\nmap.set(1, 2)\nmap.set(true, false)\nmap.set([\"1\"], {name: 'lavyun'})\nmap.keys() // [1, true, [\"1\"]]\n```\n\n### values(): V[]\n\nreturn all Map's value.\n\n```ts\nmap.set(1, 2)\nmap.set(true, false)\nmap.set([\"1\"], {name: 'lavyun'})\nmap.values() // [2, false, 'lavyun']\n```\n\n### entries(): Array<[K, V]>\n\nreturn all Map's key-value.\n```ts\nmap.set(1, 2)\nmap.set(true, false)\nmap.set([\"1\"], {name: 'lavyun'})\nmap.entries()\n/* \n[\n  [1, 2],\n  [true, false],\n  [[\"1\"], {name: 'lavyun'}]\n]\n*/\n```\n\n### forEach(cb, context?: any): void\n\nTraversal the Map.Accept two parameters, first is a callback, second is a optional context.\n\ncallback function accepts 3 optional params,first is value, second is key, last is the map.\n\n```ts\nmap.set(1, \"111\").set(2. \"222\")\nmap.forEach((value, key, map) => {\n  console.log(key, '-', value)\n})\n// 1 - '111'\n// 2 - '222'\n```\n\nYou can pass the second param to set the callback's context\n\n```ts\nconst person = {\n  name: 'lavyun'\n}\n\nmap.set(1, \"111\").set(2. \"222\")\nmap.forEach((value, key, map) => {\n  console.log(key, '-', value, '-', this.name)\n}, person)\n// 1 - '111' - 'lavyun'\n// 2 - '222' - 'lavyun'\n```\n\n## Licence\n\nMIT LICENCE"
+}

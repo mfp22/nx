@@ -25236,6 +25236,219 @@
 			"_hasShrinkwrap": false,
 			"contributors": []
 		},
+		"19.0.2": {
+			"name": "@nx/vue",
+			"version": "19.0.2",
+			"private": false,
+			"description": "The Vue plugin for Nx contains executors and generators for managing Vue applications and libraries within an Nx workspace. It provides:\n\n\n- Integration with libraries such as Vitest, Playwright, Cypress, and Storybook.\n\n- Generators for applications, lib",
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/nrwl/nx.git",
+				"directory": "packages/vue"
+			},
+			"keywords": [
+				"Monorepo",
+				"Vue",
+				"Web",
+				"CLI"
+			],
+			"main": "./index.js",
+			"typings": "./index.d.ts",
+			"author": {
+				"name": "Victor Savkin"
+			},
+			"license": "MIT",
+			"bugs": {
+				"url": "https://github.com/nrwl/nx/issues"
+			},
+			"homepage": "https://nx.dev",
+			"generators": "./generators.json",
+			"executors": "./executors.json",
+			"nx-migrations": {
+				"migrations": "./migrations.json"
+			},
+			"dependencies": {
+				"minimatch": "9.0.3",
+				"tslib": "^2.3.0",
+				"@nx/devkit": "19.0.2",
+				"@nx/js": "19.0.2",
+				"@nx/eslint": "19.0.2",
+				"@nx/vite": "19.0.2",
+				"@nx/web": "19.0.2"
+			},
+			"publishConfig": {
+				"access": "public"
+			},
+			"peerDependencies": {},
+			"exports": {
+				"./package.json": "./package.json",
+				".": "./index.js",
+				"./executors.json": "./executors.json",
+				"./generators.json": "./generators.json",
+				"./migrations.json": "./migrations.json",
+				"./tailwind": "./src/tailwind.js"
+			},
+			"type": "commonjs",
+			"_id": "@nx/vue@19.0.2",
+			"gitHead": "61861be0f7335082d5e0b44fa96ff3f6d49774ad",
+			"_nodeVersion": "18.20.2",
+			"_npmVersion": "10.5.0",
+			"dist": {
+				"integrity": "sha512-NsoiAY27Zgvu8wuW8Yba3BR0HioICqdsYZFIvFnOq3qAf08GqRobPugzLE6jBLEr4Gy7GwUsSyEFVUaN2Hknig==",
+				"shasum": "421b96ac22cc9772d9873ccfbd3aef4faafb7716",
+				"tarball": "https://registry.npmjs.org/@nx/vue/-/vue-19.0.2.tgz",
+				"fileCount": 95,
+				"unpackedSize": 128190,
+				"attestations": {
+					"url": "https://registry.npmjs.org/-/npm/v1/attestations/@nx%2fvue@19.0.2",
+					"provenance": {
+						"predicateType": "https://slsa.dev/provenance/v1"
+					}
+				},
+				"signatures": [
+					{
+						"keyid": "SHA256:jl3bwswu80PjjokCgh0o2w5c2U4LhQAE57gj9cz1kzA",
+						"sig": "MEUCIF286ZK+FW4mnsb3wogWiGEF0lFTTLhRvSxZ0DPF6bEaAiEA+WVOuuez3o4u0LNsAo8ZMFDez0DcpSdoRNzOlW42+qE="
+					}
+				]
+			},
+			"_npmUser": {
+				"name": "nrwl-jason",
+				"email": "jason@nrwl.io"
+			},
+			"directories": {},
+			"maintainers": [
+				{
+					"name": "jameshenry",
+					"email": "james@henry.sc"
+				},
+				{
+					"name": "jack-nrwl",
+					"email": "jack@nrwl.io"
+				},
+				{
+					"name": "nrwl-jason",
+					"email": "jason@nrwl.io"
+				},
+				{
+					"name": "nrwlowner",
+					"email": "hello@nrwl.io"
+				}
+			],
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/vue_19.0.2_1715263084065_0.33134664016329296"
+			},
+			"_hasShrinkwrap": false,
+			"contributors": []
+		},
+		"19.1.0-canary.20240510-1a85787": {
+			"name": "@nx/vue",
+			"version": "19.1.0-canary.20240510-1a85787",
+			"private": false,
+			"description": "The Vue plugin for Nx contains executors and generators for managing Vue applications and libraries within an Nx workspace. It provides:\n\n\n- Integration with libraries such as Vitest, Playwright, Cypress, and Storybook.\n\n- Generators for applications, lib",
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/nrwl/nx.git",
+				"directory": "packages/vue"
+			},
+			"keywords": [
+				"Monorepo",
+				"Vue",
+				"Web",
+				"CLI"
+			],
+			"main": "./index.js",
+			"typings": "./index.d.ts",
+			"author": {
+				"name": "Victor Savkin"
+			},
+			"license": "MIT",
+			"bugs": {
+				"url": "https://github.com/nrwl/nx/issues"
+			},
+			"homepage": "https://nx.dev",
+			"generators": "./generators.json",
+			"executors": "./executors.json",
+			"nx-migrations": {
+				"migrations": "./migrations.json"
+			},
+			"dependencies": {
+				"minimatch": "9.0.3",
+				"tslib": "^2.3.0",
+				"@nx/devkit": "19.1.0-canary.20240510-1a85787",
+				"@nx/js": "19.1.0-canary.20240510-1a85787",
+				"@nx/eslint": "19.1.0-canary.20240510-1a85787",
+				"@nx/vite": "19.1.0-canary.20240510-1a85787",
+				"@nx/web": "19.1.0-canary.20240510-1a85787"
+			},
+			"publishConfig": {
+				"access": "public"
+			},
+			"peerDependencies": {},
+			"exports": {
+				"./package.json": "./package.json",
+				".": "./index.js",
+				"./executors.json": "./executors.json",
+				"./generators.json": "./generators.json",
+				"./migrations.json": "./migrations.json",
+				"./tailwind": "./src/tailwind.js"
+			},
+			"type": "commonjs",
+			"_id": "@nx/vue@19.1.0-canary.20240510-1a85787",
+			"readmeFilename": "README.md",
+			"gitHead": "1a85787e1c310d8409d99361800ef30e81938795",
+			"_nodeVersion": "18.20.2",
+			"_npmVersion": "10.5.0",
+			"dist": {
+				"integrity": "sha512-45E+G0Df4NUVhCPLpC2noYGXPYrQIt9BN3NsvRPkZOazqSa8wc1N913lyNU/gcke65H3XcQsxGDUUZEJ/hrhfQ==",
+				"shasum": "fce9c7441ed7a1b8cc0f312f21117d01b18533e9",
+				"tarball": "https://registry.npmjs.org/@nx/vue/-/vue-19.1.0-canary.20240510-1a85787.tgz",
+				"fileCount": 95,
+				"unpackedSize": 128334,
+				"attestations": {
+					"url": "https://registry.npmjs.org/-/npm/v1/attestations/@nx%2fvue@19.1.0-canary.20240510-1a85787",
+					"provenance": {
+						"predicateType": "https://slsa.dev/provenance/v1"
+					}
+				},
+				"signatures": [
+					{
+						"keyid": "SHA256:jl3bwswu80PjjokCgh0o2w5c2U4LhQAE57gj9cz1kzA",
+						"sig": "MEUCIQDbcXu79xfky0vLkn4X5nqRBYrRH706mcpGjAAtFX3ckQIgFeAwnFe8kBPuOEsX1rVxSkfUmcj2myA2rKMw56Dqeig="
+					}
+				]
+			},
+			"_npmUser": {
+				"name": "nrwl-jason",
+				"email": "jason@nrwl.io"
+			},
+			"directories": {},
+			"maintainers": [
+				{
+					"name": "jameshenry",
+					"email": "james@henry.sc"
+				},
+				{
+					"name": "jack-nrwl",
+					"email": "jack@nrwl.io"
+				},
+				{
+					"name": "nrwl-jason",
+					"email": "jason@nrwl.io"
+				},
+				{
+					"name": "nrwlowner",
+					"email": "hello@nrwl.io"
+				}
+			],
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/vue_19.1.0-canary.20240510-1a85787_1715311020943_0.3037301201923983"
+			},
+			"_hasShrinkwrap": false,
+			"contributors": []
+		},
 		"20.0.0": {
 			"name": "@nx/vue",
 			"version": "20.0.0",
@@ -25291,12 +25504,12 @@
 			"type": "commonjs",
 			"_id": "@nx/vue@20.0.0",
 			"readmeFilename": "README.md",
-			"gitHead": "792f73081571dea27da52bddf6184313bb7b5737",
-			"_nodeVersion": "20.9.0",
-			"_npmVersion": "10.1.0",
+			"gitHead": "86106e2454080d81eec30be2268bd93f9c6cfcad",
+			"_nodeVersion": "18.18.0",
+			"_npmVersion": "9.8.1",
 			"dist": {
-				"integrity": "sha512-XXi9K5eWmGSo46t5xfX91+Zl2vwDGVbGQcJCAvAvUARb6SL09EG87JJXUZexcpP2apto53CRmA9TwQvUsLcXyQ==",
-				"shasum": "52dd2dc4da4f06e8cdaf86ee0eead7994a53f32d",
+				"integrity": "sha512-pN11+UoaU5wDacKyRQSg1wiK+6EhdCWzS1cOKFsqKniSPGxMxSlZQTvRbR4ciqr/B/wRw2zXOcws6DxbzC9y+Q==",
+				"shasum": "4fa44670998b89b0e75545ea75abd2308fc3ecfd",
 				"tarball": "http://localhost:4873/@nx/vue/-/@nx/vue-20.0.0.tgz"
 			},
 			"contributors": []
@@ -25305,7 +25518,7 @@
 	"time": {
 		"created": "2023-10-13T17:02:49.646Z",
 		"17.0.0-beta.4": "2023-10-13T17:02:49.925Z",
-		"modified": "2024-05-09T08:19:59.278Z",
+		"modified": "2024-05-10T12:57:06.140Z",
 		"17.0.0-beta.5": "2023-10-14T03:24:48.399Z",
 		"17.0.0-beta.6": "2023-10-14T14:26:38.699Z",
 		"17.0.0-beta.8": "2023-10-17T05:47:00.208Z",
@@ -25536,19 +25749,21 @@
 		"19.0.1": "2024-05-07T22:27:15.126Z",
 		"19.1.0-canary.20240508-fd78152": "2024-05-08T03:17:15.905Z",
 		"19.1.0-canary.20240509-8f705e3": "2024-05-09T03:16:29.669Z",
-		"20.0.0": "2024-05-09T08:19:59.278Z"
+		"19.0.2": "2024-05-09T13:58:04.236Z",
+		"19.1.0-canary.20240510-1a85787": "2024-05-10T03:17:01.197Z",
+		"20.0.0": "2024-05-10T12:57:06.140Z"
 	},
 	"users": {},
 	"dist-tags": {
 		"next": "19.0.0-rc.2",
 		"latest": "20.0.0",
-		"canary": "19.1.0-canary.20240509-8f705e3",
+		"canary": "19.1.0-canary.20240510-1a85787",
 		"previous": "18.3.4"
 	},
 	"_uplinks": {
 		"npmjs": {
-			"etag": "W/\"9c19e7d50835dcb9c44c13bc129a81e0\"",
-			"fetched": 1715242798935
+			"etag": "W/\"2532afede68439066a12a373517253ec\"",
+			"fetched": 1715345825174
 		}
 	},
 	"_distfiles": {
@@ -26706,15 +26921,25 @@
 			"url": "https://registry.npmjs.org/@nx/vue/-/vue-19.1.0-canary.20240509-8f705e3.tgz",
 			"sha": "e7ccd49259c3591852549d5edc474b1c2e0c858b",
 			"registry": "npmjs"
+		},
+		"vue-19.0.2.tgz": {
+			"url": "https://registry.npmjs.org/@nx/vue/-/vue-19.0.2.tgz",
+			"sha": "421b96ac22cc9772d9873ccfbd3aef4faafb7716",
+			"registry": "npmjs"
+		},
+		"vue-19.1.0-canary.20240510-1a85787.tgz": {
+			"url": "https://registry.npmjs.org/@nx/vue/-/vue-19.1.0-canary.20240510-1a85787.tgz",
+			"sha": "fce9c7441ed7a1b8cc0f312f21117d01b18533e9",
+			"registry": "npmjs"
 		}
 	},
 	"_attachments": {
 		"vue-20.0.0.tgz": {
-			"shasum": "52dd2dc4da4f06e8cdaf86ee0eead7994a53f32d",
+			"shasum": "4fa44670998b89b0e75545ea75abd2308fc3ecfd",
 			"version": "20.0.0"
 		}
 	},
-	"_rev": "5-35bca3180cd2c08f",
+	"_rev": "5-28f789a8f762e3bf",
 	"_id": "@nx/vue",
 	"readme": "<p style=\"text-align: center;\">\n  <picture>\n    <source media=\"(prefers-color-scheme: dark)\" srcset=\"https://raw.githubusercontent.com/nrwl/nx/master/images/nx-dark.svg\">\n    <img alt=\"Nx - Smart Monorepos · Fast CI\" src=\"https://raw.githubusercontent.com/nrwl/nx/master/images/nx-light.svg\" width=\"100%\">\n  </picture>\n</p>\n\n<div style=\"text-align: center;\">\n\n[![CircleCI](https://circleci.com/gh/nrwl/nx.svg?style=svg)](https://circleci.com/gh/nrwl/nx)\n[![License](https://img.shields.io/npm/l/@nx/workspace.svg?style=flat-square)]()\n[![NPM Version](https://badge.fury.io/js/%40nrwl%2Fworkspace.svg)](https://www.npmjs.com/@nx/workspace)\n[![Semantic Release](https://img.shields.io/badge/%20%20%F0%9F%93%A6%F0%9F%9A%80-semantic--release-e10079.svg?style=flat-square)]()\n[![Commitizen friendly](https://img.shields.io/badge/commitizen-friendly-brightgreen.svg)](http://commitizen.github.io/cz-cli/)\n[![Join the chat at https://gitter.im/nrwl-nx/community](https://badges.gitter.im/nrwl-nx/community.svg)](https://gitter.im/nrwl-nx/community?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)\n[![Join us on the Official Nx Discord Server](https://img.shields.io/discord/1143497901675401286?label=discord)](https://go.nx.dev/community)\n\n</div>\n\n\n<hr>\n\n# Nx: Smart Monorepos · Fast CI\n\nNx is a build system with built-in tooling and advanced CI capabilities. It helps you maintain and scale monorepos, both locally and on CI.\n\nThis package is a [Vue plugin for Nx](https://nx.dev/packages/vue).\n\n## Getting Started\n\n### Creating an Nx Workspace\n\n**Using `npx`**\n\n```bash\nnpx create-nx-workspace\n```\n\n**Using `npm init`**\n\n```bash\nnpm init nx-workspace\n```\n\n**Using `yarn create`**\n\n```bash\nyarn create nx-workspace\n```\n\n### Adding Nx to an Existing Repository\n\nRun:\n\n```bash\nnpx nx@latest init\n```\n\n## Documentation & Resources\n\n- [Nx.Dev: Documentation, Guides, Tutorials](https://nx.dev)\n- [Intro to Nx](https://nx.dev/getting-started/intro)\n- [Official Nx YouTube Channel](https://www.youtube.com/@NxDevtools)\n- [Blog Posts About Nx](https://blog.nrwl.io/nx/home)\n\n<p style=\"text-align: center;\"><a href=\"https://nx.dev/#learning-materials\" target=\"_blank\" rel=\"noreferrer\"><img src=\"https://raw.githubusercontent.com/nrwl/nx/master/images/nx-courses-and-videos.svg\" \nwidth=\"100%\" alt=\"Nx - Smart Monorepos · Fast CI\"></a></p>"
 }

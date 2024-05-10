@@ -39461,6 +39461,221 @@
 			"_hasShrinkwrap": false,
 			"contributors": []
 		},
+		"19.0.2": {
+			"name": "@nx/esbuild",
+			"version": "19.0.2",
+			"private": false,
+			"description": "The Nx Plugin for esbuild contains executors and generators that support building applications using esbuild",
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/nrwl/nx.git",
+				"directory": "packages/esbuild"
+			},
+			"keywords": [
+				"Monorepo",
+				"EsBuild",
+				"Web",
+				"CLI"
+			],
+			"main": "./index.js",
+			"typings": "./index.d.ts",
+			"author": {
+				"name": "Victor Savkin"
+			},
+			"license": "MIT",
+			"bugs": {
+				"url": "https://github.com/nrwl/nx/issues"
+			},
+			"homepage": "https://nx.dev",
+			"generators": "./generators.json",
+			"executors": "./executors.json",
+			"ng-update": {
+				"requirements": {},
+				"migrations": "./migrations.json"
+			},
+			"dependencies": {
+				"chalk": "^4.1.0",
+				"fast-glob": "3.2.7",
+				"fs-extra": "^11.1.0",
+				"tslib": "^2.3.0",
+				"tsconfig-paths": "^4.1.2",
+				"@nx/devkit": "19.0.2",
+				"@nx/js": "19.0.2",
+				"@nrwl/esbuild": "19.0.2"
+			},
+			"peerDependencies": {
+				"esbuild": "~0.19.2"
+			},
+			"peerDependenciesMeta": {
+				"esbuild": {
+					"optional": true
+				}
+			},
+			"publishConfig": {
+				"access": "public"
+			},
+			"type": "commonjs",
+			"_id": "@nx/esbuild@19.0.2",
+			"gitHead": "61861be0f7335082d5e0b44fa96ff3f6d49774ad",
+			"_nodeVersion": "18.20.2",
+			"_npmVersion": "10.5.0",
+			"dist": {
+				"integrity": "sha512-JTLORvNIsjdsoGfFdDf3yCUlr8Xu5Z1xs2Hrzktj3pSgvWUAV1/aP83j0Rm8htAZNzODxd40tVonbR9RDNpM9g==",
+				"shasum": "cd188d5002ba1a07a21c2d81b5b032d51ce3d6b3",
+				"tarball": "https://registry.npmjs.org/@nx/esbuild/-/esbuild-19.0.2.tgz",
+				"fileCount": 38,
+				"unpackedSize": 54337,
+				"attestations": {
+					"url": "https://registry.npmjs.org/-/npm/v1/attestations/@nx%2fesbuild@19.0.2",
+					"provenance": {
+						"predicateType": "https://slsa.dev/provenance/v1"
+					}
+				},
+				"signatures": [
+					{
+						"keyid": "SHA256:jl3bwswu80PjjokCgh0o2w5c2U4LhQAE57gj9cz1kzA",
+						"sig": "MEYCIQC65PQh2UK7NpmSpGUA225AWTJMtSrmaaZDR561MCBYQQIhAJU/wzCuc8EDSgSEYytQNo8I0YijqMQ4McGo0TuXxcCL"
+					}
+				]
+			},
+			"_npmUser": {
+				"name": "nrwl-jason",
+				"email": "jason@nrwl.io"
+			},
+			"directories": {},
+			"maintainers": [
+				{
+					"name": "jameshenry",
+					"email": "james@henry.sc"
+				},
+				{
+					"name": "jack-nrwl",
+					"email": "jack@nrwl.io"
+				},
+				{
+					"name": "nrwl-jason",
+					"email": "jason@nrwl.io"
+				},
+				{
+					"name": "nrwlowner",
+					"email": "hello@nrwl.io"
+				}
+			],
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/esbuild_19.0.2_1715263050752_0.22381033345047685"
+			},
+			"_hasShrinkwrap": false,
+			"contributors": []
+		},
+		"19.1.0-canary.20240510-1a85787": {
+			"name": "@nx/esbuild",
+			"version": "19.1.0-canary.20240510-1a85787",
+			"private": false,
+			"description": "The Nx Plugin for esbuild contains executors and generators that support building applications using esbuild",
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/nrwl/nx.git",
+				"directory": "packages/esbuild"
+			},
+			"keywords": [
+				"Monorepo",
+				"EsBuild",
+				"Web",
+				"CLI"
+			],
+			"main": "./index.js",
+			"typings": "./index.d.ts",
+			"author": {
+				"name": "Victor Savkin"
+			},
+			"license": "MIT",
+			"bugs": {
+				"url": "https://github.com/nrwl/nx/issues"
+			},
+			"homepage": "https://nx.dev",
+			"generators": "./generators.json",
+			"executors": "./executors.json",
+			"ng-update": {
+				"requirements": {},
+				"migrations": "./migrations.json"
+			},
+			"dependencies": {
+				"chalk": "^4.1.0",
+				"fast-glob": "3.2.7",
+				"fs-extra": "^11.1.0",
+				"tslib": "^2.3.0",
+				"tsconfig-paths": "^4.1.2",
+				"@nx/devkit": "19.1.0-canary.20240510-1a85787",
+				"@nx/js": "19.1.0-canary.20240510-1a85787",
+				"@nrwl/esbuild": "19.1.0-canary.20240510-1a85787"
+			},
+			"peerDependencies": {
+				"esbuild": "~0.19.2"
+			},
+			"peerDependenciesMeta": {
+				"esbuild": {
+					"optional": true
+				}
+			},
+			"publishConfig": {
+				"access": "public"
+			},
+			"type": "commonjs",
+			"_id": "@nx/esbuild@19.1.0-canary.20240510-1a85787",
+			"readmeFilename": "README.md",
+			"gitHead": "1a85787e1c310d8409d99361800ef30e81938795",
+			"_nodeVersion": "18.20.2",
+			"_npmVersion": "10.5.0",
+			"dist": {
+				"integrity": "sha512-kiJk1ZDSYULhit/J4RTbuzI5w6H10oou38uPOxklrTJKrAhJh2p68EN6wbz16l4e78JlMXMgEx03OxVXJFUnPQ==",
+				"shasum": "839ed26cdf6f9a85e452bcfe943fb39e72d477e5",
+				"tarball": "https://registry.npmjs.org/@nx/esbuild/-/esbuild-19.1.0-canary.20240510-1a85787.tgz",
+				"fileCount": 38,
+				"unpackedSize": 54433,
+				"attestations": {
+					"url": "https://registry.npmjs.org/-/npm/v1/attestations/@nx%2fesbuild@19.1.0-canary.20240510-1a85787",
+					"provenance": {
+						"predicateType": "https://slsa.dev/provenance/v1"
+					}
+				},
+				"signatures": [
+					{
+						"keyid": "SHA256:jl3bwswu80PjjokCgh0o2w5c2U4LhQAE57gj9cz1kzA",
+						"sig": "MEUCIFEpkBL+dmITbRxvkJFip4MFh4bmUsPVtPBR2P0lJsZjAiEA9UFpXWKkwZqPpKKqHZkhRuhZk7re4veVKFTSkpoMsJ0="
+					}
+				]
+			},
+			"_npmUser": {
+				"name": "nrwl-jason",
+				"email": "jason@nrwl.io"
+			},
+			"directories": {},
+			"maintainers": [
+				{
+					"name": "jameshenry",
+					"email": "james@henry.sc"
+				},
+				{
+					"name": "jack-nrwl",
+					"email": "jack@nrwl.io"
+				},
+				{
+					"name": "nrwl-jason",
+					"email": "jason@nrwl.io"
+				},
+				{
+					"name": "nrwlowner",
+					"email": "hello@nrwl.io"
+				}
+			],
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/esbuild_19.1.0-canary.20240510-1a85787_1715310987168_0.5383989102511342"
+			},
+			"_hasShrinkwrap": false,
+			"contributors": []
+		},
 		"20.0.0": {
 			"name": "@nx/esbuild",
 			"version": "20.0.0",
@@ -39517,9 +39732,9 @@
 			"type": "commonjs",
 			"_id": "@nx/esbuild@20.0.0",
 			"readmeFilename": "README.md",
-			"gitHead": "792f73081571dea27da52bddf6184313bb7b5737",
-			"_nodeVersion": "20.9.0",
-			"_npmVersion": "10.1.0",
+			"gitHead": "86106e2454080d81eec30be2268bd93f9c6cfcad",
+			"_nodeVersion": "18.18.0",
+			"_npmVersion": "9.8.1",
 			"dist": {
 				"integrity": "sha512-KSwIcZG36Fn/hUlhsx1lCTPN6Hp2nLtWS9mEudgMfypAbhuB5YEn4HDKJwZf+t6cBWLnUFs/5CaBaf1Q/0ANkA==",
 				"shasum": "03bd016ed71cb5049665807876b0b9dde6995e18",
@@ -39531,7 +39746,7 @@
 	"time": {
 		"created": "2023-04-17T15:03:22.890Z",
 		"16.0.0-beta.1": "2023-04-17T15:03:23.129Z",
-		"modified": "2024-05-09T08:19:53.634Z",
+		"modified": "2024-05-10T12:56:53.872Z",
 		"16.0.0-beta.2": "2023-04-18T15:09:42.168Z",
 		"16.0.0-beta.3": "2023-04-19T16:08:19.927Z",
 		"16.0.0-beta.4": "2023-04-19T19:31:47.460Z",
@@ -39888,19 +40103,21 @@
 		"19.0.1": "2024-05-07T22:26:33.214Z",
 		"19.1.0-canary.20240508-fd78152": "2024-05-08T03:16:44.323Z",
 		"19.1.0-canary.20240509-8f705e3": "2024-05-09T03:15:50.256Z",
-		"20.0.0": "2024-05-09T08:19:53.634Z"
+		"19.0.2": "2024-05-09T13:57:30.942Z",
+		"19.1.0-canary.20240510-1a85787": "2024-05-10T03:16:27.450Z",
+		"20.0.0": "2024-05-10T12:56:53.872Z"
 	},
 	"users": {},
 	"dist-tags": {
 		"next": "19.0.0-rc.2",
 		"latest": "20.0.0",
 		"previous": "18.3.4",
-		"canary": "19.1.0-canary.20240509-8f705e3"
+		"canary": "19.1.0-canary.20240510-1a85787"
 	},
 	"_uplinks": {
 		"npmjs": {
-			"etag": "W/\"28a80ea0bc255416d9a62ea25c63dbe0\"",
-			"fetched": 1715242793255
+			"etag": "W/\"86c40400fb930f0b71f0f34737f86747\"",
+			"fetched": 1715345812679
 		}
 	},
 	"_distfiles": {
@@ -41688,6 +41905,16 @@
 			"url": "https://registry.npmjs.org/@nx/esbuild/-/esbuild-19.1.0-canary.20240509-8f705e3.tgz",
 			"sha": "63a8b50a00903d670ca0fff55e09ea9f31339027",
 			"registry": "npmjs"
+		},
+		"esbuild-19.0.2.tgz": {
+			"url": "https://registry.npmjs.org/@nx/esbuild/-/esbuild-19.0.2.tgz",
+			"sha": "cd188d5002ba1a07a21c2d81b5b032d51ce3d6b3",
+			"registry": "npmjs"
+		},
+		"esbuild-19.1.0-canary.20240510-1a85787.tgz": {
+			"url": "https://registry.npmjs.org/@nx/esbuild/-/esbuild-19.1.0-canary.20240510-1a85787.tgz",
+			"sha": "839ed26cdf6f9a85e452bcfe943fb39e72d477e5",
+			"registry": "npmjs"
 		}
 	},
 	"_attachments": {
@@ -41696,7 +41923,7 @@
 			"version": "20.0.0"
 		}
 	},
-	"_rev": "4-807ca1e35d9f1730",
+	"_rev": "4-c20e294ef83beadc",
 	"_id": "@nx/esbuild",
 	"readme": "<p style=\"text-align: center;\">\n  <picture>\n    <source media=\"(prefers-color-scheme: dark)\" srcset=\"https://raw.githubusercontent.com/nrwl/nx/master/images/nx-dark.svg\">\n    <img alt=\"Nx - Smart Monorepos · Fast CI\" src=\"https://raw.githubusercontent.com/nrwl/nx/master/images/nx-light.svg\" width=\"100%\">\n  </picture>\n</p>\n\n<div style=\"text-align: center;\">\n\n[![CircleCI](https://circleci.com/gh/nrwl/nx.svg?style=svg)](https://circleci.com/gh/nrwl/nx)\n[![License](https://img.shields.io/npm/l/@nx/workspace.svg?style=flat-square)]()\n[![NPM Version](https://badge.fury.io/js/%40nrwl%2Fworkspace.svg)](https://www.npmjs.com/@nx/workspace)\n[![Semantic Release](https://img.shields.io/badge/%20%20%F0%9F%93%A6%F0%9F%9A%80-semantic--release-e10079.svg?style=flat-square)]()\n[![Commitizen friendly](https://img.shields.io/badge/commitizen-friendly-brightgreen.svg)](http://commitizen.github.io/cz-cli/)\n[![Join the chat at https://gitter.im/nrwl-nx/community](https://badges.gitter.im/nrwl-nx/community.svg)](https://gitter.im/nrwl-nx/community?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)\n[![Join us on the Official Nx Discord Server](https://img.shields.io/discord/1143497901675401286?label=discord)](https://go.nx.dev/community)\n\n</div>\n\n\n<hr>\n\n# Nx: Smart Monorepos · Fast CI\n\nNx is a build system with built-in tooling and advanced CI capabilities. It helps you maintain and scale monorepos, both locally and on CI.\n\nThis package is a [EsBuild plugin for Nx](https://nx.dev/packages/esbuild).\n\n## Getting Started\n\n### Creating an Nx Workspace\n\n**Using `npx`**\n\n```bash\nnpx create-nx-workspace\n```\n\n**Using `npm init`**\n\n```bash\nnpm init nx-workspace\n```\n\n**Using `yarn create`**\n\n```bash\nyarn create nx-workspace\n```\n\n### Adding Nx to an Existing Repository\n\nRun:\n\n```bash\nnpx nx@latest init\n```\n\n## Documentation & Resources\n\n- [Nx.Dev: Documentation, Guides, Tutorials](https://nx.dev)\n- [Intro to Nx](https://nx.dev/getting-started/intro)\n- [Official Nx YouTube Channel](https://www.youtube.com/@NxDevtools)\n- [Blog Posts About Nx](https://blog.nrwl.io/nx/home)\n\n<p style=\"text-align: center;\"><a href=\"https://nx.dev/#learning-materials\" target=\"_blank\" rel=\"noreferrer\"><img src=\"https://raw.githubusercontent.com/nrwl/nx/master/images/nx-courses-and-videos.svg\" \nwidth=\"100%\" alt=\"Nx - Smart Monorepos · Fast CI\"></a></p>\n\n"
 }

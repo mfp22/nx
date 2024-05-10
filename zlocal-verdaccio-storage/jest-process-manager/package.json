@@ -1,0 +1,1353 @@
+{
+	"name": "jest-process-manager",
+	"versions": {
+		"0.1.0": {
+			"name": "jest-process-manager",
+			"description": "Starts a server before your Jest tests and tears it down after.",
+			"version": "0.1.0",
+			"main": "lib/index.js",
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/playwright-community/jest-process-manager.git"
+			},
+			"author": {
+				"name": "Playwright Community"
+			},
+			"license": "MIT",
+			"keywords": [
+				"jest",
+				"jest-environment",
+				"server"
+			],
+			"scripts": {
+				"prebuild": "rm -rf lib/",
+				"prepublishOnly": "yarn build",
+				"build": "tsc",
+				"dev": "tsc --watch",
+				"lint": "tsc --noEmit"
+			},
+			"dependencies": {
+				"chalk": "^4.0.0",
+				"cwd": "^0.10.0",
+				"exit": "^0.1.2",
+				"find-process": "^1.4.3",
+				"prompts": "^2.3.2",
+				"signal-exit": "^3.0.3",
+				"spawnd": "^4.4.0",
+				"tree-kill": "^1.2.2",
+				"wait-on": "^5.0.0"
+			},
+			"devDependencies": {
+				"@types/cwd": "^0.10.0",
+				"@types/exit": "^0.1.31",
+				"@types/prompts": "^2.0.8",
+				"@types/signal-exit": "^3.0.0",
+				"@types/wait-on": "^4.0.0",
+				"typescript": "^3.8.3"
+			},
+			"gitHead": "992009d4712bfa1da9d1413fb21272714dff6315",
+			"bugs": {
+				"url": "https://github.com/playwright-community/jest-process-manager/issues"
+			},
+			"homepage": "https://github.com/playwright-community/jest-process-manager#readme",
+			"_id": "jest-process-manager@0.1.0",
+			"_nodeVersion": "13.12.0",
+			"_npmVersion": "6.14.4",
+			"dist": {
+				"integrity": "sha512-n7VyGL6ep+Kz0CiJdPwEpvRTOO9cUkAzaBU5Ccp1wsHwqKW15yF7QidhTLIOD6ERn1VPPKGEZOgVQzJ3ip1ToA==",
+				"shasum": "876b5cd91dcf108adfd3d8879430fc397dfd7b34",
+				"tarball": "https://registry.npmjs.org/jest-process-manager/-/jest-process-manager-0.1.0.tgz",
+				"fileCount": 11,
+				"unpackedSize": 21363,
+				"npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.4\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJe13bjCRA9TVsSAnZWagAACg4P/A33Pd+9tMQTKgzr85jZ\nmtSGcg7yi4/0e9SRSMXo9Jv+N0O0hw0w9SJhOxa+Waza4YrHnQqTEvK/Fhqi\n/Klu428dZPrUlEbKnl0vaO0l3H5rwEKVuwCs1n9Kacla6QI2HI85LRWaUtVB\nZ6AtxVjfIVACytw5zAgo/Bmg40Is8G/Vcq99v53FTHz+EUmZLA/k9utcvzJJ\nwj/YHakqeDNoCQGlUDujiNgVmPa1AC3eNXWiIQjRyBKSBg6h5SjPzK2JZ2A/\nN8aP1uCZCTSOm3bYmLmkd1ambgthIwBpFFtbwACZQJLRsJOLlVbCXnNb8HeO\nRwatxn5nI7IXwx+mV3LUbcJsjHWAJbCpYqEV717ZDGEsBLzdGuYpTxgvvxSs\nbClywmrIcuxOMQ96IH0BAL39SfW37AoG2dj0vvQYOBbkRBdoOVUROUVKdEZ5\nofzvxf0ItAdzQnzIyX+EolA3ZvFu/F6PEoqiFnCgVFGNp99f82WAzri2i33d\n2uV3+innnRgIBLs3ut2Zoll+rKGObjN8CMCZ68pwoSgw7268tW0CueMYglM2\nU53/mDtjn1VxDpJLKoNxkaqCkHhkHI4dXHKgL7+XRtOHvkco3T0WO/L9aDQQ\nYovUU9OgkYIsFS9rTt1G0bR6ci6JgAZFAqkI3vkxaMfvqBLFAdlTTUU3zj6n\n5nFz\r\n=k+vc\r\n-----END PGP SIGNATURE-----\r\n",
+				"signatures": [
+					{
+						"keyid": "SHA256:jl3bwswu80PjjokCgh0o2w5c2U4LhQAE57gj9cz1kzA",
+						"sig": "MEUCIQCL9fDrrfwow1GiZYuuUceKHV8o2KwvLsDlNoyhwab9LAIgfdllVjfTgs8+y2elR3XTgsWNc3GL0Ayx7G61NCj559I="
+					}
+				]
+			},
+			"maintainers": [
+				{
+					"name": "mxschmitt",
+					"email": "max@schmitt.mx"
+				}
+			],
+			"_npmUser": {
+				"name": "mxschmitt",
+				"email": "max@schmitt.mx"
+			},
+			"directories": {},
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/jest-process-manager_0.1.0_1591178979127_0.7946095642326609"
+			},
+			"_hasShrinkwrap": false,
+			"contributors": []
+		},
+		"0.2.0": {
+			"name": "jest-process-manager",
+			"description": "Starts a server before your Jest tests and tears it down after.",
+			"version": "0.2.0",
+			"main": "lib/index.js",
+			"types": "./types/global.d.ts",
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/playwright-community/jest-process-manager.git"
+			},
+			"author": {
+				"name": "Playwright Community"
+			},
+			"license": "MIT",
+			"keywords": [
+				"jest",
+				"jest-environment",
+				"server"
+			],
+			"scripts": {
+				"prebuild": "rm -rf lib/",
+				"prepublishOnly": "yarn build",
+				"build": "tsc",
+				"dev": "tsc --watch",
+				"lint": "tsc --noEmit"
+			},
+			"dependencies": {
+				"chalk": "^4.1.0",
+				"cwd": "^0.10.0",
+				"exit": "^0.1.2",
+				"find-process": "^1.4.3",
+				"prompts": "^2.3.2",
+				"signal-exit": "^3.0.3",
+				"spawnd": "^4.4.0",
+				"tree-kill": "^1.2.2",
+				"wait-on": "^5.0.1"
+			},
+			"devDependencies": {
+				"@types/cwd": "^0.10.0",
+				"@types/exit": "^0.1.31",
+				"@types/prompts": "^2.0.8",
+				"@types/signal-exit": "^3.0.0",
+				"@types/wait-on": "^4.0.0",
+				"typescript": "^3.9.5"
+			},
+			"gitHead": "52efccb7ee2aad5549dbcd96c490a3a07f97e20a",
+			"bugs": {
+				"url": "https://github.com/playwright-community/jest-process-manager/issues"
+			},
+			"homepage": "https://github.com/playwright-community/jest-process-manager#readme",
+			"_id": "jest-process-manager@0.2.0",
+			"_nodeVersion": "12.13.1",
+			"_npmVersion": "6.14.5",
+			"dist": {
+				"integrity": "sha512-Y/rIm5yDbw7xzpRqrZTQGnvUR0ozTaaMlScIrGXBSswgdJqUPU3mA7c7tiYP8wTlHa1/PGEoJQATIQDQjBkcdg==",
+				"shasum": "781c93b236bda8abcfa012717bc4c50a307cdb3b",
+				"tarball": "https://registry.npmjs.org/jest-process-manager/-/jest-process-manager-0.2.0.tgz",
+				"fileCount": 7,
+				"unpackedSize": 16941,
+				"npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.4\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJe5QFgCRA9TVsSAnZWagAAK30QAJp4ckbSeuSfTOCBdoJ8\nBHihE4Cnge2mzaHE/e4ztRqGwDvB/ld7M34tXhnJ0s2P75OZnv/un07uDLHi\n2wI+vNqeJFumg087ygew6JACbWoBa0ZTyVGkKYC91smRV0Q5I/lKVV7Hbimk\nzjEf9OLOGcAajOXuDKbE9KvAk9AcHIrykbyMbnHKTw8c/xxUnv4zSSH/OYgx\n0/1DdIb7ib3UyNlWomdP4GR2nhKdW7jYu2hBrD1oedZ116si9F6e8ngQqGBY\nYitDZFy3hUafHly2nwlNCmhn584eCOFU8qb1RpbXNBMzqoRyNd+5hhPtALoq\nDD7Lbpe+p2zno8LVB3p3FLE3F17uJNmHjDCAsnh2oNpm9ALzITuUoYTiMPO6\nzfgxJnsWW79D+D4drnLWq1u79bcQF2WFco2a5WqjaBZEKLAAAXLQiGwZAzfM\npTrlPpDdogUtiJZLMHtiIfoQ8D5NWR+hMY+lbbyfPagVRsI99JEvwlvEgvlF\nTfa1cFWsarXalE+ozwQZgYd0R43x88GtL4Vu35jiBnsou2fO4QqtXZW0QZYY\nHA5poumz1CFhqy4dfQY40qZJLGVGsLc+QCQ8h/yqku57zhEbg/M9FqGN4qp4\nGw8D2LZrUalKSeYAwM1nTGQny+Cf4OT/LxYNNhvUQrbGJSexNXWh1w1gTqEY\nkpnE\r\n=bEUl\r\n-----END PGP SIGNATURE-----\r\n",
+				"signatures": [
+					{
+						"keyid": "SHA256:jl3bwswu80PjjokCgh0o2w5c2U4LhQAE57gj9cz1kzA",
+						"sig": "MEQCIA+LK8AVzTwP/BH3njU/7pt+rzJ9VjasoIC5gkeD7k1VAiBr5wg75KJ8NBLVyCozrNTgctA7Sb1KR8tj+rBCbnvTyw=="
+					}
+				]
+			},
+			"maintainers": [
+				{
+					"email": "mapkeji26@gmail.com",
+					"name": "mapkeji"
+				},
+				{
+					"email": "max@schmitt.mx",
+					"name": "mxschmitt"
+				}
+			],
+			"_npmUser": {
+				"name": "mapkeji",
+				"email": "mapkeji26@gmail.com"
+			},
+			"directories": {},
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/jest-process-manager_0.2.0_1592066399766_0.08449754778384988"
+			},
+			"_hasShrinkwrap": false,
+			"contributors": []
+		},
+		"0.2.1": {
+			"name": "jest-process-manager",
+			"description": "Starts a server before your Jest tests and tears it down after.",
+			"version": "0.2.1",
+			"main": "lib/index.js",
+			"types": "./src/global.d.ts",
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/playwright-community/jest-process-manager.git"
+			},
+			"author": {
+				"name": "Playwright Community"
+			},
+			"license": "MIT",
+			"keywords": [
+				"jest",
+				"jest-environment",
+				"server"
+			],
+			"scripts": {
+				"prebuild": "rm -rf lib/",
+				"prepublishOnly": "yarn build",
+				"build": "tsc",
+				"dev": "tsc --watch",
+				"lint": "tsc --noEmit"
+			},
+			"dependencies": {
+				"chalk": "^4.1.0",
+				"cwd": "^0.10.0",
+				"exit": "^0.1.2",
+				"find-process": "^1.4.3",
+				"prompts": "^2.3.2",
+				"signal-exit": "^3.0.3",
+				"spawnd": "^4.4.0",
+				"tree-kill": "^1.2.2",
+				"wait-on": "^5.0.1"
+			},
+			"devDependencies": {
+				"@types/cwd": "^0.10.0",
+				"@types/exit": "^0.1.31",
+				"@types/prompts": "^2.0.8",
+				"@types/signal-exit": "^3.0.0",
+				"@types/wait-on": "^4.0.0",
+				"typescript": "^3.9.5"
+			},
+			"gitHead": "f7a0d4c7c4d06f529d88810c2f5bc3ca1cc3fee3",
+			"bugs": {
+				"url": "https://github.com/playwright-community/jest-process-manager/issues"
+			},
+			"homepage": "https://github.com/playwright-community/jest-process-manager#readme",
+			"_id": "jest-process-manager@0.2.1",
+			"_nodeVersion": "12.13.1",
+			"_npmVersion": "6.14.5",
+			"dist": {
+				"integrity": "sha512-CMoCOfFMkWkLHlUz7Y0vQ91xHCeopkVtPjZQx/3AeMyhHYhbKKXI5D34XbHzNwETBLdTVgb/9wrV7njdCW1+gA==",
+				"shasum": "a52f531f2e4d2bd07c5a823f80793a9e8735448a",
+				"tarball": "https://registry.npmjs.org/jest-process-manager/-/jest-process-manager-0.2.1.tgz",
+				"fileCount": 8,
+				"unpackedSize": 27876,
+				"npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.4\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJe5x+BCRA9TVsSAnZWagAAAF0P/R/YtMIeYoSW9ThRx7bJ\nsWAJyj50GjgaQaxPYtO3tR5Nyc9jhZnOmlZPyYlvxmPUsgGTx2Bekv8c8kft\nI+G3aW9rt78oKmJQxQk/EgNN3G4UejQ+4eAIDXhokobkazn2R5+vhAwdcdQ0\nisRi6uLhN94IGW1qBNIClZCF9ZQT04wRrSsEFcyZ18BrE86dMF1sr5VIW/CL\nV0YxUoIC8QFtsu+mELzvIOZpeqo3eV0dbfFbas/Zlg8XWYKObDPUFPl1GOZc\nOwR8jAT0bA5MCj/lZ8ImH2EkHqeEibBoRTVMJ9aJarVNMy4bw+n4Bnunyf35\nRco9PXuoA5k7PRpTVEZtrdIEgPdgTFGc8BVSHElhjtUNq81vwewX2eAaAFWJ\nIUANIHzGG9Nm5CIGoSdUYC92fgwTijS1v0lRp50fS6BweDiIrNUeKM/NpgDC\nr2fTvMORChAZpgYlOhcb0IBSeemvhv+VMd6E5394kAi3gIQX9qT7JKaAD3yj\ntQqrAsiC5ujKnZTSeMQOGxZXy4qW/M619GF45j4ox+8CYWDJLe5RVuTXUhGu\nbEWgIWpyw8dV7bi5qLG2KZts03QlmncJ31leTxF1GUNuciqroUfimmSdlxLE\nAvGsRbdOAochZC1AymrDD1fPNXmu9+PxbVsSFvTN8IxBPr+Ia7W8AX7eiOIk\nkKX/\r\n=kTl6\r\n-----END PGP SIGNATURE-----\r\n",
+				"signatures": [
+					{
+						"keyid": "SHA256:jl3bwswu80PjjokCgh0o2w5c2U4LhQAE57gj9cz1kzA",
+						"sig": "MEQCIH8RNpeNz1Kbv9BuyAM76az26+ewzeKV4h/kKMPxo7KCAiBQ2iTTB+KjMo/CDvyHrHfWxcZQjEI7t+lRyOccq0LhZA=="
+					}
+				]
+			},
+			"maintainers": [
+				{
+					"email": "mapkeji26@gmail.com",
+					"name": "mapkeji"
+				},
+				{
+					"email": "max@schmitt.mx",
+					"name": "mxschmitt"
+				}
+			],
+			"_npmUser": {
+				"name": "mapkeji",
+				"email": "mapkeji26@gmail.com"
+			},
+			"directories": {},
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/jest-process-manager_0.2.1_1592205185422_0.3202039718017069"
+			},
+			"_hasShrinkwrap": false,
+			"contributors": []
+		},
+		"0.2.2": {
+			"name": "jest-process-manager",
+			"description": "Starts a server before your Jest tests and tears it down after.",
+			"version": "0.2.2",
+			"main": "lib/index.js",
+			"types": "src/types.d.ts",
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/playwright-community/jest-process-manager.git"
+			},
+			"author": {
+				"name": "Playwright Community"
+			},
+			"license": "MIT",
+			"keywords": [
+				"jest",
+				"jest-environment",
+				"server"
+			],
+			"scripts": {
+				"prebuild": "rm -rf lib/",
+				"prepublishOnly": "yarn build",
+				"build": "tsc",
+				"dev": "tsc --watch",
+				"lint": "tsc --noEmit"
+			},
+			"dependencies": {
+				"chalk": "^4.1.0",
+				"cwd": "^0.10.0",
+				"exit": "^0.1.2",
+				"find-process": "^1.4.3",
+				"prompts": "^2.3.2",
+				"signal-exit": "^3.0.3",
+				"spawnd": "^4.4.0",
+				"tree-kill": "^1.2.2",
+				"wait-on": "^5.0.1"
+			},
+			"devDependencies": {
+				"@types/cwd": "^0.10.0",
+				"@types/exit": "^0.1.31",
+				"@types/prompts": "^2.0.8",
+				"@types/signal-exit": "^3.0.0",
+				"@types/wait-on": "^4.0.0",
+				"typescript": "^3.9.5"
+			},
+			"gitHead": "e4d4738e77b320ca4407de3a38317523ad18e3ed",
+			"bugs": {
+				"url": "https://github.com/playwright-community/jest-process-manager/issues"
+			},
+			"homepage": "https://github.com/playwright-community/jest-process-manager#readme",
+			"_id": "jest-process-manager@0.2.2",
+			"_nodeVersion": "12.13.1",
+			"_npmVersion": "6.14.5",
+			"dist": {
+				"integrity": "sha512-mcN4WfOEigzo5ZwgTSexa3o+OxeKLddKYGRftfG1vsumym9HvLRo0QNl1c3nru2z4FT92s9rulC54z2yia64GQ==",
+				"shasum": "0980be70ec344b5d0d4115d57b13cfaac964653c",
+				"tarball": "https://registry.npmjs.org/jest-process-manager/-/jest-process-manager-0.2.2.tgz",
+				"fileCount": 6,
+				"unpackedSize": 20446,
+				"npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.4\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJe5yQ+CRA9TVsSAnZWagAAM00P/iIN0qc/6vSq2vyKSkQ2\n7CrJ1242PMBhSGgjZeH2KxX1n/iDt2gy8z6XVCg3ephEu3B6M4tLxOcsfvUM\n5WjxGNBq6Do4XDDYI1Pbd1xM5nI20LhibXJwqq+XVUpjPBM0BOX2zkFBwRlQ\ntf3Wd2rSzA5Kkq4JUXaE8eAN3AO8X99spq8bszygc92IGcuYDNB0ujvjCSQx\nd+qcVFntyqf0utc97WKzUcpNopmvbQ7zGsFC7MMB7ZsGPIAu3RJwPPIiai/d\nvr8G3tsqkzVUP4MBh4g0njiiPEe8O3SqWbGipbsEVsBstJLhXZ8MrjMddas/\nXnQ2vEch8u8RrDgBVjPFMbHwdFOUlK/YmW2d1T4XPXpNNzKzTYAKnF9SAS39\nw97BtxICYUXYDEh0hg0DrvWXpIz3Dfw0k0peeEbauLbYvXzhCjHdSqPlQR7R\nByXbpjJ0rzzxMJI94UJVsdI/aoPMdMjzSL6aXxjC+lXzWlBvI6Kh1co4DjzC\nuFFk0FqJQiu2DukvU+9kqLx81KGW6l6SEIz3NbEHX7bFU6uMUOzomVMYXwCm\nz8GYYQmk6CpHqlKNvZ24H6X7yaAIEFOdCX4YENDi8Vtfa22jFM5jnFVO09r9\nlRLRFUtGe/il/uAimbcg+70Qq1EekscLkq4ZyHTh6AdTGCU6x/XAPUHNC4Da\nbNh1\r\n=SwPJ\r\n-----END PGP SIGNATURE-----\r\n",
+				"signatures": [
+					{
+						"keyid": "SHA256:jl3bwswu80PjjokCgh0o2w5c2U4LhQAE57gj9cz1kzA",
+						"sig": "MEQCIBF7b+iq5iY9FGyitrKI1nFUZL4la41m0tYiea1tgVvIAiBdsgepzEChw6Q7+G10kJTtydn9l+s1buLno+UIQNxJHA=="
+					}
+				]
+			},
+			"maintainers": [
+				{
+					"email": "mapkeji26@gmail.com",
+					"name": "mapkeji"
+				},
+				{
+					"email": "max@schmitt.mx",
+					"name": "mxschmitt"
+				}
+			],
+			"_npmUser": {
+				"name": "mapkeji",
+				"email": "mapkeji26@gmail.com"
+			},
+			"directories": {},
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/jest-process-manager_0.2.2_1592206398510_0.6101464098240004"
+			},
+			"_hasShrinkwrap": false,
+			"contributors": []
+		},
+		"0.2.3": {
+			"name": "jest-process-manager",
+			"description": "Starts a server before your Jest tests and tears it down after.",
+			"version": "0.2.3",
+			"main": "lib/index.js",
+			"types": "src/types.d.ts",
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/playwright-community/jest-process-manager.git"
+			},
+			"author": {
+				"name": "Playwright Community"
+			},
+			"license": "MIT",
+			"keywords": [
+				"jest",
+				"jest-environment",
+				"server"
+			],
+			"scripts": {
+				"prebuild": "rm -rf lib/",
+				"prepublishOnly": "yarn build",
+				"build": "tsc",
+				"dev": "tsc --watch",
+				"lint": "tsc --noEmit"
+			},
+			"dependencies": {
+				"chalk": "^4.1.0",
+				"cwd": "^0.10.0",
+				"exit": "^0.1.2",
+				"find-process": "^1.4.3",
+				"prompts": "^2.3.2",
+				"signal-exit": "^3.0.3",
+				"spawnd": "^4.4.0",
+				"tree-kill": "^1.2.2",
+				"wait-on": "^5.0.1"
+			},
+			"devDependencies": {
+				"@types/cwd": "^0.10.0",
+				"@types/exit": "^0.1.31",
+				"@types/prompts": "^2.0.8",
+				"@types/signal-exit": "^3.0.0",
+				"@types/wait-on": "^4.0.0",
+				"typescript": "^3.9.5"
+			},
+			"gitHead": "3f80c37de23caecf8ede4c409cb3476815697e51",
+			"bugs": {
+				"url": "https://github.com/playwright-community/jest-process-manager/issues"
+			},
+			"homepage": "https://github.com/playwright-community/jest-process-manager#readme",
+			"_id": "jest-process-manager@0.2.3",
+			"_nodeVersion": "13.12.0",
+			"_npmVersion": "6.14.4",
+			"dist": {
+				"integrity": "sha512-BCAq70wLRyrJQZT2XqtmN6ywD9aNHw84RDsn/ZB8ZX4lk5m8quQ0AdBvFLzcADgZOjdua42e+/FoJiR2vCpmrg==",
+				"shasum": "8902fbe47ff3c871d0098bbc8e26b128946a936a",
+				"tarball": "https://registry.npmjs.org/jest-process-manager/-/jest-process-manager-0.2.3.tgz",
+				"fileCount": 6,
+				"unpackedSize": 21272,
+				"npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.4\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJe8xRNCRA9TVsSAnZWagAA5v0QAKQ/lJCU7dbSFKEtkJpD\n9CQDLzav/0L0PdnMjyXK4yWa4xgUc67GyM3wzV+7TbmdEKtt3VSJhe7hoR3p\n6NGRJq6r3AthGO40yiMQOwsbOUAKolr80Pk5MXBau0aesIru1vPaRXhYHsie\nujW8Ee8Gc7Ts9GjBIZWFe0ry6xjHKmx7qN1pK3HZxqSIMglt0j5vaqNtwt8D\nj2iTL0/ryiK6bizc6zNHE/MMWit42c+7VFs12q7WD1I3QAuxIAjO18VPkPsI\nEU138O+SbS7h4DTiNfz8gaZA1uNIEkJstjUU1k/2ILJgeg7+V/eCoDByOQNH\na6/vRDIysMzshdIw+oFkJFWkXTgAxo9kT1eRkOkBJMdZbPrFRMKzbQAecQjx\najWiy0O5VpaVeaA9PKIbl2qzJsRqVtfLBG9nKef7WkLwVK0tcL26+jK3NwkE\nhYx3ZR5cLe+K0Ap0dJIMBprGl37zNDDWAZG69EyhxF2XgSemaJT1eDqPLbjX\nu8AZi65pOKKzKH6bIaaBw6KnaOicKcaC28E18P2tVKvF32g8gnBseq1h0CHD\ng1tb8xjRNdsw1PrVOijCJTpyfDVFXXL3vk2XVXDtzyzXXyKO13ONcP6mqY75\nKPAh4kUILIqZ26njgMw4lc9HfUFjvIQRf1AaJOVxMxizo0/sW6N8KM+JnTwO\n756I\r\n=xoBF\r\n-----END PGP SIGNATURE-----\r\n",
+				"signatures": [
+					{
+						"keyid": "SHA256:jl3bwswu80PjjokCgh0o2w5c2U4LhQAE57gj9cz1kzA",
+						"sig": "MEQCIDr8BJ9FmPtSk4Y03gxCpIaj0gFpT+9qbu4ZCtuY2aojAiAXItVm3KfdeFHdOSe8nGzNYpJePliXgj3BIzP80zKvyw=="
+					}
+				]
+			},
+			"maintainers": [
+				{
+					"email": "mapkeji26@gmail.com",
+					"name": "mapkeji"
+				},
+				{
+					"email": "max@schmitt.mx",
+					"name": "mxschmitt"
+				}
+			],
+			"_npmUser": {
+				"name": "mxschmitt",
+				"email": "max@schmitt.mx"
+			},
+			"directories": {},
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/jest-process-manager_0.2.3_1592988749364_0.06312956248046331"
+			},
+			"_hasShrinkwrap": false,
+			"contributors": []
+		},
+		"0.2.4": {
+			"name": "jest-process-manager",
+			"description": "Starts a server before your Jest tests and tears it down after.",
+			"version": "0.2.4",
+			"main": "lib/index.js",
+			"types": "src/types.d.ts",
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/playwright-community/jest-process-manager.git"
+			},
+			"author": {
+				"name": "Playwright Community"
+			},
+			"license": "MIT",
+			"keywords": [
+				"jest",
+				"jest-environment",
+				"server"
+			],
+			"scripts": {
+				"prebuild": "rm -rf lib/",
+				"prepublishOnly": "yarn build",
+				"build": "tsc",
+				"dev": "tsc --watch",
+				"lint": "tsc --noEmit"
+			},
+			"dependencies": {
+				"chalk": "^4.1.0",
+				"cwd": "^0.10.0",
+				"exit": "^0.1.2",
+				"find-process": "^1.4.3",
+				"prompts": "^2.3.2",
+				"signal-exit": "^3.0.3",
+				"spawnd": "^4.4.0",
+				"tree-kill": "^1.2.2",
+				"wait-on": "^5.0.1"
+			},
+			"devDependencies": {
+				"@types/cwd": "^0.10.0",
+				"@types/exit": "^0.1.31",
+				"@types/prompts": "^2.0.8",
+				"@types/signal-exit": "^3.0.0",
+				"@types/wait-on": "^4.0.0",
+				"typescript": "^3.9.5"
+			},
+			"gitHead": "7e92ce752fa82b2405041d9951999a2b38c115ce",
+			"bugs": {
+				"url": "https://github.com/playwright-community/jest-process-manager/issues"
+			},
+			"homepage": "https://github.com/playwright-community/jest-process-manager#readme",
+			"_id": "jest-process-manager@0.2.4",
+			"_nodeVersion": "12.13.1",
+			"_npmVersion": "6.14.6",
+			"dist": {
+				"integrity": "sha512-89JafRPh8yckTNdRKq4BPTXD3FjPq6abBp/wb9g1CJClIAuk0lCviR2iG1N5s115vyTySrKhtnrGuLHcN5XKhQ==",
+				"shasum": "b2fb10a422bf0f9ea94315977eacd1dab48ee2de",
+				"tarball": "https://registry.npmjs.org/jest-process-manager/-/jest-process-manager-0.2.4.tgz",
+				"fileCount": 6,
+				"unpackedSize": 21484,
+				"npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.4\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJfB0RVCRA9TVsSAnZWagAArgMP/3Uf/+5hbrIlZeEkYGxT\nRCqCoYONpJVE8cVK88bgaS6YMlZbSiwyvV/638SEgOfU7g3wHA+tTMem2IsA\nVmKVfYD5hdHDSftjPtQzAJZmtWVOzt3VfOTHbjsD9FGt18xDCAnxPg6sH6yF\nEPLxz2SkGOyw7scflHcYvwoCQDnwXgZl8cncOi9NRhF/8jzqY4mi9g7yQ+7L\nX3g5LuCnpI5vIfKjCDAWQtfriJRnBxAhwBbzRUqCURSZFX24HxR24XQA6Dbg\nsb27TpgpyHMqoiKLaP/DzMgiXI9vWpFIz6/RsrtfgfUnOy+oZvL3Ob2CAcyw\n0jtk2Sp+CsA6W3sCWwwwIlUCTEupjOlS0L9J6nR+LdVm7uw6M6l9yoJsY6qj\nngHaHhxvUfH0YHyXxTyxAfWDSiv2rWGOLbnaXsMt0ZKdrF6KBwacEidUMbiY\nTttlgklOmxUU7ey0c895Pdbj3s8zJUyMuTCA6S86UTVu/ZKoMKQLEYYWULos\nKEL2FR7pj+JaXciQ70PBQhMDKNWfQBrDmociZnJOIu72KssbMuPrhGM9uIW/\nCu3lChZiwH1ueMc8rwEM9bpdHGqlUZh1C1y1eyQj01+wcDNPfDv5G3VJ7eWQ\nT/CAXwxoKuHmnZ6MoZJUUQKG3mpz5/kAdViEu4ts5RdhTRr9QPK4utEcYABZ\nB+WJ\r\n=Pi2E\r\n-----END PGP SIGNATURE-----\r\n",
+				"signatures": [
+					{
+						"keyid": "SHA256:jl3bwswu80PjjokCgh0o2w5c2U4LhQAE57gj9cz1kzA",
+						"sig": "MEQCICV3QfpfoqwG3nek3fQa7WegLKjICNWoXc0iaXoy/RyCAiBneDb8+bneWVVxn0tvSgHNYmTwru4BV4OEmcfE0NK+eg=="
+					}
+				]
+			},
+			"maintainers": [
+				{
+					"email": "mapkeji26@gmail.com",
+					"name": "mapkeji"
+				},
+				{
+					"email": "max@schmitt.mx",
+					"name": "mxschmitt"
+				}
+			],
+			"_npmUser": {
+				"name": "mapkeji",
+				"email": "mapkeji26@gmail.com"
+			},
+			"directories": {},
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/jest-process-manager_0.2.4_1594311764496_0.5866147244282909"
+			},
+			"_hasShrinkwrap": false,
+			"contributors": []
+		},
+		"0.2.5": {
+			"name": "jest-process-manager",
+			"description": "Starts a server before your Jest tests and tears it down after.",
+			"version": "0.2.5",
+			"main": "lib/index.js",
+			"types": "src/types.d.ts",
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/playwright-community/jest-process-manager.git"
+			},
+			"author": {
+				"name": "Playwright Community"
+			},
+			"license": "MIT",
+			"keywords": [
+				"jest",
+				"jest-environment",
+				"server"
+			],
+			"scripts": {
+				"prebuild": "rm -rf lib/",
+				"prepublishOnly": "yarn build",
+				"build": "tsc",
+				"dev": "tsc --watch",
+				"lint": "tsc --noEmit"
+			},
+			"dependencies": {
+				"chalk": "^4.1.0",
+				"cwd": "^0.10.0",
+				"exit": "^0.1.2",
+				"find-process": "^1.4.3",
+				"prompts": "^2.3.2",
+				"signal-exit": "^3.0.3",
+				"spawnd": "^4.4.0",
+				"tree-kill": "^1.2.2",
+				"wait-on": "^5.0.3"
+			},
+			"devDependencies": {
+				"@types/cwd": "^0.10.0",
+				"@types/exit": "^0.1.31",
+				"@types/prompts": "^2.0.8",
+				"@types/signal-exit": "^3.0.0",
+				"@types/wait-on": "^4.0.0",
+				"typescript": "^3.9.6"
+			},
+			"gitHead": "a7fb043694f564fa942f13c823b5a4b24b760812",
+			"bugs": {
+				"url": "https://github.com/playwright-community/jest-process-manager/issues"
+			},
+			"homepage": "https://github.com/playwright-community/jest-process-manager#readme",
+			"_id": "jest-process-manager@0.2.5",
+			"_nodeVersion": "12.13.1",
+			"_npmVersion": "6.14.6",
+			"dist": {
+				"integrity": "sha512-VUNd30fi40dePzfAEUERv8S0Suy4j0caux7QNuQSYd5TCetz0y7RV/xHbPwxKEQEikRB1ZVV8rNDuayLBFeu+A==",
+				"shasum": "82b96e7eb85e9e83819d7a566294975aac1e1111",
+				"tarball": "https://registry.npmjs.org/jest-process-manager/-/jest-process-manager-0.2.5.tgz",
+				"fileCount": 6,
+				"unpackedSize": 21486,
+				"npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.4\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJfCF+NCRA9TVsSAnZWagAAmfEP/1GA0Cxh9o05+2LLkDpA\nkdJn6JzMJiJCMeUWoknylewzS0//dW+3ZTFSiJaapjVKgQTzySu8gsm5uFzl\n3tIL8stuOBB2znMrmqKMtpUmMYQSmhwtoYzUJZY0X7JQ7LnM3J0Ze3ylcJ1w\nMA80d2Z7YFF46UaSn/OTsqdes3QBnzRiJm0Q/3PqdRxPVlg41Ya2gQG86Jll\netA6tgKVqvBMthxrlBlcb/IgpqFaUjfxzMm6ehjP5j++h5UD49geyszEa5VB\ntKGfO3cevOnnk5QxXq/pY/MsxQhIvIyJLjsQa8H8jbK7fCF0dfxtr0GPu+Et\nR8NNj0HGYRVNylIrUo8w3gLY4Sr8XQzQyoQ7bP2i0jpwJcsadYliw1yjkEZQ\nqnGuTYmnILw+k+ve/KmE+vG4fkb9RU4wE6iuBRCnb5vBPQazQqUpzcKqLF46\nR87GjdCdia0h8uum9VONzQlDBM8dBVgFyXyrryioOrItRUwQ2TWRpWyPTpTv\nIGdk8h5QKqRYLt1laJhjEMCtZERTtzNYETYP+ghyXPs3RqaaZgauYLdtOvQu\n0D4Bwid8a1glFuomxNWzSZZpuyReeFCyyWBTnArqyysPxZzwwEalJJUwVJ3X\nmCw95Ea921Dq98KleRunbUHZtR5jpFke8g08WUNYPsBADrtncG7Mfj7atCi6\nnCnZ\r\n=YKI1\r\n-----END PGP SIGNATURE-----\r\n",
+				"signatures": [
+					{
+						"keyid": "SHA256:jl3bwswu80PjjokCgh0o2w5c2U4LhQAE57gj9cz1kzA",
+						"sig": "MEYCIQD+tFtxui5yTwdJGiI+saWySLX5V/7KeBL28IBgCi5s9gIhAJXqUC5ry3vsk8IUbnCRcjftLCwJ0CrBal/mK0hsS1uh"
+					}
+				]
+			},
+			"maintainers": [
+				{
+					"email": "mapkeji26@gmail.com",
+					"name": "mapkeji"
+				},
+				{
+					"email": "max@schmitt.mx",
+					"name": "mxschmitt"
+				}
+			],
+			"_npmUser": {
+				"name": "mapkeji",
+				"email": "mapkeji26@gmail.com"
+			},
+			"directories": {},
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/jest-process-manager_0.2.5_1594384269323_0.30742061820719546"
+			},
+			"_hasShrinkwrap": false,
+			"contributors": []
+		},
+		"0.2.6": {
+			"name": "jest-process-manager",
+			"description": "Starts a server before your Jest tests and tears it down after.",
+			"version": "0.2.6",
+			"main": "lib/index.js",
+			"types": "src/types.d.ts",
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/playwright-community/jest-process-manager.git"
+			},
+			"author": {
+				"name": "Playwright Community"
+			},
+			"license": "MIT",
+			"keywords": [
+				"jest",
+				"jest-environment",
+				"server"
+			],
+			"scripts": {
+				"prebuild": "rm -rf lib/",
+				"prepublishOnly": "yarn build",
+				"build": "tsc",
+				"dev": "tsc --watch",
+				"lint": "tsc --noEmit"
+			},
+			"dependencies": {
+				"chalk": "^4.1.0",
+				"cwd": "^0.10.0",
+				"exit": "^0.1.2",
+				"find-process": "^1.4.4",
+				"prompts": "^2.3.2",
+				"signal-exit": "^3.0.3",
+				"spawnd": "^4.4.0",
+				"tree-kill": "^1.2.2",
+				"wait-on": "^5.2.0",
+				"@types/wait-on": "^4.0.0"
+			},
+			"devDependencies": {
+				"@types/cwd": "^0.10.0",
+				"@types/exit": "^0.1.31",
+				"@types/prompts": "^2.0.9",
+				"@types/signal-exit": "^3.0.0",
+				"typescript": "^4.0.3"
+			},
+			"gitHead": "dbffe70c349e5095af4b7fb8ea7e406961ba9ca0",
+			"bugs": {
+				"url": "https://github.com/playwright-community/jest-process-manager/issues"
+			},
+			"homepage": "https://github.com/playwright-community/jest-process-manager#readme",
+			"_id": "jest-process-manager@0.2.6",
+			"_nodeVersion": "14.8.0",
+			"_npmVersion": "6.14.8",
+			"dist": {
+				"integrity": "sha512-uWxUgTtgljoJMEg4T2FswXj/OWha1daZvHXWre7zty6Zv2lsghI4OepEStneJNefs9HQT7N6R8bIq5VlgRiFpA==",
+				"shasum": "98c6608de2677b0be584d7275e8d64932121359d",
+				"tarball": "https://registry.npmjs.org/jest-process-manager/-/jest-process-manager-0.2.6.tgz",
+				"fileCount": 6,
+				"unpackedSize": 21486,
+				"npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.13\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJflcO5CRA9TVsSAnZWagAAiwkP/iLDt5Lm2/cePD6dn/QL\nH9fBtYdtv/ILmVNAOf5nwhBZtvgxjCWel5njKnjX8nBB3jEj7vwzWFRYeHOD\nZGZC297jxT2AsjbDgJIoIlf9FPlq3FWgmJ8MGRls9im7eeQBzpJVWj4G6jaN\nuwx6WDwD0MYsGw3wr4mZbvNnuLTPI4UrHXz/RqSyKGt1JP36fyOw9WJqtj1J\n1zY4YUanRd+YPHuguFolDQ8VQ6YzgGEuG7/Y1jBxk54DZ6tIxpmByo4HRHAu\nwGDPZJo1AgYRzYAb7T7b7gEjax5keEVcr4oDafmnqNR6bR66THkHKemLEGgd\nArglpFnnnmCjRHAtrDovxceQRxdj23TMqZ1n7zx41S4rMvqX76EKpHJ2FVey\nslzNOWvSFui2wH1AhfpQ0IIyRag3tDc0EpmGMyyIXwxWLMBCDJ6JEKFlYKln\n2z7rl9k6d4vjK+GgdxquK439xEjP2UxowANaQwXBNwqz3fWN3qRFU/mYgh8Z\nO2RhaTNynvxbHZMozM3V/8HrG3rw+WrNlEJU4WL1KfUSYhsaFKQEntwM3R9J\njmnkp9UyTME6j3qeTx7/rF4Q3/f0g9zHS2hTh1+eO7HdQfjFJB78Yqcw4xdA\ns7PLtDMODjqgUrCCTEJ2GucMEis4FR33mhqBVKLvaU235sT/9bWG6H1GAy8r\nubJ/\r\n=VdD8\r\n-----END PGP SIGNATURE-----\r\n",
+				"signatures": [
+					{
+						"keyid": "SHA256:jl3bwswu80PjjokCgh0o2w5c2U4LhQAE57gj9cz1kzA",
+						"sig": "MEUCIGLYgREtzz6q6X6tuk74x2wglGpetRtKK/SLh9qmruGWAiEA5b59gHYJMuSYMK26v24gyTS9COC3DIxx9C2wugXPZfE="
+					}
+				]
+			},
+			"maintainers": [
+				{
+					"name": "mapkeji",
+					"email": "mapkeji26@gmail.com"
+				},
+				{
+					"name": "mxschmitt",
+					"email": "max@schmitt.mx"
+				}
+			],
+			"_npmUser": {
+				"name": "mxschmitt",
+				"email": "max@schmitt.mx"
+			},
+			"directories": {},
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/jest-process-manager_0.2.6_1603650488819_0.5973207626991031"
+			},
+			"_hasShrinkwrap": false,
+			"contributors": []
+		},
+		"0.2.7": {
+			"name": "jest-process-manager",
+			"description": "Starts a server before your Jest tests and tears it down after.",
+			"version": "0.2.7",
+			"main": "lib/index.js",
+			"types": "src/types.d.ts",
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/playwright-community/jest-process-manager.git"
+			},
+			"author": {
+				"name": "Playwright Community"
+			},
+			"license": "MIT",
+			"keywords": [
+				"jest",
+				"jest-environment",
+				"server"
+			],
+			"scripts": {
+				"prebuild": "rm -rf lib/",
+				"prepublishOnly": "yarn build",
+				"build": "tsc",
+				"dev": "tsc --watch",
+				"lint": "tsc --noEmit"
+			},
+			"dependencies": {
+				"chalk": "^4.1.0",
+				"cwd": "^0.10.0",
+				"exit": "^0.1.2",
+				"find-process": "^1.4.4",
+				"prompts": "^2.3.2",
+				"signal-exit": "^3.0.3",
+				"spawnd": "^4.4.0",
+				"tree-kill": "^1.2.2",
+				"wait-on": "^5.2.0",
+				"@types/wait-on": "^4.0.0"
+			},
+			"devDependencies": {
+				"@types/cwd": "^0.10.0",
+				"@types/exit": "^0.1.31",
+				"@types/prompts": "^2.0.9",
+				"@types/signal-exit": "^3.0.0",
+				"typescript": "^4.0.3"
+			},
+			"gitHead": "dbffe70c349e5095af4b7fb8ea7e406961ba9ca0",
+			"bugs": {
+				"url": "https://github.com/playwright-community/jest-process-manager/issues"
+			},
+			"homepage": "https://github.com/playwright-community/jest-process-manager#readme",
+			"_id": "jest-process-manager@0.2.7",
+			"_nodeVersion": "14.9.0",
+			"_npmVersion": "6.14.8",
+			"dist": {
+				"integrity": "sha512-Bq47J22/PG1fTyVdDnoI3l6wQ1vtNwvzZShipKmY7K4wY9aggS8aGhu+ut7VPpV4O95QTIdYOTzeaOxcmM50uw==",
+				"shasum": "f537cccdc0b110abdbaa8ce4b79407f73c01b52c",
+				"tarball": "https://registry.npmjs.org/jest-process-manager/-/jest-process-manager-0.2.7.tgz",
+				"fileCount": 6,
+				"unpackedSize": 21486,
+				"npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.13\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJfx8ZnCRA9TVsSAnZWagAA9JMP/2zhgo5VcvUzz7IGkqHj\nA0n+BD2KUMKCFyjsKOI6Nr0YtG+WhxAzIsiGLM53lAPsce0/OpWQOkptUiEr\nha69fvcTIZvu4c95G5se7nt0MsQrG9vcgqZNw6iuqjdQ2VEbgjeA9d6Vjg8Z\nFVgaJ6nnZ7VRLW33CY8nD0Q9eozKWt1psR1sm2I9FMeU3BSYc7eM7rEnbitb\ntGQRYEjbRuMzS+gx5Dx9zWdSkMEEQAraO4rmIZu9k849m014XPw6igIrB/BH\nE4DCWbDq03/GKLnwlQryCqjhmDdbHXn09nVXly4Q/41SUp4gOUjOknkk6rzt\nR/clFWoGXIIIF8Oksjw9gwlZRcQle2HlanL2WN0R4qQsy4r53U+8CRv5JNPi\n2b5WP1BnvdpLt1eQFRBsG+ysRQTo0OQXFfhB9hwROIBPzWNof0qYkXa9hqhb\nfOPKwNxZQeY1CrVeGVdlFNz9AwMvh2uyoBPGr/WWH5wQzxZHQ1up+FMrr8Wa\nB1xLkQlYOUpyxV2zZ+NAYw9cUoDoxmQd1A/uO9R0qDp3rAIspStoPHtxbUFN\nY7fIF1eiTa1DJFq5FRq1KG5kw0kyWQCi+4yL+Iuls2nlbebQtskSj04pc8Wt\nmw/GEcJLUWgVX4JvuLxzG461vOI4VEfdGuQpD6ZFtqBBYtWd0VdprCTBak/8\nZDfY\r\n=srsc\r\n-----END PGP SIGNATURE-----\r\n",
+				"signatures": [
+					{
+						"keyid": "SHA256:jl3bwswu80PjjokCgh0o2w5c2U4LhQAE57gj9cz1kzA",
+						"sig": "MEUCIQCmYYoCMNJg3JciM5xPj9kP+UMA9q6sYIZSBMCwuecscQIge5nLPccw/PrtU+5byE93lgsAD/ACABmkDnVnnz/s044="
+					}
+				]
+			},
+			"_npmUser": {
+				"name": "mapkeji",
+				"email": "mapkeji26@gmail.com"
+			},
+			"directories": {},
+			"maintainers": [
+				{
+					"name": "mapkeji",
+					"email": "mapkeji26@gmail.com"
+				},
+				{
+					"name": "mxschmitt",
+					"email": "max@schmitt.mx"
+				}
+			],
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/jest-process-manager_0.2.7_1606927974116_0.6978059388012108"
+			},
+			"_hasShrinkwrap": false,
+			"contributors": []
+		},
+		"0.2.8": {
+			"name": "jest-process-manager",
+			"description": "Starts a server before your Jest tests and tears it down after.",
+			"version": "0.2.8",
+			"main": "lib/index.js",
+			"types": "src/types.d.ts",
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/playwright-community/jest-process-manager.git"
+			},
+			"author": {
+				"name": "Playwright Community"
+			},
+			"license": "MIT",
+			"keywords": [
+				"jest",
+				"jest-environment",
+				"server"
+			],
+			"scripts": {
+				"prebuild": "rm -rf lib/",
+				"prepublishOnly": "yarn build",
+				"build": "tsc",
+				"dev": "tsc --watch",
+				"lint": "tsc --noEmit"
+			},
+			"dependencies": {
+				"chalk": "^4.1.0",
+				"cwd": "^0.10.0",
+				"exit": "^0.1.2",
+				"find-process": "^1.4.4",
+				"prompts": "^2.4.0",
+				"signal-exit": "^3.0.3",
+				"spawnd": "^4.4.0",
+				"tree-kill": "^1.2.2",
+				"wait-on": "^5.2.0",
+				"@types/wait-on": "^5.2.0"
+			},
+			"devDependencies": {
+				"@types/cwd": "^0.10.0",
+				"@types/exit": "^0.1.31",
+				"@types/prompts": "^2.0.9",
+				"@types/signal-exit": "^3.0.0",
+				"typescript": "^4.1.3"
+			},
+			"gitHead": "0fd77b16c82df3ed63150fdba33265e742b0c46c",
+			"bugs": {
+				"url": "https://github.com/playwright-community/jest-process-manager/issues"
+			},
+			"homepage": "https://github.com/playwright-community/jest-process-manager#readme",
+			"_id": "jest-process-manager@0.2.8",
+			"_nodeVersion": "14.9.0",
+			"_npmVersion": "6.14.9",
+			"dist": {
+				"integrity": "sha512-qn+ma1jb+x9LcRw5P9lHl8jTyR9TAWtNTZowLsUqG/zszkbu8TeGW2VMfoMCHgTNjgabrvPTaFlYPS5N13B1qQ==",
+				"shasum": "38b43f74c3c374b076f3d10e04b4682f4195dfd7",
+				"tarball": "https://registry.npmjs.org/jest-process-manager/-/jest-process-manager-0.2.8.tgz",
+				"fileCount": 6,
+				"unpackedSize": 21938,
+				"npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.13\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJf13OICRA9TVsSAnZWagAAqF4P/R4XUyhzmVC5fzn8Q5If\nz9DyG9hH19ZAYHc0AP4qz6AjNm21LHwD+Jypuir+vhlbs10uGXi2qs4IyFSW\ncc1E70CVSYuJ72VvFJvA64ElTwIuOqGtsgjo0mAHwgCbxzhLqZHpX5r2x+O5\n3Or1VlYOOFmVhmKBYAkwehqfnNTnT5a9qIKgwZjY8sbCno38HOof8rh874vm\ngUM6P1I6chYhfH5E3g937bdBWnpWq3Rs7sJ0k7mADmqDyooRiyN4+stC8O8N\nxLzOOpmDjqDcvXjEon95kShupd5TXCaG1IY1uTzf2tiDnX5xzW5wd0+aA2QC\nXbSNQdfusBUaOvZpLLH7AabowKBK2V9LKABCKoiauV8PN6nKEmw59kFV4LkA\n/RY0RUG0WqPY8MFeuYvPGbpdwljwj6jvVnJvyRSj46a64jT4PdGLJmJ+MCXv\nCskkT0q/0gsPdR7B2BH1FdL7JxKGYqNc/x/V+Jdza336Ng6SXLgZBdj7ps3H\nvC/fB3KzJoa353flyXQRdr5E5jiue78UOlFs4YekKsdJTV3NAz5t/iqzK5vC\nQTPA6hYOzeTL+ymufAhTmfMcPYpb2CDqwhC0j/L6+b7nIymZFmUCZXBN09+/\ni4FNk8TXZU6rvgyJDEIR/cS++qhWYHPucI4Etd/sE8mo5Ck4ccxgK7A9lrHH\ndIr6\r\n=pDwV\r\n-----END PGP SIGNATURE-----\r\n",
+				"signatures": [
+					{
+						"keyid": "SHA256:jl3bwswu80PjjokCgh0o2w5c2U4LhQAE57gj9cz1kzA",
+						"sig": "MEUCIQCQLEIW3q1hN9sB2OQcPyNSeNY/PmwxErYtsQJNehRhvgIgANn9ZYNaJqC9gmGrGFCoReTTy6HFwCbPHInfSgyTQzk="
+					}
+				]
+			},
+			"_npmUser": {
+				"name": "mapkeji",
+				"email": "mapkeji26@gmail.com"
+			},
+			"directories": {},
+			"maintainers": [
+				{
+					"name": "mapkeji",
+					"email": "mapkeji26@gmail.com"
+				},
+				{
+					"name": "mxschmitt",
+					"email": "max@schmitt.mx"
+				}
+			],
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/jest-process-manager_0.2.8_1607955335648_0.4398900894247513"
+			},
+			"_hasShrinkwrap": false,
+			"contributors": []
+		},
+		"0.2.9": {
+			"name": "jest-process-manager",
+			"description": "Starts a server before your Jest tests and tears it down after.",
+			"version": "0.2.9",
+			"main": "lib/index.js",
+			"types": "src/types.d.ts",
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/playwright-community/jest-process-manager.git"
+			},
+			"author": {
+				"name": "Playwright Community"
+			},
+			"license": "MIT",
+			"keywords": [
+				"jest",
+				"jest-environment",
+				"server"
+			],
+			"scripts": {
+				"prebuild": "rm -rf lib/",
+				"prepublishOnly": "yarn build",
+				"build": "tsc",
+				"dev": "tsc --watch",
+				"lint": "tsc --noEmit"
+			},
+			"dependencies": {
+				"chalk": "^4.1.0",
+				"cwd": "^0.10.0",
+				"exit": "^0.1.2",
+				"find-process": "^1.4.4",
+				"prompts": "^2.4.0",
+				"signal-exit": "^3.0.3",
+				"spawnd": "^4.4.0",
+				"tree-kill": "^1.2.2",
+				"wait-on": "^5.2.1",
+				"@types/wait-on": "^5.2.0"
+			},
+			"devDependencies": {
+				"@types/cwd": "^0.10.0",
+				"@types/exit": "^0.1.31",
+				"@types/prompts": "^2.0.9",
+				"@types/signal-exit": "^3.0.0",
+				"typescript": "^4.1.3"
+			},
+			"gitHead": "095375bb310cb87a6d1f3880389fae05bad5a14b",
+			"bugs": {
+				"url": "https://github.com/playwright-community/jest-process-manager/issues"
+			},
+			"homepage": "https://github.com/playwright-community/jest-process-manager#readme",
+			"_id": "jest-process-manager@0.2.9",
+			"_nodeVersion": "14.9.0",
+			"_npmVersion": "6.14.9",
+			"dist": {
+				"integrity": "sha512-IKVdOSz1NLwKg9HTeyEDn63waMvKK6wcS+tCarGquNIktlXt4zAW2cfJ9vAA/xBcidWYKOPXHvy1l1N8qfw3Ww==",
+				"shasum": "4bfa99dda115a2bae1cd0e645f78e3d84e780575",
+				"tarball": "https://registry.npmjs.org/jest-process-manager/-/jest-process-manager-0.2.9.tgz",
+				"fileCount": 6,
+				"unpackedSize": 21954,
+				"npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.13\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJf9JrtCRA9TVsSAnZWagAAdqMP/iPkDREmDferPn/eQ1zN\ntPZ7FYmdIDu1nQ7sPcGrrD7jQxsvUCAavomNaYO7Kgn0ilMrzJSTrIBPgQ8V\n/XB/MMrZGj011BzZBQ5gnbXfva9E/Zy6D3hUsIbBOWMl9K5cHokCQoTNBeE0\nhjT/fmYfAbm+YFoydGiLnsa9kAv8lXNeLuHY5MMemLpmQlMfdgJlprXYa8eC\noP8g475IGcu/MXWZPLVl7EsfW3umpQn93j3temIqXhY9f+zGvb1DbO4hxetm\nr2JS61mp7lkzfa9V0HvgyivK3u9WEAaqJ+4pHwopDbRGzRs35VlXk8ITFYaG\nzN3PRYIMmTEX7tixyH/XTOJ/YpVLf2JbGQ4n4G8IQ2qNzW9JiV2r5/p9snAj\nUapMQUId1EXANp20jMDRvQ7mtGK++ZUlVT6KcovtDWtL/0VHQ+Rc6pj8VyAo\njNwyIOk+4GIjiveSh9VDVTnKEQMAZ23SkFJyinRiV+xoZv0w7qEhf2kXgEpa\n30+A9gDX96N2owVaVKb6TfHnPBvldfC5W7/p8N2WQyDMpyAj+pLu7IwhG6m9\nXHtTIl0a/YLp6LirZSfbTUCqY02BKTi0UAAdtI8dEVwXEkxZOLjqVyHNH+Xk\ndLVf7wraHrQBtJlhEDu+s7y3Qc+gV8+lB57vxhYHeZgbSVsb1btgt2hk2N/J\n33/i\r\n=Z9bT\r\n-----END PGP SIGNATURE-----\r\n",
+				"signatures": [
+					{
+						"keyid": "SHA256:jl3bwswu80PjjokCgh0o2w5c2U4LhQAE57gj9cz1kzA",
+						"sig": "MEUCIQDcdFPSLXoj0gPAc1Q7j5dfCKKya9mwYrsMt1r7XwYcaQIgWbDCP1+Imyd9kFffoZ918PvTr+pZjcCv+8d4aIAaPb0="
+					}
+				]
+			},
+			"_npmUser": {
+				"name": "mapkeji",
+				"email": "mapkeji26@gmail.com"
+			},
+			"directories": {},
+			"maintainers": [
+				{
+					"name": "mapkeji",
+					"email": "mapkeji26@gmail.com"
+				},
+				{
+					"name": "mxschmitt",
+					"email": "max@schmitt.mx"
+				}
+			],
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/jest-process-manager_0.2.9_1609865965355_0.8942010545012433"
+			},
+			"_hasShrinkwrap": false,
+			"contributors": []
+		},
+		"0.3.0": {
+			"name": "jest-process-manager",
+			"description": "Starts a server before your Jest tests and tears it down after.",
+			"version": "0.3.0",
+			"main": "lib/index.js",
+			"types": "src/types.d.ts",
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/playwright-community/jest-process-manager.git"
+			},
+			"author": {
+				"name": "Playwright Community"
+			},
+			"license": "MIT",
+			"keywords": [
+				"jest",
+				"jest-environment",
+				"server"
+			],
+			"scripts": {
+				"prebuild": "rm -rf lib/",
+				"prepublishOnly": "yarn build",
+				"build": "tsc",
+				"dev": "tsc --watch",
+				"lint": "tsc --noEmit"
+			},
+			"dependencies": {
+				"@types/wait-on": "^5.2.0",
+				"chalk": "^4.1.0",
+				"cwd": "^0.10.0",
+				"exit": "^0.1.2",
+				"find-process": "^1.4.4",
+				"prompts": "^2.4.1",
+				"signal-exit": "^3.0.3",
+				"spawnd": "^5.0.0",
+				"tree-kill": "^1.2.2",
+				"wait-on": "^5.3.0"
+			},
+			"devDependencies": {
+				"@types/cwd": "^0.10.0",
+				"@types/exit": "^0.1.31",
+				"@types/prompts": "^2.0.10",
+				"@types/signal-exit": "^3.0.0",
+				"typescript": "^4.2.4"
+			},
+			"gitHead": "c481d9721902c1798b05dcb18fe766a408a4960e",
+			"bugs": {
+				"url": "https://github.com/playwright-community/jest-process-manager/issues"
+			},
+			"homepage": "https://github.com/playwright-community/jest-process-manager#readme",
+			"_id": "jest-process-manager@0.3.0",
+			"_nodeVersion": "14.16.1",
+			"_npmVersion": "7.10.0",
+			"dist": {
+				"integrity": "sha512-vUrNnsWm8SGkbQqICsXw35jtSqv1EglYvIg6zgoyRI4CsJLIm+cj61XN4Jl5aoE17osOfwgTjRCLEM+wDQp7Xw==",
+				"shasum": "d0a360ad8efdd1183c1e2df2197051879525fb39",
+				"tarball": "https://registry.npmjs.org/jest-process-manager/-/jest-process-manager-0.3.0.tgz",
+				"fileCount": 6,
+				"unpackedSize": 22155,
+				"npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.13\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJgfrgoCRA9TVsSAnZWagAAcP4QAJeZPNQ00jtsruCqDdLz\nSO9k/iHymyQJiArLcE4sZt62XKvTM0SpQvuSpaD5ire0g23pr1diLLcOa9aK\ngL68/CmUAc9ERm49X8VMdascvpr8tSNyBStZXdYK7lQHDjTQof4JNhlmvlJu\nn4YmlaiYsm18pHc3fVjt9bZvl+7IuW8Fc0sYm1XC1NnvvLZFV+aWxgV6uBOI\nP7QpIdkhvmWHu8TRPEa18sreDqd1vx5SjBjZMQ7a55fNKDyMG2s1rkiTqiHx\n3zNmSgEGgV+Je+LsdBk3LrnCG2FbyUz8vb2DlZdO3Do+iCdxCyYmGuph8lIx\nltXdSraXBHKgFZN1HHHipHPv9Le+cgIIWy2AjlExYJO586VP+XJ4yi6g3ojV\nDD5bPwz725vNQ0yZ6jz52+FXvhkcS5gNNmeIzKHJN4+3mJKZtQKSjrJpPEaq\n1e8XouSibQGV7PL9LzqQqGcfNBEZ4e5TlGzKPqAslR7uzjahiH80gZygrJxH\nfe6UwM2tfikFEeJi1FD9+oGavymxNeJEoKVsaJWrxNUJnPwEzZwglno5+oz0\n6viu1OIvmgO1xmFBs2XAP3mLIdceBc4PsZtxPBOTGgg3H78fOHG5CbJ9N986\nTfX94V903WK1bA7xvpa2Og5dZyTgP+nL14KnXVU96SKfDajUt2z5LY1o3AsP\nPyeb\r\n=5Hsp\r\n-----END PGP SIGNATURE-----\r\n",
+				"signatures": [
+					{
+						"keyid": "SHA256:jl3bwswu80PjjokCgh0o2w5c2U4LhQAE57gj9cz1kzA",
+						"sig": "MEQCIDsuwjBZ7hXK9cPrXCBg86OVcF20gQy6t9Tzu7DicFXAAiA+egJhmNzdKeqEUKfKLWb+LJx6T1SoTIE/X9wU5Z2PxA=="
+					}
+				]
+			},
+			"_npmUser": {
+				"name": "mapkeji",
+				"email": "mapkeji26@gmail.com"
+			},
+			"directories": {},
+			"maintainers": [
+				{
+					"name": "mapkeji",
+					"email": "mapkeji26@gmail.com"
+				},
+				{
+					"name": "mxschmitt",
+					"email": "max@schmitt.mx"
+				}
+			],
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/jest-process-manager_0.3.0_1618917415723_0.6940814794652588"
+			},
+			"_hasShrinkwrap": false,
+			"contributors": []
+		},
+		"0.3.1": {
+			"name": "jest-process-manager",
+			"description": "Starts a server before your Jest tests and tears it down after.",
+			"version": "0.3.1",
+			"main": "lib/index.js",
+			"types": "src/types.d.ts",
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/playwright-community/jest-process-manager.git"
+			},
+			"author": {
+				"name": "Playwright Community"
+			},
+			"license": "MIT",
+			"keywords": [
+				"jest",
+				"jest-environment",
+				"server"
+			],
+			"scripts": {
+				"prebuild": "rm -rf lib/",
+				"prepublishOnly": "yarn build",
+				"build": "tsc",
+				"dev": "tsc --watch",
+				"lint": "tsc --noEmit"
+			},
+			"dependencies": {
+				"@types/wait-on": "^5.2.0",
+				"chalk": "^4.1.0",
+				"cwd": "^0.10.0",
+				"exit": "^0.1.2",
+				"find-process": "^1.4.4",
+				"prompts": "^2.4.1",
+				"signal-exit": "^3.0.3",
+				"spawnd": "^5.0.0",
+				"tree-kill": "^1.2.2",
+				"wait-on": "^5.3.0"
+			},
+			"devDependencies": {
+				"@types/cwd": "^0.10.0",
+				"@types/exit": "^0.1.31",
+				"@types/prompts": "^2.0.10",
+				"@types/signal-exit": "^3.0.0",
+				"typescript": "^4.2.4"
+			},
+			"gitHead": "ff47ecc754a89d3e721cedbad6280bec1ba8c745",
+			"bugs": {
+				"url": "https://github.com/playwright-community/jest-process-manager/issues"
+			},
+			"homepage": "https://github.com/playwright-community/jest-process-manager#readme",
+			"_id": "jest-process-manager@0.3.1",
+			"_nodeVersion": "14.16.1",
+			"_npmVersion": "7.10.0",
+			"dist": {
+				"integrity": "sha512-x9W54UgZ7IkzUHgXtnI1x4GKOVjxtwW0CA/7yGbTHtT/YhENO0Lic2yfVyC/gekn7OIEMcQmy0L1r9WLQABfqw==",
+				"shasum": "e748da83ea66ac5073087feb1150ba1270332b2e",
+				"tarball": "https://registry.npmjs.org/jest-process-manager/-/jest-process-manager-0.3.1.tgz",
+				"fileCount": 6,
+				"unpackedSize": 22171,
+				"npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.13\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJgfrunCRA9TVsSAnZWagAAB+YP/3NE7Mx/nY7MITtI1qkG\nel89NH3nq99MsJg0gVd3sXK5m9Raco6EGciQtftMfa/uWQ200HISowcxURoQ\nqi+BnlX/UJL2Sr+VKeUXqYjSMWmJAQHwnOe+A1GHaOZlMZHy+0VPGhHVRSQC\npKce1sjGBBTVZOTfgj8SwMS8XQCRn6+JCNGJ40mF9JGx+YpPbSyZ+eQTittj\n1Xsw6DIOWFkdn9yrq1axzgMhwOkYvmartKOk1GSKigHGRGXGg/Wh4+QpDY+P\ncDVlpL8oxYMCezdWNh5AtN1wKHU/m9ruVfiJUzSMk2LWKbnuQwzsUgb9a0La\nJfCAFd8vHfRN2n3LjjFSkLT55U9bH3dWmTh9Xc8mklIqfo/F1k1iJ5Taixky\nTajymmmRu4DBv0M66fqalvzXt0Dd+3+ZAdcij6Gf/U2pbSadqf79eR67xwZ+\niSfVM29hwD0iWui31eqQ2KQ7eGUFAUtmYm6QMpl79E1o8W1zbrAHLd+Qu79T\ndaY0D6YirjBJwRDX4G3j/48X8Zv4u197ErZHKCY4wr22eRIOb2ZW670IomuK\ngQdbkVER2CuLc2CkMVIdOSMaX/iSzsKZvK3BotCHBp269BGkFgTAPKNWV8ct\n0ssYkNkbNe2U6zHRt7BiSptXM35uKW1r0s8Dfwx8JVqjki6v/EQpOaDvYB1H\nARDx\r\n=y85A\r\n-----END PGP SIGNATURE-----\r\n",
+				"signatures": [
+					{
+						"keyid": "SHA256:jl3bwswu80PjjokCgh0o2w5c2U4LhQAE57gj9cz1kzA",
+						"sig": "MEYCIQCnUTsvKDa68Fsbiy8bvSqsIpSon9RZoEKZX3SrtghE4wIhAJxFqPTlbZCH9LnVb3ghCNnX3jf6t46n4K50SwuHSV3D"
+					}
+				]
+			},
+			"_npmUser": {
+				"name": "mapkeji",
+				"email": "mapkeji26@gmail.com"
+			},
+			"directories": {},
+			"maintainers": [
+				{
+					"name": "mapkeji",
+					"email": "mapkeji26@gmail.com"
+				},
+				{
+					"name": "mxschmitt",
+					"email": "max@schmitt.mx"
+				}
+			],
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/jest-process-manager_0.3.1_1618918310995_0.6372083069970136"
+			},
+			"_hasShrinkwrap": false,
+			"contributors": []
+		},
+		"0.4.0": {
+			"name": "jest-process-manager",
+			"description": "Starts a server before your Jest tests and tears it down after.",
+			"version": "0.4.0",
+			"main": "lib/index.js",
+			"types": "src/types.d.ts",
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/playwright-community/jest-process-manager.git"
+			},
+			"author": {
+				"name": "Playwright Community"
+			},
+			"license": "MIT",
+			"keywords": [
+				"jest",
+				"jest-environment",
+				"server"
+			],
+			"scripts": {
+				"prebuild": "rm -rf lib/",
+				"prepublishOnly": "yarn build",
+				"build": "tsc",
+				"dev": "tsc --watch",
+				"lint": "tsc --noEmit"
+			},
+			"dependencies": {
+				"@types/wait-on": "^5.2.0",
+				"chalk": "^4.1.0",
+				"cwd": "^0.10.0",
+				"exit": "^0.1.2",
+				"find-process": "^1.4.4",
+				"prompts": "^2.4.1",
+				"signal-exit": "^3.0.3",
+				"spawnd": "^5.0.0",
+				"tree-kill": "^1.2.2",
+				"wait-on": "^7.0.0"
+			},
+			"devDependencies": {
+				"@types/cwd": "^0.10.0",
+				"@types/exit": "^0.1.31",
+				"@types/prompts": "^2.0.10",
+				"@types/signal-exit": "^3.0.0",
+				"typescript": "^4.2.4"
+			},
+			"_id": "jest-process-manager@0.4.0",
+			"gitHead": "da5fd740cbd9e149b4f87107590e14075543c3a0",
+			"bugs": {
+				"url": "https://github.com/playwright-community/jest-process-manager/issues"
+			},
+			"homepage": "https://github.com/playwright-community/jest-process-manager#readme",
+			"_nodeVersion": "18.18.2",
+			"_npmVersion": "9.8.1",
+			"dist": {
+				"integrity": "sha512-80Y6snDyb0p8GG83pDxGI/kQzwVTkCxc7ep5FPe/F6JYdvRDhwr6RzRmPSP7SEwuLhxo80lBS/NqOdUIbHIfhw==",
+				"shasum": "fb05c8e09ad400fd038436004815653bb98f4e8b",
+				"tarball": "https://registry.npmjs.org/jest-process-manager/-/jest-process-manager-0.4.0.tgz",
+				"fileCount": 6,
+				"unpackedSize": 22171,
+				"signatures": [
+					{
+						"keyid": "SHA256:jl3bwswu80PjjokCgh0o2w5c2U4LhQAE57gj9cz1kzA",
+						"sig": "MEUCIQDNB60j7HGyeoQKy3yyfurAo/CvfUmtebTVgezq4wTonQIgR29NxHXTmHx4JXXawbGwvWCM2Wo/tQIAbYyg85q9VOM="
+					}
+				]
+			},
+			"_npmUser": {
+				"name": "mxschmitt",
+				"email": "max@schmitt.mx"
+			},
+			"directories": {},
+			"maintainers": [
+				{
+					"name": "mapkeji",
+					"email": "mapkeji26@gmail.com"
+				},
+				{
+					"name": "mxschmitt",
+					"email": "max@schmitt.mx"
+				}
+			],
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/jest-process-manager_0.4.0_1700162516781_0.4424680817006521"
+			},
+			"_hasShrinkwrap": false,
+			"contributors": []
+		}
+	},
+	"time": {
+		"created": "2020-06-03T10:09:39.126Z",
+		"0.1.0": "2020-06-03T10:09:39.223Z",
+		"modified": "2023-11-16T19:21:57.106Z",
+		"0.2.0": "2020-06-13T16:39:59.940Z",
+		"0.2.1": "2020-06-15T07:13:05.529Z",
+		"0.2.2": "2020-06-15T07:33:18.597Z",
+		"0.2.3": "2020-06-24T08:52:29.558Z",
+		"0.2.4": "2020-07-09T16:22:44.622Z",
+		"0.2.5": "2020-07-10T12:31:09.464Z",
+		"0.2.6": "2020-10-25T18:28:08.953Z",
+		"0.2.7": "2020-12-02T16:52:54.296Z",
+		"0.2.8": "2020-12-14T14:15:35.798Z",
+		"0.2.9": "2021-01-05T16:59:25.538Z",
+		"0.3.0": "2021-04-20T11:16:55.901Z",
+		"0.3.1": "2021-04-20T11:31:51.163Z",
+		"0.4.0": "2023-11-16T19:21:56.921Z"
+	},
+	"users": {},
+	"dist-tags": {
+		"latest": "0.4.0"
+	},
+	"_uplinks": {
+		"npmjs": {
+			"etag": "W/\"cfcf39f71b9645c3ae194611973d578b\"",
+			"fetched": 1715345980283
+		}
+	},
+	"_distfiles": {
+		"jest-process-manager-0.1.0.tgz": {
+			"url": "https://registry.npmjs.org/jest-process-manager/-/jest-process-manager-0.1.0.tgz",
+			"sha": "876b5cd91dcf108adfd3d8879430fc397dfd7b34",
+			"registry": "npmjs"
+		},
+		"jest-process-manager-0.2.0.tgz": {
+			"url": "https://registry.npmjs.org/jest-process-manager/-/jest-process-manager-0.2.0.tgz",
+			"sha": "781c93b236bda8abcfa012717bc4c50a307cdb3b",
+			"registry": "npmjs"
+		},
+		"jest-process-manager-0.2.1.tgz": {
+			"url": "https://registry.npmjs.org/jest-process-manager/-/jest-process-manager-0.2.1.tgz",
+			"sha": "a52f531f2e4d2bd07c5a823f80793a9e8735448a",
+			"registry": "npmjs"
+		},
+		"jest-process-manager-0.2.2.tgz": {
+			"url": "https://registry.npmjs.org/jest-process-manager/-/jest-process-manager-0.2.2.tgz",
+			"sha": "0980be70ec344b5d0d4115d57b13cfaac964653c",
+			"registry": "npmjs"
+		},
+		"jest-process-manager-0.2.3.tgz": {
+			"url": "https://registry.npmjs.org/jest-process-manager/-/jest-process-manager-0.2.3.tgz",
+			"sha": "8902fbe47ff3c871d0098bbc8e26b128946a936a",
+			"registry": "npmjs"
+		},
+		"jest-process-manager-0.2.4.tgz": {
+			"url": "https://registry.npmjs.org/jest-process-manager/-/jest-process-manager-0.2.4.tgz",
+			"sha": "b2fb10a422bf0f9ea94315977eacd1dab48ee2de",
+			"registry": "npmjs"
+		},
+		"jest-process-manager-0.2.5.tgz": {
+			"url": "https://registry.npmjs.org/jest-process-manager/-/jest-process-manager-0.2.5.tgz",
+			"sha": "82b96e7eb85e9e83819d7a566294975aac1e1111",
+			"registry": "npmjs"
+		},
+		"jest-process-manager-0.2.6.tgz": {
+			"url": "https://registry.npmjs.org/jest-process-manager/-/jest-process-manager-0.2.6.tgz",
+			"sha": "98c6608de2677b0be584d7275e8d64932121359d",
+			"registry": "npmjs"
+		},
+		"jest-process-manager-0.2.7.tgz": {
+			"url": "https://registry.npmjs.org/jest-process-manager/-/jest-process-manager-0.2.7.tgz",
+			"sha": "f537cccdc0b110abdbaa8ce4b79407f73c01b52c",
+			"registry": "npmjs"
+		},
+		"jest-process-manager-0.2.8.tgz": {
+			"url": "https://registry.npmjs.org/jest-process-manager/-/jest-process-manager-0.2.8.tgz",
+			"sha": "38b43f74c3c374b076f3d10e04b4682f4195dfd7",
+			"registry": "npmjs"
+		},
+		"jest-process-manager-0.2.9.tgz": {
+			"url": "https://registry.npmjs.org/jest-process-manager/-/jest-process-manager-0.2.9.tgz",
+			"sha": "4bfa99dda115a2bae1cd0e645f78e3d84e780575",
+			"registry": "npmjs"
+		},
+		"jest-process-manager-0.3.0.tgz": {
+			"url": "https://registry.npmjs.org/jest-process-manager/-/jest-process-manager-0.3.0.tgz",
+			"sha": "d0a360ad8efdd1183c1e2df2197051879525fb39",
+			"registry": "npmjs"
+		},
+		"jest-process-manager-0.3.1.tgz": {
+			"url": "https://registry.npmjs.org/jest-process-manager/-/jest-process-manager-0.3.1.tgz",
+			"sha": "e748da83ea66ac5073087feb1150ba1270332b2e",
+			"registry": "npmjs"
+		},
+		"jest-process-manager-0.4.0.tgz": {
+			"url": "https://registry.npmjs.org/jest-process-manager/-/jest-process-manager-0.4.0.tgz",
+			"sha": "fb05c8e09ad400fd038436004815653bb98f4e8b",
+			"registry": "npmjs"
+		}
+	},
+	"_attachments": {
+		"jest-process-manager-0.3.1.tgz": {
+			"shasum": "e748da83ea66ac5073087feb1150ba1270332b2e"
+		}
+	},
+	"_rev": "2-03af8a83f1a66bcb",
+	"_id": "jest-process-manager",
+	"readme": "# jest-process-manager\n\n**This project was forked because the package [`jest-dev-server`](https://github.com/smooth-code/jest-puppeteer/tree/master/packages/jest-dev-server) is no longer maintained.**\n\n[![CI](https://github.com/playwright-community/jest-process-manager/workflows/CI/badge.svg)](https://github.com/playwright-community/jest-process-manager/actions)\n[![npm](https://img.shields.io/npm/v/jest-process-manager)](http://npmjs.com/package/jest-process-manager)\n\nStarts a server before your Jest tests and tears it down after.\n\n## Why\n\n[`jest-playwright-preset`](https://github.com/playwright-community/jest-playwright) or `jest-puppeteer` works great for running tests in Jest using your preferred end-to-end testing library.\nIt's also useful for starting a local development server during the tests without letting Jest hang.\nThis package extracts just the local development server spawning without any ties to Puppeteer.\n\n## Install\n\n```bash\nnpm install --save-dev jest-process-manager\n```\n\n## Usage\n\n`jest-process-manager` exports `setup`,`teardown` and `getServers` functions.\n\n```js\n// global-setup.js\nconst { setup: setupDevServer } = require('jest-process-manager')\n\nmodule.exports = async function globalSetup() {\n  await setupDevServer({\n    command: `node config/start.js --port=3000`,\n    launchTimeout: 50000,\n    port: 3000,\n  })\n  // Your global setup\n}\n```\n\nIt is also possible to specify several servers:\n\n```js\n// global-setup.js\nconst { setup: setupDevServer } = require('jest-process-manager')\n\nmodule.exports = async function globalSetup() {\n  await setupDevServer([\n    {\n      command: 'node server.js',\n      port: 4444,\n    },\n    {\n      command: 'node server2.js',\n      port: 4445,\n    },\n  ])\n  // Your global setup\n}\n```\n\n```js\n// global-setup.js\nconst { setup: setupDevServer, getServers } = require('jest-process-manager')\n\nmodule.exports = async function globalSetup() {\n  await setupDevServer({\n    command: `node config/start.js --port=3000`,\n    launchTimeout: 50000,\n    port: 3000,\n  })\n  getServers.then(servers => {\n    // You can get to the servers and do whatever you want\n  })\n  // Your global setup\n}\n```\n\n```js\n// global-teardown.js\nconst { teardown: teardownDevServer } = require('jest-process-manager')\n\nmodule.exports = async function globalTeardown() {\n  await teardownDevServer()\n  // Your global teardown\n}\n```\n\n## Options\n\n### `command`\n\nType: `string`, required.\n\nCommand to execute to start the port.\nDirectly passed to [`spawnd`](https://www.npmjs.com/package/spawnd).\n\n```js\nmodule.exports = {\n  command: 'npm run start',\n}\n```\n\n### `debug`\n\nType: `boolean`, default to `false`.\n\nLog server output, useful if server is crashing at start.\n\n```js\nmodule.exports = {\n  command: 'npm run start',\n  debug: true,\n}\n```\n\n### `launchTimeout`\n\nType: `number`, default to `5000`.\n\nHow many milliseconds to wait for the spawned server to be available before giving up.\nDefaults to [`wait-port`](https://www.npmjs.com/package/wait-port)'s default.\n\n```js\nmodule.exports = {\n  command: 'npm run start',\n  launchTimeout: 30000,\n}\n```\n\n---\n\nFollowing options are linked to [`spawnd`](https://www.npmjs.com/package/spawnd).\n\n### `host`\n\nType: `string`, default to `localhost`.\n\nHost to wait for activity on before considering the server running.\nMust be used in conjunction with `port`.\n\n```js\nmodule.exports = {\n  command: 'npm run start --port 3000',\n  host: 'customhost.com',\n  port: 3000,\n}\n```\n\n### `protocol`\n\nType: (`https`, `http`, `http-get`, `https-get`, `tcp`, `socket`) default to `tcp`.\n\nTo wait for an HTTP or TCP endpoint before considering the server running, include `http` or `tcp` as a protocol.\nMust be used in conjunction with `port`.\nThis give you ability to define resource prefix for [`wait-on`](https://github.com/jeffbski/wait-on) package.\n\n```js\nmodule.exports = {\n  command: 'npm run start --port 3000',\n  protocol: 'http',\n  port: 3000,\n}\n```\n\n### `port`\n\nType: `number`, default to `3000`.\n\nPort to wait for activity on before considering the server running.\nIf not provided, the server is assumed to immediately be running.\n\n```js\nmodule.exports = {\n  command: 'npm run start --port 3000',\n  port: 3000,\n}\n```\n\n### `basePath`\n\nType: `string`\n\nOption for a basePath where server is running.\n\n```js\nmodule.exports = {\n  command: 'npm run start',\n  basePath: '/myservice',\n}\n```\n\n### `usedPortAction`\n\nType: `string` (`ask`, `error`, `ignore`, `kill`) default to `ask`.\n\nIt defines the action to take if port is already used:\n\n- `ask`: a prompt is shown to decide if you want to kill the process or not\n- `error`: an errow is thrown\n- `ignore`: your test are executed, we assume that the server is already started\n- `kill`: the process is automatically killed without a prompt\n\n```js\nmodule.exports = {\n  command: 'npm run start --port 3000',\n  port: 3000,\n  usedPortAction: 'kill',\n}\n```\n\n### `waitOnScheme`\n\n`jest-dev-server` use the [`wait-on`](https://www.npmjs.com/package/wait-on) npm package to wait for resources to become available before calling callback.\n\nType: `object`, default to `{}`.\n\n- `delay`: optional initial delay in ms, default 0\n- `interval`: optional poll resource interval in ms, default 250ms\n- `log`: optional flag which outputs to stdout, remaining resources waited on and when complete or errored\n- `reverse`: optional flag to reverse operation so checks are for resources being NOT available, default false\n- `timeout`: optional timeout in ms, default Infinity. Aborts with error\n- `tcpTimeout`: optional tcp timeout in ms, default 300ms\n- `verbose`: optional flag which outputs debug output, default false\n- `window`: optional stabilization time in ms, default 750ms. Waits this amount of time for file sizes to stabilize or other resource availability to remain unchanged\n\n**Note:** http(s) specific options, see https://github.com/request/request#readme for specific details\n\n```js\nmodule.exports = {\n  command: 'npm run start --port 3000',\n  port: 3000,\n  usedPortAction: 'kill',\n  waitOnScheme: {\n    delay: 1000,\n  },\n}\n```\n\n### `options`\n\nOptions which will be passed down to the [spawn](https://nodejs.org/api/child_process.html#child_process_child_process_spawn_command_args_options) of the process. For example environment variables:\n\n```js\n// global-setup.js\nconst { setup: setupDevServer, getServers } = require('jest-process-manager')\n\nmodule.exports = async function globalSetup() {\n  await setupDevServer({\n    command: `node config/start.js --port=3000`,\n    launchTimeout: 50000,\n    port: 3000,\n    options: {\n      env: {\n        \"FOO\": \"bar\",\n      }\n    }\n  })\n  getServers.then(servers => {\n    // You can get to the servers and do whatever you want\n  })\n  // Your global setup\n}\n```\n\n## Troubleshooting\n\n- If using `port` makes the terminal to ask for root password although the port is valid and accessible then use `usePortAction: 'ignore'`.\n\n## License\n\nhttps://github.com/playwright-community/jest-process-manager/blob/master/LICENSE"
+}

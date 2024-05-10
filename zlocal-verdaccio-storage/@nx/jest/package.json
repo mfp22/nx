@@ -40317,6 +40317,229 @@
 			"_hasShrinkwrap": false,
 			"contributors": []
 		},
+		"19.0.2": {
+			"name": "@nx/jest",
+			"version": "19.0.2",
+			"private": false,
+			"description": "The Nx Plugin for Jest contains executors and generators allowing your workspace to use the powerful Jest testing capabilities.",
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/nrwl/nx.git",
+				"directory": "packages/jest"
+			},
+			"keywords": [
+				"Monorepo",
+				"Angular",
+				"React",
+				"Web",
+				"Node",
+				"Nest",
+				"Jest",
+				"Unit Testing",
+				"CLI"
+			],
+			"main": "./index.js",
+			"typings": "./index.d.ts",
+			"author": {
+				"name": "Victor Savkin"
+			},
+			"license": "MIT",
+			"bugs": {
+				"url": "https://github.com/nrwl/nx/issues"
+			},
+			"homepage": "https://nx.dev",
+			"generators": "./generators.json",
+			"executors": "./executors.json",
+			"ng-update": {
+				"requirements": {},
+				"migrations": "./migrations.json"
+			},
+			"dependencies": {
+				"@jest/reporters": "^29.4.1",
+				"@jest/test-result": "^29.4.1",
+				"@nx/devkit": "19.0.2",
+				"@nx/js": "19.0.2",
+				"@phenomnomnominal/tsquery": "~5.0.1",
+				"chalk": "^4.1.0",
+				"identity-obj-proxy": "3.0.0",
+				"jest-config": "^29.4.1",
+				"jest-resolve": "^29.4.1",
+				"jest-util": "^29.4.1",
+				"minimatch": "9.0.3",
+				"resolve.exports": "1.1.0",
+				"tslib": "^2.3.0",
+				"yargs-parser": "21.1.1",
+				"@nrwl/jest": "19.0.2"
+			},
+			"publishConfig": {
+				"access": "public"
+			},
+			"type": "commonjs",
+			"_id": "@nx/jest@19.0.2",
+			"gitHead": "61861be0f7335082d5e0b44fa96ff3f6d49774ad",
+			"_nodeVersion": "18.20.2",
+			"_npmVersion": "10.5.0",
+			"dist": {
+				"integrity": "sha512-oV3QBdm/chaAcj+lzrwL937QIGZNXO18puFvol0hJrmVWMNRQr8LADfVHr8+qBrThxfj+w5UhXoDcqPS38zXXg==",
+				"shasum": "9713467bde869d701479d711727c518406db3f5c",
+				"tarball": "https://registry.npmjs.org/@nx/jest/-/jest-19.0.2.tgz",
+				"fileCount": 74,
+				"unpackedSize": 113804,
+				"attestations": {
+					"url": "https://registry.npmjs.org/-/npm/v1/attestations/@nx%2fjest@19.0.2",
+					"provenance": {
+						"predicateType": "https://slsa.dev/provenance/v1"
+					}
+				},
+				"signatures": [
+					{
+						"keyid": "SHA256:jl3bwswu80PjjokCgh0o2w5c2U4LhQAE57gj9cz1kzA",
+						"sig": "MEUCIQCFMOGuti/S5ucBWd8yFbyDN9l6syzgRsuhrW41P/Q/oAIgdi99n/BNuTWh8O2cWQqU5N7X0VvO9oFmMer62nklsR4="
+					}
+				]
+			},
+			"_npmUser": {
+				"name": "nrwl-jason",
+				"email": "jason@nrwl.io"
+			},
+			"directories": {},
+			"maintainers": [
+				{
+					"name": "jameshenry",
+					"email": "james@henry.sc"
+				},
+				{
+					"name": "jack-nrwl",
+					"email": "jack@nrwl.io"
+				},
+				{
+					"name": "nrwl-jason",
+					"email": "jason@nrwl.io"
+				},
+				{
+					"name": "nrwlowner",
+					"email": "hello@nrwl.io"
+				}
+			],
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/jest_19.0.2_1715263050935_0.2212856008406794"
+			},
+			"_hasShrinkwrap": false,
+			"contributors": []
+		},
+		"19.1.0-canary.20240510-1a85787": {
+			"name": "@nx/jest",
+			"version": "19.1.0-canary.20240510-1a85787",
+			"private": false,
+			"description": "The Nx Plugin for Jest contains executors and generators allowing your workspace to use the powerful Jest testing capabilities.",
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/nrwl/nx.git",
+				"directory": "packages/jest"
+			},
+			"keywords": [
+				"Monorepo",
+				"Angular",
+				"React",
+				"Web",
+				"Node",
+				"Nest",
+				"Jest",
+				"Unit Testing",
+				"CLI"
+			],
+			"main": "./index.js",
+			"typings": "./index.d.ts",
+			"author": {
+				"name": "Victor Savkin"
+			},
+			"license": "MIT",
+			"bugs": {
+				"url": "https://github.com/nrwl/nx/issues"
+			},
+			"homepage": "https://nx.dev",
+			"generators": "./generators.json",
+			"executors": "./executors.json",
+			"ng-update": {
+				"requirements": {},
+				"migrations": "./migrations.json"
+			},
+			"dependencies": {
+				"@jest/reporters": "^29.4.1",
+				"@jest/test-result": "^29.4.1",
+				"@nx/devkit": "19.1.0-canary.20240510-1a85787",
+				"@nx/js": "19.1.0-canary.20240510-1a85787",
+				"@phenomnomnominal/tsquery": "~5.0.1",
+				"chalk": "^4.1.0",
+				"identity-obj-proxy": "3.0.0",
+				"jest-config": "^29.4.1",
+				"jest-resolve": "^29.4.1",
+				"jest-util": "^29.4.1",
+				"minimatch": "9.0.3",
+				"resolve.exports": "1.1.0",
+				"tslib": "^2.3.0",
+				"yargs-parser": "21.1.1",
+				"@nrwl/jest": "19.1.0-canary.20240510-1a85787"
+			},
+			"publishConfig": {
+				"access": "public"
+			},
+			"type": "commonjs",
+			"_id": "@nx/jest@19.1.0-canary.20240510-1a85787",
+			"readmeFilename": "README.md",
+			"gitHead": "1a85787e1c310d8409d99361800ef30e81938795",
+			"_nodeVersion": "18.20.2",
+			"_npmVersion": "10.5.0",
+			"dist": {
+				"integrity": "sha512-49R5JTDp2v8sc4pLY6LjTgpAaJA9Xnd0beGkf+hU3p44ijXxl15p/FHMR9oA64CWzysN94mQjsLhvSOdacf7yQ==",
+				"shasum": "bf2b73389d65fe2b1064150beed9e31ba2fd5948",
+				"tarball": "https://registry.npmjs.org/@nx/jest/-/jest-19.1.0-canary.20240510-1a85787.tgz",
+				"fileCount": 74,
+				"unpackedSize": 113900,
+				"attestations": {
+					"url": "https://registry.npmjs.org/-/npm/v1/attestations/@nx%2fjest@19.1.0-canary.20240510-1a85787",
+					"provenance": {
+						"predicateType": "https://slsa.dev/provenance/v1"
+					}
+				},
+				"signatures": [
+					{
+						"keyid": "SHA256:jl3bwswu80PjjokCgh0o2w5c2U4LhQAE57gj9cz1kzA",
+						"sig": "MEUCIQCZfErXSZzqO40oZAPzatJINjVWOQaFCnesKeiG/OvrRgIgUgOXtosU9MnLE6Eh69o2b9mPIcLUuVKTmxkiCIgvpxY="
+					}
+				]
+			},
+			"_npmUser": {
+				"name": "nrwl-jason",
+				"email": "jason@nrwl.io"
+			},
+			"directories": {},
+			"maintainers": [
+				{
+					"name": "jameshenry",
+					"email": "james@henry.sc"
+				},
+				{
+					"name": "jack-nrwl",
+					"email": "jack@nrwl.io"
+				},
+				{
+					"name": "nrwl-jason",
+					"email": "jason@nrwl.io"
+				},
+				{
+					"name": "nrwlowner",
+					"email": "hello@nrwl.io"
+				}
+			],
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/jest_19.1.0-canary.20240510-1a85787_1715310987336_0.25635834190186535"
+			},
+			"_hasShrinkwrap": false,
+			"contributors": []
+		},
 		"20.0.0": {
 			"name": "@nx/jest",
 			"version": "20.0.0",
@@ -40377,9 +40600,9 @@
 			"type": "commonjs",
 			"_id": "@nx/jest@20.0.0",
 			"readmeFilename": "README.md",
-			"gitHead": "792f73081571dea27da52bddf6184313bb7b5737",
-			"_nodeVersion": "20.9.0",
-			"_npmVersion": "10.1.0",
+			"gitHead": "86106e2454080d81eec30be2268bd93f9c6cfcad",
+			"_nodeVersion": "18.18.0",
+			"_npmVersion": "9.8.1",
 			"dist": {
 				"integrity": "sha512-vui5XENLik2MBvAxDQnIOUckhrmEwcDJl3wTfxoZ7ZHh2clfvplv41AegkC160OhWkUNY7GdY7PuZKExnjb5sw==",
 				"shasum": "6cec837b4291cd1456a7b841fb568b0482d119b8",
@@ -40391,7 +40614,7 @@
 	"time": {
 		"created": "2023-04-17T15:03:25.169Z",
 		"16.0.0-beta.1": "2023-04-17T15:03:25.417Z",
-		"modified": "2024-05-09T08:19:52.672Z",
+		"modified": "2024-05-10T12:56:53.605Z",
 		"16.0.0-beta.2": "2023-04-18T15:09:43.802Z",
 		"16.0.0-beta.3": "2023-04-19T16:08:24.001Z",
 		"16.0.0-beta.4": "2023-04-19T19:31:52.123Z",
@@ -40747,19 +40970,21 @@
 		"19.0.1": "2024-05-07T22:26:31.582Z",
 		"19.1.0-canary.20240508-fd78152": "2024-05-08T03:16:44.688Z",
 		"19.1.0-canary.20240509-8f705e3": "2024-05-09T03:15:50.787Z",
-		"20.0.0": "2024-05-09T08:19:52.672Z"
+		"19.0.2": "2024-05-09T13:57:31.140Z",
+		"19.1.0-canary.20240510-1a85787": "2024-05-10T03:16:27.494Z",
+		"20.0.0": "2024-05-10T12:56:53.605Z"
 	},
 	"users": {},
 	"dist-tags": {
 		"next": "19.0.0-rc.2",
 		"latest": "20.0.0",
 		"previous": "18.3.4",
-		"canary": "19.1.0-canary.20240509-8f705e3"
+		"canary": "19.1.0-canary.20240510-1a85787"
 	},
 	"_uplinks": {
 		"npmjs": {
-			"etag": "W/\"8485948c7a70b3c8454567818161ea42\"",
-			"fetched": 1715242792336
+			"etag": "W/\"1b8621aec50d47743ddd315155ed4626\"",
+			"fetched": 1715345812555
 		}
 	},
 	"_distfiles": {
@@ -42542,6 +42767,16 @@
 			"url": "https://registry.npmjs.org/@nx/jest/-/jest-19.1.0-canary.20240509-8f705e3.tgz",
 			"sha": "3d47133d0ff8b64d0bd41c244e52e860787ea840",
 			"registry": "npmjs"
+		},
+		"jest-19.0.2.tgz": {
+			"url": "https://registry.npmjs.org/@nx/jest/-/jest-19.0.2.tgz",
+			"sha": "9713467bde869d701479d711727c518406db3f5c",
+			"registry": "npmjs"
+		},
+		"jest-19.1.0-canary.20240510-1a85787.tgz": {
+			"url": "https://registry.npmjs.org/@nx/jest/-/jest-19.1.0-canary.20240510-1a85787.tgz",
+			"sha": "bf2b73389d65fe2b1064150beed9e31ba2fd5948",
+			"registry": "npmjs"
 		}
 	},
 	"_attachments": {
@@ -42550,7 +42785,7 @@
 			"version": "20.0.0"
 		}
 	},
-	"_rev": "4-96f225676e923a8d",
+	"_rev": "4-f6ac64345203da98",
 	"_id": "@nx/jest",
 	"readme": "<p style=\"text-align: center;\">\n  <picture>\n    <source media=\"(prefers-color-scheme: dark)\" srcset=\"https://raw.githubusercontent.com/nrwl/nx/master/images/nx-dark.svg\">\n    <img alt=\"Nx - Smart Monorepos · Fast CI\" src=\"https://raw.githubusercontent.com/nrwl/nx/master/images/nx-light.svg\" width=\"100%\">\n  </picture>\n</p>\n\n<div style=\"text-align: center;\">\n\n[![CircleCI](https://circleci.com/gh/nrwl/nx.svg?style=svg)](https://circleci.com/gh/nrwl/nx)\n[![License](https://img.shields.io/npm/l/@nx/workspace.svg?style=flat-square)]()\n[![NPM Version](https://badge.fury.io/js/%40nrwl%2Fworkspace.svg)](https://www.npmjs.com/@nx/workspace)\n[![Semantic Release](https://img.shields.io/badge/%20%20%F0%9F%93%A6%F0%9F%9A%80-semantic--release-e10079.svg?style=flat-square)]()\n[![Commitizen friendly](https://img.shields.io/badge/commitizen-friendly-brightgreen.svg)](http://commitizen.github.io/cz-cli/)\n[![Join the chat at https://gitter.im/nrwl-nx/community](https://badges.gitter.im/nrwl-nx/community.svg)](https://gitter.im/nrwl-nx/community?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)\n[![Join us on the Official Nx Discord Server](https://img.shields.io/discord/1143497901675401286?label=discord)](https://go.nx.dev/community)\n\n</div>\n\n\n<hr>\n\n# Nx: Smart Monorepos · Fast CI\n\nNx is a build system with built-in tooling and advanced CI capabilities. It helps you maintain and scale monorepos, both locally and on CI.\n\nThis package is a [Jest plugin for Nx](https://nx.dev/jest/overview).\n\n## Getting Started\n\n### Creating an Nx Workspace\n\n**Using `npx`**\n\n```bash\nnpx create-nx-workspace\n```\n\n**Using `npm init`**\n\n```bash\nnpm init nx-workspace\n```\n\n**Using `yarn create`**\n\n```bash\nyarn create nx-workspace\n```\n\n### Adding Nx to an Existing Repository\n\nRun:\n\n```bash\nnpx nx@latest init\n```\n\n## Documentation & Resources\n\n- [Nx.Dev: Documentation, Guides, Tutorials](https://nx.dev)\n- [Intro to Nx](https://nx.dev/getting-started/intro)\n- [Official Nx YouTube Channel](https://www.youtube.com/@NxDevtools)\n- [Blog Posts About Nx](https://blog.nrwl.io/nx/home)\n\n<p style=\"text-align: center;\"><a href=\"https://nx.dev/#learning-materials\" target=\"_blank\" rel=\"noreferrer\"><img src=\"https://raw.githubusercontent.com/nrwl/nx/master/images/nx-courses-and-videos.svg\" \nwidth=\"100%\" alt=\"Nx - Smart Monorepos · Fast CI\"></a></p>\n\n"
 }

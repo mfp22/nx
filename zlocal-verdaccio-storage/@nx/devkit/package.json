@@ -38117,6 +38117,217 @@
 			"_hasShrinkwrap": false,
 			"contributors": []
 		},
+		"19.0.2": {
+			"name": "@nx/devkit",
+			"version": "19.0.2",
+			"private": false,
+			"description": "The Nx Devkit is used to customize Nx for different technologies and use cases. It contains many utility functions for reading and writing files, updating configuration, working with Abstract Syntax Trees(ASTs), and more. Learn more about [extending Nx by",
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/nrwl/nx.git",
+				"directory": "packages/devkit"
+			},
+			"keywords": [
+				"Monorepo",
+				"Angular",
+				"React",
+				"Web",
+				"Node",
+				"Nest",
+				"Jest",
+				"Cypress",
+				"CLI"
+			],
+			"main": "./index.js",
+			"typings": "./index.d.ts",
+			"author": {
+				"name": "Victor Savkin"
+			},
+			"license": "MIT",
+			"bugs": {
+				"url": "https://github.com/nrwl/nx/issues"
+			},
+			"homepage": "https://nx.dev",
+			"dependencies": {
+				"ejs": "^3.1.7",
+				"enquirer": "~2.3.6",
+				"ignore": "^5.0.4",
+				"tmp": "~0.2.1",
+				"tslib": "^2.3.0",
+				"semver": "^7.5.3",
+				"yargs-parser": "21.1.1",
+				"minimatch": "9.0.3",
+				"@nrwl/devkit": "19.0.2"
+			},
+			"peerDependencies": {
+				"nx": ">= 17 <= 20"
+			},
+			"publishConfig": {
+				"access": "public"
+			},
+			"nx-migrations": {
+				"migrations": "./migrations.json"
+			},
+			"type": "commonjs",
+			"_id": "@nx/devkit@19.0.2",
+			"gitHead": "61861be0f7335082d5e0b44fa96ff3f6d49774ad",
+			"_nodeVersion": "18.20.2",
+			"_npmVersion": "10.5.0",
+			"dist": {
+				"integrity": "sha512-qHBWQ3ZJ4vO8AVdSlz/u/GXDrDxVsBjC1/pY1ImycnUP4NfOtmBlYdhd5aB9XvWcujSmOap0ZJGr1iapYKoWxQ==",
+				"shasum": "177a7e236ae5c498cd72b33e766a7d32e2f52906",
+				"tarball": "https://registry.npmjs.org/@nx/devkit/-/devkit-19.0.2.tgz",
+				"fileCount": 100,
+				"unpackedSize": 206936,
+				"attestations": {
+					"url": "https://registry.npmjs.org/-/npm/v1/attestations/@nx%2fdevkit@19.0.2",
+					"provenance": {
+						"predicateType": "https://slsa.dev/provenance/v1"
+					}
+				},
+				"signatures": [
+					{
+						"keyid": "SHA256:jl3bwswu80PjjokCgh0o2w5c2U4LhQAE57gj9cz1kzA",
+						"sig": "MEQCIFMHaKuAxLN99ffHYvNoEj3BpxZ36gfUcCt8vnjKOUnoAiAjL2+O+AoQoNsZIX2xdYnZ1Lc+aFzrTEYcMIC+ZK54bQ=="
+					}
+				]
+			},
+			"_npmUser": {
+				"name": "nrwl-jason",
+				"email": "jason@nrwl.io"
+			},
+			"directories": {},
+			"maintainers": [
+				{
+					"name": "jameshenry",
+					"email": "james@henry.sc"
+				},
+				{
+					"name": "jack-nrwl",
+					"email": "jack@nrwl.io"
+				},
+				{
+					"name": "nrwl-jason",
+					"email": "jason@nrwl.io"
+				},
+				{
+					"name": "nrwlowner",
+					"email": "hello@nrwl.io"
+				}
+			],
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/devkit_19.0.2_1715263032846_0.053571790903028216"
+			},
+			"_hasShrinkwrap": false,
+			"contributors": []
+		},
+		"19.1.0-canary.20240510-1a85787": {
+			"name": "@nx/devkit",
+			"version": "19.1.0-canary.20240510-1a85787",
+			"private": false,
+			"description": "The Nx Devkit is used to customize Nx for different technologies and use cases. It contains many utility functions for reading and writing files, updating configuration, working with Abstract Syntax Trees(ASTs), and more. Learn more about [extending Nx by",
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/nrwl/nx.git",
+				"directory": "packages/devkit"
+			},
+			"keywords": [
+				"Monorepo",
+				"Angular",
+				"React",
+				"Web",
+				"Node",
+				"Nest",
+				"Jest",
+				"Cypress",
+				"CLI"
+			],
+			"main": "./index.js",
+			"typings": "./index.d.ts",
+			"author": {
+				"name": "Victor Savkin"
+			},
+			"license": "MIT",
+			"bugs": {
+				"url": "https://github.com/nrwl/nx/issues"
+			},
+			"homepage": "https://nx.dev",
+			"dependencies": {
+				"ejs": "^3.1.7",
+				"enquirer": "~2.3.6",
+				"ignore": "^5.0.4",
+				"tmp": "~0.2.1",
+				"tslib": "^2.3.0",
+				"semver": "^7.5.3",
+				"yargs-parser": "21.1.1",
+				"minimatch": "9.0.3",
+				"@nrwl/devkit": "19.1.0-canary.20240510-1a85787"
+			},
+			"peerDependencies": {
+				"nx": ">= 17 <= 20"
+			},
+			"publishConfig": {
+				"access": "public"
+			},
+			"nx-migrations": {
+				"migrations": "./migrations.json"
+			},
+			"type": "commonjs",
+			"_id": "@nx/devkit@19.1.0-canary.20240510-1a85787",
+			"readmeFilename": "README.md",
+			"gitHead": "1a85787e1c310d8409d99361800ef30e81938795",
+			"_nodeVersion": "18.20.2",
+			"_npmVersion": "10.5.0",
+			"dist": {
+				"integrity": "sha512-wpyXXP7YMtoF8+/HJ0JoJzyOrll9lxVu7Z29hylN1B7AT2mq+btYWQVGJD0puSu2WwgcYwbkXaAgXGxLxFGEjA==",
+				"shasum": "ed89b6fe3f45155504db07542f5771b148593cfb",
+				"tarball": "https://registry.npmjs.org/@nx/devkit/-/devkit-19.1.0-canary.20240510-1a85787.tgz",
+				"fileCount": 100,
+				"unpackedSize": 206984,
+				"attestations": {
+					"url": "https://registry.npmjs.org/-/npm/v1/attestations/@nx%2fdevkit@19.1.0-canary.20240510-1a85787",
+					"provenance": {
+						"predicateType": "https://slsa.dev/provenance/v1"
+					}
+				},
+				"signatures": [
+					{
+						"keyid": "SHA256:jl3bwswu80PjjokCgh0o2w5c2U4LhQAE57gj9cz1kzA",
+						"sig": "MEUCIQDxI7RHGG83b6YEIXFH9bgWNws2opth0xnxLvEJVJuE+AIgJnwt48c340RbNffLJdWHk1Uf468MQgdHqSXUKMTScDI="
+					}
+				]
+			},
+			"_npmUser": {
+				"name": "nrwl-jason",
+				"email": "jason@nrwl.io"
+			},
+			"directories": {},
+			"maintainers": [
+				{
+					"name": "jameshenry",
+					"email": "james@henry.sc"
+				},
+				{
+					"name": "jack-nrwl",
+					"email": "jack@nrwl.io"
+				},
+				{
+					"name": "nrwl-jason",
+					"email": "jason@nrwl.io"
+				},
+				{
+					"name": "nrwlowner",
+					"email": "hello@nrwl.io"
+				}
+			],
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/devkit_19.1.0-canary.20240510-1a85787_1715310968207_0.24593584087233866"
+			},
+			"_hasShrinkwrap": false,
+			"contributors": []
+		},
 		"20.0.0": {
 			"name": "@nx/devkit",
 			"version": "20.0.0",
@@ -38171,9 +38382,9 @@
 			"type": "commonjs",
 			"_id": "@nx/devkit@20.0.0",
 			"readmeFilename": "README.md",
-			"gitHead": "792f73081571dea27da52bddf6184313bb7b5737",
-			"_nodeVersion": "20.9.0",
-			"_npmVersion": "10.1.0",
+			"gitHead": "86106e2454080d81eec30be2268bd93f9c6cfcad",
+			"_nodeVersion": "18.18.0",
+			"_npmVersion": "9.8.1",
 			"dist": {
 				"integrity": "sha512-h/XlcXoMpTr+Ko1o0LwSxcKkCUZSU8c9dhvwN8LmPYsG64+2VOAk+he0QPq1mOvPsGlXHN8WZHwtji98z1lDiQ==",
 				"shasum": "943d766892c5e4d84a247521445c28d9d646bd35",
@@ -38185,7 +38396,7 @@
 	"time": {
 		"created": "2023-04-17T15:02:56.261Z",
 		"16.0.0-beta.1": "2023-04-17T15:02:56.692Z",
-		"modified": "2024-05-09T08:19:49.628Z",
+		"modified": "2024-05-10T12:56:45.670Z",
 		"16.0.0-beta.2": "2023-04-18T15:09:23.548Z",
 		"16.0.0-beta.3": "2023-04-19T16:08:07.009Z",
 		"16.0.0-beta.4": "2023-04-19T19:31:36.679Z",
@@ -38543,19 +38754,21 @@
 		"19.0.1": "2024-05-07T22:26:09.874Z",
 		"19.1.0-canary.20240508-fd78152": "2024-05-08T03:16:25.012Z",
 		"19.1.0-canary.20240509-8f705e3": "2024-05-09T03:15:32.760Z",
-		"20.0.0": "2024-05-09T08:19:49.628Z"
+		"19.0.2": "2024-05-09T13:57:13.027Z",
+		"19.1.0-canary.20240510-1a85787": "2024-05-10T03:16:08.380Z",
+		"20.0.0": "2024-05-10T12:56:45.670Z"
 	},
 	"users": {},
 	"dist-tags": {
 		"next": "19.0.0-rc.2",
 		"latest": "20.0.0",
 		"previous": "18.3.4",
-		"canary": "19.1.0-canary.20240509-8f705e3"
+		"canary": "19.1.0-canary.20240510-1a85787"
 	},
 	"_uplinks": {
 		"npmjs": {
-			"etag": "W/\"4dc30ddba4319b19332d6ec508f7c5d3\"",
-			"fetched": 1715242789267
+			"etag": "W/\"d1109676e02db751864cb05c24d7ffad\"",
+			"fetched": 1715345804646
 		}
 	},
 	"_distfiles": {
@@ -40348,6 +40561,16 @@
 			"url": "https://registry.npmjs.org/@nx/devkit/-/devkit-19.1.0-canary.20240509-8f705e3.tgz",
 			"sha": "6c496452f224559d806f3325272e98ccbae7f786",
 			"registry": "npmjs"
+		},
+		"devkit-19.0.2.tgz": {
+			"url": "https://registry.npmjs.org/@nx/devkit/-/devkit-19.0.2.tgz",
+			"sha": "177a7e236ae5c498cd72b33e766a7d32e2f52906",
+			"registry": "npmjs"
+		},
+		"devkit-19.1.0-canary.20240510-1a85787.tgz": {
+			"url": "https://registry.npmjs.org/@nx/devkit/-/devkit-19.1.0-canary.20240510-1a85787.tgz",
+			"sha": "ed89b6fe3f45155504db07542f5771b148593cfb",
+			"registry": "npmjs"
 		}
 	},
 	"_attachments": {
@@ -40356,7 +40579,7 @@
 			"version": "20.0.0"
 		}
 	},
-	"_rev": "5-28897a7de50b94b0",
+	"_rev": "5-9f0c62d65246ff70",
 	"_id": "@nx/devkit",
 	"readme": "<p style=\"text-align: center;\">\n  <picture>\n    <source media=\"(prefers-color-scheme: dark)\" srcset=\"https://raw.githubusercontent.com/nrwl/nx/master/images/nx-dark.svg\">\n    <img alt=\"Nx - Smart Monorepos · Fast CI\" src=\"https://raw.githubusercontent.com/nrwl/nx/master/images/nx-light.svg\" width=\"100%\">\n  </picture>\n</p>\n\n<div style=\"text-align: center;\">\n\n[![CircleCI](https://circleci.com/gh/nrwl/nx.svg?style=svg)](https://circleci.com/gh/nrwl/nx)\n[![License](https://img.shields.io/npm/l/@nx/workspace.svg?style=flat-square)]()\n[![NPM Version](https://badge.fury.io/js/%40nrwl%2Fworkspace.svg)](https://www.npmjs.com/@nx/workspace)\n[![Semantic Release](https://img.shields.io/badge/%20%20%F0%9F%93%A6%F0%9F%9A%80-semantic--release-e10079.svg?style=flat-square)]()\n[![Commitizen friendly](https://img.shields.io/badge/commitizen-friendly-brightgreen.svg)](http://commitizen.github.io/cz-cli/)\n[![Join the chat at https://gitter.im/nrwl-nx/community](https://badges.gitter.im/nrwl-nx/community.svg)](https://gitter.im/nrwl-nx/community?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)\n[![Join us on the Official Nx Discord Server](https://img.shields.io/discord/1143497901675401286?label=discord)](https://go.nx.dev/community)\n\n</div>\n\n\n<hr>\n\n# Nx: Smart Monorepos · Fast CI\n\nNx is a build system with built-in tooling and advanced CI capabilities. It helps you maintain and scale monorepos, both locally and on CI.\n\nThis package contains a set of utilities for creating Nx plugins.\n\n## Getting Started\n\n### Creating an Nx Workspace\n\n**Using `npx`**\n\n```bash\nnpx create-nx-workspace\n```\n\n**Using `npm init`**\n\n```bash\nnpm init nx-workspace\n```\n\n**Using `yarn create`**\n\n```bash\nyarn create nx-workspace\n```\n\n### Adding Nx to an Existing Repository\n\nRun:\n\n```bash\nnpx nx@latest init\n```\n\n## Documentation & Resources\n\n- [Nx.Dev: Documentation, Guides, Tutorials](https://nx.dev)\n- [Intro to Nx](https://nx.dev/getting-started/intro)\n- [Official Nx YouTube Channel](https://www.youtube.com/@NxDevtools)\n- [Blog Posts About Nx](https://blog.nrwl.io/nx/home)\n\n<p style=\"text-align: center;\"><a href=\"https://nx.dev/#learning-materials\" target=\"_blank\" rel=\"noreferrer\"><img src=\"https://raw.githubusercontent.com/nrwl/nx/master/images/nx-courses-and-videos.svg\" \nwidth=\"100%\" alt=\"Nx - Smart Monorepos · Fast CI\"></a></p>"
 }

@@ -1,0 +1,520 @@
+{
+	"name": "can-bind-to-host",
+	"versions": {
+		"1.0.0": {
+			"name": "can-bind-to-host",
+			"version": "1.0.0",
+			"description": "Utility package to see if the node process can bind to the host or listen on a port. Can be used for checking if a host resolves to localhost.",
+			"main": "dist/index.js",
+			"scripts": {
+				"test": "jest",
+				"build": "tsc",
+				"format": "prettier --write \"src/**\"",
+				"lint": "tslint -p tsconfig.json"
+			},
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/knyzorg/can-bind-to-host.git"
+			},
+			"author": {
+				"name": "Slava Knyazev"
+			},
+			"license": "MIT",
+			"bugs": {
+				"url": "https://github.com/knyzorg/can-bind-to-host/issues"
+			},
+			"homepage": "https://github.com/knyzorg/can-bind-to-host#readme",
+			"devDependencies": {
+				"@types/jest": "^28.1.5",
+				"@types/node": "^18.0.4",
+				"jest": "^28.1.3",
+				"prettier": "^2.7.1",
+				"ts-jest": "^28.0.5",
+				"ts-node": "^10.8.2",
+				"tslint": "^6.1.3",
+				"tslint-config-prettier": "^1.18.0",
+				"typescript": "^4.7.4"
+			},
+			"gitHead": "2660028b10d5baa9c596d2d9a0a1269985a322c9",
+			"_id": "can-bind-to-host@1.0.0",
+			"_nodeVersion": "14.19.3",
+			"_npmVersion": "6.14.17",
+			"dist": {
+				"integrity": "sha512-0VNRW1vvi9ymGtEw7Wo72xKB1iX1IbwcEgn46URVD5SW/3kBZ2qke447vybhbn3t7l43tvjTvJTgcBWoj5G7Iw==",
+				"shasum": "483c32dc1c3089f19c885bc3ca68b1599ac16dc1",
+				"tarball": "https://registry.npmjs.org/can-bind-to-host/-/can-bind-to-host-1.0.0.tgz",
+				"fileCount": 5,
+				"unpackedSize": 3768,
+				"signatures": [
+					{
+						"keyid": "SHA256:jl3bwswu80PjjokCgh0o2w5c2U4LhQAE57gj9cz1kzA",
+						"sig": "MEUCIQCswF64Uu89RADhysre4fu1M89K+PAfkolhfFwWowXr4gIges/vbf0NIAfMshc1O4TeYPKuT6b8c49CUN97bhXNEcU="
+					}
+				],
+				"npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v4.10.10\r\nComment: https://openpgpjs.org\r\n\r\nwsFzBAEBCAAGBQJiz1kRACEJED1NWxICdlZqFiEECWMYAoorWMhJKdjhPU1b\r\nEgJ2VmqmahAAgTdly5wJR+xrg003a6hSxe4J7Gp9YbyDQfvmR+1TtG9lge1d\r\nN59S+CBj+eA2s6+hf+ygEu882jHOg1p0fsHSBRxjjUawmqFo7yGE1RasfdRN\r\n538szjXdCHYoh6ltxno8S7HYo6v0mccmGRD2BI9A0jzE8L/CvAPETP1Szvqr\r\ng7RmYpg17F4oqL6ukx7TBuGZr6oKTMeaypQTFEpUI9iis88ta22ZfPlySUI4\r\n5Jk5kJvYI07yOUDhJMDyLIZMbfhMCEyFJ8MXs7iLLiPd+Atsy7HJZdYfJ/GL\r\nbZ+d1LE/3yZzKKkvOUu2OD7XgIcWBO3DeScGtklIPG3W/bOvFss1j3h+5Z7N\r\nM7gq9GUZ8MRUaeL/P6ZU2NmPYW4+eu2qQvrRvRKkikDrST2QTCpjKJs025Qj\r\n9YJasedFDqbRcDAD5er9P5WBYEvlabC+TlkS0vKdwDyT0Si6GncUqerN5td5\r\nkkrjWFHLQSvuAb4/skgyKqaWmHDrMv+VcWCLQPn8z451WmPAf25IAqJULiyN\r\n5WqRLbn912jSCFwFce+KEiiF1Vt2WT3uU/g2zyt6xGTYPE0fAxhNCw2g3eca\r\n23JV0ZW3E68lnQ443+3kjuwFt+c0bIQY8C1WfuyFDmk3QvGGyArJn3aZOZbl\r\nsXZP0ZQcyWib9elB+tUP8EsIcjm5pqrFcOk=\r\n=ycii\r\n-----END PGP SIGNATURE-----\r\n"
+			},
+			"_npmUser": {
+				"name": "knyzorg",
+				"email": "slava@knyz.org"
+			},
+			"directories": {},
+			"maintainers": [
+				{
+					"name": "knyzorg",
+					"email": "slava@knyz.org"
+				}
+			],
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/can-bind-to-host_1.0.0_1657755920826_0.9640886834729447"
+			},
+			"_hasShrinkwrap": false,
+			"contributors": []
+		},
+		"1.0.1": {
+			"name": "can-bind-to-host",
+			"version": "1.0.1",
+			"description": "Utility package to see if the node process can bind to the host or listen on a port. Can be used for checking if a host resolves to localhost.",
+			"main": "dist/index.js",
+			"scripts": {
+				"test": "jest",
+				"build": "tsc",
+				"format": "prettier --write \"src/**\"",
+				"lint": "tslint -p tsconfig.json"
+			},
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/knyzorg/can-bind-to-host.git"
+			},
+			"author": {
+				"name": "Slava Knyazev"
+			},
+			"license": "MIT",
+			"bugs": {
+				"url": "https://github.com/knyzorg/can-bind-to-host/issues"
+			},
+			"homepage": "https://github.com/knyzorg/can-bind-to-host#readme",
+			"devDependencies": {
+				"@types/jest": "^28.1.5",
+				"@types/node": "^18.0.4",
+				"jest": "^28.1.3",
+				"prettier": "^2.7.1",
+				"ts-jest": "^28.0.5",
+				"ts-node": "^10.8.2",
+				"tslint": "^6.1.3",
+				"tslint-config-prettier": "^1.18.0",
+				"typescript": "^4.7.4"
+			},
+			"gitHead": "2660028b10d5baa9c596d2d9a0a1269985a322c9",
+			"_id": "can-bind-to-host@1.0.1",
+			"_nodeVersion": "14.19.3",
+			"_npmVersion": "6.14.17",
+			"dist": {
+				"integrity": "sha512-w7nVnMrcwpXbKkHtsNTpz0QQp6M14y3y5OIGF3c+h0UsOZeSfxkgDh3YS9+aQ7q2w2SIb+Pn29X3IyaxxsoKHw==",
+				"shasum": "c8474cf9550097bfea305f18491bb7bbcc7afc39",
+				"tarball": "https://registry.npmjs.org/can-bind-to-host/-/can-bind-to-host-1.0.1.tgz",
+				"fileCount": 7,
+				"unpackedSize": 10908,
+				"signatures": [
+					{
+						"keyid": "SHA256:jl3bwswu80PjjokCgh0o2w5c2U4LhQAE57gj9cz1kzA",
+						"sig": "MEYCIQCZDYgBFHEEVocAV9kO7zoK2DfFSPBsLKKX16mwYXYLDAIhAIXyJhonK/hoCW6b/t7AHjipgATUSVrBM3kI0V61kSfh"
+					}
+				],
+				"npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v4.10.10\r\nComment: https://openpgpjs.org\r\n\r\nwsFzBAEBCAAGBQJiz1tXACEJED1NWxICdlZqFiEECWMYAoorWMhJKdjhPU1b\r\nEgJ2VmqOOA/8DwAEfQoa7T7axtRm3Lbgi2+0BBVcV1P5QQdulDRdPXMVJYc6\r\nXq6koTsa8VhXU5jKkh25U1UF1mWfLNqgUsk1Q8x2OJANg0FnGI3Rx4jr8zNH\r\nieB8uLpwGIDm5aIZg+L/fDcRMIsL0Nh9jvkSxYnGVw5FVy6uRt/mIyPKBQ6W\r\nxIDM60VMP8u1dYZuIM7SmWkOWKFAgS6uf92+2TLVVHQnZSVnAsofatXnjokR\r\n/3i5o0H7enyIF/LW71Fx99Lq1JlDoMxy1dLW4llpDIWGTCtPKxX9sFO98LfF\r\n8REVPjGxXWsBqbnP4fIgCFJIiy8n4UUifA+DqrnTqWMFs4ScpF1jBHQXtudE\r\nbScjKZIucWMm+eYFx9rnM2CD+nR7XPupSUiQzKScHSExRv6nkQ4LmfmVvWqK\r\nUy9loOJ4s7BZq22ENYmcVGS8oFXkoPk5li5IH1bVoSK8zhbhRDxLOosa/+P1\r\nMS/JPwCNuCWZclJu5DKA3uhGREYWoEbVLU4/4s+grxcOhIMGP1SBOwXZQaLh\r\nWacwivQW5WItakFWzUeeLiTm3AulSgmqTHKEtpDaPo3f81srnx0qV7yxWe04\r\nADvoA3asjww3hSThogBPlqmNe7SEjR+UyL/xik7359k1pLNdAxSCW+dg+M2a\r\ncytKlB7MlcYJauZQvk0ECOnaGeglO1RuaB4=\r\n=dx9u\r\n-----END PGP SIGNATURE-----\r\n"
+			},
+			"_npmUser": {
+				"name": "knyzorg",
+				"email": "slava@knyz.org"
+			},
+			"directories": {},
+			"maintainers": [
+				{
+					"name": "knyzorg",
+					"email": "slava@knyz.org"
+				}
+			],
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/can-bind-to-host_1.0.1_1657756503810_0.45041873032264723"
+			},
+			"_hasShrinkwrap": false,
+			"contributors": []
+		},
+		"1.0.2": {
+			"name": "can-bind-to-host",
+			"version": "1.0.2",
+			"description": "Utility package to see if the node process can bind to the host or listen on a port. Can be used for checking if a host resolves to localhost.",
+			"main": "dist/index.js",
+			"bin": {
+				"can-bind-to-host": "dist/bin/can-bind-to-host.js"
+			},
+			"scripts": {
+				"prepublishOnly": "npm run build",
+				"test": "jest",
+				"build": "tsc",
+				"format": "prettier --write \"src/**\"",
+				"lint": "tslint -p tsconfig.json"
+			},
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/knyzorg/can-bind-to-host.git"
+			},
+			"author": {
+				"name": "Slava Knyazev"
+			},
+			"license": "MIT",
+			"bugs": {
+				"url": "https://github.com/knyzorg/can-bind-to-host/issues"
+			},
+			"homepage": "https://github.com/knyzorg/can-bind-to-host#readme",
+			"devDependencies": {
+				"@types/jest": "^28.1.5",
+				"@types/node": "^18.0.4",
+				"jest": "^28.1.3",
+				"prettier": "^2.7.1",
+				"ts-jest": "^28.0.5",
+				"ts-node": "^10.8.2",
+				"tslint": "^6.1.3",
+				"tslint-config-prettier": "^1.18.0",
+				"typescript": "^4.7.4"
+			},
+			"types": "./dist/index.d.ts",
+			"gitHead": "4e0a8cd6cda74dc84fd96db01d45a4f8f45cdd48",
+			"_id": "can-bind-to-host@1.0.2",
+			"_nodeVersion": "16.16.0",
+			"_npmVersion": "8.11.0",
+			"dist": {
+				"integrity": "sha512-cWe8frwPJTz2AI1n80BuCz0dY0bqS7xH5ysHm7HrViYvJkmc1QWgOM9QiNP9tdS7ngR1UpR8DoLVO9uBOgE2CQ==",
+				"shasum": "381c6f1d4e2d3320b77f5a2b36c3b8cdfecc6d13",
+				"tarball": "https://registry.npmjs.org/can-bind-to-host/-/can-bind-to-host-1.0.2.tgz",
+				"fileCount": 7,
+				"unpackedSize": 6000,
+				"signatures": [
+					{
+						"keyid": "SHA256:jl3bwswu80PjjokCgh0o2w5c2U4LhQAE57gj9cz1kzA",
+						"sig": "MEUCIEEsKb0hYqcQAMMol7yOzUrYHx6CF/67MGJBebSyrNbyAiEAvxseapb2D2tRZTGQThOVXqBR9CgDXXYP5ULlqcFJdUY="
+					}
+				],
+				"npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v4.10.10\r\nComment: https://openpgpjs.org\r\n\r\nwsFzBAEBCAAGBQJiz4YQACEJED1NWxICdlZqFiEECWMYAoorWMhJKdjhPU1b\r\nEgJ2VmrRgg//Vg68TkFGhxGnIkkV4InWisHDUwyacuISszxWPnl+VaSvw9gd\r\n12J5vnSBgEXQS84IyADQTFRvpyTSavk0rCMfn026VvOjh/BzGJhvCkrPSKFm\r\n2WnlQ8W0VyVDy3hBk6b2tsyKoIDxpW5RJEbyPdDN6SEU2z06VNT8vGcSKDIO\r\nqLh8o241VutfKeSFZeXiMC7QskIbdbkzV5hcNcoGlVXKaF7KnwZ05ZrTHT14\r\nTh5486GRFPSUvEOnImbrcaYoyarRxMxPE77Qt1KJu7Ts596oTAv+PcMp1fMk\r\nAeE+NBF1XOo42B3Qwv68CdjAObiKP2kR/9s3Qzo2xTzbyxtGOG4cXbfzw2YG\r\naBHu3HsX/cMne8+JtXoi/F8dhvWK8vjnuXeO6bDPijfIdr3RYaUoaUm2+bFe\r\no4CAGgwtVgUNprTo1+4S6L5zpswkybvbgqNq25WL6eDJDvafZmGBufj7Zb1I\r\nuIqdW5w7V0Z2tK8FYoCVD70rZBTENnSplIb4ppbb0AIZUUsmPQVWwEBI8loh\r\n+7Wzd0Dj70jVrZjyZByubRWy03RuQDpdWA1kg4Kv80nXVci+8h59m3xde5dy\r\nDgBb6xcyTatEv6ehFA0zrdMDMRToWeLOBCF57T4NJFgfSvk4S1QPej45oQWg\r\nZ4ALSBoYvbWyd2LVYoZ+ObQDA7dx3VeNzIg=\r\n=bgrb\r\n-----END PGP SIGNATURE-----\r\n"
+			},
+			"_npmUser": {
+				"name": "knyzorg",
+				"email": "slava@knyz.org"
+			},
+			"directories": {},
+			"maintainers": [
+				{
+					"name": "knyzorg",
+					"email": "slava@knyz.org"
+				}
+			],
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/can-bind-to-host_1.0.2_1657767440342_0.7967587033698347"
+			},
+			"_hasShrinkwrap": false,
+			"contributors": []
+		},
+		"1.1.0": {
+			"name": "can-bind-to-host",
+			"version": "1.1.0",
+			"description": "Utility package to see if the node process can bind to the host or listen on a port. Can be used for checking if a host resolves to localhost.",
+			"main": "dist/index.js",
+			"bin": {
+				"can-bind-to-host": "dist/bin/can-bind-to-host.js"
+			},
+			"scripts": {
+				"prepublishOnly": "npm run build",
+				"test": "jest",
+				"build": "tsc",
+				"lint": "eslint . --ext .ts",
+				"lint:fix": "eslint --fix . --ext .ts"
+			},
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/knyzorg/can-bind-to-host.git"
+			},
+			"author": {
+				"name": "Slava Knyazev"
+			},
+			"license": "MIT",
+			"bugs": {
+				"url": "https://github.com/knyzorg/can-bind-to-host/issues"
+			},
+			"homepage": "https://github.com/knyzorg/can-bind-to-host#readme",
+			"devDependencies": {
+				"@types/jest": "^28.1.5",
+				"@types/node": "^18.0.4",
+				"@typescript-eslint/eslint-plugin": "^5.30.6",
+				"@typescript-eslint/parser": "^5.30.6",
+				"eslint": "^8.19.0",
+				"eslint-config-airbnb-base": "^15.0.0",
+				"eslint-plugin-import": "^2.26.0",
+				"eslint-plugin-jest": "^26.5.3",
+				"jest": "^28.1.3",
+				"ts-jest": "^28.0.5",
+				"ts-node": "^10.8.2",
+				"tslint": "^6.1.3",
+				"tslint-config-prettier": "^1.18.0",
+				"typescript": "^4.7.4"
+			},
+			"types": "./dist/index.d.ts",
+			"gitHead": "a1e826967f107528ce218ecf56be99647abb04b6",
+			"_id": "can-bind-to-host@1.1.0",
+			"_nodeVersion": "16.16.0",
+			"_npmVersion": "8.11.0",
+			"dist": {
+				"integrity": "sha512-YlEf0IZm3KU2mKYtWq5zoTR54qL/FfyiptwtTPgig/fIWTy8Hly0goMPVSvgStT/L5NRW5pY63PY2WBHOB/dJQ==",
+				"shasum": "92ec1678a3163bfab99b3e794539f494c87a7269",
+				"tarball": "https://registry.npmjs.org/can-bind-to-host/-/can-bind-to-host-1.1.0.tgz",
+				"fileCount": 7,
+				"unpackedSize": 6629,
+				"signatures": [
+					{
+						"keyid": "SHA256:jl3bwswu80PjjokCgh0o2w5c2U4LhQAE57gj9cz1kzA",
+						"sig": "MEQCIDxBQBSRBEORXy+x+6dH69ruVxFWGXfmvGuH2P0du6c8AiA/JekRImaFHCq2ZtH/xz3rjOWmfa0ZXtWRSRCCgIQQQw=="
+					}
+				],
+				"npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v4.10.10\r\nComment: https://openpgpjs.org\r\n\r\nwsFzBAEBCAAGBQJiz6DNACEJED1NWxICdlZqFiEECWMYAoorWMhJKdjhPU1b\r\nEgJ2VmqMTg/+L97T/6B4cceiUnCEywY4L6Y/E+NEcXbiuvxU70+xKksp81rA\r\nDV2q6jgpn7DqXbATfGlMC3lUryxTRo0JK6zeXTW5raCKzNt54Z3vvfE55nuu\r\n7Jsw1EozsnknXSogQm0yHZrVn0ztfpbUIwkiZ/qXoeIlb3yj8lGSg1CPaiyk\r\nalZcNd/gmWuIVi5GiufaexktDSHGxZ/1cN3cDBLDyku2usd2IBJtoasZzcox\r\nsdMHGtDWVZjT188nDxkwwQ/GJmXxrv6U2D1uE0pAgzi1NTXjkJf2+sU/nXnt\r\nWXnpLu+dtJUMARzk9u7hG+EsgStVxHYvWdLG+kGDSPa9vFrO7ermQXLjGJFB\r\nme1xq9df1QW3EqcPmU53yDMM+YcDpAlqWPlbYdKYYkxu+ElMkM/EAOP8gzQj\r\nJTG9scoicbZMey36E5CPtQgCasyO9m24bu8WHWG00TJ2+kCndyPcYNcQozGB\r\nlm3o8RB6N+O5l/AijdO0OVneCAHqDYMhsgkzReT/M5l8jendtc4/3SN4/9XH\r\n+jDuOIXj54laFWxc7ybUu8rezxyo113vOYcnNV0JmzuhqIF6Pgcjs1buOLBe\r\nUX4aNe3YFNROpZ0L8VFJGfsRlwxZu0wulIolC5Jw+/7GpSe7f/1vL7QLgVqf\r\nKZWeFFehzx+MVf5P/v3WSxHjSjT7TBlJFKA=\r\n=08yE\r\n-----END PGP SIGNATURE-----\r\n"
+			},
+			"_npmUser": {
+				"name": "knyzorg",
+				"email": "slava@knyz.org"
+			},
+			"directories": {},
+			"maintainers": [
+				{
+					"name": "knyzorg",
+					"email": "slava@knyz.org"
+				}
+			],
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/can-bind-to-host_1.1.0_1657774285130_0.5590386836380545"
+			},
+			"_hasShrinkwrap": false,
+			"contributors": []
+		},
+		"1.1.1": {
+			"name": "can-bind-to-host",
+			"version": "1.1.1",
+			"description": "Utility package to see if the node process can bind to the host or listen on a port. Can be used for checking if a host resolves to localhost.",
+			"main": "dist/index.js",
+			"bin": {
+				"can-bind-to-host": "dist/bin/can-bind-to-host.js"
+			},
+			"scripts": {
+				"prepublishOnly": "npm run build",
+				"test": "jest",
+				"build": "tsc",
+				"lint": "eslint . --ext .ts",
+				"lint:fix": "eslint --fix . --ext .ts"
+			},
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/knyzorg/can-bind-to-host.git"
+			},
+			"author": {
+				"name": "Slava Knyazev"
+			},
+			"license": "MIT",
+			"bugs": {
+				"url": "https://github.com/knyzorg/can-bind-to-host/issues"
+			},
+			"homepage": "https://github.com/knyzorg/can-bind-to-host#readme",
+			"devDependencies": {
+				"@types/jest": "^28.1.5",
+				"@types/node": "^18.0.4",
+				"@typescript-eslint/eslint-plugin": "^5.30.6",
+				"@typescript-eslint/parser": "^5.30.6",
+				"eslint": "^8.19.0",
+				"eslint-config-airbnb-base": "^15.0.0",
+				"eslint-plugin-import": "^2.26.0",
+				"eslint-plugin-jest": "^26.5.3",
+				"jest": "^28.1.3",
+				"ts-jest": "^28.0.5",
+				"ts-node": "^10.8.2",
+				"tslint": "^6.1.3",
+				"tslint-config-prettier": "^1.18.0",
+				"typescript": "^4.7.4"
+			},
+			"types": "./dist/index.d.ts",
+			"gitHead": "dbebd38cd9302e18e195557523b4c6aff47cc2be",
+			"_id": "can-bind-to-host@1.1.1",
+			"_nodeVersion": "16.16.0",
+			"_npmVersion": "8.11.0",
+			"dist": {
+				"integrity": "sha512-N77gqI16w76kZEmb5keGBWJRydYaYv2N1wJc7vbg7ElSHI8jcMsyvFPtyJ4lFL3jFbloAqbilnZKU+TYJaGhNg==",
+				"shasum": "e858f37e78303eca045926992335f1a83cd16fcf",
+				"tarball": "https://registry.npmjs.org/can-bind-to-host/-/can-bind-to-host-1.1.1.tgz",
+				"fileCount": 7,
+				"unpackedSize": 6569,
+				"signatures": [
+					{
+						"keyid": "SHA256:jl3bwswu80PjjokCgh0o2w5c2U4LhQAE57gj9cz1kzA",
+						"sig": "MEYCIQCfJBCT/GJJB4dKXsxrlnRWJBKmAlaCuQqvd2uydKgf6gIhAMkFsA035JpVsn2G/6O+2JPm3AZN1g6/k9QgeyEfQOVu"
+					}
+				],
+				"npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v4.10.10\r\nComment: https://openpgpjs.org\r\n\r\nwsFzBAEBCAAGBQJi0EWmACEJED1NWxICdlZqFiEECWMYAoorWMhJKdjhPU1b\r\nEgJ2Vmpq7g//V2P+5Yh+z96OLeQzKxpTF2Lgbe/cuKaLlJKlddqvgFjuTu02\r\n2VaEZshHv0cTReyJS4LOo8PbkGJ7JT1+cQ4fKAX7hNCdvReInAH2xmP4jbY4\r\nzpSc8OruV8q4Ri4YJgvvQuOnPkbGb2TVacJhQznQ39i7FbaRQch5BoV3FuuF\r\nvgpE0d6TnhV7WrslOsDVcn04W7qANVvAwSb3BK7ocqqTOyBOMHJHqduDLYcd\r\nI2uYdsnSuyZ7MNqlXrdXBQ3BgcO/CQneYWlKF5xDRTQFggsoxtcUUwhsIy3q\r\nDtra2+a4fEVNV8FAJNOFEMH6wMk7pK/uOVV2kj4ysY69FWhwSs4+wfBQ4038\r\n7WbefB+y6DHWX1by1FjTb9SgOOT9dlk+El399ZBsGTHrAeeT7eFLcCN2DkD9\r\nco5e60D9+euzhVoeIG81Vh0z+4PT7mR4qTmHusnP/kZ9O3Las9KOgmw8CAjr\r\ne+veMT6iPE6zmnw2rVXAKVDqYfG/AhDQEvLAn9f7JqBbLtwQDA+tgM70pURv\r\n/mgYQDYpkhKSy4DNclrJ9AuX9r6HnjZCwdMg5k8b4MJ2VkAf4HVhvF3nJ3mH\r\nvLepOY8ihG1I+4AHK4Yj9L3on9BmZehOchyOpaxMlJtGNeAY247FkNJoy4Ke\r\nqy8jd4PuUBWrRYe5MBn0CgR0zffuptC3Sfw=\r\n=LTnf\r\n-----END PGP SIGNATURE-----\r\n"
+			},
+			"_npmUser": {
+				"name": "knyzorg",
+				"email": "slava@knyz.org"
+			},
+			"directories": {},
+			"maintainers": [
+				{
+					"name": "knyzorg",
+					"email": "slava@knyz.org"
+				}
+			],
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/can-bind-to-host_1.1.1_1657816486763_0.1376920774897883"
+			},
+			"_hasShrinkwrap": false,
+			"contributors": []
+		},
+		"1.1.2": {
+			"name": "can-bind-to-host",
+			"version": "1.1.2",
+			"description": "Utility package to see if the node process can bind to the host or listen on a port. Can be used for checking if a host resolves to localhost.",
+			"main": "dist/index.js",
+			"bin": {
+				"can-bind-to-host": "dist/bin/can-bind-to-host.js"
+			},
+			"scripts": {
+				"prepublishOnly": "npm run build",
+				"test": "jest",
+				"build": "tsc",
+				"lint": "eslint . --ext .ts",
+				"lint:fix": "eslint --fix . --ext .ts"
+			},
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/knyzorg/can-bind-to-host.git"
+			},
+			"author": {
+				"name": "Slava Knyazev"
+			},
+			"license": "MIT",
+			"bugs": {
+				"url": "https://github.com/knyzorg/can-bind-to-host/issues"
+			},
+			"homepage": "https://github.com/knyzorg/can-bind-to-host#readme",
+			"devDependencies": {
+				"@types/jest": "^28.1.5",
+				"@types/node": "^18.0.4",
+				"@typescript-eslint/eslint-plugin": "^5.30.6",
+				"@typescript-eslint/parser": "^5.30.6",
+				"eslint": "^8.19.0",
+				"eslint-config-airbnb-base": "^15.0.0",
+				"eslint-plugin-import": "^2.26.0",
+				"eslint-plugin-jest": "^26.5.3",
+				"jest": "^28.1.3",
+				"ts-jest": "^28.0.5",
+				"ts-node": "^10.8.2",
+				"tslint": "^6.1.3",
+				"tslint-config-prettier": "^1.18.0",
+				"typescript": "^4.7.4"
+			},
+			"types": "./dist/index.d.ts",
+			"gitHead": "c028cc69284b327e53685d564676293ee2932e4f",
+			"_id": "can-bind-to-host@1.1.2",
+			"_nodeVersion": "16.16.0",
+			"_npmVersion": "8.11.0",
+			"dist": {
+				"integrity": "sha512-CqsgmaqiyFRNtP17Ihqa/uHbZxRirntNVNl/kJz31DLKuNRfzvzionkLoUSkElQ6Cz+cpXKA3mhHq4tjbieujA==",
+				"shasum": "45919a1fb426eb1b709ddd4853cd5eda0549e606",
+				"tarball": "https://registry.npmjs.org/can-bind-to-host/-/can-bind-to-host-1.1.2.tgz",
+				"fileCount": 7,
+				"unpackedSize": 6935,
+				"signatures": [
+					{
+						"keyid": "SHA256:jl3bwswu80PjjokCgh0o2w5c2U4LhQAE57gj9cz1kzA",
+						"sig": "MEQCIH4clghHdPNElwnOjRUnVMztXIItZOwGskOX/Tn/SGrdAiAkObGy3l5BMyDgLQSBsR6ux3jpW3Hu/CDmPWsOclzCOg=="
+					}
+				],
+				"npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v4.10.10\r\nComment: https://openpgpjs.org\r\n\r\nwsFzBAEBCAAGBQJi2xbLACEJED1NWxICdlZqFiEECWMYAoorWMhJKdjhPU1b\r\nEgJ2Vmq7Ww//c/rY+kUJo4IPqNDe1tnbWiUfWKhuamjBwJ4V2niWreooHOEB\r\nLv3iiDZ33WME7hOUGuSGXmSFqgnsMp7nCgNAzVUoq7mAiZuYMuSFULVe7LKL\r\ncEy8/BUNKtfxKJqne6n4y/4YWxxLW7TMvrr1yPdsNKSOwySKZ+9Z+IvE/iJv\r\nObYU4Qg45wSgn+bMDmWdzcWCUq0yGCdnZCLxND+X1vCJ2TmzDNT+OUfEqTwY\r\n6lojDRIgl/W13KWBdShr+4Wcc3vatne1pqLXqSY/q5OxwHCt1C/TGzNxBZ6h\r\nh0MhnhjuxHyGiG5m/s+seh3QZWP5zejsxs8aLfGWBggR1uLSqXeLYCarJBJD\r\nJ/+0J2t5+8CPvUrcKJpJvr/6J2+5f1fH+uidK802/9Q0iidRny2Bs5h2NZZ0\r\nunPJjiUHpFR4i4VApqIudMydtanSQ/Pt7pY10J8vVHI92nAMQ4GO1vddur/d\r\n5tuTDdvOndZ5hQBOm/wGXmTt2sjENa3kZ7WHEGAShecRFuWYSmwCVmdhDqJX\r\n3wiWRJfZ1th32ISb4RiyB9km2wTmsKTYky91XvoQBfQVOtOQYahOSfX7rRha\r\nE5sa0TkYVBJ3joZrMOftXAURbnYZ4t3SALhca32JqSz7UDsyJ3q0hVnReuk3\r\n1mQMwQ18dY3BrEsvWe/o6SmSrLmN7v37tMQ=\r\n=LUF4\r\n-----END PGP SIGNATURE-----\r\n"
+			},
+			"_npmUser": {
+				"name": "knyzorg",
+				"email": "slava@knyz.org"
+			},
+			"directories": {},
+			"maintainers": [
+				{
+					"name": "knyzorg",
+					"email": "slava@knyz.org"
+				}
+			],
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/can-bind-to-host_1.1.2_1658525387407_0.7274924778485004"
+			},
+			"_hasShrinkwrap": false,
+			"contributors": []
+		}
+	},
+	"time": {
+		"created": "2022-07-13T23:45:20.826Z",
+		"1.0.0": "2022-07-13T23:45:21.019Z",
+		"modified": "2022-07-22T21:29:47.663Z",
+		"1.0.1": "2022-07-13T23:55:03.943Z",
+		"1.0.2": "2022-07-14T02:57:20.525Z",
+		"1.1.0": "2022-07-14T04:51:25.316Z",
+		"1.1.1": "2022-07-14T16:34:46.932Z",
+		"1.1.2": "2022-07-22T21:29:47.590Z"
+	},
+	"users": {},
+	"dist-tags": {
+		"latest": "1.1.2"
+	},
+	"_uplinks": {
+		"npmjs": {
+			"etag": "W/\"aeeaafda374fdb19ae2b3b84771c1fe4\"",
+			"fetched": 1715345972193
+		}
+	},
+	"_distfiles": {
+		"can-bind-to-host-1.0.0.tgz": {
+			"url": "https://registry.npmjs.org/can-bind-to-host/-/can-bind-to-host-1.0.0.tgz",
+			"sha": "483c32dc1c3089f19c885bc3ca68b1599ac16dc1",
+			"registry": "npmjs"
+		},
+		"can-bind-to-host-1.0.1.tgz": {
+			"url": "https://registry.npmjs.org/can-bind-to-host/-/can-bind-to-host-1.0.1.tgz",
+			"sha": "c8474cf9550097bfea305f18491bb7bbcc7afc39",
+			"registry": "npmjs"
+		},
+		"can-bind-to-host-1.0.2.tgz": {
+			"url": "https://registry.npmjs.org/can-bind-to-host/-/can-bind-to-host-1.0.2.tgz",
+			"sha": "381c6f1d4e2d3320b77f5a2b36c3b8cdfecc6d13",
+			"registry": "npmjs"
+		},
+		"can-bind-to-host-1.1.0.tgz": {
+			"url": "https://registry.npmjs.org/can-bind-to-host/-/can-bind-to-host-1.1.0.tgz",
+			"sha": "92ec1678a3163bfab99b3e794539f494c87a7269",
+			"registry": "npmjs"
+		},
+		"can-bind-to-host-1.1.1.tgz": {
+			"url": "https://registry.npmjs.org/can-bind-to-host/-/can-bind-to-host-1.1.1.tgz",
+			"sha": "e858f37e78303eca045926992335f1a83cd16fcf",
+			"registry": "npmjs"
+		},
+		"can-bind-to-host-1.1.2.tgz": {
+			"url": "https://registry.npmjs.org/can-bind-to-host/-/can-bind-to-host-1.1.2.tgz",
+			"sha": "45919a1fb426eb1b709ddd4853cd5eda0549e606",
+			"registry": "npmjs"
+		}
+	},
+	"_attachments": {
+		"can-bind-to-host-1.1.2.tgz": {
+			"shasum": "45919a1fb426eb1b709ddd4853cd5eda0549e606"
+		}
+	},
+	"_rev": "2-55c56c2d4747eec5",
+	"_id": "can-bind-to-host",
+	"readme": "# can-bind-to-host\n\n[![Node.js CI](https://github.com/knyzorg/can-bind-to-host/actions/workflows/node.js.yml/badge.svg)](https://github.com/knyzorg/can-bind-to-host/actions/workflows/node.js.yml)\n\n[![Publish to NPM](https://github.com/knyzorg/can-bind-to-host/actions/workflows/npm-publish.yml/badge.svg)](https://github.com/knyzorg/can-bind-to-host/actions/workflows/npm-publish.yml)\n\n`can-bind-to-host` serves to definitively tell if a host (hostname or IP address) can be bound to. This is useful to determining if the given host is equivalent to `localhost`.\n\nThis package was written to replace the abandonned `is-localhost-ip` package.\n\n> **Note:** In the context of this README, `localhost` is used as a familiar term for _the IPs (or hostnames that resolve to them) which are associated with the network interface(s) of the local system_. This includes `localhost`, `127.0.0.1`, `0.0.0.0`, `::1`, and even public domains that happen to resolve to an IP which points to your own system.\n\n## Implementation\n\nThe implementation of `can-bind-to-host` is very short (it's less than 25 lines!). It functions by attempting to create a TCP server on the specified host (and optionally port). The underlying standard `net` module handles DNS resolution as needed.\n\n## Usage\n\n### API\n\n```js\nimport canBindToHost from 'can-bind-to-host';\n\n// Check if bindable to localhost:8080\ncanBindToHost(\"localhost\", 8080)\n    .then(bindable => bindable ? \"Yes\" : \"No\")\n    .then(answer => console.log(answer))\n```\n\n[Example](/src/bin/can-bind-to-host.ts)\n\n### CLI\n\nYou can try out the package via `npx` in CLI:\n\nUsage:\n\n```\nnpx can-bind-to-host [hostname] [port]\n```\n\nExamples:\n\n```bash\n$ npx can-bind-to-host           \n0.0.0.0:0 is bindable\n\n$ npx can-bind-to-host localhost 8080\nlocalhost:8080 is bindable\n\n$ npx can-bind-to-host localhost\nlocalhost:0 is bindable\n```\n\n## Can I use `can-bind-to-host` to check if a host is localhost?\n\n### Short Answer:\n\n**Yes!**\n\n### Long Answer:\n\nIn general, `can-bind-to-host` can reliably detect whether a given host points to localhost.\n\nUnlike `is-localhost-ip` which uses regular expressions to determine if an IP is local and can mislead by unusual network configurations, this package can definitively rule out any host which is not local.\n\nFor similar reasons as above, this package can return false negatives in case of using this package under an extremely restricted user. This can be mitigated by running an additional check on `0.0.0.0` to see whether the process has the permissions to bind to localhost at all.\n\nAs long as the process uses this package can bind to a local port, it will be accurate."
+}

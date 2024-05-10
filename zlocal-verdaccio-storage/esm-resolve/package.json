@@ -1,0 +1,934 @@
+{
+	"name": "esm-resolve",
+	"versions": {
+		"1.0.0": {
+			"name": "esm-resolve",
+			"version": "1.0.0",
+			"description": "Resolves ESM imports in JS",
+			"main": "index.js",
+			"exports": {
+				".": {
+					"import": "./index.js"
+				}
+			},
+			"type": "module",
+			"scripts": {
+				"test": "ava"
+			},
+			"author": {
+				"name": "Sam Thorogood",
+				"email": "sam.thorogood@gmail.com"
+			},
+			"license": "Apache-2.0",
+			"devDependencies": {
+				"@types/node": "^14.14.25",
+				"ava": "^3.15.0"
+			},
+			"types": "index.d.ts",
+			"gitHead": "a6a6594963efd49b0b84b96b4718eac5e0281cf8",
+			"_id": "esm-resolve@1.0.0",
+			"_nodeVersion": "15.8.0",
+			"_npmVersion": "7.5.0",
+			"dist": {
+				"integrity": "sha512-iFDrBEmcG9obXf26v/33b9612X6YrRhYuFRdF6e5LyIkZPq+F/yEIixYRdIPYPffmB9VbmMaC4c2QaSBQ1Z90w==",
+				"shasum": "6bcae925181e87ea5dba5eade42b421123f485c5",
+				"tarball": "https://registry.npmjs.org/esm-resolve/-/esm-resolve-1.0.0.tgz",
+				"fileCount": 8,
+				"unpackedSize": 29147,
+				"npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.13\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJgH3ubCRA9TVsSAnZWagAAt4MP/0AYnTEPHTOJ6jKy91//\n/s3NkFzSdS4thpIebmxPaNJYfGefYR/RAazfN3plo6h7x2pIf9KNMkdmigHR\nPHXfk1cO39Aq6Ru/liZDzSldk82Z9nEfGbdipOKxwgExmPfhZHLaWYFbD9Uv\nGQE4m0ZwGsQ5SoGK7TOoJNMrfDMSCAvUBbfUxz5kxlYmzcqWlYpxPigdFfxs\njF+1hKalRm8wMw+xxFwGyP+hfdg0w99/lhXYIaSeDFC/Xp2s2vp1VMeRY+Rl\n3WZwjckuoRD4cR7dzIUDEiUrKPfjIARn/w9cYeeWULeiL4kDgdtm5uX0fbRS\nGMOdKpG2p7WXYxd5s6qB4Nhk9DXztdCQsAw+NULCOG+aCjh8c8flUxTYh6Zg\nQsk50djtj0O+mn9YvqxxFel9yT9X67ZmTG9vzLyhQgRC1JjDZGYgyDFfE/lT\nMU/yNLb5sMcZwulrcCr7Oad6Lbzqk5xJ+8kodsNIl49z9a46zRkmHpuJgtE9\nyAn8xytW7hIUACF8TawCNGhHXIHrLxtDffj1CLoZU6iHR2MOVu3FkULNR4cf\nb/zsnbEs3HCbtgDzFeVS/iH7RLK6Dhu0mVUVrhbEKB0O2uwp9bM+mJJvRkqm\nKdDI/RonGJRmKxttwmgaRu1P32q/0eKIXPVMyV+en+i6ipeds3Xl6IcfjFnI\nml3B\r\n=wJFm\r\n-----END PGP SIGNATURE-----\r\n",
+				"signatures": [
+					{
+						"keyid": "SHA256:jl3bwswu80PjjokCgh0o2w5c2U4LhQAE57gj9cz1kzA",
+						"sig": "MEUCIBSBaLwlHPSxVlEUAH2cwXVG0W+yEK2ihM42Z6CgC8I6AiEAoW+kteNppSUTHk0SS0glKqYXpkqQJxMgc0eEupitRQE="
+					}
+				]
+			},
+			"_npmUser": {
+				"name": "samthor",
+				"email": "sam.thorogood@gmail.com"
+			},
+			"directories": {},
+			"maintainers": [
+				{
+					"name": "samthor",
+					"email": "sam.thorogood@gmail.com"
+				}
+			],
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/esm-resolve_1.0.0_1612675995064_0.3553174494299083"
+			},
+			"_hasShrinkwrap": false,
+			"contributors": []
+		},
+		"1.0.1": {
+			"name": "esm-resolve",
+			"version": "1.0.1",
+			"description": "Resolves ESM imports in JS",
+			"main": "index.js",
+			"exports": {
+				".": {
+					"import": "./index.js"
+				}
+			},
+			"type": "module",
+			"scripts": {
+				"test": "ava"
+			},
+			"author": {
+				"name": "Sam Thorogood",
+				"email": "sam.thorogood@gmail.com"
+			},
+			"license": "Apache-2.0",
+			"devDependencies": {
+				"@types/node": "^14.14.25",
+				"ava": "^3.15.0"
+			},
+			"types": "index.d.ts",
+			"gitHead": "9b121be712988659c6c3d471f8e72fad11949f6b",
+			"_id": "esm-resolve@1.0.1",
+			"_nodeVersion": "15.8.0",
+			"_npmVersion": "7.5.0",
+			"dist": {
+				"integrity": "sha512-AAHAcwHOb51z6wUQ3Rb91wdDk2jq8kJjrK0O/Sw2G5ZGfJkcG+9z8p5l5JCzrkHJN3J10TLie5xvgPDCL+hDUQ==",
+				"shasum": "7e12c649a0e27471292806e1c64041f2a177bfbf",
+				"tarball": "https://registry.npmjs.org/esm-resolve/-/esm-resolve-1.0.1.tgz",
+				"fileCount": 10,
+				"unpackedSize": 30361,
+				"npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.13\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJgH3wgCRA9TVsSAnZWagAAFokP+QAEZuPBzB7lGmFva1xZ\nq84vMR8topR5mxosP79XXj9zuIcM81iGjbGLkAzs80I9A18t/qbNAWl/vp1y\nnD65zcn6szkjpi4En1F/+NZ3UdUE8ALlYNgnUf2i0XsZ2YkvRJ2TCl7iNcul\nzuZjhhJa8gH5GMyvdcnYjuPx/8tpZrU+Xsn1I+FFhXYHp0/+33856gmHPkyj\nDItKk632lAFVEMaHXvPE3kMhmQAkjA66A7C9M9OoleK0ii2z7BrGN+jVqZ2I\n7cNv8uy3UwG6Fga2yj+bUdS74wGFtrm48nycx+qtr+35tfO+JD70S/5Vi5Yq\ndXcYQYsnwg1IovW5CNCNiU6lsXxiKmv5ekuxbzRMAv5tnIsozYVBdGcZ3URQ\nBC6RqTpEpay6oka30qFB+PZgGzxegixm0vroct/mGTrqtcljaNH5OZiC2eux\nABNGMd9RBrkcmpQInJF90KZrLQNkR9RxL7TBwd5RH7uxi0Fz8t1ykC8Z+t8B\n1291jjWG8gUTK9u7XQPC8E9v7Bd2L0e1tXvZkSKCTbQuNmoUg7rTE//53y9l\n4ofWVgsQxXbXTOYhO+usNK3P7mBt9FAyyJjOi5mJQ4AhmZDxOtwLbcJr4Ad2\njBcvwFztTKyBBpyEcEvjvWz7JSVQu9tVz7DP8kjAKhumMvWJxhM0CH/Bp4tx\nnMCb\r\n=26Dm\r\n-----END PGP SIGNATURE-----\r\n",
+				"signatures": [
+					{
+						"keyid": "SHA256:jl3bwswu80PjjokCgh0o2w5c2U4LhQAE57gj9cz1kzA",
+						"sig": "MEUCIQD/4lJwjhCuFpZZ8XI89A6L/Vwen+xGVI1nKlJLkCnNFQIgKpYfrF+HsxVzmok5X9UPbkz0I1omdHSyPUt97mNsPy4="
+					}
+				]
+			},
+			"_npmUser": {
+				"name": "samthor",
+				"email": "sam.thorogood@gmail.com"
+			},
+			"directories": {},
+			"maintainers": [
+				{
+					"name": "samthor",
+					"email": "sam.thorogood@gmail.com"
+				}
+			],
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/esm-resolve_1.0.1_1612676127966_0.745211112934747"
+			},
+			"_hasShrinkwrap": false,
+			"contributors": []
+		},
+		"1.0.2": {
+			"name": "esm-resolve",
+			"version": "1.0.2",
+			"description": "Resolves ESM imports in JS",
+			"main": "index.js",
+			"exports": {
+				".": {
+					"import": "./index.js"
+				}
+			},
+			"type": "module",
+			"scripts": {
+				"test": "ava"
+			},
+			"author": {
+				"name": "Sam Thorogood",
+				"email": "sam.thorogood@gmail.com"
+			},
+			"repository": {
+				"type": "git",
+				"url": "git+ssh://git@github.com/samthor/esm-resolve.git"
+			},
+			"license": "Apache-2",
+			"devDependencies": {
+				"@types/node": "^14.14.25",
+				"ava": "^3.15.0"
+			},
+			"types": "index.d.ts",
+			"gitHead": "3306862562d5f6a0f85c535e6cb21a3cd6beaaac",
+			"bugs": {
+				"url": "https://github.com/samthor/esm-resolve/issues"
+			},
+			"homepage": "https://github.com/samthor/esm-resolve#readme",
+			"_id": "esm-resolve@1.0.2",
+			"_nodeVersion": "15.8.0",
+			"_npmVersion": "7.5.0",
+			"dist": {
+				"integrity": "sha512-PNUOwigu1Erl4XUyqcpSUIjl0zZjHb1tHtGaBGYQxhY5uNN1LgobFTLsX1pInI68IfdSU9rP7ptegy4ibpuAGg==",
+				"shasum": "3a8b5d415f859eaafb043ac468e9c061c97e96ea",
+				"tarball": "https://registry.npmjs.org/esm-resolve/-/esm-resolve-1.0.2.tgz",
+				"fileCount": 10,
+				"unpackedSize": 30886,
+				"npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.13\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJgIO/9CRA9TVsSAnZWagAAK9gP/311A3COfuOF4eQFyEEl\nxsHEJXePg8us7f6eYEwTFJQDYIX2ISmroksdfbqRAQDsf0JJ2cEB5ApskjFJ\nkLMNuoFibIuQiOgto5vxWEkt8aBMiMp7Fr0BbgB1CF6s7NrCsT9VhilFwOFK\nhfRbAEt4ZnEXtLQOe4LUDj/h5MT9cSBNJqoQIph6KO7bGIILbyoJAgNVDdgA\nESTpEP53cHgJSkZMhK/kVxZVd04bDaZ70HBJDyrc35zg6Azrnh8F7ay9j9K6\nL/0yiSqUTd+VuIbhy9jJnUD7w++/2ZxHJ0arlZ4Go4UAEF98c+LeFFnw8chj\nr2EP4iS+XqeH0ftDLAZdBePRuExtMkmkApt1bRvIwtKhuAEa9R2zl9NTcAk4\njj2Oj6NJflPrR9HJgAuGLyesfBtaCbjixW7RQU7lPwHw2Vdy4FNhkCPoIJ4f\niJ2gsd2r/KrzgVAIjrXf14+EJ0ERx6kmFrBa8v+c0LOIL9Zwerfsv4q/1Qfm\n1WcSri52j6XPIWuMyRXolKfc6G91PQJMeo179FNHVODnnlGnPGoXsxsOuaZb\n8bt2THv1lyBLXMnn1VURaAl8+kmRu+Ufez34SiK97grNZSSM5yebcS5yRZ/Q\nj6U62rjWUYtjndPv3GiLlroSJOE/dytlGq4R1Um68jO/7sVh08ANr8hZH58A\nMvSf\r\n=LNOA\r\n-----END PGP SIGNATURE-----\r\n",
+				"signatures": [
+					{
+						"keyid": "SHA256:jl3bwswu80PjjokCgh0o2w5c2U4LhQAE57gj9cz1kzA",
+						"sig": "MEUCIQD0Bh5CMpe2HvRieeMpOgU2lGL55+fjpRN/fV+xt7VoDgIgeYpG4eaIme2kBsWrYgNPfGSE8DPtXCkxpT7tbvs2+sI="
+					}
+				]
+			},
+			"_npmUser": {
+				"name": "samthor",
+				"email": "sam.thorogood@gmail.com"
+			},
+			"directories": {},
+			"maintainers": [
+				{
+					"name": "samthor",
+					"email": "sam.thorogood@gmail.com"
+				}
+			],
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/esm-resolve_1.0.2_1612771324993_0.5766150845093758"
+			},
+			"_hasShrinkwrap": false,
+			"contributors": []
+		},
+		"1.0.3": {
+			"name": "esm-resolve",
+			"version": "1.0.3",
+			"description": "Resolves ESM imports in JS",
+			"main": "index.js",
+			"exports": {
+				".": {
+					"import": "./index.js"
+				}
+			},
+			"type": "module",
+			"scripts": {
+				"test": "ava"
+			},
+			"author": {
+				"name": "Sam Thorogood",
+				"email": "sam.thorogood@gmail.com"
+			},
+			"repository": {
+				"type": "git",
+				"url": "git+ssh://git@github.com/samthor/esm-resolve.git"
+			},
+			"license": "Apache-2",
+			"devDependencies": {
+				"@types/node": "^14.14.25",
+				"ava": "^3.15.0"
+			},
+			"types": "index.d.ts",
+			"gitHead": "1cf3d7bf8b55f506c63aed9a7f68d91227cc1c10",
+			"bugs": {
+				"url": "https://github.com/samthor/esm-resolve/issues"
+			},
+			"homepage": "https://github.com/samthor/esm-resolve#readme",
+			"_id": "esm-resolve@1.0.3",
+			"_nodeVersion": "15.14.0",
+			"_npmVersion": "7.7.6",
+			"dist": {
+				"integrity": "sha512-jHBGGRA+ETwnZbSoelr6jJ7RxcGNem95MisizTLzIkxDlOaCs+Df0h019VTNAc6rxJJhqqWN3hIisnG5RN/kHA==",
+				"shasum": "6e823be2b8ad9f17d0b32a6bbfccc278e89eaf53",
+				"tarball": "https://registry.npmjs.org/esm-resolve/-/esm-resolve-1.0.3.tgz",
+				"fileCount": 10,
+				"unpackedSize": 31027,
+				"npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.13\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJgjzOKCRA9TVsSAnZWagAAsUsQAInzlE0zJEFM4HEh5q2/\n3+XVf6gA17POiBrQ+KLBoqX94isdmXUn8M+vRjNED2fuBce0TyA/mxkPLbYo\nS1+N88bWyZEUfqt3/bVf2ICMhdqYHp2DmVEyVeLr1HOIF13LyNty7Ehdi9ym\n0ow87VB/eiKm+jmD06okwMIcDvsybFcUscSQ5kSCV4x0+1YVJE01q9ixapMp\n/GToIp5zvw/dXPUckP27ywGi88E6ZxoTqDX3C9VFgJ1Gb/zGS3ZG7QLBcRwY\nyCTdp1zislFzDwCwQUwJYGVCghv582Oz7+COqWoa1k7926r8A1nLKLI3Pm3/\n8zjbvwdfk+c+hnCsdqPbDcjRrgiY3IckACUn3AHD2PSfPpGF1HpG+D/h1Gz9\nw2eejj+vQAiB6yTdWqoIjkFsXl7sliozzfOcCOncr849GsPIAG6wqaH/DVhA\nE6iAwo+yLG01JmVF81kBkksLe4AEYmiBT5ss/8JtFHIJzo5m6ymr3aARkdV/\nHd09bCIg4I//g22Xvz4laS2C23sDdE+VyPT/UZGJuo9QhDk/hzcUzm174Hui\nm/QoA5UugDPHA3i9J0SL14xixi3y3CIkRpbssw17WWcLZaqiyYMHGCrov6E7\n5NAjI7pB/M9fYTjxhtqts/HiN4Ddt1uIPKhleBDfFm65EVGf7co80t5SQxOB\nv3DB\r\n=Y07X\r\n-----END PGP SIGNATURE-----\r\n",
+				"signatures": [
+					{
+						"keyid": "SHA256:jl3bwswu80PjjokCgh0o2w5c2U4LhQAE57gj9cz1kzA",
+						"sig": "MEYCIQCt+DHx+3uADINui5+L4agfjOfnR+1m3PrUuIG1X8zqPAIhALsP1f+RT7hEyaEZeLDsCezMKxQX3iSWksBGiQn4CazT"
+					}
+				]
+			},
+			"_npmUser": {
+				"name": "samthor",
+				"email": "sam.thorogood@gmail.com"
+			},
+			"directories": {},
+			"maintainers": [
+				{
+					"name": "samthor",
+					"email": "sam.thorogood@gmail.com"
+				}
+			],
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/esm-resolve_1.0.3_1619997578204_0.3347279233962204"
+			},
+			"_hasShrinkwrap": false,
+			"contributors": []
+		},
+		"1.0.4": {
+			"name": "esm-resolve",
+			"version": "1.0.4",
+			"description": "Resolves ESM imports in JS",
+			"main": "index.js",
+			"exports": {
+				".": {
+					"import": "./index.js"
+				}
+			},
+			"type": "module",
+			"scripts": {
+				"test": "ava"
+			},
+			"author": {
+				"name": "Sam Thorogood",
+				"email": "sam.thorogood@gmail.com"
+			},
+			"repository": {
+				"type": "git",
+				"url": "git+ssh://git@github.com/samthor/esm-resolve.git"
+			},
+			"license": "Apache-2",
+			"devDependencies": {
+				"@types/node": "^14.14.25",
+				"ava": "^3.15.0"
+			},
+			"types": "index.d.ts",
+			"gitHead": "e1ddcba2a66c22b2a6577e3312a7b187bbdd58d3",
+			"bugs": {
+				"url": "https://github.com/samthor/esm-resolve/issues"
+			},
+			"homepage": "https://github.com/samthor/esm-resolve#readme",
+			"_id": "esm-resolve@1.0.4",
+			"_nodeVersion": "15.14.0",
+			"_npmVersion": "7.7.6",
+			"dist": {
+				"integrity": "sha512-8N6jfjY1mnWoc14QYVVrg6Er54EgeuiJsKJMidVrCUWLC58XK9F9UCRS5Lmn4yNIkevdQzuE4wGlBixmp56C4Q==",
+				"shasum": "682cdca5c1d20de9a37842554bf5dc3a31f4e2b8",
+				"tarball": "https://registry.npmjs.org/esm-resolve/-/esm-resolve-1.0.4.tgz",
+				"fileCount": 10,
+				"unpackedSize": 31260,
+				"npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.13\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJgkOf2CRA9TVsSAnZWagAAx9IP/0TGW8PFAqx5Pr6dbzCL\nHwz2+2kxp34D1ydLpEHSZUAJSWOSFfA5m97jNylDAyi409khCOMrB7PhD8Md\nxVpk5k5triQupJewYmSRiR8n3tiKzF9OLIImRpPVuXjenONGhKW+ijpBEewN\nEYEUKDF2Ivbobnn+raOTLcefFsl7EEuccdKxRMsOsy4hs2Us/WCFRlanfgVz\nP3jTWbgY+vlgNGERKEpFQuXXonRXQHqM24cxFrFTIKwGuNe4L4Eoc+m0ozKW\nPyrgmku/rV9qw82AoiVBEAoxX5yLaogY+bW/L85xUFLzeNoXr6fsbIm3bf6K\nz76ghOYkg6lQTZ83HgLELXvAL4Gwn8wHvrdQUSzI31+QDrOQwFTLV7W5zkKp\nQLR01s1Nix9JOmy/P5STptIgcaQDcczM1SwG54WqdClB33IRIcI0LrnBpIL8\neI1s/LgvXjuIT8cZQoYD4WJGHgZ7PFqCLQPviAV3pj3ojeGOa1/s3F2bTnT3\nh3usP0UE7gNqDsng/Oz5lhpD8nDUB6BhqAFHIAPyUQiinJtexGGnnm73EYL3\n69MTB/93hZb8RVhvSe3V42Vvvx4GO3u3kQgWuawVJQhuAK7q+a5acFOSNXCZ\nnWF15hFdqsnzB0qJlkPLH4CfNAAigJTCtHg/u2htWDF1ANXuvmBPMJKLngGK\nDlLX\r\n=HZNc\r\n-----END PGP SIGNATURE-----\r\n",
+				"signatures": [
+					{
+						"keyid": "SHA256:jl3bwswu80PjjokCgh0o2w5c2U4LhQAE57gj9cz1kzA",
+						"sig": "MEUCIQDNgzsDS48eSHXMKmZ+zltve+jLT2iW/wU3wn0+SIx58AIgQdgH/rkXNZDoGrGJq5qZM/Yjsnxt2P0MxUkG5PLBZCQ="
+					}
+				]
+			},
+			"_npmUser": {
+				"name": "samthor",
+				"email": "sam.thorogood@gmail.com"
+			},
+			"directories": {},
+			"maintainers": [
+				{
+					"name": "samthor",
+					"email": "sam.thorogood@gmail.com"
+				}
+			],
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/esm-resolve_1.0.4_1620109301849_0.964932980450836"
+			},
+			"_hasShrinkwrap": false,
+			"contributors": []
+		},
+		"1.0.5": {
+			"name": "esm-resolve",
+			"version": "1.0.5",
+			"description": "Resolves ESM imports in JS",
+			"main": "index.js",
+			"exports": {
+				".": {
+					"import": "./index.js",
+					"require": "./bundle.cjs"
+				}
+			},
+			"type": "module",
+			"scripts": {
+				"test": "ava",
+				"prepublishOnly": "rollup -o bundle.cjs -f cjs index.js --output.exports=named"
+			},
+			"author": {
+				"name": "Sam Thorogood",
+				"email": "sam.thorogood@gmail.com"
+			},
+			"repository": {
+				"type": "git",
+				"url": "git+ssh://git@github.com/samthor/esm-resolve.git"
+			},
+			"license": "Apache-2",
+			"devDependencies": {
+				"@types/node": "^14.14.25",
+				"ava": "^3.15.0",
+				"rollup": "^2.60.2"
+			},
+			"types": "index.d.ts",
+			"gitHead": "07fee9a403298f057ef93a31279ea5ce3c7ba032",
+			"bugs": {
+				"url": "https://github.com/samthor/esm-resolve/issues"
+			},
+			"homepage": "https://github.com/samthor/esm-resolve#readme",
+			"_id": "esm-resolve@1.0.5",
+			"_nodeVersion": "17.0.1",
+			"_npmVersion": "8.1.0",
+			"dist": {
+				"integrity": "sha512-UJgR+4rwgxaYFlETa393JWelw7QBoDYc90DKWbdG/7dYUV/r/1BFW1dIuZ8BIYRUVHqkyv0qBU3FdarxtowIog==",
+				"shasum": "a1b39cf6e53c11e388ba61da6a999b46b2cd7dfc",
+				"tarball": "https://registry.npmjs.org/esm-resolve/-/esm-resolve-1.0.5.tgz",
+				"fileCount": 11,
+				"unpackedSize": 45405,
+				"npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.13\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJhp+U/CRA9TVsSAnZWagAAAZwP/jfMSnVixhBTPsJFrlAg\ncO/2vu4Yv0EvjugdbYUyaWWHPgkX5tWjIFPansdJKDt9BCaZr4MAv+DbDJAc\nPPtf2b/BaNrs6mPIdbfUO0DGKdHv3YPumZZoVxYi31Vn7NiWRiC8dkCB3qGU\n3YRvqScVhLshWkmsLQvdfq2a71NQeD/dH2WhX3UTKr4pQiD8/we6u4RE/Ukm\nj1Jr6a4AumfK4RtWoxfkRz5fLmGZ4jHeLL+r7wlWafcGlziYNu8id+S3e1Tq\n9rRXGSuDmig+bWXtVWNBEZGrNJtj6yzse08Bsr50AoRoyM66R3bYGQAhJqNM\nldyTV11FcKli6v/vrZvaRgdux8gqHs0jUXz+uj5hJIn2nV+gfx1dPldlCykG\ndkcku/kaoyQL3D23iZ0swXdWqNLFr8EJWeE2sLFHMRj/dIiV7NrHenHIsjGE\nPkdL1BBXTa8Q5RGKrT9wC4zpn2Ejxw+OQAAPJopxt9f1huNb21+KM0Zrx51d\nS44bi3rwZVLWKDDUuEn40ttK6yZPDE5ivWPOHKo7HfOczSCd9GWdpMBWSnwj\n/4D4EhiSlLwJ8EiexI3X6by6c6rnPBlEX5K83fS/SleyHSlS+9+4SToqlKRQ\nMDbPGTJmgX/Hfh+ssOoIjDhfoJ5rfVSjmx6FqDU0Fj5THjgc29/z7ggejVYh\n9Doo\r\n=Triz\r\n-----END PGP SIGNATURE-----\r\n",
+				"signatures": [
+					{
+						"keyid": "SHA256:jl3bwswu80PjjokCgh0o2w5c2U4LhQAE57gj9cz1kzA",
+						"sig": "MEUCIEoDuDfO0Ulu2/Io5C1qID0CWrRkLLMBdrx1AfIkAJv6AiEAgoZ3yAbIhepKMA9jg0M8k+oC8qGI9eH9d8kz+rBJfE8="
+					}
+				]
+			},
+			"_npmUser": {
+				"name": "samthor",
+				"email": "sam.thorogood@gmail.com"
+			},
+			"directories": {},
+			"maintainers": [
+				{
+					"name": "samthor",
+					"email": "sam.thorogood@gmail.com"
+				}
+			],
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/esm-resolve_1.0.5_1638393151171_0.16678201294770756"
+			},
+			"_hasShrinkwrap": false,
+			"contributors": []
+		},
+		"1.0.6": {
+			"name": "esm-resolve",
+			"version": "1.0.6",
+			"description": "Resolves ESM imports in JS",
+			"main": "index.js",
+			"exports": {
+				".": {
+					"import": "./index.js",
+					"require": "./bundle.cjs"
+				}
+			},
+			"type": "module",
+			"scripts": {
+				"test": "ava",
+				"prepublishOnly": "esbuild index.js --bundle --platform=node --target=es2015 --outfile=bundle.cjs"
+			},
+			"author": {
+				"name": "Sam Thorogood",
+				"email": "sam.thorogood@gmail.com"
+			},
+			"repository": {
+				"type": "git",
+				"url": "git+ssh://git@github.com/samthor/esm-resolve.git"
+			},
+			"license": "Apache-2",
+			"devDependencies": {
+				"@types/node": "^14.14.25",
+				"ava": "^3.15.0",
+				"esbuild": "^0.14.1"
+			},
+			"types": "index.d.ts",
+			"gitHead": "b8a124c49720c0b09bb846db6c1d90449c3f93f6",
+			"bugs": {
+				"url": "https://github.com/samthor/esm-resolve/issues"
+			},
+			"homepage": "https://github.com/samthor/esm-resolve#readme",
+			"_id": "esm-resolve@1.0.6",
+			"_nodeVersion": "17.0.1",
+			"_npmVersion": "8.1.0",
+			"dist": {
+				"integrity": "sha512-EfPWOVgTsfaIlN4VdliGmgcaAT8b5OHF79HHdI8/2yJKRcNnLsISlmbzG9XtfvguZnKuXEmS53gJJktkaBKxfA==",
+				"shasum": "f5c0927ca3cd98bd17bc871a869283621a3ad3d9",
+				"tarball": "https://registry.npmjs.org/esm-resolve/-/esm-resolve-1.0.6.tgz",
+				"fileCount": 11,
+				"unpackedSize": 42052,
+				"npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.13\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJhqpqACRA9TVsSAnZWagAAl5kP+wcelGkX7/g8QepNFqp6\nIaQ4n31CI1QMcflw4gqMM4KKIS0GAkQIn08iLgPoR/fR/QN0VHcxx8eo7MuQ\n6Q4dF77rY2bIxyTajpEEqE2X7NUvEClqsN0ibHToLls/8lEDdbXPS24f9zIr\nx8MDlkcQWIlK4ur/4B2PDnqpPZZy8J0B3yuCfCU4CqfnXeK/fCOIDVr7tUxV\nmIGlaBz2kV8Ohvk+ZsswTkvoCjAcIo3TdNg3WW9Eq3fmnOA0gOP4g+hvfhBS\nlMLwLVWKPUAnRokVgIPHvIG8DKSxCVFg5S6/QiWyV84fWIY6X0fvSHzEjYEp\n3HMPBSYFDP/xMmkU/1rtbYllQ12hSKucF8cg+cpilGdCfKtYVCOUG3so4z5q\nOnhEOJ24HKZk/NoyKAaMafJ5YNdZzbm9REKOoMTvu9uDNTyrD1FfFSj/dPkd\nK59MPGW1/JsoS7RVNMEaQGJGoCRCaNwByuDo5dSY0oNXOrvoVLhWslZ8a/BP\nD6FGu5+YIucERlZNxAyFKukNi7Tc/SPIr+Txx1q8o17bFDxP326oCNgk809l\nDhSrWDhDiIhL/Imf6g2TGW9DcezvFxDOZMPWKDtjqKvFxkPZHckZtxIeMRmM\n13MXgckyQ6AR4hrqP80OSsiFhN+JmRI7lkorVmUOkW/IBsleO42rY3LTce9o\n1bJJ\r\n=dYDf\r\n-----END PGP SIGNATURE-----\r\n",
+				"signatures": [
+					{
+						"keyid": "SHA256:jl3bwswu80PjjokCgh0o2w5c2U4LhQAE57gj9cz1kzA",
+						"sig": "MEUCIFVv4zcywPlySjEY1CGpmdxVKxWbxoMYmElRb0IQOLC/AiEAkgH1nPgdJo79XGvbA/T4cDoHAERr5IcKMuIqKd91V6E="
+					}
+				]
+			},
+			"_npmUser": {
+				"name": "samthor",
+				"email": "sam.thorogood@gmail.com"
+			},
+			"directories": {},
+			"maintainers": [
+				{
+					"name": "samthor",
+					"email": "sam.thorogood@gmail.com"
+				}
+			],
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/esm-resolve_1.0.6_1638570623892_0.4629652554518786"
+			},
+			"_hasShrinkwrap": false,
+			"contributors": []
+		},
+		"1.0.7": {
+			"name": "esm-resolve",
+			"version": "1.0.7",
+			"description": "Resolves ESM imports in JS",
+			"main": "index.js",
+			"exports": {
+				".": {
+					"node": {
+						"import": "./index.js",
+						"require": "./bundle.cjs"
+					}
+				}
+			},
+			"type": "module",
+			"scripts": {
+				"test": "ava",
+				"prepublishOnly": "esbuild index.js --bundle --platform=node --target=es2015 --outfile=bundle.cjs"
+			},
+			"author": {
+				"name": "Sam Thorogood",
+				"email": "sam.thorogood@gmail.com"
+			},
+			"repository": {
+				"type": "git",
+				"url": "git+ssh://git@github.com/samthor/esm-resolve.git"
+			},
+			"license": "Apache-2",
+			"devDependencies": {
+				"@types/node": "^14.14.25",
+				"ava": "^3.15.0",
+				"esbuild": "^0.14.1"
+			},
+			"types": "index.d.ts",
+			"gitHead": "34dd36b20532f749da8f52410e8bd361ef08c863",
+			"bugs": {
+				"url": "https://github.com/samthor/esm-resolve/issues"
+			},
+			"homepage": "https://github.com/samthor/esm-resolve#readme",
+			"_id": "esm-resolve@1.0.7",
+			"_nodeVersion": "18.0.0",
+			"_npmVersion": "8.6.0",
+			"dist": {
+				"integrity": "sha512-72HJKdg2fwFkt429hk1LP2G8OcquSkDgLDsa3jbdtP5rXKavmeBTJgo9vkPZd9J3eHY09Psb7oM+fr9LqHtMAw==",
+				"shasum": "0e91abc2d551b05d3bdaadc91c0727df71780659",
+				"tarball": "https://registry.npmjs.org/esm-resolve/-/esm-resolve-1.0.7.tgz",
+				"fileCount": 11,
+				"unpackedSize": 42575,
+				"signatures": [
+					{
+						"keyid": "SHA256:jl3bwswu80PjjokCgh0o2w5c2U4LhQAE57gj9cz1kzA",
+						"sig": "MEUCIGJzng1VSMLU6P+CNze839lKVgdrhq6xzXw9kVovGRpcAiEAsJSsmtj0Y+e2X+rW8rk2ZGcEu6n2FobCc8glOajlw7I="
+					}
+				],
+				"npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v4.10.10\r\nComment: https://openpgpjs.org\r\n\r\nwsFzBAEBCAAGBQJiidIpACEJED1NWxICdlZqFiEECWMYAoorWMhJKdjhPU1b\r\nEgJ2Vmp3nw//bwg+f7z+3B+rucSxOGkCPmQQhoBUvRg7noaEHH4OTKYxWcEk\r\nct50wmy6RNs9uUN5Q8W+3mYDU2LCWPpjCNb4kDDHwqdeR/LzoCP4alQFqCAG\r\nxk2lPo8yd36iyOWiJijyDSMCcwYsgK0Zi474LH39kRl2QUHqgtsx8HMpTb0h\r\nzjkGnULrfvRdDoiudD2VVi+H67RNMuBzZQfocOPZ8G2XRLVFRCcAr6+9BdI4\r\nUrWEpL/26Id3bAq1TOl0XjE24jDPmDcD1dTN27DrncNUAnybToJHLlTFG6dB\r\nd0Wo9pyfyB93z4yhCjDn843+ehWp4FGxdEVmm5jMCy6auPPw4wWPtUMgp4X+\r\ngnm4K0BTV0qhXR9SIgnB1EU5b2lYNAT9e2UNFo6tGohSLDF//VsZipJ2yQe8\r\nMR1l1iZkM2CRBzEjrrnS69WQMUaPOolS28x5SNkLRd6pwnWr2kAHXTsBgC7l\r\nvMne/YqInZ3PQQYWWMLVuDB55Wf2M26RjOgXdjWBpg7uapg9m6SITFLewXSu\r\nKDyUMTCmVs04sMbymV+ghpNb0isHR3SNmGIIItdnm9LhRghPCIaqUWTvky10\r\nWGs2N4+YFgA2dOdEuYuXY3LSzzgl+Dnk0Vajq31DmR8JFEFFN6R8pwXAu/io\r\nkFIX2Yd5YCH1Tq7DejKfG7xKEfbJAQ3IjVE=\r\n=tYGN\r\n-----END PGP SIGNATURE-----\r\n"
+			},
+			"_npmUser": {
+				"name": "samthor",
+				"email": "sam.thorogood@gmail.com"
+			},
+			"directories": {},
+			"maintainers": [
+				{
+					"name": "samthor",
+					"email": "sam.thorogood@gmail.com"
+				}
+			],
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/esm-resolve_1.0.7_1653199401269_0.5527239370317423"
+			},
+			"_hasShrinkwrap": false,
+			"contributors": []
+		},
+		"1.0.8": {
+			"name": "esm-resolve",
+			"version": "1.0.8",
+			"description": "Resolves ESM imports in JS",
+			"main": "index.js",
+			"exports": {
+				".": {
+					"node": {
+						"import": "./index.js",
+						"require": "./bundle.cjs"
+					}
+				}
+			},
+			"type": "module",
+			"scripts": {
+				"test": "ava",
+				"prepublishOnly": "esbuild index.js --bundle --platform=node --target=node12 --outfile=bundle.cjs"
+			},
+			"author": {
+				"name": "Sam Thorogood",
+				"email": "sam.thorogood@gmail.com"
+			},
+			"repository": {
+				"type": "git",
+				"url": "git+ssh://git@github.com/samthor/esm-resolve.git"
+			},
+			"license": "Apache-2",
+			"devDependencies": {
+				"@types/node": "^14.14.25",
+				"ava": "^3.15.0",
+				"esbuild": "^0.14.1"
+			},
+			"types": "index.d.ts",
+			"gitHead": "c8e9155821bba6e54c8cc98c7828e5d622df54cf",
+			"bugs": {
+				"url": "https://github.com/samthor/esm-resolve/issues"
+			},
+			"homepage": "https://github.com/samthor/esm-resolve#readme",
+			"_id": "esm-resolve@1.0.8",
+			"_nodeVersion": "18.0.0",
+			"_npmVersion": "8.6.0",
+			"dist": {
+				"integrity": "sha512-pzYHY8bf7uLpDuefGsI6JtHVS1J3N1uOkIEC36ejvvWhiiMr/xKBX4PrxCtsxeISJbCEMBLkPZvRwZNHgdwn5A==",
+				"shasum": "1a8121a85a914863463cf05883492e0a55b872d4",
+				"tarball": "https://registry.npmjs.org/esm-resolve/-/esm-resolve-1.0.8.tgz",
+				"fileCount": 11,
+				"unpackedSize": 43322,
+				"signatures": [
+					{
+						"keyid": "SHA256:jl3bwswu80PjjokCgh0o2w5c2U4LhQAE57gj9cz1kzA",
+						"sig": "MEQCIHOouqyZCXhJZDnIqoopqgkf5oxtfzzzMA7b4odfo8S7AiAhbhGSmT0f6CnozHGq2CQayjAhsNMZr6FrqDPyjUADJA=="
+					}
+				],
+				"npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v4.10.10\r\nComment: https://openpgpjs.org\r\n\r\nwsFzBAEBCAAGBQJiidY5ACEJED1NWxICdlZqFiEECWMYAoorWMhJKdjhPU1b\r\nEgJ2VmrBGRAAnu2RkzwEY1MV9WGsRRhKlQOuQO33iDQ1tPloaoQssMyIT/FX\r\nllI/nmOLH/J3f/JHsOVrmFdQvmjukpEp3fkqUARDRxZSSS4YIxqET9smCXXf\r\n7X4Qz2Hwi+9v1APNboquaPjW0TARIzdK6qcTP77rHPIJGQhxsOC8aGMelevk\r\nYpi/J5Eea8BeNmpTJAeI1w0fHVoBlril/oiXxWrzSYB9u7oRqPJ+vrP2+R5o\r\np7zHg6Mf9CkH4uQUkn/IFHw1XwS4UQcKJ3ZGRA+ZIGU2M8myGnb3T/CXyu+4\r\nY6+D0CodSviOiTRRyoSKp3U6N5ZhlZfoNfK7fVbXt3N3oEX299NQo1h1Drv/\r\nxcyxoZNA2GOXgihaWshUsNtHT5H5AQOEswOHfwcH7inqs1fANLt4jPa5+fsW\r\nH2F/FCNi+HLefNhgXOBjB0Y5yCtjdS3djlT6Sl7sORljb2C2n+4D/WI9gryH\r\n8uSBGvzeo0XP94bKF5VhKOR4RZtyNLmtFuzN4Bk1nPo1kzRxTdd81bQf7n/W\r\nuxZd2SA4ItEiU0TOCKE1gdz2fu+zcS9NBt73NBODfB+LCI8UWBZ48dvb0jfC\r\n6+TenRed5QS748TzESpdee6AXO785P8QRDj5nr6zLt5SNrbAOIAAzWb8eyzB\r\nEDRRL+tyFTknSbYRbGuM1dHJjPsyqGxQLPI=\r\n=zzv9\r\n-----END PGP SIGNATURE-----\r\n"
+			},
+			"_npmUser": {
+				"name": "samthor",
+				"email": "sam.thorogood@gmail.com"
+			},
+			"directories": {},
+			"maintainers": [
+				{
+					"name": "samthor",
+					"email": "sam.thorogood@gmail.com"
+				}
+			],
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/esm-resolve_1.0.8_1653200441743_0.03421847404010414"
+			},
+			"_hasShrinkwrap": false,
+			"contributors": []
+		},
+		"1.0.9": {
+			"name": "esm-resolve",
+			"version": "1.0.9",
+			"description": "Resolves ESM imports in Node",
+			"main": "bundle.js",
+			"exports": {
+				".": {
+					"node": {
+						"import": "./bundle.js",
+						"require": "./bundle.cjs"
+					}
+				}
+			},
+			"type": "module",
+			"author": {
+				"name": "Sam Thorogood",
+				"email": "sam.thorogood@gmail.com"
+			},
+			"repository": {
+				"type": "git",
+				"url": "git+ssh://git@github.com/samthor/esm-resolve.git"
+			},
+			"license": "Apache-2.0",
+			"devDependencies": {
+				"@types/node": "^20.11.28",
+				"esbuild": "^0.14.1",
+				"tsx": "^4.7.1"
+			},
+			"types": "index.d.ts",
+			"scripts": {
+				"test": "npx tsx test/resolve.ts"
+			},
+			"bugs": {
+				"url": "https://github.com/samthor/esm-resolve/issues"
+			},
+			"homepage": "https://github.com/samthor/esm-resolve#readme",
+			"_id": "esm-resolve@1.0.9",
+			"_integrity": "sha512-qVENG+4e2s5HO/TMV9LvjpOVNW4HlaZn98q7h0y9R524M1chXNAwrn2bKx+wQs9Qryb22qX8P0rQ5N3e3Udq/w==",
+			"_resolved": "/private/var/folders/2w/x4lk1hdj26g01xwtj7w03fx40000gp/T/2a8c2b14a1e9a58622966d39efb568bc/esm-resolve-1.0.9.tgz",
+			"_from": "file:esm-resolve-1.0.9.tgz",
+			"_nodeVersion": "21.7.0",
+			"_npmVersion": "10.5.0",
+			"dist": {
+				"integrity": "sha512-qVENG+4e2s5HO/TMV9LvjpOVNW4HlaZn98q7h0y9R524M1chXNAwrn2bKx+wQs9Qryb22qX8P0rQ5N3e3Udq/w==",
+				"shasum": "8d454de9ccef92799797811b0b9b952f199ecfdc",
+				"tarball": "https://registry.npmjs.org/esm-resolve/-/esm-resolve-1.0.9.tgz",
+				"fileCount": 13,
+				"unpackedSize": 49865,
+				"signatures": [
+					{
+						"keyid": "SHA256:jl3bwswu80PjjokCgh0o2w5c2U4LhQAE57gj9cz1kzA",
+						"sig": "MEYCIQCoOHDC89CM5sg9swnkceLzT3dnfGl9yd9WR/JuEYJjXAIhAOkTUqyUbjDBM20+aGBKwbyYOoc4PVvyrwOh1uPP2u0s"
+					}
+				]
+			},
+			"_npmUser": {
+				"name": "samthor",
+				"email": "sam.thorogood@gmail.com"
+			},
+			"directories": {},
+			"maintainers": [
+				{
+					"name": "samthor",
+					"email": "sam.thorogood@gmail.com"
+				}
+			],
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/esm-resolve_1.0.9_1710542018219_0.09384975032407716"
+			},
+			"_hasShrinkwrap": false,
+			"contributors": []
+		},
+		"1.0.10": {
+			"name": "esm-resolve",
+			"version": "1.0.10",
+			"description": "Resolves ESM imports in Node",
+			"main": "bundle.js",
+			"exports": {
+				".": {
+					"node": {
+						"import": "./bundle.js",
+						"require": "./bundle.cjs",
+						"types": "./index.d.ts"
+					}
+				}
+			},
+			"type": "module",
+			"author": {
+				"name": "Sam Thorogood",
+				"email": "sam.thorogood@gmail.com"
+			},
+			"repository": {
+				"type": "git",
+				"url": "git+ssh://git@github.com/samthor/esm-resolve.git"
+			},
+			"license": "Apache-2.0",
+			"devDependencies": {
+				"@types/node": "^20.12.7",
+				"esbuild": "^0.14.54",
+				"tsx": "^4.7.1"
+			},
+			"types": "./index.d.ts",
+			"scripts": {
+				"test": "npx tsx test/resolve.ts"
+			},
+			"bugs": {
+				"url": "https://github.com/samthor/esm-resolve/issues"
+			},
+			"homepage": "https://github.com/samthor/esm-resolve#readme",
+			"_id": "esm-resolve@1.0.10",
+			"_integrity": "sha512-gEuZxEND2BTt4qiQjuNrvuAimkW4bZp0Lxxn1551/TnGHe32UyqKWhSM/ZE/pq5xJww/M3/5mL44JngAdIFBXA==",
+			"_resolved": "/private/var/folders/ky/s3zbsg1d5_q27f30kvr6sxyc0000gp/T/de91d43fbc76fc7f80eb150adf6d11bf/esm-resolve-1.0.10.tgz",
+			"_from": "file:esm-resolve-1.0.10.tgz",
+			"_nodeVersion": "21.7.3",
+			"_npmVersion": "10.5.0",
+			"dist": {
+				"integrity": "sha512-gEuZxEND2BTt4qiQjuNrvuAimkW4bZp0Lxxn1551/TnGHe32UyqKWhSM/ZE/pq5xJww/M3/5mL44JngAdIFBXA==",
+				"shasum": "3efe8e2b594a3bf9a1792ea6a2529d250ecd6bc8",
+				"tarball": "https://registry.npmjs.org/esm-resolve/-/esm-resolve-1.0.10.tgz",
+				"fileCount": 6,
+				"unpackedSize": 33838,
+				"signatures": [
+					{
+						"keyid": "SHA256:jl3bwswu80PjjokCgh0o2w5c2U4LhQAE57gj9cz1kzA",
+						"sig": "MEUCICphzj6D2R6zS5iJg6q3Yw0PkSzgMuAVduY2Zh3ErXnLAiEAi83qYll2c4O8yqtMRgQmBf7nuxHZS3cGPqT89Ec3vU4="
+					}
+				]
+			},
+			"_npmUser": {
+				"name": "samthor",
+				"email": "sam.thorogood@gmail.com"
+			},
+			"directories": {},
+			"maintainers": [
+				{
+					"name": "samthor",
+					"email": "sam.thorogood@gmail.com"
+				}
+			],
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/esm-resolve_1.0.10_1713397081377_0.3304501408796192"
+			},
+			"_hasShrinkwrap": false,
+			"contributors": []
+		},
+		"1.0.11": {
+			"name": "esm-resolve",
+			"version": "1.0.11",
+			"description": "Resolves ESM imports in Node",
+			"main": "bundle.js",
+			"exports": {
+				".": {
+					"node": {
+						"import": "./bundle.js",
+						"require": "./bundle.cjs",
+						"types": "./index.d.ts"
+					}
+				}
+			},
+			"type": "module",
+			"author": {
+				"name": "Sam Thorogood",
+				"email": "sam.thorogood@gmail.com"
+			},
+			"repository": {
+				"type": "git",
+				"url": "git+ssh://git@github.com/samthor/esm-resolve.git"
+			},
+			"license": "Apache-2.0",
+			"devDependencies": {
+				"@types/node": "^20.12.7",
+				"esbuild": "^0.14.54",
+				"tsx": "^4.7.1"
+			},
+			"types": "./index.d.ts",
+			"scripts": {
+				"test": "npx tsx test/resolve.ts"
+			},
+			"bugs": {
+				"url": "https://github.com/samthor/esm-resolve/issues"
+			},
+			"homepage": "https://github.com/samthor/esm-resolve#readme",
+			"_id": "esm-resolve@1.0.11",
+			"_integrity": "sha512-LxF0wfUQm3ldUDHkkV2MIbvvY0TgzIpJ420jHSV1Dm+IlplBEWiJTKWM61GtxUfvjV6iD4OtTYFGAGM2uuIUWg==",
+			"_resolved": "/private/var/folders/ky/s3zbsg1d5_q27f30kvr6sxyc0000gp/T/387772ec8eef85bd2c3042cdb287acc3/esm-resolve-1.0.11.tgz",
+			"_from": "file:esm-resolve-1.0.11.tgz",
+			"_nodeVersion": "21.7.3",
+			"_npmVersion": "10.5.0",
+			"dist": {
+				"integrity": "sha512-LxF0wfUQm3ldUDHkkV2MIbvvY0TgzIpJ420jHSV1Dm+IlplBEWiJTKWM61GtxUfvjV6iD4OtTYFGAGM2uuIUWg==",
+				"shasum": "93f0021d5c06fb9bed77fcd010eb9de54538e1db",
+				"tarball": "https://registry.npmjs.org/esm-resolve/-/esm-resolve-1.0.11.tgz",
+				"fileCount": 10,
+				"unpackedSize": 50928,
+				"signatures": [
+					{
+						"keyid": "SHA256:jl3bwswu80PjjokCgh0o2w5c2U4LhQAE57gj9cz1kzA",
+						"sig": "MEUCIDaGNDgrXPswzki6AzMonFvB+Rr+5nWzGaB5nmQKWhfdAiEAjyWwPzKmzd7aO9vJ49/92qBYZ5aZfFdIuNFBdV7smek="
+					}
+				]
+			},
+			"_npmUser": {
+				"name": "samthor",
+				"email": "sam.thorogood@gmail.com"
+			},
+			"directories": {},
+			"maintainers": [
+				{
+					"name": "samthor",
+					"email": "sam.thorogood@gmail.com"
+				}
+			],
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/esm-resolve_1.0.11_1713397178024_0.6473358328887115"
+			},
+			"_hasShrinkwrap": false,
+			"contributors": []
+		}
+	},
+	"time": {
+		"created": "2021-02-07T05:33:15.064Z",
+		"1.0.0": "2021-02-07T05:33:15.198Z",
+		"modified": "2024-04-17T23:39:38.376Z",
+		"1.0.1": "2021-02-07T05:35:28.110Z",
+		"1.0.2": "2021-02-08T08:02:05.227Z",
+		"1.0.3": "2021-05-02T23:19:38.355Z",
+		"1.0.4": "2021-05-04T06:21:41.972Z",
+		"1.0.5": "2021-12-01T21:12:31.336Z",
+		"1.0.6": "2021-12-03T22:30:24.037Z",
+		"1.0.7": "2022-05-22T06:03:21.424Z",
+		"1.0.8": "2022-05-22T06:20:41.921Z",
+		"1.0.9": "2024-03-15T22:33:38.398Z",
+		"1.0.10": "2024-04-17T23:38:01.524Z",
+		"1.0.11": "2024-04-17T23:39:38.194Z"
+	},
+	"users": {},
+	"dist-tags": {
+		"latest": "1.0.11"
+	},
+	"_uplinks": {
+		"npmjs": {
+			"etag": "W/\"65da0f6ee06e958b0f63f99c7fcfe16c\"",
+			"fetched": 1715345982489
+		}
+	},
+	"_distfiles": {
+		"esm-resolve-1.0.0.tgz": {
+			"url": "https://registry.npmjs.org/esm-resolve/-/esm-resolve-1.0.0.tgz",
+			"sha": "6bcae925181e87ea5dba5eade42b421123f485c5",
+			"registry": "npmjs"
+		},
+		"esm-resolve-1.0.1.tgz": {
+			"url": "https://registry.npmjs.org/esm-resolve/-/esm-resolve-1.0.1.tgz",
+			"sha": "7e12c649a0e27471292806e1c64041f2a177bfbf",
+			"registry": "npmjs"
+		},
+		"esm-resolve-1.0.2.tgz": {
+			"url": "https://registry.npmjs.org/esm-resolve/-/esm-resolve-1.0.2.tgz",
+			"sha": "3a8b5d415f859eaafb043ac468e9c061c97e96ea",
+			"registry": "npmjs"
+		},
+		"esm-resolve-1.0.3.tgz": {
+			"url": "https://registry.npmjs.org/esm-resolve/-/esm-resolve-1.0.3.tgz",
+			"sha": "6e823be2b8ad9f17d0b32a6bbfccc278e89eaf53",
+			"registry": "npmjs"
+		},
+		"esm-resolve-1.0.4.tgz": {
+			"url": "https://registry.npmjs.org/esm-resolve/-/esm-resolve-1.0.4.tgz",
+			"sha": "682cdca5c1d20de9a37842554bf5dc3a31f4e2b8",
+			"registry": "npmjs"
+		},
+		"esm-resolve-1.0.5.tgz": {
+			"url": "https://registry.npmjs.org/esm-resolve/-/esm-resolve-1.0.5.tgz",
+			"sha": "a1b39cf6e53c11e388ba61da6a999b46b2cd7dfc",
+			"registry": "npmjs"
+		},
+		"esm-resolve-1.0.6.tgz": {
+			"url": "https://registry.npmjs.org/esm-resolve/-/esm-resolve-1.0.6.tgz",
+			"sha": "f5c0927ca3cd98bd17bc871a869283621a3ad3d9",
+			"registry": "npmjs"
+		},
+		"esm-resolve-1.0.7.tgz": {
+			"url": "https://registry.npmjs.org/esm-resolve/-/esm-resolve-1.0.7.tgz",
+			"sha": "0e91abc2d551b05d3bdaadc91c0727df71780659",
+			"registry": "npmjs"
+		},
+		"esm-resolve-1.0.8.tgz": {
+			"url": "https://registry.npmjs.org/esm-resolve/-/esm-resolve-1.0.8.tgz",
+			"sha": "1a8121a85a914863463cf05883492e0a55b872d4",
+			"registry": "npmjs"
+		},
+		"esm-resolve-1.0.9.tgz": {
+			"url": "https://registry.npmjs.org/esm-resolve/-/esm-resolve-1.0.9.tgz",
+			"sha": "8d454de9ccef92799797811b0b9b952f199ecfdc",
+			"registry": "npmjs"
+		},
+		"esm-resolve-1.0.10.tgz": {
+			"url": "https://registry.npmjs.org/esm-resolve/-/esm-resolve-1.0.10.tgz",
+			"sha": "3efe8e2b594a3bf9a1792ea6a2529d250ecd6bc8",
+			"registry": "npmjs"
+		},
+		"esm-resolve-1.0.11.tgz": {
+			"url": "https://registry.npmjs.org/esm-resolve/-/esm-resolve-1.0.11.tgz",
+			"sha": "93f0021d5c06fb9bed77fcd010eb9de54538e1db",
+			"registry": "npmjs"
+		}
+	},
+	"_attachments": {
+		"esm-resolve-1.0.11.tgz": {
+			"shasum": "93f0021d5c06fb9bed77fcd010eb9de54538e1db"
+		}
+	},
+	"_rev": "2-1b9db5338da3d293",
+	"_id": "esm-resolve",
+	"readme": "[![Tests](https://github.com/samthor/esm-resolve/workflows/Tests/badge.svg)](https://github.com/samthor/esm-resolve/actions)\n\nSync ESM import resolver for Node written in pure JS.\nThis is written to be part of an [ESM dev server](https://github.com/samthor/dhost) or build process.\nIt is permissive by default, allowing some cases which would normally be failures.\n\n⚠️ This resolver was writtem before [`import.meta.resolve()`](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/import.meta/resolve) was widely available&mdash;it may work for you without adding _yet another_ dependency.\nHowever, \"esm-resolve\" is a bit more permissive.\n\n## Usage\n\nInstall and import \"esm-resolve\" via your favorite package manager.\nCreate a resolver based on the importing file.\n\n```js\nimport buildResolver from 'esm-resolve';\nimport { buildResolver } from 'esm-resolve'; // also works\n\nconst r = buildResolver('./lib/file.js');\n\nr('./relative'); // './relative.js'\nr('foo-test-package-name'); // '../node_modules/foo-test-package-name/index.js'\n```\n\nResolution logic is actually the same for any files in the same directory, so resolver objects can be reused (and they have a small bit of cache).\n\nThe resolved path is returned relative _to the importer_ of that file, not your process' current directory.\nYou can set the `resolveToAbsolute` option if you'd always like an absolute path.\n\n## Notes\n\nThis implements modern Node resolution, i.e., [subpath exports](https://nodejs.org/api/packages.html#packages_subpath_exports), [subpath imports](https://nodejs.org/api/packages.html#subpath-imports) and [conditional exports](https://nodejs.org/api/packages.html#packages_conditional_exports).\nBy default, it will rewrite to the \"browser\", \"import\" or \"default\" keys (not \"node\", as it's expected that you'll use this for browser builds).\n\nIt fails gracefully in many ways, including falling back to real paths if exports aren't defined.\nIt will also remove imports that point purely to \".d.ts\" files (you don't need to create [peer JS](https://whistlr.info/2021/check-js-with-ts/#import-your-types)).\n\nYou can [configure all these options](./types/external.d.ts) via the resolver's second argument, e.g.:\n\n```js\n// Resolves for Node, and allows .mjs files.\nconst r = buildResolver('./lib/file.js', {\n  constraints: 'node',\n  matchNakedMjs: true,\n});\n\n// If there's a file \"foo.mjs\", this will now work:\nr('./foo'); // './foo.mjs'\n\n// Or if we're importing package with a node constraint:\nr('node-only'); // '../node-modules/node-only/build-for-node.js'\n```"
+}

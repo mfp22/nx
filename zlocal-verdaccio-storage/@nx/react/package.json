@@ -37913,6 +37913,215 @@
 			"_hasShrinkwrap": false,
 			"contributors": []
 		},
+		"19.0.2": {
+			"name": "@nx/react",
+			"version": "19.0.2",
+			"private": false,
+			"description": "The React plugin for Nx contains executors and generators for managing React applications and libraries within an Nx workspace. It provides:\n\n\n- Integration with libraries such as Jest, Vitest, Playwright, Cypress, and Storybook.\n\n- Generators for applica",
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/nrwl/nx.git",
+				"directory": "packages/react"
+			},
+			"keywords": [
+				"Monorepo",
+				"React",
+				"Web",
+				"Jest",
+				"Cypress",
+				"CLI"
+			],
+			"main": "./index.js",
+			"typings": "./index.d.ts",
+			"author": {
+				"name": "Victor Savkin"
+			},
+			"license": "MIT",
+			"bugs": {
+				"url": "https://github.com/nrwl/nx/issues"
+			},
+			"homepage": "https://nx.dev",
+			"executors": "./executors.json",
+			"generators": "./generators.json",
+			"ng-update": {
+				"requirements": {},
+				"migrations": "./migrations.json"
+			},
+			"dependencies": {
+				"@phenomnomnominal/tsquery": "~5.0.1",
+				"@svgr/webpack": "^8.0.1",
+				"chalk": "^4.1.0",
+				"file-loader": "^6.2.0",
+				"minimatch": "9.0.3",
+				"tslib": "^2.3.0",
+				"@nx/devkit": "19.0.2",
+				"@nx/js": "19.0.2",
+				"@nx/eslint": "19.0.2",
+				"@nx/web": "19.0.2",
+				"@nrwl/react": "19.0.2"
+			},
+			"publishConfig": {
+				"access": "public"
+			},
+			"type": "commonjs",
+			"_id": "@nx/react@19.0.2",
+			"gitHead": "61861be0f7335082d5e0b44fa96ff3f6d49774ad",
+			"_nodeVersion": "18.20.2",
+			"_npmVersion": "10.5.0",
+			"dist": {
+				"integrity": "sha512-yCCdZ6fiiQB2Kzd9V8xTkaX/LUB9P0wF91a6n28c+c4JeU9K9gS1QeStLnDtQ4MTcVDF7eARFAjgzyZTbWET+Q==",
+				"shasum": "ef00bc7c417e602b5790acf1a404085cb8ffa7f9",
+				"tarball": "https://registry.npmjs.org/@nx/react/-/react-19.0.2.tgz",
+				"fileCount": 345,
+				"unpackedSize": 521235,
+				"attestations": {
+					"url": "https://registry.npmjs.org/-/npm/v1/attestations/@nx%2freact@19.0.2",
+					"provenance": {
+						"predicateType": "https://slsa.dev/provenance/v1"
+					}
+				},
+				"signatures": [
+					{
+						"keyid": "SHA256:jl3bwswu80PjjokCgh0o2w5c2U4LhQAE57gj9cz1kzA",
+						"sig": "MEUCIQC+B8IexwNQPWU9nUx8+pDdLyiToJSdlViyljhRg/FjtgIgNt65RfLiAaI2Jkam/9zYfzfD3N6L9F7js1psnJK05K0="
+					}
+				]
+			},
+			"_npmUser": {
+				"name": "nrwl-jason",
+				"email": "jason@nrwl.io"
+			},
+			"directories": {},
+			"maintainers": [
+				{
+					"name": "jameshenry",
+					"email": "james@henry.sc"
+				},
+				{
+					"name": "jack-nrwl",
+					"email": "jack@nrwl.io"
+				},
+				{
+					"name": "nrwl-jason",
+					"email": "jason@nrwl.io"
+				},
+				{
+					"name": "nrwlowner",
+					"email": "hello@nrwl.io"
+				}
+			],
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/react_19.0.2_1715263084560_0.688608821629453"
+			},
+			"_hasShrinkwrap": false,
+			"contributors": []
+		},
+		"19.1.0-canary.20240510-1a85787": {
+			"name": "@nx/react",
+			"version": "19.1.0-canary.20240510-1a85787",
+			"private": false,
+			"description": "The React plugin for Nx contains executors and generators for managing React applications and libraries within an Nx workspace. It provides:\n\n\n- Integration with libraries such as Jest, Vitest, Playwright, Cypress, and Storybook.\n\n- Generators for applica",
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/nrwl/nx.git",
+				"directory": "packages/react"
+			},
+			"keywords": [
+				"Monorepo",
+				"React",
+				"Web",
+				"Jest",
+				"Cypress",
+				"CLI"
+			],
+			"main": "./index.js",
+			"typings": "./index.d.ts",
+			"author": {
+				"name": "Victor Savkin"
+			},
+			"license": "MIT",
+			"bugs": {
+				"url": "https://github.com/nrwl/nx/issues"
+			},
+			"homepage": "https://nx.dev",
+			"executors": "./executors.json",
+			"generators": "./generators.json",
+			"ng-update": {
+				"requirements": {},
+				"migrations": "./migrations.json"
+			},
+			"dependencies": {
+				"@phenomnomnominal/tsquery": "~5.0.1",
+				"@svgr/webpack": "^8.0.1",
+				"chalk": "^4.1.0",
+				"file-loader": "^6.2.0",
+				"minimatch": "9.0.3",
+				"tslib": "^2.3.0",
+				"@nx/devkit": "19.1.0-canary.20240510-1a85787",
+				"@nx/js": "19.1.0-canary.20240510-1a85787",
+				"@nx/eslint": "19.1.0-canary.20240510-1a85787",
+				"@nx/web": "19.1.0-canary.20240510-1a85787",
+				"@nrwl/react": "19.1.0-canary.20240510-1a85787"
+			},
+			"publishConfig": {
+				"access": "public"
+			},
+			"type": "commonjs",
+			"_id": "@nx/react@19.1.0-canary.20240510-1a85787",
+			"readmeFilename": "README.md",
+			"gitHead": "1a85787e1c310d8409d99361800ef30e81938795",
+			"_nodeVersion": "18.20.2",
+			"_npmVersion": "10.5.0",
+			"dist": {
+				"integrity": "sha512-K+3kruq+ZC2lPuTdcipdKmbifwAFtCQQ6hoppn6o2NMRup+PHXZ5t+GksSqlvM1lMnyQX8DXYpx8v0oH5T1iSw==",
+				"shasum": "845e1cb322a1ad7f4a2f659121ddc9d3bf1c37d9",
+				"tarball": "https://registry.npmjs.org/@nx/react/-/react-19.1.0-canary.20240510-1a85787.tgz",
+				"fileCount": 345,
+				"unpackedSize": 523258,
+				"attestations": {
+					"url": "https://registry.npmjs.org/-/npm/v1/attestations/@nx%2freact@19.1.0-canary.20240510-1a85787",
+					"provenance": {
+						"predicateType": "https://slsa.dev/provenance/v1"
+					}
+				},
+				"signatures": [
+					{
+						"keyid": "SHA256:jl3bwswu80PjjokCgh0o2w5c2U4LhQAE57gj9cz1kzA",
+						"sig": "MEYCIQDMEGDRIvC2mzlruwtokZpb+J7PIKETDOBLSs0/cF3TBwIhAKoaqiWjt4uzZteVwCzdfJ5lzZYVnXILu3f+cP67qGQa"
+					}
+				]
+			},
+			"_npmUser": {
+				"name": "nrwl-jason",
+				"email": "jason@nrwl.io"
+			},
+			"directories": {},
+			"maintainers": [
+				{
+					"name": "jameshenry",
+					"email": "james@henry.sc"
+				},
+				{
+					"name": "jack-nrwl",
+					"email": "jack@nrwl.io"
+				},
+				{
+					"name": "nrwl-jason",
+					"email": "jason@nrwl.io"
+				},
+				{
+					"name": "nrwlowner",
+					"email": "hello@nrwl.io"
+				}
+			],
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/react_19.1.0-canary.20240510-1a85787_1715311021123_0.24887303687815154"
+			},
+			"_hasShrinkwrap": false,
+			"contributors": []
+		},
 		"20.0.0": {
 			"name": "@nx/react",
 			"version": "20.0.0",
@@ -37966,12 +38175,12 @@
 			"type": "commonjs",
 			"_id": "@nx/react@20.0.0",
 			"readmeFilename": "README.md",
-			"gitHead": "792f73081571dea27da52bddf6184313bb7b5737",
-			"_nodeVersion": "20.9.0",
-			"_npmVersion": "10.1.0",
+			"gitHead": "86106e2454080d81eec30be2268bd93f9c6cfcad",
+			"_nodeVersion": "18.18.0",
+			"_npmVersion": "9.8.1",
 			"dist": {
-				"integrity": "sha512-sJaxtQ++zbU3ZZAvRlRr2RPg0NrftGYm8rarFFxmEWLmTGt8gLSSKvTyIqxqhTEKOaYpeEf0r6Psy5I1vbEXiQ==",
-				"shasum": "6583ea0f74b947aee6195f0a7dcd6cb5e6b3895e",
+				"integrity": "sha512-k88wHRNcCyOxsg3LDOX9eUP7B9YPipnw/NLYrTTd2sRvzDvqXz3lf9IdTdl/P/u80DXOe/vss4ojRGX8itg8fQ==",
+				"shasum": "8c5cf19899cd9703aae670984392231f288423e9",
 				"tarball": "http://localhost:4873/@nx/react/-/@nx/react-20.0.0.tgz"
 			},
 			"contributors": []
@@ -37980,7 +38189,7 @@
 	"time": {
 		"created": "2023-04-17T15:03:49.066Z",
 		"16.0.0-beta.1": "2023-04-17T15:03:49.357Z",
-		"modified": "2024-05-09T08:19:58.262Z",
+		"modified": "2024-05-10T12:57:05.763Z",
 		"16.0.0-beta.2": "2023-04-18T15:10:06.507Z",
 		"16.0.0-beta.3": "2023-04-19T16:08:39.538Z",
 		"16.0.0-beta.4": "2023-04-19T19:32:07.889Z",
@@ -38335,19 +38544,21 @@
 		"19.0.1": "2024-05-07T22:27:15.491Z",
 		"19.1.0-canary.20240508-fd78152": "2024-05-08T03:17:16.371Z",
 		"19.1.0-canary.20240509-8f705e3": "2024-05-09T03:16:29.793Z",
-		"20.0.0": "2024-05-09T08:19:58.262Z"
+		"19.0.2": "2024-05-09T13:58:04.783Z",
+		"19.1.0-canary.20240510-1a85787": "2024-05-10T03:17:01.312Z",
+		"20.0.0": "2024-05-10T12:57:05.763Z"
 	},
 	"users": {},
 	"dist-tags": {
 		"next": "19.0.0-rc.2",
 		"latest": "20.0.0",
 		"previous": "18.3.4",
-		"canary": "19.1.0-canary.20240509-8f705e3"
+		"canary": "19.1.0-canary.20240510-1a85787"
 	},
 	"_uplinks": {
 		"npmjs": {
-			"etag": "W/\"9e4e24e62f18dcfc011ba8e472dfd160\"",
-			"fetched": 1715242797779
+			"etag": "W/\"d57a50f957a68a46e58a701360fd750d\"",
+			"fetched": 1715345824295
 		}
 	},
 	"_distfiles": {
@@ -40125,15 +40336,25 @@
 			"url": "https://registry.npmjs.org/@nx/react/-/react-19.1.0-canary.20240509-8f705e3.tgz",
 			"sha": "de3a41dc8e16bab930578329d51ee66bb76dc608",
 			"registry": "npmjs"
+		},
+		"react-19.0.2.tgz": {
+			"url": "https://registry.npmjs.org/@nx/react/-/react-19.0.2.tgz",
+			"sha": "ef00bc7c417e602b5790acf1a404085cb8ffa7f9",
+			"registry": "npmjs"
+		},
+		"react-19.1.0-canary.20240510-1a85787.tgz": {
+			"url": "https://registry.npmjs.org/@nx/react/-/react-19.1.0-canary.20240510-1a85787.tgz",
+			"sha": "845e1cb322a1ad7f4a2f659121ddc9d3bf1c37d9",
+			"registry": "npmjs"
 		}
 	},
 	"_attachments": {
 		"react-20.0.0.tgz": {
-			"shasum": "6583ea0f74b947aee6195f0a7dcd6cb5e6b3895e",
+			"shasum": "8c5cf19899cd9703aae670984392231f288423e9",
 			"version": "20.0.0"
 		}
 	},
-	"_rev": "4-d4da993f6aa95b54",
+	"_rev": "4-1bff267d7c53d645",
 	"_id": "@nx/react",
 	"readme": "<p style=\"text-align: center;\">\n  <picture>\n    <source media=\"(prefers-color-scheme: dark)\" srcset=\"https://raw.githubusercontent.com/nrwl/nx/master/images/nx-dark.svg\">\n    <img alt=\"Nx - Smart Monorepos · Fast CI\" src=\"https://raw.githubusercontent.com/nrwl/nx/master/images/nx-light.svg\" width=\"100%\">\n  </picture>\n</p>\n\n<div style=\"text-align: center;\">\n\n[![CircleCI](https://circleci.com/gh/nrwl/nx.svg?style=svg)](https://circleci.com/gh/nrwl/nx)\n[![License](https://img.shields.io/npm/l/@nx/workspace.svg?style=flat-square)]()\n[![NPM Version](https://badge.fury.io/js/%40nrwl%2Fworkspace.svg)](https://www.npmjs.com/@nx/workspace)\n[![Semantic Release](https://img.shields.io/badge/%20%20%F0%9F%93%A6%F0%9F%9A%80-semantic--release-e10079.svg?style=flat-square)]()\n[![Commitizen friendly](https://img.shields.io/badge/commitizen-friendly-brightgreen.svg)](http://commitizen.github.io/cz-cli/)\n[![Join the chat at https://gitter.im/nrwl-nx/community](https://badges.gitter.im/nrwl-nx/community.svg)](https://gitter.im/nrwl-nx/community?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)\n[![Join us on the Official Nx Discord Server](https://img.shields.io/discord/1143497901675401286?label=discord)](https://go.nx.dev/community)\n\n</div>\n\n\n<hr>\n\n# Nx: Smart Monorepos · Fast CI\n\nNx is a build system with built-in tooling and advanced CI capabilities. It helps you maintain and scale monorepos, both locally and on CI.\n\nThis package is a [React plugin for Nx](https://nx.dev/packages/react).\n\n## Getting Started\n\n### Creating an Nx Workspace\n\n**Using `npx`**\n\n```bash\nnpx create-nx-workspace\n```\n\n**Using `npm init`**\n\n```bash\nnpm init nx-workspace\n```\n\n**Using `yarn create`**\n\n```bash\nyarn create nx-workspace\n```\n\n### Adding Nx to an Existing Repository\n\nRun:\n\n```bash\nnpx nx@latest init\n```\n\n## Documentation & Resources\n\n- [Nx.Dev: Documentation, Guides, Tutorials](https://nx.dev)\n- [Intro to Nx](https://nx.dev/getting-started/intro)\n- [Official Nx YouTube Channel](https://www.youtube.com/@NxDevtools)\n- [Blog Posts About Nx](https://blog.nrwl.io/nx/home)\n\n<p style=\"text-align: center;\"><a href=\"https://nx.dev/#learning-materials\" target=\"_blank\" rel=\"noreferrer\"><img src=\"https://raw.githubusercontent.com/nrwl/nx/master/images/nx-courses-and-videos.svg\" \nwidth=\"100%\" alt=\"Nx - Smart Monorepos · Fast CI\"></a></p>\n\n"
 }

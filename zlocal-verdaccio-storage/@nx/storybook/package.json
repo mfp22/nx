@@ -36840,6 +36840,207 @@
 			"_hasShrinkwrap": false,
 			"contributors": []
 		},
+		"19.0.2": {
+			"name": "@nx/storybook",
+			"version": "19.0.2",
+			"private": false,
+			"description": "The Nx Plugin for Storybook contains executors and generators for allowing your workspace to use the powerful Storybook integration testing & documenting capabilities.",
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/nrwl/nx.git",
+				"directory": "packages/storybook"
+			},
+			"keywords": [
+				"Angular",
+				"React",
+				"Web",
+				"Storybook",
+				"Cypress"
+			],
+			"main": "./index.js",
+			"typings": "./index.d.ts",
+			"author": {
+				"name": "Isaac Mann"
+			},
+			"license": "MIT",
+			"bugs": {
+				"url": "https://github.com/nrwl/nx/issues"
+			},
+			"homepage": "https://nx.dev",
+			"generators": "./generators.json",
+			"executors": "./executors.json",
+			"ng-update": {
+				"requirements": {},
+				"migrations": "./migrations.json"
+			},
+			"dependencies": {
+				"@nx/devkit": "19.0.2",
+				"@phenomnomnominal/tsquery": "~5.0.1",
+				"semver": "^7.5.3",
+				"tslib": "^2.3.0",
+				"@nx/cypress": "19.0.2",
+				"@nx/js": "19.0.2",
+				"@nx/eslint": "19.0.2",
+				"@nrwl/storybook": "19.0.2"
+			},
+			"publishConfig": {
+				"access": "public"
+			},
+			"type": "commonjs",
+			"_id": "@nx/storybook@19.0.2",
+			"gitHead": "61861be0f7335082d5e0b44fa96ff3f6d49774ad",
+			"_nodeVersion": "18.20.2",
+			"_npmVersion": "10.5.0",
+			"dist": {
+				"integrity": "sha512-8HBynlwleDpcxYo7oG9DtHseEegidLAcRWaWks7gSn0qdyD43PcR1ppfYdFyg5fvLN38UZm5RYBK60I9WYZUyg==",
+				"shasum": "8acce07aa73f9e892cf6d678f88ab1785301d285",
+				"tarball": "https://registry.npmjs.org/@nx/storybook/-/storybook-19.0.2.tgz",
+				"fileCount": 73,
+				"unpackedSize": 178614,
+				"attestations": {
+					"url": "https://registry.npmjs.org/-/npm/v1/attestations/@nx%2fstorybook@19.0.2",
+					"provenance": {
+						"predicateType": "https://slsa.dev/provenance/v1"
+					}
+				},
+				"signatures": [
+					{
+						"keyid": "SHA256:jl3bwswu80PjjokCgh0o2w5c2U4LhQAE57gj9cz1kzA",
+						"sig": "MEQCIBfVnEMgnvEn3TcT4AmOhMfk1/1XIRV1WJHRSyjiptvMAiBQmU027FW+Z6t9LijkVfouNofYyxnHY6zyOFMVXJnbCQ=="
+					}
+				]
+			},
+			"_npmUser": {
+				"name": "nrwl-jason",
+				"email": "jason@nrwl.io"
+			},
+			"directories": {},
+			"maintainers": [
+				{
+					"name": "jameshenry",
+					"email": "james@henry.sc"
+				},
+				{
+					"name": "jack-nrwl",
+					"email": "jack@nrwl.io"
+				},
+				{
+					"name": "nrwl-jason",
+					"email": "jason@nrwl.io"
+				},
+				{
+					"name": "nrwlowner",
+					"email": "hello@nrwl.io"
+				}
+			],
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/storybook_19.0.2_1715263077331_0.5080402054157469"
+			},
+			"_hasShrinkwrap": false,
+			"contributors": []
+		},
+		"19.1.0-canary.20240510-1a85787": {
+			"name": "@nx/storybook",
+			"version": "19.1.0-canary.20240510-1a85787",
+			"private": false,
+			"description": "The Nx Plugin for Storybook contains executors and generators for allowing your workspace to use the powerful Storybook integration testing & documenting capabilities.",
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/nrwl/nx.git",
+				"directory": "packages/storybook"
+			},
+			"keywords": [
+				"Angular",
+				"React",
+				"Web",
+				"Storybook",
+				"Cypress"
+			],
+			"main": "./index.js",
+			"typings": "./index.d.ts",
+			"author": {
+				"name": "Isaac Mann"
+			},
+			"license": "MIT",
+			"bugs": {
+				"url": "https://github.com/nrwl/nx/issues"
+			},
+			"homepage": "https://nx.dev",
+			"generators": "./generators.json",
+			"executors": "./executors.json",
+			"ng-update": {
+				"requirements": {},
+				"migrations": "./migrations.json"
+			},
+			"dependencies": {
+				"@nx/devkit": "19.1.0-canary.20240510-1a85787",
+				"@phenomnomnominal/tsquery": "~5.0.1",
+				"semver": "^7.5.3",
+				"tslib": "^2.3.0",
+				"@nx/cypress": "19.1.0-canary.20240510-1a85787",
+				"@nx/js": "19.1.0-canary.20240510-1a85787",
+				"@nx/eslint": "19.1.0-canary.20240510-1a85787",
+				"@nrwl/storybook": "19.1.0-canary.20240510-1a85787"
+			},
+			"publishConfig": {
+				"access": "public"
+			},
+			"type": "commonjs",
+			"_id": "@nx/storybook@19.1.0-canary.20240510-1a85787",
+			"readmeFilename": "README.md",
+			"gitHead": "1a85787e1c310d8409d99361800ef30e81938795",
+			"_nodeVersion": "18.20.2",
+			"_npmVersion": "10.5.0",
+			"dist": {
+				"integrity": "sha512-+KTVcdw4ADAeN6ZwSr1CuKGCLnuhs0NgcV6WXibrsMUrNBnSjZDPnwusJob/UGb6jsw2+cUVAMvyph73jWAlBA==",
+				"shasum": "8a4c46d3cceff29f624d094775c90194a97f8bd4",
+				"tarball": "https://registry.npmjs.org/@nx/storybook/-/storybook-19.1.0-canary.20240510-1a85787.tgz",
+				"fileCount": 73,
+				"unpackedSize": 178758,
+				"attestations": {
+					"url": "https://registry.npmjs.org/-/npm/v1/attestations/@nx%2fstorybook@19.1.0-canary.20240510-1a85787",
+					"provenance": {
+						"predicateType": "https://slsa.dev/provenance/v1"
+					}
+				},
+				"signatures": [
+					{
+						"keyid": "SHA256:jl3bwswu80PjjokCgh0o2w5c2U4LhQAE57gj9cz1kzA",
+						"sig": "MEYCIQCEXn1f5May7qfN+r0NX7xXyiJySE1PB76KS0hi389mmAIhANw4HSMwGNLJ2SEgFOTmK8DU6ZT7dT9EgrZykKXnmyVg"
+					}
+				]
+			},
+			"_npmUser": {
+				"name": "nrwl-jason",
+				"email": "jason@nrwl.io"
+			},
+			"directories": {},
+			"maintainers": [
+				{
+					"name": "jameshenry",
+					"email": "james@henry.sc"
+				},
+				{
+					"name": "jack-nrwl",
+					"email": "jack@nrwl.io"
+				},
+				{
+					"name": "nrwl-jason",
+					"email": "jason@nrwl.io"
+				},
+				{
+					"name": "nrwlowner",
+					"email": "hello@nrwl.io"
+				}
+			],
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/storybook_19.1.0-canary.20240510-1a85787_1715311015337_0.7946969757410649"
+			},
+			"_hasShrinkwrap": false,
+			"contributors": []
+		},
 		"20.0.0": {
 			"name": "@nx/storybook",
 			"version": "20.0.0",
@@ -36889,12 +37090,12 @@
 			"type": "commonjs",
 			"_id": "@nx/storybook@20.0.0",
 			"readmeFilename": "README.md",
-			"gitHead": "792f73081571dea27da52bddf6184313bb7b5737",
-			"_nodeVersion": "20.9.0",
-			"_npmVersion": "10.1.0",
+			"gitHead": "86106e2454080d81eec30be2268bd93f9c6cfcad",
+			"_nodeVersion": "18.18.0",
+			"_npmVersion": "9.8.1",
 			"dist": {
-				"integrity": "sha512-KtxUNTuu0Gh+rFLbfo9AuoHa1Aata6OPkIDFOIc0CJsmVP5aGY/3t5x6fPDW+mehePpDT1c5qPuUHjx+UgEFzg==",
-				"shasum": "0399a851e7c8b82a09e2ff6927f988f64b077eb5",
+				"integrity": "sha512-y2qOOJxGOI3RqkYBZhl8qwMruUQovxsVFqiY2NZEIy2HYuJN/lM3nk3HQTwvjlJ+kec9a57/YXDjVYNRQgg/jA==",
+				"shasum": "eea24a967914150f37c58ff2019b57bb2d3ff5d2",
 				"tarball": "http://localhost:4873/@nx/storybook/-/@nx/storybook-20.0.0.tgz"
 			},
 			"contributors": []
@@ -36903,7 +37104,7 @@
 	"time": {
 		"created": "2023-04-17T15:03:56.410Z",
 		"16.0.0-beta.1": "2023-04-17T15:03:56.673Z",
-		"modified": "2024-05-09T08:19:57.118Z",
+		"modified": "2024-05-10T12:57:02.810Z",
 		"16.0.0-beta.2": "2023-04-18T15:10:11.184Z",
 		"16.0.0-beta.3": "2023-04-19T16:08:42.536Z",
 		"16.0.0-beta.4": "2023-04-19T19:32:11.059Z",
@@ -37258,19 +37459,21 @@
 		"19.0.1": "2024-05-07T22:26:59.831Z",
 		"19.1.0-canary.20240508-fd78152": "2024-05-08T03:17:10.154Z",
 		"19.1.0-canary.20240509-8f705e3": "2024-05-09T03:16:18.980Z",
-		"20.0.0": "2024-05-09T08:19:57.118Z"
+		"19.0.2": "2024-05-09T13:57:57.508Z",
+		"19.1.0-canary.20240510-1a85787": "2024-05-10T03:16:55.540Z",
+		"20.0.0": "2024-05-10T12:57:02.810Z"
 	},
 	"users": {},
 	"dist-tags": {
 		"next": "19.0.0-rc.2",
 		"latest": "20.0.0",
 		"previous": "18.3.4",
-		"canary": "19.1.0-canary.20240509-8f705e3"
+		"canary": "19.1.0-canary.20240510-1a85787"
 	},
 	"_uplinks": {
 		"npmjs": {
-			"etag": "W/\"cc25ef78be67db1de267fda61ea45aee\"",
-			"fetched": 1715242796750
+			"etag": "W/\"42a9706f62d549407fb340f51a54c228\"",
+			"fetched": 1715345821833
 		}
 	},
 	"_distfiles": {
@@ -39048,15 +39251,25 @@
 			"url": "https://registry.npmjs.org/@nx/storybook/-/storybook-19.1.0-canary.20240509-8f705e3.tgz",
 			"sha": "c4f5ca28329940c5b75c27ed71160d7d0355a77e",
 			"registry": "npmjs"
+		},
+		"storybook-19.0.2.tgz": {
+			"url": "https://registry.npmjs.org/@nx/storybook/-/storybook-19.0.2.tgz",
+			"sha": "8acce07aa73f9e892cf6d678f88ab1785301d285",
+			"registry": "npmjs"
+		},
+		"storybook-19.1.0-canary.20240510-1a85787.tgz": {
+			"url": "https://registry.npmjs.org/@nx/storybook/-/storybook-19.1.0-canary.20240510-1a85787.tgz",
+			"sha": "8a4c46d3cceff29f624d094775c90194a97f8bd4",
+			"registry": "npmjs"
 		}
 	},
 	"_attachments": {
 		"storybook-20.0.0.tgz": {
-			"shasum": "0399a851e7c8b82a09e2ff6927f988f64b077eb5",
+			"shasum": "eea24a967914150f37c58ff2019b57bb2d3ff5d2",
 			"version": "20.0.0"
 		}
 	},
-	"_rev": "4-31c3612454820d90",
+	"_rev": "5-434cd54ca449bc08",
 	"_id": "@nx/storybook",
-	"readme": "<p style=\"text-align: center;\">\n  <picture>\n    <source media=\"(prefers-color-scheme: dark)\" srcset=\"https://raw.githubusercontent.com/nrwl/nx/master/images/nx-dark.svg\">\n    <img alt=\"Nx - Smart Monorepos · Fast CI\" src=\"https://raw.githubusercontent.com/nrwl/nx/master/images/nx-light.svg\" width=\"100%\">\n  </picture>\n</p>\n\n<div style=\"text-align: center;\">\n\n[![CircleCI](https://circleci.com/gh/nrwl/nx.svg?style=svg)](https://circleci.com/gh/nrwl/nx)\n[![License](https://img.shields.io/npm/l/@nx/workspace.svg?style=flat-square)]()\n[![NPM Version](https://badge.fury.io/js/%40nrwl%2Fworkspace.svg)](https://www.npmjs.com/@nx/workspace)\n[![Semantic Release](https://img.shields.io/badge/%20%20%F0%9F%93%A6%F0%9F%9A%80-semantic--release-e10079.svg?style=flat-square)]()\n[![Commitizen friendly](https://img.shields.io/badge/commitizen-friendly-brightgreen.svg)](http://commitizen.github.io/cz-cli/)\n[![Join the chat at https://gitter.im/nrwl-nx/community](https://badges.gitter.im/nrwl-nx/community.svg)](https://gitter.im/nrwl-nx/community?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)\n[![Join us on the Official Nx Discord Server](https://img.shields.io/discord/1143497901675401286?label=discord)](https://go.nx.dev/community)\n\n</div>\n\n\n<hr>\n\n# Nx: Smart Monorepos · Fast CI\n\nNx is a build system with built-in tooling and advanced CI capabilities. It helps you maintain and scale monorepos, both locally and on CI.\n\nThis package is a [Storybook plugin for Nx](https://nx.dev/packages/storybook).\n\n## Getting Started\n\n### Creating an Nx Workspace\n\n**Using `npx`**\n\n```bash\nnpx create-nx-workspace\n```\n\n**Using `npm init`**\n\n```bash\nnpm init nx-workspace\n```\n\n**Using `yarn create`**\n\n```bash\nyarn create nx-workspace\n```\n\n### Adding Nx to an Existing Repository\n\nRun:\n\n```bash\nnpx nx@latest init\n```\n\n## Documentation & Resources\n\n- [Nx.Dev: Documentation, Guides, Tutorials](https://nx.dev)\n- [Intro to Nx](https://nx.dev/getting-started/intro)\n- [Official Nx YouTube Channel](https://www.youtube.com/@NxDevtools)\n- [Blog Posts About Nx](https://blog.nrwl.io/nx/home)\n\n<p style=\"text-align: center;\"><a href=\"https://nx.dev/#learning-materials\" target=\"_blank\" rel=\"noreferrer\"><img src=\"https://raw.githubusercontent.com/nrwl/nx/master/images/nx-courses-and-videos.svg\" \nwidth=\"100%\" alt=\"Nx - Smart Monorepos · Fast CI\"></a></p>\n\n"
+	"readme": "<p style=\"text-align: center;\">\n  <picture>\n    <source media=\"(prefers-color-scheme: dark)\" srcset=\"https://raw.githubusercontent.com/nrwl/nx/master/images/nx-dark.svg\">\n    <img alt=\"Nx - Smart Monorepos · Fast CI\" src=\"https://raw.githubusercontent.com/nrwl/nx/master/images/nx-light.svg\" width=\"100%\">\n  </picture>\n</p>\n\n<div style=\"text-align: center;\">\n\n[![CircleCI](https://circleci.com/gh/nrwl/nx.svg?style=svg)](https://circleci.com/gh/nrwl/nx)\n[![License](https://img.shields.io/npm/l/@nx/workspace.svg?style=flat-square)]()\n[![NPM Version](https://badge.fury.io/js/%40nrwl%2Fworkspace.svg)](https://www.npmjs.com/@nx/workspace)\n[![Semantic Release](https://img.shields.io/badge/%20%20%F0%9F%93%A6%F0%9F%9A%80-semantic--release-e10079.svg?style=flat-square)]()\n[![Commitizen friendly](https://img.shields.io/badge/commitizen-friendly-brightgreen.svg)](http://commitizen.github.io/cz-cli/)\n[![Join the chat at https://gitter.im/nrwl-nx/community](https://badges.gitter.im/nrwl-nx/community.svg)](https://gitter.im/nrwl-nx/community?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)\n[![Join us on the Official Nx Discord Server](https://img.shields.io/discord/1143497901675401286?label=discord)](https://go.nx.dev/community)\n\n</div>\n\n\n<hr>\n\n# Nx: Smart Monorepos · Fast CI\n\nNx is a build system with built-in tooling and advanced CI capabilities. It helps you maintain and scale monorepos, both locally and on CI.\n\nThis package is a [Storybook plugin for Nx](https://nx.dev/packages/storybook).\n\n## Getting Started\n\n### Creating an Nx Workspace\n\n**Using `npx`**\n\n```bash\nnpx create-nx-workspace\n```\n\n**Using `npm init`**\n\n```bash\nnpm init nx-workspace\n```\n\n**Using `yarn create`**\n\n```bash\nyarn create nx-workspace\n```\n\n### Adding Nx to an Existing Repository\n\nRun:\n\n```bash\nnpx nx@latest init\n```\n\n## Documentation & Resources\n\n- [Nx.Dev: Documentation, Guides, Tutorials](https://nx.dev)\n- [Intro to Nx](https://nx.dev/getting-started/intro)\n- [Official Nx YouTube Channel](https://www.youtube.com/@NxDevtools)\n- [Blog Posts About Nx](https://blog.nrwl.io/nx/home)\n\n<p style=\"text-align: center;\"><a href=\"https://nx.dev/#learning-materials\" target=\"_blank\" rel=\"noreferrer\"><img src=\"https://raw.githubusercontent.com/nrwl/nx/master/images/nx-courses-and-videos.svg\" \nwidth=\"100%\" alt=\"Nx - Smart Monorepos · Fast CI\"></a></p>"
 }

@@ -29018,6 +29018,164 @@
 			"_hasShrinkwrap": false,
 			"contributors": []
 		},
+		"19.0.2": {
+			"name": "@nx/nx-linux-arm-gnueabihf",
+			"version": "19.0.2",
+			"license": "MIT",
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/nrwl/nx.git",
+				"directory": "packages/nx/native-packages/linux-arm-gnueabihf"
+			},
+			"os": [
+				"linux"
+			],
+			"cpu": [
+				"arm"
+			],
+			"main": "nx.linux-arm-gnueabihf.node",
+			"engines": {
+				"node": ">= 10"
+			},
+			"publishConfig": {
+				"access": "public"
+			},
+			"_id": "@nx/nx-linux-arm-gnueabihf@19.0.2",
+			"gitHead": "61861be0f7335082d5e0b44fa96ff3f6d49774ad",
+			"bugs": {
+				"url": "https://github.com/nrwl/nx/issues"
+			},
+			"homepage": "https://github.com/nrwl/nx#readme",
+			"_nodeVersion": "18.20.2",
+			"_npmVersion": "10.5.0",
+			"dist": {
+				"integrity": "sha512-0IW/gYZo5toGjjrqKL4SqV2twfkVDfMpx6M4BxwJlYEzzl+gtF0VrWfhVU3r4p2YZV8yW3cmH9SNChB6YZgQmA==",
+				"shasum": "3a389953bf7fc547bc1ac45a42519c7af6bca7fa",
+				"tarball": "https://registry.npmjs.org/@nx/nx-linux-arm-gnueabihf/-/nx-linux-arm-gnueabihf-19.0.2.tgz",
+				"fileCount": 2,
+				"unpackedSize": 9041267,
+				"attestations": {
+					"url": "https://registry.npmjs.org/-/npm/v1/attestations/@nx%2fnx-linux-arm-gnueabihf@19.0.2",
+					"provenance": {
+						"predicateType": "https://slsa.dev/provenance/v1"
+					}
+				},
+				"signatures": [
+					{
+						"keyid": "SHA256:jl3bwswu80PjjokCgh0o2w5c2U4LhQAE57gj9cz1kzA",
+						"sig": "MEYCIQDlOOgoyGvRvuZ2qhDQqSldBUnnQN/INW7vRTbT/5v58QIhAIg4jMFuy+wOLzYe+bc/8s/w5IzygYr2KcplQBsW0bTp"
+					}
+				]
+			},
+			"_npmUser": {
+				"name": "nrwl-jason",
+				"email": "jason@nrwl.io"
+			},
+			"directories": {},
+			"maintainers": [
+				{
+					"name": "jameshenry",
+					"email": "james@henry.sc"
+				},
+				{
+					"name": "jack-nrwl",
+					"email": "jack@nrwl.io"
+				},
+				{
+					"name": "nrwl-jason",
+					"email": "jason@nrwl.io"
+				},
+				{
+					"name": "nrwlowner",
+					"email": "hello@nrwl.io"
+				}
+			],
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/nx-linux-arm-gnueabihf_19.0.2_1715263013155_0.7296605340247031"
+			},
+			"_hasShrinkwrap": false,
+			"contributors": []
+		},
+		"19.1.0-canary.20240510-1a85787": {
+			"name": "@nx/nx-linux-arm-gnueabihf",
+			"version": "19.1.0-canary.20240510-1a85787",
+			"license": "MIT",
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/nrwl/nx.git",
+				"directory": "packages/nx/native-packages/linux-arm-gnueabihf"
+			},
+			"os": [
+				"linux"
+			],
+			"cpu": [
+				"arm"
+			],
+			"main": "nx.linux-arm-gnueabihf.node",
+			"engines": {
+				"node": ">= 10"
+			},
+			"publishConfig": {
+				"access": "public"
+			},
+			"_id": "@nx/nx-linux-arm-gnueabihf@19.1.0-canary.20240510-1a85787",
+			"gitHead": "1a85787e1c310d8409d99361800ef30e81938795",
+			"bugs": {
+				"url": "https://github.com/nrwl/nx/issues"
+			},
+			"homepage": "https://github.com/nrwl/nx#readme",
+			"_nodeVersion": "18.20.2",
+			"_npmVersion": "10.5.0",
+			"dist": {
+				"integrity": "sha512-IRP8R3FYzKCue6Ed/I5rBHrFXUR4Cp9nMzOI6DmrpiGmNfO8CPz3l1efO/AnYp/NqNu56ynyEAzrDeue8WyaOQ==",
+				"shasum": "7ae6bfc36fa334d85078197ce1ff3c2ea0333bf2",
+				"tarball": "https://registry.npmjs.org/@nx/nx-linux-arm-gnueabihf/-/nx-linux-arm-gnueabihf-19.1.0-canary.20240510-1a85787.tgz",
+				"fileCount": 2,
+				"unpackedSize": 9041291,
+				"attestations": {
+					"url": "https://registry.npmjs.org/-/npm/v1/attestations/@nx%2fnx-linux-arm-gnueabihf@19.1.0-canary.20240510-1a85787",
+					"provenance": {
+						"predicateType": "https://slsa.dev/provenance/v1"
+					}
+				},
+				"signatures": [
+					{
+						"keyid": "SHA256:jl3bwswu80PjjokCgh0o2w5c2U4LhQAE57gj9cz1kzA",
+						"sig": "MEUCIQDtkJBmF6mbd+uaYPOZNiQVyrXD11EFcuYnQkZH4nqWwwIgNZP9jGmNx6Fs06GuyCndsBk6eg7Wy6MEYPqokfaCe8E="
+					}
+				]
+			},
+			"_npmUser": {
+				"name": "nrwl-jason",
+				"email": "jason@nrwl.io"
+			},
+			"directories": {},
+			"maintainers": [
+				{
+					"name": "jameshenry",
+					"email": "james@henry.sc"
+				},
+				{
+					"name": "jack-nrwl",
+					"email": "jack@nrwl.io"
+				},
+				{
+					"name": "nrwl-jason",
+					"email": "jason@nrwl.io"
+				},
+				{
+					"name": "nrwlowner",
+					"email": "hello@nrwl.io"
+				}
+			],
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/nx-linux-arm-gnueabihf_19.1.0-canary.20240510-1a85787_1715310947364_0.15548266100446106"
+			},
+			"_hasShrinkwrap": false,
+			"contributors": []
+		},
 		"20.0.0": {
 			"name": "@nx/nx-linux-arm-gnueabihf",
 			"version": "20.0.0",
@@ -29044,13 +29202,13 @@
 				"access": "public"
 			},
 			"_id": "@nx/nx-linux-arm-gnueabihf@20.0.0",
-			"gitHead": "792f73081571dea27da52bddf6184313bb7b5737",
+			"gitHead": "86106e2454080d81eec30be2268bd93f9c6cfcad",
 			"bugs": {
 				"url": "https://github.com/nrwl/nx/issues"
 			},
 			"homepage": "https://github.com/nrwl/nx#readme",
-			"_nodeVersion": "20.9.0",
-			"_npmVersion": "10.1.0",
+			"_nodeVersion": "18.18.0",
+			"_npmVersion": "9.8.1",
 			"dist": {
 				"integrity": "sha512-s5/ez+BhY1HkIM4rxbfK8z8Skj8srZLUEzTJHbnAPtt8CwnQOz5g8AUztm6R+nSW/fRkBEA9eZqwEYYVJjK9jA==",
 				"shasum": "d551daf6c42ff1e64eb0ee8a7b620d608eddb6a6",
@@ -29062,7 +29220,7 @@
 	"time": {
 		"created": "2023-04-17T15:02:47.181Z",
 		"16.0.0-beta.1": "2023-04-17T15:02:47.429Z",
-		"modified": "2024-05-09T08:19:45.351Z",
+		"modified": "2024-05-10T12:56:35.909Z",
 		"16.0.0-beta.2": "2023-04-18T15:09:17.443Z",
 		"16.0.0-beta.3": "2023-04-19T16:07:55.421Z",
 		"16.0.0-beta.4": "2023-04-19T19:31:31.759Z",
@@ -29422,19 +29580,21 @@
 		"19.0.1": "2024-05-07T22:25:34.644Z",
 		"19.1.0-canary.20240508-fd78152": "2024-05-08T03:15:53.278Z",
 		"19.1.0-canary.20240509-8f705e3": "2024-05-09T03:15:14.234Z",
-		"20.0.0": "2024-05-09T08:19:45.351Z"
+		"19.0.2": "2024-05-09T13:56:53.370Z",
+		"19.1.0-canary.20240510-1a85787": "2024-05-10T03:15:47.631Z",
+		"20.0.0": "2024-05-10T12:56:35.909Z"
 	},
 	"users": {},
 	"dist-tags": {
 		"next": "19.0.0-rc.2",
 		"latest": "20.0.0",
 		"previous": "18.3.4",
-		"canary": "19.1.0-canary.20240509-8f705e3"
+		"canary": "19.1.0-canary.20240510-1a85787"
 	},
 	"_uplinks": {
 		"npmjs": {
-			"etag": "W/\"c860dab8d62bb0342aebf4aad8812550\"",
-			"fetched": 1715242784982
+			"etag": "W/\"dfa11c244c4faee18b4de58cafcc085a\"",
+			"fetched": 1715345794567
 		}
 	},
 	"_distfiles": {
@@ -31232,6 +31392,16 @@
 			"url": "https://registry.npmjs.org/@nx/nx-linux-arm-gnueabihf/-/nx-linux-arm-gnueabihf-19.1.0-canary.20240509-8f705e3.tgz",
 			"sha": "fdecc528cfc579de9971313a855a92207e984905",
 			"registry": "npmjs"
+		},
+		"nx-linux-arm-gnueabihf-19.0.2.tgz": {
+			"url": "https://registry.npmjs.org/@nx/nx-linux-arm-gnueabihf/-/nx-linux-arm-gnueabihf-19.0.2.tgz",
+			"sha": "3a389953bf7fc547bc1ac45a42519c7af6bca7fa",
+			"registry": "npmjs"
+		},
+		"nx-linux-arm-gnueabihf-19.1.0-canary.20240510-1a85787.tgz": {
+			"url": "https://registry.npmjs.org/@nx/nx-linux-arm-gnueabihf/-/nx-linux-arm-gnueabihf-19.1.0-canary.20240510-1a85787.tgz",
+			"sha": "7ae6bfc36fa334d85078197ce1ff3c2ea0333bf2",
+			"registry": "npmjs"
 		}
 	},
 	"_attachments": {
@@ -31240,7 +31410,7 @@
 			"version": "20.0.0"
 		}
 	},
-	"_rev": "4-796e0e60b178f7f8",
+	"_rev": "4-ea603d230a2cebb9",
 	"_id": "@nx/nx-linux-arm-gnueabihf",
 	"readme": "ERROR: No README data found!"
 }

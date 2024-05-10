@@ -1,0 +1,1217 @@
+{
+	"name": "@vue/devtools-applet",
+	"versions": {
+		"7.0.18": {
+			"name": "@vue/devtools-applet",
+			"type": "module",
+			"version": "7.0.18",
+			"author": {
+				"name": "webfansplz"
+			},
+			"license": "MIT",
+			"exports": {
+				".": {
+					"import": "./dist/index.js",
+					"require": "./dist/index.cjs"
+				},
+				"./style.css": "./dist/index.css"
+			},
+			"main": "./dist/index.cjs",
+			"module": "./dist/index.js",
+			"peerDependencies": {
+				"vue": "^3.0.0"
+			},
+			"dependencies": {
+				"perfect-debounce": "^1.0.0",
+				"splitpanes": "^3.1.5",
+				"@vue/devtools-ui": "^7.0.18",
+				"@vue/devtools-shared": "^7.0.18",
+				"@vue/devtools-core": "^7.0.18",
+				"@vue/devtools-kit": "^7.0.18"
+			},
+			"devDependencies": {
+				"unplugin-vue": "^5.0.3",
+				"vue": "^3.4.15",
+				"vue-router": "^4.2.5",
+				"vue-tsc": "^1.8.27"
+			},
+			"scripts": {
+				"build": "vite build && pnpm types",
+				"prepare:type": "pnpm types",
+				"stub": "vite build --watch",
+				"types": "vue-tsc --declaration --emitDeclarationOnly -p ./tsconfig.json"
+			},
+			"types": "./dist/index.d.ts",
+			"_id": "@vue/devtools-applet@7.0.18",
+			"_integrity": "sha512-6Vc5d+SIq1OzzHIOEFzbr0afqg/rT4DVrWiMMVTlEGYJnAeb5jVK9+99AxBRwhDDnRRh9+KLSr35YSUaB7IksA==",
+			"_resolved": "/private/var/folders/6s/79hm4q7x5f982tndmbvckmn80000gn/T/fcb243a5da01b23d35d2f6f18f807f24/vue-devtools-applet-7.0.18.tgz",
+			"_from": "file:vue-devtools-applet-7.0.18.tgz",
+			"_nodeVersion": "20.11.0",
+			"_npmVersion": "10.2.4",
+			"dist": {
+				"integrity": "sha512-6Vc5d+SIq1OzzHIOEFzbr0afqg/rT4DVrWiMMVTlEGYJnAeb5jVK9+99AxBRwhDDnRRh9+KLSr35YSUaB7IksA==",
+				"shasum": "8bb32074d1e062c0ec93c32c18e7559cf5b2814c",
+				"tarball": "https://registry.npmjs.org/@vue/devtools-applet/-/devtools-applet-7.0.18.tgz",
+				"fileCount": 33,
+				"unpackedSize": 468774,
+				"signatures": [
+					{
+						"keyid": "SHA256:jl3bwswu80PjjokCgh0o2w5c2U4LhQAE57gj9cz1kzA",
+						"sig": "MEYCIQCgZveJyUUApbK4vX+S4j7SlDjHYGT4JzMgvFheaF7ywwIhAMPAe8pclo7qNUFw/4P8506+s/Ibx56OQTIhiNnd99dx"
+					}
+				]
+			},
+			"_npmUser": {
+				"name": "webfansplz",
+				"email": "webfansplz@gmail.com"
+			},
+			"directories": {},
+			"maintainers": [
+				{
+					"name": "webfansplz",
+					"email": "webfansplz@gmail.com"
+				}
+			],
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/devtools-applet_7.0.18_1710659631013_0.3000427994042192"
+			},
+			"_hasShrinkwrap": false,
+			"contributors": []
+		},
+		"7.0.19": {
+			"name": "@vue/devtools-applet",
+			"type": "module",
+			"version": "7.0.19",
+			"author": {
+				"name": "webfansplz"
+			},
+			"license": "MIT",
+			"exports": {
+				".": {
+					"import": "./dist/index.js",
+					"require": "./dist/index.cjs"
+				},
+				"./style.css": "./dist/index.css"
+			},
+			"main": "./dist/index.cjs",
+			"module": "./dist/index.js",
+			"peerDependencies": {
+				"vue": "^3.0.0"
+			},
+			"dependencies": {
+				"perfect-debounce": "^1.0.0",
+				"splitpanes": "^3.1.5",
+				"@vue/devtools-core": "^7.0.19",
+				"@vue/devtools-kit": "^7.0.19",
+				"@vue/devtools-shared": "^7.0.19",
+				"@vue/devtools-ui": "^7.0.19"
+			},
+			"devDependencies": {
+				"unplugin-vue": "^5.0.5",
+				"vue": "^3.4.21",
+				"vue-router": "^4.3.0",
+				"vue-tsc": "^1.8.27"
+			},
+			"scripts": {
+				"build": "vite build && pnpm types",
+				"prepare:type": "pnpm types",
+				"stub": "vite build --watch",
+				"types": "vue-tsc --declaration --emitDeclarationOnly -p ./tsconfig.json"
+			},
+			"types": "./dist/index.d.ts",
+			"_id": "@vue/devtools-applet@7.0.19",
+			"_integrity": "sha512-TQPKHNJ/xRetmu9h1fQtBBNtLoVeR7Z2pDjNCIdDQNK73/tIg3UuHb4fvisOsiWDoK5CYasKQCKOwPO2ebnU+w==",
+			"_resolved": "/private/var/folders/6s/79hm4q7x5f982tndmbvckmn80000gn/T/d551d6a50569474e2f9df1a5a3e5bbac/vue-devtools-applet-7.0.19.tgz",
+			"_from": "file:vue-devtools-applet-7.0.19.tgz",
+			"_nodeVersion": "20.11.0",
+			"_npmVersion": "10.2.4",
+			"dist": {
+				"integrity": "sha512-TQPKHNJ/xRetmu9h1fQtBBNtLoVeR7Z2pDjNCIdDQNK73/tIg3UuHb4fvisOsiWDoK5CYasKQCKOwPO2ebnU+w==",
+				"shasum": "fbebf2d65d26677d25bc66ad2602c0815933581e",
+				"tarball": "https://registry.npmjs.org/@vue/devtools-applet/-/devtools-applet-7.0.19.tgz",
+				"fileCount": 33,
+				"unpackedSize": 468514,
+				"signatures": [
+					{
+						"keyid": "SHA256:jl3bwswu80PjjokCgh0o2w5c2U4LhQAE57gj9cz1kzA",
+						"sig": "MEQCIBeaOpFRmFyD4DT6IpxvC7+dY2hGNGRbezJ3P8BZ7vk5AiBG/S95tKR6QTUvAUxfj1uJDcomO8+J0W8nhEH7w6bNuw=="
+					}
+				]
+			},
+			"_npmUser": {
+				"name": "webfansplz",
+				"email": "webfansplz@gmail.com"
+			},
+			"directories": {},
+			"maintainers": [
+				{
+					"name": "webfansplz",
+					"email": "webfansplz@gmail.com"
+				}
+			],
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/devtools-applet_7.0.19_1710824326315_0.26659899651397256"
+			},
+			"_hasShrinkwrap": false,
+			"contributors": []
+		},
+		"7.0.20": {
+			"name": "@vue/devtools-applet",
+			"type": "module",
+			"version": "7.0.20",
+			"author": {
+				"name": "webfansplz"
+			},
+			"license": "MIT",
+			"exports": {
+				".": {
+					"import": "./dist/index.js",
+					"require": "./dist/index.cjs"
+				},
+				"./style.css": "./dist/index.css"
+			},
+			"main": "./dist/index.cjs",
+			"module": "./dist/index.js",
+			"peerDependencies": {
+				"vue": "^3.0.0"
+			},
+			"dependencies": {
+				"perfect-debounce": "^1.0.0",
+				"splitpanes": "^3.1.5",
+				"vue-virtual-scroller": "2.0.0-beta.8",
+				"@vue/devtools-shared": "^7.0.20",
+				"@vue/devtools-core": "^7.0.20",
+				"@vue/devtools-kit": "^7.0.20",
+				"@vue/devtools-ui": "^7.0.20"
+			},
+			"devDependencies": {
+				"unplugin-vue": "^5.0.5",
+				"vue": "^3.4.21",
+				"vue-router": "^4.3.0",
+				"vue-tsc": "^1.8.27"
+			},
+			"scripts": {
+				"build": "vite build && pnpm types",
+				"prepare:type": "pnpm types",
+				"stub": "vite build --watch",
+				"types": "vue-tsc --declaration --emitDeclarationOnly -p ./tsconfig.json"
+			},
+			"types": "./dist/index.d.ts",
+			"_id": "@vue/devtools-applet@7.0.20",
+			"_integrity": "sha512-q48RtnhFmC0kd4N+3Edfctv6oL2neN6crUapBydSr6szjR87dQJygTEYKlpyx0SHmVLVwq4mcgFuf1ftAKjd/w==",
+			"_resolved": "/private/var/folders/6s/79hm4q7x5f982tndmbvckmn80000gn/T/746903e6e3c15ca5ac5f77a302b0fb75/vue-devtools-applet-7.0.20.tgz",
+			"_from": "file:vue-devtools-applet-7.0.20.tgz",
+			"_nodeVersion": "20.11.0",
+			"_npmVersion": "10.2.4",
+			"dist": {
+				"integrity": "sha512-q48RtnhFmC0kd4N+3Edfctv6oL2neN6crUapBydSr6szjR87dQJygTEYKlpyx0SHmVLVwq4mcgFuf1ftAKjd/w==",
+				"shasum": "077d76badf92c8081b58308efde089f87787a6f7",
+				"tarball": "https://registry.npmjs.org/@vue/devtools-applet/-/devtools-applet-7.0.20.tgz",
+				"fileCount": 34,
+				"unpackedSize": 513482,
+				"signatures": [
+					{
+						"keyid": "SHA256:jl3bwswu80PjjokCgh0o2w5c2U4LhQAE57gj9cz1kzA",
+						"sig": "MEQCIEDH4Lz4THkXDgLjKiT1tTa2tTKtVo73ei7TCcz30TtMAiBTptZEaxBMuRZsLVIdCuiYmDZtTRhmBSVnMkf7u2u4Uw=="
+					}
+				]
+			},
+			"_npmUser": {
+				"name": "webfansplz",
+				"email": "webfansplz@gmail.com"
+			},
+			"directories": {},
+			"maintainers": [
+				{
+					"name": "webfansplz",
+					"email": "webfansplz@gmail.com"
+				}
+			],
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/devtools-applet_7.0.20_1710949755745_0.18698055971072236"
+			},
+			"_hasShrinkwrap": false,
+			"contributors": []
+		},
+		"7.0.21": {
+			"name": "@vue/devtools-applet",
+			"type": "module",
+			"version": "7.0.21",
+			"author": {
+				"name": "webfansplz"
+			},
+			"license": "MIT",
+			"exports": {
+				".": {
+					"import": "./dist/index.js",
+					"require": "./dist/index.cjs"
+				},
+				"./style.css": "./dist/index.css"
+			},
+			"main": "./dist/index.cjs",
+			"module": "./dist/index.js",
+			"peerDependencies": {
+				"vue": "^3.0.0"
+			},
+			"dependencies": {
+				"perfect-debounce": "^1.0.0",
+				"splitpanes": "^3.1.5",
+				"vue-virtual-scroller": "2.0.0-beta.8",
+				"@vue/devtools-core": "^7.0.21",
+				"@vue/devtools-shared": "^7.0.21",
+				"@vue/devtools-kit": "^7.0.21",
+				"@vue/devtools-ui": "^7.0.21"
+			},
+			"devDependencies": {
+				"unplugin-vue": "^5.0.5",
+				"vue": "^3.4.21",
+				"vue-router": "^4.3.0",
+				"vue-tsc": "^1.8.27"
+			},
+			"scripts": {
+				"build": "vite build && pnpm types",
+				"prepare:type": "pnpm types",
+				"stub": "vite build --watch",
+				"types": "vue-tsc --declaration --emitDeclarationOnly -p ./tsconfig.json"
+			},
+			"types": "./dist/index.d.ts",
+			"_id": "@vue/devtools-applet@7.0.21",
+			"_integrity": "sha512-XqMeZrRoMJBSybg0Lu1777UZzI3nzApPlT4ZgupGkcFWQqoUkuhDaGYDqxer/yQgg4hOZsZQnB9nOmIk+GjGPA==",
+			"_resolved": "/private/var/folders/6s/79hm4q7x5f982tndmbvckmn80000gn/T/4c7744f79d8cbf26a37feb9987de020f/vue-devtools-applet-7.0.21.tgz",
+			"_from": "file:vue-devtools-applet-7.0.21.tgz",
+			"_nodeVersion": "20.11.0",
+			"_npmVersion": "10.2.4",
+			"dist": {
+				"integrity": "sha512-XqMeZrRoMJBSybg0Lu1777UZzI3nzApPlT4ZgupGkcFWQqoUkuhDaGYDqxer/yQgg4hOZsZQnB9nOmIk+GjGPA==",
+				"shasum": "26c16527e0d7f13787c9021b2d072a7c58493287",
+				"tarball": "https://registry.npmjs.org/@vue/devtools-applet/-/devtools-applet-7.0.21.tgz",
+				"fileCount": 34,
+				"unpackedSize": 513525,
+				"signatures": [
+					{
+						"keyid": "SHA256:jl3bwswu80PjjokCgh0o2w5c2U4LhQAE57gj9cz1kzA",
+						"sig": "MEUCIQDw/HwgpUYduUltSOTA17HBWc1lhqXstUfSAehdR36j8gIgf/VzI8mLLURAkEsQp9O8iyzXkpWdcs3GTaBBKsboOLU="
+					}
+				]
+			},
+			"_npmUser": {
+				"name": "webfansplz",
+				"email": "webfansplz@gmail.com"
+			},
+			"directories": {},
+			"maintainers": [
+				{
+					"name": "webfansplz",
+					"email": "webfansplz@gmail.com"
+				}
+			],
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/devtools-applet_7.0.21_1711386222803_0.9031951269030849"
+			},
+			"_hasShrinkwrap": false,
+			"contributors": []
+		},
+		"7.0.22": {
+			"name": "@vue/devtools-applet",
+			"type": "module",
+			"version": "7.0.22",
+			"author": {
+				"name": "webfansplz"
+			},
+			"license": "MIT",
+			"exports": {
+				".": {
+					"import": "./dist/index.js",
+					"require": "./dist/index.cjs"
+				},
+				"./style.css": "./dist/index.css"
+			},
+			"main": "./dist/index.cjs",
+			"module": "./dist/index.js",
+			"peerDependencies": {
+				"vue": "^3.0.0"
+			},
+			"dependencies": {
+				"perfect-debounce": "^1.0.0",
+				"splitpanes": "^3.1.5",
+				"vue-virtual-scroller": "2.0.0-beta.8",
+				"@vue/devtools-core": "^7.0.22",
+				"@vue/devtools-ui": "^7.0.22",
+				"@vue/devtools-kit": "^7.0.22",
+				"@vue/devtools-shared": "^7.0.22"
+			},
+			"devDependencies": {
+				"unplugin-vue": "^5.0.5",
+				"vue": "^3.4.21",
+				"vue-router": "^4.3.0",
+				"vue-tsc": "^1.8.27"
+			},
+			"scripts": {
+				"build": "vite build && pnpm types",
+				"prepare:type": "pnpm types",
+				"stub": "vite build --watch",
+				"types": "vue-tsc --declaration --emitDeclarationOnly -p ./tsconfig.json"
+			},
+			"types": "./dist/index.d.ts",
+			"_id": "@vue/devtools-applet@7.0.22",
+			"_integrity": "sha512-qr6CM6MtDU7aWcwYeHPdfKWPnA2AnRFpHnZ6r3xrPIC2Gx8ekRClaOFZlnXRSMAxNCvfiXpPeJNOgCIHePUcHQ==",
+			"_resolved": "/private/var/folders/6s/79hm4q7x5f982tndmbvckmn80000gn/T/7602ee37fcb77b8ba95d02e04a547f58/vue-devtools-applet-7.0.22.tgz",
+			"_from": "file:vue-devtools-applet-7.0.22.tgz",
+			"_nodeVersion": "20.11.0",
+			"_npmVersion": "10.2.4",
+			"dist": {
+				"integrity": "sha512-qr6CM6MtDU7aWcwYeHPdfKWPnA2AnRFpHnZ6r3xrPIC2Gx8ekRClaOFZlnXRSMAxNCvfiXpPeJNOgCIHePUcHQ==",
+				"shasum": "292eebdcb07c6c26623750e66aa3311e07ea8a60",
+				"tarball": "https://registry.npmjs.org/@vue/devtools-applet/-/devtools-applet-7.0.22.tgz",
+				"fileCount": 34,
+				"unpackedSize": 513534,
+				"signatures": [
+					{
+						"keyid": "SHA256:jl3bwswu80PjjokCgh0o2w5c2U4LhQAE57gj9cz1kzA",
+						"sig": "MEUCIQDcDBnn4V0HZ7s3EjsTmW/z0mty5o29vNNtkm15Dj6pUAIgVMY370R6j0hP5Qlb1nETvzI15jCob1Z2cjhf1emtYXw="
+					}
+				]
+			},
+			"_npmUser": {
+				"name": "webfansplz",
+				"email": "webfansplz@gmail.com"
+			},
+			"directories": {},
+			"maintainers": [
+				{
+					"name": "webfansplz",
+					"email": "webfansplz@gmail.com"
+				}
+			],
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/devtools-applet_7.0.22_1711456283421_0.5941779869305592"
+			},
+			"_hasShrinkwrap": false,
+			"contributors": []
+		},
+		"7.0.23": {
+			"name": "@vue/devtools-applet",
+			"type": "module",
+			"version": "7.0.23",
+			"author": {
+				"name": "webfansplz"
+			},
+			"license": "MIT",
+			"exports": {
+				".": {
+					"import": "./dist/index.js",
+					"require": "./dist/index.cjs"
+				},
+				"./style.css": "./dist/index.css"
+			},
+			"main": "./dist/index.cjs",
+			"module": "./dist/index.js",
+			"peerDependencies": {
+				"vue": "^3.0.0"
+			},
+			"dependencies": {
+				"perfect-debounce": "^1.0.0",
+				"splitpanes": "^3.1.5",
+				"vue-virtual-scroller": "2.0.0-beta.8",
+				"@vue/devtools-core": "^7.0.23",
+				"@vue/devtools-kit": "^7.0.23",
+				"@vue/devtools-shared": "^7.0.23",
+				"@vue/devtools-ui": "^7.0.23"
+			},
+			"devDependencies": {
+				"unplugin-vue": "^5.0.5",
+				"vue": "^3.4.21",
+				"vue-router": "^4.3.0",
+				"vue-tsc": "^1.8.27"
+			},
+			"scripts": {
+				"build": "vite build && pnpm types",
+				"prepare:type": "pnpm types",
+				"stub": "vite build --watch",
+				"types": "vue-tsc --declaration --emitDeclarationOnly -p ./tsconfig.json"
+			},
+			"types": "./dist/index.d.ts",
+			"_id": "@vue/devtools-applet@7.0.23",
+			"_integrity": "sha512-P0VsDwEB0J0+usNjl9UNOPwWybbpsh0QicZlvkaUen+q2J/UQPeaOamZaD8dmijvajgKzb0BLkjMqftQX7sMWg==",
+			"_resolved": "/private/var/folders/6s/79hm4q7x5f982tndmbvckmn80000gn/T/c6e6cbbbf1ea21f860beaac695fa5288/vue-devtools-applet-7.0.23.tgz",
+			"_from": "file:vue-devtools-applet-7.0.23.tgz",
+			"_nodeVersion": "20.11.0",
+			"_npmVersion": "10.2.4",
+			"dist": {
+				"integrity": "sha512-P0VsDwEB0J0+usNjl9UNOPwWybbpsh0QicZlvkaUen+q2J/UQPeaOamZaD8dmijvajgKzb0BLkjMqftQX7sMWg==",
+				"shasum": "411b5e354a1b4ca20435481b00f8325cfc42b83d",
+				"tarball": "https://registry.npmjs.org/@vue/devtools-applet/-/devtools-applet-7.0.23.tgz",
+				"fileCount": 34,
+				"unpackedSize": 513763,
+				"signatures": [
+					{
+						"keyid": "SHA256:jl3bwswu80PjjokCgh0o2w5c2U4LhQAE57gj9cz1kzA",
+						"sig": "MEUCIQC8clGGO+qHqzKUeETPzJnvi95O6iV53NnP5kx74ChVDgIgPUWX9hEJTtxUgdnbsGxk1LZ81jRkhc+M4Wj+9l3t7fM="
+					}
+				]
+			},
+			"_npmUser": {
+				"name": "webfansplz",
+				"email": "webfansplz@gmail.com"
+			},
+			"directories": {},
+			"maintainers": [
+				{
+					"name": "webfansplz",
+					"email": "webfansplz@gmail.com"
+				}
+			],
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/devtools-applet_7.0.23_1711467187357_0.9297495254565462"
+			},
+			"_hasShrinkwrap": false,
+			"contributors": []
+		},
+		"7.0.24": {
+			"name": "@vue/devtools-applet",
+			"type": "module",
+			"version": "7.0.24",
+			"author": {
+				"name": "webfansplz"
+			},
+			"license": "MIT",
+			"exports": {
+				".": {
+					"import": "./dist/index.js",
+					"require": "./dist/index.cjs"
+				},
+				"./style.css": "./dist/index.css"
+			},
+			"main": "./dist/index.cjs",
+			"module": "./dist/index.js",
+			"peerDependencies": {
+				"vue": "^3.0.0"
+			},
+			"dependencies": {
+				"perfect-debounce": "^1.0.0",
+				"splitpanes": "^3.1.5",
+				"vue-virtual-scroller": "2.0.0-beta.8",
+				"@vue/devtools-ui": "^7.0.24",
+				"@vue/devtools-core": "^7.0.24",
+				"@vue/devtools-shared": "^7.0.24",
+				"@vue/devtools-kit": "^7.0.24"
+			},
+			"devDependencies": {
+				"unplugin-vue": "^5.0.5",
+				"vue": "^3.4.21",
+				"vue-router": "^4.3.0",
+				"vue-tsc": "^1.8.27"
+			},
+			"scripts": {
+				"build": "vite build && pnpm types",
+				"prepare:type": "pnpm types",
+				"stub": "vite build --watch",
+				"types": "vue-tsc --declaration --emitDeclarationOnly -p ./tsconfig.json"
+			},
+			"types": "./dist/index.d.ts",
+			"_id": "@vue/devtools-applet@7.0.24",
+			"_integrity": "sha512-vhpO+9J8bU+HsdQ1SaQuHnbeYlkoUBVRT2nz+qZwYgBhY8L+spfkz9/7YtXXT5QYLbmdHcPl6mwDxFTxsmy6oA==",
+			"_resolved": "/private/var/folders/6s/79hm4q7x5f982tndmbvckmn80000gn/T/cf7c279bcfa208fa8d8b9c934be16323/vue-devtools-applet-7.0.24.tgz",
+			"_from": "file:vue-devtools-applet-7.0.24.tgz",
+			"_nodeVersion": "20.11.0",
+			"_npmVersion": "10.2.4",
+			"dist": {
+				"integrity": "sha512-vhpO+9J8bU+HsdQ1SaQuHnbeYlkoUBVRT2nz+qZwYgBhY8L+spfkz9/7YtXXT5QYLbmdHcPl6mwDxFTxsmy6oA==",
+				"shasum": "8b0b7e3bd53525df2c24138fa3ae12e07e9baeaf",
+				"tarball": "https://registry.npmjs.org/@vue/devtools-applet/-/devtools-applet-7.0.24.tgz",
+				"fileCount": 34,
+				"unpackedSize": 513712,
+				"signatures": [
+					{
+						"keyid": "SHA256:jl3bwswu80PjjokCgh0o2w5c2U4LhQAE57gj9cz1kzA",
+						"sig": "MEUCIQDnhY5Qidt9FclHqOGXfbcKSOVz8tK/fbqXEj5aqzrZ3AIgQJVOI+xEToHiZMa8vlPxnQ1vnDzh0jlnxjVDnaz1c2w="
+					}
+				]
+			},
+			"_npmUser": {
+				"name": "webfansplz",
+				"email": "webfansplz@gmail.com"
+			},
+			"directories": {},
+			"maintainers": [
+				{
+					"name": "webfansplz",
+					"email": "webfansplz@gmail.com"
+				}
+			],
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/devtools-applet_7.0.24_1711514360151_0.3284902651437345"
+			},
+			"_hasShrinkwrap": false,
+			"contributors": []
+		},
+		"7.0.25": {
+			"name": "@vue/devtools-applet",
+			"type": "module",
+			"version": "7.0.25",
+			"author": {
+				"name": "webfansplz"
+			},
+			"license": "MIT",
+			"exports": {
+				".": {
+					"import": "./dist/index.js",
+					"require": "./dist/index.cjs"
+				},
+				"./style.css": "./dist/index.css"
+			},
+			"main": "./dist/index.cjs",
+			"module": "./dist/index.js",
+			"peerDependencies": {
+				"vue": "^3.0.0"
+			},
+			"dependencies": {
+				"perfect-debounce": "^1.0.0",
+				"splitpanes": "^3.1.5",
+				"vue-virtual-scroller": "2.0.0-beta.8",
+				"@vue/devtools-core": "^7.0.25",
+				"@vue/devtools-kit": "^7.0.25",
+				"@vue/devtools-shared": "^7.0.25",
+				"@vue/devtools-ui": "^7.0.25"
+			},
+			"devDependencies": {
+				"unplugin-vue": "^5.0.5",
+				"vue": "^3.4.21",
+				"vue-router": "^4.3.0",
+				"vue-tsc": "^1.8.27"
+			},
+			"scripts": {
+				"build": "vite build && pnpm types",
+				"prepare:type": "pnpm types",
+				"stub": "vite build --watch",
+				"types": "vue-tsc --declaration --emitDeclarationOnly -p ./tsconfig.json"
+			},
+			"types": "./dist/index.d.ts",
+			"_id": "@vue/devtools-applet@7.0.25",
+			"_integrity": "sha512-9JwnjRO2tAHxFjA+cHSpQ/DKIqUKILvYaWJkOt1KqkedXPHzUWU1NfQAto+p6ycaKInA5A0VdXdmIl4N8YJCrw==",
+			"_resolved": "/private/var/folders/6s/79hm4q7x5f982tndmbvckmn80000gn/T/40566df263e35bde777ac9a3334192d9/vue-devtools-applet-7.0.25.tgz",
+			"_from": "file:vue-devtools-applet-7.0.25.tgz",
+			"_nodeVersion": "20.11.0",
+			"_npmVersion": "10.2.4",
+			"dist": {
+				"integrity": "sha512-9JwnjRO2tAHxFjA+cHSpQ/DKIqUKILvYaWJkOt1KqkedXPHzUWU1NfQAto+p6ycaKInA5A0VdXdmIl4N8YJCrw==",
+				"shasum": "721311aa11a84c689ed79798e1e1ad3f41e2ebd7",
+				"tarball": "https://registry.npmjs.org/@vue/devtools-applet/-/devtools-applet-7.0.25.tgz",
+				"fileCount": 34,
+				"unpackedSize": 513742,
+				"signatures": [
+					{
+						"keyid": "SHA256:jl3bwswu80PjjokCgh0o2w5c2U4LhQAE57gj9cz1kzA",
+						"sig": "MEYCIQC8ZRExj3BsOngG+auSfzqT3E6KWkMcnK2lYSVwCJjRyAIhAJpGpZDye3Fif9v5MdX38mVh3Wc/+OBnYXgJEvUOQO4f"
+					}
+				]
+			},
+			"_npmUser": {
+				"name": "webfansplz",
+				"email": "webfansplz@gmail.com"
+			},
+			"directories": {},
+			"maintainers": [
+				{
+					"name": "webfansplz",
+					"email": "webfansplz@gmail.com"
+				}
+			],
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/devtools-applet_7.0.25_1711601337346_0.022452638491704313"
+			},
+			"_hasShrinkwrap": false,
+			"contributors": []
+		},
+		"7.0.26": {
+			"name": "@vue/devtools-applet",
+			"type": "module",
+			"version": "7.0.26",
+			"author": {
+				"name": "webfansplz"
+			},
+			"license": "MIT",
+			"exports": {
+				".": {
+					"import": "./dist/index.js",
+					"require": "./dist/index.cjs"
+				},
+				"./style.css": "./dist/index.css"
+			},
+			"main": "./dist/index.cjs",
+			"module": "./dist/index.js",
+			"peerDependencies": {
+				"vue": "^3.0.0"
+			},
+			"dependencies": {
+				"perfect-debounce": "^1.0.0",
+				"splitpanes": "^3.1.5",
+				"vue-virtual-scroller": "2.0.0-beta.8",
+				"@vue/devtools-core": "^7.0.26",
+				"@vue/devtools-ui": "^7.0.26",
+				"@vue/devtools-kit": "^7.0.26",
+				"@vue/devtools-shared": "^7.0.26"
+			},
+			"devDependencies": {
+				"unplugin-vue": "^5.0.5",
+				"vite-plugin-dts": "^3.8.1",
+				"vue": "^3.4.21",
+				"vue-router": "^4.3.0"
+			},
+			"scripts": {
+				"build": "vite build",
+				"stub": "vite build --watch"
+			},
+			"types": "./dist/index.d.ts",
+			"_id": "@vue/devtools-applet@7.0.26",
+			"_integrity": "sha512-RJnmEbtK8UgE1wWutgXGwc/a2KAHo3SsxcKWhahuiJ8fWHAgG/UoIyzngBT6sXDTkpTtP1sE5genwr9Seeivpg==",
+			"_resolved": "/private/var/folders/6s/79hm4q7x5f982tndmbvckmn80000gn/T/28b63ca0c7bb56664b3243d30ecd1f3e/vue-devtools-applet-7.0.26.tgz",
+			"_from": "file:vue-devtools-applet-7.0.26.tgz",
+			"_nodeVersion": "20.11.0",
+			"_npmVersion": "10.2.4",
+			"dist": {
+				"integrity": "sha512-RJnmEbtK8UgE1wWutgXGwc/a2KAHo3SsxcKWhahuiJ8fWHAgG/UoIyzngBT6sXDTkpTtP1sE5genwr9Seeivpg==",
+				"shasum": "599ef0a0934dfccb0c7a35763b9b2d7f0af970d7",
+				"tarball": "https://registry.npmjs.org/@vue/devtools-applet/-/devtools-applet-7.0.26.tgz",
+				"fileCount": 30,
+				"unpackedSize": 511979,
+				"signatures": [
+					{
+						"keyid": "SHA256:jl3bwswu80PjjokCgh0o2w5c2U4LhQAE57gj9cz1kzA",
+						"sig": "MEUCIQC1C6psXImks96HRKZUGMaIQPWsOsuZ9wihlJDMkA3j4wIgEsvcecH14tFbkY+qsY0qoCXgzaOE6f/fon5eM/QSFvE="
+					}
+				]
+			},
+			"_npmUser": {
+				"name": "webfansplz",
+				"email": "webfansplz@gmail.com"
+			},
+			"directories": {},
+			"maintainers": [
+				{
+					"name": "webfansplz",
+					"email": "webfansplz@gmail.com"
+				}
+			],
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/devtools-applet_7.0.26_1712724538589_0.7641115568635914"
+			},
+			"_hasShrinkwrap": false,
+			"contributors": []
+		},
+		"7.0.27": {
+			"name": "@vue/devtools-applet",
+			"type": "module",
+			"version": "7.0.27",
+			"author": {
+				"name": "webfansplz"
+			},
+			"license": "MIT",
+			"exports": {
+				".": {
+					"import": "./dist/index.js",
+					"require": "./dist/index.cjs"
+				},
+				"./style.css": "./dist/index.css"
+			},
+			"main": "./dist/index.cjs",
+			"module": "./dist/index.js",
+			"peerDependencies": {
+				"vue": "^3.0.0"
+			},
+			"dependencies": {
+				"perfect-debounce": "^1.0.0",
+				"splitpanes": "^3.1.5",
+				"vue-virtual-scroller": "2.0.0-beta.8",
+				"@vue/devtools-shared": "^7.0.27",
+				"@vue/devtools-core": "^7.0.27",
+				"@vue/devtools-kit": "^7.0.27",
+				"@vue/devtools-ui": "^7.0.27"
+			},
+			"devDependencies": {
+				"unplugin-vue": "^5.0.5",
+				"vite-plugin-dts": "^3.8.1",
+				"vue": "^3.4.21",
+				"vue-router": "^4.3.0"
+			},
+			"scripts": {
+				"build": "vite build",
+				"stub": "vite build --watch"
+			},
+			"types": "./dist/index.d.ts",
+			"_id": "@vue/devtools-applet@7.0.27",
+			"_integrity": "sha512-ubNn/qIn5n3x7YCVSabfQfKL49GoJPJdYu4LfdNz/gZkgb1+djdATpKl/+xzQoOqtGzqnR9nMoCHApAJAgeMyg==",
+			"_resolved": "/private/var/folders/6s/79hm4q7x5f982tndmbvckmn80000gn/T/864bb04d63884e07f418374493381f4f/vue-devtools-applet-7.0.27.tgz",
+			"_from": "file:vue-devtools-applet-7.0.27.tgz",
+			"_nodeVersion": "20.11.0",
+			"_npmVersion": "10.2.4",
+			"dist": {
+				"integrity": "sha512-ubNn/qIn5n3x7YCVSabfQfKL49GoJPJdYu4LfdNz/gZkgb1+djdATpKl/+xzQoOqtGzqnR9nMoCHApAJAgeMyg==",
+				"shasum": "b7d4d774bc497145a189de1a724378c8cad22870",
+				"tarball": "https://registry.npmjs.org/@vue/devtools-applet/-/devtools-applet-7.0.27.tgz",
+				"fileCount": 30,
+				"unpackedSize": 511979,
+				"signatures": [
+					{
+						"keyid": "SHA256:jl3bwswu80PjjokCgh0o2w5c2U4LhQAE57gj9cz1kzA",
+						"sig": "MEQCIGLB3sWA/CWI8xpupsaTx1ighYlrQ08b0hv8fVyylXrSAiB1NGSVgih49rB5G2l6Knv1wcerFn1K2bWXKtgYWbL2dg=="
+					}
+				]
+			},
+			"_npmUser": {
+				"name": "webfansplz",
+				"email": "webfansplz@gmail.com"
+			},
+			"directories": {},
+			"maintainers": [
+				{
+					"name": "webfansplz",
+					"email": "webfansplz@gmail.com"
+				}
+			],
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/devtools-applet_7.0.27_1712754087391_0.48068041397974715"
+			},
+			"_hasShrinkwrap": false,
+			"contributors": []
+		},
+		"7.1.0": {
+			"name": "@vue/devtools-applet",
+			"type": "module",
+			"version": "7.1.0",
+			"author": {
+				"name": "webfansplz"
+			},
+			"license": "MIT",
+			"exports": {
+				".": {
+					"import": "./dist/index.js",
+					"require": "./dist/index.cjs"
+				},
+				"./style.css": "./dist/index.css"
+			},
+			"main": "./dist/index.cjs",
+			"module": "./dist/index.js",
+			"peerDependencies": {
+				"vue": "^3.0.0"
+			},
+			"dependencies": {
+				"lodash-es": "^4.17.21",
+				"perfect-debounce": "^1.0.0",
+				"shiki": "1.3.0",
+				"splitpanes": "^3.1.5",
+				"vue-virtual-scroller": "2.0.0-beta.8",
+				"@vue/devtools-core": "^7.1.0",
+				"@vue/devtools-kit": "^7.1.0",
+				"@vue/devtools-shared": "^7.1.0",
+				"@vue/devtools-ui": "^7.1.0"
+			},
+			"devDependencies": {
+				"@types/lodash-es": "^4.17.12",
+				"unplugin-vue": "^5.0.5",
+				"vite-plugin-dts": "^3.8.3",
+				"vue": "^3.4.23",
+				"vue-router": "^4.3.2"
+			},
+			"scripts": {
+				"build": "vite build",
+				"stub": "vite build --watch"
+			},
+			"types": "./dist/index.d.ts",
+			"_id": "@vue/devtools-applet@7.1.0",
+			"_integrity": "sha512-CrH3Hxd2qFvcyna1tRB/Av4TKxeydaN1CaP4IANYrRrk9Z+HyIdIj/zRLPsmJFpFsW29jxruppGhTnLoL5kfwA==",
+			"_resolved": "/private/var/folders/6s/79hm4q7x5f982tndmbvckmn80000gn/T/dcee273c4ac7c48fbf8db267af9ac1e8/vue-devtools-applet-7.1.0.tgz",
+			"_from": "file:vue-devtools-applet-7.1.0.tgz",
+			"_nodeVersion": "20.12.2",
+			"_npmVersion": "10.5.0",
+			"dist": {
+				"integrity": "sha512-CrH3Hxd2qFvcyna1tRB/Av4TKxeydaN1CaP4IANYrRrk9Z+HyIdIj/zRLPsmJFpFsW29jxruppGhTnLoL5kfwA==",
+				"shasum": "80c5c518352b6167a4b5e3d01ff9e1003b7dd2ec",
+				"tarball": "https://registry.npmjs.org/@vue/devtools-applet/-/devtools-applet-7.1.0.tgz",
+				"fileCount": 73,
+				"unpackedSize": 4533675,
+				"signatures": [
+					{
+						"keyid": "SHA256:jl3bwswu80PjjokCgh0o2w5c2U4LhQAE57gj9cz1kzA",
+						"sig": "MEYCIQC8VtMO7ofx2KauMoPSDH0iaVZXgrQcGVpaeS8MauyUHQIhAJ7iGNIaQjtnJoQ+3rDZZvckM6/Gk1h7O73wBSOrsISR"
+					}
+				]
+			},
+			"_npmUser": {
+				"name": "webfansplz",
+				"email": "webfansplz@gmail.com"
+			},
+			"directories": {},
+			"maintainers": [
+				{
+					"name": "webfansplz",
+					"email": "webfansplz@gmail.com"
+				}
+			],
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/devtools-applet_7.1.0_1713881566427_0.6769250965762594"
+			},
+			"_hasShrinkwrap": false,
+			"contributors": []
+		},
+		"7.1.1": {
+			"name": "@vue/devtools-applet",
+			"type": "module",
+			"version": "7.1.1",
+			"author": {
+				"name": "webfansplz"
+			},
+			"license": "MIT",
+			"exports": {
+				".": {
+					"import": "./dist/index.js",
+					"require": "./dist/index.cjs"
+				},
+				"./style.css": "./dist/index.css"
+			},
+			"main": "./dist/index.cjs",
+			"module": "./dist/index.js",
+			"peerDependencies": {
+				"vue": "^3.0.0"
+			},
+			"dependencies": {
+				"lodash-es": "^4.17.21",
+				"perfect-debounce": "^1.0.0",
+				"shiki": "1.3.0",
+				"splitpanes": "^3.1.5",
+				"vue-virtual-scroller": "2.0.0-beta.8",
+				"@vue/devtools-core": "^7.1.1",
+				"@vue/devtools-kit": "^7.1.1",
+				"@vue/devtools-shared": "^7.1.1",
+				"@vue/devtools-ui": "^7.1.1"
+			},
+			"devDependencies": {
+				"@types/lodash-es": "^4.17.12",
+				"unplugin-vue": "^5.0.5",
+				"vite-plugin-dts": "^3.8.3",
+				"vue": "^3.4.23",
+				"vue-router": "^4.3.2"
+			},
+			"scripts": {
+				"build": "vite build",
+				"stub": "vite build --watch"
+			},
+			"types": "./dist/index.d.ts",
+			"_id": "@vue/devtools-applet@7.1.1",
+			"_integrity": "sha512-NTr9/0DyC1Q3GyNyMzVuEwAun59jBJ9tRVFP4oHGeCEc8Klo5lMQI3UmnVQsbXtycU2WZVmHmcz+EtjJyzVJIQ==",
+			"_resolved": "/private/var/folders/6s/79hm4q7x5f982tndmbvckmn80000gn/T/c306e71473a825255345de2c2a9108ea/vue-devtools-applet-7.1.1.tgz",
+			"_from": "file:vue-devtools-applet-7.1.1.tgz",
+			"_nodeVersion": "20.12.2",
+			"_npmVersion": "10.5.0",
+			"dist": {
+				"integrity": "sha512-NTr9/0DyC1Q3GyNyMzVuEwAun59jBJ9tRVFP4oHGeCEc8Klo5lMQI3UmnVQsbXtycU2WZVmHmcz+EtjJyzVJIQ==",
+				"shasum": "f7e577fa6e261956be283b1d9a2fa2219eb83ac3",
+				"tarball": "https://registry.npmjs.org/@vue/devtools-applet/-/devtools-applet-7.1.1.tgz",
+				"fileCount": 73,
+				"unpackedSize": 4519878,
+				"signatures": [
+					{
+						"keyid": "SHA256:jl3bwswu80PjjokCgh0o2w5c2U4LhQAE57gj9cz1kzA",
+						"sig": "MEYCIQCewRvVXWdqqEnue618UjU75hgmykbqkMNzQfPfHbbwbwIhAOHSxl8cC9umTJoxMERAr++LEHEohx6ThBzYj6NWyc6g"
+					}
+				]
+			},
+			"_npmUser": {
+				"name": "webfansplz",
+				"email": "webfansplz@gmail.com"
+			},
+			"directories": {},
+			"maintainers": [
+				{
+					"name": "webfansplz",
+					"email": "webfansplz@gmail.com"
+				}
+			],
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/devtools-applet_7.1.1_1713883045347_0.2293674245437729"
+			},
+			"_hasShrinkwrap": false,
+			"contributors": []
+		},
+		"7.1.2": {
+			"name": "@vue/devtools-applet",
+			"type": "module",
+			"version": "7.1.2",
+			"author": {
+				"name": "webfansplz"
+			},
+			"license": "MIT",
+			"exports": {
+				".": {
+					"import": "./dist/index.js",
+					"require": "./dist/index.cjs"
+				},
+				"./style.css": "./dist/index.css"
+			},
+			"main": "./dist/index.cjs",
+			"module": "./dist/index.js",
+			"peerDependencies": {
+				"vue": "^3.0.0"
+			},
+			"dependencies": {
+				"lodash-es": "^4.17.21",
+				"perfect-debounce": "^1.0.0",
+				"shiki": "1.3.0",
+				"splitpanes": "^3.1.5",
+				"vue-virtual-scroller": "2.0.0-beta.8",
+				"@vue/devtools-core": "^7.1.2",
+				"@vue/devtools-kit": "^7.1.2",
+				"@vue/devtools-shared": "^7.1.2",
+				"@vue/devtools-ui": "^7.1.2"
+			},
+			"devDependencies": {
+				"@types/lodash-es": "^4.17.12",
+				"unplugin-vue": "^5.0.5",
+				"vite-plugin-dts": "^3.8.3",
+				"vue": "^3.4.23",
+				"vue-router": "^4.3.2"
+			},
+			"scripts": {
+				"build": "vite build",
+				"stub": "vite build --watch"
+			},
+			"types": "./dist/index.d.ts",
+			"_id": "@vue/devtools-applet@7.1.2",
+			"_integrity": "sha512-frlPO1RdTR82mveeVyN/UlMWjO00cffPoEVP17UhxQoO8m1Th21CBlVaAJKiOmIkv8U4fyxhEVLQzonh3E1ESA==",
+			"_resolved": "/private/var/folders/6s/79hm4q7x5f982tndmbvckmn80000gn/T/744e519e2555e52e2722441d86b39f55/vue-devtools-applet-7.1.2.tgz",
+			"_from": "file:vue-devtools-applet-7.1.2.tgz",
+			"_nodeVersion": "20.12.2",
+			"_npmVersion": "10.5.0",
+			"dist": {
+				"integrity": "sha512-frlPO1RdTR82mveeVyN/UlMWjO00cffPoEVP17UhxQoO8m1Th21CBlVaAJKiOmIkv8U4fyxhEVLQzonh3E1ESA==",
+				"shasum": "afbfb3e7abdb999523fe0cca38e6f76c82a79a58",
+				"tarball": "https://registry.npmjs.org/@vue/devtools-applet/-/devtools-applet-7.1.2.tgz",
+				"fileCount": 73,
+				"unpackedSize": 4519878,
+				"signatures": [
+					{
+						"keyid": "SHA256:jl3bwswu80PjjokCgh0o2w5c2U4LhQAE57gj9cz1kzA",
+						"sig": "MEUCIHJnJMJWua16tRfisQn4q54IUvHOF8mmWYCh2VRoFnD+AiEA6ZPb/X1eBKOTcrtMnmidrTL3w4q0hHfZzhVX0j6VSNc="
+					}
+				]
+			},
+			"_npmUser": {
+				"name": "webfansplz",
+				"email": "webfansplz@gmail.com"
+			},
+			"directories": {},
+			"maintainers": [
+				{
+					"name": "webfansplz",
+					"email": "webfansplz@gmail.com"
+				}
+			],
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/devtools-applet_7.1.2_1713883755237_0.39536649426470083"
+			},
+			"_hasShrinkwrap": false,
+			"contributors": []
+		},
+		"7.1.3": {
+			"name": "@vue/devtools-applet",
+			"type": "module",
+			"version": "7.1.3",
+			"author": {
+				"name": "webfansplz"
+			},
+			"license": "MIT",
+			"exports": {
+				".": {
+					"import": "./dist/index.js",
+					"require": "./dist/index.cjs"
+				},
+				"./style.css": "./dist/index.css"
+			},
+			"main": "./dist/index.cjs",
+			"module": "./dist/index.js",
+			"peerDependencies": {
+				"vue": "^3.0.0"
+			},
+			"dependencies": {
+				"lodash-es": "^4.17.21",
+				"perfect-debounce": "^1.0.0",
+				"shiki": "1.3.0",
+				"splitpanes": "^3.1.5",
+				"vue-virtual-scroller": "2.0.0-beta.8",
+				"@vue/devtools-shared": "^7.1.3",
+				"@vue/devtools-core": "^7.1.3",
+				"@vue/devtools-ui": "^7.1.3",
+				"@vue/devtools-kit": "^7.1.3"
+			},
+			"devDependencies": {
+				"@types/lodash-es": "^4.17.12",
+				"unplugin-vue": "^5.0.5",
+				"vite-plugin-dts": "^3.8.3",
+				"vue": "^3.4.23",
+				"vue-router": "^4.3.2"
+			},
+			"scripts": {
+				"build": "vite build",
+				"stub": "vite build --watch"
+			},
+			"types": "./dist/index.d.ts",
+			"_id": "@vue/devtools-applet@7.1.3",
+			"_integrity": "sha512-525h17FzUF7ssko/U+yeP5jv0HaGm3eI4dVqncWPRCLTDtOy1V+srjoxYqr5qnzx6AdIU2icPQF2KNomd9FGZw==",
+			"_resolved": "/private/var/folders/6s/79hm4q7x5f982tndmbvckmn80000gn/T/8fa7e03d0e5d4b206f4833a6178390fa/vue-devtools-applet-7.1.3.tgz",
+			"_from": "file:vue-devtools-applet-7.1.3.tgz",
+			"_nodeVersion": "20.12.2",
+			"_npmVersion": "10.5.0",
+			"dist": {
+				"integrity": "sha512-525h17FzUF7ssko/U+yeP5jv0HaGm3eI4dVqncWPRCLTDtOy1V+srjoxYqr5qnzx6AdIU2icPQF2KNomd9FGZw==",
+				"shasum": "6aa6d222bb8ccde873d56bb14b11c7f1e36ebaf7",
+				"tarball": "https://registry.npmjs.org/@vue/devtools-applet/-/devtools-applet-7.1.3.tgz",
+				"fileCount": 73,
+				"unpackedSize": 4520104,
+				"signatures": [
+					{
+						"keyid": "SHA256:jl3bwswu80PjjokCgh0o2w5c2U4LhQAE57gj9cz1kzA",
+						"sig": "MEYCIQDM+MTov81CizkezwKBm60v5oQ0OZjHRS4OvdIsqnknsgIhANSZPSLHoE1W0/CHdjTEf0mweWVfRW8BMcUCx22/ujc2"
+					}
+				]
+			},
+			"_npmUser": {
+				"name": "webfansplz",
+				"email": "webfansplz@gmail.com"
+			},
+			"directories": {},
+			"maintainers": [
+				{
+					"name": "webfansplz",
+					"email": "webfansplz@gmail.com"
+				}
+			],
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/devtools-applet_7.1.3_1714140953042_0.38456478466631006"
+			},
+			"_hasShrinkwrap": false,
+			"contributors": []
+		}
+	},
+	"time": {
+		"created": "2024-03-17T07:13:50.923Z",
+		"7.0.18": "2024-03-17T07:13:51.200Z",
+		"modified": "2024-04-26T14:15:53.530Z",
+		"7.0.19": "2024-03-19T04:58:46.520Z",
+		"7.0.20": "2024-03-20T15:49:16.025Z",
+		"7.0.21": "2024-03-25T17:03:43.038Z",
+		"7.0.22": "2024-03-26T12:31:23.680Z",
+		"7.0.23": "2024-03-26T15:33:07.564Z",
+		"7.0.24": "2024-03-27T04:39:20.352Z",
+		"7.0.25": "2024-03-28T04:48:57.593Z",
+		"7.0.26": "2024-04-10T04:48:58.839Z",
+		"7.0.27": "2024-04-10T13:01:27.653Z",
+		"7.1.0": "2024-04-23T14:12:46.674Z",
+		"7.1.1": "2024-04-23T14:37:25.568Z",
+		"7.1.2": "2024-04-23T14:49:15.463Z",
+		"7.1.3": "2024-04-26T14:15:53.325Z"
+	},
+	"users": {},
+	"dist-tags": {
+		"latest": "7.1.3"
+	},
+	"_uplinks": {
+		"npmjs": {
+			"etag": "W/\"31e9c9fbc3824d0e557491d31b3cef45\"",
+			"fetched": 1715345907523
+		}
+	},
+	"_distfiles": {
+		"devtools-applet-7.0.18.tgz": {
+			"url": "https://registry.npmjs.org/@vue/devtools-applet/-/devtools-applet-7.0.18.tgz",
+			"sha": "8bb32074d1e062c0ec93c32c18e7559cf5b2814c",
+			"registry": "npmjs"
+		},
+		"devtools-applet-7.0.19.tgz": {
+			"url": "https://registry.npmjs.org/@vue/devtools-applet/-/devtools-applet-7.0.19.tgz",
+			"sha": "fbebf2d65d26677d25bc66ad2602c0815933581e",
+			"registry": "npmjs"
+		},
+		"devtools-applet-7.0.20.tgz": {
+			"url": "https://registry.npmjs.org/@vue/devtools-applet/-/devtools-applet-7.0.20.tgz",
+			"sha": "077d76badf92c8081b58308efde089f87787a6f7",
+			"registry": "npmjs"
+		},
+		"devtools-applet-7.0.21.tgz": {
+			"url": "https://registry.npmjs.org/@vue/devtools-applet/-/devtools-applet-7.0.21.tgz",
+			"sha": "26c16527e0d7f13787c9021b2d072a7c58493287",
+			"registry": "npmjs"
+		},
+		"devtools-applet-7.0.22.tgz": {
+			"url": "https://registry.npmjs.org/@vue/devtools-applet/-/devtools-applet-7.0.22.tgz",
+			"sha": "292eebdcb07c6c26623750e66aa3311e07ea8a60",
+			"registry": "npmjs"
+		},
+		"devtools-applet-7.0.23.tgz": {
+			"url": "https://registry.npmjs.org/@vue/devtools-applet/-/devtools-applet-7.0.23.tgz",
+			"sha": "411b5e354a1b4ca20435481b00f8325cfc42b83d",
+			"registry": "npmjs"
+		},
+		"devtools-applet-7.0.24.tgz": {
+			"url": "https://registry.npmjs.org/@vue/devtools-applet/-/devtools-applet-7.0.24.tgz",
+			"sha": "8b0b7e3bd53525df2c24138fa3ae12e07e9baeaf",
+			"registry": "npmjs"
+		},
+		"devtools-applet-7.0.25.tgz": {
+			"url": "https://registry.npmjs.org/@vue/devtools-applet/-/devtools-applet-7.0.25.tgz",
+			"sha": "721311aa11a84c689ed79798e1e1ad3f41e2ebd7",
+			"registry": "npmjs"
+		},
+		"devtools-applet-7.0.26.tgz": {
+			"url": "https://registry.npmjs.org/@vue/devtools-applet/-/devtools-applet-7.0.26.tgz",
+			"sha": "599ef0a0934dfccb0c7a35763b9b2d7f0af970d7",
+			"registry": "npmjs"
+		},
+		"devtools-applet-7.0.27.tgz": {
+			"url": "https://registry.npmjs.org/@vue/devtools-applet/-/devtools-applet-7.0.27.tgz",
+			"sha": "b7d4d774bc497145a189de1a724378c8cad22870",
+			"registry": "npmjs"
+		},
+		"devtools-applet-7.1.0.tgz": {
+			"url": "https://registry.npmjs.org/@vue/devtools-applet/-/devtools-applet-7.1.0.tgz",
+			"sha": "80c5c518352b6167a4b5e3d01ff9e1003b7dd2ec",
+			"registry": "npmjs"
+		},
+		"devtools-applet-7.1.1.tgz": {
+			"url": "https://registry.npmjs.org/@vue/devtools-applet/-/devtools-applet-7.1.1.tgz",
+			"sha": "f7e577fa6e261956be283b1d9a2fa2219eb83ac3",
+			"registry": "npmjs"
+		},
+		"devtools-applet-7.1.2.tgz": {
+			"url": "https://registry.npmjs.org/@vue/devtools-applet/-/devtools-applet-7.1.2.tgz",
+			"sha": "afbfb3e7abdb999523fe0cca38e6f76c82a79a58",
+			"registry": "npmjs"
+		},
+		"devtools-applet-7.1.3.tgz": {
+			"url": "https://registry.npmjs.org/@vue/devtools-applet/-/devtools-applet-7.1.3.tgz",
+			"sha": "6aa6d222bb8ccde873d56bb14b11c7f1e36ebaf7",
+			"registry": "npmjs"
+		}
+	},
+	"_attachments": {
+		"devtools-applet-7.1.3.tgz": {
+			"shasum": "6aa6d222bb8ccde873d56bb14b11c7f1e36ebaf7"
+		}
+	},
+	"_rev": "2-83b314507c492c11",
+	"_id": "@vue/devtools-applet",
+	"readme": "ERROR: No README data found!"
+}

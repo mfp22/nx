@@ -1,0 +1,120 @@
+{
+	"name": "system-architecture",
+	"versions": {
+		"0.1.0": {
+			"name": "system-architecture",
+			"version": "0.1.0",
+			"description": "Get the operating system CPU architecture",
+			"license": "MIT",
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/sindresorhus/system-architecture.git"
+			},
+			"funding": "https://github.com/sponsors/sindresorhus",
+			"author": {
+				"name": "Sindre Sorhus",
+				"email": "sindresorhus@gmail.com",
+				"url": "https://sindresorhus.com"
+			},
+			"type": "module",
+			"exports": {
+				"types": "./index.d.ts",
+				"default": "./index.js"
+			},
+			"engines": {
+				"node": ">=18"
+			},
+			"sideEffects": false,
+			"scripts": {
+				"test": "xo && ava"
+			},
+			"keywords": [
+				"arch",
+				"architecture",
+				"cpu",
+				"arm64",
+				"arm",
+				"x64",
+				"x86",
+				"64-bit",
+				"32-bit",
+				"bitness",
+				"detect",
+				"check"
+			],
+			"devDependencies": {
+				"ava": "^5.3.1",
+				"xo": "^0.56.0"
+			},
+			"types": "./index.d.ts",
+			"gitHead": "7ff1bab3c654e4d759f80a1c986b1e3eb8970a70",
+			"bugs": {
+				"url": "https://github.com/sindresorhus/system-architecture/issues"
+			},
+			"homepage": "https://github.com/sindresorhus/system-architecture#readme",
+			"_id": "system-architecture@0.1.0",
+			"_nodeVersion": "18.17.1",
+			"_npmVersion": "9.2.0",
+			"dist": {
+				"integrity": "sha512-ulAk51I9UVUyJgxlv9M6lFot2WP3e7t8Kz9+IS6D4rVba1tR9kON+Ey69f+1R4Q8cd45Lod6a4IcJIxnzGc/zA==",
+				"shasum": "71012b3ac141427d97c67c56bc7921af6bff122d",
+				"tarball": "https://registry.npmjs.org/system-architecture/-/system-architecture-0.1.0.tgz",
+				"fileCount": 5,
+				"unpackedSize": 5373,
+				"signatures": [
+					{
+						"keyid": "SHA256:jl3bwswu80PjjokCgh0o2w5c2U4LhQAE57gj9cz1kzA",
+						"sig": "MEQCIG4wd07LMCBNgPviK6Mv62yCgZ5FeNtt+ldpWMuD3v8PAiAP1GxG0fnj2q8Mx/0C1AUO4BQ14nogzhfvpdDjkvxVdg=="
+					}
+				]
+			},
+			"_npmUser": {
+				"name": "sindresorhus",
+				"email": "sindresorhus@gmail.com"
+			},
+			"directories": {},
+			"maintainers": [
+				{
+					"name": "sindresorhus",
+					"email": "sindresorhus@gmail.com"
+				}
+			],
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/system-architecture_0.1.0_1698047304778_0.6139406472936626"
+			},
+			"_hasShrinkwrap": false,
+			"contributors": []
+		}
+	},
+	"time": {
+		"created": "2023-10-23T07:48:24.778Z",
+		"0.1.0": "2023-10-23T07:48:25.012Z",
+		"modified": "2023-10-23T07:48:25.292Z"
+	},
+	"users": {},
+	"dist-tags": {
+		"latest": "0.1.0"
+	},
+	"_uplinks": {
+		"npmjs": {
+			"etag": "W/\"d0bcedb95af72ace2611689349d5bd75\"",
+			"fetched": 1715345906964
+		}
+	},
+	"_distfiles": {
+		"system-architecture-0.1.0.tgz": {
+			"url": "https://registry.npmjs.org/system-architecture/-/system-architecture-0.1.0.tgz",
+			"sha": "71012b3ac141427d97c67c56bc7921af6bff122d",
+			"registry": "npmjs"
+		}
+	},
+	"_attachments": {
+		"system-architecture-0.1.0.tgz": {
+			"shasum": "71012b3ac141427d97c67c56bc7921af6bff122d"
+		}
+	},
+	"_rev": "2-b828d69c5a57fac6",
+	"_id": "system-architecture",
+	"readme": "# system-architecture\n\n> Get the operating system CPU architecture\n\n[`process.arch` / `os.arch()`](https://nodejs.org/api/process.html#processarch) is generally not useful as it returns the CPU architecture for which the Node.js binary was compiled, not the actual system architecture.\n\nFor browser usage, you probably want [`is64bit`](https://github.com/sindresorhus/is64bit) instead.\n\n## Install\n\n```sh\nnpm install system-architecture\n```\n\n## Usage\n\n```js\nimport {systemArchitecture} from 'system-architecture';\n\n// On ARM64 macOS\nconsole.log(await systemArchitecture());\n//=> 'arm64'\n```\n\n## API\n\n### systemArchitecture()\n\nReturns a promise for a CPU architecture name. See [`process.arch`](https://nodejs.org/api/process.html#processarch) for possible values.\n\n### systemArchitectureSync()\n\nReturns a CPU architecture name. See [`process.arch`](https://nodejs.org/api/process.html#processarch) for possible values.\n\n## Note\n\nThis should really be in Node.js core, but they are [not pragmatic](https://github.com/nodejs/node/issues/17036).\n\n## Related\n\n- [is64bit](https://github.com/sindresorhus/is64bit) - Check whether operating system CPU architecture is 64-bit or 32-bit"
+}

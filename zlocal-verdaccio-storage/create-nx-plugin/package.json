@@ -110331,6 +110331,227 @@
 			"_hasShrinkwrap": false,
 			"contributors": []
 		},
+		"19.0.2": {
+			"name": "create-nx-plugin",
+			"version": "19.0.2",
+			"private": false,
+			"description": "This package is used to scaffold a brand-new workspace used to develop an Nx plugin, and sets up a pre-configured plugin with the specified name. The new plugin is created with a default generator, executor, and e2e app.",
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/nrwl/nx.git",
+				"directory": "packages/create-nx-plugin"
+			},
+			"keywords": [
+				"Monorepo",
+				"Angular",
+				"React",
+				"Web",
+				"Node",
+				"Nest",
+				"Jest",
+				"Cypress",
+				"CLI"
+			],
+			"bin": {
+				"create-nx-plugin": "bin/create-nx-plugin.js"
+			},
+			"author": {
+				"name": "Victor Savkin"
+			},
+			"license": "MIT",
+			"bugs": {
+				"url": "https://github.com/nrwl/nx/issues"
+			},
+			"homepage": "https://nx.dev",
+			"dependencies": {
+				"create-nx-workspace": "19.0.2",
+				"chalk": "^4.1.0",
+				"enquirer": "~2.3.6",
+				"tslib": "^2.3.0",
+				"yargs": "^17.6.2"
+			},
+			"publishConfig": {
+				"access": "public"
+			},
+			"main": "./bin/create-nx-plugin.js",
+			"type": "commonjs",
+			"_id": "create-nx-plugin@19.0.2",
+			"gitHead": "61861be0f7335082d5e0b44fa96ff3f6d49774ad",
+			"types": "./bin/create-nx-plugin.d.ts",
+			"_nodeVersion": "18.20.2",
+			"_npmVersion": "10.5.0",
+			"dist": {
+				"integrity": "sha512-zTwUKm/tC+cqUvnYuC4De15xXt2k37IH4wbO8pgDpCAcFMHHgxk+LXtWveQ1mt51k36hdwecF6drrCr14IYk4A==",
+				"shasum": "bde3b7ffe7ed1b4b52a44c8674de02510f725bbb",
+				"tarball": "https://registry.npmjs.org/create-nx-plugin/-/create-nx-plugin-19.0.2.tgz",
+				"fileCount": 5,
+				"unpackedSize": 10532,
+				"attestations": {
+					"url": "https://registry.npmjs.org/-/npm/v1/attestations/create-nx-plugin@19.0.2",
+					"provenance": {
+						"predicateType": "https://slsa.dev/provenance/v1"
+					}
+				},
+				"signatures": [
+					{
+						"keyid": "SHA256:jl3bwswu80PjjokCgh0o2w5c2U4LhQAE57gj9cz1kzA",
+						"sig": "MEUCIAws/bbHQvweer0wOl6kOjjfh2Y+nGtjD9S2Wn8sODXiAiEA1PaT28CRcbWl4yzKkOeTPRAujxuHqskHUsLj2aKT444="
+					}
+				]
+			},
+			"_npmUser": {
+				"name": "nrwl-jason",
+				"email": "jason@nrwl.io"
+			},
+			"directories": {},
+			"maintainers": [
+				{
+					"name": "jameshenry",
+					"email": "james@henry.sc"
+				},
+				{
+					"name": "meeroslav",
+					"email": "missing.manual@gmail.com"
+				},
+				{
+					"name": "altan-nrwl",
+					"email": "altan@nrwl.io"
+				},
+				{
+					"name": "juristr",
+					"email": "juri.strumpflohner@gmail.com"
+				},
+				{
+					"name": "jack-nrwl",
+					"email": "jack@nrwl.io"
+				},
+				{
+					"name": "nrwl-jason",
+					"email": "jason@nrwl.io"
+				},
+				{
+					"name": "nrwlowner",
+					"email": "hello@nrwl.io"
+				}
+			],
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/create-nx-plugin_19.0.2_1715263111518_0.5347837026453504"
+			},
+			"_hasShrinkwrap": false,
+			"contributors": []
+		},
+		"19.1.0-canary.20240510-1a85787": {
+			"name": "create-nx-plugin",
+			"version": "19.1.0-canary.20240510-1a85787",
+			"private": false,
+			"description": "This package is used to scaffold a brand-new workspace used to develop an Nx plugin, and sets up a pre-configured plugin with the specified name. The new plugin is created with a default generator, executor, and e2e app.",
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/nrwl/nx.git",
+				"directory": "packages/create-nx-plugin"
+			},
+			"keywords": [
+				"Monorepo",
+				"Angular",
+				"React",
+				"Web",
+				"Node",
+				"Nest",
+				"Jest",
+				"Cypress",
+				"CLI"
+			],
+			"bin": {
+				"create-nx-plugin": "bin/create-nx-plugin.js"
+			},
+			"author": {
+				"name": "Victor Savkin"
+			},
+			"license": "MIT",
+			"bugs": {
+				"url": "https://github.com/nrwl/nx/issues"
+			},
+			"homepage": "https://nx.dev",
+			"dependencies": {
+				"create-nx-workspace": "19.1.0-canary.20240510-1a85787",
+				"chalk": "^4.1.0",
+				"enquirer": "~2.3.6",
+				"tslib": "^2.3.0",
+				"yargs": "^17.6.2"
+			},
+			"publishConfig": {
+				"access": "public"
+			},
+			"main": "./bin/create-nx-plugin.js",
+			"type": "commonjs",
+			"_id": "create-nx-plugin@19.1.0-canary.20240510-1a85787",
+			"readmeFilename": "README.md",
+			"gitHead": "1a85787e1c310d8409d99361800ef30e81938795",
+			"types": "./bin/create-nx-plugin.d.ts",
+			"_nodeVersion": "18.20.2",
+			"_npmVersion": "10.5.0",
+			"dist": {
+				"integrity": "sha512-1beGE2FtE/QYpW/vpL1gSraIQexpyPJS60guA9C9GiEyI1DlkWP9XvlhdH0PXuLunemi8RuFUbRhGnbAo3trIw==",
+				"shasum": "2f220544c04f764deb2c126453a9dd15166e8097",
+				"tarball": "https://registry.npmjs.org/create-nx-plugin/-/create-nx-plugin-19.1.0-canary.20240510-1a85787.tgz",
+				"fileCount": 5,
+				"unpackedSize": 10580,
+				"attestations": {
+					"url": "https://registry.npmjs.org/-/npm/v1/attestations/create-nx-plugin@19.1.0-canary.20240510-1a85787",
+					"provenance": {
+						"predicateType": "https://slsa.dev/provenance/v1"
+					}
+				},
+				"signatures": [
+					{
+						"keyid": "SHA256:jl3bwswu80PjjokCgh0o2w5c2U4LhQAE57gj9cz1kzA",
+						"sig": "MEYCIQCvYoxp+U4S2ug0Hzm/EKyEPt6UnSZVBMG1Ilt45PLvAAIhAMZCldOlqqwI7v+bi8+wGKs/lbJ4K01+u82VIahFm0WF"
+					}
+				]
+			},
+			"_npmUser": {
+				"name": "nrwl-jason",
+				"email": "jason@nrwl.io"
+			},
+			"directories": {},
+			"maintainers": [
+				{
+					"name": "jameshenry",
+					"email": "james@henry.sc"
+				},
+				{
+					"name": "meeroslav",
+					"email": "missing.manual@gmail.com"
+				},
+				{
+					"name": "altan-nrwl",
+					"email": "altan@nrwl.io"
+				},
+				{
+					"name": "juristr",
+					"email": "juri.strumpflohner@gmail.com"
+				},
+				{
+					"name": "jack-nrwl",
+					"email": "jack@nrwl.io"
+				},
+				{
+					"name": "nrwl-jason",
+					"email": "jason@nrwl.io"
+				},
+				{
+					"name": "nrwlowner",
+					"email": "hello@nrwl.io"
+				}
+			],
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/create-nx-plugin_19.1.0-canary.20240510-1a85787_1715311046483_0.03359718341951834"
+			},
+			"_hasShrinkwrap": false,
+			"contributors": []
+		},
 		"20.0.0": {
 			"name": "create-nx-plugin",
 			"version": "20.0.0",
@@ -110377,10 +110598,10 @@
 			"type": "commonjs",
 			"_id": "create-nx-plugin@20.0.0",
 			"readmeFilename": "README.md",
-			"gitHead": "792f73081571dea27da52bddf6184313bb7b5737",
+			"gitHead": "86106e2454080d81eec30be2268bd93f9c6cfcad",
 			"types": "./bin/create-nx-plugin.d.ts",
-			"_nodeVersion": "20.9.0",
-			"_npmVersion": "10.1.0",
+			"_nodeVersion": "18.18.0",
+			"_npmVersion": "9.8.1",
 			"dist": {
 				"integrity": "sha512-bSz8kk013C/+6yVHBQuTMyFcu/uayJqpqj3F4K6tW86iz1SVPnG+RICK0YiZj2r7NQY7g9egLxn/qM+EzrURBg==",
 				"shasum": "4b5bbe0e669e335812380226617ad698dfee28dc",
@@ -110392,7 +110613,7 @@
 	"time": {
 		"created": "2020-01-27T16:09:07.513Z",
 		"8.12.0-beta.8": "2020-01-27T16:09:07.681Z",
-		"modified": "2024-05-09T08:20:06.632Z",
+		"modified": "2024-05-10T12:57:15.397Z",
 		"8.12.0": "2020-01-27T21:07:56.191Z",
 		"8.12.1-beta.1": "2020-01-29T16:15:07.134Z",
 		"8.12.1": "2020-02-02T02:22:45.540Z",
@@ -111620,19 +111841,21 @@
 		"19.0.1": "2024-05-07T22:27:56.276Z",
 		"19.1.0-canary.20240508-fd78152": "2024-05-08T03:17:44.045Z",
 		"19.1.0-canary.20240509-8f705e3": "2024-05-09T03:17:02.832Z",
-		"20.0.0": "2024-05-09T08:20:06.632Z"
+		"19.0.2": "2024-05-09T13:58:31.665Z",
+		"19.1.0-canary.20240510-1a85787": "2024-05-10T03:17:26.650Z",
+		"20.0.0": "2024-05-10T12:57:15.397Z"
 	},
 	"users": {},
 	"dist-tags": {
 		"next": "19.0.0-rc.2",
 		"latest": "20.0.0",
 		"previous": "18.3.4",
-		"canary": "19.1.0-canary.20240509-8f705e3"
+		"canary": "19.1.0-canary.20240510-1a85787"
 	},
 	"_uplinks": {
 		"npmjs": {
-			"etag": "W/\"dd283d5447f0293e58408775187dc83f\"",
-			"fetched": 1715242806281
+			"etag": "W/\"d6b23e394075fcd2b3dafb2de90fe065\"",
+			"fetched": 1715345834463
 		}
 	},
 	"_distfiles": {
@@ -117760,6 +117983,16 @@
 			"url": "https://registry.npmjs.org/create-nx-plugin/-/create-nx-plugin-19.1.0-canary.20240509-8f705e3.tgz",
 			"sha": "13b9ec408dc4606a55a1dcdaf71d9f3fc84abe27",
 			"registry": "npmjs"
+		},
+		"create-nx-plugin-19.0.2.tgz": {
+			"url": "https://registry.npmjs.org/create-nx-plugin/-/create-nx-plugin-19.0.2.tgz",
+			"sha": "bde3b7ffe7ed1b4b52a44c8674de02510f725bbb",
+			"registry": "npmjs"
+		},
+		"create-nx-plugin-19.1.0-canary.20240510-1a85787.tgz": {
+			"url": "https://registry.npmjs.org/create-nx-plugin/-/create-nx-plugin-19.1.0-canary.20240510-1a85787.tgz",
+			"sha": "2f220544c04f764deb2c126453a9dd15166e8097",
+			"registry": "npmjs"
 		}
 	},
 	"_attachments": {
@@ -117768,7 +118001,7 @@
 			"version": "20.0.0"
 		}
 	},
-	"_rev": "4-fbb8d065f9713c03",
+	"_rev": "4-b2fc7d2c071546cf",
 	"_id": "create-nx-plugin",
 	"readme": "<p style=\"text-align: center;\">\n  <picture>\n    <source media=\"(prefers-color-scheme: dark)\" srcset=\"https://raw.githubusercontent.com/nrwl/nx/master/images/nx-dark.svg\">\n    <img alt=\"Nx - Smart Monorepos · Fast CI\" src=\"https://raw.githubusercontent.com/nrwl/nx/master/images/nx-light.svg\" width=\"100%\">\n  </picture>\n</p>\n\n<div style=\"text-align: center;\">\n\n[![CircleCI](https://circleci.com/gh/nrwl/nx.svg?style=svg)](https://circleci.com/gh/nrwl/nx)\n[![License](https://img.shields.io/npm/l/@nx/workspace.svg?style=flat-square)]()\n[![NPM Version](https://badge.fury.io/js/%40nrwl%2Fworkspace.svg)](https://www.npmjs.com/@nx/workspace)\n[![Semantic Release](https://img.shields.io/badge/%20%20%F0%9F%93%A6%F0%9F%9A%80-semantic--release-e10079.svg?style=flat-square)]()\n[![Commitizen friendly](https://img.shields.io/badge/commitizen-friendly-brightgreen.svg)](http://commitizen.github.io/cz-cli/)\n[![Join the chat at https://gitter.im/nrwl-nx/community](https://badges.gitter.im/nrwl-nx/community.svg)](https://gitter.im/nrwl-nx/community?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)\n[![Join us on the Official Nx Discord Server](https://img.shields.io/discord/1143497901675401286?label=discord)](https://go.nx.dev/community)\n\n</div>\n\n\n<hr>\n\n# `> npx create-nx-plugin`\n\nNx is a build system with built-in tooling and advanced CI capabilities. It helps you maintain and scale monorepos, both locally and on CI.\n\n## What is It?\n\nIt's a command to create an Nx workspace to develop an Nx plugin.\n\n## How to Use\n\n- Check out the list of community plugins and the documentation on how to create one using `create-nx-plugin` here: [https://nx.dev/community](https://nx.dev/community)\n\n## Documentation & Resources\n\n- [Nx.Dev: Documentation, Guides, Tutorials](https://nx.dev)\n- [Intro to Nx](https://nx.dev/getting-started/intro)\n- [Official Nx YouTube Channel](https://www.youtube.com/@NxDevtools)\n- [Blog Posts About Nx](https://blog.nrwl.io/nx/home)\n\n<p style=\"text-align: center;\"><a href=\"https://nx.dev/#learning-materials\" target=\"_blank\" rel=\"noreferrer\"><img src=\"https://raw.githubusercontent.com/nrwl/nx/master/images/nx-courses-and-videos.svg\" \nwidth=\"100%\" alt=\"Nx - Smart Monorepos · Fast CI\"></a></p>\n\n"
 }

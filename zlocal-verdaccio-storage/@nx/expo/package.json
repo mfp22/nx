@@ -41275,6 +41275,227 @@
 			"_hasShrinkwrap": false,
 			"contributors": []
 		},
+		"19.0.2": {
+			"name": "@nx/expo",
+			"version": "19.0.2",
+			"private": false,
+			"description": "The Expo Plugin for Nx contains executors and generators for managing and developing an expo application within your workspace. For example, you can directly build for different target platforms as well as generate projects and publish your code.",
+			"keywords": [
+				"Monorepo",
+				"Expo",
+				"React",
+				"Web",
+				"Jest",
+				"Native",
+				"CLI"
+			],
+			"homepage": "https://nx.dev",
+			"bugs": {
+				"url": "https://github.com/nrwl/nx/issues"
+			},
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/nrwl/nx.git",
+				"directory": "packages/expo"
+			},
+			"license": "MIT",
+			"author": {
+				"name": "Victor Savkin"
+			},
+			"main": "./index.js",
+			"types": "index.d.ts",
+			"dependencies": {
+				"@nx/devkit": "19.0.2",
+				"chalk": "^4.1.0",
+				"enhanced-resolve": "^5.8.3",
+				"fs-extra": "^11.1.0",
+				"metro-config": "~0.80.4",
+				"metro-resolver": "~0.80.4",
+				"node-fetch": "^2.6.7",
+				"tslib": "^2.3.0",
+				"tsconfig-paths": "^4.1.2",
+				"@nx/jest": "19.0.2",
+				"@nx/js": "19.0.2",
+				"@nx/eslint": "19.0.2",
+				"@nx/react": "19.0.2",
+				"@nx/web": "19.0.2",
+				"@nx/webpack": "19.0.2",
+				"@nrwl/expo": "19.0.2"
+			},
+			"executors": "./executors.json",
+			"ng-update": {
+				"requirements": {},
+				"migrations": "./migrations.json"
+			},
+			"generators": "./generators.json",
+			"publishConfig": {
+				"access": "public"
+			},
+			"type": "commonjs",
+			"_id": "@nx/expo@19.0.2",
+			"gitHead": "61861be0f7335082d5e0b44fa96ff3f6d49774ad",
+			"_nodeVersion": "18.20.2",
+			"_npmVersion": "10.5.0",
+			"dist": {
+				"integrity": "sha512-E/9htLeczYcE9lPMJQcrb3MfIdF0rwa5i/YhwQZ3T1k6OW01/TVXxezFK4NSXgup4JGRKzD/eYQqv4dyWjKAmA==",
+				"shasum": "2511c63aeb3647347eb88caa15275469f3df92a8",
+				"tarball": "https://registry.npmjs.org/@nx/expo/-/expo-19.0.2.tgz",
+				"fileCount": 188,
+				"unpackedSize": 322108,
+				"attestations": {
+					"url": "https://registry.npmjs.org/-/npm/v1/attestations/@nx%2fexpo@19.0.2",
+					"provenance": {
+						"predicateType": "https://slsa.dev/provenance/v1"
+					}
+				},
+				"signatures": [
+					{
+						"keyid": "SHA256:jl3bwswu80PjjokCgh0o2w5c2U4LhQAE57gj9cz1kzA",
+						"sig": "MEUCIAl+VnrYAxdWtc6/SluQF8PxjVuTvko+qwdjsdCQ26EuAiEA560ygEJXzaI6/4zlhda5kKDrIPEM5l72e9p9zOb31oo="
+					}
+				]
+			},
+			"_npmUser": {
+				"name": "nrwl-jason",
+				"email": "jason@nrwl.io"
+			},
+			"directories": {},
+			"maintainers": [
+				{
+					"name": "jameshenry",
+					"email": "james@henry.sc"
+				},
+				{
+					"name": "jack-nrwl",
+					"email": "jack@nrwl.io"
+				},
+				{
+					"name": "nrwl-jason",
+					"email": "jason@nrwl.io"
+				},
+				{
+					"name": "nrwlowner",
+					"email": "hello@nrwl.io"
+				}
+			],
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/expo_19.0.2_1715263097777_0.4249921062136641"
+			},
+			"_hasShrinkwrap": false,
+			"contributors": []
+		},
+		"19.1.0-canary.20240510-1a85787": {
+			"name": "@nx/expo",
+			"version": "19.1.0-canary.20240510-1a85787",
+			"private": false,
+			"description": "The Expo Plugin for Nx contains executors and generators for managing and developing an expo application within your workspace. For example, you can directly build for different target platforms as well as generate projects and publish your code.",
+			"keywords": [
+				"Monorepo",
+				"Expo",
+				"React",
+				"Web",
+				"Jest",
+				"Native",
+				"CLI"
+			],
+			"homepage": "https://nx.dev",
+			"bugs": {
+				"url": "https://github.com/nrwl/nx/issues"
+			},
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/nrwl/nx.git",
+				"directory": "packages/expo"
+			},
+			"license": "MIT",
+			"author": {
+				"name": "Victor Savkin"
+			},
+			"main": "./index.js",
+			"types": "index.d.ts",
+			"dependencies": {
+				"@nx/devkit": "19.1.0-canary.20240510-1a85787",
+				"chalk": "^4.1.0",
+				"enhanced-resolve": "^5.8.3",
+				"fs-extra": "^11.1.0",
+				"metro-config": "~0.80.4",
+				"metro-resolver": "~0.80.4",
+				"node-fetch": "^2.6.7",
+				"tslib": "^2.3.0",
+				"tsconfig-paths": "^4.1.2",
+				"@nx/jest": "19.1.0-canary.20240510-1a85787",
+				"@nx/js": "19.1.0-canary.20240510-1a85787",
+				"@nx/eslint": "19.1.0-canary.20240510-1a85787",
+				"@nx/react": "19.1.0-canary.20240510-1a85787",
+				"@nx/web": "19.1.0-canary.20240510-1a85787",
+				"@nx/webpack": "19.1.0-canary.20240510-1a85787",
+				"@nrwl/expo": "19.1.0-canary.20240510-1a85787"
+			},
+			"executors": "./executors.json",
+			"ng-update": {
+				"requirements": {},
+				"migrations": "./migrations.json"
+			},
+			"generators": "./generators.json",
+			"publishConfig": {
+				"access": "public"
+			},
+			"type": "commonjs",
+			"_id": "@nx/expo@19.1.0-canary.20240510-1a85787",
+			"readmeFilename": "README.md",
+			"gitHead": "1a85787e1c310d8409d99361800ef30e81938795",
+			"_nodeVersion": "18.20.2",
+			"_npmVersion": "10.5.0",
+			"dist": {
+				"integrity": "sha512-xZSinH0q0ii/CadVlzVt/6bVakbk2AxtZ0UyCDB+Y3H8IwokN9PdmBjaomMg6o6peUens/YZ50M6O+cm/DXU+A==",
+				"shasum": "c7bd09cc6717d9020602124d156c0f19ccd73d07",
+				"tarball": "https://registry.npmjs.org/@nx/expo/-/expo-19.1.0-canary.20240510-1a85787.tgz",
+				"fileCount": 188,
+				"unpackedSize": 322324,
+				"attestations": {
+					"url": "https://registry.npmjs.org/-/npm/v1/attestations/@nx%2fexpo@19.1.0-canary.20240510-1a85787",
+					"provenance": {
+						"predicateType": "https://slsa.dev/provenance/v1"
+					}
+				},
+				"signatures": [
+					{
+						"keyid": "SHA256:jl3bwswu80PjjokCgh0o2w5c2U4LhQAE57gj9cz1kzA",
+						"sig": "MEUCIGBoabFn7nearJBawag3I5gdAiD5xeG0cfbh2BnU1x1UAiEAxOdDxVt2R8jkPLs4rkBiMFIRHCz/Xb9++BFckU1L2w0="
+					}
+				]
+			},
+			"_npmUser": {
+				"name": "nrwl-jason",
+				"email": "jason@nrwl.io"
+			},
+			"directories": {},
+			"maintainers": [
+				{
+					"name": "jameshenry",
+					"email": "james@henry.sc"
+				},
+				{
+					"name": "jack-nrwl",
+					"email": "jack@nrwl.io"
+				},
+				{
+					"name": "nrwl-jason",
+					"email": "jason@nrwl.io"
+				},
+				{
+					"name": "nrwlowner",
+					"email": "hello@nrwl.io"
+				}
+			],
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/expo_19.1.0-canary.20240510-1a85787_1715311033649_0.3838830903934991"
+			},
+			"_hasShrinkwrap": false,
+			"contributors": []
+		},
 		"20.0.0": {
 			"name": "@nx/expo",
 			"version": "20.0.0",
@@ -41334,12 +41555,12 @@
 			"type": "commonjs",
 			"_id": "@nx/expo@20.0.0",
 			"readmeFilename": "README.md",
-			"gitHead": "792f73081571dea27da52bddf6184313bb7b5737",
-			"_nodeVersion": "20.9.0",
-			"_npmVersion": "10.1.0",
+			"gitHead": "86106e2454080d81eec30be2268bd93f9c6cfcad",
+			"_nodeVersion": "18.18.0",
+			"_npmVersion": "9.8.1",
 			"dist": {
-				"integrity": "sha512-PoYrLKcdaw2AWveilKYPinW+BPmPeOhSD6CrQjq3Q5Zo67JaTZwru0pE5VXVRGi9ZWu2TPFVx06eEUWrQxQXcg==",
-				"shasum": "8c51dc9b0097e94a244cd086ebfb25182562b041",
+				"integrity": "sha512-1fvYhCWQDOOIuJjjfOHNRf9t6J+d9XrUEOzW3LmFD3vCrFDeFLxyZFVLgrrrXlK6eEZig0/2eJ9NKPwDkwhJPA==",
+				"shasum": "fe8caae9c0c3b22734bd0d47fd58cc1d112c5241",
 				"tarball": "http://localhost:4873/@nx/expo/-/@nx/expo-20.0.0.tgz"
 			},
 			"contributors": []
@@ -41348,7 +41569,7 @@
 	"time": {
 		"created": "2023-04-17T15:04:14.260Z",
 		"16.0.0-beta.1": "2023-04-17T15:04:14.532Z",
-		"modified": "2024-05-09T08:20:02.989Z",
+		"modified": "2024-05-10T12:57:11.192Z",
 		"16.0.0-beta.2": "2023-04-18T15:10:29.836Z",
 		"16.0.0-beta.3": "2023-04-19T16:08:53.475Z",
 		"16.0.0-beta.4": "2023-04-19T19:32:22.465Z",
@@ -41703,19 +41924,21 @@
 		"19.0.1": "2024-05-07T22:27:35.094Z",
 		"19.1.0-canary.20240508-fd78152": "2024-05-08T03:17:29.173Z",
 		"19.1.0-canary.20240509-8f705e3": "2024-05-09T03:16:46.787Z",
-		"20.0.0": "2024-05-09T08:20:02.989Z"
+		"19.0.2": "2024-05-09T13:58:17.929Z",
+		"19.1.0-canary.20240510-1a85787": "2024-05-10T03:17:13.873Z",
+		"20.0.0": "2024-05-10T12:57:11.192Z"
 	},
 	"users": {},
 	"dist-tags": {
 		"next": "19.0.0-rc.2",
 		"latest": "20.0.0",
 		"previous": "18.3.4",
-		"canary": "19.1.0-canary.20240509-8f705e3"
+		"canary": "19.1.0-canary.20240510-1a85787"
 	},
 	"_uplinks": {
 		"npmjs": {
-			"etag": "W/\"f03aae7220411abb5aa37f0b9522d704\"",
-			"fetched": 1715242802608
+			"etag": "W/\"75eb38aca86130c1a045bc8f1adc89a1\"",
+			"fetched": 1715345830215
 		}
 	},
 	"_distfiles": {
@@ -43493,15 +43716,25 @@
 			"url": "https://registry.npmjs.org/@nx/expo/-/expo-19.1.0-canary.20240509-8f705e3.tgz",
 			"sha": "b77f02768b358db2645d4a0215a72ee93e7f6bea",
 			"registry": "npmjs"
+		},
+		"expo-19.0.2.tgz": {
+			"url": "https://registry.npmjs.org/@nx/expo/-/expo-19.0.2.tgz",
+			"sha": "2511c63aeb3647347eb88caa15275469f3df92a8",
+			"registry": "npmjs"
+		},
+		"expo-19.1.0-canary.20240510-1a85787.tgz": {
+			"url": "https://registry.npmjs.org/@nx/expo/-/expo-19.1.0-canary.20240510-1a85787.tgz",
+			"sha": "c7bd09cc6717d9020602124d156c0f19ccd73d07",
+			"registry": "npmjs"
 		}
 	},
 	"_attachments": {
 		"expo-20.0.0.tgz": {
-			"shasum": "8c51dc9b0097e94a244cd086ebfb25182562b041",
+			"shasum": "fe8caae9c0c3b22734bd0d47fd58cc1d112c5241",
 			"version": "20.0.0"
 		}
 	},
-	"_rev": "4-15ccf11541fbd42a",
+	"_rev": "4-4a5dea98680fee78",
 	"_id": "@nx/expo",
 	"readme": "<p style=\"text-align: center;\">\n  <picture>\n    <source media=\"(prefers-color-scheme: dark)\" srcset=\"https://raw.githubusercontent.com/nrwl/nx/master/images/nx-dark.svg\">\n    <img alt=\"Nx - Smart Monorepos · Fast CI\" src=\"https://raw.githubusercontent.com/nrwl/nx/master/images/nx-light.svg\" width=\"100%\">\n  </picture>\n</p>\n\n<div style=\"text-align: center;\">\n\n[![CircleCI](https://circleci.com/gh/nrwl/nx.svg?style=svg)](https://circleci.com/gh/nrwl/nx)\n[![License](https://img.shields.io/npm/l/@nx/workspace.svg?style=flat-square)]()\n[![NPM Version](https://badge.fury.io/js/%40nrwl%2Fworkspace.svg)](https://www.npmjs.com/@nx/workspace)\n[![Semantic Release](https://img.shields.io/badge/%20%20%F0%9F%93%A6%F0%9F%9A%80-semantic--release-e10079.svg?style=flat-square)]()\n[![Commitizen friendly](https://img.shields.io/badge/commitizen-friendly-brightgreen.svg)](http://commitizen.github.io/cz-cli/)\n[![Join the chat at https://gitter.im/nrwl-nx/community](https://badges.gitter.im/nrwl-nx/community.svg)](https://gitter.im/nrwl-nx/community?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)\n[![Join us on the Official Nx Discord Server](https://img.shields.io/discord/1143497901675401286?label=discord)](https://go.nx.dev/community)\n\n</div>\n\n\n<hr>\n\n# Nx: Smart Monorepos · Fast CI\n\nNx is a build system with built-in tooling and advanced CI capabilities. It helps you maintain and scale monorepos, both locally and on CI.\n\nThis package is a [Expo plugin for Nx](https://nx.dev/expo/overview).\n\n## Getting Started\n\n### Creating an Nx Workspace\n\n**Using `npx`**\n\n```bash\nnpx create-nx-workspace\n```\n\n**Using `npm init`**\n\n```bash\nnpm init nx-workspace\n```\n\n**Using `yarn create`**\n\n```bash\nyarn create nx-workspace\n```\n\n### Adding Nx to an Existing Repository\n\nRun:\n\n```bash\nnpx nx@latest init\n```\n\n## Documentation & Resources\n\n- [Nx.Dev: Documentation, Guides, Tutorials](https://nx.dev)\n- [Intro to Nx](https://nx.dev/getting-started/intro)\n- [Official Nx YouTube Channel](https://www.youtube.com/@NxDevtools)\n- [Blog Posts About Nx](https://blog.nrwl.io/nx/home)\n\n<p style=\"text-align: center;\"><a href=\"https://nx.dev/#learning-materials\" target=\"_blank\" rel=\"noreferrer\"><img src=\"https://raw.githubusercontent.com/nrwl/nx/master/images/nx-courses-and-videos.svg\" \nwidth=\"100%\" alt=\"Nx - Smart Monorepos · Fast CI\"></a></p>\n\n"
 }

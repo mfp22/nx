@@ -35549,6 +35549,199 @@
 			"_hasShrinkwrap": false,
 			"contributors": []
 		},
+		"19.0.2": {
+			"name": "@nx/plugin",
+			"version": "19.0.2",
+			"private": false,
+			"description": "This plugin is used to create Nx plugins! It contains generators for generating common plugin features like generators, executors, migrations and more.",
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/nrwl/nx.git",
+				"directory": "packages/plugin"
+			},
+			"keywords": [
+				"Monorepo",
+				"Nx",
+				"CLI"
+			],
+			"main": "./index.js",
+			"types": "./index.d.ts",
+			"author": {
+				"name": "Nrwl"
+			},
+			"license": "MIT",
+			"bugs": {
+				"url": "https://github.com/nrwl/nx/issues"
+			},
+			"homepage": "https://nx.dev",
+			"generators": "./generators.json",
+			"ng-update": {
+				"requirements": {},
+				"migrations": "./migrations.json"
+			},
+			"dependencies": {
+				"fs-extra": "^11.1.0",
+				"tslib": "^2.3.0",
+				"@nx/devkit": "19.0.2",
+				"@nx/jest": "19.0.2",
+				"@nx/js": "19.0.2",
+				"@nx/eslint": "19.0.2",
+				"@nrwl/nx-plugin": "19.0.2"
+			},
+			"publishConfig": {
+				"access": "public"
+			},
+			"type": "commonjs",
+			"_id": "@nx/plugin@19.0.2",
+			"gitHead": "61861be0f7335082d5e0b44fa96ff3f6d49774ad",
+			"_nodeVersion": "18.20.2",
+			"_npmVersion": "10.5.0",
+			"dist": {
+				"integrity": "sha512-drwF3BJo6hgJ8Drg3WsLScRmyoTYBV9VwXauAXJM7RXVc4bAUbvoaMF2BWHIwW1ON6JHEX862ca2+nE/7nwgYg==",
+				"shasum": "264e66836090f885f62f8a89158db27306eb678f",
+				"tarball": "https://registry.npmjs.org/@nx/plugin/-/plugin-19.0.2.tgz",
+				"fileCount": 86,
+				"unpackedSize": 116582,
+				"attestations": {
+					"url": "https://registry.npmjs.org/-/npm/v1/attestations/@nx%2fplugin@19.0.2",
+					"provenance": {
+						"predicateType": "https://slsa.dev/provenance/v1"
+					}
+				},
+				"signatures": [
+					{
+						"keyid": "SHA256:jl3bwswu80PjjokCgh0o2w5c2U4LhQAE57gj9cz1kzA",
+						"sig": "MEUCIBWrPzq8zbbEXsRB8HcQDC1F/KJjsYwOUVX2u93znS8fAiEAtS2BJEtP5T1DF4omxunnty53VicHiT7vZQqqj+hMmeU="
+					}
+				]
+			},
+			"_npmUser": {
+				"name": "nrwl-jason",
+				"email": "jason@nrwl.io"
+			},
+			"directories": {},
+			"maintainers": [
+				{
+					"name": "jameshenry",
+					"email": "james@henry.sc"
+				},
+				{
+					"name": "jack-nrwl",
+					"email": "jack@nrwl.io"
+				},
+				{
+					"name": "nrwl-jason",
+					"email": "jason@nrwl.io"
+				},
+				{
+					"name": "nrwlowner",
+					"email": "hello@nrwl.io"
+				}
+			],
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/plugin_19.0.2_1715263065002_0.2298848641621125"
+			},
+			"_hasShrinkwrap": false,
+			"contributors": []
+		},
+		"19.1.0-canary.20240510-1a85787": {
+			"name": "@nx/plugin",
+			"version": "19.1.0-canary.20240510-1a85787",
+			"private": false,
+			"description": "This plugin is used to create Nx plugins! It contains generators for generating common plugin features like generators, executors, migrations and more.",
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/nrwl/nx.git",
+				"directory": "packages/plugin"
+			},
+			"keywords": [
+				"Monorepo",
+				"Nx",
+				"CLI"
+			],
+			"main": "./index.js",
+			"types": "./index.d.ts",
+			"author": {
+				"name": "Nrwl"
+			},
+			"license": "MIT",
+			"bugs": {
+				"url": "https://github.com/nrwl/nx/issues"
+			},
+			"homepage": "https://nx.dev",
+			"generators": "./generators.json",
+			"ng-update": {
+				"requirements": {},
+				"migrations": "./migrations.json"
+			},
+			"dependencies": {
+				"fs-extra": "^11.1.0",
+				"tslib": "^2.3.0",
+				"@nx/devkit": "19.1.0-canary.20240510-1a85787",
+				"@nx/jest": "19.1.0-canary.20240510-1a85787",
+				"@nx/js": "19.1.0-canary.20240510-1a85787",
+				"@nx/eslint": "19.1.0-canary.20240510-1a85787",
+				"@nrwl/nx-plugin": "19.1.0-canary.20240510-1a85787"
+			},
+			"publishConfig": {
+				"access": "public"
+			},
+			"type": "commonjs",
+			"_id": "@nx/plugin@19.1.0-canary.20240510-1a85787",
+			"readmeFilename": "README.md",
+			"gitHead": "1a85787e1c310d8409d99361800ef30e81938795",
+			"_nodeVersion": "18.20.2",
+			"_npmVersion": "10.5.0",
+			"dist": {
+				"integrity": "sha512-w6JXl3EHK0/V7JyYjafcjgV7P4nulzx4ahjk//XGByw6rHIrbE5Vt2nYugFI/EsFhXHcjLgL1vZarnt7RQIRTw==",
+				"shasum": "99ac12f75fdebff7c703196b831e13016630e9d2",
+				"tarball": "https://registry.npmjs.org/@nx/plugin/-/plugin-19.1.0-canary.20240510-1a85787.tgz",
+				"fileCount": 86,
+				"unpackedSize": 116726,
+				"attestations": {
+					"url": "https://registry.npmjs.org/-/npm/v1/attestations/@nx%2fplugin@19.1.0-canary.20240510-1a85787",
+					"provenance": {
+						"predicateType": "https://slsa.dev/provenance/v1"
+					}
+				},
+				"signatures": [
+					{
+						"keyid": "SHA256:jl3bwswu80PjjokCgh0o2w5c2U4LhQAE57gj9cz1kzA",
+						"sig": "MEQCIBYrlwlpEEq4w6Sx80BY5rOTSOyd74MIAUIOZYXwj5YTAiAnBz+36C2OrfIjSlP+T4ysNobWIt6kBtT2xa9oSta7dw=="
+					}
+				]
+			},
+			"_npmUser": {
+				"name": "nrwl-jason",
+				"email": "jason@nrwl.io"
+			},
+			"directories": {},
+			"maintainers": [
+				{
+					"name": "jameshenry",
+					"email": "james@henry.sc"
+				},
+				{
+					"name": "jack-nrwl",
+					"email": "jack@nrwl.io"
+				},
+				{
+					"name": "nrwl-jason",
+					"email": "jason@nrwl.io"
+				},
+				{
+					"name": "nrwlowner",
+					"email": "hello@nrwl.io"
+				}
+			],
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/plugin_19.1.0-canary.20240510-1a85787_1715311003063_0.4540615592415762"
+			},
+			"_hasShrinkwrap": false,
+			"contributors": []
+		},
 		"20.0.0": {
 			"name": "@nx/plugin",
 			"version": "20.0.0",
@@ -35594,12 +35787,12 @@
 			"type": "commonjs",
 			"_id": "@nx/plugin@20.0.0",
 			"readmeFilename": "README.md",
-			"gitHead": "792f73081571dea27da52bddf6184313bb7b5737",
-			"_nodeVersion": "20.9.0",
-			"_npmVersion": "10.1.0",
+			"gitHead": "86106e2454080d81eec30be2268bd93f9c6cfcad",
+			"_nodeVersion": "18.18.0",
+			"_npmVersion": "9.8.1",
 			"dist": {
-				"integrity": "sha512-TfF+QNt50PsLmLs+F0IESaYS/Iho8nZbjomh7ZZhFt3DUySpQNZOVBTrUMRaK/uSrYGYZdswSlMCrdXoqwCclw==",
-				"shasum": "8ea9b6683f1f944fe9fb76eb12fc3746e6d293cf",
+				"integrity": "sha512-P4ivH6Ib/z+gj9LgrO1MIFW5KRPuGhx9iDRvqkCVB1JlpxyJ4rPPEEgVQmhh9CEO+0EQ0X3dPU2xlVDZI5c4IA==",
+				"shasum": "dadd512e821dd2cf8131520760325b892eeba0e6",
 				"tarball": "http://localhost:4873/@nx/plugin/-/@nx/plugin-20.0.0.tgz"
 			},
 			"contributors": []
@@ -35608,7 +35801,7 @@
 	"time": {
 		"created": "2023-04-20T19:45:51.048Z",
 		"16.0.0-beta.5": "2023-04-20T19:45:51.309Z",
-		"modified": "2024-05-09T08:19:54.640Z",
+		"modified": "2024-05-10T12:56:59.190Z",
 		"16.0.0-beta.6": "2023-04-21T21:24:37.913Z",
 		"16.0.0-beta.7": "2023-04-24T23:36:24.178Z",
 		"16.0.0-beta.8": "2023-04-26T00:22:27.175Z",
@@ -35959,19 +36152,21 @@
 		"19.0.1": "2024-05-07T22:26:48.334Z",
 		"19.1.0-canary.20240508-fd78152": "2024-05-08T03:16:58.199Z",
 		"19.1.0-canary.20240509-8f705e3": "2024-05-09T03:16:04.831Z",
-		"20.0.0": "2024-05-09T08:19:54.640Z"
+		"19.0.2": "2024-05-09T13:57:45.193Z",
+		"19.1.0-canary.20240510-1a85787": "2024-05-10T03:16:43.228Z",
+		"20.0.0": "2024-05-10T12:56:59.190Z"
 	},
 	"users": {},
 	"dist-tags": {
 		"next": "19.0.0-rc.2",
 		"latest": "20.0.0",
 		"previous": "18.3.4",
-		"canary": "19.1.0-canary.20240509-8f705e3"
+		"canary": "19.1.0-canary.20240510-1a85787"
 	},
 	"_uplinks": {
 		"npmjs": {
-			"etag": "W/\"86146cf27954e68fb29ac217c788d94f\"",
-			"fetched": 1715242794268
+			"etag": "W/\"695217b9ae33adf9676ccd58acbe6c45\"",
+			"fetched": 1715345818337
 		}
 	},
 	"_distfiles": {
@@ -37729,15 +37924,25 @@
 			"url": "https://registry.npmjs.org/@nx/plugin/-/plugin-19.1.0-canary.20240509-8f705e3.tgz",
 			"sha": "ca471fdc6063c86c7e2474b23fbd71037161fbe1",
 			"registry": "npmjs"
+		},
+		"plugin-19.0.2.tgz": {
+			"url": "https://registry.npmjs.org/@nx/plugin/-/plugin-19.0.2.tgz",
+			"sha": "264e66836090f885f62f8a89158db27306eb678f",
+			"registry": "npmjs"
+		},
+		"plugin-19.1.0-canary.20240510-1a85787.tgz": {
+			"url": "https://registry.npmjs.org/@nx/plugin/-/plugin-19.1.0-canary.20240510-1a85787.tgz",
+			"sha": "99ac12f75fdebff7c703196b831e13016630e9d2",
+			"registry": "npmjs"
 		}
 	},
 	"_attachments": {
 		"plugin-20.0.0.tgz": {
-			"shasum": "8ea9b6683f1f944fe9fb76eb12fc3746e6d293cf",
+			"shasum": "dadd512e821dd2cf8131520760325b892eeba0e6",
 			"version": "20.0.0"
 		}
 	},
-	"_rev": "4-da52a6f46be83780",
+	"_rev": "4-cb433e958e878aed",
 	"_id": "@nx/plugin",
 	"readme": "<p style=\"text-align: center;\">\n  <picture>\n    <source media=\"(prefers-color-scheme: dark)\" srcset=\"https://raw.githubusercontent.com/nrwl/nx/master/images/nx-dark.svg\">\n    <img alt=\"Nx - Smart Monorepos · Fast CI\" src=\"https://raw.githubusercontent.com/nrwl/nx/master/images/nx-light.svg\" width=\"100%\">\n  </picture>\n</p>\n\n<div style=\"text-align: center;\">\n\n[![CircleCI](https://circleci.com/gh/nrwl/nx.svg?style=svg)](https://circleci.com/gh/nrwl/nx)\n[![License](https://img.shields.io/npm/l/@nx/workspace.svg?style=flat-square)]()\n[![NPM Version](https://badge.fury.io/js/%40nrwl%2Fworkspace.svg)](https://www.npmjs.com/@nx/workspace)\n[![Semantic Release](https://img.shields.io/badge/%20%20%F0%9F%93%A6%F0%9F%9A%80-semantic--release-e10079.svg?style=flat-square)]()\n[![Commitizen friendly](https://img.shields.io/badge/commitizen-friendly-brightgreen.svg)](http://commitizen.github.io/cz-cli/)\n[![Join the chat at https://gitter.im/nrwl-nx/community](https://badges.gitter.im/nrwl-nx/community.svg)](https://gitter.im/nrwl-nx/community?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)\n[![Join us on the Official Nx Discord Server](https://img.shields.io/discord/1143497901675401286?label=discord)](https://go.nx.dev/community)\n\n</div>\n\n\n<hr>\n\n# Nx: Smart Monorepos · Fast CI\n\nNx is a build system with built-in tooling and advanced CI capabilities. It helps you maintain and scale monorepos, both locally and on CI.\n\n## What is It?\n\nIt's an Nx plugin used to build other Nx plugins.\n\nCheck out the list of community plugins and the documentation on how to create one using `create-nx-plugin` here: [https://nx.dev/community](https://nx.dev/community)\n\n## Getting Started\n\n### Creating an Nx Workspace\n\n**Using `npx`**\n\n```bash\nnpx create-nx-workspace\n```\n\n**Using `npm init`**\n\n```bash\nnpm init nx-workspace\n```\n\n**Using `yarn create`**\n\n```bash\nyarn create nx-workspace\n```\n\n### Adding Nx to an Existing Repository\n\nRun:\n\n```bash\nnpx nx@latest init\n```\n\n## Documentation & Resources\n\n- [Nx.Dev: Documentation, Guides, Tutorials](https://nx.dev)\n- [Intro to Nx](https://nx.dev/getting-started/intro)\n- [Official Nx YouTube Channel](https://www.youtube.com/@NxDevtools)\n- [Blog Posts About Nx](https://blog.nrwl.io/nx/home)\n\n<p style=\"text-align: center;\"><a href=\"https://nx.dev/#learning-materials\" target=\"_blank\" rel=\"noreferrer\"><img src=\"https://raw.githubusercontent.com/nrwl/nx/master/images/nx-courses-and-videos.svg\" \nwidth=\"100%\" alt=\"Nx - Smart Monorepos · Fast CI\"></a></p>\n\n"
 }

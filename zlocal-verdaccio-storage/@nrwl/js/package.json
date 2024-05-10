@@ -77642,6 +77642,215 @@
 			"_hasShrinkwrap": false,
 			"contributors": []
 		},
+		"19.0.2": {
+			"name": "@nrwl/js",
+			"version": "19.0.2",
+			"private": false,
+			"description": "The JS plugin for Nx contains executors and generators that provide the best experience for developing JavaScript and TypeScript projects. ",
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/nrwl/nx.git",
+				"directory": "packages-legacy/js"
+			},
+			"keywords": [
+				"Monorepo",
+				"Web",
+				"Node",
+				"Swc",
+				"Tsc",
+				"CLI"
+			],
+			"main": "./index.js",
+			"typings": "./index.d.ts",
+			"license": "MIT",
+			"bugs": {
+				"url": "https://github.com/nrwl/nx/issues"
+			},
+			"homepage": "https://nx.dev",
+			"generators": "./generators.json",
+			"schematics": "./generators.json",
+			"executors": "./executors.json",
+			"builders": "./executors.json",
+			"dependencies": {
+				"@nx/js": "19.0.2"
+			},
+			"publishConfig": {
+				"access": "public"
+			},
+			"nx-migrations": {
+				"migrations": "@nx/js/migrations.json"
+			},
+			"type": "commonjs",
+			"_id": "@nrwl/js@19.0.2",
+			"gitHead": "61861be0f7335082d5e0b44fa96ff3f6d49774ad",
+			"_nodeVersion": "18.20.2",
+			"_npmVersion": "10.5.0",
+			"dist": {
+				"integrity": "sha512-6bWHnC3rhRFmuUGt7G/0NGTAxm2ig9MpXzCzERYEACcS3fEN4QDMLbUlyojjiRWbQWeCPz9adxWTgkckM4Ispg==",
+				"shasum": "af2768630c9098adb95fe4f2729a03ce9cdd085c",
+				"tarball": "https://registry.npmjs.org/@nrwl/js/-/js-19.0.2.tgz",
+				"fileCount": 9,
+				"unpackedSize": 4296,
+				"attestations": {
+					"url": "https://registry.npmjs.org/-/npm/v1/attestations/@nrwl%2fjs@19.0.2",
+					"provenance": {
+						"predicateType": "https://slsa.dev/provenance/v1"
+					}
+				},
+				"signatures": [
+					{
+						"keyid": "SHA256:jl3bwswu80PjjokCgh0o2w5c2U4LhQAE57gj9cz1kzA",
+						"sig": "MEQCIGX/iOcMxhnP3dMbFylyxReG9FhLsisCoH7oB5XsjU+AAiAWlgauozy9no43E6p4fpL0deHej5LzkMwUmNlxqb0hRA=="
+					}
+				]
+			},
+			"_npmUser": {
+				"name": "nrwl-jason",
+				"email": "jason@nrwl.io"
+			},
+			"directories": {},
+			"maintainers": [
+				{
+					"name": "jameshenry",
+					"email": "james@henry.sc"
+				},
+				{
+					"name": "meeroslav",
+					"email": "missing.manual@gmail.com"
+				},
+				{
+					"name": "altan-nrwl",
+					"email": "altan@nrwl.io"
+				},
+				{
+					"name": "juristr",
+					"email": "juri.strumpflohner@gmail.com"
+				},
+				{
+					"name": "jack-nrwl",
+					"email": "jack@nrwl.io"
+				},
+				{
+					"name": "nrwl-jason",
+					"email": "jason@nrwl.io"
+				},
+				{
+					"name": "nrwlowner",
+					"email": "hello@nrwl.io"
+				}
+			],
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/js_19.0.2_1715263050750_0.19492551645196432"
+			},
+			"_hasShrinkwrap": false,
+			"contributors": []
+		},
+		"19.1.0-canary.20240510-1a85787": {
+			"name": "@nrwl/js",
+			"version": "19.1.0-canary.20240510-1a85787",
+			"private": false,
+			"description": "The JS plugin for Nx contains executors and generators that provide the best experience for developing JavaScript and TypeScript projects. ",
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/nrwl/nx.git",
+				"directory": "packages-legacy/js"
+			},
+			"keywords": [
+				"Monorepo",
+				"Web",
+				"Node",
+				"Swc",
+				"Tsc",
+				"CLI"
+			],
+			"main": "./index.js",
+			"typings": "./index.d.ts",
+			"license": "MIT",
+			"bugs": {
+				"url": "https://github.com/nrwl/nx/issues"
+			},
+			"homepage": "https://nx.dev",
+			"generators": "./generators.json",
+			"schematics": "./generators.json",
+			"executors": "./executors.json",
+			"builders": "./executors.json",
+			"dependencies": {
+				"@nx/js": "19.1.0-canary.20240510-1a85787"
+			},
+			"publishConfig": {
+				"access": "public"
+			},
+			"nx-migrations": {
+				"migrations": "@nx/js/migrations.json"
+			},
+			"type": "commonjs",
+			"_id": "@nrwl/js@19.1.0-canary.20240510-1a85787",
+			"readmeFilename": "README.md",
+			"gitHead": "1a85787e1c310d8409d99361800ef30e81938795",
+			"_nodeVersion": "18.20.2",
+			"_npmVersion": "10.5.0",
+			"dist": {
+				"integrity": "sha512-HJD7IGABv9sK9JOgt/Hj6nbsD+acPRzzj4G9B3VDjEB4dw3C4/HmrhoTMlsavOlK9prjtdsD0vgnD9wkKgka+Q==",
+				"shasum": "10fcc38ae42e6108c72fd7c684302c69ca631dbd",
+				"tarball": "https://registry.npmjs.org/@nrwl/js/-/js-19.1.0-canary.20240510-1a85787.tgz",
+				"fileCount": 9,
+				"unpackedSize": 4344,
+				"attestations": {
+					"url": "https://registry.npmjs.org/-/npm/v1/attestations/@nrwl%2fjs@19.1.0-canary.20240510-1a85787",
+					"provenance": {
+						"predicateType": "https://slsa.dev/provenance/v1"
+					}
+				},
+				"signatures": [
+					{
+						"keyid": "SHA256:jl3bwswu80PjjokCgh0o2w5c2U4LhQAE57gj9cz1kzA",
+						"sig": "MEUCIC0k8Inf2lfabfV+MTZ5igwg1KwsJn4ZRvlxZ0mK28TDAiEArVvr+6VrFP6szhl/PIUJ8aZ6qYn8+jdEI3k1etipl5c="
+					}
+				]
+			},
+			"_npmUser": {
+				"name": "nrwl-jason",
+				"email": "jason@nrwl.io"
+			},
+			"directories": {},
+			"maintainers": [
+				{
+					"name": "jameshenry",
+					"email": "james@henry.sc"
+				},
+				{
+					"name": "meeroslav",
+					"email": "missing.manual@gmail.com"
+				},
+				{
+					"name": "altan-nrwl",
+					"email": "altan@nrwl.io"
+				},
+				{
+					"name": "juristr",
+					"email": "juri.strumpflohner@gmail.com"
+				},
+				{
+					"name": "jack-nrwl",
+					"email": "jack@nrwl.io"
+				},
+				{
+					"name": "nrwl-jason",
+					"email": "jason@nrwl.io"
+				},
+				{
+					"name": "nrwlowner",
+					"email": "hello@nrwl.io"
+				}
+			],
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/js_19.1.0-canary.20240510-1a85787_1715310987132_0.674912968603038"
+			},
+			"_hasShrinkwrap": false,
+			"contributors": []
+		},
 		"20.0.0": {
 			"name": "@nrwl/js",
 			"version": "20.0.0",
@@ -77683,9 +77892,9 @@
 			"type": "commonjs",
 			"_id": "@nrwl/js@20.0.0",
 			"readmeFilename": "README.md",
-			"gitHead": "792f73081571dea27da52bddf6184313bb7b5737",
-			"_nodeVersion": "20.9.0",
-			"_npmVersion": "10.1.0",
+			"gitHead": "86106e2454080d81eec30be2268bd93f9c6cfcad",
+			"_nodeVersion": "18.18.0",
+			"_npmVersion": "9.8.1",
 			"dist": {
 				"integrity": "sha512-UAlcfDpgLWiTophU3Ng2PKkQIEixigRkZkjjbxMXiryqOfifaqoWHTqiJxpQ5kat7yHJHGTtj8KiF7qieN4qRA==",
 				"shasum": "a6ae275574ccf074286ebb534501deb4552566ed",
@@ -77697,7 +77906,7 @@
 	"time": {
 		"created": "2021-11-17T23:01:01.743Z",
 		"13.3.0-beta.1": "2021-11-17T23:01:01.978Z",
-		"modified": "2024-05-09T08:19:52.791Z",
+		"modified": "2024-05-10T12:56:54.030Z",
 		"13.3.0-beta.2": "2021-11-19T18:11:18.339Z",
 		"13.3.0-beta.3": "2021-11-27T19:29:57.999Z",
 		"13.3.0-beta.4": "2021-12-03T00:51:43.689Z",
@@ -78480,19 +78689,21 @@
 		"19.0.1": "2024-05-07T22:26:31.935Z",
 		"19.1.0-canary.20240508-fd78152": "2024-05-08T03:16:44.524Z",
 		"19.1.0-canary.20240509-8f705e3": "2024-05-09T03:15:50.653Z",
-		"20.0.0": "2024-05-09T08:19:52.791Z"
+		"19.0.2": "2024-05-09T13:57:30.927Z",
+		"19.1.0-canary.20240510-1a85787": "2024-05-10T03:16:27.315Z",
+		"20.0.0": "2024-05-10T12:56:54.030Z"
 	},
 	"users": {},
 	"dist-tags": {
 		"next": "19.0.0-rc.2",
 		"latest": "20.0.0",
 		"previous": "18.3.4",
-		"canary": "19.1.0-canary.20240509-8f705e3"
+		"canary": "19.1.0-canary.20240510-1a85787"
 	},
 	"_uplinks": {
 		"npmjs": {
-			"etag": "W/\"ec7d036a4e47ca7b56cc9d04d2b6a553\"",
-			"fetched": 1715242792444
+			"etag": "W/\"720736f378e3c444afe0e4bfb3999c46\"",
+			"fetched": 1715345812844
 		}
 	},
 	"_distfiles": {
@@ -82410,6 +82621,16 @@
 			"url": "https://registry.npmjs.org/@nrwl/js/-/js-19.1.0-canary.20240509-8f705e3.tgz",
 			"sha": "1b1898438cf064ba71cf3dafcf60c731e36273b4",
 			"registry": "npmjs"
+		},
+		"js-19.0.2.tgz": {
+			"url": "https://registry.npmjs.org/@nrwl/js/-/js-19.0.2.tgz",
+			"sha": "af2768630c9098adb95fe4f2729a03ce9cdd085c",
+			"registry": "npmjs"
+		},
+		"js-19.1.0-canary.20240510-1a85787.tgz": {
+			"url": "https://registry.npmjs.org/@nrwl/js/-/js-19.1.0-canary.20240510-1a85787.tgz",
+			"sha": "10fcc38ae42e6108c72fd7c684302c69ca631dbd",
+			"registry": "npmjs"
 		}
 	},
 	"_attachments": {
@@ -82418,7 +82639,7 @@
 			"version": "20.0.0"
 		}
 	},
-	"_rev": "5-0d1d169a1f393b48",
+	"_rev": "5-db044e3bd486132d",
 	"_id": "@nrwl/js",
 	"readme": "## @nrwl/js has been renamed to @nx/js!\n\n@nrwl/js has been renamed to [@nx/js](https://www.npmjs.com/package/@nx/js). Please use that instead.\n\n[Read more here](https://nx.dev/recipes/other/rescope)\n\n@nrwl/js will no longer be published in the future.\n\n<p style=\"text-align: center;\">\n  <picture>\n    <source media=\"(prefers-color-scheme: dark)\" srcset=\"https://raw.githubusercontent.com/nrwl/nx/master/images/nx-dark.svg\">\n    <img alt=\"Nx - Smart Monorepos · Fast CI\" src=\"https://raw.githubusercontent.com/nrwl/nx/master/images/nx-light.svg\" width=\"100%\">\n  </picture>\n</p>\n\n# Nx: Smart Monorepos · Fast CI\n\nNx is a build system with built-in tooling and advanced CI capabilities. It helps you maintain and scale monorepos, both locally and on CI."
 }

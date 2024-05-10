@@ -21257,6 +21257,221 @@
 			"_hasShrinkwrap": false,
 			"contributors": []
 		},
+		"19.0.2": {
+			"name": "@nx/remix",
+			"version": "19.0.2",
+			"description": "The Remix plugin for Nx contains executors and generators for managing Remix applications and libraries within an Nx workspace. It provides:\n\n\n- Integration with libraries such as Vitest, Jest, Playwright, Cypress, and Storybook.\n\n- Generators for applica",
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/nrwl/nx.git",
+				"directory": "packages/remix"
+			},
+			"keywords": [
+				"Monorepo",
+				"Remix",
+				"React",
+				"Web",
+				"CLI"
+			],
+			"author": {
+				"name": "Victor Savkin"
+			},
+			"license": "MIT",
+			"bugs": {
+				"url": "https://github.com/nrwl/nx/issues"
+			},
+			"homepage": "https://nx.dev",
+			"main": "./index.js",
+			"typings": "./index.d.ts",
+			"generators": "./generators.json",
+			"executors": "./executors.json",
+			"nx-migrations": {
+				"migrations": "./migrations.json"
+			},
+			"dependencies": {
+				"@nx/devkit": "19.0.2",
+				"@nx/js": "19.0.2",
+				"@nx/react": "19.0.2",
+				"tslib": "^2.3.1",
+				"@phenomnomnominal/tsquery": "~5.0.1",
+				"@nrwl/remix": "19.0.2"
+			},
+			"peerDependencies": {},
+			"publishConfig": {
+				"access": "public"
+			},
+			"exports": {
+				".": "./index.js",
+				"./plugin": "./plugin.js",
+				"./plugins/component-testing": "./plugins/component-testing/index.js",
+				"./package.json": "./package.json",
+				"./executors.json": "./executors.json",
+				"./generators.json": "./generators.json",
+				"./migrations.json": "./migrations.json",
+				"./generators": "./generators.js"
+			},
+			"type": "commonjs",
+			"_id": "@nx/remix@19.0.2",
+			"gitHead": "61861be0f7335082d5e0b44fa96ff3f6d49774ad",
+			"_nodeVersion": "18.20.2",
+			"_npmVersion": "10.5.0",
+			"dist": {
+				"integrity": "sha512-vplQMEPbrzp+sBXTlbdYMBxP7Tt6cD7ImBKxLArkzmAXcCS2gwiU8n7pbdAVSmA5VaBcuWoZGLH0L1zJ/njEUQ==",
+				"shasum": "5f3ae4c9d258b1cb393cfcdb75679e0f01b5f9f1",
+				"tarball": "https://registry.npmjs.org/@nx/remix/-/remix-19.0.2.tgz",
+				"fileCount": 163,
+				"unpackedSize": 266004,
+				"attestations": {
+					"url": "https://registry.npmjs.org/-/npm/v1/attestations/@nx%2fremix@19.0.2",
+					"provenance": {
+						"predicateType": "https://slsa.dev/provenance/v1"
+					}
+				},
+				"signatures": [
+					{
+						"keyid": "SHA256:jl3bwswu80PjjokCgh0o2w5c2U4LhQAE57gj9cz1kzA",
+						"sig": "MEYCIQD2SGyS5Nww1DqknlExfwPVeb0LUbrROsHTKq1Mv7qkBgIhAPx3rdJb/JD6qrbnqCKFTIkN+fRtY8hwU91r+7E9smTR"
+					}
+				]
+			},
+			"_npmUser": {
+				"name": "nrwl-jason",
+				"email": "jason@nrwl.io"
+			},
+			"directories": {},
+			"maintainers": [
+				{
+					"name": "jameshenry",
+					"email": "james@henry.sc"
+				},
+				{
+					"name": "jack-nrwl",
+					"email": "jack@nrwl.io"
+				},
+				{
+					"name": "nrwl-jason",
+					"email": "jason@nrwl.io"
+				},
+				{
+					"name": "nrwlowner",
+					"email": "hello@nrwl.io"
+				}
+			],
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/remix_19.0.2_1715263092324_0.7220097725852439"
+			},
+			"_hasShrinkwrap": false,
+			"contributors": []
+		},
+		"19.1.0-canary.20240510-1a85787": {
+			"name": "@nx/remix",
+			"version": "19.1.0-canary.20240510-1a85787",
+			"description": "The Remix plugin for Nx contains executors and generators for managing Remix applications and libraries within an Nx workspace. It provides:\n\n\n- Integration with libraries such as Vitest, Jest, Playwright, Cypress, and Storybook.\n\n- Generators for applica",
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/nrwl/nx.git",
+				"directory": "packages/remix"
+			},
+			"keywords": [
+				"Monorepo",
+				"Remix",
+				"React",
+				"Web",
+				"CLI"
+			],
+			"author": {
+				"name": "Victor Savkin"
+			},
+			"license": "MIT",
+			"bugs": {
+				"url": "https://github.com/nrwl/nx/issues"
+			},
+			"homepage": "https://nx.dev",
+			"main": "./index.js",
+			"typings": "./index.d.ts",
+			"generators": "./generators.json",
+			"executors": "./executors.json",
+			"nx-migrations": {
+				"migrations": "./migrations.json"
+			},
+			"dependencies": {
+				"@nx/devkit": "19.1.0-canary.20240510-1a85787",
+				"@nx/js": "19.1.0-canary.20240510-1a85787",
+				"@nx/react": "19.1.0-canary.20240510-1a85787",
+				"tslib": "^2.3.1",
+				"@phenomnomnominal/tsquery": "~5.0.1",
+				"@nrwl/remix": "19.1.0-canary.20240510-1a85787"
+			},
+			"peerDependencies": {},
+			"publishConfig": {
+				"access": "public"
+			},
+			"exports": {
+				".": "./index.js",
+				"./plugin": "./plugin.js",
+				"./plugins/component-testing": "./plugins/component-testing/index.js",
+				"./package.json": "./package.json",
+				"./executors.json": "./executors.json",
+				"./generators.json": "./generators.json",
+				"./migrations.json": "./migrations.json",
+				"./generators": "./generators.js"
+			},
+			"type": "commonjs",
+			"_id": "@nx/remix@19.1.0-canary.20240510-1a85787",
+			"readmeFilename": "README.md",
+			"gitHead": "1a85787e1c310d8409d99361800ef30e81938795",
+			"_nodeVersion": "18.20.2",
+			"_npmVersion": "10.5.0",
+			"dist": {
+				"integrity": "sha512-0VNBVa+9WbazzxXIVIjUhy6ns42TVSxT4NTrOjxc4XHYAm+wWQBWai/C7rXC3k7YptXp829A9UJudvVAUcv3Zg==",
+				"shasum": "e4ec1c605e8f4481c5350db2c0b2340497f9da89",
+				"tarball": "https://registry.npmjs.org/@nx/remix/-/remix-19.1.0-canary.20240510-1a85787.tgz",
+				"fileCount": 163,
+				"unpackedSize": 266124,
+				"attestations": {
+					"url": "https://registry.npmjs.org/-/npm/v1/attestations/@nx%2fremix@19.1.0-canary.20240510-1a85787",
+					"provenance": {
+						"predicateType": "https://slsa.dev/provenance/v1"
+					}
+				},
+				"signatures": [
+					{
+						"keyid": "SHA256:jl3bwswu80PjjokCgh0o2w5c2U4LhQAE57gj9cz1kzA",
+						"sig": "MEYCIQCcOeTGvifZI7Qn0tbyOu9C2I8GAHDEUTBOaFwpUaPnUwIhALFY2r2G8PZwiLgOLhK+Fq6XTTWgM8tjEVjw7vhBXDRe"
+					}
+				]
+			},
+			"_npmUser": {
+				"name": "nrwl-jason",
+				"email": "jason@nrwl.io"
+			},
+			"directories": {},
+			"maintainers": [
+				{
+					"name": "jameshenry",
+					"email": "james@henry.sc"
+				},
+				{
+					"name": "jack-nrwl",
+					"email": "jack@nrwl.io"
+				},
+				{
+					"name": "nrwl-jason",
+					"email": "jason@nrwl.io"
+				},
+				{
+					"name": "nrwlowner",
+					"email": "hello@nrwl.io"
+				}
+			],
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/remix_19.1.0-canary.20240510-1a85787_1715311027721_0.8617783330414979"
+			},
+			"_hasShrinkwrap": false,
+			"contributors": []
+		},
 		"20.0.0": {
 			"name": "@nx/remix",
 			"version": "20.0.0",
@@ -21313,12 +21528,12 @@
 			"type": "commonjs",
 			"_id": "@nx/remix@20.0.0",
 			"readmeFilename": "README.md",
-			"gitHead": "792f73081571dea27da52bddf6184313bb7b5737",
-			"_nodeVersion": "20.9.0",
-			"_npmVersion": "10.1.0",
+			"gitHead": "86106e2454080d81eec30be2268bd93f9c6cfcad",
+			"_nodeVersion": "18.18.0",
+			"_npmVersion": "9.8.1",
 			"dist": {
-				"integrity": "sha512-Q6+aHOVcQexvn9gusqNA3mrhiO8LNOZxQtDAqc6sibS8pCBbecU8tYLOg2ibZVLWWhnSiz3Z4mLZazx9c7fy2A==",
-				"shasum": "ea27b920af3680c0406a23c5006846c68ca570b8",
+				"integrity": "sha512-qo2QzwBQ2Q3ZkNFF7E9Sk+JSNIEvKyzx3Xl5XNosJeKN8aiEIuO1JlvvAbUH5f4Ssx1PQZqnnxSNmJpLtQbrUw==",
+				"shasum": "3cc6e3287ab76058ad66ffcddc00cfe656a49cc4",
 				"tarball": "http://localhost:4873/@nx/remix/-/@nx/remix-20.0.0.tgz"
 			},
 			"contributors": []
@@ -21327,7 +21542,7 @@
 	"time": {
 		"created": "2023-05-02T17:26:13.607Z",
 		"16.0.0-beta.0": "2023-05-02T17:26:13.836Z",
-		"modified": "2024-05-09T08:20:00.460Z",
+		"modified": "2024-05-10T12:57:09.276Z",
 		"16.0.0-beta.1": "2023-05-02T19:53:13.131Z",
 		"16.0.0-beta.2": "2023-05-02T20:38:27.524Z",
 		"16.0.0-beta.3": "2023-05-02T21:03:00.034Z",
@@ -21530,19 +21745,21 @@
 		"19.0.1": "2024-05-07T22:27:28.781Z",
 		"19.1.0-canary.20240508-fd78152": "2024-05-08T03:17:24.164Z",
 		"19.1.0-canary.20240509-8f705e3": "2024-05-09T03:16:39.923Z",
-		"20.0.0": "2024-05-09T08:20:00.460Z"
+		"19.0.2": "2024-05-09T13:58:12.519Z",
+		"19.1.0-canary.20240510-1a85787": "2024-05-10T03:17:07.974Z",
+		"20.0.0": "2024-05-10T12:57:09.276Z"
 	},
 	"users": {},
 	"dist-tags": {
 		"next": "19.0.0-rc.2",
 		"latest": "20.0.0",
-		"canary": "19.1.0-canary.20240509-8f705e3",
+		"canary": "19.1.0-canary.20240510-1a85787",
 		"previous": "18.3.4"
 	},
 	"_uplinks": {
 		"npmjs": {
-			"etag": "W/\"33cd7ab0907740f9da6b80c8c9ae39e5\"",
-			"fetched": 1715242800102
+			"etag": "W/\"857051672524a3f3c1d15697c6ef2429\"",
+			"fetched": 1715345827742
 		}
 	},
 	"_distfiles": {
@@ -22560,15 +22777,25 @@
 			"url": "https://registry.npmjs.org/@nx/remix/-/remix-19.1.0-canary.20240509-8f705e3.tgz",
 			"sha": "79b4ea16a39f155f33d2112e89dd0770fc5fa7e1",
 			"registry": "npmjs"
+		},
+		"remix-19.0.2.tgz": {
+			"url": "https://registry.npmjs.org/@nx/remix/-/remix-19.0.2.tgz",
+			"sha": "5f3ae4c9d258b1cb393cfcdb75679e0f01b5f9f1",
+			"registry": "npmjs"
+		},
+		"remix-19.1.0-canary.20240510-1a85787.tgz": {
+			"url": "https://registry.npmjs.org/@nx/remix/-/remix-19.1.0-canary.20240510-1a85787.tgz",
+			"sha": "e4ec1c605e8f4481c5350db2c0b2340497f9da89",
+			"registry": "npmjs"
 		}
 	},
 	"_attachments": {
 		"remix-20.0.0.tgz": {
-			"shasum": "ea27b920af3680c0406a23c5006846c68ca570b8",
+			"shasum": "3cc6e3287ab76058ad66ffcddc00cfe656a49cc4",
 			"version": "20.0.0"
 		}
 	},
-	"_rev": "4-3594541d1213db40",
+	"_rev": "4-523fc3c46eaf3b6c",
 	"_id": "@nx/remix",
 	"readme": "<p style=\"text-align: center;\"><img src=\"https://raw.githubusercontent.com/nrwl/nx/master/images/nx.png\" width=\"600\" alt=\"Nx - Smart Monorepos · Fast CI\"></p>\n\n<div style=\"text-align: center;\">\n\n[![CircleCI](https://circleci.com/gh/nrwl/nx.svg?style=svg)](https://circleci.com/gh/nrwl/nx)\n[![License](https://img.shields.io/npm/l/@nx/workspace.svg?style=flat-square)]()\n[![NPM Version](https://badge.fury.io/js/%40nrwl%2Fworkspace.svg)](https://www.npmjs.com/@nx/workspace)\n[![Semantic Release](https://img.shields.io/badge/%20%20%F0%9F%93%A6%F0%9F%9A%80-semantic--release-e10079.svg?style=flat-square)]()\n[![Commitizen friendly](https://img.shields.io/badge/commitizen-friendly-brightgreen.svg)](http://commitizen.github.io/cz-cli/)\n[![Join the chat at https://gitter.im/nrwl-nx/community](https://badges.gitter.im/nrwl-nx/community.svg)](https://gitter.im/nrwl-nx/community?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)\n[![Join us on the Official Nx Discord Server](https://img.shields.io/discord/1143497901675401286?label=discord)](https://go.nx.dev/community)\n\n</div>\n\n\n<hr>\n\n# Nx: Smart Monorepos · Fast CI\n\nNx is a build system with built-in tooling and advanced CI capabilities. It helps you maintain and scale monorepos, both locally and on CI.\n\nThis package is a [Remix plugin for Nx](https://nx.dev/packages/remix).\n\n## Getting Started\n\n### Creating an Nx Workspace\n\n**Using `npx`**\n\n```bash\nnpx create-nx-workspace\n```\n\n**Using `npm init`**\n\n```bash\nnpm init nx-workspace\n```\n\n**Using `yarn create`**\n\n```bash\nyarn create nx-workspace\n```\n\n### Adding Nx to an Existing Repository\n\nRun:\n\n```bash\nnpx nx@latest init\n```\n\n## Documentation & Resources\n\n- [Nx.Dev: Documentation, Guides, Tutorials](https://nx.dev)\n- [Intro to Nx](https://nx.dev/getting-started/intro)\n- [Official Nx YouTube Channel](https://www.youtube.com/@NxDevtools)\n- [Blog Posts About Nx](https://blog.nrwl.io/nx/home)\n\n<p style=\"text-align: center;\"><a href=\"https://nx.dev/#learning-materials\" target=\"_blank\" rel=\"noreferrer\"><img src=\"https://raw.githubusercontent.com/nrwl/nx/master/images/nx-courses-and-videos.svg\" \nwidth=\"100%\" alt=\"Nx - Smart Monorepos · Fast CI\"></a></p>\n\n"
 }

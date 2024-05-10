@@ -25982,6 +25982,164 @@
 			"_hasShrinkwrap": false,
 			"contributors": []
 		},
+		"19.0.2": {
+			"name": "@nx/nx-freebsd-x64",
+			"version": "19.0.2",
+			"license": "MIT",
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/nrwl/nx.git",
+				"directory": "packages/nx/native-packages/freebsd-x64"
+			},
+			"os": [
+				"freebsd"
+			],
+			"cpu": [
+				"x64"
+			],
+			"main": "nx.freebsd-x64.node",
+			"engines": {
+				"node": ">= 10"
+			},
+			"publishConfig": {
+				"access": "public"
+			},
+			"_id": "@nx/nx-freebsd-x64@19.0.2",
+			"gitHead": "61861be0f7335082d5e0b44fa96ff3f6d49774ad",
+			"bugs": {
+				"url": "https://github.com/nrwl/nx/issues"
+			},
+			"homepage": "https://github.com/nrwl/nx#readme",
+			"_nodeVersion": "18.20.2",
+			"_npmVersion": "10.5.0",
+			"dist": {
+				"integrity": "sha512-Fe+SQ4ug2RbKQ6saLhntsaOhf0aeoLQ/nJCc6h0TYPIs43go5gFSLFa2xnCOIo90dSL6/0z1r8VsZGSQQHiXMg==",
+				"shasum": "71454fbcb0f4e7cf8e2559555c38714a1b091003",
+				"tarball": "https://registry.npmjs.org/@nx/nx-freebsd-x64/-/nx-freebsd-x64-19.0.2.tgz",
+				"fileCount": 2,
+				"unpackedSize": 9276237,
+				"attestations": {
+					"url": "https://registry.npmjs.org/-/npm/v1/attestations/@nx%2fnx-freebsd-x64@19.0.2",
+					"provenance": {
+						"predicateType": "https://slsa.dev/provenance/v1"
+					}
+				},
+				"signatures": [
+					{
+						"keyid": "SHA256:jl3bwswu80PjjokCgh0o2w5c2U4LhQAE57gj9cz1kzA",
+						"sig": "MEUCIQDZ/z0mkyvALxbYroFg5S13w8+nJDWL1HRciIVubWXigwIgHE9bUCX5J0NyqLSriDip+/ykxjE1L7vtrY/RUj8q+y8="
+					}
+				]
+			},
+			"_npmUser": {
+				"name": "nrwl-jason",
+				"email": "jason@nrwl.io"
+			},
+			"directories": {},
+			"maintainers": [
+				{
+					"name": "jameshenry",
+					"email": "james@henry.sc"
+				},
+				{
+					"name": "jack-nrwl",
+					"email": "jack@nrwl.io"
+				},
+				{
+					"name": "nrwl-jason",
+					"email": "jason@nrwl.io"
+				},
+				{
+					"name": "nrwlowner",
+					"email": "hello@nrwl.io"
+				}
+			],
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/nx-freebsd-x64_19.0.2_1715263017885_0.844395952593272"
+			},
+			"_hasShrinkwrap": false,
+			"contributors": []
+		},
+		"19.1.0-canary.20240510-1a85787": {
+			"name": "@nx/nx-freebsd-x64",
+			"version": "19.1.0-canary.20240510-1a85787",
+			"license": "MIT",
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/nrwl/nx.git",
+				"directory": "packages/nx/native-packages/freebsd-x64"
+			},
+			"os": [
+				"freebsd"
+			],
+			"cpu": [
+				"x64"
+			],
+			"main": "nx.freebsd-x64.node",
+			"engines": {
+				"node": ">= 10"
+			},
+			"publishConfig": {
+				"access": "public"
+			},
+			"_id": "@nx/nx-freebsd-x64@19.1.0-canary.20240510-1a85787",
+			"gitHead": "1a85787e1c310d8409d99361800ef30e81938795",
+			"bugs": {
+				"url": "https://github.com/nrwl/nx/issues"
+			},
+			"homepage": "https://github.com/nrwl/nx#readme",
+			"_nodeVersion": "18.20.2",
+			"_npmVersion": "10.5.0",
+			"dist": {
+				"integrity": "sha512-YovzdfB/Xx2xutriT1FgvRrGQ68Kciz7R61yWYNdfHwDQirRKhkWfbA/KYoZdwvwPY0+vMT/8OHrx3Y/sVz7tw==",
+				"shasum": "290c898e20437494956da06d15692d969f7af81d",
+				"tarball": "https://registry.npmjs.org/@nx/nx-freebsd-x64/-/nx-freebsd-x64-19.1.0-canary.20240510-1a85787.tgz",
+				"fileCount": 1,
+				"unpackedSize": 469,
+				"attestations": {
+					"url": "https://registry.npmjs.org/-/npm/v1/attestations/@nx%2fnx-freebsd-x64@19.1.0-canary.20240510-1a85787",
+					"provenance": {
+						"predicateType": "https://slsa.dev/provenance/v1"
+					}
+				},
+				"signatures": [
+					{
+						"keyid": "SHA256:jl3bwswu80PjjokCgh0o2w5c2U4LhQAE57gj9cz1kzA",
+						"sig": "MEUCIQCq14ZFXKJYg4jgPrPg/qIz9UeaZ7nTEsWLxHX6zDYbsQIgXDvuOuP0vQPJtLIuAZY5TI+KR+3KmaRfxMWiUygjvDk="
+					}
+				]
+			},
+			"_npmUser": {
+				"name": "nrwl-jason",
+				"email": "jason@nrwl.io"
+			},
+			"directories": {},
+			"maintainers": [
+				{
+					"name": "jameshenry",
+					"email": "james@henry.sc"
+				},
+				{
+					"name": "jack-nrwl",
+					"email": "jack@nrwl.io"
+				},
+				{
+					"name": "nrwl-jason",
+					"email": "jason@nrwl.io"
+				},
+				{
+					"name": "nrwlowner",
+					"email": "hello@nrwl.io"
+				}
+			],
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/nx-freebsd-x64_19.1.0-canary.20240510-1a85787_1715310952257_0.8082926220114881"
+			},
+			"_hasShrinkwrap": false,
+			"contributors": []
+		},
 		"20.0.0": {
 			"name": "@nx/nx-freebsd-x64",
 			"version": "20.0.0",
@@ -26008,13 +26166,13 @@
 				"access": "public"
 			},
 			"_id": "@nx/nx-freebsd-x64@20.0.0",
-			"gitHead": "792f73081571dea27da52bddf6184313bb7b5737",
+			"gitHead": "86106e2454080d81eec30be2268bd93f9c6cfcad",
 			"bugs": {
 				"url": "https://github.com/nrwl/nx/issues"
 			},
 			"homepage": "https://github.com/nrwl/nx#readme",
-			"_nodeVersion": "20.9.0",
-			"_npmVersion": "10.1.0",
+			"_nodeVersion": "18.18.0",
+			"_npmVersion": "9.8.1",
 			"dist": {
 				"integrity": "sha512-9iqzUKrLFSFSDtpGFF1oL7zF8HJ0KheZCC6ovFCUfQ/vS4RRGPestmjBMZR1datKf5FU2Xxw0/OTh0LQBztG7g==",
 				"shasum": "4f294394a02d540d260f06f7fc782bfde8462a4f",
@@ -26026,7 +26184,7 @@
 	"time": {
 		"created": "2023-05-30T20:23:41.315Z",
 		"16.3.0-beta.13": "2023-05-30T20:23:41.601Z",
-		"modified": "2024-05-09T08:19:45.503Z",
+		"modified": "2024-05-10T12:56:37.515Z",
 		"16.3.0-beta.14": "2023-05-30T22:38:42.649Z",
 		"16.3.0-beta.15": "2023-05-31T13:13:52.159Z",
 		"16.3.0": "2023-05-31T16:48:58.423Z",
@@ -26344,19 +26502,21 @@
 		"19.0.1": "2024-05-07T22:25:41.103Z",
 		"19.1.0-canary.20240508-fd78152": "2024-05-08T03:16:01.136Z",
 		"19.1.0-canary.20240509-8f705e3": "2024-05-09T03:15:17.808Z",
-		"20.0.0": "2024-05-09T08:19:45.503Z"
+		"19.0.2": "2024-05-09T13:56:58.173Z",
+		"19.1.0-canary.20240510-1a85787": "2024-05-10T03:15:52.429Z",
+		"20.0.0": "2024-05-10T12:56:37.515Z"
 	},
 	"users": {},
 	"dist-tags": {
 		"next": "19.0.0-rc.2",
 		"latest": "20.0.0",
 		"previous": "18.3.4",
-		"canary": "19.1.0-canary.20240509-8f705e3"
+		"canary": "19.1.0-canary.20240510-1a85787"
 	},
 	"_uplinks": {
 		"npmjs": {
-			"etag": "W/\"aa5581699a60f4f42e415b028d85bc12\"",
-			"fetched": 1715242785169
+			"etag": "W/\"2c2b2f5a8b0a07a7e7b31c432bf60f0f\"",
+			"fetched": 1715345796783
 		}
 	},
 	"_distfiles": {
@@ -27949,6 +28109,16 @@
 			"url": "https://registry.npmjs.org/@nx/nx-freebsd-x64/-/nx-freebsd-x64-19.1.0-canary.20240509-8f705e3.tgz",
 			"sha": "96be0836896161dd56f9effabcbc5e7a2a09f718",
 			"registry": "npmjs"
+		},
+		"nx-freebsd-x64-19.0.2.tgz": {
+			"url": "https://registry.npmjs.org/@nx/nx-freebsd-x64/-/nx-freebsd-x64-19.0.2.tgz",
+			"sha": "71454fbcb0f4e7cf8e2559555c38714a1b091003",
+			"registry": "npmjs"
+		},
+		"nx-freebsd-x64-19.1.0-canary.20240510-1a85787.tgz": {
+			"url": "https://registry.npmjs.org/@nx/nx-freebsd-x64/-/nx-freebsd-x64-19.1.0-canary.20240510-1a85787.tgz",
+			"sha": "290c898e20437494956da06d15692d969f7af81d",
+			"registry": "npmjs"
 		}
 	},
 	"_attachments": {
@@ -27957,7 +28127,7 @@
 			"version": "20.0.0"
 		}
 	},
-	"_rev": "4-b51c7028de43c68b",
+	"_rev": "4-b88930e5a9748e1e",
 	"_id": "@nx/nx-freebsd-x64",
 	"readme": "ERROR: No README data found!"
 }

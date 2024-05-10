@@ -29018,6 +29018,164 @@
 			"_hasShrinkwrap": false,
 			"contributors": []
 		},
+		"19.0.2": {
+			"name": "@nx/nx-win32-x64-msvc",
+			"version": "19.0.2",
+			"license": "MIT",
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/nrwl/nx.git",
+				"directory": "packages/nx/native-packages/win32-x64-msvc"
+			},
+			"os": [
+				"win32"
+			],
+			"cpu": [
+				"x64"
+			],
+			"main": "nx.win32-x64-msvc.node",
+			"engines": {
+				"node": ">= 10"
+			},
+			"publishConfig": {
+				"access": "public"
+			},
+			"_id": "@nx/nx-win32-x64-msvc@19.0.2",
+			"gitHead": "61861be0f7335082d5e0b44fa96ff3f6d49774ad",
+			"bugs": {
+				"url": "https://github.com/nrwl/nx/issues"
+			},
+			"homepage": "https://github.com/nrwl/nx#readme",
+			"_nodeVersion": "18.20.2",
+			"_npmVersion": "10.5.0",
+			"dist": {
+				"integrity": "sha512-lgxgj+ilhL9StCLzRxU+EB1n944bMjwbU3CxvYW2TYa+380UXVMUACjbLyzONQPeJPIm9azaVQNKnf5+c+nnBQ==",
+				"shasum": "3eb5c01e4ff7287ebff047dcc01ed6b54e975a5d",
+				"tarball": "https://registry.npmjs.org/@nx/nx-win32-x64-msvc/-/nx-win32-x64-msvc-19.0.2.tgz",
+				"fileCount": 2,
+				"unpackedSize": 6523847,
+				"attestations": {
+					"url": "https://registry.npmjs.org/-/npm/v1/attestations/@nx%2fnx-win32-x64-msvc@19.0.2",
+					"provenance": {
+						"predicateType": "https://slsa.dev/provenance/v1"
+					}
+				},
+				"signatures": [
+					{
+						"keyid": "SHA256:jl3bwswu80PjjokCgh0o2w5c2U4LhQAE57gj9cz1kzA",
+						"sig": "MEQCIAgKJcbnTC0s1F+NXfr0cvS52UGQxDgvAtdKzCoMe7rRAiBJ+BdJcfLbyfeimhpbc0s4o5giMRP3S0utY59+Pl/VCw=="
+					}
+				]
+			},
+			"_npmUser": {
+				"name": "nrwl-jason",
+				"email": "jason@nrwl.io"
+			},
+			"directories": {},
+			"maintainers": [
+				{
+					"name": "jameshenry",
+					"email": "james@henry.sc"
+				},
+				{
+					"name": "jack-nrwl",
+					"email": "jack@nrwl.io"
+				},
+				{
+					"name": "nrwl-jason",
+					"email": "jason@nrwl.io"
+				},
+				{
+					"name": "nrwlowner",
+					"email": "hello@nrwl.io"
+				}
+			],
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/nx-win32-x64-msvc_19.0.2_1715263012722_0.6838961430357471"
+			},
+			"_hasShrinkwrap": false,
+			"contributors": []
+		},
+		"19.1.0-canary.20240510-1a85787": {
+			"name": "@nx/nx-win32-x64-msvc",
+			"version": "19.1.0-canary.20240510-1a85787",
+			"license": "MIT",
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/nrwl/nx.git",
+				"directory": "packages/nx/native-packages/win32-x64-msvc"
+			},
+			"os": [
+				"win32"
+			],
+			"cpu": [
+				"x64"
+			],
+			"main": "nx.win32-x64-msvc.node",
+			"engines": {
+				"node": ">= 10"
+			},
+			"publishConfig": {
+				"access": "public"
+			},
+			"_id": "@nx/nx-win32-x64-msvc@19.1.0-canary.20240510-1a85787",
+			"gitHead": "1a85787e1c310d8409d99361800ef30e81938795",
+			"bugs": {
+				"url": "https://github.com/nrwl/nx/issues"
+			},
+			"homepage": "https://github.com/nrwl/nx#readme",
+			"_nodeVersion": "18.20.2",
+			"_npmVersion": "10.5.0",
+			"dist": {
+				"integrity": "sha512-WfFoa8CaZa20dlJbVFoO0fSlwjVmsMPZasI0JAJd7FsvPXTKoN1yC1MX2lNGUjxm9yW1C1hruxUpjZWML2imKg==",
+				"shasum": "17e5567da26dfc58ea4b6d2f0879ccbb0f4a9b6c",
+				"tarball": "https://registry.npmjs.org/@nx/nx-win32-x64-msvc/-/nx-win32-x64-msvc-19.1.0-canary.20240510-1a85787.tgz",
+				"fileCount": 2,
+				"unpackedSize": 6523871,
+				"attestations": {
+					"url": "https://registry.npmjs.org/-/npm/v1/attestations/@nx%2fnx-win32-x64-msvc@19.1.0-canary.20240510-1a85787",
+					"provenance": {
+						"predicateType": "https://slsa.dev/provenance/v1"
+					}
+				},
+				"signatures": [
+					{
+						"keyid": "SHA256:jl3bwswu80PjjokCgh0o2w5c2U4LhQAE57gj9cz1kzA",
+						"sig": "MEYCIQCpmJ14QX0ywneS1aYmOcrTZyQyfuIE3AIWsoBpW5HPIQIhAP9AUQWPYpM24yd+UfmjlzhwABf5dhQaUhiM7ohvJzlP"
+					}
+				]
+			},
+			"_npmUser": {
+				"name": "nrwl-jason",
+				"email": "jason@nrwl.io"
+			},
+			"directories": {},
+			"maintainers": [
+				{
+					"name": "jameshenry",
+					"email": "james@henry.sc"
+				},
+				{
+					"name": "jack-nrwl",
+					"email": "jack@nrwl.io"
+				},
+				{
+					"name": "nrwl-jason",
+					"email": "jason@nrwl.io"
+				},
+				{
+					"name": "nrwlowner",
+					"email": "hello@nrwl.io"
+				}
+			],
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/nx-win32-x64-msvc_19.1.0-canary.20240510-1a85787_1715310946831_0.20892995928885916"
+			},
+			"_hasShrinkwrap": false,
+			"contributors": []
+		},
 		"20.0.0": {
 			"name": "@nx/nx-win32-x64-msvc",
 			"version": "20.0.0",
@@ -29044,13 +29202,13 @@
 				"access": "public"
 			},
 			"_id": "@nx/nx-win32-x64-msvc@20.0.0",
-			"gitHead": "792f73081571dea27da52bddf6184313bb7b5737",
+			"gitHead": "86106e2454080d81eec30be2268bd93f9c6cfcad",
 			"bugs": {
 				"url": "https://github.com/nrwl/nx/issues"
 			},
 			"homepage": "https://github.com/nrwl/nx#readme",
-			"_nodeVersion": "20.9.0",
-			"_npmVersion": "10.1.0",
+			"_nodeVersion": "18.18.0",
+			"_npmVersion": "9.8.1",
 			"dist": {
 				"integrity": "sha512-SKoAMhbxD4EXtDvKwINkksRLKO/2fe2XE1waZ3O/qVO+QQ+8eGvvJ1IjIf71o/R8fo6YXIP9ZIee4kOyOQ6qVw==",
 				"shasum": "470b0822388667e9fc5ab086b7e31e58eafc557c",
@@ -29062,7 +29220,7 @@
 	"time": {
 		"created": "2023-04-17T15:02:54.871Z",
 		"16.0.0-beta.1": "2023-04-17T15:02:55.171Z",
-		"modified": "2024-05-09T08:19:45.347Z",
+		"modified": "2024-05-10T12:56:35.778Z",
 		"16.0.0-beta.2": "2023-04-18T15:09:22.342Z",
 		"16.0.0-beta.3": "2023-04-19T16:08:01.638Z",
 		"16.0.0-beta.4": "2023-04-19T19:31:35.651Z",
@@ -29422,19 +29580,21 @@
 		"19.0.1": "2024-05-07T22:25:34.171Z",
 		"19.1.0-canary.20240508-fd78152": "2024-05-08T03:15:53.161Z",
 		"19.1.0-canary.20240509-8f705e3": "2024-05-09T03:15:13.297Z",
-		"20.0.0": "2024-05-09T08:19:45.347Z"
+		"19.0.2": "2024-05-09T13:56:52.929Z",
+		"19.1.0-canary.20240510-1a85787": "2024-05-10T03:15:47.083Z",
+		"20.0.0": "2024-05-10T12:56:35.778Z"
 	},
 	"users": {},
 	"dist-tags": {
 		"next": "19.0.0-rc.2",
 		"latest": "20.0.0",
 		"previous": "18.3.4",
-		"canary": "19.1.0-canary.20240509-8f705e3"
+		"canary": "19.1.0-canary.20240510-1a85787"
 	},
 	"_uplinks": {
 		"npmjs": {
-			"etag": "W/\"19ec2a3defa6779ee77d51644bdb4e4a\"",
-			"fetched": 1715242784998
+			"etag": "W/\"32f474a4093cd918f5de4486e31b3c36\"",
+			"fetched": 1715345794515
 		}
 	},
 	"_distfiles": {
@@ -31232,6 +31392,16 @@
 			"url": "https://registry.npmjs.org/@nx/nx-win32-x64-msvc/-/nx-win32-x64-msvc-19.1.0-canary.20240509-8f705e3.tgz",
 			"sha": "07c8dd2cbb3b7aedde2ff3298bf010be20704977",
 			"registry": "npmjs"
+		},
+		"nx-win32-x64-msvc-19.0.2.tgz": {
+			"url": "https://registry.npmjs.org/@nx/nx-win32-x64-msvc/-/nx-win32-x64-msvc-19.0.2.tgz",
+			"sha": "3eb5c01e4ff7287ebff047dcc01ed6b54e975a5d",
+			"registry": "npmjs"
+		},
+		"nx-win32-x64-msvc-19.1.0-canary.20240510-1a85787.tgz": {
+			"url": "https://registry.npmjs.org/@nx/nx-win32-x64-msvc/-/nx-win32-x64-msvc-19.1.0-canary.20240510-1a85787.tgz",
+			"sha": "17e5567da26dfc58ea4b6d2f0879ccbb0f4a9b6c",
+			"registry": "npmjs"
 		}
 	},
 	"_attachments": {
@@ -31240,7 +31410,7 @@
 			"version": "20.0.0"
 		}
 	},
-	"_rev": "4-a80970fa74c12893",
+	"_rev": "4-429da8bfe94e6bed",
 	"_id": "@nx/nx-win32-x64-msvc",
 	"readme": "ERROR: No README data found!"
 }

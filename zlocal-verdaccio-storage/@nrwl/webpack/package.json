@@ -59739,6 +59739,213 @@
 			"_hasShrinkwrap": false,
 			"contributors": []
 		},
+		"19.0.2": {
+			"name": "@nrwl/webpack",
+			"version": "19.0.2",
+			"private": false,
+			"description": "The Nx Plugin for Webpack contains executors and generators that support building applications using Webpack.",
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/nrwl/nx.git",
+				"directory": "packages-legacy/webpack"
+			},
+			"keywords": [
+				"Monorepo",
+				"Webpack",
+				"Web",
+				"CLI"
+			],
+			"main": "./index.js",
+			"typings": "./index.d.ts",
+			"author": {
+				"name": "Victor Savkin"
+			},
+			"license": "MIT",
+			"bugs": {
+				"url": "https://github.com/nrwl/nx/issues"
+			},
+			"homepage": "https://nx.dev",
+			"schematics": "./generators.json",
+			"builders": "./executors.json",
+			"dependencies": {
+				"@nx/webpack": "19.0.2"
+			},
+			"publishConfig": {
+				"access": "public"
+			},
+			"nx-migrations": {
+				"migrations": "@nx/webpack/migrations.json"
+			},
+			"type": "commonjs",
+			"_id": "@nrwl/webpack@19.0.2",
+			"gitHead": "61861be0f7335082d5e0b44fa96ff3f6d49774ad",
+			"_nodeVersion": "18.20.2",
+			"_npmVersion": "10.5.0",
+			"dist": {
+				"integrity": "sha512-VpqZxrT8sglXpB9TKUrXS/Cht3j4ZOg53yL/CEse+oeVTUi2BFWFPhhdtFAzDtz27F1nnrcXSTluCcKpisDG/A==",
+				"shasum": "66e1a0652fc101fbbb8b2b87c73dda5b24174917",
+				"tarball": "https://registry.npmjs.org/@nrwl/webpack/-/webpack-19.0.2.tgz",
+				"fileCount": 7,
+				"unpackedSize": 4347,
+				"attestations": {
+					"url": "https://registry.npmjs.org/-/npm/v1/attestations/@nrwl%2fwebpack@19.0.2",
+					"provenance": {
+						"predicateType": "https://slsa.dev/provenance/v1"
+					}
+				},
+				"signatures": [
+					{
+						"keyid": "SHA256:jl3bwswu80PjjokCgh0o2w5c2U4LhQAE57gj9cz1kzA",
+						"sig": "MEUCIDSExMjNzr0VcBpubp+Z6YueQkJpAKZaCbb7OZqXY2tnAiEAyxZV7qPj9BGfjiB5Rca2vyQPk646vGT4R6kntbmVCn0="
+					}
+				]
+			},
+			"_npmUser": {
+				"name": "nrwl-jason",
+				"email": "jason@nrwl.io"
+			},
+			"directories": {},
+			"maintainers": [
+				{
+					"name": "jameshenry",
+					"email": "james@henry.sc"
+				},
+				{
+					"name": "meeroslav",
+					"email": "missing.manual@gmail.com"
+				},
+				{
+					"name": "altan-nrwl",
+					"email": "altan@nrwl.io"
+				},
+				{
+					"name": "juristr",
+					"email": "juri.strumpflohner@gmail.com"
+				},
+				{
+					"name": "jack-nrwl",
+					"email": "jack@nrwl.io"
+				},
+				{
+					"name": "nrwl-jason",
+					"email": "jason@nrwl.io"
+				},
+				{
+					"name": "nrwlowner",
+					"email": "hello@nrwl.io"
+				}
+			],
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/webpack_19.0.2_1715263057754_0.7455170884533879"
+			},
+			"_hasShrinkwrap": false,
+			"contributors": []
+		},
+		"19.1.0-canary.20240510-1a85787": {
+			"name": "@nrwl/webpack",
+			"version": "19.1.0-canary.20240510-1a85787",
+			"private": false,
+			"description": "The Nx Plugin for Webpack contains executors and generators that support building applications using Webpack.",
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/nrwl/nx.git",
+				"directory": "packages-legacy/webpack"
+			},
+			"keywords": [
+				"Monorepo",
+				"Webpack",
+				"Web",
+				"CLI"
+			],
+			"main": "./index.js",
+			"typings": "./index.d.ts",
+			"author": {
+				"name": "Victor Savkin"
+			},
+			"license": "MIT",
+			"bugs": {
+				"url": "https://github.com/nrwl/nx/issues"
+			},
+			"homepage": "https://nx.dev",
+			"schematics": "./generators.json",
+			"builders": "./executors.json",
+			"dependencies": {
+				"@nx/webpack": "19.1.0-canary.20240510-1a85787"
+			},
+			"publishConfig": {
+				"access": "public"
+			},
+			"nx-migrations": {
+				"migrations": "@nx/webpack/migrations.json"
+			},
+			"type": "commonjs",
+			"_id": "@nrwl/webpack@19.1.0-canary.20240510-1a85787",
+			"readmeFilename": "README.md",
+			"gitHead": "1a85787e1c310d8409d99361800ef30e81938795",
+			"_nodeVersion": "18.20.2",
+			"_npmVersion": "10.5.0",
+			"dist": {
+				"integrity": "sha512-THLw5SjfCenvnGQcMTRAPoN8Jb2VRIl7g08R8mPwh27P/kuxkH5AnRc2YuUvQGRbskRm1xKAlA2Tyfei6JEg7w==",
+				"shasum": "2c95be9fe40d9c47c9c18011fef9f9b044c42c8b",
+				"tarball": "https://registry.npmjs.org/@nrwl/webpack/-/webpack-19.1.0-canary.20240510-1a85787.tgz",
+				"fileCount": 7,
+				"unpackedSize": 4395,
+				"attestations": {
+					"url": "https://registry.npmjs.org/-/npm/v1/attestations/@nrwl%2fwebpack@19.1.0-canary.20240510-1a85787",
+					"provenance": {
+						"predicateType": "https://slsa.dev/provenance/v1"
+					}
+				},
+				"signatures": [
+					{
+						"keyid": "SHA256:jl3bwswu80PjjokCgh0o2w5c2U4LhQAE57gj9cz1kzA",
+						"sig": "MEYCIQDrz8zpbOvdDva0F13qHAMZ+ozO9k3NLG3pU5VILfH93gIhAJQHiOAbhPHB6fTuNYz1pxdWOwXU+TR2Drjz/y0kR3TH"
+					}
+				]
+			},
+			"_npmUser": {
+				"name": "nrwl-jason",
+				"email": "jason@nrwl.io"
+			},
+			"directories": {},
+			"maintainers": [
+				{
+					"name": "jameshenry",
+					"email": "james@henry.sc"
+				},
+				{
+					"name": "meeroslav",
+					"email": "missing.manual@gmail.com"
+				},
+				{
+					"name": "altan-nrwl",
+					"email": "altan@nrwl.io"
+				},
+				{
+					"name": "juristr",
+					"email": "juri.strumpflohner@gmail.com"
+				},
+				{
+					"name": "jack-nrwl",
+					"email": "jack@nrwl.io"
+				},
+				{
+					"name": "nrwl-jason",
+					"email": "jason@nrwl.io"
+				},
+				{
+					"name": "nrwlowner",
+					"email": "hello@nrwl.io"
+				}
+			],
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/webpack_19.1.0-canary.20240510-1a85787_1715310994010_0.7459651050326228"
+			},
+			"_hasShrinkwrap": false,
+			"contributors": []
+		},
 		"20.0.0": {
 			"name": "@nrwl/webpack",
 			"version": "20.0.0",
@@ -59779,9 +59986,9 @@
 			"type": "commonjs",
 			"_id": "@nrwl/webpack@20.0.0",
 			"readmeFilename": "README.md",
-			"gitHead": "792f73081571dea27da52bddf6184313bb7b5737",
-			"_nodeVersion": "20.9.0",
-			"_npmVersion": "10.1.0",
+			"gitHead": "86106e2454080d81eec30be2268bd93f9c6cfcad",
+			"_nodeVersion": "18.18.0",
+			"_npmVersion": "9.8.1",
 			"dist": {
 				"integrity": "sha512-p8uHRrOzP5VRM1MjZYkkFgs9YwNZmvk5L2QBMC1rzq6WuMqZA3ZAwGV7yMHhOE0LPa1E7KEg07gfU6/ajm8Dvw==",
 				"shasum": "3cfe864c9cbe2a105c772975efb24e1b4f09acb9",
@@ -59793,7 +60000,7 @@
 	"time": {
 		"created": "2022-09-17T19:56:48.308Z",
 		"14.7.6-beta.6": "2022-09-17T19:56:48.604Z",
-		"modified": "2024-05-09T08:19:54.860Z",
+		"modified": "2024-05-10T12:56:56.602Z",
 		"14.7.6-beta.7": "2022-09-19T14:30:27.164Z",
 		"14.7.6": "2022-09-19T14:39:35.015Z",
 		"14.7.7": "2022-09-20T16:53:54.353Z",
@@ -60322,19 +60529,21 @@
 		"19.0.1": "2024-05-07T22:26:39.127Z",
 		"19.1.0-canary.20240508-fd78152": "2024-05-08T03:16:51.889Z",
 		"19.1.0-canary.20240509-8f705e3": "2024-05-09T03:15:58.221Z",
-		"20.0.0": "2024-05-09T08:19:54.860Z"
+		"19.0.2": "2024-05-09T13:57:37.939Z",
+		"19.1.0-canary.20240510-1a85787": "2024-05-10T03:16:34.162Z",
+		"20.0.0": "2024-05-10T12:56:56.602Z"
 	},
 	"users": {},
 	"dist-tags": {
 		"next": "19.0.0-rc.2",
 		"latest": "20.0.0",
 		"previous": "18.3.4",
-		"canary": "19.1.0-canary.20240509-8f705e3"
+		"canary": "19.1.0-canary.20240510-1a85787"
 	},
 	"_uplinks": {
 		"npmjs": {
-			"etag": "W/\"2f04e0ee8f31c2e87d8228725849bd61\"",
-			"fetched": 1715242794500
+			"etag": "W/\"6b7f7bc67d1db980b6eaa1fc467354e6\"",
+			"fetched": 1715345815455
 		}
 	},
 	"_distfiles": {
@@ -62982,6 +63191,16 @@
 			"url": "https://registry.npmjs.org/@nrwl/webpack/-/webpack-19.1.0-canary.20240509-8f705e3.tgz",
 			"sha": "9ca35351835abbdfa3e8eed523d57d59a000f072",
 			"registry": "npmjs"
+		},
+		"webpack-19.0.2.tgz": {
+			"url": "https://registry.npmjs.org/@nrwl/webpack/-/webpack-19.0.2.tgz",
+			"sha": "66e1a0652fc101fbbb8b2b87c73dda5b24174917",
+			"registry": "npmjs"
+		},
+		"webpack-19.1.0-canary.20240510-1a85787.tgz": {
+			"url": "https://registry.npmjs.org/@nrwl/webpack/-/webpack-19.1.0-canary.20240510-1a85787.tgz",
+			"sha": "2c95be9fe40d9c47c9c18011fef9f9b044c42c8b",
+			"registry": "npmjs"
 		}
 	},
 	"_attachments": {
@@ -62990,7 +63209,7 @@
 			"version": "20.0.0"
 		}
 	},
-	"_rev": "4-80f3a42fdd1493bf",
+	"_rev": "4-d823c4b729067f24",
 	"_id": "@nrwl/webpack",
 	"readme": "## @nrwl/webpack has been renamed to @nx/webpack!\n\n@nrwl/webpack has been renamed to [@nx/webpack](https://www.npmjs.com/package/@nx/webpack). Please use that instead.\n\n[Read more here](https://nx.dev/recipes/other/rescope)\n\n@nrwl/webpack will no longer be published in the future.\n\n<p style=\"text-align: center;\">\n  <picture>\n    <source media=\"(prefers-color-scheme: dark)\" srcset=\"https://raw.githubusercontent.com/nrwl/nx/master/images/nx-dark.svg\">\n    <img alt=\"Nx - Smart Monorepos · Fast CI\" src=\"https://raw.githubusercontent.com/nrwl/nx/master/images/nx-light.svg\" width=\"100%\">\n  </picture>\n</p>\n\n# Nx: Smart Monorepos · Fast CI\n\nNx is a build system with built-in tooling and advanced CI capabilities. It helps you maintain and scale monorepos, both locally and on CI.\n"
 }

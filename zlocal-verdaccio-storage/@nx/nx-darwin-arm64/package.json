@@ -29265,6 +29265,164 @@
 			"_hasShrinkwrap": false,
 			"contributors": []
 		},
+		"19.0.2": {
+			"name": "@nx/nx-darwin-arm64",
+			"version": "19.0.2",
+			"license": "MIT",
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/nrwl/nx.git",
+				"directory": "packages/nx/native-packages/darwin-arm64"
+			},
+			"os": [
+				"darwin"
+			],
+			"cpu": [
+				"arm64"
+			],
+			"main": "nx.darwin-arm64.node",
+			"engines": {
+				"node": ">= 10"
+			},
+			"publishConfig": {
+				"access": "public"
+			},
+			"_id": "@nx/nx-darwin-arm64@19.0.2",
+			"gitHead": "61861be0f7335082d5e0b44fa96ff3f6d49774ad",
+			"bugs": {
+				"url": "https://github.com/nrwl/nx/issues"
+			},
+			"homepage": "https://github.com/nrwl/nx#readme",
+			"_nodeVersion": "18.20.2",
+			"_npmVersion": "10.5.0",
+			"dist": {
+				"integrity": "sha512-JVOz6kNaypyK7Bi/l//BZ6F8i70UXlnQBdnacBM8nZH2oAQ7OIj1foZEw7ANnDvKpUJB2staJ9ZwPc/KzXwr5A==",
+				"shasum": "096c7c80624bf7af64e17f696059cfb6c67b2c2b",
+				"tarball": "https://registry.npmjs.org/@nx/nx-darwin-arm64/-/nx-darwin-arm64-19.0.2.tgz",
+				"fileCount": 2,
+				"unpackedSize": 6224010,
+				"attestations": {
+					"url": "https://registry.npmjs.org/-/npm/v1/attestations/@nx%2fnx-darwin-arm64@19.0.2",
+					"provenance": {
+						"predicateType": "https://slsa.dev/provenance/v1"
+					}
+				},
+				"signatures": [
+					{
+						"keyid": "SHA256:jl3bwswu80PjjokCgh0o2w5c2U4LhQAE57gj9cz1kzA",
+						"sig": "MEYCIQCBRnPYK53XFWdGqy0WO+PUvG2jwmE7e/09t4ss5A9dIQIhAPwTk3NAmNi8V6zHjTI+NsJybUuXPteJasOes+jGVtnb"
+					}
+				]
+			},
+			"_npmUser": {
+				"name": "nrwl-jason",
+				"email": "jason@nrwl.io"
+			},
+			"directories": {},
+			"maintainers": [
+				{
+					"name": "jameshenry",
+					"email": "james@henry.sc"
+				},
+				{
+					"name": "jack-nrwl",
+					"email": "jack@nrwl.io"
+				},
+				{
+					"name": "nrwl-jason",
+					"email": "jason@nrwl.io"
+				},
+				{
+					"name": "nrwlowner",
+					"email": "hello@nrwl.io"
+				}
+			],
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/nx-darwin-arm64_19.0.2_1715263012752_0.24091315589445705"
+			},
+			"_hasShrinkwrap": false,
+			"contributors": []
+		},
+		"19.1.0-canary.20240510-1a85787": {
+			"name": "@nx/nx-darwin-arm64",
+			"version": "19.1.0-canary.20240510-1a85787",
+			"license": "MIT",
+			"repository": {
+				"type": "git",
+				"url": "git+https://github.com/nrwl/nx.git",
+				"directory": "packages/nx/native-packages/darwin-arm64"
+			},
+			"os": [
+				"darwin"
+			],
+			"cpu": [
+				"arm64"
+			],
+			"main": "nx.darwin-arm64.node",
+			"engines": {
+				"node": ">= 10"
+			},
+			"publishConfig": {
+				"access": "public"
+			},
+			"_id": "@nx/nx-darwin-arm64@19.1.0-canary.20240510-1a85787",
+			"gitHead": "1a85787e1c310d8409d99361800ef30e81938795",
+			"bugs": {
+				"url": "https://github.com/nrwl/nx/issues"
+			},
+			"homepage": "https://github.com/nrwl/nx#readme",
+			"_nodeVersion": "18.20.2",
+			"_npmVersion": "10.5.0",
+			"dist": {
+				"integrity": "sha512-sOQRVSIsSOR31lhi2fV541LMMl2Wys4COSUuxa5GNeaM7DYQJDiXe8MHFvWcWPZ1ZPMV8fWwUevT7aRH+OIinA==",
+				"shasum": "37e4bb7ee0695f0dc78beff56c6520909ca5c26a",
+				"tarball": "https://registry.npmjs.org/@nx/nx-darwin-arm64/-/nx-darwin-arm64-19.1.0-canary.20240510-1a85787.tgz",
+				"fileCount": 2,
+				"unpackedSize": 6224034,
+				"attestations": {
+					"url": "https://registry.npmjs.org/-/npm/v1/attestations/@nx%2fnx-darwin-arm64@19.1.0-canary.20240510-1a85787",
+					"provenance": {
+						"predicateType": "https://slsa.dev/provenance/v1"
+					}
+				},
+				"signatures": [
+					{
+						"keyid": "SHA256:jl3bwswu80PjjokCgh0o2w5c2U4LhQAE57gj9cz1kzA",
+						"sig": "MEYCIQDXjaylcs3RXQRzVb43qt20NM1Ku0XJNbWjlNIZGcMcZAIhAJaYUgbY4OaufLoLtiRhgGXPslcutVrOexO/9iMwC3Br"
+					}
+				]
+			},
+			"_npmUser": {
+				"name": "nrwl-jason",
+				"email": "jason@nrwl.io"
+			},
+			"directories": {},
+			"maintainers": [
+				{
+					"name": "jameshenry",
+					"email": "james@henry.sc"
+				},
+				{
+					"name": "jack-nrwl",
+					"email": "jack@nrwl.io"
+				},
+				{
+					"name": "nrwl-jason",
+					"email": "jason@nrwl.io"
+				},
+				{
+					"name": "nrwlowner",
+					"email": "hello@nrwl.io"
+				}
+			],
+			"_npmOperationalInternal": {
+				"host": "s3://npm-registry-packages",
+				"tmp": "tmp/nx-darwin-arm64_19.1.0-canary.20240510-1a85787_1715310947239_0.9513330978840215"
+			},
+			"_hasShrinkwrap": false,
+			"contributors": []
+		},
 		"20.0.0": {
 			"name": "@nx/nx-darwin-arm64",
 			"version": "20.0.0",
@@ -29291,13 +29449,13 @@
 				"access": "public"
 			},
 			"_id": "@nx/nx-darwin-arm64@20.0.0",
-			"gitHead": "792f73081571dea27da52bddf6184313bb7b5737",
+			"gitHead": "86106e2454080d81eec30be2268bd93f9c6cfcad",
 			"bugs": {
 				"url": "https://github.com/nrwl/nx/issues"
 			},
 			"homepage": "https://github.com/nrwl/nx#readme",
-			"_nodeVersion": "20.9.0",
-			"_npmVersion": "10.1.0",
+			"_nodeVersion": "18.18.0",
+			"_npmVersion": "9.8.1",
 			"dist": {
 				"integrity": "sha512-ET+ysjE4O9E4fur9I3jQrQMO/Qok+DIW/h6U0CU+5ytxSW4J24Def2jfw8cNUgDkiSdKLGHF5kcXaPYCJyNg1w==",
 				"shasum": "9956d560e9431b2b29f3f8d3f1b9b6ca119470d0",
@@ -29309,7 +29467,7 @@
 	"time": {
 		"created": "2023-04-17T15:02:43.439Z",
 		"16.0.0-beta.1": "2023-04-17T15:02:43.684Z",
-		"modified": "2024-05-09T08:19:45.310Z",
+		"modified": "2024-05-10T12:56:35.949Z",
 		"16.0.0-beta.2": "2023-04-18T15:09:15.061Z",
 		"16.0.0-beta.3": "2023-04-19T16:07:52.870Z",
 		"16.0.0-beta.4": "2023-04-19T19:31:28.869Z",
@@ -29671,19 +29829,21 @@
 		"19.0.1": "2024-05-07T22:25:34.312Z",
 		"19.1.0-canary.20240508-fd78152": "2024-05-08T03:15:53.349Z",
 		"19.1.0-canary.20240509-8f705e3": "2024-05-09T03:15:13.860Z",
-		"20.0.0": "2024-05-09T08:19:45.310Z"
+		"19.0.2": "2024-05-09T13:56:52.966Z",
+		"19.1.0-canary.20240510-1a85787": "2024-05-10T03:15:47.441Z",
+		"20.0.0": "2024-05-10T12:56:35.949Z"
 	},
 	"users": {},
 	"dist-tags": {
 		"next": "19.0.0-rc.2",
 		"latest": "20.0.0",
 		"previous": "18.3.4",
-		"canary": "19.1.0-canary.20240509-8f705e3"
+		"canary": "19.1.0-canary.20240510-1a85787"
 	},
 	"_uplinks": {
 		"npmjs": {
-			"etag": "W/\"f40483b09624daa564ca48fbf3c557da\"",
-			"fetched": 1715242784959
+			"etag": "W/\"8cffca2aaa2c9c56eede1857a69c40f4\"",
+			"fetched": 1715345794672
 		}
 	},
 	"_distfiles": {
@@ -31496,6 +31656,16 @@
 			"url": "https://registry.npmjs.org/@nx/nx-darwin-arm64/-/nx-darwin-arm64-19.1.0-canary.20240509-8f705e3.tgz",
 			"sha": "807e6d7ed06e56f6383adf21514c3924b73fa062",
 			"registry": "npmjs"
+		},
+		"nx-darwin-arm64-19.0.2.tgz": {
+			"url": "https://registry.npmjs.org/@nx/nx-darwin-arm64/-/nx-darwin-arm64-19.0.2.tgz",
+			"sha": "096c7c80624bf7af64e17f696059cfb6c67b2c2b",
+			"registry": "npmjs"
+		},
+		"nx-darwin-arm64-19.1.0-canary.20240510-1a85787.tgz": {
+			"url": "https://registry.npmjs.org/@nx/nx-darwin-arm64/-/nx-darwin-arm64-19.1.0-canary.20240510-1a85787.tgz",
+			"sha": "37e4bb7ee0695f0dc78beff56c6520909ca5c26a",
+			"registry": "npmjs"
 		}
 	},
 	"_attachments": {
@@ -31504,7 +31674,7 @@
 			"version": "20.0.0"
 		}
 	},
-	"_rev": "4-8a91e80289051b7d",
+	"_rev": "4-324dbb1a3e989a39",
 	"_id": "@nx/nx-darwin-arm64",
 	"readme": "ERROR: No README data found!"
 }
